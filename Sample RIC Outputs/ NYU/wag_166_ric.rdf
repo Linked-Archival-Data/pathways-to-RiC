@@ -1,0 +1,1794 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+         xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+         xmlns:rico="https://www.ica.org/standards/RiC/ontology#"
+         xmlns:dc="http://purl.org/dc/elements/1.1/"
+         xmlns:isni="http://isni.org/ontology#"
+         xmlns:owl="http://www.w3.org/2002/07/owl#"
+         xmlns:html="http://www.w3.org/1999/xhtml"
+         xml:base="http://data.archives-nationales.culture.gouv.fr/">
+   <rico:Record rdf:about="record/">
+      <rico:hasDocumentaryFormType rdf:resource="https://www.ica.org/standards/RiC/vocabularies/documentaryFormTypes#FindingAid"/>
+      <rico:regulatedBy rdf:resource="rule/rl005"/>
+      <rico:regulatedBy rdf:resource="rule/rl004"/>
+      <rico:regulatedBy rdf:resource="rule/rl006"/>
+      <rico:regulatedBy rdf:resource="rule/rl007"/>
+      <rico:regulatedBy rdf:resource="rule/rl009"/>
+      <rico:title xml:lang="en">Guide to the Thomas Moran Papers WAG.166</rico:title>
+      <rdfs:label xml:lang="en">Guide to the Thomas Moran Papers WAG.166</rdfs:label>
+      <rico:createdBy rdf:resource="agent/005061"/>
+      <rico:publishedBy rdf:resource="agent/005061"/>
+      <rico:history rdf:parseType="Literal">
+         <html:div>
+            <html:h4>auteur(s)</html:h4>
+            <html:p xml:lang="en">Collection processed by Maggie Schreiner, Josie Naron, and Anna Björnsson McCormick</html:p>
+         </html:div>
+      </rico:history>
+      <rico:describes rdf:resource="recordResource/-top"/>
+      <rico:hasInstantiation>
+         <rico:Instantiation rdf:about="instantiation/-i1">
+            <rico:instantiates rdf:resource="record/"/>
+            <rico:title xml:lang="en">Guide to the Thomas Moran Papers WAG.166</rico:title>
+            <rdfs:label xml:lang="en">Guide to the Thomas Moran Papers WAG.166</rdfs:label>
+            <rico:history xml:lang="en">This finding aid was produced using ArchivesSpace 2021-10-18T16:02:51</rico:history>
+            <rico:regulatedBy rdf:resource="rule/rl010"/>
+            <dc:format xml:lang="en">text/xml</dc:format>
+            <rico:identifier>wag_166</rico:identifier>
+            <rico:heldBy rdf:resource="agent/005061"/>
+            <rdfs:seeAlso rdf:resource="https://www.siv.archives-nationales.culture.gouv.fr/siv/IR/wag_166"/>
+         </rico:Instantiation>
+      </rico:hasInstantiation>
+   </rico:Record>
+   <rico:RecordResource rdf:about="recordResource/-top">
+      <rico:describedBy rdf:resource="record/"/>
+      <rdf:type rdf:resource="https://www.ica.org/standards/RiC/ontology#RecordSet"/>
+      <rico:hasRecordSetType rdf:resource="https://www.ica.org/standards/RiC/vocabularies/recordSetTypes#Collection"/>
+      <rico:heldBy>
+         <rico:Agent>
+            <rdfs:label xml:lang="en">Tamiment Library and Robert F. Wagner Labor Archives</rdfs:label>
+            <rico:hasAgentName>
+               <rico:AgentName>
+                  <rdfs:label xml:lang="en">Tamiment Library and Robert F. Wagner Labor Archives</rdfs:label>
+                  <rico:textualValue xml:lang="en">Tamiment Library and Robert F. Wagner Labor Archives</rico:textualValue>
+               </rico:AgentName>
+            </rico:hasAgentName>
+         </rico:Agent>
+      </rico:heldBy>
+      <rico:title xml:lang="en">Thomas Moran Papers</rico:title>
+      <rdfs:label xml:lang="en">Thomas Moran Papers</rdfs:label>
+      <rico:beginningDate rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1975</rico:beginningDate>
+      <rico:endDate rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1993</rico:endDate>
+      <rico:date xml:lang="en">1975-1993</rico:date>
+      <rico:hasProvenance>
+         <rico:Agent>
+            <rdf:type rdf:resource="https://www.ica.org/standards/RiC/ontology#Person"/>
+            <rdfs:label xml:lang="en">Moran, Thomas</rdfs:label>
+            <rico:hasAgentName>
+               <rico:AgentName>
+                  <rdfs:label xml:lang="en">Moran, Thomas</rdfs:label>
+                  <rico:textualValue xml:lang="en">Moran, Thomas</rico:textualValue>
+               </rico:AgentName>
+            </rico:hasAgentName>
+         </rico:Agent>
+      </rico:hasProvenance>
+      <rico:hasProvenance>
+         <rico:Agent>
+            <rdf:type rdf:resource="https://www.ica.org/standards/RiC/ontology#Person"/>
+            <rdfs:label xml:lang="en">Moran, Thomas</rdfs:label>
+            <rico:hasAgentName>
+               <rico:AgentName>
+                  <rdfs:label xml:lang="en">Moran, Thomas</rdfs:label>
+                  <rico:textualValue xml:lang="en">Moran, Thomas</rico:textualValue>
+               </rico:AgentName>
+            </rico:hasAgentName>
+         </rico:Agent>
+      </rico:hasProvenance>
+      <rico:structure rdf:parseType="Literal">
+         <html:div xml:lang="en">
+            <html:h5>Arrangement</html:h5>
+            <html:p>This collection has been arranged in four series: Seris I. Legal Documents; Series II. Correspondence; Series III. Worker Records; Series VI. Technical Materials. Files have been arranged in chronological order within each series.</html:p>
+         </html:div>
+      </rico:structure>
+      <rico:conditionsOfUse rdf:parseType="Literal">
+         <html:p xml:lang="en">Any rights (including copyright and related rights to publicity and privacy) held by Thomas Moran were transferred to New York University in 2000 by Thomas Moran. Permission to publish or reproduce materials in this collection must be secured from Tamiment Library and Robert F. Wagner Archives. Please contact tamiment.wagner@nyu.edu, (212) 998-2630.</html:p>
+      </rico:conditionsOfUse>
+      <rico:conditionsOfAccess rdf:parseType="Literal">
+         <html:div xml:lang="en">
+            <html:h5>Conditions Governing Access</html:h5>
+            <html:p>Materials in Box 13 contain Protected Health Information (PHI) and are restricted until 50 years after the death of the individual in question.</html:p>
+            <html:p>Materials in Box 14 contain Personal Identifiable Information (PII) and are restricted until 2039.</html:p>
+            <html:p>The remaining materials in the collection are open without restrictions.</html:p>
+         </html:div>
+      </rico:conditionsOfAccess>
+      <rico:scopeAndContent rdf:parseType="Literal">
+         <html:div xml:lang="en">
+            <html:h5>Scope and Contents</html:h5>
+            <html:p>The Thomas Moran Papers (1975-1993) document Moran's involvement in the labor movement in New York State, with specific regards to his years-long fight for workers' health and safety in utility professions. Beginning his career as a shop steward for Local 1-2 of the Utility Workers Unionof America (UWUA) and eventually rising to the role of Safety Director, the documents in this collection trace Moran's involvement in various legal campaigns against hazardous substances as a violation of workers' rights.</html:p>
+            <html:p>Documents in this collection address Moran's involvement in three New York State Supreme Court cases: Ostrowski v. Local 1-2 (1980), State of New York v. Consolidated Edison, Inc. (1982-1986), and Moran v. Vaccaro (1989). These cases deal with workers' wrongful exposure to asbestos without appropriate warning or protections, themes echoed in much of the collection in sum. The files regarding Ostrowski v. Local 1-2 and State of New York v. Consolidated Edison contain documents filed in court by the plaintiffs and defendants including motions, affidavits, judgments, and subpoenas. Files for Moran v. Vaccaro contain official court documents as well Moran's original whistleblower complaint and narratives written by doctors regarding injuries sustained by Con Ed employees. Supporting documentation submitted as evidence is overwhelmingly represented through citations issued to Con Edison by the Occupational Health and Safety Administration (OSHA), hazardous materials testing and monitoring reports compiled in response to complaints, and individual complaints filed by Moran himself.</html:p>
+            <html:p>Moran's working relationships other key stakeholders in the area of workplace safety is documented by correspondence with government bodies and advocacy groups, notably with Nancy Stearns of the New York Attorney General's Office. This correspondence highlights the existence and enforcement of New York's 1980 "Right to Know Law," which stated that employers had to alert employees to the possibility of exposure to hazardous materials in the workplace and provide appropriate information on protective gear and safety and also documents lobbying work done by Moran and others, including lawyers he also engaged to represent him in litigation, regarding other workplace safety laws and regulations. Letters from Moran to Janet Fox, director of Safety Services at Con Edison, also evidence of how Moran utilized Local 1-2's legal right to request information on sample analysis reports that could prove illegal substance exposure.</html:p>
+            <html:p>This collection also contains safety guides and technical manuals that document the workplace safety issues which concerned Local 1-2 workers throughout Moran's career.</html:p>
+         </html:div>
+      </rico:scopeAndContent>
+      <rico:hasSubject rdf:resource="agent/naf-(lccn)n80020305"/>
+      <rico:hasSubject rdf:resource="agent/naf-(lccn)n88603620"/>
+      <rico:hasSubject>
+         <rico:Agent>
+            <rdf:type rdf:resource="https://www.ica.org/standards/RiC/ontology#CorporateBody"/>
+            <rdfs:label xml:lang="en">Utility Workers Union of America. Local 1-2</rdfs:label>
+            <rico:hasAgentName>
+               <rico:AgentName>
+                  <rdfs:label xml:lang="en">Utility Workers Union of America. Local 1-2</rdfs:label>
+                  <rico:textualValue xml:lang="en">Utility Workers Union of America. Local 1-2</rico:textualValue>
+               </rico:AgentName>
+            </rico:hasAgentName>
+         </rico:Agent>
+      </rico:hasSubject>
+      <rico:hasSubject>
+         <rico:Agent>
+            <rdf:type rdf:resource="https://www.ica.org/standards/RiC/ontology#Person"/>
+            <rdfs:label xml:lang="en">Moran, Thomas</rdfs:label>
+            <rico:hasAgentName>
+               <rico:AgentName>
+                  <rdfs:label xml:lang="en">Moran, Thomas</rdfs:label>
+                  <rico:textualValue xml:lang="en">Moran, Thomas</rico:textualValue>
+               </rico:AgentName>
+            </rico:hasAgentName>
+         </rico:Agent>
+      </rico:hasSubject>
+      <rico:history rdf:parseType="Literal">
+         <html:div xml:lang="en">
+            <html:h4>Informations sur le traitement</html:h4>
+            <html:h5>Processing Information</html:h5>
+            <html:p>A graduate student in the Fall 2019 session of Advanced Archival Description HIST-GA.2031 surveyed and wrote a processing plan for this collection. This collection was arranged and described by an archivist in the fall of 2021. Materials were placed in new acid-free folders and boxes; folder titles were retained where possible.</html:p>
+            <html:p>File titles were reviewed by the processing archivist and when identified as restricted, were physically separated and stored in shared restricted boxes.</html:p>
+         </html:div>
+      </rico:history>
+      <rico:hasInstantiation>
+         <rico:Instantiation rdf:about="instantiation/-top-i1">
+            <rico:instantiates rdf:resource="recordResource/-top"/>
+            <rico:heldBy>
+               <rico:Agent>
+                  <rdfs:label xml:lang="en">Tamiment Library and Robert F. Wagner Labor Archives</rdfs:label>
+                  <rico:hasAgentName>
+                     <rico:AgentName>
+                        <rdfs:label xml:lang="en">Tamiment Library and Robert F. Wagner Labor Archives</rdfs:label>
+                        <rico:textualValue xml:lang="en">Tamiment Library and Robert F. Wagner Labor Archives</rico:textualValue>
+                     </rico:AgentName>
+                  </rico:hasAgentName>
+               </rico:Agent>
+            </rico:heldBy>
+            <rico:title xml:lang="en">Thomas Moran Papers</rico:title>
+            <rdfs:label xml:lang="en">Thomas Moran Papers</rdfs:label>
+            <rico:identifier>WAG.166</rico:identifier>
+            <rico:instantiationExtent rdf:parseType="Literal">
+               <html:p xml:lang="en">6 Linear Feet</html:p>
+            </rico:instantiationExtent>
+            <rico:instantiationExtent rdf:parseType="Literal">
+               <html:p xml:lang="en">In 12 manuscript boxes and 2 oversize boxes</html:p>
+            </rico:instantiationExtent>
+            <rico:beginningDate rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1975</rico:beginningDate>
+            <rico:endDate rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1993</rico:endDate>
+            <rico:date xml:lang="en">1975-1993</rico:date>
+            <rico:hasLocation rdf:resource=""/>
+            <rico:hasProvenance>
+               <rico:Agent>
+                  <rdf:type rdf:resource="https://www.ica.org/standards/RiC/ontology#Person"/>
+                  <rdfs:label xml:lang="en">Moran, Thomas</rdfs:label>
+                  <rico:hasAgentName>
+                     <rico:AgentName>
+                        <rdfs:label xml:lang="en">Moran, Thomas</rdfs:label>
+                        <rico:textualValue xml:lang="en">Moran, Thomas</rico:textualValue>
+                     </rico:AgentName>
+                  </rico:hasAgentName>
+               </rico:Agent>
+            </rico:hasProvenance>
+            <rico:hasProvenance>
+               <rico:Agent>
+                  <rdf:type rdf:resource="https://www.ica.org/standards/RiC/ontology#Person"/>
+                  <rdfs:label xml:lang="en">Moran, Thomas</rdfs:label>
+                  <rico:hasAgentName>
+                     <rico:AgentName>
+                        <rdfs:label xml:lang="en">Moran, Thomas</rdfs:label>
+                        <rico:textualValue xml:lang="en">Moran, Thomas</rico:textualValue>
+                     </rico:AgentName>
+                  </rico:hasAgentName>
+               </rico:Agent>
+            </rico:hasProvenance>
+            <rico:structure rdf:parseType="Literal">
+               <html:div xml:lang="en">
+                  <html:h5>Arrangement</html:h5>
+                  <html:p>This collection has been arranged in four series: Seris I. Legal Documents; Series II. Correspondence; Series III. Worker Records; Series VI. Technical Materials. Files have been arranged in chronological order within each series.</html:p>
+               </html:div>
+            </rico:structure>
+            <rico:conditionsOfUse rdf:parseType="Literal">
+               <html:p xml:lang="en">Any rights (including copyright and related rights to publicity and privacy) held by Thomas Moran were transferred to New York University in 2000 by Thomas Moran. Permission to publish or reproduce materials in this collection must be secured from Tamiment Library and Robert F. Wagner Archives. Please contact tamiment.wagner@nyu.edu, (212) 998-2630.</html:p>
+            </rico:conditionsOfUse>
+            <rico:conditionsOfAccess rdf:parseType="Literal">
+               <html:div xml:lang="en">
+                  <html:h5>Conditions Governing Access</html:h5>
+                  <html:p>Materials in Box 13 contain Protected Health Information (PHI) and are restricted until 50 years after the death of the individual in question.</html:p>
+                  <html:p>Materials in Box 14 contain Personal Identifiable Information (PII) and are restricted until 2039.</html:p>
+                  <html:p>The remaining materials in the collection are open without restrictions.</html:p>
+               </html:div>
+            </rico:conditionsOfAccess>
+            <rico:history rdf:parseType="Literal">
+               <html:div>
+                  <html:div xml:lang="en">
+                     <html:h4>Informations sur les modalités d’entrée</html:h4>
+                     <html:h5>Immediate Source of Acquisition</html:h5>
+                     <html:p>Donated by Thomas Moran in 2000. The accession number associated with this gift is 2000.012.</html:p>
+                  </html:div>
+                  <html:div xml:lang="en">
+                     <html:h4>Informations sur le traitement</html:h4>
+                     <html:h5>Processing Information</html:h5>
+                     <html:p>A graduate student in the Fall 2019 session of Advanced Archival Description HIST-GA.2031 surveyed and wrote a processing plan for this collection. This collection was arranged and described by an archivist in the fall of 2021. Materials were placed in new acid-free folders and boxes; folder titles were retained where possible.</html:p>
+                     <html:p>File titles were reviewed by the processing archivist and when identified as restricted, were physically separated and stored in shared restricted boxes.</html:p>
+                  </html:div>
+               </html:div>
+            </rico:history>
+            <rdfs:seeAlso rdf:resource="https://www.siv.archives-nationales.culture.gouv.fr/siv/UD/wag_166/top"/>
+         </rico:Instantiation>
+      </rico:hasInstantiation>
+      <rico:includes rdf:resource="recordResource/-aspace_7be96fbf19c8245502cb9a2d4e576e06"/>
+      <rico:includes rdf:resource="recordResource/-aspace_ac93042643ca6f6b6fa4ae6e569ce316"/>
+      <rico:includes rdf:resource="recordResource/-aspace_9f41038c19b384b055702bb4c9c916cf"/>
+      <rico:includes rdf:resource="recordResource/-aspace_a95521c0ce22ceb019cc325ef093ba29"/>
+   </rico:RecordResource>
+   <rico:RecordResource rdf:about="recordResource/-aspace_7be96fbf19c8245502cb9a2d4e576e06">
+      <rico:includedIn rdf:resource="recordResource/-top"/>
+      <rdf:type rdf:resource="https://www.ica.org/standards/RiC/ontology#RecordSet"/>
+      <rico:hasRecordSetType rdf:resource="https://www.ica.org/standards/RiC/vocabularies/recordSetTypes#Series"/>
+      <rico:title xml:lang="en">Series I. Legal Documents</rico:title>
+      <rdfs:label xml:lang="en">Series I. Legal Documents</rdfs:label>
+      <rico:beginningDate rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1980</rico:beginningDate>
+      <rico:endDate rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1993</rico:endDate>
+      <rico:date xml:lang="en">1980-1993</rico:date>
+      <rico:scopeAndContent rdf:parseType="Literal">
+         <html:p xml:lang="en">This series traces Thomas Moran's involvement in three New York State Supreme Court cases: Ostrowski v. Local 1-2 (1980), State of New York v. Consolidated Edison, Inc. (1982-1986) and Moran v. Vaccaro (1989). The documents in this series span a variety of phases of the cases' progress through the courts, including briefs from plaintiffs and defendants at multiple injunctions, correspondence between the New York State Attorney General's office and plaintiffs, and plaintiff affidavits. The initial letter to the plaintiffs in Moran v. Vaccaro and the forms accompanying the letter, including a questionnaire for plaintiffs surveying their medical history and details of exposure, is a significant document that frames much of the surrounding legal documentation although no completed questionnaires are included. A written statement from Richard Ostrowski, shop steward for Local 1-2, on his illegal removal from stewardship in retaliation for organizing around issues of radiation exposure, is also included.</html:p>
+      </rico:scopeAndContent>
+      <rico:conditionsOfAccess rdf:parseType="Literal">
+         <html:div xml:lang="en">
+            <html:h5>Conditions Governing Access</html:h5>
+            <html:p>Materials in Box 13 contain Protected Health Information (PHI) and are restricted until 50 years after the death of the individual in question.</html:p>
+            <html:p>Materials in Box 14 contain Personal Identifiable Information (PII) and are restricted until 2039.</html:p>
+         </html:div>
+      </rico:conditionsOfAccess>
+      <rico:hasInstantiation>
+         <rico:Instantiation rdf:about="instantiation/-aspace_7be96fbf19c8245502cb9a2d4e576e06-i1">
+            <rico:instantiates rdf:resource="recordResource/-aspace_7be96fbf19c8245502cb9a2d4e576e06"/>
+            <rico:title xml:lang="en">Series I. Legal Documents</rico:title>
+            <rdfs:label xml:lang="en">Series I. Legal Documents</rdfs:label>
+            <rico:instantiationExtent rdf:parseType="Literal">
+               <html:p xml:lang="en">1 Linear Feet</html:p>
+            </rico:instantiationExtent>
+            <rico:instantiationExtent rdf:parseType="Literal">
+               <html:p xml:lang="en">in 2 manuscript boxes.</html:p>
+            </rico:instantiationExtent>
+            <rico:beginningDate rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1980</rico:beginningDate>
+            <rico:endDate rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1993</rico:endDate>
+            <rico:date xml:lang="en">1980-1993</rico:date>
+            <rico:conditionsOfAccess rdf:parseType="Literal">
+               <html:div xml:lang="en">
+                  <html:h5>Conditions Governing Access</html:h5>
+                  <html:p>Materials in Box 13 contain Protected Health Information (PHI) and are restricted until 50 years after the death of the individual in question.</html:p>
+                  <html:p>Materials in Box 14 contain Personal Identifiable Information (PII) and are restricted until 2039.</html:p>
+               </html:div>
+            </rico:conditionsOfAccess>
+            <rdfs:seeAlso rdf:resource="https://www.siv.archives-nationales.culture.gouv.fr/siv/UD/wag_166/aspace_7be96fbf19c8245502cb9a2d4e576e06"/>
+         </rico:Instantiation>
+      </rico:hasInstantiation>
+      <rico:includes>
+         <rico:RecordResource rdf:about="recordResource/-aspace_1dbb17a9e3566e7128367c6df475a9f1">
+            <rico:includedIn rdf:resource="recordResource/-aspace_7be96fbf19c8245502cb9a2d4e576e06"/>
+            <rdf:type rdf:resource="https://www.ica.org/standards/RiC/ontology#RecordSet"/>
+            <rico:hasRecordSetType rdf:resource="https://www.ica.org/standards/RiC/vocabularies/recordSetTypes#File"/>
+            <rico:title xml:lang="en">Ostrowski v. Utility Workers United of America</rico:title>
+            <rdfs:label xml:lang="en">Ostrowski v. Utility Workers United of America</rdfs:label>
+            <rico:beginningDate rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1980</rico:beginningDate>
+            <rico:endDate rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1980</rico:endDate>
+            <rico:date xml:lang="en">1980</rico:date>
+            <rico:hasInstantiation>
+               <rico:Instantiation rdf:about="instantiation/-aspace_1dbb17a9e3566e7128367c6df475a9f1-i1">
+                  <rico:instantiates rdf:resource="recordResource/-aspace_1dbb17a9e3566e7128367c6df475a9f1"/>
+                  <rico:title xml:lang="en">Ostrowski v. Utility Workers United of America</rico:title>
+                  <rdfs:label xml:lang="en">Ostrowski v. Utility Workers United of America</rdfs:label>
+                  <rico:beginningDate rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1980</rico:beginningDate>
+                  <rico:endDate rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1980</rico:endDate>
+                  <rico:date xml:lang="en">1980</rico:date>
+                  <rdfs:seeAlso rdf:resource="https://www.siv.archives-nationales.culture.gouv.fr/siv/UD/wag_166/aspace_1dbb17a9e3566e7128367c6df475a9f1"/>
+               </rico:Instantiation>
+            </rico:hasInstantiation>
+         </rico:RecordResource>
+      </rico:includes>
+      <rico:includes>
+         <rico:RecordResource rdf:about="recordResource/-aspace_898c9da1e143a9a70f8d447800973cb4">
+            <rico:includedIn rdf:resource="recordResource/-aspace_7be96fbf19c8245502cb9a2d4e576e06"/>
+            <rdf:type rdf:resource="https://www.ica.org/standards/RiC/ontology#RecordSet"/>
+            <rico:hasRecordSetType rdf:resource="https://www.ica.org/standards/RiC/vocabularies/recordSetTypes#File"/>
+            <rico:title xml:lang="en">State of New York v. Consolidated Edison, Inc.</rico:title>
+            <rdfs:label xml:lang="en">State of New York v. Consolidated Edison, Inc.</rdfs:label>
+            <rico:beginningDate rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1982</rico:beginningDate>
+            <rico:endDate rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1986</rico:endDate>
+            <rico:date xml:lang="en">1982-1986</rico:date>
+            <rico:hasInstantiation>
+               <rico:Instantiation rdf:about="instantiation/-aspace_898c9da1e143a9a70f8d447800973cb4-i1">
+                  <rico:instantiates rdf:resource="recordResource/-aspace_898c9da1e143a9a70f8d447800973cb4"/>
+                  <rico:title xml:lang="en">State of New York v. Consolidated Edison, Inc.</rico:title>
+                  <rdfs:label xml:lang="en">State of New York v. Consolidated Edison, Inc.</rdfs:label>
+                  <rico:beginningDate rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1982</rico:beginningDate>
+                  <rico:endDate rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1986</rico:endDate>
+                  <rico:date xml:lang="en">1982-1986</rico:date>
+                  <rdfs:seeAlso rdf:resource="https://www.siv.archives-nationales.culture.gouv.fr/siv/UD/wag_166/aspace_898c9da1e143a9a70f8d447800973cb4"/>
+               </rico:Instantiation>
+            </rico:hasInstantiation>
+         </rico:RecordResource>
+      </rico:includes>
+      <rico:includes>
+         <rico:RecordResource rdf:about="recordResource/-aspace_6b92bd233b80384473d211ba048c7d8a">
+            <rico:includedIn rdf:resource="recordResource/-aspace_7be96fbf19c8245502cb9a2d4e576e06"/>
+            <rdf:type rdf:resource="https://www.ica.org/standards/RiC/ontology#RecordSet"/>
+            <rico:hasRecordSetType rdf:resource="https://www.ica.org/standards/RiC/vocabularies/recordSetTypes#File"/>
+            <rico:title xml:lang="en">Moran v. Vaccaro</rico:title>
+            <rdfs:label xml:lang="en">Moran v. Vaccaro</rdfs:label>
+            <rico:beginningDate rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1987</rico:beginningDate>
+            <rico:endDate rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1993</rico:endDate>
+            <rico:date xml:lang="en">1987-1993</rico:date>
+            <rico:hasInstantiation>
+               <rico:Instantiation rdf:about="instantiation/-aspace_6b92bd233b80384473d211ba048c7d8a-i1">
+                  <rico:instantiates rdf:resource="recordResource/-aspace_6b92bd233b80384473d211ba048c7d8a"/>
+                  <rico:title xml:lang="en">Moran v. Vaccaro</rico:title>
+                  <rdfs:label xml:lang="en">Moran v. Vaccaro</rdfs:label>
+                  <rico:beginningDate rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1987</rico:beginningDate>
+                  <rico:endDate rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1993</rico:endDate>
+                  <rico:date xml:lang="en">1987-1993</rico:date>
+                  <rdfs:seeAlso rdf:resource="https://www.siv.archives-nationales.culture.gouv.fr/siv/UD/wag_166/aspace_6b92bd233b80384473d211ba048c7d8a"/>
+               </rico:Instantiation>
+            </rico:hasInstantiation>
+         </rico:RecordResource>
+      </rico:includes>
+   </rico:RecordResource>
+   <rico:RecordResource rdf:about="recordResource/-aspace_ac93042643ca6f6b6fa4ae6e569ce316">
+      <rico:includedIn rdf:resource="recordResource/-top"/>
+      <rdf:type rdf:resource="https://www.ica.org/standards/RiC/ontology#RecordSet"/>
+      <rico:hasRecordSetType rdf:resource="https://www.ica.org/standards/RiC/vocabularies/recordSetTypes#Series"/>
+      <rico:title xml:lang="en">Series II. Correspondence</rico:title>
+      <rdfs:label xml:lang="en">Series II. Correspondence</rdfs:label>
+      <rico:beginningDate rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1981</rico:beginningDate>
+      <rico:endDate rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1992</rico:endDate>
+      <rico:date xml:lang="en">1981-1992</rico:date>
+      <rico:scopeAndContent rdf:parseType="Literal">
+         <html:p xml:lang="en">This series contains Moran's correspondence with government bodies, advocacy groups, and lawyers concerning his work advocating for worker safety issues, specifically enforcement of New York state's 1980 "Right to Know Law," which states that employers have to alert employees to the possibility of exposure to hazardous materials in the workplace. The correspondence with lawyers and law firms in this series relates to Moran's advocacy work rather than any particular litigation. Of particular note are the initial letters between Moran and Janet Fox, director of Safety Services at Con Edison, in which Moran begins the process of requesting all asbestos variance reports to compile evidence for impending litigation.</html:p>
+      </rico:scopeAndContent>
+      <rico:conditionsOfAccess rdf:parseType="Literal">
+         <html:p xml:lang="en">Materials in Box 14 contain Personal Identifiable Information (PII) and are restricted until 2039.</html:p>
+      </rico:conditionsOfAccess>
+      <rico:hasInstantiation>
+         <rico:Instantiation rdf:about="instantiation/-aspace_ac93042643ca6f6b6fa4ae6e569ce316-i1">
+            <rico:instantiates rdf:resource="recordResource/-aspace_ac93042643ca6f6b6fa4ae6e569ce316"/>
+            <rico:title xml:lang="en">Series II. Correspondence</rico:title>
+            <rdfs:label xml:lang="en">Series II. Correspondence</rdfs:label>
+            <rico:instantiationExtent rdf:parseType="Literal">
+               <html:p xml:lang="en">1.5 Linear Feet</html:p>
+            </rico:instantiationExtent>
+            <rico:instantiationExtent rdf:parseType="Literal">
+               <html:p xml:lang="en">in 3 manuscript boxes.</html:p>
+            </rico:instantiationExtent>
+            <rico:beginningDate rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1981</rico:beginningDate>
+            <rico:endDate rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1992</rico:endDate>
+            <rico:date xml:lang="en">1981-1992</rico:date>
+            <rico:conditionsOfAccess rdf:parseType="Literal">
+               <html:p xml:lang="en">Materials in Box 14 contain Personal Identifiable Information (PII) and are restricted until 2039.</html:p>
+            </rico:conditionsOfAccess>
+            <rdfs:seeAlso rdf:resource="https://www.siv.archives-nationales.culture.gouv.fr/siv/UD/wag_166/aspace_ac93042643ca6f6b6fa4ae6e569ce316"/>
+         </rico:Instantiation>
+      </rico:hasInstantiation>
+      <rico:includes>
+         <rico:RecordResource rdf:about="recordResource/-aspace_6a173e9188f639b3d2640691be39adaf">
+            <rico:includedIn rdf:resource="recordResource/-aspace_ac93042643ca6f6b6fa4ae6e569ce316"/>
+            <rdf:type rdf:resource="https://www.ica.org/standards/RiC/ontology#RecordSet"/>
+            <rico:hasRecordSetType rdf:resource="https://www.ica.org/standards/RiC/vocabularies/recordSetTypes#File"/>
+            <rico:title xml:lang="en">National Labor Relations Board</rico:title>
+            <rdfs:label xml:lang="en">National Labor Relations Board</rdfs:label>
+            <rico:beginningDate rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1981</rico:beginningDate>
+            <rico:endDate rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1987</rico:endDate>
+            <rico:date xml:lang="en">1981-1987</rico:date>
+            <rico:hasInstantiation>
+               <rico:Instantiation rdf:about="instantiation/-aspace_6a173e9188f639b3d2640691be39adaf-i1">
+                  <rico:instantiates rdf:resource="recordResource/-aspace_6a173e9188f639b3d2640691be39adaf"/>
+                  <rico:title xml:lang="en">National Labor Relations Board</rico:title>
+                  <rdfs:label xml:lang="en">National Labor Relations Board</rdfs:label>
+                  <rico:beginningDate rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1981</rico:beginningDate>
+                  <rico:endDate rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1987</rico:endDate>
+                  <rico:date xml:lang="en">1981-1987</rico:date>
+                  <rdfs:seeAlso rdf:resource="https://www.siv.archives-nationales.culture.gouv.fr/siv/UD/wag_166/aspace_6a173e9188f639b3d2640691be39adaf"/>
+               </rico:Instantiation>
+            </rico:hasInstantiation>
+         </rico:RecordResource>
+      </rico:includes>
+      <rico:includes>
+         <rico:RecordResource rdf:about="recordResource/-aspace_3b43b91dba50449058223fd48a443c9c">
+            <rico:includedIn rdf:resource="recordResource/-aspace_ac93042643ca6f6b6fa4ae6e569ce316"/>
+            <rdf:type rdf:resource="https://www.ica.org/standards/RiC/ontology#RecordSet"/>
+            <rico:hasRecordSetType rdf:resource="https://www.ica.org/standards/RiC/vocabularies/recordSetTypes#File"/>
+            <rico:title xml:lang="en">Long Island College Hospital</rico:title>
+            <rdfs:label xml:lang="en">Long Island College Hospital</rdfs:label>
+            <rico:beginningDate rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1988</rico:beginningDate>
+            <rico:endDate rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1988</rico:endDate>
+            <rico:date xml:lang="en">1988</rico:date>
+            <rico:hasInstantiation>
+               <rico:Instantiation rdf:about="instantiation/-aspace_3b43b91dba50449058223fd48a443c9c-i1">
+                  <rico:instantiates rdf:resource="recordResource/-aspace_3b43b91dba50449058223fd48a443c9c"/>
+                  <rico:title xml:lang="en">Long Island College Hospital</rico:title>
+                  <rdfs:label xml:lang="en">Long Island College Hospital</rdfs:label>
+                  <rico:beginningDate rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1988</rico:beginningDate>
+                  <rico:endDate rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1988</rico:endDate>
+                  <rico:date xml:lang="en">1988</rico:date>
+                  <rdfs:seeAlso rdf:resource="https://www.siv.archives-nationales.culture.gouv.fr/siv/UD/wag_166/aspace_3b43b91dba50449058223fd48a443c9c"/>
+               </rico:Instantiation>
+            </rico:hasInstantiation>
+         </rico:RecordResource>
+      </rico:includes>
+      <rico:includes>
+         <rico:RecordResource rdf:about="recordResource/-aspace_cbd33a4aea075757767a2ec8cadf1c3d">
+            <rico:includedIn rdf:resource="recordResource/-aspace_ac93042643ca6f6b6fa4ae6e569ce316"/>
+            <rdf:type rdf:resource="https://www.ica.org/standards/RiC/ontology#RecordSet"/>
+            <rico:hasRecordSetType rdf:resource="https://www.ica.org/standards/RiC/vocabularies/recordSetTypes#File"/>
+            <rico:title xml:lang="en">Alliance for Consumer Rights</rico:title>
+            <rdfs:label xml:lang="en">Alliance for Consumer Rights</rdfs:label>
+            <rico:beginningDate rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1989</rico:beginningDate>
+            <rico:endDate rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1989</rico:endDate>
+            <rico:date xml:lang="en">1989</rico:date>
+            <rico:hasInstantiation>
+               <rico:Instantiation rdf:about="instantiation/-aspace_cbd33a4aea075757767a2ec8cadf1c3d-i1">
+                  <rico:instantiates rdf:resource="recordResource/-aspace_cbd33a4aea075757767a2ec8cadf1c3d"/>
+                  <rico:title xml:lang="en">Alliance for Consumer Rights</rico:title>
+                  <rdfs:label xml:lang="en">Alliance for Consumer Rights</rdfs:label>
+                  <rico:beginningDate rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1989</rico:beginningDate>
+                  <rico:endDate rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1989</rico:endDate>
+                  <rico:date xml:lang="en">1989</rico:date>
+                  <rdfs:seeAlso rdf:resource="https://www.siv.archives-nationales.culture.gouv.fr/siv/UD/wag_166/aspace_cbd33a4aea075757767a2ec8cadf1c3d"/>
+               </rico:Instantiation>
+            </rico:hasInstantiation>
+         </rico:RecordResource>
+      </rico:includes>
+      <rico:includes>
+         <rico:RecordResource rdf:about="recordResource/-aspace_c6397f18d9e33016cddd46df58ec786c">
+            <rico:includedIn rdf:resource="recordResource/-aspace_ac93042643ca6f6b6fa4ae6e569ce316"/>
+            <rdf:type rdf:resource="https://www.ica.org/standards/RiC/ontology#RecordSet"/>
+            <rico:hasRecordSetType rdf:resource="https://www.ica.org/standards/RiC/vocabularies/recordSetTypes#File"/>
+            <rico:title xml:lang="en">"Right to Know" Toxic Substances in the Workplace A7103-D</rico:title>
+            <rdfs:label xml:lang="en">"Right to Know" Toxic Substances in the Workplace A7103-D</rdfs:label>
+            <rico:beginningDate rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1989</rico:beginningDate>
+            <rico:endDate rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1989</rico:endDate>
+            <rico:date xml:lang="en">1989</rico:date>
+            <rico:hasInstantiation>
+               <rico:Instantiation rdf:about="instantiation/-aspace_c6397f18d9e33016cddd46df58ec786c-i1">
+                  <rico:instantiates rdf:resource="recordResource/-aspace_c6397f18d9e33016cddd46df58ec786c"/>
+                  <rico:title xml:lang="en">"Right to Know" Toxic Substances in the Workplace A7103-D</rico:title>
+                  <rdfs:label xml:lang="en">"Right to Know" Toxic Substances in the Workplace A7103-D</rdfs:label>
+                  <rico:beginningDate rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1989</rico:beginningDate>
+                  <rico:endDate rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1989</rico:endDate>
+                  <rico:date xml:lang="en">1989</rico:date>
+                  <rdfs:seeAlso rdf:resource="https://www.siv.archives-nationales.culture.gouv.fr/siv/UD/wag_166/aspace_c6397f18d9e33016cddd46df58ec786c"/>
+               </rico:Instantiation>
+            </rico:hasInstantiation>
+         </rico:RecordResource>
+      </rico:includes>
+      <rico:includes>
+         <rico:RecordResource rdf:about="recordResource/-aspace_de6af37cb043f4ac1baed6f07dbb81fe">
+            <rico:includedIn rdf:resource="recordResource/-aspace_ac93042643ca6f6b6fa4ae6e569ce316"/>
+            <rdf:type rdf:resource="https://www.ica.org/standards/RiC/ontology#RecordSet"/>
+            <rico:hasRecordSetType rdf:resource="https://www.ica.org/standards/RiC/vocabularies/recordSetTypes#File"/>
+            <rico:title xml:lang="en">Central Labor Rehabilitation Council</rico:title>
+            <rdfs:label xml:lang="en">Central Labor Rehabilitation Council</rdfs:label>
+            <rico:beginningDate rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1989</rico:beginningDate>
+            <rico:endDate rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1990</rico:endDate>
+            <rico:date xml:lang="en">1989-1990</rico:date>
+            <rico:hasInstantiation>
+               <rico:Instantiation rdf:about="instantiation/-aspace_de6af37cb043f4ac1baed6f07dbb81fe-i1">
+                  <rico:instantiates rdf:resource="recordResource/-aspace_de6af37cb043f4ac1baed6f07dbb81fe"/>
+                  <rico:title xml:lang="en">Central Labor Rehabilitation Council</rico:title>
+                  <rdfs:label xml:lang="en">Central Labor Rehabilitation Council</rdfs:label>
+                  <rico:beginningDate rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1989</rico:beginningDate>
+                  <rico:endDate rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1990</rico:endDate>
+                  <rico:date xml:lang="en">1989-1990</rico:date>
+                  <rdfs:seeAlso rdf:resource="https://www.siv.archives-nationales.culture.gouv.fr/siv/UD/wag_166/aspace_de6af37cb043f4ac1baed6f07dbb81fe"/>
+               </rico:Instantiation>
+            </rico:hasInstantiation>
+         </rico:RecordResource>
+      </rico:includes>
+      <rico:includes>
+         <rico:RecordResource rdf:about="recordResource/-aspace_ae6a87046388a333e490fd194347ff44">
+            <rico:includedIn rdf:resource="recordResource/-aspace_ac93042643ca6f6b6fa4ae6e569ce316"/>
+            <rdf:type rdf:resource="https://www.ica.org/standards/RiC/ontology#RecordSet"/>
+            <rico:hasRecordSetType rdf:resource="https://www.ica.org/standards/RiC/vocabularies/recordSetTypes#File"/>
+            <rico:title xml:lang="en">New York City Department of Environmental Protection--Minor Projects and Air Monitoring</rico:title>
+            <rdfs:label xml:lang="en">New York City Department of Environmental Protection--Minor Projects and Air Monitoring</rdfs:label>
+            <rico:beginningDate rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1989</rico:beginningDate>
+            <rico:endDate rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1989</rico:endDate>
+            <rico:date xml:lang="en">1989</rico:date>
+            <rico:hasInstantiation>
+               <rico:Instantiation rdf:about="instantiation/-aspace_ae6a87046388a333e490fd194347ff44-i1">
+                  <rico:instantiates rdf:resource="recordResource/-aspace_ae6a87046388a333e490fd194347ff44"/>
+                  <rico:title xml:lang="en">New York City Department of Environmental Protection--Minor Projects and Air Monitoring</rico:title>
+                  <rdfs:label xml:lang="en">New York City Department of Environmental Protection--Minor Projects and Air Monitoring</rdfs:label>
+                  <rico:beginningDate rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1989</rico:beginningDate>
+                  <rico:endDate rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1989</rico:endDate>
+                  <rico:date xml:lang="en">1989</rico:date>
+                  <rdfs:seeAlso rdf:resource="https://www.siv.archives-nationales.culture.gouv.fr/siv/UD/wag_166/aspace_ae6a87046388a333e490fd194347ff44"/>
+               </rico:Instantiation>
+            </rico:hasInstantiation>
+         </rico:RecordResource>
+      </rico:includes>
+      <rico:includes>
+         <rico:RecordResource rdf:about="recordResource/-aspace_bf2cf1c86e63645558b71243dc32f8de">
+            <rico:includedIn rdf:resource="recordResource/-aspace_ac93042643ca6f6b6fa4ae6e569ce316"/>
+            <rdf:type rdf:resource="https://www.ica.org/standards/RiC/ontology#RecordSet"/>
+            <rico:hasRecordSetType rdf:resource="https://www.ica.org/standards/RiC/vocabularies/recordSetTypes#File"/>
+            <rico:title xml:lang="en">New York Committee for Occupational Safety and Health</rico:title>
+            <rdfs:label xml:lang="en">New York Committee for Occupational Safety and Health</rdfs:label>
+            <rico:beginningDate rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1989</rico:beginningDate>
+            <rico:endDate rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1990</rico:endDate>
+            <rico:date xml:lang="en">1989-1990</rico:date>
+            <rico:hasInstantiation>
+               <rico:Instantiation rdf:about="instantiation/-aspace_bf2cf1c86e63645558b71243dc32f8de-i1">
+                  <rico:instantiates rdf:resource="recordResource/-aspace_bf2cf1c86e63645558b71243dc32f8de"/>
+                  <rico:title xml:lang="en">New York Committee for Occupational Safety and Health</rico:title>
+                  <rdfs:label xml:lang="en">New York Committee for Occupational Safety and Health</rdfs:label>
+                  <rico:beginningDate rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1989</rico:beginningDate>
+                  <rico:endDate rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1990</rico:endDate>
+                  <rico:date xml:lang="en">1989-1990</rico:date>
+                  <rdfs:seeAlso rdf:resource="https://www.siv.archives-nationales.culture.gouv.fr/siv/UD/wag_166/aspace_bf2cf1c86e63645558b71243dc32f8de"/>
+               </rico:Instantiation>
+            </rico:hasInstantiation>
+         </rico:RecordResource>
+      </rico:includes>
+      <rico:includes>
+         <rico:RecordResource rdf:about="recordResource/-aspace_01bd91dbe810037dfc4fcea504f5ed03">
+            <rico:includedIn rdf:resource="recordResource/-aspace_ac93042643ca6f6b6fa4ae6e569ce316"/>
+            <rdf:type rdf:resource="https://www.ica.org/standards/RiC/ontology#RecordSet"/>
+            <rico:hasRecordSetType rdf:resource="https://www.ica.org/standards/RiC/vocabularies/recordSetTypes#File"/>
+            <rico:title xml:lang="en">Nancy Steans-Office of the Attorney General</rico:title>
+            <rdfs:label xml:lang="en">Nancy Steans-Office of the Attorney General</rdfs:label>
+            <rico:beginningDate rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1989</rico:beginningDate>
+            <rico:endDate rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1989</rico:endDate>
+            <rico:date xml:lang="en">1989</rico:date>
+            <rico:hasInstantiation>
+               <rico:Instantiation rdf:about="instantiation/-aspace_01bd91dbe810037dfc4fcea504f5ed03-i1">
+                  <rico:instantiates rdf:resource="recordResource/-aspace_01bd91dbe810037dfc4fcea504f5ed03"/>
+                  <rico:title xml:lang="en">Nancy Steans-Office of the Attorney General</rico:title>
+                  <rdfs:label xml:lang="en">Nancy Steans-Office of the Attorney General</rdfs:label>
+                  <rico:beginningDate rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1989</rico:beginningDate>
+                  <rico:endDate rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1989</rico:endDate>
+                  <rico:date xml:lang="en">1989</rico:date>
+                  <rdfs:seeAlso rdf:resource="https://www.siv.archives-nationales.culture.gouv.fr/siv/UD/wag_166/aspace_01bd91dbe810037dfc4fcea504f5ed03"/>
+               </rico:Instantiation>
+            </rico:hasInstantiation>
+         </rico:RecordResource>
+      </rico:includes>
+      <rico:includes>
+         <rico:RecordResource rdf:about="recordResource/-aspace_88772aba95a5382c31d83960b2b120f7">
+            <rico:includedIn rdf:resource="recordResource/-aspace_ac93042643ca6f6b6fa4ae6e569ce316"/>
+            <rdf:type rdf:resource="https://www.ica.org/standards/RiC/ontology#RecordSet"/>
+            <rico:hasRecordSetType rdf:resource="https://www.ica.org/standards/RiC/vocabularies/recordSetTypes#File"/>
+            <rico:title xml:lang="en">Proposed Laws</rico:title>
+            <rdfs:label xml:lang="en">Proposed Laws</rdfs:label>
+            <rico:beginningDate rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1989</rico:beginningDate>
+            <rico:endDate rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1989</rico:endDate>
+            <rico:date xml:lang="en">1989</rico:date>
+            <rico:hasInstantiation>
+               <rico:Instantiation rdf:about="instantiation/-aspace_88772aba95a5382c31d83960b2b120f7-i1">
+                  <rico:instantiates rdf:resource="recordResource/-aspace_88772aba95a5382c31d83960b2b120f7"/>
+                  <rico:title xml:lang="en">Proposed Laws</rico:title>
+                  <rdfs:label xml:lang="en">Proposed Laws</rdfs:label>
+                  <rico:beginningDate rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1989</rico:beginningDate>
+                  <rico:endDate rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1989</rico:endDate>
+                  <rico:date xml:lang="en">1989</rico:date>
+                  <rdfs:seeAlso rdf:resource="https://www.siv.archives-nationales.culture.gouv.fr/siv/UD/wag_166/aspace_88772aba95a5382c31d83960b2b120f7"/>
+               </rico:Instantiation>
+            </rico:hasInstantiation>
+         </rico:RecordResource>
+      </rico:includes>
+      <rico:includes>
+         <rico:RecordResource rdf:about="recordResource/-aspace_58b7d582ec46eddd2404fb94661453c0">
+            <rico:includedIn rdf:resource="recordResource/-aspace_ac93042643ca6f6b6fa4ae6e569ce316"/>
+            <rdf:type rdf:resource="https://www.ica.org/standards/RiC/ontology#RecordSet"/>
+            <rico:hasRecordSetType rdf:resource="https://www.ica.org/standards/RiC/vocabularies/recordSetTypes#File"/>
+            <rico:title xml:lang="en">Wilentz, Goldman &amp; Spitzer</rico:title>
+            <rdfs:label xml:lang="en">Wilentz, Goldman &amp; Spitzer</rdfs:label>
+            <rico:beginningDate rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1989</rico:beginningDate>
+            <rico:endDate rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1989</rico:endDate>
+            <rico:date xml:lang="en">1989</rico:date>
+            <rico:hasInstantiation>
+               <rico:Instantiation rdf:about="instantiation/-aspace_58b7d582ec46eddd2404fb94661453c0-i1">
+                  <rico:instantiates rdf:resource="recordResource/-aspace_58b7d582ec46eddd2404fb94661453c0"/>
+                  <rico:title xml:lang="en">Wilentz, Goldman &amp; Spitzer</rico:title>
+                  <rdfs:label xml:lang="en">Wilentz, Goldman &amp; Spitzer</rdfs:label>
+                  <rico:beginningDate rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1989</rico:beginningDate>
+                  <rico:endDate rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1989</rico:endDate>
+                  <rico:date xml:lang="en">1989</rico:date>
+                  <rdfs:seeAlso rdf:resource="https://www.siv.archives-nationales.culture.gouv.fr/siv/UD/wag_166/aspace_58b7d582ec46eddd2404fb94661453c0"/>
+               </rico:Instantiation>
+            </rico:hasInstantiation>
+         </rico:RecordResource>
+      </rico:includes>
+      <rico:includes>
+         <rico:RecordResource rdf:about="recordResource/-aspace_1204a7a69ef5b5c8f1d540738d0f9eab">
+            <rico:includedIn rdf:resource="recordResource/-aspace_ac93042643ca6f6b6fa4ae6e569ce316"/>
+            <rdf:type rdf:resource="https://www.ica.org/standards/RiC/ontology#RecordSet"/>
+            <rico:hasRecordSetType rdf:resource="https://www.ica.org/standards/RiC/vocabularies/recordSetTypes#File"/>
+            <rico:title xml:lang="en">Arthur Schwartz</rico:title>
+            <rdfs:label xml:lang="en">Arthur Schwartz</rdfs:label>
+            <rico:beginningDate rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1989</rico:beginningDate>
+            <rico:endDate rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1989</rico:endDate>
+            <rico:date xml:lang="en">1989</rico:date>
+            <rico:hasInstantiation>
+               <rico:Instantiation rdf:about="instantiation/-aspace_1204a7a69ef5b5c8f1d540738d0f9eab-i1">
+                  <rico:instantiates rdf:resource="recordResource/-aspace_1204a7a69ef5b5c8f1d540738d0f9eab"/>
+                  <rico:title xml:lang="en">Arthur Schwartz</rico:title>
+                  <rdfs:label xml:lang="en">Arthur Schwartz</rdfs:label>
+                  <rico:beginningDate rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1989</rico:beginningDate>
+                  <rico:endDate rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1989</rico:endDate>
+                  <rico:date xml:lang="en">1989</rico:date>
+                  <rdfs:seeAlso rdf:resource="https://www.siv.archives-nationales.culture.gouv.fr/siv/UD/wag_166/aspace_1204a7a69ef5b5c8f1d540738d0f9eab"/>
+               </rico:Instantiation>
+            </rico:hasInstantiation>
+         </rico:RecordResource>
+      </rico:includes>
+      <rico:includes>
+         <rico:RecordResource rdf:about="recordResource/-aspace_b163ce4fd9d3109d4144cf7a5371c912">
+            <rico:includedIn rdf:resource="recordResource/-aspace_ac93042643ca6f6b6fa4ae6e569ce316"/>
+            <rdf:type rdf:resource="https://www.ica.org/standards/RiC/ontology#RecordSet"/>
+            <rico:hasRecordSetType rdf:resource="https://www.ica.org/standards/RiC/vocabularies/recordSetTypes#File"/>
+            <rico:title xml:lang="en">New York State Department of Labor</rico:title>
+            <rdfs:label xml:lang="en">New York State Department of Labor</rdfs:label>
+            <rico:beginningDate rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1989</rico:beginningDate>
+            <rico:endDate rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1990</rico:endDate>
+            <rico:date xml:lang="en">1989-1990</rico:date>
+            <rico:hasInstantiation>
+               <rico:Instantiation rdf:about="instantiation/-aspace_b163ce4fd9d3109d4144cf7a5371c912-i1">
+                  <rico:instantiates rdf:resource="recordResource/-aspace_b163ce4fd9d3109d4144cf7a5371c912"/>
+                  <rico:title xml:lang="en">New York State Department of Labor</rico:title>
+                  <rdfs:label xml:lang="en">New York State Department of Labor</rdfs:label>
+                  <rico:beginningDate rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1989</rico:beginningDate>
+                  <rico:endDate rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1990</rico:endDate>
+                  <rico:date xml:lang="en">1989-1990</rico:date>
+                  <rdfs:seeAlso rdf:resource="https://www.siv.archives-nationales.culture.gouv.fr/siv/UD/wag_166/aspace_b163ce4fd9d3109d4144cf7a5371c912"/>
+               </rico:Instantiation>
+            </rico:hasInstantiation>
+         </rico:RecordResource>
+      </rico:includes>
+      <rico:includes>
+         <rico:RecordResource rdf:about="recordResource/-aspace_014e9153c18b4f37e0d3ee3d4276ebc5">
+            <rico:includedIn rdf:resource="recordResource/-aspace_ac93042643ca6f6b6fa4ae6e569ce316"/>
+            <rdf:type rdf:resource="https://www.ica.org/standards/RiC/ontology#RecordSet"/>
+            <rico:hasRecordSetType rdf:resource="https://www.ica.org/standards/RiC/vocabularies/recordSetTypes#File"/>
+            <rico:title xml:lang="en">Fred Sachs</rico:title>
+            <rdfs:label xml:lang="en">Fred Sachs</rdfs:label>
+            <rico:beginningDate rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1990</rico:beginningDate>
+            <rico:endDate rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1990</rico:endDate>
+            <rico:date xml:lang="en">1990</rico:date>
+            <rico:hasInstantiation>
+               <rico:Instantiation rdf:about="instantiation/-aspace_014e9153c18b4f37e0d3ee3d4276ebc5-i1">
+                  <rico:instantiates rdf:resource="recordResource/-aspace_014e9153c18b4f37e0d3ee3d4276ebc5"/>
+                  <rico:title xml:lang="en">Fred Sachs</rico:title>
+                  <rdfs:label xml:lang="en">Fred Sachs</rdfs:label>
+                  <rico:beginningDate rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1990</rico:beginningDate>
+                  <rico:endDate rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1990</rico:endDate>
+                  <rico:date xml:lang="en">1990</rico:date>
+                  <rdfs:seeAlso rdf:resource="https://www.siv.archives-nationales.culture.gouv.fr/siv/UD/wag_166/aspace_014e9153c18b4f37e0d3ee3d4276ebc5"/>
+               </rico:Instantiation>
+            </rico:hasInstantiation>
+         </rico:RecordResource>
+      </rico:includes>
+      <rico:includes>
+         <rico:RecordResource rdf:about="recordResource/-aspace_f52ce2777bae38e6fb7e0855538044e2">
+            <rico:includedIn rdf:resource="recordResource/-aspace_ac93042643ca6f6b6fa4ae6e569ce316"/>
+            <rdf:type rdf:resource="https://www.ica.org/standards/RiC/ontology#RecordSet"/>
+            <rico:hasRecordSetType rdf:resource="https://www.ica.org/standards/RiC/vocabularies/recordSetTypes#File"/>
+            <rico:title xml:lang="en">Labor Management Committee</rico:title>
+            <rdfs:label xml:lang="en">Labor Management Committee</rdfs:label>
+            <rico:beginningDate rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1990</rico:beginningDate>
+            <rico:endDate rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1990</rico:endDate>
+            <rico:date xml:lang="en">1990</rico:date>
+            <rico:hasInstantiation>
+               <rico:Instantiation rdf:about="instantiation/-aspace_f52ce2777bae38e6fb7e0855538044e2-i1">
+                  <rico:instantiates rdf:resource="recordResource/-aspace_f52ce2777bae38e6fb7e0855538044e2"/>
+                  <rico:title xml:lang="en">Labor Management Committee</rico:title>
+                  <rdfs:label xml:lang="en">Labor Management Committee</rdfs:label>
+                  <rico:beginningDate rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1990</rico:beginningDate>
+                  <rico:endDate rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1990</rico:endDate>
+                  <rico:date xml:lang="en">1990</rico:date>
+                  <rdfs:seeAlso rdf:resource="https://www.siv.archives-nationales.culture.gouv.fr/siv/UD/wag_166/aspace_f52ce2777bae38e6fb7e0855538044e2"/>
+               </rico:Instantiation>
+            </rico:hasInstantiation>
+         </rico:RecordResource>
+      </rico:includes>
+      <rico:includes>
+         <rico:RecordResource rdf:about="recordResource/-aspace_1b0227dd2c7c29888103826a2321c88f">
+            <rico:includedIn rdf:resource="recordResource/-aspace_ac93042643ca6f6b6fa4ae6e569ce316"/>
+            <rdf:type rdf:resource="https://www.ica.org/standards/RiC/ontology#RecordSet"/>
+            <rico:hasRecordSetType rdf:resource="https://www.ica.org/standards/RiC/vocabularies/recordSetTypes#File"/>
+            <rico:title xml:lang="en">Janet Fox</rico:title>
+            <rdfs:label xml:lang="en">Janet Fox</rdfs:label>
+            <rico:beginningDate rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1990</rico:beginningDate>
+            <rico:endDate rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1990</rico:endDate>
+            <rico:date xml:lang="en">1990</rico:date>
+            <rico:hasInstantiation>
+               <rico:Instantiation rdf:about="instantiation/-aspace_1b0227dd2c7c29888103826a2321c88f-i1">
+                  <rico:instantiates rdf:resource="recordResource/-aspace_1b0227dd2c7c29888103826a2321c88f"/>
+                  <rico:title xml:lang="en">Janet Fox</rico:title>
+                  <rdfs:label xml:lang="en">Janet Fox</rdfs:label>
+                  <rico:beginningDate rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1990</rico:beginningDate>
+                  <rico:endDate rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1990</rico:endDate>
+                  <rico:date xml:lang="en">1990</rico:date>
+                  <rdfs:seeAlso rdf:resource="https://www.siv.archives-nationales.culture.gouv.fr/siv/UD/wag_166/aspace_1b0227dd2c7c29888103826a2321c88f"/>
+               </rico:Instantiation>
+            </rico:hasInstantiation>
+         </rico:RecordResource>
+      </rico:includes>
+      <rico:includes>
+         <rico:RecordResource rdf:about="recordResource/-aspace_61969dc9a9003b46c8713976824ce5fd">
+            <rico:includedIn rdf:resource="recordResource/-aspace_ac93042643ca6f6b6fa4ae6e569ce316"/>
+            <rdf:type rdf:resource="https://www.ica.org/standards/RiC/ontology#RecordSet"/>
+            <rico:hasRecordSetType rdf:resource="https://www.ica.org/standards/RiC/vocabularies/recordSetTypes#File"/>
+            <rico:title xml:lang="en">Federal Environmental Protection Agency</rico:title>
+            <rdfs:label xml:lang="en">Federal Environmental Protection Agency</rdfs:label>
+            <rico:beginningDate rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1990</rico:beginningDate>
+            <rico:endDate rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1990</rico:endDate>
+            <rico:date xml:lang="en">1990</rico:date>
+            <rico:hasInstantiation>
+               <rico:Instantiation rdf:about="instantiation/-aspace_61969dc9a9003b46c8713976824ce5fd-i1">
+                  <rico:instantiates rdf:resource="recordResource/-aspace_61969dc9a9003b46c8713976824ce5fd"/>
+                  <rico:title xml:lang="en">Federal Environmental Protection Agency</rico:title>
+                  <rdfs:label xml:lang="en">Federal Environmental Protection Agency</rdfs:label>
+                  <rico:beginningDate rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1990</rico:beginningDate>
+                  <rico:endDate rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1990</rico:endDate>
+                  <rico:date xml:lang="en">1990</rico:date>
+                  <rdfs:seeAlso rdf:resource="https://www.siv.archives-nationales.culture.gouv.fr/siv/UD/wag_166/aspace_61969dc9a9003b46c8713976824ce5fd"/>
+               </rico:Instantiation>
+            </rico:hasInstantiation>
+         </rico:RecordResource>
+      </rico:includes>
+   </rico:RecordResource>
+   <rico:RecordResource rdf:about="recordResource/-aspace_9f41038c19b384b055702bb4c9c916cf">
+      <rico:includedIn rdf:resource="recordResource/-top"/>
+      <rdf:type rdf:resource="https://www.ica.org/standards/RiC/ontology#RecordSet"/>
+      <rico:hasRecordSetType rdf:resource="https://www.ica.org/standards/RiC/vocabularies/recordSetTypes#Series"/>
+      <rico:title xml:lang="en">Series III. Worker Records</rico:title>
+      <rdfs:label xml:lang="en">Series III. Worker Records</rdfs:label>
+      <rico:beginningDate rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1983</rico:beginningDate>
+      <rico:endDate rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1992</rico:endDate>
+      <rico:date xml:lang="en">1983-1992</rico:date>
+      <rico:scopeAndContent rdf:parseType="Literal">
+         <html:p xml:lang="en">This series documents worker grievances and reports of health and safety violations at Con Edison worksites. Documents represent complaints filed with the Occupational Health and Safety Administration (OSHA), worker complaints surrounding specific Con Edison worksites such as Indian Point and Gramercy Park, and safety grievances filed by Local 1-2 members. These complaints are overwhelmingly represented through citations issued to Con Edison by OSHA, hazardous materials testing and monitoring reports compiled in response to complaints, and individual complaints filed by Thomas Moran himself. This series also contains reports from the Bureau of Labor Statistics that compile instances of workplace safety violations at Con Edison worksites from 1987, 1988, and 1989.</html:p>
+      </rico:scopeAndContent>
+      <rico:conditionsOfAccess rdf:parseType="Literal">
+         <html:div xml:lang="en">
+            <html:h5>Conditions Governing Access</html:h5>
+            <html:p>Materials in Box 13 contain Protected Health Information (PHI) and are restricted until 50 years after the death of the individual in question.</html:p>
+            <html:p>Materials in Box 14 contain Personal Identifiable Information (PII) and are restricted until 2039.</html:p>
+         </html:div>
+      </rico:conditionsOfAccess>
+      <rico:hasInstantiation>
+         <rico:Instantiation rdf:about="instantiation/-aspace_9f41038c19b384b055702bb4c9c916cf-i1">
+            <rico:instantiates rdf:resource="recordResource/-aspace_9f41038c19b384b055702bb4c9c916cf"/>
+            <rico:title xml:lang="en">Series III. Worker Records</rico:title>
+            <rdfs:label xml:lang="en">Series III. Worker Records</rdfs:label>
+            <rico:instantiationExtent rdf:parseType="Literal">
+               <html:p xml:lang="en">1.5 Linear Feet</html:p>
+            </rico:instantiationExtent>
+            <rico:instantiationExtent rdf:parseType="Literal">
+               <html:p xml:lang="en">In 2 manuscript boxes and two flat boxes.</html:p>
+            </rico:instantiationExtent>
+            <rico:beginningDate rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1983</rico:beginningDate>
+            <rico:endDate rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1992</rico:endDate>
+            <rico:date xml:lang="en">1983-1992</rico:date>
+            <rico:conditionsOfAccess rdf:parseType="Literal">
+               <html:div xml:lang="en">
+                  <html:h5>Conditions Governing Access</html:h5>
+                  <html:p>Materials in Box 13 contain Protected Health Information (PHI) and are restricted until 50 years after the death of the individual in question.</html:p>
+                  <html:p>Materials in Box 14 contain Personal Identifiable Information (PII) and are restricted until 2039.</html:p>
+               </html:div>
+            </rico:conditionsOfAccess>
+            <rdfs:seeAlso rdf:resource="https://www.siv.archives-nationales.culture.gouv.fr/siv/UD/wag_166/aspace_9f41038c19b384b055702bb4c9c916cf"/>
+         </rico:Instantiation>
+      </rico:hasInstantiation>
+      <rico:includes>
+         <rico:RecordResource rdf:about="recordResource/-aspace_8a1938250ad9112e66c2c5d29910d17e">
+            <rico:includedIn rdf:resource="recordResource/-aspace_9f41038c19b384b055702bb4c9c916cf"/>
+            <rdf:type rdf:resource="https://www.ica.org/standards/RiC/ontology#RecordSet"/>
+            <rico:hasRecordSetType rdf:resource="https://www.ica.org/standards/RiC/vocabularies/recordSetTypes#File"/>
+            <rico:title xml:lang="en">OSHA Complaints--ConEdison</rico:title>
+            <rdfs:label xml:lang="en">OSHA Complaints--ConEdison</rdfs:label>
+            <rico:beginningDate rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1983</rico:beginningDate>
+            <rico:endDate rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1988</rico:endDate>
+            <rico:date xml:lang="en">1983-1988</rico:date>
+            <rico:hasInstantiation>
+               <rico:Instantiation rdf:about="instantiation/-aspace_8a1938250ad9112e66c2c5d29910d17e-i1">
+                  <rico:instantiates rdf:resource="recordResource/-aspace_8a1938250ad9112e66c2c5d29910d17e"/>
+                  <rico:title xml:lang="en">OSHA Complaints--ConEdison</rico:title>
+                  <rdfs:label xml:lang="en">OSHA Complaints--ConEdison</rdfs:label>
+                  <rico:beginningDate rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1983</rico:beginningDate>
+                  <rico:endDate rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1988</rico:endDate>
+                  <rico:date xml:lang="en">1983-1988</rico:date>
+                  <rdfs:seeAlso rdf:resource="https://www.siv.archives-nationales.culture.gouv.fr/siv/UD/wag_166/aspace_8a1938250ad9112e66c2c5d29910d17e"/>
+               </rico:Instantiation>
+            </rico:hasInstantiation>
+         </rico:RecordResource>
+      </rico:includes>
+      <rico:includes>
+         <rico:RecordResource rdf:about="recordResource/-aspace_adf5cf5fb3875e25087f8875220e7e4d">
+            <rico:includedIn rdf:resource="recordResource/-aspace_9f41038c19b384b055702bb4c9c916cf"/>
+            <rdf:type rdf:resource="https://www.ica.org/standards/RiC/ontology#RecordSet"/>
+            <rico:hasRecordSetType rdf:resource="https://www.ica.org/standards/RiC/vocabularies/recordSetTypes#File"/>
+            <rico:title xml:lang="en">Hudson Avenue Station</rico:title>
+            <rdfs:label xml:lang="en">Hudson Avenue Station</rdfs:label>
+            <rico:beginningDate rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1984</rico:beginningDate>
+            <rico:endDate rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1984</rico:endDate>
+            <rico:date xml:lang="en">1984</rico:date>
+            <rico:hasInstantiation>
+               <rico:Instantiation rdf:about="instantiation/-aspace_adf5cf5fb3875e25087f8875220e7e4d-i1">
+                  <rico:instantiates rdf:resource="recordResource/-aspace_adf5cf5fb3875e25087f8875220e7e4d"/>
+                  <rico:title xml:lang="en">Hudson Avenue Station</rico:title>
+                  <rdfs:label xml:lang="en">Hudson Avenue Station</rdfs:label>
+                  <rico:beginningDate rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1984</rico:beginningDate>
+                  <rico:endDate rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1984</rico:endDate>
+                  <rico:date xml:lang="en">1984</rico:date>
+                  <rdfs:seeAlso rdf:resource="https://www.siv.archives-nationales.culture.gouv.fr/siv/UD/wag_166/aspace_adf5cf5fb3875e25087f8875220e7e4d"/>
+               </rico:Instantiation>
+            </rico:hasInstantiation>
+         </rico:RecordResource>
+      </rico:includes>
+      <rico:includes>
+         <rico:RecordResource rdf:about="recordResource/-aspace_65287d2f6bd1ed7631da559e2adc0891">
+            <rico:includedIn rdf:resource="recordResource/-aspace_9f41038c19b384b055702bb4c9c916cf"/>
+            <rdf:type rdf:resource="https://www.ica.org/standards/RiC/ontology#RecordSet"/>
+            <rico:hasRecordSetType rdf:resource="https://www.ica.org/standards/RiC/vocabularies/recordSetTypes#File"/>
+            <rico:title xml:lang="en">Grievance reports</rico:title>
+            <rdfs:label xml:lang="en">Grievance reports</rdfs:label>
+            <rico:beginningDate rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1985</rico:beginningDate>
+            <rico:endDate rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1985</rico:endDate>
+            <rico:date xml:lang="en">1985</rico:date>
+            <rico:hasInstantiation>
+               <rico:Instantiation rdf:about="instantiation/-aspace_65287d2f6bd1ed7631da559e2adc0891-i1">
+                  <rico:instantiates rdf:resource="recordResource/-aspace_65287d2f6bd1ed7631da559e2adc0891"/>
+                  <rico:title xml:lang="en">Grievance reports</rico:title>
+                  <rdfs:label xml:lang="en">Grievance reports</rdfs:label>
+                  <rico:beginningDate rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1985</rico:beginningDate>
+                  <rico:endDate rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1985</rico:endDate>
+                  <rico:date xml:lang="en">1985</rico:date>
+                  <rdfs:seeAlso rdf:resource="https://www.siv.archives-nationales.culture.gouv.fr/siv/UD/wag_166/aspace_65287d2f6bd1ed7631da559e2adc0891"/>
+               </rico:Instantiation>
+            </rico:hasInstantiation>
+         </rico:RecordResource>
+      </rico:includes>
+      <rico:includes>
+         <rico:RecordResource rdf:about="recordResource/-aspace_6c1fcb607cdc90187124db866b91b86e">
+            <rico:includedIn rdf:resource="recordResource/-aspace_9f41038c19b384b055702bb4c9c916cf"/>
+            <rdf:type rdf:resource="https://www.ica.org/standards/RiC/ontology#RecordSet"/>
+            <rico:hasRecordSetType rdf:resource="https://www.ica.org/standards/RiC/vocabularies/recordSetTypes#File"/>
+            <rico:title xml:lang="en">Bureau of Labor Statstics--ConEdison</rico:title>
+            <rdfs:label xml:lang="en">Bureau of Labor Statstics--ConEdison</rdfs:label>
+            <rico:beginningDate rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1987</rico:beginningDate>
+            <rico:endDate rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1989</rico:endDate>
+            <rico:date xml:lang="en">1987-1989</rico:date>
+            <rico:hasInstantiation>
+               <rico:Instantiation rdf:about="instantiation/-aspace_6c1fcb607cdc90187124db866b91b86e-i1">
+                  <rico:instantiates rdf:resource="recordResource/-aspace_6c1fcb607cdc90187124db866b91b86e"/>
+                  <rico:title xml:lang="en">Bureau of Labor Statstics--ConEdison</rico:title>
+                  <rdfs:label xml:lang="en">Bureau of Labor Statstics--ConEdison</rdfs:label>
+                  <rico:beginningDate rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1987</rico:beginningDate>
+                  <rico:endDate rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1989</rico:endDate>
+                  <rico:date xml:lang="en">1987-1989</rico:date>
+                  <rdfs:seeAlso rdf:resource="https://www.siv.archives-nationales.culture.gouv.fr/siv/UD/wag_166/aspace_6c1fcb607cdc90187124db866b91b86e"/>
+               </rico:Instantiation>
+            </rico:hasInstantiation>
+         </rico:RecordResource>
+      </rico:includes>
+      <rico:includes>
+         <rico:RecordResource rdf:about="recordResource/-aspace_df71a33db6ccf58ae45e732c434f45ad">
+            <rico:includedIn rdf:resource="recordResource/-aspace_9f41038c19b384b055702bb4c9c916cf"/>
+            <rdf:type rdf:resource="https://www.ica.org/standards/RiC/ontology#RecordSet"/>
+            <rico:hasRecordSetType rdf:resource="https://www.ica.org/standards/RiC/vocabularies/recordSetTypes#File"/>
+            <rico:title xml:lang="en">Indian Point Drinking Water</rico:title>
+            <rdfs:label xml:lang="en">Indian Point Drinking Water</rdfs:label>
+            <rico:beginningDate rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1988</rico:beginningDate>
+            <rico:endDate rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1989</rico:endDate>
+            <rico:date xml:lang="en">1988-1989</rico:date>
+            <rico:hasInstantiation>
+               <rico:Instantiation rdf:about="instantiation/-aspace_df71a33db6ccf58ae45e732c434f45ad-i1">
+                  <rico:instantiates rdf:resource="recordResource/-aspace_df71a33db6ccf58ae45e732c434f45ad"/>
+                  <rico:title xml:lang="en">Indian Point Drinking Water</rico:title>
+                  <rdfs:label xml:lang="en">Indian Point Drinking Water</rdfs:label>
+                  <rico:beginningDate rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1988</rico:beginningDate>
+                  <rico:endDate rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1989</rico:endDate>
+                  <rico:date xml:lang="en">1988-1989</rico:date>
+                  <rdfs:seeAlso rdf:resource="https://www.siv.archives-nationales.culture.gouv.fr/siv/UD/wag_166/aspace_df71a33db6ccf58ae45e732c434f45ad"/>
+               </rico:Instantiation>
+            </rico:hasInstantiation>
+         </rico:RecordResource>
+      </rico:includes>
+      <rico:includes>
+         <rico:RecordResource rdf:about="recordResource/-aspace_a25df0b2b30f92baa4abd817ef06d0f0">
+            <rico:includedIn rdf:resource="recordResource/-aspace_9f41038c19b384b055702bb4c9c916cf"/>
+            <rdf:type rdf:resource="https://www.ica.org/standards/RiC/ontology#RecordSet"/>
+            <rico:hasRecordSetType rdf:resource="https://www.ica.org/standards/RiC/vocabularies/recordSetTypes#File"/>
+            <rico:title xml:lang="en">Astoria Pipe Yard</rico:title>
+            <rdfs:label xml:lang="en">Astoria Pipe Yard</rdfs:label>
+            <rico:beginningDate rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1988</rico:beginningDate>
+            <rico:endDate rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1989</rico:endDate>
+            <rico:date xml:lang="en">1988-1989</rico:date>
+            <rico:hasInstantiation>
+               <rico:Instantiation rdf:about="instantiation/-aspace_a25df0b2b30f92baa4abd817ef06d0f0-i1">
+                  <rico:instantiates rdf:resource="recordResource/-aspace_a25df0b2b30f92baa4abd817ef06d0f0"/>
+                  <rico:title xml:lang="en">Astoria Pipe Yard</rico:title>
+                  <rdfs:label xml:lang="en">Astoria Pipe Yard</rdfs:label>
+                  <rico:beginningDate rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1988</rico:beginningDate>
+                  <rico:endDate rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1989</rico:endDate>
+                  <rico:date xml:lang="en">1988-1989</rico:date>
+                  <rdfs:seeAlso rdf:resource="https://www.siv.archives-nationales.culture.gouv.fr/siv/UD/wag_166/aspace_a25df0b2b30f92baa4abd817ef06d0f0"/>
+               </rico:Instantiation>
+            </rico:hasInstantiation>
+         </rico:RecordResource>
+      </rico:includes>
+      <rico:includes>
+         <rico:RecordResource rdf:about="recordResource/-aspace_c5b99905e4ef3573a01fc7390e27af22">
+            <rico:includedIn rdf:resource="recordResource/-aspace_9f41038c19b384b055702bb4c9c916cf"/>
+            <rdf:type rdf:resource="https://www.ica.org/standards/RiC/ontology#RecordSet"/>
+            <rico:hasRecordSetType rdf:resource="https://www.ica.org/standards/RiC/vocabularies/recordSetTypes#File"/>
+            <rico:title xml:lang="en">Gramercy Park</rico:title>
+            <rdfs:label xml:lang="en">Gramercy Park</rdfs:label>
+            <rico:beginningDate rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1988</rico:beginningDate>
+            <rico:endDate rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1989</rico:endDate>
+            <rico:date xml:lang="en">1988-1989</rico:date>
+            <rico:hasInstantiation>
+               <rico:Instantiation rdf:about="instantiation/-aspace_c5b99905e4ef3573a01fc7390e27af22-i1">
+                  <rico:instantiates rdf:resource="recordResource/-aspace_c5b99905e4ef3573a01fc7390e27af22"/>
+                  <rico:title xml:lang="en">Gramercy Park</rico:title>
+                  <rdfs:label xml:lang="en">Gramercy Park</rdfs:label>
+                  <rico:beginningDate rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1988</rico:beginningDate>
+                  <rico:endDate rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1989</rico:endDate>
+                  <rico:date xml:lang="en">1988-1989</rico:date>
+                  <rdfs:seeAlso rdf:resource="https://www.siv.archives-nationales.culture.gouv.fr/siv/UD/wag_166/aspace_c5b99905e4ef3573a01fc7390e27af22"/>
+               </rico:Instantiation>
+            </rico:hasInstantiation>
+         </rico:RecordResource>
+      </rico:includes>
+      <rico:includes>
+         <rico:RecordResource rdf:about="recordResource/-aspace_464271e150d21550aa65170363bd0917">
+            <rico:includedIn rdf:resource="recordResource/-aspace_9f41038c19b384b055702bb4c9c916cf"/>
+            <rdf:type rdf:resource="https://www.ica.org/standards/RiC/ontology#RecordSet"/>
+            <rico:hasRecordSetType rdf:resource="https://www.ica.org/standards/RiC/vocabularies/recordSetTypes#File"/>
+            <rico:title xml:lang="en">Federal EPA Complaints</rico:title>
+            <rdfs:label xml:lang="en">Federal EPA Complaints</rdfs:label>
+            <rico:beginningDate rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1989</rico:beginningDate>
+            <rico:endDate rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1989</rico:endDate>
+            <rico:date xml:lang="en">1989</rico:date>
+            <rico:hasInstantiation>
+               <rico:Instantiation rdf:about="instantiation/-aspace_464271e150d21550aa65170363bd0917-i1">
+                  <rico:instantiates rdf:resource="recordResource/-aspace_464271e150d21550aa65170363bd0917"/>
+                  <rico:title xml:lang="en">Federal EPA Complaints</rico:title>
+                  <rdfs:label xml:lang="en">Federal EPA Complaints</rdfs:label>
+                  <rico:beginningDate rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1989</rico:beginningDate>
+                  <rico:endDate rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1989</rico:endDate>
+                  <rico:date xml:lang="en">1989</rico:date>
+                  <rdfs:seeAlso rdf:resource="https://www.siv.archives-nationales.culture.gouv.fr/siv/UD/wag_166/aspace_464271e150d21550aa65170363bd0917"/>
+               </rico:Instantiation>
+            </rico:hasInstantiation>
+         </rico:RecordResource>
+      </rico:includes>
+      <rico:includes>
+         <rico:RecordResource rdf:about="recordResource/-aspace_498183e30cb6bc1ab50058903a8426d3">
+            <rico:includedIn rdf:resource="recordResource/-aspace_9f41038c19b384b055702bb4c9c916cf"/>
+            <rdf:type rdf:resource="https://www.ica.org/standards/RiC/ontology#RecordSet"/>
+            <rico:hasRecordSetType rdf:resource="https://www.ica.org/standards/RiC/vocabularies/recordSetTypes#File"/>
+            <rico:title xml:lang="en">Tommy's day to day journal</rico:title>
+            <rdfs:label xml:lang="en">Tommy's day to day journal</rdfs:label>
+            <rico:beginningDate rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1989</rico:beginningDate>
+            <rico:endDate rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1989</rico:endDate>
+            <rico:date xml:lang="en">1989</rico:date>
+            <rico:hasInstantiation>
+               <rico:Instantiation rdf:about="instantiation/-aspace_498183e30cb6bc1ab50058903a8426d3-i1">
+                  <rico:instantiates rdf:resource="recordResource/-aspace_498183e30cb6bc1ab50058903a8426d3"/>
+                  <rico:title xml:lang="en">Tommy's day to day journal</rico:title>
+                  <rdfs:label xml:lang="en">Tommy's day to day journal</rdfs:label>
+                  <rico:beginningDate rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1989</rico:beginningDate>
+                  <rico:endDate rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1989</rico:endDate>
+                  <rico:date xml:lang="en">1989</rico:date>
+                  <rdfs:seeAlso rdf:resource="https://www.siv.archives-nationales.culture.gouv.fr/siv/UD/wag_166/aspace_498183e30cb6bc1ab50058903a8426d3"/>
+               </rico:Instantiation>
+            </rico:hasInstantiation>
+         </rico:RecordResource>
+      </rico:includes>
+      <rico:includes>
+         <rico:RecordResource rdf:about="recordResource/-aspace_6cf549d4c73026e40b6eb10fd53213ca">
+            <rico:includedIn rdf:resource="recordResource/-aspace_9f41038c19b384b055702bb4c9c916cf"/>
+            <rdf:type rdf:resource="https://www.ica.org/standards/RiC/ontology#RecordSet"/>
+            <rico:hasRecordSetType rdf:resource="https://www.ica.org/standards/RiC/vocabularies/recordSetTypes#File"/>
+            <rico:title xml:lang="en">Member safety complaints</rico:title>
+            <rdfs:label xml:lang="en">Member safety complaints</rdfs:label>
+            <rico:beginningDate rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1989</rico:beginningDate>
+            <rico:endDate rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1989</rico:endDate>
+            <rico:date xml:lang="en">1989</rico:date>
+            <rico:hasInstantiation>
+               <rico:Instantiation rdf:about="instantiation/-aspace_6cf549d4c73026e40b6eb10fd53213ca-i1">
+                  <rico:instantiates rdf:resource="recordResource/-aspace_6cf549d4c73026e40b6eb10fd53213ca"/>
+                  <rico:title xml:lang="en">Member safety complaints</rico:title>
+                  <rdfs:label xml:lang="en">Member safety complaints</rdfs:label>
+                  <rico:beginningDate rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1989</rico:beginningDate>
+                  <rico:endDate rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1989</rico:endDate>
+                  <rico:date xml:lang="en">1989</rico:date>
+                  <rdfs:seeAlso rdf:resource="https://www.siv.archives-nationales.culture.gouv.fr/siv/UD/wag_166/aspace_6cf549d4c73026e40b6eb10fd53213ca"/>
+               </rico:Instantiation>
+            </rico:hasInstantiation>
+         </rico:RecordResource>
+      </rico:includes>
+      <rico:includes>
+         <rico:RecordResource rdf:about="recordResource/-aspace_d8b385b092b729901615f7d26b8d867e">
+            <rico:includedIn rdf:resource="recordResource/-aspace_9f41038c19b384b055702bb4c9c916cf"/>
+            <rdf:type rdf:resource="https://www.ica.org/standards/RiC/ontology#RecordSet"/>
+            <rico:hasRecordSetType rdf:resource="https://www.ica.org/standards/RiC/vocabularies/recordSetTypes#File"/>
+            <rico:title xml:lang="en">Worker testimony</rico:title>
+            <rdfs:label xml:lang="en">Worker testimony</rdfs:label>
+            <rico:beginningDate rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1990</rico:beginningDate>
+            <rico:endDate rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1990</rico:endDate>
+            <rico:date xml:lang="en">1990</rico:date>
+            <rico:hasInstantiation>
+               <rico:Instantiation rdf:about="instantiation/-aspace_d8b385b092b729901615f7d26b8d867e-i1">
+                  <rico:instantiates rdf:resource="recordResource/-aspace_d8b385b092b729901615f7d26b8d867e"/>
+                  <rico:title xml:lang="en">Worker testimony</rico:title>
+                  <rdfs:label xml:lang="en">Worker testimony</rdfs:label>
+                  <rico:beginningDate rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1990</rico:beginningDate>
+                  <rico:endDate rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1990</rico:endDate>
+                  <rico:date xml:lang="en">1990</rico:date>
+                  <rdfs:seeAlso rdf:resource="https://www.siv.archives-nationales.culture.gouv.fr/siv/UD/wag_166/aspace_d8b385b092b729901615f7d26b8d867e"/>
+               </rico:Instantiation>
+            </rico:hasInstantiation>
+         </rico:RecordResource>
+      </rico:includes>
+      <rico:includes>
+         <rico:RecordResource rdf:about="recordResource/-aspace_fe944f075e0f54e386e97470fe496d6d">
+            <rico:includedIn rdf:resource="recordResource/-aspace_9f41038c19b384b055702bb4c9c916cf"/>
+            <rdf:type rdf:resource="https://www.ica.org/standards/RiC/ontology#RecordSet"/>
+            <rico:hasRecordSetType rdf:resource="https://www.ica.org/standards/RiC/vocabularies/recordSetTypes#File"/>
+            <rico:title xml:lang="en">Federal OSHA Complaints</rico:title>
+            <rdfs:label xml:lang="en">Federal OSHA Complaints</rdfs:label>
+            <rico:beginningDate rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1990</rico:beginningDate>
+            <rico:endDate rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1990</rico:endDate>
+            <rico:date xml:lang="en">1990</rico:date>
+            <rico:hasInstantiation>
+               <rico:Instantiation rdf:about="instantiation/-aspace_fe944f075e0f54e386e97470fe496d6d-i1">
+                  <rico:instantiates rdf:resource="recordResource/-aspace_fe944f075e0f54e386e97470fe496d6d"/>
+                  <rico:title xml:lang="en">Federal OSHA Complaints</rico:title>
+                  <rdfs:label xml:lang="en">Federal OSHA Complaints</rdfs:label>
+                  <rico:beginningDate rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1990</rico:beginningDate>
+                  <rico:endDate rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1990</rico:endDate>
+                  <rico:date xml:lang="en">1990</rico:date>
+                  <rdfs:seeAlso rdf:resource="https://www.siv.archives-nationales.culture.gouv.fr/siv/UD/wag_166/aspace_fe944f075e0f54e386e97470fe496d6d"/>
+               </rico:Instantiation>
+            </rico:hasInstantiation>
+         </rico:RecordResource>
+      </rico:includes>
+   </rico:RecordResource>
+   <rico:RecordResource rdf:about="recordResource/-aspace_a95521c0ce22ceb019cc325ef093ba29">
+      <rico:includedIn rdf:resource="recordResource/-top"/>
+      <rdf:type rdf:resource="https://www.ica.org/standards/RiC/ontology#RecordSet"/>
+      <rico:hasRecordSetType rdf:resource="https://www.ica.org/standards/RiC/vocabularies/recordSetTypes#Series"/>
+      <rico:title xml:lang="en">Series IV. Technical Materials</rico:title>
+      <rdfs:label xml:lang="en">Series IV. Technical Materials</rdfs:label>
+      <rico:beginningDate rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1975</rico:beginningDate>
+      <rico:endDate rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1991</rico:endDate>
+      <rico:date xml:lang="en">1975-1991</rico:date>
+      <rico:scopeAndContent rdf:parseType="Literal">
+         <html:p xml:lang="en">Series IV consists of handbooks, safety manuals, safety guidelines, and other materials produced by health and safety organizations including the Environmental Protection Agency, Occupational Safety and Health Administration, City Department of Environmental Variance, National Lighting Bureau, and the New York Committee for Occupation Safety and Health. The contents cover a variety of hazardous substances and related issues that affected members of Local 1-2: radiation exposure, asbestos, PCBs (polychlorinated biphenyls), clean air, lead, pole-mounted transformers, fiberglass wool insulation, cumulative trauma disorders, electrical safety, cadmium, oxygen masks, electromagnetic fields, trench excavation, fire prevention, industrial hygiene, lighting, and others.</html:p>
+      </rico:scopeAndContent>
+      <rico:hasInstantiation>
+         <rico:Instantiation rdf:about="instantiation/-aspace_a95521c0ce22ceb019cc325ef093ba29-i1">
+            <rico:instantiates rdf:resource="recordResource/-aspace_a95521c0ce22ceb019cc325ef093ba29"/>
+            <rico:title xml:lang="en">Series IV. Technical Materials</rico:title>
+            <rdfs:label xml:lang="en">Series IV. Technical Materials</rdfs:label>
+            <rico:instantiationExtent rdf:parseType="Literal">
+               <html:p xml:lang="en">1.5 Linear Feet</html:p>
+            </rico:instantiationExtent>
+            <rico:instantiationExtent rdf:parseType="Literal">
+               <html:p xml:lang="en">in 3 manuscript boxes.</html:p>
+            </rico:instantiationExtent>
+            <rico:beginningDate rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1975</rico:beginningDate>
+            <rico:endDate rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1991</rico:endDate>
+            <rico:date xml:lang="en">1975-1991</rico:date>
+            <rdfs:seeAlso rdf:resource="https://www.siv.archives-nationales.culture.gouv.fr/siv/UD/wag_166/aspace_a95521c0ce22ceb019cc325ef093ba29"/>
+         </rico:Instantiation>
+      </rico:hasInstantiation>
+      <rico:includes>
+         <rico:RecordResource rdf:about="recordResource/-aspace_699dc84517143f562db029c097ec989b">
+            <rico:includedIn rdf:resource="recordResource/-aspace_a95521c0ce22ceb019cc325ef093ba29"/>
+            <rdf:type rdf:resource="https://www.ica.org/standards/RiC/ontology#RecordSet"/>
+            <rico:hasRecordSetType rdf:resource="https://www.ica.org/standards/RiC/vocabularies/recordSetTypes#File"/>
+            <rico:title xml:lang="en">ConEd Safety Manual</rico:title>
+            <rdfs:label xml:lang="en">ConEd Safety Manual</rdfs:label>
+            <rico:beginningDate rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1975</rico:beginningDate>
+            <rico:endDate rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1994</rico:endDate>
+            <rico:date xml:lang="en">undated</rico:date>
+            <rico:hasInstantiation>
+               <rico:Instantiation rdf:about="instantiation/-aspace_699dc84517143f562db029c097ec989b-i1">
+                  <rico:instantiates rdf:resource="recordResource/-aspace_699dc84517143f562db029c097ec989b"/>
+                  <rico:title xml:lang="en">ConEd Safety Manual</rico:title>
+                  <rdfs:label xml:lang="en">ConEd Safety Manual</rdfs:label>
+                  <rico:beginningDate rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1975</rico:beginningDate>
+                  <rico:endDate rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1994</rico:endDate>
+                  <rico:date xml:lang="en">undated</rico:date>
+                  <rdfs:seeAlso rdf:resource="https://www.siv.archives-nationales.culture.gouv.fr/siv/UD/wag_166/aspace_699dc84517143f562db029c097ec989b"/>
+               </rico:Instantiation>
+            </rico:hasInstantiation>
+         </rico:RecordResource>
+      </rico:includes>
+      <rico:includes>
+         <rico:RecordResource rdf:about="recordResource/-aspace_edbe35af6e4bf912a0823fbf0fb1c0ac">
+            <rico:includedIn rdf:resource="recordResource/-aspace_a95521c0ce22ceb019cc325ef093ba29"/>
+            <rdf:type rdf:resource="https://www.ica.org/standards/RiC/ontology#RecordSet"/>
+            <rico:hasRecordSetType rdf:resource="https://www.ica.org/standards/RiC/vocabularies/recordSetTypes#File"/>
+            <rico:title xml:lang="en">ConEd--General Rules and Regulations</rico:title>
+            <rdfs:label xml:lang="en">ConEd--General Rules and Regulations</rdfs:label>
+            <rico:beginningDate rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1975</rico:beginningDate>
+            <rico:endDate rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1975</rico:endDate>
+            <rico:date xml:lang="en">1975</rico:date>
+            <rico:hasInstantiation>
+               <rico:Instantiation rdf:about="instantiation/-aspace_edbe35af6e4bf912a0823fbf0fb1c0ac-i1">
+                  <rico:instantiates rdf:resource="recordResource/-aspace_edbe35af6e4bf912a0823fbf0fb1c0ac"/>
+                  <rico:title xml:lang="en">ConEd--General Rules and Regulations</rico:title>
+                  <rdfs:label xml:lang="en">ConEd--General Rules and Regulations</rdfs:label>
+                  <rico:beginningDate rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1975</rico:beginningDate>
+                  <rico:endDate rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1975</rico:endDate>
+                  <rico:date xml:lang="en">1975</rico:date>
+                  <rdfs:seeAlso rdf:resource="https://www.siv.archives-nationales.culture.gouv.fr/siv/UD/wag_166/aspace_edbe35af6e4bf912a0823fbf0fb1c0ac"/>
+               </rico:Instantiation>
+            </rico:hasInstantiation>
+         </rico:RecordResource>
+      </rico:includes>
+      <rico:includes>
+         <rico:RecordResource rdf:about="recordResource/-aspace_198d4a9f8e800a4e85ce5bf3b50fa015">
+            <rico:includedIn rdf:resource="recordResource/-aspace_a95521c0ce22ceb019cc325ef093ba29"/>
+            <rdf:type rdf:resource="https://www.ica.org/standards/RiC/ontology#RecordSet"/>
+            <rico:hasRecordSetType rdf:resource="https://www.ica.org/standards/RiC/vocabularies/recordSetTypes#File"/>
+            <rico:title xml:lang="en">Manuals</rico:title>
+            <rdfs:label xml:lang="en">Manuals</rdfs:label>
+            <rico:beginningDate rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1976</rico:beginningDate>
+            <rico:endDate rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1987</rico:endDate>
+            <rico:date xml:lang="en">1976-1987</rico:date>
+            <rico:hasInstantiation>
+               <rico:Instantiation rdf:about="instantiation/-aspace_198d4a9f8e800a4e85ce5bf3b50fa015-i1">
+                  <rico:instantiates rdf:resource="recordResource/-aspace_198d4a9f8e800a4e85ce5bf3b50fa015"/>
+                  <rico:title xml:lang="en">Manuals</rico:title>
+                  <rdfs:label xml:lang="en">Manuals</rdfs:label>
+                  <rico:beginningDate rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1976</rico:beginningDate>
+                  <rico:endDate rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1987</rico:endDate>
+                  <rico:date xml:lang="en">1976-1987</rico:date>
+                  <rdfs:seeAlso rdf:resource="https://www.siv.archives-nationales.culture.gouv.fr/siv/UD/wag_166/aspace_198d4a9f8e800a4e85ce5bf3b50fa015"/>
+               </rico:Instantiation>
+            </rico:hasInstantiation>
+         </rico:RecordResource>
+      </rico:includes>
+      <rico:includes>
+         <rico:RecordResource rdf:about="recordResource/-aspace_5254fd71d8bab935e23b07f9fcc358c8">
+            <rico:includedIn rdf:resource="recordResource/-aspace_a95521c0ce22ceb019cc325ef093ba29"/>
+            <rdf:type rdf:resource="https://www.ica.org/standards/RiC/ontology#RecordSet"/>
+            <rico:hasRecordSetType rdf:resource="https://www.ica.org/standards/RiC/vocabularies/recordSetTypes#File"/>
+            <rico:title xml:lang="en">Asbestos Safety Manuals</rico:title>
+            <rdfs:label xml:lang="en">Asbestos Safety Manuals</rdfs:label>
+            <rico:beginningDate rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1981</rico:beginningDate>
+            <rico:endDate rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1981</rico:endDate>
+            <rico:date xml:lang="en">1981</rico:date>
+            <rico:hasInstantiation>
+               <rico:Instantiation rdf:about="instantiation/-aspace_5254fd71d8bab935e23b07f9fcc358c8-i1">
+                  <rico:instantiates rdf:resource="recordResource/-aspace_5254fd71d8bab935e23b07f9fcc358c8"/>
+                  <rico:title xml:lang="en">Asbestos Safety Manuals</rico:title>
+                  <rdfs:label xml:lang="en">Asbestos Safety Manuals</rdfs:label>
+                  <rico:beginningDate rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1981</rico:beginningDate>
+                  <rico:endDate rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1981</rico:endDate>
+                  <rico:date xml:lang="en">1981</rico:date>
+                  <rdfs:seeAlso rdf:resource="https://www.siv.archives-nationales.culture.gouv.fr/siv/UD/wag_166/aspace_5254fd71d8bab935e23b07f9fcc358c8"/>
+               </rico:Instantiation>
+            </rico:hasInstantiation>
+         </rico:RecordResource>
+      </rico:includes>
+      <rico:includes>
+         <rico:RecordResource rdf:about="recordResource/-aspace_f3debc0a5f874523923b0114e3b41b48">
+            <rico:includedIn rdf:resource="recordResource/-aspace_a95521c0ce22ceb019cc325ef093ba29"/>
+            <rdf:type rdf:resource="https://www.ica.org/standards/RiC/ontology#RecordSet"/>
+            <rico:hasRecordSetType rdf:resource="https://www.ica.org/standards/RiC/vocabularies/recordSetTypes#File"/>
+            <rico:title xml:lang="en">Fiberglass Wool</rico:title>
+            <rdfs:label xml:lang="en">Fiberglass Wool</rdfs:label>
+            <rico:beginningDate rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1981</rico:beginningDate>
+            <rico:endDate rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1987</rico:endDate>
+            <rico:date xml:lang="en">1981-1987</rico:date>
+            <rico:hasInstantiation>
+               <rico:Instantiation rdf:about="instantiation/-aspace_f3debc0a5f874523923b0114e3b41b48-i1">
+                  <rico:instantiates rdf:resource="recordResource/-aspace_f3debc0a5f874523923b0114e3b41b48"/>
+                  <rico:title xml:lang="en">Fiberglass Wool</rico:title>
+                  <rdfs:label xml:lang="en">Fiberglass Wool</rdfs:label>
+                  <rico:beginningDate rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1981</rico:beginningDate>
+                  <rico:endDate rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1987</rico:endDate>
+                  <rico:date xml:lang="en">1981-1987</rico:date>
+                  <rdfs:seeAlso rdf:resource="https://www.siv.archives-nationales.culture.gouv.fr/siv/UD/wag_166/aspace_f3debc0a5f874523923b0114e3b41b48"/>
+               </rico:Instantiation>
+            </rico:hasInstantiation>
+         </rico:RecordResource>
+      </rico:includes>
+      <rico:includes>
+         <rico:RecordResource rdf:about="recordResource/-aspace_76216cdc22ed5c8fde7e7babc3d0ef19">
+            <rico:includedIn rdf:resource="recordResource/-aspace_a95521c0ce22ceb019cc325ef093ba29"/>
+            <rdf:type rdf:resource="https://www.ica.org/standards/RiC/ontology#RecordSet"/>
+            <rico:hasRecordSetType rdf:resource="https://www.ica.org/standards/RiC/vocabularies/recordSetTypes#File"/>
+            <rico:title xml:lang="en">Iron</rico:title>
+            <rdfs:label xml:lang="en">Iron</rdfs:label>
+            <rico:beginningDate rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1985</rico:beginningDate>
+            <rico:endDate rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1985</rico:endDate>
+            <rico:date xml:lang="en">1985</rico:date>
+            <rico:hasInstantiation>
+               <rico:Instantiation rdf:about="instantiation/-aspace_76216cdc22ed5c8fde7e7babc3d0ef19-i1">
+                  <rico:instantiates rdf:resource="recordResource/-aspace_76216cdc22ed5c8fde7e7babc3d0ef19"/>
+                  <rico:title xml:lang="en">Iron</rico:title>
+                  <rdfs:label xml:lang="en">Iron</rdfs:label>
+                  <rico:beginningDate rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1985</rico:beginningDate>
+                  <rico:endDate rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1985</rico:endDate>
+                  <rico:date xml:lang="en">1985</rico:date>
+                  <rdfs:seeAlso rdf:resource="https://www.siv.archives-nationales.culture.gouv.fr/siv/UD/wag_166/aspace_76216cdc22ed5c8fde7e7babc3d0ef19"/>
+               </rico:Instantiation>
+            </rico:hasInstantiation>
+         </rico:RecordResource>
+      </rico:includes>
+      <rico:includes>
+         <rico:RecordResource rdf:about="recordResource/-aspace_2a968b2bb99fd95702822fffa41a0b21">
+            <rico:includedIn rdf:resource="recordResource/-aspace_a95521c0ce22ceb019cc325ef093ba29"/>
+            <rdf:type rdf:resource="https://www.ica.org/standards/RiC/ontology#RecordSet"/>
+            <rico:hasRecordSetType rdf:resource="https://www.ica.org/standards/RiC/vocabularies/recordSetTypes#File"/>
+            <rico:title xml:lang="en">Environmental Protection Agency Guidance for Controlling Asbestos Containing Materials in Buildings</rico:title>
+            <rdfs:label xml:lang="en">Environmental Protection Agency Guidance for Controlling Asbestos Containing Materials in Buildings</rdfs:label>
+            <rico:beginningDate rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1985</rico:beginningDate>
+            <rico:endDate rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1985</rico:endDate>
+            <rico:date xml:lang="en">1985</rico:date>
+            <rico:hasInstantiation>
+               <rico:Instantiation rdf:about="instantiation/-aspace_2a968b2bb99fd95702822fffa41a0b21-i1">
+                  <rico:instantiates rdf:resource="recordResource/-aspace_2a968b2bb99fd95702822fffa41a0b21"/>
+                  <rico:title xml:lang="en">Environmental Protection Agency Guidance for Controlling Asbestos Containing Materials in Buildings</rico:title>
+                  <rdfs:label xml:lang="en">Environmental Protection Agency Guidance for Controlling Asbestos Containing Materials in Buildings</rdfs:label>
+                  <rico:beginningDate rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1985</rico:beginningDate>
+                  <rico:endDate rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1985</rico:endDate>
+                  <rico:date xml:lang="en">1985</rico:date>
+                  <rdfs:seeAlso rdf:resource="https://www.siv.archives-nationales.culture.gouv.fr/siv/UD/wag_166/aspace_2a968b2bb99fd95702822fffa41a0b21"/>
+               </rico:Instantiation>
+            </rico:hasInstantiation>
+         </rico:RecordResource>
+      </rico:includes>
+      <rico:includes>
+         <rico:RecordResource rdf:about="recordResource/-aspace_90d9c90bef891ed6158db9e0d9f27d52">
+            <rico:includedIn rdf:resource="recordResource/-aspace_a95521c0ce22ceb019cc325ef093ba29"/>
+            <rdf:type rdf:resource="https://www.ica.org/standards/RiC/ontology#RecordSet"/>
+            <rico:hasRecordSetType rdf:resource="https://www.ica.org/standards/RiC/vocabularies/recordSetTypes#File"/>
+            <rico:title xml:lang="en">Medical Industrial Hygiene Safety</rico:title>
+            <rdfs:label xml:lang="en">Medical Industrial Hygiene Safety</rdfs:label>
+            <rico:beginningDate rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1985</rico:beginningDate>
+            <rico:endDate rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1990</rico:endDate>
+            <rico:date xml:lang="en">1985-1990</rico:date>
+            <rico:hasInstantiation>
+               <rico:Instantiation rdf:about="instantiation/-aspace_90d9c90bef891ed6158db9e0d9f27d52-i1">
+                  <rico:instantiates rdf:resource="recordResource/-aspace_90d9c90bef891ed6158db9e0d9f27d52"/>
+                  <rico:title xml:lang="en">Medical Industrial Hygiene Safety</rico:title>
+                  <rdfs:label xml:lang="en">Medical Industrial Hygiene Safety</rdfs:label>
+                  <rico:beginningDate rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1985</rico:beginningDate>
+                  <rico:endDate rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1990</rico:endDate>
+                  <rico:date xml:lang="en">1985-1990</rico:date>
+                  <rdfs:seeAlso rdf:resource="https://www.siv.archives-nationales.culture.gouv.fr/siv/UD/wag_166/aspace_90d9c90bef891ed6158db9e0d9f27d52"/>
+               </rico:Instantiation>
+            </rico:hasInstantiation>
+         </rico:RecordResource>
+      </rico:includes>
+      <rico:includes>
+         <rico:RecordResource rdf:about="recordResource/-aspace_48ff0a976a786d6e39deb476e4c46a81">
+            <rico:includedIn rdf:resource="recordResource/-aspace_a95521c0ce22ceb019cc325ef093ba29"/>
+            <rdf:type rdf:resource="https://www.ica.org/standards/RiC/ontology#RecordSet"/>
+            <rico:hasRecordSetType rdf:resource="https://www.ica.org/standards/RiC/vocabularies/recordSetTypes#File"/>
+            <rico:title xml:lang="en">Hot Environments</rico:title>
+            <rdfs:label xml:lang="en">Hot Environments</rdfs:label>
+            <rico:beginningDate rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1987</rico:beginningDate>
+            <rico:endDate rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1987</rico:endDate>
+            <rico:date xml:lang="en">1987</rico:date>
+            <rico:hasInstantiation>
+               <rico:Instantiation rdf:about="instantiation/-aspace_48ff0a976a786d6e39deb476e4c46a81-i1">
+                  <rico:instantiates rdf:resource="recordResource/-aspace_48ff0a976a786d6e39deb476e4c46a81"/>
+                  <rico:title xml:lang="en">Hot Environments</rico:title>
+                  <rdfs:label xml:lang="en">Hot Environments</rdfs:label>
+                  <rico:beginningDate rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1987</rico:beginningDate>
+                  <rico:endDate rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1987</rico:endDate>
+                  <rico:date xml:lang="en">1987</rico:date>
+                  <rdfs:seeAlso rdf:resource="https://www.siv.archives-nationales.culture.gouv.fr/siv/UD/wag_166/aspace_48ff0a976a786d6e39deb476e4c46a81"/>
+               </rico:Instantiation>
+            </rico:hasInstantiation>
+         </rico:RecordResource>
+      </rico:includes>
+      <rico:includes>
+         <rico:RecordResource rdf:about="recordResource/-aspace_d0b2603fb975b240e9839a9b3023afb9">
+            <rico:includedIn rdf:resource="recordResource/-aspace_a95521c0ce22ceb019cc325ef093ba29"/>
+            <rdf:type rdf:resource="https://www.ica.org/standards/RiC/ontology#RecordSet"/>
+            <rico:hasRecordSetType rdf:resource="https://www.ica.org/standards/RiC/vocabularies/recordSetTypes#File"/>
+            <rico:title xml:lang="en">Polychlorinated Biphenyl (PCB)</rico:title>
+            <rdfs:label xml:lang="en">Polychlorinated Biphenyl (PCB)</rdfs:label>
+            <rico:beginningDate rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1985</rico:beginningDate>
+            <rico:endDate rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1990</rico:endDate>
+            <rico:date xml:lang="en">1985-1990</rico:date>
+            <rico:hasInstantiation>
+               <rico:Instantiation rdf:about="instantiation/-aspace_d0b2603fb975b240e9839a9b3023afb9-i1">
+                  <rico:instantiates rdf:resource="recordResource/-aspace_d0b2603fb975b240e9839a9b3023afb9"/>
+                  <rico:title xml:lang="en">Polychlorinated Biphenyl (PCB)</rico:title>
+                  <rdfs:label xml:lang="en">Polychlorinated Biphenyl (PCB)</rdfs:label>
+                  <rico:beginningDate rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1985</rico:beginningDate>
+                  <rico:endDate rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1990</rico:endDate>
+                  <rico:date xml:lang="en">1985-1990</rico:date>
+                  <rdfs:seeAlso rdf:resource="https://www.siv.archives-nationales.culture.gouv.fr/siv/UD/wag_166/aspace_d0b2603fb975b240e9839a9b3023afb9"/>
+               </rico:Instantiation>
+            </rico:hasInstantiation>
+         </rico:RecordResource>
+      </rico:includes>
+      <rico:includes>
+         <rico:RecordResource rdf:about="recordResource/-aspace_8577f5cd5c6dbf6345141614f7f9f91a">
+            <rico:includedIn rdf:resource="recordResource/-aspace_a95521c0ce22ceb019cc325ef093ba29"/>
+            <rdf:type rdf:resource="https://www.ica.org/standards/RiC/ontology#RecordSet"/>
+            <rico:hasRecordSetType rdf:resource="https://www.ica.org/standards/RiC/vocabularies/recordSetTypes#File"/>
+            <rico:title xml:lang="en">Polychlorinated Biphenyl (PCB) Cleanup</rico:title>
+            <rdfs:label xml:lang="en">Polychlorinated Biphenyl (PCB) Cleanup</rdfs:label>
+            <rico:beginningDate rdf:datatype="http://www.w3.org/2001/XMLSchema#gYearMonth">1989-10</rico:beginningDate>
+            <rico:endDate rdf:datatype="http://www.w3.org/2001/XMLSchema#gYearMonth">1989-10</rico:endDate>
+            <rico:date xml:lang="en">October 1989</rico:date>
+            <rico:hasInstantiation>
+               <rico:Instantiation rdf:about="instantiation/-aspace_8577f5cd5c6dbf6345141614f7f9f91a-i1">
+                  <rico:instantiates rdf:resource="recordResource/-aspace_8577f5cd5c6dbf6345141614f7f9f91a"/>
+                  <rico:title xml:lang="en">Polychlorinated Biphenyl (PCB) Cleanup</rico:title>
+                  <rdfs:label xml:lang="en">Polychlorinated Biphenyl (PCB) Cleanup</rdfs:label>
+                  <rico:beginningDate rdf:datatype="http://www.w3.org/2001/XMLSchema#gYearMonth">1989-10</rico:beginningDate>
+                  <rico:endDate rdf:datatype="http://www.w3.org/2001/XMLSchema#gYearMonth">1989-10</rico:endDate>
+                  <rico:date xml:lang="en">October 1989</rico:date>
+                  <rdfs:seeAlso rdf:resource="https://www.siv.archives-nationales.culture.gouv.fr/siv/UD/wag_166/aspace_8577f5cd5c6dbf6345141614f7f9f91a"/>
+               </rico:Instantiation>
+            </rico:hasInstantiation>
+         </rico:RecordResource>
+      </rico:includes>
+      <rico:includes>
+         <rico:RecordResource rdf:about="recordResource/-aspace_0b38d9d9d16d82131ff364cea8366c18">
+            <rico:includedIn rdf:resource="recordResource/-aspace_a95521c0ce22ceb019cc325ef093ba29"/>
+            <rdf:type rdf:resource="https://www.ica.org/standards/RiC/ontology#RecordSet"/>
+            <rico:hasRecordSetType rdf:resource="https://www.ica.org/standards/RiC/vocabularies/recordSetTypes#File"/>
+            <rico:title xml:lang="en">Asbestos Bulk Sample Analysys</rico:title>
+            <rdfs:label xml:lang="en">Asbestos Bulk Sample Analysys</rdfs:label>
+            <rico:beginningDate rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1988</rico:beginningDate>
+            <rico:endDate rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1989</rico:endDate>
+            <rico:date xml:lang="en">1988-1989</rico:date>
+            <rico:hasInstantiation>
+               <rico:Instantiation rdf:about="instantiation/-aspace_0b38d9d9d16d82131ff364cea8366c18-i1">
+                  <rico:instantiates rdf:resource="recordResource/-aspace_0b38d9d9d16d82131ff364cea8366c18"/>
+                  <rico:title xml:lang="en">Asbestos Bulk Sample Analysys</rico:title>
+                  <rdfs:label xml:lang="en">Asbestos Bulk Sample Analysys</rdfs:label>
+                  <rico:beginningDate rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1988</rico:beginningDate>
+                  <rico:endDate rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1989</rico:endDate>
+                  <rico:date xml:lang="en">1988-1989</rico:date>
+                  <rdfs:seeAlso rdf:resource="https://www.siv.archives-nationales.culture.gouv.fr/siv/UD/wag_166/aspace_0b38d9d9d16d82131ff364cea8366c18"/>
+               </rico:Instantiation>
+            </rico:hasInstantiation>
+         </rico:RecordResource>
+      </rico:includes>
+      <rico:includes>
+         <rico:RecordResource rdf:about="recordResource/-aspace_99d8ab1c8cd395c2bc7b5361308f76fa">
+            <rico:includedIn rdf:resource="recordResource/-aspace_a95521c0ce22ceb019cc325ef093ba29"/>
+            <rdf:type rdf:resource="https://www.ica.org/standards/RiC/ontology#RecordSet"/>
+            <rico:hasRecordSetType rdf:resource="https://www.ica.org/standards/RiC/vocabularies/recordSetTypes#File"/>
+            <rico:title xml:lang="en">City of New York Department of Environmental Protection--Asbestos Variance</rico:title>
+            <rdfs:label xml:lang="en">City of New York Department of Environmental Protection--Asbestos Variance</rdfs:label>
+            <rico:beginningDate rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1988</rico:beginningDate>
+            <rico:endDate rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1990</rico:endDate>
+            <rico:date xml:lang="en">1988-1990</rico:date>
+            <rico:hasInstantiation>
+               <rico:Instantiation rdf:about="instantiation/-aspace_99d8ab1c8cd395c2bc7b5361308f76fa-i1">
+                  <rico:instantiates rdf:resource="recordResource/-aspace_99d8ab1c8cd395c2bc7b5361308f76fa"/>
+                  <rico:title xml:lang="en">City of New York Department of Environmental Protection--Asbestos Variance</rico:title>
+                  <rdfs:label xml:lang="en">City of New York Department of Environmental Protection--Asbestos Variance</rdfs:label>
+                  <rico:beginningDate rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1988</rico:beginningDate>
+                  <rico:endDate rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1990</rico:endDate>
+                  <rico:date xml:lang="en">1988-1990</rico:date>
+                  <rdfs:seeAlso rdf:resource="https://www.siv.archives-nationales.culture.gouv.fr/siv/UD/wag_166/aspace_99d8ab1c8cd395c2bc7b5361308f76fa"/>
+               </rico:Instantiation>
+            </rico:hasInstantiation>
+         </rico:RecordResource>
+      </rico:includes>
+      <rico:includes>
+         <rico:RecordResource rdf:about="recordResource/-aspace_77b6f18cbdbf2ead26964101b53723f0">
+            <rico:includedIn rdf:resource="recordResource/-aspace_a95521c0ce22ceb019cc325ef093ba29"/>
+            <rdf:type rdf:resource="https://www.ica.org/standards/RiC/ontology#RecordSet"/>
+            <rico:hasRecordSetType rdf:resource="https://www.ica.org/standards/RiC/vocabularies/recordSetTypes#File"/>
+            <rico:title xml:lang="en">Penewet</rico:title>
+            <rdfs:label xml:lang="en">Penewet</rdfs:label>
+            <rico:beginningDate rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1988</rico:beginningDate>
+            <rico:endDate rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1988</rico:endDate>
+            <rico:date xml:lang="en">1988</rico:date>
+            <rico:hasInstantiation>
+               <rico:Instantiation rdf:about="instantiation/-aspace_77b6f18cbdbf2ead26964101b53723f0-i1">
+                  <rico:instantiates rdf:resource="recordResource/-aspace_77b6f18cbdbf2ead26964101b53723f0"/>
+                  <rico:title xml:lang="en">Penewet</rico:title>
+                  <rdfs:label xml:lang="en">Penewet</rdfs:label>
+                  <rico:beginningDate rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1988</rico:beginningDate>
+                  <rico:endDate rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1988</rico:endDate>
+                  <rico:date xml:lang="en">1988</rico:date>
+                  <rdfs:seeAlso rdf:resource="https://www.siv.archives-nationales.culture.gouv.fr/siv/UD/wag_166/aspace_77b6f18cbdbf2ead26964101b53723f0"/>
+               </rico:Instantiation>
+            </rico:hasInstantiation>
+         </rico:RecordResource>
+      </rico:includes>
+      <rico:includes>
+         <rico:RecordResource rdf:about="recordResource/-aspace_7d91b196b604b17d11c78e8075912aa3">
+            <rico:includedIn rdf:resource="recordResource/-aspace_a95521c0ce22ceb019cc325ef093ba29"/>
+            <rdf:type rdf:resource="https://www.ica.org/standards/RiC/ontology#RecordSet"/>
+            <rico:hasRecordSetType rdf:resource="https://www.ica.org/standards/RiC/vocabularies/recordSetTypes#File"/>
+            <rico:title xml:lang="en">Electric and Magnetic Fields</rico:title>
+            <rdfs:label xml:lang="en">Electric and Magnetic Fields</rdfs:label>
+            <rico:beginningDate rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1988</rico:beginningDate>
+            <rico:endDate rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1988</rico:endDate>
+            <rico:date xml:lang="en">1988</rico:date>
+            <rico:hasInstantiation>
+               <rico:Instantiation rdf:about="instantiation/-aspace_7d91b196b604b17d11c78e8075912aa3-i1">
+                  <rico:instantiates rdf:resource="recordResource/-aspace_7d91b196b604b17d11c78e8075912aa3"/>
+                  <rico:title xml:lang="en">Electric and Magnetic Fields</rico:title>
+                  <rdfs:label xml:lang="en">Electric and Magnetic Fields</rdfs:label>
+                  <rico:beginningDate rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1988</rico:beginningDate>
+                  <rico:endDate rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1988</rico:endDate>
+                  <rico:date xml:lang="en">1988</rico:date>
+                  <rdfs:seeAlso rdf:resource="https://www.siv.archives-nationales.culture.gouv.fr/siv/UD/wag_166/aspace_7d91b196b604b17d11c78e8075912aa3"/>
+               </rico:Instantiation>
+            </rico:hasInstantiation>
+         </rico:RecordResource>
+      </rico:includes>
+      <rico:includes>
+         <rico:RecordResource rdf:about="recordResource/-aspace_c6659802b871a6f93000172747075c3f">
+            <rico:includedIn rdf:resource="recordResource/-aspace_a95521c0ce22ceb019cc325ef093ba29"/>
+            <rdf:type rdf:resource="https://www.ica.org/standards/RiC/ontology#RecordSet"/>
+            <rico:hasRecordSetType rdf:resource="https://www.ica.org/standards/RiC/vocabularies/recordSetTypes#File"/>
+            <rico:title xml:lang="en">Cadmium</rico:title>
+            <rdfs:label xml:lang="en">Cadmium</rdfs:label>
+            <rico:beginningDate rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1989</rico:beginningDate>
+            <rico:endDate rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1989</rico:endDate>
+            <rico:date xml:lang="en">1989</rico:date>
+            <rico:hasInstantiation>
+               <rico:Instantiation rdf:about="instantiation/-aspace_c6659802b871a6f93000172747075c3f-i1">
+                  <rico:instantiates rdf:resource="recordResource/-aspace_c6659802b871a6f93000172747075c3f"/>
+                  <rico:title xml:lang="en">Cadmium</rico:title>
+                  <rdfs:label xml:lang="en">Cadmium</rdfs:label>
+                  <rico:beginningDate rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1989</rico:beginningDate>
+                  <rico:endDate rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1989</rico:endDate>
+                  <rico:date xml:lang="en">1989</rico:date>
+                  <rdfs:seeAlso rdf:resource="https://www.siv.archives-nationales.culture.gouv.fr/siv/UD/wag_166/aspace_c6659802b871a6f93000172747075c3f"/>
+               </rico:Instantiation>
+            </rico:hasInstantiation>
+         </rico:RecordResource>
+      </rico:includes>
+      <rico:includes>
+         <rico:RecordResource rdf:about="recordResource/-aspace_f8dfe46f2bf51422e9ef3d3ad9f058c7">
+            <rico:includedIn rdf:resource="recordResource/-aspace_a95521c0ce22ceb019cc325ef093ba29"/>
+            <rdf:type rdf:resource="https://www.ica.org/standards/RiC/ontology#RecordSet"/>
+            <rico:hasRecordSetType rdf:resource="https://www.ica.org/standards/RiC/vocabularies/recordSetTypes#File"/>
+            <rico:title xml:lang="en">Cortec VCI-309 Powder--Amine salts</rico:title>
+            <rdfs:label xml:lang="en">Cortec VCI-309 Powder--Amine salts</rdfs:label>
+            <rico:beginningDate rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1989</rico:beginningDate>
+            <rico:endDate rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1989</rico:endDate>
+            <rico:date xml:lang="en">1989</rico:date>
+            <rico:hasInstantiation>
+               <rico:Instantiation rdf:about="instantiation/-aspace_f8dfe46f2bf51422e9ef3d3ad9f058c7-i1">
+                  <rico:instantiates rdf:resource="recordResource/-aspace_f8dfe46f2bf51422e9ef3d3ad9f058c7"/>
+                  <rico:title xml:lang="en">Cortec VCI-309 Powder--Amine salts</rico:title>
+                  <rdfs:label xml:lang="en">Cortec VCI-309 Powder--Amine salts</rdfs:label>
+                  <rico:beginningDate rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1989</rico:beginningDate>
+                  <rico:endDate rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1989</rico:endDate>
+                  <rico:date xml:lang="en">1989</rico:date>
+                  <rdfs:seeAlso rdf:resource="https://www.siv.archives-nationales.culture.gouv.fr/siv/UD/wag_166/aspace_f8dfe46f2bf51422e9ef3d3ad9f058c7"/>
+               </rico:Instantiation>
+            </rico:hasInstantiation>
+         </rico:RecordResource>
+      </rico:includes>
+      <rico:includes>
+         <rico:RecordResource rdf:about="recordResource/-aspace_6509ac312344540e28cc8a32c8c99d53">
+            <rico:includedIn rdf:resource="recordResource/-aspace_a95521c0ce22ceb019cc325ef093ba29"/>
+            <rdf:type rdf:resource="https://www.ica.org/standards/RiC/ontology#RecordSet"/>
+            <rico:hasRecordSetType rdf:resource="https://www.ica.org/standards/RiC/vocabularies/recordSetTypes#File"/>
+            <rico:title xml:lang="en">Safety eyeglasses problem</rico:title>
+            <rdfs:label xml:lang="en">Safety eyeglasses problem</rdfs:label>
+            <rico:beginningDate rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1989</rico:beginningDate>
+            <rico:endDate rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1989</rico:endDate>
+            <rico:date xml:lang="en">1989</rico:date>
+            <rico:hasInstantiation>
+               <rico:Instantiation rdf:about="instantiation/-aspace_6509ac312344540e28cc8a32c8c99d53-i1">
+                  <rico:instantiates rdf:resource="recordResource/-aspace_6509ac312344540e28cc8a32c8c99d53"/>
+                  <rico:title xml:lang="en">Safety eyeglasses problem</rico:title>
+                  <rdfs:label xml:lang="en">Safety eyeglasses problem</rdfs:label>
+                  <rico:beginningDate rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1989</rico:beginningDate>
+                  <rico:endDate rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1989</rico:endDate>
+                  <rico:date xml:lang="en">1989</rico:date>
+                  <rdfs:seeAlso rdf:resource="https://www.siv.archives-nationales.culture.gouv.fr/siv/UD/wag_166/aspace_6509ac312344540e28cc8a32c8c99d53"/>
+               </rico:Instantiation>
+            </rico:hasInstantiation>
+         </rico:RecordResource>
+      </rico:includes>
+      <rico:includes>
+         <rico:RecordResource rdf:about="recordResource/-aspace_28ed65ec94b8fb4104d46f382ed31a66">
+            <rico:includedIn rdf:resource="recordResource/-aspace_a95521c0ce22ceb019cc325ef093ba29"/>
+            <rdf:type rdf:resource="https://www.ica.org/standards/RiC/ontology#RecordSet"/>
+            <rico:hasRecordSetType rdf:resource="https://www.ica.org/standards/RiC/vocabularies/recordSetTypes#File"/>
+            <rico:title xml:lang="en">Electrical safety</rico:title>
+            <rdfs:label xml:lang="en">Electrical safety</rdfs:label>
+            <rico:beginningDate rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1989</rico:beginningDate>
+            <rico:endDate rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1990</rico:endDate>
+            <rico:date xml:lang="en">1989-1990</rico:date>
+            <rico:hasInstantiation>
+               <rico:Instantiation rdf:about="instantiation/-aspace_28ed65ec94b8fb4104d46f382ed31a66-i1">
+                  <rico:instantiates rdf:resource="recordResource/-aspace_28ed65ec94b8fb4104d46f382ed31a66"/>
+                  <rico:title xml:lang="en">Electrical safety</rico:title>
+                  <rdfs:label xml:lang="en">Electrical safety</rdfs:label>
+                  <rico:beginningDate rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1989</rico:beginningDate>
+                  <rico:endDate rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1990</rico:endDate>
+                  <rico:date xml:lang="en">1989-1990</rico:date>
+                  <rdfs:seeAlso rdf:resource="https://www.siv.archives-nationales.culture.gouv.fr/siv/UD/wag_166/aspace_28ed65ec94b8fb4104d46f382ed31a66"/>
+               </rico:Instantiation>
+            </rico:hasInstantiation>
+         </rico:RecordResource>
+      </rico:includes>
+      <rico:includes>
+         <rico:RecordResource rdf:about="recordResource/-aspace_ee58f0a4493ca7aabe23c13e0cc06514">
+            <rico:includedIn rdf:resource="recordResource/-aspace_a95521c0ce22ceb019cc325ef093ba29"/>
+            <rdf:type rdf:resource="https://www.ica.org/standards/RiC/ontology#RecordSet"/>
+            <rico:hasRecordSetType rdf:resource="https://www.ica.org/standards/RiC/vocabularies/recordSetTypes#File"/>
+            <rico:title xml:lang="en">Solvents</rico:title>
+            <rdfs:label xml:lang="en">Solvents</rdfs:label>
+            <rico:beginningDate rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1989</rico:beginningDate>
+            <rico:endDate rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1990</rico:endDate>
+            <rico:date xml:lang="en">1989-1990</rico:date>
+            <rico:hasInstantiation>
+               <rico:Instantiation rdf:about="instantiation/-aspace_ee58f0a4493ca7aabe23c13e0cc06514-i1">
+                  <rico:instantiates rdf:resource="recordResource/-aspace_ee58f0a4493ca7aabe23c13e0cc06514"/>
+                  <rico:title xml:lang="en">Solvents</rico:title>
+                  <rdfs:label xml:lang="en">Solvents</rdfs:label>
+                  <rico:beginningDate rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1989</rico:beginningDate>
+                  <rico:endDate rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1990</rico:endDate>
+                  <rico:date xml:lang="en">1989-1990</rico:date>
+                  <rdfs:seeAlso rdf:resource="https://www.siv.archives-nationales.culture.gouv.fr/siv/UD/wag_166/aspace_ee58f0a4493ca7aabe23c13e0cc06514"/>
+               </rico:Instantiation>
+            </rico:hasInstantiation>
+         </rico:RecordResource>
+      </rico:includes>
+      <rico:includes>
+         <rico:RecordResource rdf:about="recordResource/-aspace_8a81b956b106df1dcd615e71d7ca21e8">
+            <rico:includedIn rdf:resource="recordResource/-aspace_a95521c0ce22ceb019cc325ef093ba29"/>
+            <rdf:type rdf:resource="https://www.ica.org/standards/RiC/ontology#RecordSet"/>
+            <rico:hasRecordSetType rdf:resource="https://www.ica.org/standards/RiC/vocabularies/recordSetTypes#File"/>
+            <rico:title xml:lang="en">Asbestos</rico:title>
+            <rdfs:label xml:lang="en">Asbestos</rdfs:label>
+            <rico:beginningDate rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1990</rico:beginningDate>
+            <rico:endDate rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1990</rico:endDate>
+            <rico:date xml:lang="en">1990</rico:date>
+            <rico:hasInstantiation>
+               <rico:Instantiation rdf:about="instantiation/-aspace_8a81b956b106df1dcd615e71d7ca21e8-i1">
+                  <rico:instantiates rdf:resource="recordResource/-aspace_8a81b956b106df1dcd615e71d7ca21e8"/>
+                  <rico:title xml:lang="en">Asbestos</rico:title>
+                  <rdfs:label xml:lang="en">Asbestos</rdfs:label>
+                  <rico:beginningDate rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1990</rico:beginningDate>
+                  <rico:endDate rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1990</rico:endDate>
+                  <rico:date xml:lang="en">1990</rico:date>
+                  <rdfs:seeAlso rdf:resource="https://www.siv.archives-nationales.culture.gouv.fr/siv/UD/wag_166/aspace_8a81b956b106df1dcd615e71d7ca21e8"/>
+               </rico:Instantiation>
+            </rico:hasInstantiation>
+         </rico:RecordResource>
+      </rico:includes>
+      <rico:includes>
+         <rico:RecordResource rdf:about="recordResource/-aspace_ac05357b157d9d0943d59754cabbab9d">
+            <rico:includedIn rdf:resource="recordResource/-aspace_a95521c0ce22ceb019cc325ef093ba29"/>
+            <rdf:type rdf:resource="https://www.ica.org/standards/RiC/ontology#RecordSet"/>
+            <rico:hasRecordSetType rdf:resource="https://www.ica.org/standards/RiC/vocabularies/recordSetTypes#File"/>
+            <rico:title xml:lang="en">Hiring information</rico:title>
+            <rdfs:label xml:lang="en">Hiring information</rdfs:label>
+            <rico:beginningDate rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1990</rico:beginningDate>
+            <rico:endDate rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1990</rico:endDate>
+            <rico:date xml:lang="en">1990</rico:date>
+            <rico:hasInstantiation>
+               <rico:Instantiation rdf:about="instantiation/-aspace_ac05357b157d9d0943d59754cabbab9d-i1">
+                  <rico:instantiates rdf:resource="recordResource/-aspace_ac05357b157d9d0943d59754cabbab9d"/>
+                  <rico:title xml:lang="en">Hiring information</rico:title>
+                  <rdfs:label xml:lang="en">Hiring information</rdfs:label>
+                  <rico:beginningDate rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1990</rico:beginningDate>
+                  <rico:endDate rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1990</rico:endDate>
+                  <rico:date xml:lang="en">1990</rico:date>
+                  <rdfs:seeAlso rdf:resource="https://www.siv.archives-nationales.culture.gouv.fr/siv/UD/wag_166/aspace_ac05357b157d9d0943d59754cabbab9d"/>
+               </rico:Instantiation>
+            </rico:hasInstantiation>
+         </rico:RecordResource>
+      </rico:includes>
+      <rico:includes>
+         <rico:RecordResource rdf:about="recordResource/-aspace_2b730970f7088eb2143e16023a270c9f">
+            <rico:includedIn rdf:resource="recordResource/-aspace_a95521c0ce22ceb019cc325ef093ba29"/>
+            <rdf:type rdf:resource="https://www.ica.org/standards/RiC/ontology#RecordSet"/>
+            <rico:hasRecordSetType rdf:resource="https://www.ica.org/standards/RiC/vocabularies/recordSetTypes#File"/>
+            <rico:title xml:lang="en">Fire prevention</rico:title>
+            <rdfs:label xml:lang="en">Fire prevention</rdfs:label>
+            <rico:beginningDate rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1990</rico:beginningDate>
+            <rico:endDate rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1990</rico:endDate>
+            <rico:date xml:lang="en">1990</rico:date>
+            <rico:hasInstantiation>
+               <rico:Instantiation rdf:about="instantiation/-aspace_2b730970f7088eb2143e16023a270c9f-i1">
+                  <rico:instantiates rdf:resource="recordResource/-aspace_2b730970f7088eb2143e16023a270c9f"/>
+                  <rico:title xml:lang="en">Fire prevention</rico:title>
+                  <rdfs:label xml:lang="en">Fire prevention</rdfs:label>
+                  <rico:beginningDate rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1990</rico:beginningDate>
+                  <rico:endDate rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1990</rico:endDate>
+                  <rico:date xml:lang="en">1990</rico:date>
+                  <rdfs:seeAlso rdf:resource="https://www.siv.archives-nationales.culture.gouv.fr/siv/UD/wag_166/aspace_2b730970f7088eb2143e16023a270c9f"/>
+               </rico:Instantiation>
+            </rico:hasInstantiation>
+         </rico:RecordResource>
+      </rico:includes>
+      <rico:includes>
+         <rico:RecordResource rdf:about="recordResource/-aspace_18a8c03cd6147d6b721d4ccf1207e7c0">
+            <rico:includedIn rdf:resource="recordResource/-aspace_a95521c0ce22ceb019cc325ef093ba29"/>
+            <rdf:type rdf:resource="https://www.ica.org/standards/RiC/ontology#RecordSet"/>
+            <rico:hasRecordSetType rdf:resource="https://www.ica.org/standards/RiC/vocabularies/recordSetTypes#File"/>
+            <rico:title xml:lang="en">Lighting</rico:title>
+            <rdfs:label xml:lang="en">Lighting</rdfs:label>
+            <rico:beginningDate rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1990</rico:beginningDate>
+            <rico:endDate rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1990</rico:endDate>
+            <rico:date xml:lang="en">1990</rico:date>
+            <rico:hasInstantiation>
+               <rico:Instantiation rdf:about="instantiation/-aspace_18a8c03cd6147d6b721d4ccf1207e7c0-i1">
+                  <rico:instantiates rdf:resource="recordResource/-aspace_18a8c03cd6147d6b721d4ccf1207e7c0"/>
+                  <rico:title xml:lang="en">Lighting</rico:title>
+                  <rdfs:label xml:lang="en">Lighting</rdfs:label>
+                  <rico:beginningDate rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1990</rico:beginningDate>
+                  <rico:endDate rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1990</rico:endDate>
+                  <rico:date xml:lang="en">1990</rico:date>
+                  <rdfs:seeAlso rdf:resource="https://www.siv.archives-nationales.culture.gouv.fr/siv/UD/wag_166/aspace_18a8c03cd6147d6b721d4ccf1207e7c0"/>
+               </rico:Instantiation>
+            </rico:hasInstantiation>
+         </rico:RecordResource>
+      </rico:includes>
+      <rico:includes>
+         <rico:RecordResource rdf:about="recordResource/-aspace_3a8e6ab8d270754913ce8a1ada1d46e1">
+            <rico:includedIn rdf:resource="recordResource/-aspace_a95521c0ce22ceb019cc325ef093ba29"/>
+            <rdf:type rdf:resource="https://www.ica.org/standards/RiC/ontology#RecordSet"/>
+            <rico:hasRecordSetType rdf:resource="https://www.ica.org/standards/RiC/vocabularies/recordSetTypes#File"/>
+            <rico:title xml:lang="en">American Industrial Hygiene</rico:title>
+            <rdfs:label xml:lang="en">American Industrial Hygiene</rdfs:label>
+            <rico:beginningDate rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1990</rico:beginningDate>
+            <rico:endDate rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1990</rico:endDate>
+            <rico:date xml:lang="en">1990</rico:date>
+            <rico:hasInstantiation>
+               <rico:Instantiation rdf:about="instantiation/-aspace_3a8e6ab8d270754913ce8a1ada1d46e1-i1">
+                  <rico:instantiates rdf:resource="recordResource/-aspace_3a8e6ab8d270754913ce8a1ada1d46e1"/>
+                  <rico:title xml:lang="en">American Industrial Hygiene</rico:title>
+                  <rdfs:label xml:lang="en">American Industrial Hygiene</rdfs:label>
+                  <rico:beginningDate rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1990</rico:beginningDate>
+                  <rico:endDate rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1990</rico:endDate>
+                  <rico:date xml:lang="en">1990</rico:date>
+                  <rdfs:seeAlso rdf:resource="https://www.siv.archives-nationales.culture.gouv.fr/siv/UD/wag_166/aspace_3a8e6ab8d270754913ce8a1ada1d46e1"/>
+               </rico:Instantiation>
+            </rico:hasInstantiation>
+         </rico:RecordResource>
+      </rico:includes>
+      <rico:includes>
+         <rico:RecordResource rdf:about="recordResource/-aspace_116f290b4a39bdc2617de16385c4bd67">
+            <rico:includedIn rdf:resource="recordResource/-aspace_a95521c0ce22ceb019cc325ef093ba29"/>
+            <rdf:type rdf:resource="https://www.ica.org/standards/RiC/ontology#RecordSet"/>
+            <rico:hasRecordSetType rdf:resource="https://www.ica.org/standards/RiC/vocabularies/recordSetTypes#File"/>
+            <rico:title xml:lang="en">Safety and Health Conference</rico:title>
+            <rdfs:label xml:lang="en">Safety and Health Conference</rdfs:label>
+            <rico:beginningDate rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1990</rico:beginningDate>
+            <rico:endDate rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1990</rico:endDate>
+            <rico:date xml:lang="en">1990</rico:date>
+            <rico:hasInstantiation>
+               <rico:Instantiation rdf:about="instantiation/-aspace_116f290b4a39bdc2617de16385c4bd67-i1">
+                  <rico:instantiates rdf:resource="recordResource/-aspace_116f290b4a39bdc2617de16385c4bd67"/>
+                  <rico:title xml:lang="en">Safety and Health Conference</rico:title>
+                  <rdfs:label xml:lang="en">Safety and Health Conference</rdfs:label>
+                  <rico:beginningDate rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1990</rico:beginningDate>
+                  <rico:endDate rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1990</rico:endDate>
+                  <rico:date xml:lang="en">1990</rico:date>
+                  <rdfs:seeAlso rdf:resource="https://www.siv.archives-nationales.culture.gouv.fr/siv/UD/wag_166/aspace_116f290b4a39bdc2617de16385c4bd67"/>
+               </rico:Instantiation>
+            </rico:hasInstantiation>
+         </rico:RecordResource>
+      </rico:includes>
+      <rico:includes>
+         <rico:RecordResource rdf:about="recordResource/-aspace_4f5760ed15d161ba9c393f5651939637">
+            <rico:includedIn rdf:resource="recordResource/-aspace_a95521c0ce22ceb019cc325ef093ba29"/>
+            <rdf:type rdf:resource="https://www.ica.org/standards/RiC/ontology#RecordSet"/>
+            <rico:hasRecordSetType rdf:resource="https://www.ica.org/standards/RiC/vocabularies/recordSetTypes#File"/>
+            <rico:title xml:lang="en">Visual Terminal Display</rico:title>
+            <rdfs:label xml:lang="en">Visual Terminal Display</rdfs:label>
+            <rico:beginningDate rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1988</rico:beginningDate>
+            <rico:endDate rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1990</rico:endDate>
+            <rico:date xml:lang="en">undated</rico:date>
+            <rico:hasInstantiation>
+               <rico:Instantiation rdf:about="instantiation/-aspace_4f5760ed15d161ba9c393f5651939637-i1">
+                  <rico:instantiates rdf:resource="recordResource/-aspace_4f5760ed15d161ba9c393f5651939637"/>
+                  <rico:title xml:lang="en">Visual Terminal Display</rico:title>
+                  <rdfs:label xml:lang="en">Visual Terminal Display</rdfs:label>
+                  <rico:beginningDate rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1988</rico:beginningDate>
+                  <rico:endDate rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1990</rico:endDate>
+                  <rico:date xml:lang="en">undated</rico:date>
+                  <rdfs:seeAlso rdf:resource="https://www.siv.archives-nationales.culture.gouv.fr/siv/UD/wag_166/aspace_4f5760ed15d161ba9c393f5651939637"/>
+               </rico:Instantiation>
+            </rico:hasInstantiation>
+         </rico:RecordResource>
+      </rico:includes>
+      <rico:includes>
+         <rico:RecordResource rdf:about="recordResource/-aspace_bd16b1e2df6b6c4184a7ddfd411e0656">
+            <rico:includedIn rdf:resource="recordResource/-aspace_a95521c0ce22ceb019cc325ef093ba29"/>
+            <rdf:type rdf:resource="https://www.ica.org/standards/RiC/ontology#RecordSet"/>
+            <rico:hasRecordSetType rdf:resource="https://www.ica.org/standards/RiC/vocabularies/recordSetTypes#File"/>
+            <rico:title xml:lang="en">Garlock Blue-Guard 300</rico:title>
+            <rdfs:label xml:lang="en">Garlock Blue-Guard 300</rdfs:label>
+            <rico:beginningDate rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1988</rico:beginningDate>
+            <rico:endDate rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1990</rico:endDate>
+            <rico:date xml:lang="en">undated</rico:date>
+            <rico:hasInstantiation>
+               <rico:Instantiation rdf:about="instantiation/-aspace_bd16b1e2df6b6c4184a7ddfd411e0656-i1">
+                  <rico:instantiates rdf:resource="recordResource/-aspace_bd16b1e2df6b6c4184a7ddfd411e0656"/>
+                  <rico:title xml:lang="en">Garlock Blue-Guard 300</rico:title>
+                  <rdfs:label xml:lang="en">Garlock Blue-Guard 300</rdfs:label>
+                  <rico:beginningDate rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1988</rico:beginningDate>
+                  <rico:endDate rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1990</rico:endDate>
+                  <rico:date xml:lang="en">undated</rico:date>
+                  <rdfs:seeAlso rdf:resource="https://www.siv.archives-nationales.culture.gouv.fr/siv/UD/wag_166/aspace_bd16b1e2df6b6c4184a7ddfd411e0656"/>
+               </rico:Instantiation>
+            </rico:hasInstantiation>
+         </rico:RecordResource>
+      </rico:includes>
+      <rico:includes>
+         <rico:RecordResource rdf:about="recordResource/-aspace_4500dd401732121a279e6118636149da">
+            <rico:includedIn rdf:resource="recordResource/-aspace_a95521c0ce22ceb019cc325ef093ba29"/>
+            <rdf:type rdf:resource="https://www.ica.org/standards/RiC/ontology#RecordSet"/>
+            <rico:hasRecordSetType rdf:resource="https://www.ica.org/standards/RiC/vocabularies/recordSetTypes#File"/>
+            <rico:title xml:lang="en">Magnesium anodes</rico:title>
+            <rdfs:label xml:lang="en">Magnesium anodes</rdfs:label>
+            <rico:beginningDate rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1988</rico:beginningDate>
+            <rico:endDate rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1990</rico:endDate>
+            <rico:date xml:lang="en">undated</rico:date>
+            <rico:hasInstantiation>
+               <rico:Instantiation rdf:about="instantiation/-aspace_4500dd401732121a279e6118636149da-i1">
+                  <rico:instantiates rdf:resource="recordResource/-aspace_4500dd401732121a279e6118636149da"/>
+                  <rico:title xml:lang="en">Magnesium anodes</rico:title>
+                  <rdfs:label xml:lang="en">Magnesium anodes</rdfs:label>
+                  <rico:beginningDate rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1988</rico:beginningDate>
+                  <rico:endDate rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1990</rico:endDate>
+                  <rico:date xml:lang="en">undated</rico:date>
+                  <rdfs:seeAlso rdf:resource="https://www.siv.archives-nationales.culture.gouv.fr/siv/UD/wag_166/aspace_4500dd401732121a279e6118636149da"/>
+               </rico:Instantiation>
+            </rico:hasInstantiation>
+         </rico:RecordResource>
+      </rico:includes>
+      <rico:includes>
+         <rico:RecordResource rdf:about="recordResource/-aspace_87b9528beb785de636d58b75e63699f3">
+            <rico:includedIn rdf:resource="recordResource/-aspace_a95521c0ce22ceb019cc325ef093ba29"/>
+            <rdf:type rdf:resource="https://www.ica.org/standards/RiC/ontology#RecordSet"/>
+            <rico:hasRecordSetType rdf:resource="https://www.ica.org/standards/RiC/vocabularies/recordSetTypes#File"/>
+            <rico:title xml:lang="en">Trench excavation</rico:title>
+            <rdfs:label xml:lang="en">Trench excavation</rdfs:label>
+            <rico:beginningDate rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1988</rico:beginningDate>
+            <rico:endDate rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1990</rico:endDate>
+            <rico:date xml:lang="en">undated</rico:date>
+            <rico:hasInstantiation>
+               <rico:Instantiation rdf:about="instantiation/-aspace_87b9528beb785de636d58b75e63699f3-i1">
+                  <rico:instantiates rdf:resource="recordResource/-aspace_87b9528beb785de636d58b75e63699f3"/>
+                  <rico:title xml:lang="en">Trench excavation</rico:title>
+                  <rdfs:label xml:lang="en">Trench excavation</rdfs:label>
+                  <rico:beginningDate rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1988</rico:beginningDate>
+                  <rico:endDate rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1990</rico:endDate>
+                  <rico:date xml:lang="en">undated</rico:date>
+                  <rdfs:seeAlso rdf:resource="https://www.siv.archives-nationales.culture.gouv.fr/siv/UD/wag_166/aspace_87b9528beb785de636d58b75e63699f3"/>
+               </rico:Instantiation>
+            </rico:hasInstantiation>
+         </rico:RecordResource>
+      </rico:includes>
+   </rico:RecordResource>
+</rdf:RDF>

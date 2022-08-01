@@ -1,0 +1,2258 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+         xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+         xmlns:rico="https://www.ica.org/standards/RiC/ontology#"
+         xmlns:dc="http://purl.org/dc/elements/1.1/"
+         xmlns:isni="http://isni.org/ontology#"
+         xmlns:owl="http://www.w3.org/2002/07/owl#"
+         xmlns:html="http://www.w3.org/1999/xhtml"
+         xml:base="http://data.archives-nationales.culture.gouv.fr/">
+   <rico:Record rdf:about="record/">
+      <rico:hasDocumentaryFormType rdf:resource="https://www.ica.org/standards/RiC/vocabularies/documentaryFormTypes#FindingAid"/>
+      <rico:regulatedBy rdf:resource="rule/rl005"/>
+      <rico:regulatedBy rdf:resource="rule/rl004"/>
+      <rico:regulatedBy rdf:resource="rule/rl006"/>
+      <rico:regulatedBy rdf:resource="rule/rl007"/>
+      <rico:regulatedBy rdf:resource="rule/rl008"/>
+      <rico:regulatedBy rdf:resource="rule/rl009"/>
+      <rico:title xml:lang="en">Barrows Mussey Translations, 1940-[1944?]: Finding Aid</rico:title>
+      <rdfs:label xml:lang="en">Barrows Mussey Translations, 1940-[1944?]: Finding Aid</rdfs:label>
+      <rico:publishedBy rdf:resource="agent/005061"/>
+      <rico:publicationDate rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">2004</rico:publicationDate>
+      <rico:hasLanguage rdf:resource="language/FRAN_RI_100-name6"/>
+      <rico:affectedBy>
+         <rico:Activity>
+            <rico:date rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2012-05-02</rico:date>
+            <rico:descriptiveNote xml:lang="en">Run through PULFA 2.0 normalization routines.</rico:descriptiveNote>
+         </rico:Activity>
+      </rico:affectedBy>
+      <rico:describes rdf:resource="recordResource/-top"/>
+      <rico:hasInstantiation>
+         <rico:Instantiation rdf:about="instantiation/-i1">
+            <rico:instantiates rdf:resource="record/"/>
+            <rico:title xml:lang="en">Barrows Mussey Translations, 1940-[1944?]: Finding Aid</rico:title>
+            <rdfs:label xml:lang="en">Barrows Mussey Translations, 1940-[1944?]: Finding Aid</rdfs:label>
+            <rico:history xml:lang="en">Machine-readable finding aid encoded in EAD 2002 by Techbooks, Cristela García-Spitz, and Diann Benti on May 11, 2007. Created from MARC record via MarcEdit and XSL stylesheets in 2007.</rico:history>
+            <rico:regulatedBy rdf:resource="rule/rl010"/>
+            <dc:format xml:lang="en">text/xml</dc:format>
+            <rico:identifier>C0009</rico:identifier>
+            <rico:heldBy rdf:resource="agent/005061"/>
+            <rdfs:seeAlso rdf:resource="https://www.siv.archives-nationales.culture.gouv.fr/siv/IR/C0009"/>
+         </rico:Instantiation>
+      </rico:hasInstantiation>
+   </rico:Record>
+   <rico:RecordResource rdf:about="recordResource/-top">
+      <rico:describedBy rdf:resource="record/"/>
+      <rdf:type rdf:resource="https://www.ica.org/standards/RiC/ontology#RecordSet"/>
+      <rico:hasRecordSetType rdf:resource="https://www.ica.org/standards/RiC/vocabularies/recordSetTypes#Collection"/>
+      <rico:heldBy>
+         <rico:Agent>
+            <rdfs:label xml:lang="en">Princeton University Library. Special Collections. Manuscripts Division One Washington Road Princeton, New Jersey 08544 USA</rdfs:label>
+            <rico:hasAgentName>
+               <rico:AgentName>
+                  <rdfs:label xml:lang="en">Princeton University Library. Special Collections. Manuscripts Division One Washington Road Princeton, New Jersey 08544 USA</rdfs:label>
+                  <rico:textualValue xml:lang="en">Princeton University Library. Special Collections. Manuscripts Division One Washington Road Princeton, New Jersey 08544 USA</rico:textualValue>
+               </rico:AgentName>
+            </rico:hasAgentName>
+         </rico:Agent>
+      </rico:heldBy>
+      <rico:title xml:lang="en">Barrows Mussey Translations</rico:title>
+      <rdfs:label xml:lang="en">Barrows Mussey Translations</rdfs:label>
+      <rico:beginningDate rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1940</rico:beginningDate>
+      <rico:endDate rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1944</rico:endDate>
+      <rico:date xml:lang="en">circa 1940-1944</rico:date>
+      <rico:hasLanguage rdf:resource="language/FRAN_RI_100-name6"/>
+      <rico:hasLanguage rdf:resource="language/FRAN_RI_100-name5"/>
+      <rico:hasLanguage rdf:resource=""/>
+      <rico:hasProvenance rdf:resource="agent/"/>
+      <rico:hasSubject rdf:resource="thing/local-t28"/>
+      <rico:hasSubject rdf:resource="thing/local-t9"/>
+      <rico:hasInstantiation>
+         <rico:Instantiation rdf:about="instantiation/-top-i1">
+            <rico:instantiates rdf:resource="recordResource/-top"/>
+            <rico:identifier>C0009</rico:identifier>
+            <rico:heldBy>
+               <rico:Agent>
+                  <rdfs:label xml:lang="en">Princeton University Library. Special Collections. Manuscripts Division One Washington Road Princeton, New Jersey 08544 USA</rdfs:label>
+                  <rico:hasAgentName>
+                     <rico:AgentName>
+                        <rdfs:label xml:lang="en">Princeton University Library. Special Collections. Manuscripts Division One Washington Road Princeton, New Jersey 08544 USA</rdfs:label>
+                        <rico:textualValue xml:lang="en">Princeton University Library. Special Collections. Manuscripts Division One Washington Road Princeton, New Jersey 08544 USA</rico:textualValue>
+                     </rico:AgentName>
+                  </rico:hasAgentName>
+               </rico:Agent>
+            </rico:heldBy>
+            <rico:title xml:lang="en">Barrows Mussey Translations</rico:title>
+            <rdfs:label xml:lang="en">Barrows Mussey Translations</rdfs:label>
+            <rico:beginningDate rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1940</rico:beginningDate>
+            <rico:endDate rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1944</rico:endDate>
+            <rico:date xml:lang="en">circa 1940-1944</rico:date>
+            <rico:instantiationExtent rdf:parseType="Literal">
+               <html:p xml:lang="en">2.1 linear feet</html:p>
+            </rico:instantiationExtent>
+            <rico:instantiationExtent rdf:parseType="Literal">
+               <html:p xml:lang="en">5 archival boxes</html:p>
+            </rico:instantiationExtent>
+            <rico:hasLocation rdf:resource=""/>
+            <rico:hasProvenance rdf:resource="agent/"/>
+            <rdfs:seeAlso rdf:resource="https://www.siv.archives-nationales.culture.gouv.fr/siv/UD/C0009/top"/>
+         </rico:Instantiation>
+      </rico:hasInstantiation>
+      <rico:includes rdf:resource="recordResource/-C0009_c001"/>
+      <rico:includes rdf:resource="recordResource/-C0009_c005"/>
+      <rico:includes rdf:resource="recordResource/-C0009_c011"/>
+      <rico:includes rdf:resource="recordResource/-C0009_c016"/>
+      <rico:includes rdf:resource="recordResource/-C0009_c019"/>
+      <rico:includes rdf:resource="recordResource/-C0009_c022"/>
+      <rico:includes rdf:resource="recordResource/-C0009_c029"/>
+      <rico:includes rdf:resource="recordResource/-C0009_c036"/>
+      <rico:includes rdf:resource="recordResource/-C0009_c043"/>
+      <rico:includes rdf:resource="recordResource/-C0009_c047"/>
+      <rico:includes rdf:resource="recordResource/-C0009_c063"/>
+      <rico:includes rdf:resource="recordResource/-C0009_c070"/>
+      <rico:includes rdf:resource="recordResource/-C0009_c073"/>
+      <rico:includes rdf:resource="recordResource/-C0009_c078"/>
+      <rico:includes rdf:resource="recordResource/-C0009_c083"/>
+      <rico:includes rdf:resource="recordResource/-C0009_c088"/>
+      <rico:includes rdf:resource="recordResource/-C0009_i1"/>
+      <rico:includes rdf:resource="recordResource/-C0009_i2"/>
+      <rico:includes rdf:resource="recordResource/-C0009_i3"/>
+      <rico:includes rdf:resource="recordResource/-C0009_i4"/>
+      <rico:includes rdf:resource="recordResource/-C0009_i5"/>
+   </rico:RecordResource>
+   <rico:RecordResource rdf:about="recordResource/-C0009_c001">
+      <rico:includedIn rdf:resource="recordResource/-top"/>
+      <rdf:type rdf:resource="https://www.ica.org/standards/RiC/ontology#RecordSet"/>
+      <rico:hasRecordSetType rdf:resource="https://www.ica.org/standards/RiC/vocabularies/recordSetTypes#File"/>
+      <rico:title xml:lang="en">Bengtsson, Franz Gunnar</rico:title>
+      <rdfs:label xml:lang="en">Bengtsson, Franz Gunnar</rdfs:label>
+      <rico:date xml:lang="en">dates not examined</rico:date>
+      <rico:hasInstantiation>
+         <rico:Instantiation rdf:about="instantiation/-C0009_c001-i1">
+            <rico:instantiates rdf:resource="recordResource/-C0009_c001"/>
+            <rico:title xml:lang="en">Bengtsson, Franz Gunnar</rico:title>
+            <rdfs:label xml:lang="en">Bengtsson, Franz Gunnar</rdfs:label>
+            <rico:date xml:lang="en">dates not examined</rico:date>
+            <rico:instantiationExtent rdf:parseType="Literal">
+               <html:p xml:lang="en">1 folder</html:p>
+            </rico:instantiationExtent>
+            <rdfs:seeAlso rdf:resource="https://www.siv.archives-nationales.culture.gouv.fr/siv/UD/C0009/C0009_c001"/>
+         </rico:Instantiation>
+      </rico:hasInstantiation>
+      <rico:includes>
+         <rico:RecordResource rdf:about="recordResource/-C0009_c002">
+            <rico:includedIn rdf:resource="recordResource/-C0009_c001"/>
+            <rdf:type rdf:resource="https://www.ica.org/standards/RiC/ontology#RecordSet"/>
+            <rico:hasRecordSetType rdf:resource="https://www.ica.org/standards/RiC/vocabularies/recordSetTypes#File"/>
+            <rico:title xml:lang="en">Red Orm (incomplete)</rico:title>
+            <rdfs:label xml:lang="en">Red Orm (incomplete)</rdfs:label>
+            <rico:date xml:lang="en">dates not examined</rico:date>
+            <rico:hasInstantiation>
+               <rico:Instantiation rdf:about="instantiation/-C0009_c002-i1">
+                  <rico:instantiates rdf:resource="recordResource/-C0009_c002"/>
+                  <rico:title xml:lang="en">Red Orm (incomplete)</rico:title>
+                  <rdfs:label xml:lang="en">Red Orm (incomplete)</rdfs:label>
+                  <rico:date xml:lang="en">dates not examined</rico:date>
+                  <rico:instantiationExtent rdf:parseType="Literal">
+                     <html:p xml:lang="en">1 folder</html:p>
+                  </rico:instantiationExtent>
+                  <rdfs:seeAlso rdf:resource="https://www.siv.archives-nationales.culture.gouv.fr/siv/UD/C0009/C0009_c002"/>
+               </rico:Instantiation>
+            </rico:hasInstantiation>
+            <rico:includes>
+               <rico:RecordResource rdf:about="recordResource/-C0009_c003">
+                  <rico:includedIn rdf:resource="recordResource/-C0009_c002"/>
+                  <rdf:type rdf:resource="https://www.ica.org/standards/RiC/ontology#RecordSet"/>
+                  <rico:hasRecordSetType rdf:resource="https://www.ica.org/standards/RiC/vocabularies/recordSetTypes#File"/>
+                  <rico:title xml:lang="en">TMs</rico:title>
+                  <rdfs:label xml:lang="en">TMs</rdfs:label>
+                  <rico:date xml:lang="en">dates not examined</rico:date>
+                  <rico:hasInstantiation>
+                     <rico:Instantiation rdf:about="instantiation/-C0009_c003-i1">
+                        <rico:instantiates rdf:resource="recordResource/-C0009_c003"/>
+                        <rico:title xml:lang="en">TMs</rico:title>
+                        <rdfs:label xml:lang="en">TMs</rdfs:label>
+                        <rico:date xml:lang="en">dates not examined</rico:date>
+                        <rico:instantiationExtent rdf:parseType="Literal">
+                           <html:p xml:lang="en">1 folder</html:p>
+                        </rico:instantiationExtent>
+                        <rdfs:seeAlso rdf:resource="https://www.siv.archives-nationales.culture.gouv.fr/siv/UD/C0009/C0009_c003"/>
+                     </rico:Instantiation>
+                  </rico:hasInstantiation>
+               </rico:RecordResource>
+            </rico:includes>
+            <rico:includes>
+               <rico:RecordResource rdf:about="recordResource/-C0009_c004">
+                  <rico:includedIn rdf:resource="recordResource/-C0009_c002"/>
+                  <rdf:type rdf:resource="https://www.ica.org/standards/RiC/ontology#RecordSet"/>
+                  <rico:hasRecordSetType rdf:resource="https://www.ica.org/standards/RiC/vocabularies/recordSetTypes#File"/>
+                  <rico:title xml:lang="en">Program: December 24, 1940, Berlin</rico:title>
+                  <rdfs:label xml:lang="en">Program: December 24, 1940, Berlin</rdfs:label>
+                  <rico:date xml:lang="en">dates not examined</rico:date>
+                  <rico:hasInstantiation>
+                     <rico:Instantiation rdf:about="instantiation/-C0009_c004-i1">
+                        <rico:instantiates rdf:resource="recordResource/-C0009_c004"/>
+                        <rico:title xml:lang="en">Program: December 24, 1940, Berlin</rico:title>
+                        <rdfs:label xml:lang="en">Program: December 24, 1940, Berlin</rdfs:label>
+                        <rico:date xml:lang="en">dates not examined</rico:date>
+                        <rico:instantiationExtent rdf:parseType="Literal">
+                           <html:p xml:lang="en">1 folder</html:p>
+                        </rico:instantiationExtent>
+                        <rdfs:seeAlso rdf:resource="https://www.siv.archives-nationales.culture.gouv.fr/siv/UD/C0009/C0009_c004"/>
+                     </rico:Instantiation>
+                  </rico:hasInstantiation>
+               </rico:RecordResource>
+            </rico:includes>
+         </rico:RecordResource>
+      </rico:includes>
+   </rico:RecordResource>
+   <rico:RecordResource rdf:about="recordResource/-C0009_c005">
+      <rico:includedIn rdf:resource="recordResource/-top"/>
+      <rdf:type rdf:resource="https://www.ica.org/standards/RiC/ontology#RecordSet"/>
+      <rico:hasRecordSetType rdf:resource="https://www.ica.org/standards/RiC/vocabularies/recordSetTypes#File"/>
+      <rico:title xml:lang="en">Bochardt, Hermann</rico:title>
+      <rdfs:label xml:lang="en">Bochardt, Hermann</rdfs:label>
+      <rico:beginningDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">1943-01-14</rico:beginningDate>
+      <rico:endDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">1943-01-14</rico:endDate>
+      <rico:date xml:lang="en">1943 January 14</rico:date>
+      <rico:hasInstantiation>
+         <rico:Instantiation rdf:about="instantiation/-C0009_c005-i1">
+            <rico:instantiates rdf:resource="recordResource/-C0009_c005"/>
+            <rico:title xml:lang="en">Bochardt, Hermann</rico:title>
+            <rdfs:label xml:lang="en">Bochardt, Hermann</rdfs:label>
+            <rico:beginningDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">1943-01-14</rico:beginningDate>
+            <rico:endDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">1943-01-14</rico:endDate>
+            <rico:date xml:lang="en">1943 January 14</rico:date>
+            <rico:instantiationExtent rdf:parseType="Literal">
+               <html:p xml:lang="en">3 folders</html:p>
+            </rico:instantiationExtent>
+            <rdfs:seeAlso rdf:resource="https://www.siv.archives-nationales.culture.gouv.fr/siv/UD/C0009/C0009_c005"/>
+         </rico:Instantiation>
+      </rico:hasInstantiation>
+      <rico:includes>
+         <rico:RecordResource rdf:about="recordResource/-C0009_c006">
+            <rico:includedIn rdf:resource="recordResource/-C0009_c005"/>
+            <rdf:type rdf:resource="https://www.ica.org/standards/RiC/ontology#RecordSet"/>
+            <rico:hasRecordSetType rdf:resource="https://www.ica.org/standards/RiC/vocabularies/recordSetTypes#File"/>
+            <rico:title xml:lang="en">ALS by Bochardt to Mussey</rico:title>
+            <rdfs:label xml:lang="en">ALS by Bochardt to Mussey</rdfs:label>
+            <rico:date rdf:datatype="http://www.w3.org/2001/XMLSchema#date">1943-01-14</rico:date>
+            <rico:date xml:lang="en">1943 January 14</rico:date>
+            <rico:hasInstantiation>
+               <rico:Instantiation rdf:about="instantiation/-C0009_c006-i1">
+                  <rico:instantiates rdf:resource="recordResource/-C0009_c006"/>
+                  <rico:title xml:lang="en">ALS by Bochardt to Mussey</rico:title>
+                  <rdfs:label xml:lang="en">ALS by Bochardt to Mussey</rdfs:label>
+                  <rico:date rdf:datatype="http://www.w3.org/2001/XMLSchema#date">1943-01-14</rico:date>
+                  <rico:date xml:lang="en">1943 January 14</rico:date>
+                  <rico:instantiationExtent rdf:parseType="Literal">
+                     <html:p xml:lang="en">1 folder</html:p>
+                  </rico:instantiationExtent>
+                  <rdfs:seeAlso rdf:resource="https://www.siv.archives-nationales.culture.gouv.fr/siv/UD/C0009/C0009_c006"/>
+               </rico:Instantiation>
+            </rico:hasInstantiation>
+         </rico:RecordResource>
+      </rico:includes>
+      <rico:includes>
+         <rico:RecordResource rdf:about="recordResource/-C0009_c007">
+            <rico:includedIn rdf:resource="recordResource/-C0009_c005"/>
+            <rdf:type rdf:resource="https://www.ica.org/standards/RiC/ontology#RecordSet"/>
+            <rico:hasRecordSetType rdf:resource="https://www.ica.org/standards/RiC/vocabularies/recordSetTypes#File"/>
+            <rico:title xml:lang="en">The Conspiracy of the Carpenters</rico:title>
+            <rdfs:label xml:lang="en">The Conspiracy of the Carpenters</rdfs:label>
+            <rico:date xml:lang="en">dates not examined</rico:date>
+            <rico:hasInstantiation>
+               <rico:Instantiation rdf:about="instantiation/-C0009_c007-i1">
+                  <rico:instantiates rdf:resource="recordResource/-C0009_c007"/>
+                  <rico:title xml:lang="en">The Conspiracy of the Carpenters</rico:title>
+                  <rdfs:label xml:lang="en">The Conspiracy of the Carpenters</rdfs:label>
+                  <rico:date xml:lang="en">dates not examined</rico:date>
+                  <rico:instantiationExtent rdf:parseType="Literal">
+                     <html:p xml:lang="en">3 folders</html:p>
+                  </rico:instantiationExtent>
+                  <rdfs:seeAlso rdf:resource="https://www.siv.archives-nationales.culture.gouv.fr/siv/UD/C0009/C0009_c007"/>
+               </rico:Instantiation>
+            </rico:hasInstantiation>
+            <rico:includes>
+               <rico:RecordResource rdf:about="recordResource/-C0009_c008">
+                  <rico:includedIn rdf:resource="recordResource/-C0009_c007"/>
+                  <rdf:type rdf:resource="https://www.ica.org/standards/RiC/ontology#RecordSet"/>
+                  <rico:hasRecordSetType rdf:resource="https://www.ica.org/standards/RiC/vocabularies/recordSetTypes#File"/>
+                  <rico:title xml:lang="en">TMs (I), English translation (Simon &amp; Schuster)</rico:title>
+                  <rdfs:label xml:lang="en">TMs (I), English translation (Simon &amp; Schuster)</rdfs:label>
+                  <rico:date xml:lang="en">dates not examined</rico:date>
+                  <rico:hasInstantiation>
+                     <rico:Instantiation rdf:about="instantiation/-C0009_c008-i1">
+                        <rico:instantiates rdf:resource="recordResource/-C0009_c008"/>
+                        <rico:title xml:lang="en">TMs (I), English translation (Simon &amp; Schuster)</rico:title>
+                        <rdfs:label xml:lang="en">TMs (I), English translation (Simon &amp; Schuster)</rdfs:label>
+                        <rico:date xml:lang="en">dates not examined</rico:date>
+                        <rico:instantiationExtent rdf:parseType="Literal">
+                           <html:p xml:lang="en">1 folder</html:p>
+                        </rico:instantiationExtent>
+                        <rdfs:seeAlso rdf:resource="https://www.siv.archives-nationales.culture.gouv.fr/siv/UD/C0009/C0009_c008"/>
+                     </rico:Instantiation>
+                  </rico:hasInstantiation>
+               </rico:RecordResource>
+            </rico:includes>
+            <rico:includes>
+               <rico:RecordResource rdf:about="recordResource/-C0009_c009">
+                  <rico:includedIn rdf:resource="recordResource/-C0009_c007"/>
+                  <rdf:type rdf:resource="https://www.ica.org/standards/RiC/ontology#RecordSet"/>
+                  <rico:hasRecordSetType rdf:resource="https://www.ica.org/standards/RiC/vocabularies/recordSetTypes#File"/>
+                  <rico:title xml:lang="en">TMs (II), English translation (Simon &amp; Schuster)</rico:title>
+                  <rdfs:label xml:lang="en">TMs (II), English translation (Simon &amp; Schuster)</rdfs:label>
+                  <rico:date xml:lang="en">dates not examined</rico:date>
+                  <rico:hasInstantiation>
+                     <rico:Instantiation rdf:about="instantiation/-C0009_c009-i1">
+                        <rico:instantiates rdf:resource="recordResource/-C0009_c009"/>
+                        <rico:title xml:lang="en">TMs (II), English translation (Simon &amp; Schuster)</rico:title>
+                        <rdfs:label xml:lang="en">TMs (II), English translation (Simon &amp; Schuster)</rdfs:label>
+                        <rico:date xml:lang="en">dates not examined</rico:date>
+                        <rico:instantiationExtent rdf:parseType="Literal">
+                           <html:p xml:lang="en">1 folder</html:p>
+                        </rico:instantiationExtent>
+                        <rdfs:seeAlso rdf:resource="https://www.siv.archives-nationales.culture.gouv.fr/siv/UD/C0009/C0009_c009"/>
+                     </rico:Instantiation>
+                  </rico:hasInstantiation>
+               </rico:RecordResource>
+            </rico:includes>
+            <rico:includes>
+               <rico:RecordResource rdf:about="recordResource/-C0009_c010">
+                  <rico:includedIn rdf:resource="recordResource/-C0009_c007"/>
+                  <rdf:type rdf:resource="https://www.ica.org/standards/RiC/ontology#RecordSet"/>
+                  <rico:hasRecordSetType rdf:resource="https://www.ica.org/standards/RiC/vocabularies/recordSetTypes#File"/>
+                  <rico:title xml:lang="en">TMs (III), English translation (Simon &amp; Schuster)</rico:title>
+                  <rdfs:label xml:lang="en">TMs (III), English translation (Simon &amp; Schuster)</rdfs:label>
+                  <rico:date xml:lang="en">dates not examined</rico:date>
+                  <rico:hasInstantiation>
+                     <rico:Instantiation rdf:about="instantiation/-C0009_c010-i1">
+                        <rico:instantiates rdf:resource="recordResource/-C0009_c010"/>
+                        <rico:title xml:lang="en">TMs (III), English translation (Simon &amp; Schuster)</rico:title>
+                        <rdfs:label xml:lang="en">TMs (III), English translation (Simon &amp; Schuster)</rdfs:label>
+                        <rico:date xml:lang="en">dates not examined</rico:date>
+                        <rico:instantiationExtent rdf:parseType="Literal">
+                           <html:p xml:lang="en">1 folder</html:p>
+                        </rico:instantiationExtent>
+                        <rdfs:seeAlso rdf:resource="https://www.siv.archives-nationales.culture.gouv.fr/siv/UD/C0009/C0009_c010"/>
+                     </rico:Instantiation>
+                  </rico:hasInstantiation>
+               </rico:RecordResource>
+            </rico:includes>
+         </rico:RecordResource>
+      </rico:includes>
+   </rico:RecordResource>
+   <rico:RecordResource rdf:about="recordResource/-C0009_c011">
+      <rico:includedIn rdf:resource="recordResource/-top"/>
+      <rdf:type rdf:resource="https://www.ica.org/standards/RiC/ontology#RecordSet"/>
+      <rico:hasRecordSetType rdf:resource="https://www.ica.org/standards/RiC/vocabularies/recordSetTypes#File"/>
+      <rico:title xml:lang="en">De Jong, Dola</rico:title>
+      <rdfs:label xml:lang="en">De Jong, Dola</rdfs:label>
+      <rico:date xml:lang="en">dates not examined</rico:date>
+      <rico:hasInstantiation>
+         <rico:Instantiation rdf:about="instantiation/-C0009_c011-i1">
+            <rico:instantiates rdf:resource="recordResource/-C0009_c011"/>
+            <rico:title xml:lang="en">De Jong, Dola</rico:title>
+            <rdfs:label xml:lang="en">De Jong, Dola</rdfs:label>
+            <rico:date xml:lang="en">dates not examined</rico:date>
+            <rico:instantiationExtent rdf:parseType="Literal">
+               <html:p xml:lang="en">2 folders</html:p>
+            </rico:instantiationExtent>
+            <rdfs:seeAlso rdf:resource="https://www.siv.archives-nationales.culture.gouv.fr/siv/UD/C0009/C0009_c011"/>
+         </rico:Instantiation>
+      </rico:hasInstantiation>
+      <rico:includes>
+         <rico:RecordResource rdf:about="recordResource/-C0009_c012">
+            <rico:includedIn rdf:resource="recordResource/-C0009_c011"/>
+            <rdf:type rdf:resource="https://www.ica.org/standards/RiC/ontology#RecordSet"/>
+            <rico:hasRecordSetType rdf:resource="https://www.ica.org/standards/RiC/vocabularies/recordSetTypes#File"/>
+            <rico:title xml:lang="en">De Herfstfabriek van Kabauter Kleur</rico:title>
+            <rdfs:label xml:lang="en">De Herfstfabriek van Kabauter Kleur</rdfs:label>
+            <rico:date xml:lang="en">dates not examined</rico:date>
+            <rico:hasInstantiation>
+               <rico:Instantiation rdf:about="instantiation/-C0009_c012-i1">
+                  <rico:instantiates rdf:resource="recordResource/-C0009_c012"/>
+                  <rico:title xml:lang="en">De Herfstfabriek van Kabauter Kleur</rico:title>
+                  <rdfs:label xml:lang="en">De Herfstfabriek van Kabauter Kleur</rdfs:label>
+                  <rico:date xml:lang="en">dates not examined</rico:date>
+                  <rico:instantiationExtent rdf:parseType="Literal">
+                     <html:p xml:lang="en">1 folder</html:p>
+                  </rico:instantiationExtent>
+                  <rdfs:seeAlso rdf:resource="https://www.siv.archives-nationales.culture.gouv.fr/siv/UD/C0009/C0009_c012"/>
+               </rico:Instantiation>
+            </rico:hasInstantiation>
+            <rico:includes>
+               <rico:RecordResource rdf:about="recordResource/-C0009_c013">
+                  <rico:includedIn rdf:resource="recordResource/-C0009_c012"/>
+                  <rdf:type rdf:resource="https://www.ica.org/standards/RiC/ontology#RecordSet"/>
+                  <rico:hasRecordSetType rdf:resource="https://www.ica.org/standards/RiC/vocabularies/recordSetTypes#File"/>
+                  <rico:title xml:lang="en">TMs (carbon), Dutch (unpublished)</rico:title>
+                  <rdfs:label xml:lang="en">TMs (carbon), Dutch (unpublished)</rdfs:label>
+                  <rico:date xml:lang="en">dates not examined</rico:date>
+                  <rico:scopeAndContent rdf:parseType="Literal">
+                     <html:p xml:lang="en">English translation made but lost.</html:p>
+                  </rico:scopeAndContent>
+                  <rico:hasInstantiation>
+                     <rico:Instantiation rdf:about="instantiation/-C0009_c013-i1">
+                        <rico:instantiates rdf:resource="recordResource/-C0009_c013"/>
+                        <rico:title xml:lang="en">TMs (carbon), Dutch (unpublished)</rico:title>
+                        <rdfs:label xml:lang="en">TMs (carbon), Dutch (unpublished)</rdfs:label>
+                        <rico:date xml:lang="en">dates not examined</rico:date>
+                        <rico:instantiationExtent rdf:parseType="Literal">
+                           <html:p xml:lang="en">1 folder</html:p>
+                        </rico:instantiationExtent>
+                        <rdfs:seeAlso rdf:resource="https://www.siv.archives-nationales.culture.gouv.fr/siv/UD/C0009/C0009_c013"/>
+                     </rico:Instantiation>
+                  </rico:hasInstantiation>
+               </rico:RecordResource>
+            </rico:includes>
+         </rico:RecordResource>
+      </rico:includes>
+      <rico:includes>
+         <rico:RecordResource rdf:about="recordResource/-C0009_c014">
+            <rico:includedIn rdf:resource="recordResource/-C0009_c011"/>
+            <rdf:type rdf:resource="https://www.ica.org/standards/RiC/ontology#RecordSet"/>
+            <rico:hasRecordSetType rdf:resource="https://www.ica.org/standards/RiC/vocabularies/recordSetTypes#File"/>
+            <rico:title xml:lang="en">Knikkernik Is a Hero, Chapter VII</rico:title>
+            <rdfs:label xml:lang="en">Knikkernik Is a Hero, Chapter VII</rdfs:label>
+            <rico:date xml:lang="en">dates not examined</rico:date>
+            <rico:hasInstantiation>
+               <rico:Instantiation rdf:about="instantiation/-C0009_c014-i1">
+                  <rico:instantiates rdf:resource="recordResource/-C0009_c014"/>
+                  <rico:title xml:lang="en">Knikkernik Is a Hero, Chapter VII</rico:title>
+                  <rdfs:label xml:lang="en">Knikkernik Is a Hero, Chapter VII</rdfs:label>
+                  <rico:date xml:lang="en">dates not examined</rico:date>
+                  <rico:instantiationExtent rdf:parseType="Literal">
+                     <html:p xml:lang="en">1 folder</html:p>
+                  </rico:instantiationExtent>
+                  <rdfs:seeAlso rdf:resource="https://www.siv.archives-nationales.culture.gouv.fr/siv/UD/C0009/C0009_c014"/>
+               </rico:Instantiation>
+            </rico:hasInstantiation>
+            <rico:includes>
+               <rico:RecordResource rdf:about="recordResource/-C0009_c015">
+                  <rico:includedIn rdf:resource="recordResource/-C0009_c014"/>
+                  <rdf:type rdf:resource="https://www.ica.org/standards/RiC/ontology#RecordSet"/>
+                  <rico:hasRecordSetType rdf:resource="https://www.ica.org/standards/RiC/vocabularies/recordSetTypes#File"/>
+                  <rico:title xml:lang="en">TMs (carbon) (Scribner)</rico:title>
+                  <rdfs:label xml:lang="en">TMs (carbon) (Scribner)</rdfs:label>
+                  <rico:date xml:lang="en">dates not examined</rico:date>
+                  <rico:hasInstantiation>
+                     <rico:Instantiation rdf:about="instantiation/-C0009_c015-i1">
+                        <rico:instantiates rdf:resource="recordResource/-C0009_c015"/>
+                        <rico:title xml:lang="en">TMs (carbon) (Scribner)</rico:title>
+                        <rdfs:label xml:lang="en">TMs (carbon) (Scribner)</rdfs:label>
+                        <rico:date xml:lang="en">dates not examined</rico:date>
+                        <rico:instantiationExtent rdf:parseType="Literal">
+                           <html:p xml:lang="en">1 folder</html:p>
+                        </rico:instantiationExtent>
+                        <rdfs:seeAlso rdf:resource="https://www.siv.archives-nationales.culture.gouv.fr/siv/UD/C0009/C0009_c015"/>
+                     </rico:Instantiation>
+                  </rico:hasInstantiation>
+               </rico:RecordResource>
+            </rico:includes>
+         </rico:RecordResource>
+      </rico:includes>
+   </rico:RecordResource>
+   <rico:RecordResource rdf:about="recordResource/-C0009_c016">
+      <rico:includedIn rdf:resource="recordResource/-top"/>
+      <rdf:type rdf:resource="https://www.ica.org/standards/RiC/ontology#RecordSet"/>
+      <rico:hasRecordSetType rdf:resource="https://www.ica.org/standards/RiC/vocabularies/recordSetTypes#File"/>
+      <rico:title xml:lang="en">Fokker, Anthony and Frank Harper</rico:title>
+      <rdfs:label xml:lang="en">Fokker, Anthony and Frank Harper</rdfs:label>
+      <rico:date xml:lang="en">dates not examined</rico:date>
+      <rico:hasInstantiation>
+         <rico:Instantiation rdf:about="instantiation/-C0009_c016-i1">
+            <rico:instantiates rdf:resource="recordResource/-C0009_c016"/>
+            <rico:title xml:lang="en">Fokker, Anthony and Frank Harper</rico:title>
+            <rdfs:label xml:lang="en">Fokker, Anthony and Frank Harper</rdfs:label>
+            <rico:date xml:lang="en">dates not examined</rico:date>
+            <rico:instantiationExtent rdf:parseType="Literal">
+               <html:p xml:lang="en">1 folder</html:p>
+            </rico:instantiationExtent>
+            <rdfs:seeAlso rdf:resource="https://www.siv.archives-nationales.culture.gouv.fr/siv/UD/C0009/C0009_c016"/>
+         </rico:Instantiation>
+      </rico:hasInstantiation>
+      <rico:includes>
+         <rico:RecordResource rdf:about="recordResource/-C0009_c017">
+            <rico:includedIn rdf:resource="recordResource/-C0009_c016"/>
+            <rdf:type rdf:resource="https://www.ica.org/standards/RiC/ontology#RecordSet"/>
+            <rico:hasRecordSetType rdf:resource="https://www.ica.org/standards/RiC/vocabularies/recordSetTypes#File"/>
+            <rico:title xml:lang="en">Specialized in Terror</rico:title>
+            <rdfs:label xml:lang="en">Specialized in Terror</rdfs:label>
+            <rico:date xml:lang="en">dates not examined</rico:date>
+            <rico:hasInstantiation>
+               <rico:Instantiation rdf:about="instantiation/-C0009_c017-i1">
+                  <rico:instantiates rdf:resource="recordResource/-C0009_c017"/>
+                  <rico:title xml:lang="en">Specialized in Terror</rico:title>
+                  <rdfs:label xml:lang="en">Specialized in Terror</rdfs:label>
+                  <rico:date xml:lang="en">dates not examined</rico:date>
+                  <rico:instantiationExtent rdf:parseType="Literal">
+                     <html:p xml:lang="en">1 folder</html:p>
+                  </rico:instantiationExtent>
+                  <rdfs:seeAlso rdf:resource="https://www.siv.archives-nationales.culture.gouv.fr/siv/UD/C0009/C0009_c017"/>
+               </rico:Instantiation>
+            </rico:hasInstantiation>
+            <rico:includes>
+               <rico:RecordResource rdf:about="recordResource/-C0009_c018">
+                  <rico:includedIn rdf:resource="recordResource/-C0009_c017"/>
+                  <rdf:type rdf:resource="https://www.ica.org/standards/RiC/ontology#RecordSet"/>
+                  <rico:hasRecordSetType rdf:resource="https://www.ica.org/standards/RiC/vocabularies/recordSetTypes#File"/>
+                  <rico:title xml:lang="en">TMs, German, translation made but lost (unpublished)</rico:title>
+                  <rdfs:label xml:lang="en">TMs, German, translation made but lost (unpublished)</rdfs:label>
+                  <rico:date xml:lang="en">dates not examined</rico:date>
+                  <rico:hasInstantiation>
+                     <rico:Instantiation rdf:about="instantiation/-C0009_c018-i1">
+                        <rico:instantiates rdf:resource="recordResource/-C0009_c018"/>
+                        <rico:title xml:lang="en">TMs, German, translation made but lost (unpublished)</rico:title>
+                        <rdfs:label xml:lang="en">TMs, German, translation made but lost (unpublished)</rdfs:label>
+                        <rico:date xml:lang="en">dates not examined</rico:date>
+                        <rico:instantiationExtent rdf:parseType="Literal">
+                           <html:p xml:lang="en">1 folder</html:p>
+                        </rico:instantiationExtent>
+                        <rdfs:seeAlso rdf:resource="https://www.siv.archives-nationales.culture.gouv.fr/siv/UD/C0009/C0009_c018"/>
+                     </rico:Instantiation>
+                  </rico:hasInstantiation>
+               </rico:RecordResource>
+            </rico:includes>
+         </rico:RecordResource>
+      </rico:includes>
+   </rico:RecordResource>
+   <rico:RecordResource rdf:about="recordResource/-C0009_c019">
+      <rico:includedIn rdf:resource="recordResource/-top"/>
+      <rdf:type rdf:resource="https://www.ica.org/standards/RiC/ontology#RecordSet"/>
+      <rico:hasRecordSetType rdf:resource="https://www.ica.org/standards/RiC/vocabularies/recordSetTypes#File"/>
+      <rico:title xml:lang="en">Hauser, Heinrich</rico:title>
+      <rdfs:label xml:lang="en">Hauser, Heinrich</rdfs:label>
+      <rico:date xml:lang="en">dates not examined</rico:date>
+      <rico:hasInstantiation>
+         <rico:Instantiation rdf:about="instantiation/-C0009_c019-i1">
+            <rico:instantiates rdf:resource="recordResource/-C0009_c019"/>
+            <rico:title xml:lang="en">Hauser, Heinrich</rico:title>
+            <rdfs:label xml:lang="en">Hauser, Heinrich</rdfs:label>
+            <rico:date xml:lang="en">dates not examined</rico:date>
+            <rico:instantiationExtent rdf:parseType="Literal">
+               <html:p xml:lang="en">1 folder</html:p>
+            </rico:instantiationExtent>
+            <rdfs:seeAlso rdf:resource="https://www.siv.archives-nationales.culture.gouv.fr/siv/UD/C0009/C0009_c019"/>
+         </rico:Instantiation>
+      </rico:hasInstantiation>
+      <rico:includes>
+         <rico:RecordResource rdf:about="recordResource/-C0009_c020">
+            <rico:includedIn rdf:resource="recordResource/-C0009_c019"/>
+            <rdf:type rdf:resource="https://www.ica.org/standards/RiC/ontology#RecordSet"/>
+            <rico:hasRecordSetType rdf:resource="https://www.ica.org/standards/RiC/vocabularies/recordSetTypes#File"/>
+            <rico:title xml:lang="en">Time Was</rico:title>
+            <rdfs:label xml:lang="en">Time Was</rdfs:label>
+            <rico:date xml:lang="en">dates not examined</rico:date>
+            <rico:hasInstantiation>
+               <rico:Instantiation rdf:about="instantiation/-C0009_c020-i1">
+                  <rico:instantiates rdf:resource="recordResource/-C0009_c020"/>
+                  <rico:title xml:lang="en">Time Was</rico:title>
+                  <rdfs:label xml:lang="en">Time Was</rdfs:label>
+                  <rico:date xml:lang="en">dates not examined</rico:date>
+                  <rico:instantiationExtent rdf:parseType="Literal">
+                     <html:p xml:lang="en">1 folder</html:p>
+                  </rico:instantiationExtent>
+                  <rdfs:seeAlso rdf:resource="https://www.siv.archives-nationales.culture.gouv.fr/siv/UD/C0009/C0009_c020"/>
+               </rico:Instantiation>
+            </rico:hasInstantiation>
+            <rico:includes>
+               <rico:RecordResource rdf:about="recordResource/-C0009_c021">
+                  <rico:includedIn rdf:resource="recordResource/-C0009_c020"/>
+                  <rdf:type rdf:resource="https://www.ica.org/standards/RiC/ontology#RecordSet"/>
+                  <rico:hasRecordSetType rdf:resource="https://www.ica.org/standards/RiC/vocabularies/recordSetTypes#File"/>
+                  <rico:title xml:lang="en">TMs</rico:title>
+                  <rdfs:label xml:lang="en">TMs</rdfs:label>
+                  <rico:date xml:lang="en">dates not examined</rico:date>
+                  <rico:hasInstantiation>
+                     <rico:Instantiation rdf:about="instantiation/-C0009_c021-i1">
+                        <rico:instantiates rdf:resource="recordResource/-C0009_c021"/>
+                        <rico:title xml:lang="en">TMs</rico:title>
+                        <rdfs:label xml:lang="en">TMs</rdfs:label>
+                        <rico:date xml:lang="en">dates not examined</rico:date>
+                        <rico:instantiationExtent rdf:parseType="Literal">
+                           <html:p xml:lang="en">1 folder</html:p>
+                        </rico:instantiationExtent>
+                        <rdfs:seeAlso rdf:resource="https://www.siv.archives-nationales.culture.gouv.fr/siv/UD/C0009/C0009_c021"/>
+                     </rico:Instantiation>
+                  </rico:hasInstantiation>
+               </rico:RecordResource>
+            </rico:includes>
+         </rico:RecordResource>
+      </rico:includes>
+   </rico:RecordResource>
+   <rico:RecordResource rdf:about="recordResource/-C0009_c022">
+      <rico:includedIn rdf:resource="recordResource/-top"/>
+      <rdf:type rdf:resource="https://www.ica.org/standards/RiC/ontology#RecordSet"/>
+      <rico:hasRecordSetType rdf:resource="https://www.ica.org/standards/RiC/vocabularies/recordSetTypes#File"/>
+      <rico:title xml:lang="en">Heydenau, Frederick</rico:title>
+      <rdfs:label xml:lang="en">Heydenau, Frederick</rdfs:label>
+      <rico:date xml:lang="en">dates not examined</rico:date>
+      <rico:hasInstantiation>
+         <rico:Instantiation rdf:about="instantiation/-C0009_c022-i1">
+            <rico:instantiates rdf:resource="recordResource/-C0009_c022"/>
+            <rico:title xml:lang="en">Heydenau, Frederick</rico:title>
+            <rdfs:label xml:lang="en">Heydenau, Frederick</rdfs:label>
+            <rico:date xml:lang="en">dates not examined</rico:date>
+            <rico:instantiationExtent rdf:parseType="Literal">
+               <html:p xml:lang="en">2 folders</html:p>
+            </rico:instantiationExtent>
+            <rdfs:seeAlso rdf:resource="https://www.siv.archives-nationales.culture.gouv.fr/siv/UD/C0009/C0009_c022"/>
+         </rico:Instantiation>
+      </rico:hasInstantiation>
+      <rico:includes>
+         <rico:RecordResource rdf:about="recordResource/-C0009_c023">
+            <rico:includedIn rdf:resource="recordResource/-C0009_c022"/>
+            <rdf:type rdf:resource="https://www.ica.org/standards/RiC/ontology#RecordSet"/>
+            <rico:hasRecordSetType rdf:resource="https://www.ica.org/standards/RiC/vocabularies/recordSetTypes#File"/>
+            <rico:title xml:lang="en">The Wrath of the Eagles</rico:title>
+            <rdfs:label xml:lang="en">The Wrath of the Eagles</rdfs:label>
+            <rico:date xml:lang="en">dates not examined</rico:date>
+            <rico:hasInstantiation>
+               <rico:Instantiation rdf:about="instantiation/-C0009_c023-i1">
+                  <rico:instantiates rdf:resource="recordResource/-C0009_c023"/>
+                  <rico:title xml:lang="en">The Wrath of the Eagles</rico:title>
+                  <rdfs:label xml:lang="en">The Wrath of the Eagles</rdfs:label>
+                  <rico:date xml:lang="en">dates not examined</rico:date>
+                  <rico:instantiationExtent rdf:parseType="Literal">
+                     <html:p xml:lang="en">1 folder</html:p>
+                  </rico:instantiationExtent>
+                  <rdfs:seeAlso rdf:resource="https://www.siv.archives-nationales.culture.gouv.fr/siv/UD/C0009/C0009_c023"/>
+               </rico:Instantiation>
+            </rico:hasInstantiation>
+            <rico:includes>
+               <rico:RecordResource rdf:about="recordResource/-C0009_c024">
+                  <rico:includedIn rdf:resource="recordResource/-C0009_c023"/>
+                  <rdf:type rdf:resource="https://www.ica.org/standards/RiC/ontology#RecordSet"/>
+                  <rico:hasRecordSetType rdf:resource="https://www.ica.org/standards/RiC/vocabularies/recordSetTypes#File"/>
+                  <rico:title xml:lang="en">TMs (mostly carbon), German: Der Zorn der Adler</rico:title>
+                  <rdfs:label xml:lang="en">TMs (mostly carbon), German: Der Zorn der Adler</rdfs:label>
+                  <rico:date xml:lang="en">dates not examined</rico:date>
+                  <rico:hasInstantiation>
+                     <rico:Instantiation rdf:about="instantiation/-C0009_c024-i1">
+                        <rico:instantiates rdf:resource="recordResource/-C0009_c024"/>
+                        <rico:title xml:lang="en">TMs (mostly carbon), German: Der Zorn der Adler</rico:title>
+                        <rdfs:label xml:lang="en">TMs (mostly carbon), German: Der Zorn der Adler</rdfs:label>
+                        <rico:date xml:lang="en">dates not examined</rico:date>
+                        <rico:instantiationExtent rdf:parseType="Literal">
+                           <html:p xml:lang="en">1 folder</html:p>
+                        </rico:instantiationExtent>
+                        <rdfs:seeAlso rdf:resource="https://www.siv.archives-nationales.culture.gouv.fr/siv/UD/C0009/C0009_c024"/>
+                     </rico:Instantiation>
+                  </rico:hasInstantiation>
+               </rico:RecordResource>
+            </rico:includes>
+            <rico:includes>
+               <rico:RecordResource rdf:about="recordResource/-C0009_c025">
+                  <rico:includedIn rdf:resource="recordResource/-C0009_c023"/>
+                  <rdf:type rdf:resource="https://www.ica.org/standards/RiC/ontology#RecordSet"/>
+                  <rico:hasRecordSetType rdf:resource="https://www.ica.org/standards/RiC/vocabularies/recordSetTypes#File"/>
+                  <rico:title xml:lang="en">Program: February 22, 194?, Berlin</rico:title>
+                  <rdfs:label xml:lang="en">Program: February 22, 194?, Berlin</rdfs:label>
+                  <rico:date xml:lang="en">dates not examined</rico:date>
+                  <rico:hasInstantiation>
+                     <rico:Instantiation rdf:about="instantiation/-C0009_c025-i1">
+                        <rico:instantiates rdf:resource="recordResource/-C0009_c025"/>
+                        <rico:title xml:lang="en">Program: February 22, 194?, Berlin</rico:title>
+                        <rdfs:label xml:lang="en">Program: February 22, 194?, Berlin</rdfs:label>
+                        <rico:date xml:lang="en">dates not examined</rico:date>
+                        <rico:instantiationExtent rdf:parseType="Literal">
+                           <html:p xml:lang="en">1 folder</html:p>
+                        </rico:instantiationExtent>
+                        <rdfs:seeAlso rdf:resource="https://www.siv.archives-nationales.culture.gouv.fr/siv/UD/C0009/C0009_c025"/>
+                     </rico:Instantiation>
+                  </rico:hasInstantiation>
+               </rico:RecordResource>
+            </rico:includes>
+         </rico:RecordResource>
+      </rico:includes>
+      <rico:includes>
+         <rico:RecordResource rdf:about="recordResource/-C0009_c026">
+            <rico:includedIn rdf:resource="recordResource/-C0009_c022"/>
+            <rdf:type rdf:resource="https://www.ica.org/standards/RiC/ontology#RecordSet"/>
+            <rico:hasRecordSetType rdf:resource="https://www.ica.org/standards/RiC/vocabularies/recordSetTypes#File"/>
+            <rico:title xml:lang="en">Report on Heydenau's Ms, The Wrath of the Eagles</rico:title>
+            <rdfs:label xml:lang="en">Report on Heydenau's Ms, The Wrath of the Eagles</rdfs:label>
+            <rico:date xml:lang="en">dates not examined</rico:date>
+            <rico:hasInstantiation>
+               <rico:Instantiation rdf:about="instantiation/-C0009_c026-i1">
+                  <rico:instantiates rdf:resource="recordResource/-C0009_c026"/>
+                  <rico:title xml:lang="en">Report on Heydenau's Ms, The Wrath of the Eagles</rico:title>
+                  <rdfs:label xml:lang="en">Report on Heydenau's Ms, The Wrath of the Eagles</rdfs:label>
+                  <rico:date xml:lang="en">dates not examined</rico:date>
+                  <rico:instantiationExtent rdf:parseType="Literal">
+                     <html:p xml:lang="en">1 folder</html:p>
+                  </rico:instantiationExtent>
+                  <rdfs:seeAlso rdf:resource="https://www.siv.archives-nationales.culture.gouv.fr/siv/UD/C0009/C0009_c026"/>
+               </rico:Instantiation>
+            </rico:hasInstantiation>
+            <rico:includes>
+               <rico:RecordResource rdf:about="recordResource/-C0009_c027">
+                  <rico:includedIn rdf:resource="recordResource/-C0009_c026"/>
+                  <rdf:type rdf:resource="https://www.ica.org/standards/RiC/ontology#RecordSet"/>
+                  <rico:hasRecordSetType rdf:resource="https://www.ica.org/standards/RiC/vocabularies/recordSetTypes#File"/>
+                  <rico:title xml:lang="en">TMs</rico:title>
+                  <rdfs:label xml:lang="en">TMs</rdfs:label>
+                  <rico:date xml:lang="en">dates not examined</rico:date>
+                  <rico:hasInstantiation>
+                     <rico:Instantiation rdf:about="instantiation/-C0009_c027-i1">
+                        <rico:instantiates rdf:resource="recordResource/-C0009_c027"/>
+                        <rico:title xml:lang="en">TMs</rico:title>
+                        <rdfs:label xml:lang="en">TMs</rdfs:label>
+                        <rico:date xml:lang="en">dates not examined</rico:date>
+                        <rico:instantiationExtent rdf:parseType="Literal">
+                           <html:p xml:lang="en">1 folder</html:p>
+                        </rico:instantiationExtent>
+                        <rdfs:seeAlso rdf:resource="https://www.siv.archives-nationales.culture.gouv.fr/siv/UD/C0009/C0009_c027"/>
+                     </rico:Instantiation>
+                  </rico:hasInstantiation>
+               </rico:RecordResource>
+            </rico:includes>
+            <rico:includes>
+               <rico:RecordResource rdf:about="recordResource/-C0009_c028">
+                  <rico:includedIn rdf:resource="recordResource/-C0009_c026"/>
+                  <rdf:type rdf:resource="https://www.ica.org/standards/RiC/ontology#RecordSet"/>
+                  <rico:hasRecordSetType rdf:resource="https://www.ica.org/standards/RiC/vocabularies/recordSetTypes#File"/>
+                  <rico:title xml:lang="en">Program: December 25, 1940, Rome</rico:title>
+                  <rdfs:label xml:lang="en">Program: December 25, 1940, Rome</rdfs:label>
+                  <rico:date xml:lang="en">dates not examined</rico:date>
+                  <rico:hasInstantiation>
+                     <rico:Instantiation rdf:about="instantiation/-C0009_c028-i1">
+                        <rico:instantiates rdf:resource="recordResource/-C0009_c028"/>
+                        <rico:title xml:lang="en">Program: December 25, 1940, Rome</rico:title>
+                        <rdfs:label xml:lang="en">Program: December 25, 1940, Rome</rdfs:label>
+                        <rico:date xml:lang="en">dates not examined</rico:date>
+                        <rico:instantiationExtent rdf:parseType="Literal">
+                           <html:p xml:lang="en">1 folder</html:p>
+                        </rico:instantiationExtent>
+                        <rdfs:seeAlso rdf:resource="https://www.siv.archives-nationales.culture.gouv.fr/siv/UD/C0009/C0009_c028"/>
+                     </rico:Instantiation>
+                  </rico:hasInstantiation>
+               </rico:RecordResource>
+            </rico:includes>
+         </rico:RecordResource>
+      </rico:includes>
+   </rico:RecordResource>
+   <rico:RecordResource rdf:about="recordResource/-C0009_c029">
+      <rico:includedIn rdf:resource="recordResource/-top"/>
+      <rdf:type rdf:resource="https://www.ica.org/standards/RiC/ontology#RecordSet"/>
+      <rico:hasRecordSetType rdf:resource="https://www.ica.org/standards/RiC/vocabularies/recordSetTypes#File"/>
+      <rico:title xml:lang="en">Hofmannsthal, Hugo von</rico:title>
+      <rdfs:label xml:lang="en">Hofmannsthal, Hugo von</rdfs:label>
+      <rico:date xml:lang="en">dates not examined</rico:date>
+      <rico:hasInstantiation>
+         <rico:Instantiation rdf:about="instantiation/-C0009_c029-i1">
+            <rico:instantiates rdf:resource="recordResource/-C0009_c029"/>
+            <rico:title xml:lang="en">Hofmannsthal, Hugo von</rico:title>
+            <rdfs:label xml:lang="en">Hofmannsthal, Hugo von</rdfs:label>
+            <rico:date xml:lang="en">dates not examined</rico:date>
+            <rico:instantiationExtent rdf:parseType="Literal">
+               <html:p xml:lang="en">2 folders</html:p>
+            </rico:instantiationExtent>
+            <rdfs:seeAlso rdf:resource="https://www.siv.archives-nationales.culture.gouv.fr/siv/UD/C0009/C0009_c029"/>
+         </rico:Instantiation>
+      </rico:hasInstantiation>
+      <rico:includes>
+         <rico:RecordResource rdf:about="recordResource/-C0009_c030">
+            <rico:includedIn rdf:resource="recordResource/-C0009_c029"/>
+            <rdf:type rdf:resource="https://www.ica.org/standards/RiC/ontology#RecordSet"/>
+            <rico:hasRecordSetType rdf:resource="https://www.ica.org/standards/RiC/vocabularies/recordSetTypes#File"/>
+            <rico:title xml:lang="en">"Festival Plays at Salzburg"</rico:title>
+            <rdfs:label xml:lang="en">"Festival Plays at Salzburg"</rdfs:label>
+            <rico:date xml:lang="en">dates not examined</rico:date>
+            <rico:hasInstantiation>
+               <rico:Instantiation rdf:about="instantiation/-C0009_c030-i1">
+                  <rico:instantiates rdf:resource="recordResource/-C0009_c030"/>
+                  <rico:title xml:lang="en">"Festival Plays at Salzburg"</rico:title>
+                  <rdfs:label xml:lang="en">"Festival Plays at Salzburg"</rdfs:label>
+                  <rico:date xml:lang="en">dates not examined</rico:date>
+                  <rico:instantiationExtent rdf:parseType="Literal">
+                     <html:p xml:lang="en">1 folder</html:p>
+                  </rico:instantiationExtent>
+                  <rdfs:seeAlso rdf:resource="https://www.siv.archives-nationales.culture.gouv.fr/siv/UD/C0009/C0009_c030"/>
+               </rico:Instantiation>
+            </rico:hasInstantiation>
+            <rico:includes>
+               <rico:RecordResource rdf:about="recordResource/-C0009_c031">
+                  <rico:includedIn rdf:resource="recordResource/-C0009_c030"/>
+                  <rdf:type rdf:resource="https://www.ica.org/standards/RiC/ontology#RecordSet"/>
+                  <rico:hasRecordSetType rdf:resource="https://www.ica.org/standards/RiC/vocabularies/recordSetTypes#File"/>
+                  <rico:title xml:lang="en">TMs</rico:title>
+                  <rdfs:label xml:lang="en">TMs</rdfs:label>
+                  <rico:date xml:lang="en">dates not examined</rico:date>
+                  <rico:hasInstantiation>
+                     <rico:Instantiation rdf:about="instantiation/-C0009_c031-i1">
+                        <rico:instantiates rdf:resource="recordResource/-C0009_c031"/>
+                        <rico:title xml:lang="en">TMs</rico:title>
+                        <rdfs:label xml:lang="en">TMs</rdfs:label>
+                        <rico:date xml:lang="en">dates not examined</rico:date>
+                        <rico:instantiationExtent rdf:parseType="Literal">
+                           <html:p xml:lang="en">1 folder</html:p>
+                        </rico:instantiationExtent>
+                        <rdfs:seeAlso rdf:resource="https://www.siv.archives-nationales.culture.gouv.fr/siv/UD/C0009/C0009_c031"/>
+                     </rico:Instantiation>
+                  </rico:hasInstantiation>
+               </rico:RecordResource>
+            </rico:includes>
+            <rico:includes>
+               <rico:RecordResource rdf:about="recordResource/-C0009_c032">
+                  <rico:includedIn rdf:resource="recordResource/-C0009_c030"/>
+                  <rdf:type rdf:resource="https://www.ica.org/standards/RiC/ontology#RecordSet"/>
+                  <rico:hasRecordSetType rdf:resource="https://www.ica.org/standards/RiC/vocabularies/recordSetTypes#File"/>
+                  <rico:title xml:lang="en">Program: December 25, 1940, Berlin</rico:title>
+                  <rdfs:label xml:lang="en">Program: December 25, 1940, Berlin</rdfs:label>
+                  <rico:date xml:lang="en">dates not examined</rico:date>
+                  <rico:hasInstantiation>
+                     <rico:Instantiation rdf:about="instantiation/-C0009_c032-i1">
+                        <rico:instantiates rdf:resource="recordResource/-C0009_c032"/>
+                        <rico:title xml:lang="en">Program: December 25, 1940, Berlin</rico:title>
+                        <rdfs:label xml:lang="en">Program: December 25, 1940, Berlin</rdfs:label>
+                        <rico:date xml:lang="en">dates not examined</rico:date>
+                        <rico:instantiationExtent rdf:parseType="Literal">
+                           <html:p xml:lang="en">1 folder</html:p>
+                        </rico:instantiationExtent>
+                        <rdfs:seeAlso rdf:resource="https://www.siv.archives-nationales.culture.gouv.fr/siv/UD/C0009/C0009_c032"/>
+                     </rico:Instantiation>
+                  </rico:hasInstantiation>
+               </rico:RecordResource>
+            </rico:includes>
+         </rico:RecordResource>
+      </rico:includes>
+      <rico:includes>
+         <rico:RecordResource rdf:about="recordResource/-C0009_c033">
+            <rico:includedIn rdf:resource="recordResource/-C0009_c029"/>
+            <rdf:type rdf:resource="https://www.ica.org/standards/RiC/ontology#RecordSet"/>
+            <rico:hasRecordSetType rdf:resource="https://www.ica.org/standards/RiC/vocabularies/recordSetTypes#File"/>
+            <rico:title xml:lang="en">"Festpiele in Salzburg"</rico:title>
+            <rdfs:label xml:lang="en">"Festpiele in Salzburg"</rdfs:label>
+            <rico:date xml:lang="en">dates not examined</rico:date>
+            <rico:hasInstantiation>
+               <rico:Instantiation rdf:about="instantiation/-C0009_c033-i1">
+                  <rico:instantiates rdf:resource="recordResource/-C0009_c033"/>
+                  <rico:title xml:lang="en">"Festpiele in Salzburg"</rico:title>
+                  <rdfs:label xml:lang="en">"Festpiele in Salzburg"</rdfs:label>
+                  <rico:date xml:lang="en">dates not examined</rico:date>
+                  <rico:instantiationExtent rdf:parseType="Literal">
+                     <html:p xml:lang="en">1 folder</html:p>
+                  </rico:instantiationExtent>
+                  <rdfs:seeAlso rdf:resource="https://www.siv.archives-nationales.culture.gouv.fr/siv/UD/C0009/C0009_c033"/>
+               </rico:Instantiation>
+            </rico:hasInstantiation>
+            <rico:includes>
+               <rico:RecordResource rdf:about="recordResource/-C0009_c034">
+                  <rico:includedIn rdf:resource="recordResource/-C0009_c033"/>
+                  <rdf:type rdf:resource="https://www.ica.org/standards/RiC/ontology#RecordSet"/>
+                  <rico:hasRecordSetType rdf:resource="https://www.ica.org/standards/RiC/vocabularies/recordSetTypes#File"/>
+                  <rico:title xml:lang="en">TMs</rico:title>
+                  <rdfs:label xml:lang="en">TMs</rdfs:label>
+                  <rico:date xml:lang="en">dates not examined</rico:date>
+                  <rico:hasInstantiation>
+                     <rico:Instantiation rdf:about="instantiation/-C0009_c034-i1">
+                        <rico:instantiates rdf:resource="recordResource/-C0009_c034"/>
+                        <rico:title xml:lang="en">TMs</rico:title>
+                        <rdfs:label xml:lang="en">TMs</rdfs:label>
+                        <rico:date xml:lang="en">dates not examined</rico:date>
+                        <rico:instantiationExtent rdf:parseType="Literal">
+                           <html:p xml:lang="en">1 folder</html:p>
+                        </rico:instantiationExtent>
+                        <rdfs:seeAlso rdf:resource="https://www.siv.archives-nationales.culture.gouv.fr/siv/UD/C0009/C0009_c034"/>
+                     </rico:Instantiation>
+                  </rico:hasInstantiation>
+               </rico:RecordResource>
+            </rico:includes>
+            <rico:includes>
+               <rico:RecordResource rdf:about="recordResource/-C0009_c035">
+                  <rico:includedIn rdf:resource="recordResource/-C0009_c033"/>
+                  <rdf:type rdf:resource="https://www.ica.org/standards/RiC/ontology#RecordSet"/>
+                  <rico:hasRecordSetType rdf:resource="https://www.ica.org/standards/RiC/vocabularies/recordSetTypes#File"/>
+                  <rico:title xml:lang="en">Program: May 17, 1942</rico:title>
+                  <rdfs:label xml:lang="en">Program: May 17, 1942</rdfs:label>
+                  <rico:date xml:lang="en">dates not examined</rico:date>
+                  <rico:hasInstantiation>
+                     <rico:Instantiation rdf:about="instantiation/-C0009_c035-i1">
+                        <rico:instantiates rdf:resource="recordResource/-C0009_c035"/>
+                        <rico:title xml:lang="en">Program: May 17, 1942</rico:title>
+                        <rdfs:label xml:lang="en">Program: May 17, 1942</rdfs:label>
+                        <rico:date xml:lang="en">dates not examined</rico:date>
+                        <rico:instantiationExtent rdf:parseType="Literal">
+                           <html:p xml:lang="en">1 folder</html:p>
+                        </rico:instantiationExtent>
+                        <rdfs:seeAlso rdf:resource="https://www.siv.archives-nationales.culture.gouv.fr/siv/UD/C0009/C0009_c035"/>
+                     </rico:Instantiation>
+                  </rico:hasInstantiation>
+               </rico:RecordResource>
+            </rico:includes>
+         </rico:RecordResource>
+      </rico:includes>
+   </rico:RecordResource>
+   <rico:RecordResource rdf:about="recordResource/-C0009_c036">
+      <rico:includedIn rdf:resource="recordResource/-top"/>
+      <rdf:type rdf:resource="https://www.ica.org/standards/RiC/ontology#RecordSet"/>
+      <rico:hasRecordSetType rdf:resource="https://www.ica.org/standards/RiC/vocabularies/recordSetTypes#File"/>
+      <rico:title xml:lang="en">Kesten, Hermann</rico:title>
+      <rdfs:label xml:lang="en">Kesten, Hermann</rdfs:label>
+      <rico:date xml:lang="en">dates not examined</rico:date>
+      <rico:hasInstantiation>
+         <rico:Instantiation rdf:about="instantiation/-C0009_c036-i1">
+            <rico:instantiates rdf:resource="recordResource/-C0009_c036"/>
+            <rico:title xml:lang="en">Kesten, Hermann</rico:title>
+            <rdfs:label xml:lang="en">Kesten, Hermann</rdfs:label>
+            <rico:date xml:lang="en">dates not examined</rico:date>
+            <rico:instantiationExtent rdf:parseType="Literal">
+               <html:p xml:lang="en">2 folders</html:p>
+            </rico:instantiationExtent>
+            <rdfs:seeAlso rdf:resource="https://www.siv.archives-nationales.culture.gouv.fr/siv/UD/C0009/C0009_c036"/>
+         </rico:Instantiation>
+      </rico:hasInstantiation>
+      <rico:includes>
+         <rico:RecordResource rdf:about="recordResource/-C0009_c037">
+            <rico:includedIn rdf:resource="recordResource/-C0009_c036"/>
+            <rdf:type rdf:resource="https://www.ica.org/standards/RiC/ontology#RecordSet"/>
+            <rico:hasRecordSetType rdf:resource="https://www.ica.org/standards/RiC/vocabularies/recordSetTypes#File"/>
+            <rico:title xml:lang="en">"Colonel Kock"</rico:title>
+            <rdfs:label xml:lang="en">"Colonel Kock"</rdfs:label>
+            <rico:date xml:lang="en">dates not examined</rico:date>
+            <rico:hasInstantiation>
+               <rico:Instantiation rdf:about="instantiation/-C0009_c037-i1">
+                  <rico:instantiates rdf:resource="recordResource/-C0009_c037"/>
+                  <rico:title xml:lang="en">"Colonel Kock"</rico:title>
+                  <rdfs:label xml:lang="en">"Colonel Kock"</rdfs:label>
+                  <rico:date xml:lang="en">dates not examined</rico:date>
+                  <rico:instantiationExtent rdf:parseType="Literal">
+                     <html:p xml:lang="en">1 folder</html:p>
+                  </rico:instantiationExtent>
+                  <rdfs:seeAlso rdf:resource="https://www.siv.archives-nationales.culture.gouv.fr/siv/UD/C0009/C0009_c037"/>
+               </rico:Instantiation>
+            </rico:hasInstantiation>
+            <rico:includes>
+               <rico:RecordResource rdf:about="recordResource/-C0009_c038">
+                  <rico:includedIn rdf:resource="recordResource/-C0009_c037"/>
+                  <rdf:type rdf:resource="https://www.ica.org/standards/RiC/ontology#RecordSet"/>
+                  <rico:hasRecordSetType rdf:resource="https://www.ica.org/standards/RiC/vocabularies/recordSetTypes#File"/>
+                  <rico:title xml:lang="en">TMs, English translation</rico:title>
+                  <rdfs:label xml:lang="en">TMs, English translation</rdfs:label>
+                  <rico:date xml:lang="en">dates not examined</rico:date>
+                  <rico:hasInstantiation>
+                     <rico:Instantiation rdf:about="instantiation/-C0009_c038-i1">
+                        <rico:instantiates rdf:resource="recordResource/-C0009_c038"/>
+                        <rico:title xml:lang="en">TMs, English translation</rico:title>
+                        <rdfs:label xml:lang="en">TMs, English translation</rdfs:label>
+                        <rico:date xml:lang="en">dates not examined</rico:date>
+                        <rico:instantiationExtent rdf:parseType="Literal">
+                           <html:p xml:lang="en">1 folder</html:p>
+                        </rico:instantiationExtent>
+                        <rdfs:seeAlso rdf:resource="https://www.siv.archives-nationales.culture.gouv.fr/siv/UD/C0009/C0009_c038"/>
+                     </rico:Instantiation>
+                  </rico:hasInstantiation>
+               </rico:RecordResource>
+            </rico:includes>
+            <rico:includes>
+               <rico:RecordResource rdf:about="recordResource/-C0009_c039">
+                  <rico:includedIn rdf:resource="recordResource/-C0009_c037"/>
+                  <rdf:type rdf:resource="https://www.ica.org/standards/RiC/ontology#RecordSet"/>
+                  <rico:hasRecordSetType rdf:resource="https://www.ica.org/standards/RiC/vocabularies/recordSetTypes#File"/>
+                  <rico:title xml:lang="en">Program: December 25, 1940, Berlin</rico:title>
+                  <rdfs:label xml:lang="en">Program: December 25, 1940, Berlin</rdfs:label>
+                  <rico:date xml:lang="en">dates not examined</rico:date>
+                  <rico:hasInstantiation>
+                     <rico:Instantiation rdf:about="instantiation/-C0009_c039-i1">
+                        <rico:instantiates rdf:resource="recordResource/-C0009_c039"/>
+                        <rico:title xml:lang="en">Program: December 25, 1940, Berlin</rico:title>
+                        <rdfs:label xml:lang="en">Program: December 25, 1940, Berlin</rdfs:label>
+                        <rico:date xml:lang="en">dates not examined</rico:date>
+                        <rico:instantiationExtent rdf:parseType="Literal">
+                           <html:p xml:lang="en">1 folder</html:p>
+                        </rico:instantiationExtent>
+                        <rdfs:seeAlso rdf:resource="https://www.siv.archives-nationales.culture.gouv.fr/siv/UD/C0009/C0009_c039"/>
+                     </rico:Instantiation>
+                  </rico:hasInstantiation>
+               </rico:RecordResource>
+            </rico:includes>
+         </rico:RecordResource>
+      </rico:includes>
+      <rico:includes>
+         <rico:RecordResource rdf:about="recordResource/-C0009_c040">
+            <rico:includedIn rdf:resource="recordResource/-C0009_c036"/>
+            <rdf:type rdf:resource="https://www.ica.org/standards/RiC/ontology#RecordSet"/>
+            <rico:hasRecordSetType rdf:resource="https://www.ica.org/standards/RiC/vocabularies/recordSetTypes#File"/>
+            <rico:title xml:lang="en">"Oberst Kock"</rico:title>
+            <rdfs:label xml:lang="en">"Oberst Kock"</rdfs:label>
+            <rico:date xml:lang="en">dates not examined</rico:date>
+            <rico:hasInstantiation>
+               <rico:Instantiation rdf:about="instantiation/-C0009_c040-i1">
+                  <rico:instantiates rdf:resource="recordResource/-C0009_c040"/>
+                  <rico:title xml:lang="en">"Oberst Kock"</rico:title>
+                  <rdfs:label xml:lang="en">"Oberst Kock"</rdfs:label>
+                  <rico:date xml:lang="en">dates not examined</rico:date>
+                  <rico:instantiationExtent rdf:parseType="Literal">
+                     <html:p xml:lang="en">1 folder</html:p>
+                  </rico:instantiationExtent>
+                  <rdfs:seeAlso rdf:resource="https://www.siv.archives-nationales.culture.gouv.fr/siv/UD/C0009/C0009_c040"/>
+               </rico:Instantiation>
+            </rico:hasInstantiation>
+            <rico:includes>
+               <rico:RecordResource rdf:about="recordResource/-C0009_c041">
+                  <rico:includedIn rdf:resource="recordResource/-C0009_c040"/>
+                  <rdf:type rdf:resource="https://www.ica.org/standards/RiC/ontology#RecordSet"/>
+                  <rico:hasRecordSetType rdf:resource="https://www.ica.org/standards/RiC/vocabularies/recordSetTypes#File"/>
+                  <rico:title xml:lang="en">TMs (carbon), German</rico:title>
+                  <rdfs:label xml:lang="en">TMs (carbon), German</rdfs:label>
+                  <rico:date xml:lang="en">dates not examined</rico:date>
+                  <rico:hasInstantiation>
+                     <rico:Instantiation rdf:about="instantiation/-C0009_c041-i1">
+                        <rico:instantiates rdf:resource="recordResource/-C0009_c041"/>
+                        <rico:title xml:lang="en">TMs (carbon), German</rico:title>
+                        <rdfs:label xml:lang="en">TMs (carbon), German</rdfs:label>
+                        <rico:date xml:lang="en">dates not examined</rico:date>
+                        <rico:instantiationExtent rdf:parseType="Literal">
+                           <html:p xml:lang="en">1 folder</html:p>
+                        </rico:instantiationExtent>
+                        <rdfs:seeAlso rdf:resource="https://www.siv.archives-nationales.culture.gouv.fr/siv/UD/C0009/C0009_c041"/>
+                     </rico:Instantiation>
+                  </rico:hasInstantiation>
+               </rico:RecordResource>
+            </rico:includes>
+            <rico:includes>
+               <rico:RecordResource rdf:about="recordResource/-C0009_c042">
+                  <rico:includedIn rdf:resource="recordResource/-C0009_c040"/>
+                  <rdf:type rdf:resource="https://www.ica.org/standards/RiC/ontology#RecordSet"/>
+                  <rico:hasRecordSetType rdf:resource="https://www.ica.org/standards/RiC/vocabularies/recordSetTypes#File"/>
+                  <rico:title xml:lang="en">Program: May 17, 1942</rico:title>
+                  <rdfs:label xml:lang="en">Program: May 17, 1942</rdfs:label>
+                  <rico:date xml:lang="en">dates not examined</rico:date>
+                  <rico:hasInstantiation>
+                     <rico:Instantiation rdf:about="instantiation/-C0009_c042-i1">
+                        <rico:instantiates rdf:resource="recordResource/-C0009_c042"/>
+                        <rico:title xml:lang="en">Program: May 17, 1942</rico:title>
+                        <rdfs:label xml:lang="en">Program: May 17, 1942</rdfs:label>
+                        <rico:date xml:lang="en">dates not examined</rico:date>
+                        <rico:instantiationExtent rdf:parseType="Literal">
+                           <html:p xml:lang="en">1 folder</html:p>
+                        </rico:instantiationExtent>
+                        <rdfs:seeAlso rdf:resource="https://www.siv.archives-nationales.culture.gouv.fr/siv/UD/C0009/C0009_c042"/>
+                     </rico:Instantiation>
+                  </rico:hasInstantiation>
+               </rico:RecordResource>
+            </rico:includes>
+         </rico:RecordResource>
+      </rico:includes>
+   </rico:RecordResource>
+   <rico:RecordResource rdf:about="recordResource/-C0009_c043">
+      <rico:includedIn rdf:resource="recordResource/-top"/>
+      <rdf:type rdf:resource="https://www.ica.org/standards/RiC/ontology#RecordSet"/>
+      <rico:hasRecordSetType rdf:resource="https://www.ica.org/standards/RiC/vocabularies/recordSetTypes#File"/>
+      <rico:title xml:lang="en">Liungman, Christine</rico:title>
+      <rdfs:label xml:lang="en">Liungman, Christine</rdfs:label>
+      <rico:date xml:lang="en">dates not examined</rico:date>
+      <rico:hasInstantiation>
+         <rico:Instantiation rdf:about="instantiation/-C0009_c043-i1">
+            <rico:instantiates rdf:resource="recordResource/-C0009_c043"/>
+            <rico:title xml:lang="en">Liungman, Christine</rico:title>
+            <rdfs:label xml:lang="en">Liungman, Christine</rdfs:label>
+            <rico:date xml:lang="en">dates not examined</rico:date>
+            <rico:instantiationExtent rdf:parseType="Literal">
+               <html:p xml:lang="en">2 folders</html:p>
+            </rico:instantiationExtent>
+            <rdfs:seeAlso rdf:resource="https://www.siv.archives-nationales.culture.gouv.fr/siv/UD/C0009/C0009_c043"/>
+         </rico:Instantiation>
+      </rico:hasInstantiation>
+      <rico:includes>
+         <rico:RecordResource rdf:about="recordResource/-C0009_c044">
+            <rico:includedIn rdf:resource="recordResource/-C0009_c043"/>
+            <rdf:type rdf:resource="https://www.ica.org/standards/RiC/ontology#RecordSet"/>
+            <rico:hasRecordSetType rdf:resource="https://www.ica.org/standards/RiC/vocabularies/recordSetTypes#File"/>
+            <rico:title xml:lang="en">The Shining Sea</rico:title>
+            <rdfs:label xml:lang="en">The Shining Sea</rdfs:label>
+            <rico:date xml:lang="en">dates not examined</rico:date>
+            <rico:hasInstantiation>
+               <rico:Instantiation rdf:about="instantiation/-C0009_c044-i1">
+                  <rico:instantiates rdf:resource="recordResource/-C0009_c044"/>
+                  <rico:title xml:lang="en">The Shining Sea</rico:title>
+                  <rdfs:label xml:lang="en">The Shining Sea</rdfs:label>
+                  <rico:date xml:lang="en">dates not examined</rico:date>
+                  <rico:instantiationExtent rdf:parseType="Literal">
+                     <html:p xml:lang="en">2 folders</html:p>
+                  </rico:instantiationExtent>
+                  <rdfs:seeAlso rdf:resource="https://www.siv.archives-nationales.culture.gouv.fr/siv/UD/C0009/C0009_c044"/>
+               </rico:Instantiation>
+            </rico:hasInstantiation>
+            <rico:includes>
+               <rico:RecordResource rdf:about="recordResource/-C0009_c045">
+                  <rico:includedIn rdf:resource="recordResource/-C0009_c044"/>
+                  <rdf:type rdf:resource="https://www.ica.org/standards/RiC/ontology#RecordSet"/>
+                  <rico:hasRecordSetType rdf:resource="https://www.ica.org/standards/RiC/vocabularies/recordSetTypes#File"/>
+                  <rico:title xml:lang="en">TMs</rico:title>
+                  <rdfs:label xml:lang="en">TMs</rdfs:label>
+                  <rico:date xml:lang="en">dates not examined</rico:date>
+                  <rico:hasInstantiation>
+                     <rico:Instantiation rdf:about="instantiation/-C0009_c045-i1">
+                        <rico:instantiates rdf:resource="recordResource/-C0009_c045"/>
+                        <rico:title xml:lang="en">TMs</rico:title>
+                        <rdfs:label xml:lang="en">TMs</rdfs:label>
+                        <rico:date xml:lang="en">dates not examined</rico:date>
+                        <rico:instantiationExtent rdf:parseType="Literal">
+                           <html:p xml:lang="en">1 folder</html:p>
+                        </rico:instantiationExtent>
+                        <rdfs:seeAlso rdf:resource="https://www.siv.archives-nationales.culture.gouv.fr/siv/UD/C0009/C0009_c045"/>
+                     </rico:Instantiation>
+                  </rico:hasInstantiation>
+               </rico:RecordResource>
+            </rico:includes>
+            <rico:includes>
+               <rico:RecordResource rdf:about="recordResource/-C0009_c046">
+                  <rico:includedIn rdf:resource="recordResource/-C0009_c044"/>
+                  <rdf:type rdf:resource="https://www.ica.org/standards/RiC/ontology#RecordSet"/>
+                  <rico:hasRecordSetType rdf:resource="https://www.ica.org/standards/RiC/vocabularies/recordSetTypes#File"/>
+                  <rico:title xml:lang="en">TMs (carbon)</rico:title>
+                  <rdfs:label xml:lang="en">TMs (carbon)</rdfs:label>
+                  <rico:date xml:lang="en">dates not examined</rico:date>
+                  <rico:hasInstantiation>
+                     <rico:Instantiation rdf:about="instantiation/-C0009_c046-i1">
+                        <rico:instantiates rdf:resource="recordResource/-C0009_c046"/>
+                        <rico:title xml:lang="en">TMs (carbon)</rico:title>
+                        <rdfs:label xml:lang="en">TMs (carbon)</rdfs:label>
+                        <rico:date xml:lang="en">dates not examined</rico:date>
+                        <rico:instantiationExtent rdf:parseType="Literal">
+                           <html:p xml:lang="en">1 folder</html:p>
+                        </rico:instantiationExtent>
+                        <rdfs:seeAlso rdf:resource="https://www.siv.archives-nationales.culture.gouv.fr/siv/UD/C0009/C0009_c046"/>
+                     </rico:Instantiation>
+                  </rico:hasInstantiation>
+               </rico:RecordResource>
+            </rico:includes>
+         </rico:RecordResource>
+      </rico:includes>
+   </rico:RecordResource>
+   <rico:RecordResource rdf:about="recordResource/-C0009_c047">
+      <rico:includedIn rdf:resource="recordResource/-top"/>
+      <rdf:type rdf:resource="https://www.ica.org/standards/RiC/ontology#RecordSet"/>
+      <rico:hasRecordSetType rdf:resource="https://www.ica.org/standards/RiC/vocabularies/recordSetTypes#File"/>
+      <rico:title xml:lang="en">Lothar, Ernst</rico:title>
+      <rdfs:label xml:lang="en">Lothar, Ernst</rdfs:label>
+      <rico:beginningDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">1940-01-01</rico:beginningDate>
+      <rico:endDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">1941-12-31</rico:endDate>
+      <rico:date xml:lang="en">1940-1941</rico:date>
+      <rico:hasInstantiation>
+         <rico:Instantiation rdf:about="instantiation/-C0009_c047-i1">
+            <rico:instantiates rdf:resource="recordResource/-C0009_c047"/>
+            <rico:title xml:lang="en">Lothar, Ernst</rico:title>
+            <rdfs:label xml:lang="en">Lothar, Ernst</rdfs:label>
+            <rico:beginningDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">1940-01-01</rico:beginningDate>
+            <rico:endDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">1941-12-31</rico:endDate>
+            <rico:date xml:lang="en">1940-1941</rico:date>
+            <rico:instantiationExtent rdf:parseType="Literal">
+               <html:p xml:lang="en">2 boxes</html:p>
+            </rico:instantiationExtent>
+            <rdfs:seeAlso rdf:resource="https://www.siv.archives-nationales.culture.gouv.fr/siv/UD/C0009/C0009_c047"/>
+         </rico:Instantiation>
+      </rico:hasInstantiation>
+      <rico:includes>
+         <rico:RecordResource rdf:about="recordResource/-C0009_c048">
+            <rico:includedIn rdf:resource="recordResource/-C0009_c047"/>
+            <rdf:type rdf:resource="https://www.ica.org/standards/RiC/ontology#RecordSet"/>
+            <rico:hasRecordSetType rdf:resource="https://www.ica.org/standards/RiC/vocabularies/recordSetTypes#File"/>
+            <rico:title xml:lang="en">Beneath Another Sun, Part I</rico:title>
+            <rdfs:label xml:lang="en">Beneath Another Sun, Part I</rdfs:label>
+            <rico:date xml:lang="en">dates not examined</rico:date>
+            <rico:hasInstantiation>
+               <rico:Instantiation rdf:about="instantiation/-C0009_c048-i1">
+                  <rico:instantiates rdf:resource="recordResource/-C0009_c048"/>
+                  <rico:title xml:lang="en">Beneath Another Sun, Part I</rico:title>
+                  <rdfs:label xml:lang="en">Beneath Another Sun, Part I</rdfs:label>
+                  <rico:date xml:lang="en">dates not examined</rico:date>
+                  <rico:instantiationExtent rdf:parseType="Literal">
+                     <html:p xml:lang="en">1 folder</html:p>
+                  </rico:instantiationExtent>
+                  <rdfs:seeAlso rdf:resource="https://www.siv.archives-nationales.culture.gouv.fr/siv/UD/C0009/C0009_c048"/>
+               </rico:Instantiation>
+            </rico:hasInstantiation>
+            <rico:includes>
+               <rico:RecordResource rdf:about="recordResource/-C0009_c049">
+                  <rico:includedIn rdf:resource="recordResource/-C0009_c048"/>
+                  <rdf:type rdf:resource="https://www.ica.org/standards/RiC/ontology#RecordSet"/>
+                  <rico:hasRecordSetType rdf:resource="https://www.ica.org/standards/RiC/vocabularies/recordSetTypes#File"/>
+                  <rico:title xml:lang="en">TMs, German</rico:title>
+                  <rdfs:label xml:lang="en">TMs, German</rdfs:label>
+                  <rico:date xml:lang="en">dates not examined</rico:date>
+                  <rico:hasInstantiation>
+                     <rico:Instantiation rdf:about="instantiation/-C0009_c049-i1">
+                        <rico:instantiates rdf:resource="recordResource/-C0009_c049"/>
+                        <rico:title xml:lang="en">TMs, German</rico:title>
+                        <rdfs:label xml:lang="en">TMs, German</rdfs:label>
+                        <rico:date xml:lang="en">dates not examined</rico:date>
+                        <rico:instantiationExtent rdf:parseType="Literal">
+                           <html:p xml:lang="en">1 folder</html:p>
+                        </rico:instantiationExtent>
+                        <rdfs:seeAlso rdf:resource="https://www.siv.archives-nationales.culture.gouv.fr/siv/UD/C0009/C0009_c049"/>
+                     </rico:Instantiation>
+                  </rico:hasInstantiation>
+               </rico:RecordResource>
+            </rico:includes>
+         </rico:RecordResource>
+      </rico:includes>
+      <rico:includes>
+         <rico:RecordResource rdf:about="recordResource/-C0009_c050">
+            <rico:includedIn rdf:resource="recordResource/-C0009_c047"/>
+            <rdf:type rdf:resource="https://www.ica.org/standards/RiC/ontology#RecordSet"/>
+            <rico:hasRecordSetType rdf:resource="https://www.ica.org/standards/RiC/vocabularies/recordSetTypes#File"/>
+            <rico:title xml:lang="en">Beneath Another Sun, Part II</rico:title>
+            <rdfs:label xml:lang="en">Beneath Another Sun, Part II</rdfs:label>
+            <rico:date xml:lang="en">dates not examined</rico:date>
+            <rico:hasInstantiation>
+               <rico:Instantiation rdf:about="instantiation/-C0009_c050-i1">
+                  <rico:instantiates rdf:resource="recordResource/-C0009_c050"/>
+                  <rico:title xml:lang="en">Beneath Another Sun, Part II</rico:title>
+                  <rdfs:label xml:lang="en">Beneath Another Sun, Part II</rdfs:label>
+                  <rico:date xml:lang="en">dates not examined</rico:date>
+                  <rico:instantiationExtent rdf:parseType="Literal">
+                     <html:p xml:lang="en">1 folder</html:p>
+                  </rico:instantiationExtent>
+                  <rdfs:seeAlso rdf:resource="https://www.siv.archives-nationales.culture.gouv.fr/siv/UD/C0009/C0009_c050"/>
+               </rico:Instantiation>
+            </rico:hasInstantiation>
+            <rico:includes>
+               <rico:RecordResource rdf:about="recordResource/-C0009_c051">
+                  <rico:includedIn rdf:resource="recordResource/-C0009_c050"/>
+                  <rdf:type rdf:resource="https://www.ica.org/standards/RiC/ontology#RecordSet"/>
+                  <rico:hasRecordSetType rdf:resource="https://www.ica.org/standards/RiC/vocabularies/recordSetTypes#File"/>
+                  <rico:title xml:lang="en">TMs, German</rico:title>
+                  <rdfs:label xml:lang="en">TMs, German</rdfs:label>
+                  <rico:date xml:lang="en">dates not examined</rico:date>
+                  <rico:hasInstantiation>
+                     <rico:Instantiation rdf:about="instantiation/-C0009_c051-i1">
+                        <rico:instantiates rdf:resource="recordResource/-C0009_c051"/>
+                        <rico:title xml:lang="en">TMs, German</rico:title>
+                        <rdfs:label xml:lang="en">TMs, German</rdfs:label>
+                        <rico:date xml:lang="en">dates not examined</rico:date>
+                        <rico:instantiationExtent rdf:parseType="Literal">
+                           <html:p xml:lang="en">1 folder</html:p>
+                        </rico:instantiationExtent>
+                        <rdfs:seeAlso rdf:resource="https://www.siv.archives-nationales.culture.gouv.fr/siv/UD/C0009/C0009_c051"/>
+                     </rico:Instantiation>
+                  </rico:hasInstantiation>
+               </rico:RecordResource>
+            </rico:includes>
+         </rico:RecordResource>
+      </rico:includes>
+      <rico:includes>
+         <rico:RecordResource rdf:about="recordResource/-C0009_c052">
+            <rico:includedIn rdf:resource="recordResource/-C0009_c047"/>
+            <rdf:type rdf:resource="https://www.ica.org/standards/RiC/ontology#RecordSet"/>
+            <rico:hasRecordSetType rdf:resource="https://www.ica.org/standards/RiC/vocabularies/recordSetTypes#File"/>
+            <rico:title xml:lang="en">Beneath Another Sun, Part I</rico:title>
+            <rdfs:label xml:lang="en">Beneath Another Sun, Part I</rdfs:label>
+            <rico:date xml:lang="en">dates not examined</rico:date>
+            <rico:hasInstantiation>
+               <rico:Instantiation rdf:about="instantiation/-C0009_c052-i1">
+                  <rico:instantiates rdf:resource="recordResource/-C0009_c052"/>
+                  <rico:title xml:lang="en">Beneath Another Sun, Part I</rico:title>
+                  <rdfs:label xml:lang="en">Beneath Another Sun, Part I</rdfs:label>
+                  <rico:date xml:lang="en">dates not examined</rico:date>
+                  <rico:instantiationExtent rdf:parseType="Literal">
+                     <html:p xml:lang="en">1 folder</html:p>
+                  </rico:instantiationExtent>
+                  <rdfs:seeAlso rdf:resource="https://www.siv.archives-nationales.culture.gouv.fr/siv/UD/C0009/C0009_c052"/>
+               </rico:Instantiation>
+            </rico:hasInstantiation>
+            <rico:includes>
+               <rico:RecordResource rdf:about="recordResource/-C0009_c053">
+                  <rico:includedIn rdf:resource="recordResource/-C0009_c052"/>
+                  <rdf:type rdf:resource="https://www.ica.org/standards/RiC/ontology#RecordSet"/>
+                  <rico:hasRecordSetType rdf:resource="https://www.ica.org/standards/RiC/vocabularies/recordSetTypes#File"/>
+                  <rico:title xml:lang="en">TMs, English translation (Doubleday)</rico:title>
+                  <rdfs:label xml:lang="en">TMs, English translation (Doubleday)</rdfs:label>
+                  <rico:date xml:lang="en">dates not examined</rico:date>
+                  <rico:hasInstantiation>
+                     <rico:Instantiation rdf:about="instantiation/-C0009_c053-i1">
+                        <rico:instantiates rdf:resource="recordResource/-C0009_c053"/>
+                        <rico:title xml:lang="en">TMs, English translation (Doubleday)</rico:title>
+                        <rdfs:label xml:lang="en">TMs, English translation (Doubleday)</rdfs:label>
+                        <rico:date xml:lang="en">dates not examined</rico:date>
+                        <rico:instantiationExtent rdf:parseType="Literal">
+                           <html:p xml:lang="en">1 folder</html:p>
+                        </rico:instantiationExtent>
+                        <rdfs:seeAlso rdf:resource="https://www.siv.archives-nationales.culture.gouv.fr/siv/UD/C0009/C0009_c053"/>
+                     </rico:Instantiation>
+                  </rico:hasInstantiation>
+               </rico:RecordResource>
+            </rico:includes>
+         </rico:RecordResource>
+      </rico:includes>
+      <rico:includes>
+         <rico:RecordResource rdf:about="recordResource/-C0009_c054">
+            <rico:includedIn rdf:resource="recordResource/-C0009_c047"/>
+            <rdf:type rdf:resource="https://www.ica.org/standards/RiC/ontology#RecordSet"/>
+            <rico:hasRecordSetType rdf:resource="https://www.ica.org/standards/RiC/vocabularies/recordSetTypes#File"/>
+            <rico:title xml:lang="en">Beneath Another Sun, Part II</rico:title>
+            <rdfs:label xml:lang="en">Beneath Another Sun, Part II</rdfs:label>
+            <rico:date xml:lang="en">dates not examined</rico:date>
+            <rico:hasInstantiation>
+               <rico:Instantiation rdf:about="instantiation/-C0009_c054-i1">
+                  <rico:instantiates rdf:resource="recordResource/-C0009_c054"/>
+                  <rico:title xml:lang="en">Beneath Another Sun, Part II</rico:title>
+                  <rdfs:label xml:lang="en">Beneath Another Sun, Part II</rdfs:label>
+                  <rico:date xml:lang="en">dates not examined</rico:date>
+                  <rico:instantiationExtent rdf:parseType="Literal">
+                     <html:p xml:lang="en">1 folder</html:p>
+                  </rico:instantiationExtent>
+                  <rdfs:seeAlso rdf:resource="https://www.siv.archives-nationales.culture.gouv.fr/siv/UD/C0009/C0009_c054"/>
+               </rico:Instantiation>
+            </rico:hasInstantiation>
+            <rico:includes>
+               <rico:RecordResource rdf:about="recordResource/-C0009_c055">
+                  <rico:includedIn rdf:resource="recordResource/-C0009_c054"/>
+                  <rdf:type rdf:resource="https://www.ica.org/standards/RiC/ontology#RecordSet"/>
+                  <rico:hasRecordSetType rdf:resource="https://www.ica.org/standards/RiC/vocabularies/recordSetTypes#File"/>
+                  <rico:title xml:lang="en">TMs with holograph revisions, English translation (Doubleday)</rico:title>
+                  <rdfs:label xml:lang="en">TMs with holograph revisions, English translation (Doubleday)</rdfs:label>
+                  <rico:date xml:lang="en">dates not examined</rico:date>
+                  <rico:hasInstantiation>
+                     <rico:Instantiation rdf:about="instantiation/-C0009_c055-i1">
+                        <rico:instantiates rdf:resource="recordResource/-C0009_c055"/>
+                        <rico:title xml:lang="en">TMs with holograph revisions, English translation (Doubleday)</rico:title>
+                        <rdfs:label xml:lang="en">TMs with holograph revisions, English translation (Doubleday)</rdfs:label>
+                        <rico:date xml:lang="en">dates not examined</rico:date>
+                        <rico:instantiationExtent rdf:parseType="Literal">
+                           <html:p xml:lang="en">1 folder</html:p>
+                        </rico:instantiationExtent>
+                        <rdfs:seeAlso rdf:resource="https://www.siv.archives-nationales.culture.gouv.fr/siv/UD/C0009/C0009_c055"/>
+                     </rico:Instantiation>
+                  </rico:hasInstantiation>
+               </rico:RecordResource>
+            </rico:includes>
+         </rico:RecordResource>
+      </rico:includes>
+      <rico:includes>
+         <rico:RecordResource rdf:about="recordResource/-C0009_c056">
+            <rico:includedIn rdf:resource="recordResource/-C0009_c047"/>
+            <rdf:type rdf:resource="https://www.ica.org/standards/RiC/ontology#RecordSet"/>
+            <rico:hasRecordSetType rdf:resource="https://www.ica.org/standards/RiC/vocabularies/recordSetTypes#File"/>
+            <rico:title xml:lang="en">2 ALsS to Barrows Mussey</rico:title>
+            <rdfs:label xml:lang="en">2 ALsS to Barrows Mussey</rdfs:label>
+            <rico:beginningDate rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1940</rico:beginningDate>
+            <rico:endDate rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1941</rico:endDate>
+            <rico:date xml:lang="en">1940-1941</rico:date>
+            <rico:hasInstantiation>
+               <rico:Instantiation rdf:about="instantiation/-C0009_c056-i1">
+                  <rico:instantiates rdf:resource="recordResource/-C0009_c056"/>
+                  <rico:title xml:lang="en">2 ALsS to Barrows Mussey</rico:title>
+                  <rdfs:label xml:lang="en">2 ALsS to Barrows Mussey</rdfs:label>
+                  <rico:beginningDate rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1940</rico:beginningDate>
+                  <rico:endDate rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1941</rico:endDate>
+                  <rico:date xml:lang="en">1940-1941</rico:date>
+                  <rico:instantiationExtent rdf:parseType="Literal">
+                     <html:p xml:lang="en">1 folder</html:p>
+                  </rico:instantiationExtent>
+                  <rdfs:seeAlso rdf:resource="https://www.siv.archives-nationales.culture.gouv.fr/siv/UD/C0009/C0009_c056"/>
+               </rico:Instantiation>
+            </rico:hasInstantiation>
+         </rico:RecordResource>
+      </rico:includes>
+      <rico:includes>
+         <rico:RecordResource rdf:about="recordResource/-C0009_c057">
+            <rico:includedIn rdf:resource="recordResource/-C0009_c047"/>
+            <rdf:type rdf:resource="https://www.ica.org/standards/RiC/ontology#RecordSet"/>
+            <rico:hasRecordSetType rdf:resource="https://www.ica.org/standards/RiC/vocabularies/recordSetTypes#File"/>
+            <rico:title xml:lang="en">A Woman is Witness</rico:title>
+            <rdfs:label xml:lang="en">A Woman is Witness</rdfs:label>
+            <rico:date xml:lang="en">dates not examined</rico:date>
+            <rico:hasInstantiation>
+               <rico:Instantiation rdf:about="instantiation/-C0009_c057-i1">
+                  <rico:instantiates rdf:resource="recordResource/-C0009_c057"/>
+                  <rico:title xml:lang="en">A Woman is Witness</rico:title>
+                  <rdfs:label xml:lang="en">A Woman is Witness</rdfs:label>
+                  <rico:date xml:lang="en">dates not examined</rico:date>
+                  <rico:instantiationExtent rdf:parseType="Literal">
+                     <html:p xml:lang="en">1 folder</html:p>
+                  </rico:instantiationExtent>
+                  <rdfs:seeAlso rdf:resource="https://www.siv.archives-nationales.culture.gouv.fr/siv/UD/C0009/C0009_c057"/>
+               </rico:Instantiation>
+            </rico:hasInstantiation>
+            <rico:includes>
+               <rico:RecordResource rdf:about="recordResource/-C0009_c058">
+                  <rico:includedIn rdf:resource="recordResource/-C0009_c057"/>
+                  <rdf:type rdf:resource="https://www.ica.org/standards/RiC/ontology#RecordSet"/>
+                  <rico:hasRecordSetType rdf:resource="https://www.ica.org/standards/RiC/vocabularies/recordSetTypes#File"/>
+                  <rico:title xml:lang="en">TMs (carbon), German</rico:title>
+                  <rdfs:label xml:lang="en">TMs (carbon), German</rdfs:label>
+                  <rico:date xml:lang="en">dates not examined</rico:date>
+                  <rico:hasInstantiation>
+                     <rico:Instantiation rdf:about="instantiation/-C0009_c058-i1">
+                        <rico:instantiates rdf:resource="recordResource/-C0009_c058"/>
+                        <rico:title xml:lang="en">TMs (carbon), German</rico:title>
+                        <rdfs:label xml:lang="en">TMs (carbon), German</rdfs:label>
+                        <rico:date xml:lang="en">dates not examined</rico:date>
+                        <rico:instantiationExtent rdf:parseType="Literal">
+                           <html:p xml:lang="en">1 folder</html:p>
+                        </rico:instantiationExtent>
+                        <rdfs:seeAlso rdf:resource="https://www.siv.archives-nationales.culture.gouv.fr/siv/UD/C0009/C0009_c058"/>
+                     </rico:Instantiation>
+                  </rico:hasInstantiation>
+               </rico:RecordResource>
+            </rico:includes>
+         </rico:RecordResource>
+      </rico:includes>
+      <rico:includes>
+         <rico:RecordResource rdf:about="recordResource/-C0009_c059">
+            <rico:includedIn rdf:resource="recordResource/-C0009_c047"/>
+            <rdf:type rdf:resource="https://www.ica.org/standards/RiC/ontology#RecordSet"/>
+            <rico:hasRecordSetType rdf:resource="https://www.ica.org/standards/RiC/vocabularies/recordSetTypes#File"/>
+            <rico:title xml:lang="en">A Woman is Witness, Part I</rico:title>
+            <rdfs:label xml:lang="en">A Woman is Witness, Part I</rdfs:label>
+            <rico:date xml:lang="en">dates not examined</rico:date>
+            <rico:hasInstantiation>
+               <rico:Instantiation rdf:about="instantiation/-C0009_c059-i1">
+                  <rico:instantiates rdf:resource="recordResource/-C0009_c059"/>
+                  <rico:title xml:lang="en">A Woman is Witness, Part I</rico:title>
+                  <rdfs:label xml:lang="en">A Woman is Witness, Part I</rdfs:label>
+                  <rico:date xml:lang="en">dates not examined</rico:date>
+                  <rico:instantiationExtent rdf:parseType="Literal">
+                     <html:p xml:lang="en">1 folder</html:p>
+                  </rico:instantiationExtent>
+                  <rdfs:seeAlso rdf:resource="https://www.siv.archives-nationales.culture.gouv.fr/siv/UD/C0009/C0009_c059"/>
+               </rico:Instantiation>
+            </rico:hasInstantiation>
+            <rico:includes>
+               <rico:RecordResource rdf:about="recordResource/-C0009_c060">
+                  <rico:includedIn rdf:resource="recordResource/-C0009_c059"/>
+                  <rdf:type rdf:resource="https://www.ica.org/standards/RiC/ontology#RecordSet"/>
+                  <rico:hasRecordSetType rdf:resource="https://www.ica.org/standards/RiC/vocabularies/recordSetTypes#File"/>
+                  <rico:title xml:lang="en">TMs, English translation</rico:title>
+                  <rdfs:label xml:lang="en">TMs, English translation</rdfs:label>
+                  <rico:date xml:lang="en">dates not examined</rico:date>
+                  <rico:hasInstantiation>
+                     <rico:Instantiation rdf:about="instantiation/-C0009_c060-i1">
+                        <rico:instantiates rdf:resource="recordResource/-C0009_c060"/>
+                        <rico:title xml:lang="en">TMs, English translation</rico:title>
+                        <rdfs:label xml:lang="en">TMs, English translation</rdfs:label>
+                        <rico:date xml:lang="en">dates not examined</rico:date>
+                        <rico:instantiationExtent rdf:parseType="Literal">
+                           <html:p xml:lang="en">1 folder</html:p>
+                        </rico:instantiationExtent>
+                        <rdfs:seeAlso rdf:resource="https://www.siv.archives-nationales.culture.gouv.fr/siv/UD/C0009/C0009_c060"/>
+                     </rico:Instantiation>
+                  </rico:hasInstantiation>
+               </rico:RecordResource>
+            </rico:includes>
+         </rico:RecordResource>
+      </rico:includes>
+      <rico:includes>
+         <rico:RecordResource rdf:about="recordResource/-C0009_c061">
+            <rico:includedIn rdf:resource="recordResource/-C0009_c047"/>
+            <rdf:type rdf:resource="https://www.ica.org/standards/RiC/ontology#RecordSet"/>
+            <rico:hasRecordSetType rdf:resource="https://www.ica.org/standards/RiC/vocabularies/recordSetTypes#File"/>
+            <rico:title xml:lang="en">A Woman is Witness, Part II</rico:title>
+            <rdfs:label xml:lang="en">A Woman is Witness, Part II</rdfs:label>
+            <rico:date xml:lang="en">dates not examined</rico:date>
+            <rico:hasInstantiation>
+               <rico:Instantiation rdf:about="instantiation/-C0009_c061-i1">
+                  <rico:instantiates rdf:resource="recordResource/-C0009_c061"/>
+                  <rico:title xml:lang="en">A Woman is Witness, Part II</rico:title>
+                  <rdfs:label xml:lang="en">A Woman is Witness, Part II</rdfs:label>
+                  <rico:date xml:lang="en">dates not examined</rico:date>
+                  <rico:instantiationExtent rdf:parseType="Literal">
+                     <html:p xml:lang="en">1 folder</html:p>
+                  </rico:instantiationExtent>
+                  <rdfs:seeAlso rdf:resource="https://www.siv.archives-nationales.culture.gouv.fr/siv/UD/C0009/C0009_c061"/>
+               </rico:Instantiation>
+            </rico:hasInstantiation>
+            <rico:includes>
+               <rico:RecordResource rdf:about="recordResource/-C0009_c062">
+                  <rico:includedIn rdf:resource="recordResource/-C0009_c061"/>
+                  <rdf:type rdf:resource="https://www.ica.org/standards/RiC/ontology#RecordSet"/>
+                  <rico:hasRecordSetType rdf:resource="https://www.ica.org/standards/RiC/vocabularies/recordSetTypes#File"/>
+                  <rico:title xml:lang="en">TMs, English translation</rico:title>
+                  <rdfs:label xml:lang="en">TMs, English translation</rdfs:label>
+                  <rico:date xml:lang="en">dates not examined</rico:date>
+                  <rico:hasInstantiation>
+                     <rico:Instantiation rdf:about="instantiation/-C0009_c062-i1">
+                        <rico:instantiates rdf:resource="recordResource/-C0009_c062"/>
+                        <rico:title xml:lang="en">TMs, English translation</rico:title>
+                        <rdfs:label xml:lang="en">TMs, English translation</rdfs:label>
+                        <rico:date xml:lang="en">dates not examined</rico:date>
+                        <rico:instantiationExtent rdf:parseType="Literal">
+                           <html:p xml:lang="en">1 folder</html:p>
+                        </rico:instantiationExtent>
+                        <rdfs:seeAlso rdf:resource="https://www.siv.archives-nationales.culture.gouv.fr/siv/UD/C0009/C0009_c062"/>
+                     </rico:Instantiation>
+                  </rico:hasInstantiation>
+               </rico:RecordResource>
+            </rico:includes>
+         </rico:RecordResource>
+      </rico:includes>
+   </rico:RecordResource>
+   <rico:RecordResource rdf:about="recordResource/-C0009_c063">
+      <rico:includedIn rdf:resource="recordResource/-top"/>
+      <rdf:type rdf:resource="https://www.ica.org/standards/RiC/ontology#RecordSet"/>
+      <rico:hasRecordSetType rdf:resource="https://www.ica.org/standards/RiC/vocabularies/recordSetTypes#File"/>
+      <rico:title xml:lang="en">Ludwig, Emil</rico:title>
+      <rdfs:label xml:lang="en">Ludwig, Emil</rdfs:label>
+      <rico:date xml:lang="en">dates not examined</rico:date>
+      <rico:hasInstantiation>
+         <rico:Instantiation rdf:about="instantiation/-C0009_c063-i1">
+            <rico:instantiates rdf:resource="recordResource/-C0009_c063"/>
+            <rico:title xml:lang="en">Ludwig, Emil</rico:title>
+            <rdfs:label xml:lang="en">Ludwig, Emil</rdfs:label>
+            <rico:date xml:lang="en">dates not examined</rico:date>
+            <rico:instantiationExtent rdf:parseType="Literal">
+               <html:p xml:lang="en">2 boxes</html:p>
+            </rico:instantiationExtent>
+            <rdfs:seeAlso rdf:resource="https://www.siv.archives-nationales.culture.gouv.fr/siv/UD/C0009/C0009_c063"/>
+         </rico:Instantiation>
+      </rico:hasInstantiation>
+      <rico:includes>
+         <rico:RecordResource rdf:about="recordResource/-C0009_c064">
+            <rico:includedIn rdf:resource="recordResource/-C0009_c063"/>
+            <rdf:type rdf:resource="https://www.ica.org/standards/RiC/ontology#RecordSet"/>
+            <rico:hasRecordSetType rdf:resource="https://www.ica.org/standards/RiC/vocabularies/recordSetTypes#File"/>
+            <rico:title xml:lang="en">The Mediterranean, Part I</rico:title>
+            <rdfs:label xml:lang="en">The Mediterranean, Part I</rdfs:label>
+            <rico:date xml:lang="en">dates not examined</rico:date>
+            <rico:hasInstantiation>
+               <rico:Instantiation rdf:about="instantiation/-C0009_c064-i1">
+                  <rico:instantiates rdf:resource="recordResource/-C0009_c064"/>
+                  <rico:title xml:lang="en">The Mediterranean, Part I</rico:title>
+                  <rdfs:label xml:lang="en">The Mediterranean, Part I</rdfs:label>
+                  <rico:date xml:lang="en">dates not examined</rico:date>
+                  <rico:instantiationExtent rdf:parseType="Literal">
+                     <html:p xml:lang="en">1 folder</html:p>
+                  </rico:instantiationExtent>
+                  <rdfs:seeAlso rdf:resource="https://www.siv.archives-nationales.culture.gouv.fr/siv/UD/C0009/C0009_c064"/>
+               </rico:Instantiation>
+            </rico:hasInstantiation>
+            <rico:includes>
+               <rico:RecordResource rdf:about="recordResource/-C0009_c065">
+                  <rico:includedIn rdf:resource="recordResource/-C0009_c064"/>
+                  <rdf:type rdf:resource="https://www.ica.org/standards/RiC/ontology#RecordSet"/>
+                  <rico:hasRecordSetType rdf:resource="https://www.ica.org/standards/RiC/vocabularies/recordSetTypes#File"/>
+                  <rico:title xml:lang="en">TMs</rico:title>
+                  <rdfs:label xml:lang="en">TMs</rdfs:label>
+                  <rico:date xml:lang="en">dates not examined</rico:date>
+                  <rico:scopeAndContent rdf:parseType="Literal">
+                     <html:p xml:lang="en">Contains corrections, glossary, new forward (German) for translation</html:p>
+                  </rico:scopeAndContent>
+                  <rico:hasInstantiation>
+                     <rico:Instantiation rdf:about="instantiation/-C0009_c065-i1">
+                        <rico:instantiates rdf:resource="recordResource/-C0009_c065"/>
+                        <rico:title xml:lang="en">TMs</rico:title>
+                        <rdfs:label xml:lang="en">TMs</rdfs:label>
+                        <rico:date xml:lang="en">dates not examined</rico:date>
+                        <rico:instantiationExtent rdf:parseType="Literal">
+                           <html:p xml:lang="en">1 folder</html:p>
+                        </rico:instantiationExtent>
+                        <rdfs:seeAlso rdf:resource="https://www.siv.archives-nationales.culture.gouv.fr/siv/UD/C0009/C0009_c065"/>
+                     </rico:Instantiation>
+                  </rico:hasInstantiation>
+               </rico:RecordResource>
+            </rico:includes>
+         </rico:RecordResource>
+      </rico:includes>
+      <rico:includes>
+         <rico:RecordResource rdf:about="recordResource/-C0009_c066">
+            <rico:includedIn rdf:resource="recordResource/-C0009_c063"/>
+            <rdf:type rdf:resource="https://www.ica.org/standards/RiC/ontology#RecordSet"/>
+            <rico:hasRecordSetType rdf:resource="https://www.ica.org/standards/RiC/vocabularies/recordSetTypes#File"/>
+            <rico:title xml:lang="en">The Mediterranean, Part II</rico:title>
+            <rdfs:label xml:lang="en">The Mediterranean, Part II</rdfs:label>
+            <rico:date xml:lang="en">dates not examined</rico:date>
+            <rico:hasInstantiation>
+               <rico:Instantiation rdf:about="instantiation/-C0009_c066-i1">
+                  <rico:instantiates rdf:resource="recordResource/-C0009_c066"/>
+                  <rico:title xml:lang="en">The Mediterranean, Part II</rico:title>
+                  <rdfs:label xml:lang="en">The Mediterranean, Part II</rdfs:label>
+                  <rico:date xml:lang="en">dates not examined</rico:date>
+                  <rico:instantiationExtent rdf:parseType="Literal">
+                     <html:p xml:lang="en">1 folder</html:p>
+                  </rico:instantiationExtent>
+                  <rdfs:seeAlso rdf:resource="https://www.siv.archives-nationales.culture.gouv.fr/siv/UD/C0009/C0009_c066"/>
+               </rico:Instantiation>
+            </rico:hasInstantiation>
+            <rico:includes>
+               <rico:RecordResource rdf:about="recordResource/-C0009_c067">
+                  <rico:includedIn rdf:resource="recordResource/-C0009_c066"/>
+                  <rdf:type rdf:resource="https://www.ica.org/standards/RiC/ontology#RecordSet"/>
+                  <rico:hasRecordSetType rdf:resource="https://www.ica.org/standards/RiC/vocabularies/recordSetTypes#File"/>
+                  <rico:title xml:lang="en">TMs</rico:title>
+                  <rdfs:label xml:lang="en">TMs</rdfs:label>
+                  <rico:date xml:lang="en">dates not examined</rico:date>
+                  <rico:hasInstantiation>
+                     <rico:Instantiation rdf:about="instantiation/-C0009_c067-i1">
+                        <rico:instantiates rdf:resource="recordResource/-C0009_c067"/>
+                        <rico:title xml:lang="en">TMs</rico:title>
+                        <rdfs:label xml:lang="en">TMs</rdfs:label>
+                        <rico:date xml:lang="en">dates not examined</rico:date>
+                        <rico:instantiationExtent rdf:parseType="Literal">
+                           <html:p xml:lang="en">1 folder</html:p>
+                        </rico:instantiationExtent>
+                        <rdfs:seeAlso rdf:resource="https://www.siv.archives-nationales.culture.gouv.fr/siv/UD/C0009/C0009_c067"/>
+                     </rico:Instantiation>
+                  </rico:hasInstantiation>
+               </rico:RecordResource>
+            </rico:includes>
+         </rico:RecordResource>
+      </rico:includes>
+      <rico:includes>
+         <rico:RecordResource rdf:about="recordResource/-C0009_c068">
+            <rico:includedIn rdf:resource="recordResource/-C0009_c063"/>
+            <rdf:type rdf:resource="https://www.ica.org/standards/RiC/ontology#RecordSet"/>
+            <rico:hasRecordSetType rdf:resource="https://www.ica.org/standards/RiC/vocabularies/recordSetTypes#File"/>
+            <rico:title xml:lang="en">The Mediterranean, Part III</rico:title>
+            <rdfs:label xml:lang="en">The Mediterranean, Part III</rdfs:label>
+            <rico:date xml:lang="en">dates not examined</rico:date>
+            <rico:hasInstantiation>
+               <rico:Instantiation rdf:about="instantiation/-C0009_c068-i1">
+                  <rico:instantiates rdf:resource="recordResource/-C0009_c068"/>
+                  <rico:title xml:lang="en">The Mediterranean, Part III</rico:title>
+                  <rdfs:label xml:lang="en">The Mediterranean, Part III</rdfs:label>
+                  <rico:date xml:lang="en">dates not examined</rico:date>
+                  <rico:instantiationExtent rdf:parseType="Literal">
+                     <html:p xml:lang="en">1 folder</html:p>
+                  </rico:instantiationExtent>
+                  <rdfs:seeAlso rdf:resource="https://www.siv.archives-nationales.culture.gouv.fr/siv/UD/C0009/C0009_c068"/>
+               </rico:Instantiation>
+            </rico:hasInstantiation>
+            <rico:includes>
+               <rico:RecordResource rdf:about="recordResource/-C0009_c069">
+                  <rico:includedIn rdf:resource="recordResource/-C0009_c068"/>
+                  <rdf:type rdf:resource="https://www.ica.org/standards/RiC/ontology#RecordSet"/>
+                  <rico:hasRecordSetType rdf:resource="https://www.ica.org/standards/RiC/vocabularies/recordSetTypes#File"/>
+                  <rico:title xml:lang="en">TMs</rico:title>
+                  <rdfs:label xml:lang="en">TMs</rdfs:label>
+                  <rico:date xml:lang="en">dates not examined</rico:date>
+                  <rico:hasInstantiation>
+                     <rico:Instantiation rdf:about="instantiation/-C0009_c069-i1">
+                        <rico:instantiates rdf:resource="recordResource/-C0009_c069"/>
+                        <rico:title xml:lang="en">TMs</rico:title>
+                        <rdfs:label xml:lang="en">TMs</rdfs:label>
+                        <rico:date xml:lang="en">dates not examined</rico:date>
+                        <rico:instantiationExtent rdf:parseType="Literal">
+                           <html:p xml:lang="en">1 folder</html:p>
+                        </rico:instantiationExtent>
+                        <rdfs:seeAlso rdf:resource="https://www.siv.archives-nationales.culture.gouv.fr/siv/UD/C0009/C0009_c069"/>
+                     </rico:Instantiation>
+                  </rico:hasInstantiation>
+               </rico:RecordResource>
+            </rico:includes>
+         </rico:RecordResource>
+      </rico:includes>
+   </rico:RecordResource>
+   <rico:RecordResource rdf:about="recordResource/-C0009_c070">
+      <rico:includedIn rdf:resource="recordResource/-top"/>
+      <rdf:type rdf:resource="https://www.ica.org/standards/RiC/ontology#RecordSet"/>
+      <rico:hasRecordSetType rdf:resource="https://www.ica.org/standards/RiC/vocabularies/recordSetTypes#File"/>
+      <rico:title xml:lang="en">Mussey, Barrows</rico:title>
+      <rdfs:label xml:lang="en">Mussey, Barrows</rdfs:label>
+      <rico:date xml:lang="en">dates not examined</rico:date>
+      <rico:hasInstantiation>
+         <rico:Instantiation rdf:about="instantiation/-C0009_c070-i1">
+            <rico:instantiates rdf:resource="recordResource/-C0009_c070"/>
+            <rico:title xml:lang="en">Mussey, Barrows</rico:title>
+            <rdfs:label xml:lang="en">Mussey, Barrows</rdfs:label>
+            <rico:date xml:lang="en">dates not examined</rico:date>
+            <rico:instantiationExtent rdf:parseType="Literal">
+               <html:p xml:lang="en">1 folder</html:p>
+            </rico:instantiationExtent>
+            <rdfs:seeAlso rdf:resource="https://www.siv.archives-nationales.culture.gouv.fr/siv/UD/C0009/C0009_c070"/>
+         </rico:Instantiation>
+      </rico:hasInstantiation>
+      <rico:includes>
+         <rico:RecordResource rdf:about="recordResource/-C0009_c071">
+            <rico:includedIn rdf:resource="recordResource/-C0009_c070"/>
+            <rdf:type rdf:resource="https://www.ica.org/standards/RiC/ontology#RecordSet"/>
+            <rico:hasRecordSetType rdf:resource="https://www.ica.org/standards/RiC/vocabularies/recordSetTypes#File"/>
+            <rico:title xml:lang="en">"Translators and Traitors"</rico:title>
+            <rdfs:label xml:lang="en">"Translators and Traitors"</rdfs:label>
+            <rico:date xml:lang="en">dates not examined</rico:date>
+            <rico:hasInstantiation>
+               <rico:Instantiation rdf:about="instantiation/-C0009_c071-i1">
+                  <rico:instantiates rdf:resource="recordResource/-C0009_c071"/>
+                  <rico:title xml:lang="en">"Translators and Traitors"</rico:title>
+                  <rdfs:label xml:lang="en">"Translators and Traitors"</rdfs:label>
+                  <rico:date xml:lang="en">dates not examined</rico:date>
+                  <rico:instantiationExtent rdf:parseType="Literal">
+                     <html:p xml:lang="en">1 folder</html:p>
+                  </rico:instantiationExtent>
+                  <rdfs:seeAlso rdf:resource="https://www.siv.archives-nationales.culture.gouv.fr/siv/UD/C0009/C0009_c071"/>
+               </rico:Instantiation>
+            </rico:hasInstantiation>
+            <rico:includes>
+               <rico:RecordResource rdf:about="recordResource/-C0009_c072">
+                  <rico:includedIn rdf:resource="recordResource/-C0009_c071"/>
+                  <rdf:type rdf:resource="https://www.ica.org/standards/RiC/ontology#RecordSet"/>
+                  <rico:hasRecordSetType rdf:resource="https://www.ica.org/standards/RiC/vocabularies/recordSetTypes#File"/>
+                  <rico:title xml:lang="en">TMs (carbon)</rico:title>
+                  <rdfs:label xml:lang="en">TMs (carbon)</rdfs:label>
+                  <rico:date xml:lang="en">dates not examined</rico:date>
+                  <rico:hasInstantiation>
+                     <rico:Instantiation rdf:about="instantiation/-C0009_c072-i1">
+                        <rico:instantiates rdf:resource="recordResource/-C0009_c072"/>
+                        <rico:title xml:lang="en">TMs (carbon)</rico:title>
+                        <rdfs:label xml:lang="en">TMs (carbon)</rdfs:label>
+                        <rico:date xml:lang="en">dates not examined</rico:date>
+                        <rico:instantiationExtent rdf:parseType="Literal">
+                           <html:p xml:lang="en">1 folder</html:p>
+                        </rico:instantiationExtent>
+                        <rdfs:seeAlso rdf:resource="https://www.siv.archives-nationales.culture.gouv.fr/siv/UD/C0009/C0009_c072"/>
+                     </rico:Instantiation>
+                  </rico:hasInstantiation>
+               </rico:RecordResource>
+            </rico:includes>
+         </rico:RecordResource>
+      </rico:includes>
+   </rico:RecordResource>
+   <rico:RecordResource rdf:about="recordResource/-C0009_c073">
+      <rico:includedIn rdf:resource="recordResource/-top"/>
+      <rdf:type rdf:resource="https://www.ica.org/standards/RiC/ontology#RecordSet"/>
+      <rico:hasRecordSetType rdf:resource="https://www.ica.org/standards/RiC/vocabularies/recordSetTypes#File"/>
+      <rico:title xml:lang="en">Neisser, Gerardo E.</rico:title>
+      <rdfs:label xml:lang="en">Neisser, Gerardo E.</rdfs:label>
+      <rico:beginningDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">1942-01-01</rico:beginningDate>
+      <rico:endDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">1942-12-31</rico:endDate>
+      <rico:date xml:lang="en">1942</rico:date>
+      <rico:hasInstantiation>
+         <rico:Instantiation rdf:about="instantiation/-C0009_c073-i1">
+            <rico:instantiates rdf:resource="recordResource/-C0009_c073"/>
+            <rico:title xml:lang="en">Neisser, Gerardo E.</rico:title>
+            <rdfs:label xml:lang="en">Neisser, Gerardo E.</rdfs:label>
+            <rico:beginningDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">1942-01-01</rico:beginningDate>
+            <rico:endDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">1942-12-31</rico:endDate>
+            <rico:date xml:lang="en">1942</rico:date>
+            <rico:instantiationExtent rdf:parseType="Literal">
+               <html:p xml:lang="en">1 folder</html:p>
+            </rico:instantiationExtent>
+            <rdfs:seeAlso rdf:resource="https://www.siv.archives-nationales.culture.gouv.fr/siv/UD/C0009/C0009_c073"/>
+         </rico:Instantiation>
+      </rico:hasInstantiation>
+      <rico:includes>
+         <rico:RecordResource rdf:about="recordResource/-C0009_c074">
+            <rico:includedIn rdf:resource="recordResource/-C0009_c073"/>
+            <rdf:type rdf:resource="https://www.ica.org/standards/RiC/ontology#RecordSet"/>
+            <rico:hasRecordSetType rdf:resource="https://www.ica.org/standards/RiC/vocabularies/recordSetTypes#File"/>
+            <rico:title xml:lang="en">"Call Me Frank"</rico:title>
+            <rdfs:label xml:lang="en">"Call Me Frank"</rdfs:label>
+            <rico:date xml:lang="en">dates not examined</rico:date>
+            <rico:hasInstantiation>
+               <rico:Instantiation rdf:about="instantiation/-C0009_c074-i1">
+                  <rico:instantiates rdf:resource="recordResource/-C0009_c074"/>
+                  <rico:title xml:lang="en">"Call Me Frank"</rico:title>
+                  <rdfs:label xml:lang="en">"Call Me Frank"</rdfs:label>
+                  <rico:date xml:lang="en">dates not examined</rico:date>
+                  <rico:instantiationExtent rdf:parseType="Literal">
+                     <html:p xml:lang="en">1 folder</html:p>
+                  </rico:instantiationExtent>
+                  <rdfs:seeAlso rdf:resource="https://www.siv.archives-nationales.culture.gouv.fr/siv/UD/C0009/C0009_c074"/>
+               </rico:Instantiation>
+            </rico:hasInstantiation>
+            <rico:includes>
+               <rico:RecordResource rdf:about="recordResource/-C0009_c075">
+                  <rico:includedIn rdf:resource="recordResource/-C0009_c074"/>
+                  <rdf:type rdf:resource="https://www.ica.org/standards/RiC/ontology#RecordSet"/>
+                  <rico:hasRecordSetType rdf:resource="https://www.ica.org/standards/RiC/vocabularies/recordSetTypes#File"/>
+                  <rico:title xml:lang="en">TMs (carbon)</rico:title>
+                  <rdfs:label xml:lang="en">TMs (carbon)</rdfs:label>
+                  <rico:date xml:lang="en">dates not examined</rico:date>
+                  <rico:hasInstantiation>
+                     <rico:Instantiation rdf:about="instantiation/-C0009_c075-i1">
+                        <rico:instantiates rdf:resource="recordResource/-C0009_c075"/>
+                        <rico:title xml:lang="en">TMs (carbon)</rico:title>
+                        <rdfs:label xml:lang="en">TMs (carbon)</rdfs:label>
+                        <rico:date xml:lang="en">dates not examined</rico:date>
+                        <rico:instantiationExtent rdf:parseType="Literal">
+                           <html:p xml:lang="en">1 folder</html:p>
+                        </rico:instantiationExtent>
+                        <rdfs:seeAlso rdf:resource="https://www.siv.archives-nationales.culture.gouv.fr/siv/UD/C0009/C0009_c075"/>
+                     </rico:Instantiation>
+                  </rico:hasInstantiation>
+               </rico:RecordResource>
+            </rico:includes>
+         </rico:RecordResource>
+      </rico:includes>
+      <rico:includes>
+         <rico:RecordResource rdf:about="recordResource/-C0009_c076">
+            <rico:includedIn rdf:resource="recordResource/-C0009_c073"/>
+            <rdf:type rdf:resource="https://www.ica.org/standards/RiC/ontology#RecordSet"/>
+            <rico:hasRecordSetType rdf:resource="https://www.ica.org/standards/RiC/vocabularies/recordSetTypes#File"/>
+            <rico:title xml:lang="en">TLS by Neisser to Mussey</rico:title>
+            <rdfs:label xml:lang="en">TLS by Neisser to Mussey</rdfs:label>
+            <rico:beginningDate rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1942</rico:beginningDate>
+            <rico:endDate rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1942</rico:endDate>
+            <rico:date xml:lang="en">1942</rico:date>
+            <rico:hasInstantiation>
+               <rico:Instantiation rdf:about="instantiation/-C0009_c076-i1">
+                  <rico:instantiates rdf:resource="recordResource/-C0009_c076"/>
+                  <rico:title xml:lang="en">TLS by Neisser to Mussey</rico:title>
+                  <rdfs:label xml:lang="en">TLS by Neisser to Mussey</rdfs:label>
+                  <rico:beginningDate rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1942</rico:beginningDate>
+                  <rico:endDate rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1942</rico:endDate>
+                  <rico:date xml:lang="en">1942</rico:date>
+                  <rico:instantiationExtent rdf:parseType="Literal">
+                     <html:p xml:lang="en">1 folder</html:p>
+                  </rico:instantiationExtent>
+                  <rdfs:seeAlso rdf:resource="https://www.siv.archives-nationales.culture.gouv.fr/siv/UD/C0009/C0009_c076"/>
+               </rico:Instantiation>
+            </rico:hasInstantiation>
+         </rico:RecordResource>
+      </rico:includes>
+      <rico:includes>
+         <rico:RecordResource rdf:about="recordResource/-C0009_c077">
+            <rico:includedIn rdf:resource="recordResource/-C0009_c073"/>
+            <rdf:type rdf:resource="https://www.ica.org/standards/RiC/ontology#RecordSet"/>
+            <rico:hasRecordSetType rdf:resource="https://www.ica.org/standards/RiC/vocabularies/recordSetTypes#File"/>
+            <rico:title xml:lang="en">Program: December 25, 1940, London</rico:title>
+            <rdfs:label xml:lang="en">Program: December 25, 1940, London</rdfs:label>
+            <rico:date xml:lang="en">dates not examined</rico:date>
+            <rico:hasInstantiation>
+               <rico:Instantiation rdf:about="instantiation/-C0009_c077-i1">
+                  <rico:instantiates rdf:resource="recordResource/-C0009_c077"/>
+                  <rico:title xml:lang="en">Program: December 25, 1940, London</rico:title>
+                  <rdfs:label xml:lang="en">Program: December 25, 1940, London</rdfs:label>
+                  <rico:date xml:lang="en">dates not examined</rico:date>
+                  <rico:instantiationExtent rdf:parseType="Literal">
+                     <html:p xml:lang="en">1 folder</html:p>
+                  </rico:instantiationExtent>
+                  <rdfs:seeAlso rdf:resource="https://www.siv.archives-nationales.culture.gouv.fr/siv/UD/C0009/C0009_c077"/>
+               </rico:Instantiation>
+            </rico:hasInstantiation>
+         </rico:RecordResource>
+      </rico:includes>
+   </rico:RecordResource>
+   <rico:RecordResource rdf:about="recordResource/-C0009_c078">
+      <rico:includedIn rdf:resource="recordResource/-top"/>
+      <rdf:type rdf:resource="https://www.ica.org/standards/RiC/ontology#RecordSet"/>
+      <rico:hasRecordSetType rdf:resource="https://www.ica.org/standards/RiC/vocabularies/recordSetTypes#File"/>
+      <rico:title xml:lang="en">Rauschning, Hermann</rico:title>
+      <rdfs:label xml:lang="en">Rauschning, Hermann</rdfs:label>
+      <rico:date xml:lang="en">dates not examined</rico:date>
+      <rico:hasInstantiation>
+         <rico:Instantiation rdf:about="instantiation/-C0009_c078-i1">
+            <rico:instantiates rdf:resource="recordResource/-C0009_c078"/>
+            <rico:title xml:lang="en">Rauschning, Hermann</rico:title>
+            <rdfs:label xml:lang="en">Rauschning, Hermann</rdfs:label>
+            <rico:date xml:lang="en">dates not examined</rico:date>
+            <rico:instantiationExtent rdf:parseType="Literal">
+               <html:p xml:lang="en">2 folders</html:p>
+            </rico:instantiationExtent>
+            <rdfs:seeAlso rdf:resource="https://www.siv.archives-nationales.culture.gouv.fr/siv/UD/C0009/C0009_c078"/>
+         </rico:Instantiation>
+      </rico:hasInstantiation>
+      <rico:includes>
+         <rico:RecordResource rdf:about="recordResource/-C0009_c079">
+            <rico:includedIn rdf:resource="recordResource/-C0009_c078"/>
+            <rdf:type rdf:resource="https://www.ica.org/standards/RiC/ontology#RecordSet"/>
+            <rico:hasRecordSetType rdf:resource="https://www.ica.org/standards/RiC/vocabularies/recordSetTypes#File"/>
+            <rico:title xml:lang="en">Das Jahr der Entscheidung</rico:title>
+            <rdfs:label xml:lang="en">Das Jahr der Entscheidung</rdfs:label>
+            <rico:date xml:lang="en">dates not examined</rico:date>
+            <rico:hasInstantiation>
+               <rico:Instantiation rdf:about="instantiation/-C0009_c079-i1">
+                  <rico:instantiates rdf:resource="recordResource/-C0009_c079"/>
+                  <rico:title xml:lang="en">Das Jahr der Entscheidung</rico:title>
+                  <rdfs:label xml:lang="en">Das Jahr der Entscheidung</rdfs:label>
+                  <rico:date xml:lang="en">dates not examined</rico:date>
+                  <rico:instantiationExtent rdf:parseType="Literal">
+                     <html:p xml:lang="en">1 folder</html:p>
+                  </rico:instantiationExtent>
+                  <rdfs:seeAlso rdf:resource="https://www.siv.archives-nationales.culture.gouv.fr/siv/UD/C0009/C0009_c079"/>
+               </rico:Instantiation>
+            </rico:hasInstantiation>
+            <rico:includes>
+               <rico:RecordResource rdf:about="recordResource/-C0009_c080">
+                  <rico:includedIn rdf:resource="recordResource/-C0009_c079"/>
+                  <rdf:type rdf:resource="https://www.ica.org/standards/RiC/ontology#RecordSet"/>
+                  <rico:hasRecordSetType rdf:resource="https://www.ica.org/standards/RiC/vocabularies/recordSetTypes#File"/>
+                  <rico:title xml:lang="en">TMs, German (English translation made but lost) (unpublished)</rico:title>
+                  <rdfs:label xml:lang="en">TMs, German (English translation made but lost) (unpublished)</rdfs:label>
+                  <rico:date xml:lang="en">dates not examined</rico:date>
+                  <rico:hasInstantiation>
+                     <rico:Instantiation rdf:about="instantiation/-C0009_c080-i1">
+                        <rico:instantiates rdf:resource="recordResource/-C0009_c080"/>
+                        <rico:title xml:lang="en">TMs, German (English translation made but lost) (unpublished)</rico:title>
+                        <rdfs:label xml:lang="en">TMs, German (English translation made but lost) (unpublished)</rdfs:label>
+                        <rico:date xml:lang="en">dates not examined</rico:date>
+                        <rico:instantiationExtent rdf:parseType="Literal">
+                           <html:p xml:lang="en">1 folder</html:p>
+                        </rico:instantiationExtent>
+                        <rdfs:seeAlso rdf:resource="https://www.siv.archives-nationales.culture.gouv.fr/siv/UD/C0009/C0009_c080"/>
+                     </rico:Instantiation>
+                  </rico:hasInstantiation>
+               </rico:RecordResource>
+            </rico:includes>
+         </rico:RecordResource>
+      </rico:includes>
+      <rico:includes>
+         <rico:RecordResource rdf:about="recordResource/-C0009_c081">
+            <rico:includedIn rdf:resource="recordResource/-C0009_c078"/>
+            <rdf:type rdf:resource="https://www.ica.org/standards/RiC/ontology#RecordSet"/>
+            <rico:hasRecordSetType rdf:resource="https://www.ica.org/standards/RiC/vocabularies/recordSetTypes#File"/>
+            <rico:title xml:lang="en">The Redemption of Democracy</rico:title>
+            <rdfs:label xml:lang="en">The Redemption of Democracy</rdfs:label>
+            <rico:date xml:lang="en">dates not examined</rico:date>
+            <rico:hasInstantiation>
+               <rico:Instantiation rdf:about="instantiation/-C0009_c081-i1">
+                  <rico:instantiates rdf:resource="recordResource/-C0009_c081"/>
+                  <rico:title xml:lang="en">The Redemption of Democracy</rico:title>
+                  <rdfs:label xml:lang="en">The Redemption of Democracy</rdfs:label>
+                  <rico:date xml:lang="en">dates not examined</rico:date>
+                  <rico:instantiationExtent rdf:parseType="Literal">
+                     <html:p xml:lang="en">1 folder</html:p>
+                  </rico:instantiationExtent>
+                  <rdfs:seeAlso rdf:resource="https://www.siv.archives-nationales.culture.gouv.fr/siv/UD/C0009/C0009_c081"/>
+               </rico:Instantiation>
+            </rico:hasInstantiation>
+            <rico:includes>
+               <rico:RecordResource rdf:about="recordResource/-C0009_c082">
+                  <rico:includedIn rdf:resource="recordResource/-C0009_c081"/>
+                  <rdf:type rdf:resource="https://www.ica.org/standards/RiC/ontology#RecordSet"/>
+                  <rico:hasRecordSetType rdf:resource="https://www.ica.org/standards/RiC/vocabularies/recordSetTypes#File"/>
+                  <rico:title xml:lang="en">TMs (Alliance Book Corp.)</rico:title>
+                  <rdfs:label xml:lang="en">TMs (Alliance Book Corp.)</rdfs:label>
+                  <rico:date xml:lang="en">dates not examined</rico:date>
+                  <rico:hasInstantiation>
+                     <rico:Instantiation rdf:about="instantiation/-C0009_c082-i1">
+                        <rico:instantiates rdf:resource="recordResource/-C0009_c082"/>
+                        <rico:title xml:lang="en">TMs (Alliance Book Corp.)</rico:title>
+                        <rdfs:label xml:lang="en">TMs (Alliance Book Corp.)</rdfs:label>
+                        <rico:date xml:lang="en">dates not examined</rico:date>
+                        <rico:instantiationExtent rdf:parseType="Literal">
+                           <html:p xml:lang="en">1 folder</html:p>
+                        </rico:instantiationExtent>
+                        <rdfs:seeAlso rdf:resource="https://www.siv.archives-nationales.culture.gouv.fr/siv/UD/C0009/C0009_c082"/>
+                     </rico:Instantiation>
+                  </rico:hasInstantiation>
+               </rico:RecordResource>
+            </rico:includes>
+         </rico:RecordResource>
+      </rico:includes>
+   </rico:RecordResource>
+   <rico:RecordResource rdf:about="recordResource/-C0009_c083">
+      <rico:includedIn rdf:resource="recordResource/-top"/>
+      <rdf:type rdf:resource="https://www.ica.org/standards/RiC/ontology#RecordSet"/>
+      <rico:hasRecordSetType rdf:resource="https://www.ica.org/standards/RiC/vocabularies/recordSetTypes#File"/>
+      <rico:title xml:lang="en">Unruh, Fritz von</rico:title>
+      <rdfs:label xml:lang="en">Unruh, Fritz von</rdfs:label>
+      <rico:beginningDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">1941-01-01</rico:beginningDate>
+      <rico:endDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">1941-12-31</rico:endDate>
+      <rico:date xml:lang="en">1941</rico:date>
+      <rico:hasInstantiation>
+         <rico:Instantiation rdf:about="instantiation/-C0009_c083-i1">
+            <rico:instantiates rdf:resource="recordResource/-C0009_c083"/>
+            <rico:title xml:lang="en">Unruh, Fritz von</rico:title>
+            <rdfs:label xml:lang="en">Unruh, Fritz von</rdfs:label>
+            <rico:beginningDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">1941-01-01</rico:beginningDate>
+            <rico:endDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">1941-12-31</rico:endDate>
+            <rico:date xml:lang="en">1941</rico:date>
+            <rico:instantiationExtent rdf:parseType="Literal">
+               <html:p xml:lang="en">1 folder</html:p>
+            </rico:instantiationExtent>
+            <rdfs:seeAlso rdf:resource="https://www.siv.archives-nationales.culture.gouv.fr/siv/UD/C0009/C0009_c083"/>
+         </rico:Instantiation>
+      </rico:hasInstantiation>
+      <rico:includes>
+         <rico:RecordResource rdf:about="recordResource/-C0009_c084">
+            <rico:includedIn rdf:resource="recordResource/-C0009_c083"/>
+            <rdf:type rdf:resource="https://www.ica.org/standards/RiC/ontology#RecordSet"/>
+            <rico:hasRecordSetType rdf:resource="https://www.ica.org/standards/RiC/vocabularies/recordSetTypes#File"/>
+            <rico:title xml:lang="en">[Untitled novel]</rico:title>
+            <rdfs:label xml:lang="en">[Untitled novel]</rdfs:label>
+            <rico:beginningDate rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1941</rico:beginningDate>
+            <rico:endDate rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1941</rico:endDate>
+            <rico:date xml:lang="en">1941</rico:date>
+            <rico:hasInstantiation>
+               <rico:Instantiation rdf:about="instantiation/-C0009_c084-i1">
+                  <rico:instantiates rdf:resource="recordResource/-C0009_c084"/>
+                  <rico:title xml:lang="en">[Untitled novel]</rico:title>
+                  <rdfs:label xml:lang="en">[Untitled novel]</rdfs:label>
+                  <rico:beginningDate rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1941</rico:beginningDate>
+                  <rico:endDate rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1941</rico:endDate>
+                  <rico:date xml:lang="en">1941</rico:date>
+                  <rico:instantiationExtent rdf:parseType="Literal">
+                     <html:p xml:lang="en">1 folder</html:p>
+                  </rico:instantiationExtent>
+                  <rdfs:seeAlso rdf:resource="https://www.siv.archives-nationales.culture.gouv.fr/siv/UD/C0009/C0009_c084"/>
+               </rico:Instantiation>
+            </rico:hasInstantiation>
+            <rico:includes>
+               <rico:RecordResource rdf:about="recordResource/-C0009_c085">
+                  <rico:includedIn rdf:resource="recordResource/-C0009_c084"/>
+                  <rdf:type rdf:resource="https://www.ica.org/standards/RiC/ontology#RecordSet"/>
+                  <rico:hasRecordSetType rdf:resource="https://www.ica.org/standards/RiC/vocabularies/recordSetTypes#File"/>
+                  <rico:title xml:lang="en">TMs, English translation</rico:title>
+                  <rdfs:label xml:lang="en">TMs, English translation</rdfs:label>
+                  <rico:date xml:lang="en">dates not examined</rico:date>
+                  <rico:hasInstantiation>
+                     <rico:Instantiation rdf:about="instantiation/-C0009_c085-i1">
+                        <rico:instantiates rdf:resource="recordResource/-C0009_c085"/>
+                        <rico:title xml:lang="en">TMs, English translation</rico:title>
+                        <rdfs:label xml:lang="en">TMs, English translation</rdfs:label>
+                        <rico:date xml:lang="en">dates not examined</rico:date>
+                        <rico:instantiationExtent rdf:parseType="Literal">
+                           <html:p xml:lang="en">1 folder</html:p>
+                        </rico:instantiationExtent>
+                        <rdfs:seeAlso rdf:resource="https://www.siv.archives-nationales.culture.gouv.fr/siv/UD/C0009/C0009_c085"/>
+                     </rico:Instantiation>
+                  </rico:hasInstantiation>
+               </rico:RecordResource>
+            </rico:includes>
+         </rico:RecordResource>
+      </rico:includes>
+      <rico:includes>
+         <rico:RecordResource rdf:about="recordResource/-C0009_c086">
+            <rico:includedIn rdf:resource="recordResource/-C0009_c083"/>
+            <rdf:type rdf:resource="https://www.ica.org/standards/RiC/ontology#RecordSet"/>
+            <rico:hasRecordSetType rdf:resource="https://www.ica.org/standards/RiC/vocabularies/recordSetTypes#File"/>
+            <rico:title xml:lang="en">TLS by Unruh to Mussey</rico:title>
+            <rdfs:label xml:lang="en">TLS by Unruh to Mussey</rdfs:label>
+            <rico:beginningDate rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1941</rico:beginningDate>
+            <rico:endDate rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1941</rico:endDate>
+            <rico:date xml:lang="en">1941</rico:date>
+            <rico:hasInstantiation>
+               <rico:Instantiation rdf:about="instantiation/-C0009_c086-i1">
+                  <rico:instantiates rdf:resource="recordResource/-C0009_c086"/>
+                  <rico:title xml:lang="en">TLS by Unruh to Mussey</rico:title>
+                  <rdfs:label xml:lang="en">TLS by Unruh to Mussey</rdfs:label>
+                  <rico:beginningDate rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1941</rico:beginningDate>
+                  <rico:endDate rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1941</rico:endDate>
+                  <rico:date xml:lang="en">1941</rico:date>
+                  <rico:instantiationExtent rdf:parseType="Literal">
+                     <html:p xml:lang="en">1 folder</html:p>
+                  </rico:instantiationExtent>
+                  <rdfs:seeAlso rdf:resource="https://www.siv.archives-nationales.culture.gouv.fr/siv/UD/C0009/C0009_c086"/>
+               </rico:Instantiation>
+            </rico:hasInstantiation>
+         </rico:RecordResource>
+      </rico:includes>
+      <rico:includes>
+         <rico:RecordResource rdf:about="recordResource/-C0009_c087">
+            <rico:includedIn rdf:resource="recordResource/-C0009_c083"/>
+            <rdf:type rdf:resource="https://www.ica.org/standards/RiC/ontology#RecordSet"/>
+            <rico:hasRecordSetType rdf:resource="https://www.ica.org/standards/RiC/vocabularies/recordSetTypes#File"/>
+            <rico:title xml:lang="en">ALS by Unruh to Mussey</rico:title>
+            <rdfs:label xml:lang="en">ALS by Unruh to Mussey</rdfs:label>
+            <rico:beginningDate rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1941</rico:beginningDate>
+            <rico:endDate rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1941</rico:endDate>
+            <rico:date xml:lang="en">1941</rico:date>
+            <rico:hasInstantiation>
+               <rico:Instantiation rdf:about="instantiation/-C0009_c087-i1">
+                  <rico:instantiates rdf:resource="recordResource/-C0009_c087"/>
+                  <rico:title xml:lang="en">ALS by Unruh to Mussey</rico:title>
+                  <rdfs:label xml:lang="en">ALS by Unruh to Mussey</rdfs:label>
+                  <rico:beginningDate rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1941</rico:beginningDate>
+                  <rico:endDate rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1941</rico:endDate>
+                  <rico:date xml:lang="en">1941</rico:date>
+                  <rico:instantiationExtent rdf:parseType="Literal">
+                     <html:p xml:lang="en">1 folder</html:p>
+                  </rico:instantiationExtent>
+                  <rdfs:seeAlso rdf:resource="https://www.siv.archives-nationales.culture.gouv.fr/siv/UD/C0009/C0009_c087"/>
+               </rico:Instantiation>
+            </rico:hasInstantiation>
+         </rico:RecordResource>
+      </rico:includes>
+   </rico:RecordResource>
+   <rico:RecordResource rdf:about="recordResource/-C0009_c088">
+      <rico:includedIn rdf:resource="recordResource/-top"/>
+      <rdf:type rdf:resource="https://www.ica.org/standards/RiC/ontology#RecordSet"/>
+      <rico:hasRecordSetType rdf:resource="https://www.ica.org/standards/RiC/vocabularies/recordSetTypes#File"/>
+      <rico:title xml:lang="en">Wertel, Franz</rico:title>
+      <rdfs:label xml:lang="en">Wertel, Franz</rdfs:label>
+      <rico:date xml:lang="en">dates not examined</rico:date>
+      <rico:hasInstantiation>
+         <rico:Instantiation rdf:about="instantiation/-C0009_c088-i1">
+            <rico:instantiates rdf:resource="recordResource/-C0009_c088"/>
+            <rico:title xml:lang="en">Wertel, Franz</rico:title>
+            <rdfs:label xml:lang="en">Wertel, Franz</rdfs:label>
+            <rico:date xml:lang="en">dates not examined</rico:date>
+            <rico:instantiationExtent rdf:parseType="Literal">
+               <html:p xml:lang="en">4 folders</html:p>
+            </rico:instantiationExtent>
+            <rdfs:seeAlso rdf:resource="https://www.siv.archives-nationales.culture.gouv.fr/siv/UD/C0009/C0009_c088"/>
+         </rico:Instantiation>
+      </rico:hasInstantiation>
+      <rico:includes>
+         <rico:RecordResource rdf:about="recordResource/-C0009_c089">
+            <rico:includedIn rdf:resource="recordResource/-C0009_c088"/>
+            <rdf:type rdf:resource="https://www.ica.org/standards/RiC/ontology#RecordSet"/>
+            <rico:hasRecordSetType rdf:resource="https://www.ica.org/standards/RiC/vocabularies/recordSetTypes#File"/>
+            <rico:title xml:lang="en">Jacobowsky and the Colonel</rico:title>
+            <rdfs:label xml:lang="en">Jacobowsky and the Colonel</rdfs:label>
+            <rico:date xml:lang="en">dates not examined</rico:date>
+            <rico:hasInstantiation>
+               <rico:Instantiation rdf:about="instantiation/-C0009_c089-i1">
+                  <rico:instantiates rdf:resource="recordResource/-C0009_c089"/>
+                  <rico:title xml:lang="en">Jacobowsky and the Colonel</rico:title>
+                  <rdfs:label xml:lang="en">Jacobowsky and the Colonel</rdfs:label>
+                  <rico:date xml:lang="en">dates not examined</rico:date>
+                  <rico:instantiationExtent rdf:parseType="Literal">
+                     <html:p xml:lang="en">2 folders</html:p>
+                  </rico:instantiationExtent>
+                  <rdfs:seeAlso rdf:resource="https://www.siv.archives-nationales.culture.gouv.fr/siv/UD/C0009/C0009_c089"/>
+               </rico:Instantiation>
+            </rico:hasInstantiation>
+            <rico:includes>
+               <rico:RecordResource rdf:about="recordResource/-C0009_c090">
+                  <rico:includedIn rdf:resource="recordResource/-C0009_c089"/>
+                  <rdf:type rdf:resource="https://www.ica.org/standards/RiC/ontology#RecordSet"/>
+                  <rico:hasRecordSetType rdf:resource="https://www.ica.org/standards/RiC/vocabularies/recordSetTypes#File"/>
+                  <rico:title xml:lang="en">TMs (carbon), German: Jacobowsky und der Oberst</rico:title>
+                  <rdfs:label xml:lang="en">TMs (carbon), German: Jacobowsky und der Oberst</rdfs:label>
+                  <rico:date xml:lang="en">dates not examined</rico:date>
+                  <rico:hasInstantiation>
+                     <rico:Instantiation rdf:about="instantiation/-C0009_c090-i1">
+                        <rico:instantiates rdf:resource="recordResource/-C0009_c090"/>
+                        <rico:title xml:lang="en">TMs (carbon), German: Jacobowsky und der Oberst</rico:title>
+                        <rdfs:label xml:lang="en">TMs (carbon), German: Jacobowsky und der Oberst</rdfs:label>
+                        <rico:date xml:lang="en">dates not examined</rico:date>
+                        <rico:instantiationExtent rdf:parseType="Literal">
+                           <html:p xml:lang="en">1 folder</html:p>
+                        </rico:instantiationExtent>
+                        <rdfs:seeAlso rdf:resource="https://www.siv.archives-nationales.culture.gouv.fr/siv/UD/C0009/C0009_c090"/>
+                     </rico:Instantiation>
+                  </rico:hasInstantiation>
+               </rico:RecordResource>
+            </rico:includes>
+            <rico:includes>
+               <rico:RecordResource rdf:about="recordResource/-C0009_c091">
+                  <rico:includedIn rdf:resource="recordResource/-C0009_c089"/>
+                  <rdf:type rdf:resource="https://www.ica.org/standards/RiC/ontology#RecordSet"/>
+                  <rico:hasRecordSetType rdf:resource="https://www.ica.org/standards/RiC/vocabularies/recordSetTypes#File"/>
+                  <rico:title xml:lang="en">TMs, English translation by Mussey</rico:title>
+                  <rdfs:label xml:lang="en">TMs, English translation by Mussey</rdfs:label>
+                  <rico:date xml:lang="en">dates not examined</rico:date>
+                  <rico:hasInstantiation>
+                     <rico:Instantiation rdf:about="instantiation/-C0009_c091-i1">
+                        <rico:instantiates rdf:resource="recordResource/-C0009_c091"/>
+                        <rico:title xml:lang="en">TMs, English translation by Mussey</rico:title>
+                        <rdfs:label xml:lang="en">TMs, English translation by Mussey</rdfs:label>
+                        <rico:date xml:lang="en">dates not examined</rico:date>
+                        <rico:instantiationExtent rdf:parseType="Literal">
+                           <html:p xml:lang="en">1 folder</html:p>
+                        </rico:instantiationExtent>
+                        <rdfs:seeAlso rdf:resource="https://www.siv.archives-nationales.culture.gouv.fr/siv/UD/C0009/C0009_c091"/>
+                     </rico:Instantiation>
+                  </rico:hasInstantiation>
+               </rico:RecordResource>
+            </rico:includes>
+         </rico:RecordResource>
+      </rico:includes>
+      <rico:includes>
+         <rico:RecordResource rdf:about="recordResource/-C0009_c092">
+            <rico:includedIn rdf:resource="recordResource/-C0009_c088"/>
+            <rdf:type rdf:resource="https://www.ica.org/standards/RiC/ontology#RecordSet"/>
+            <rico:hasRecordSetType rdf:resource="https://www.ica.org/standards/RiC/vocabularies/recordSetTypes#File"/>
+            <rico:title xml:lang="en">A Portrait of Giuseppe Verdi</rico:title>
+            <rdfs:label xml:lang="en">A Portrait of Giuseppe Verdi</rdfs:label>
+            <rico:date xml:lang="en">dates not examined</rico:date>
+            <rico:hasInstantiation>
+               <rico:Instantiation rdf:about="instantiation/-C0009_c092-i1">
+                  <rico:instantiates rdf:resource="recordResource/-C0009_c092"/>
+                  <rico:title xml:lang="en">A Portrait of Giuseppe Verdi</rico:title>
+                  <rdfs:label xml:lang="en">A Portrait of Giuseppe Verdi</rdfs:label>
+                  <rico:date xml:lang="en">dates not examined</rico:date>
+                  <rico:instantiationExtent rdf:parseType="Literal">
+                     <html:p xml:lang="en">2 folders</html:p>
+                  </rico:instantiationExtent>
+                  <rdfs:seeAlso rdf:resource="https://www.siv.archives-nationales.culture.gouv.fr/siv/UD/C0009/C0009_c092"/>
+               </rico:Instantiation>
+            </rico:hasInstantiation>
+            <rico:includes>
+               <rico:RecordResource rdf:about="recordResource/-C0009_c093">
+                  <rico:includedIn rdf:resource="recordResource/-C0009_c092"/>
+                  <rdf:type rdf:resource="https://www.ica.org/standards/RiC/ontology#RecordSet"/>
+                  <rico:hasRecordSetType rdf:resource="https://www.ica.org/standards/RiC/vocabularies/recordSetTypes#File"/>
+                  <rico:title xml:lang="en">TMsS (carbon), German: Ein Bildnis Giuseppe Verdi's</rico:title>
+                  <rdfs:label xml:lang="en">TMsS (carbon), German: Ein Bildnis Giuseppe Verdi's</rdfs:label>
+                  <rico:date xml:lang="en">dates not examined</rico:date>
+                  <rico:hasInstantiation>
+                     <rico:Instantiation rdf:about="instantiation/-C0009_c093-i1">
+                        <rico:instantiates rdf:resource="recordResource/-C0009_c093"/>
+                        <rico:title xml:lang="en">TMsS (carbon), German: Ein Bildnis Giuseppe Verdi's</rico:title>
+                        <rdfs:label xml:lang="en">TMsS (carbon), German: Ein Bildnis Giuseppe Verdi's</rdfs:label>
+                        <rico:date xml:lang="en">dates not examined</rico:date>
+                        <rico:instantiationExtent rdf:parseType="Literal">
+                           <html:p xml:lang="en">1 folder</html:p>
+                        </rico:instantiationExtent>
+                        <rdfs:seeAlso rdf:resource="https://www.siv.archives-nationales.culture.gouv.fr/siv/UD/C0009/C0009_c093"/>
+                     </rico:Instantiation>
+                  </rico:hasInstantiation>
+               </rico:RecordResource>
+            </rico:includes>
+            <rico:includes>
+               <rico:RecordResource rdf:about="recordResource/-C0009_c094">
+                  <rico:includedIn rdf:resource="recordResource/-C0009_c092"/>
+                  <rdf:type rdf:resource="https://www.ica.org/standards/RiC/ontology#RecordSet"/>
+                  <rico:hasRecordSetType rdf:resource="https://www.ica.org/standards/RiC/vocabularies/recordSetTypes#File"/>
+                  <rico:title xml:lang="en">TMs, English translation by Mussey</rico:title>
+                  <rdfs:label xml:lang="en">TMs, English translation by Mussey</rdfs:label>
+                  <rico:date xml:lang="en">dates not examined</rico:date>
+                  <rico:hasInstantiation>
+                     <rico:Instantiation rdf:about="instantiation/-C0009_c094-i1">
+                        <rico:instantiates rdf:resource="recordResource/-C0009_c094"/>
+                        <rico:title xml:lang="en">TMs, English translation by Mussey</rico:title>
+                        <rdfs:label xml:lang="en">TMs, English translation by Mussey</rdfs:label>
+                        <rico:date xml:lang="en">dates not examined</rico:date>
+                        <rico:instantiationExtent rdf:parseType="Literal">
+                           <html:p xml:lang="en">1 folder</html:p>
+                        </rico:instantiationExtent>
+                        <rdfs:seeAlso rdf:resource="https://www.siv.archives-nationales.culture.gouv.fr/siv/UD/C0009/C0009_c094"/>
+                     </rico:Instantiation>
+                  </rico:hasInstantiation>
+               </rico:RecordResource>
+            </rico:includes>
+         </rico:RecordResource>
+      </rico:includes>
+   </rico:RecordResource>
+   <rico:RecordResource rdf:about="recordResource/-C0009_i1">
+      <rico:includedIn rdf:resource="recordResource/-top"/>
+      <rico:hasInstantiation>
+         <rico:Instantiation rdf:about="instantiation/-C0009_i1-i1">
+            <rico:instantiates rdf:resource="recordResource/-C0009_i1"/>
+            <rico:identifier>32101040795344</rico:identifier>
+            <rico:hasLocation rdf:resource=""/>
+            <rdfs:seeAlso rdf:resource="https://www.siv.archives-nationales.culture.gouv.fr/siv/UD/C0009/C0009_i1"/>
+         </rico:Instantiation>
+      </rico:hasInstantiation>
+   </rico:RecordResource>
+   <rico:RecordResource rdf:about="recordResource/-C0009_i2">
+      <rico:includedIn rdf:resource="recordResource/-top"/>
+      <rico:hasInstantiation>
+         <rico:Instantiation rdf:about="instantiation/-C0009_i2-i1">
+            <rico:instantiates rdf:resource="recordResource/-C0009_i2"/>
+            <rico:identifier>32101040795351</rico:identifier>
+            <rico:hasLocation rdf:resource=""/>
+            <rdfs:seeAlso rdf:resource="https://www.siv.archives-nationales.culture.gouv.fr/siv/UD/C0009/C0009_i2"/>
+         </rico:Instantiation>
+      </rico:hasInstantiation>
+   </rico:RecordResource>
+   <rico:RecordResource rdf:about="recordResource/-C0009_i3">
+      <rico:includedIn rdf:resource="recordResource/-top"/>
+      <rico:hasInstantiation>
+         <rico:Instantiation rdf:about="instantiation/-C0009_i3-i1">
+            <rico:instantiates rdf:resource="recordResource/-C0009_i3"/>
+            <rico:identifier>32101040795369</rico:identifier>
+            <rico:hasLocation rdf:resource=""/>
+            <rdfs:seeAlso rdf:resource="https://www.siv.archives-nationales.culture.gouv.fr/siv/UD/C0009/C0009_i3"/>
+         </rico:Instantiation>
+      </rico:hasInstantiation>
+   </rico:RecordResource>
+   <rico:RecordResource rdf:about="recordResource/-C0009_i4">
+      <rico:includedIn rdf:resource="recordResource/-top"/>
+      <rico:hasInstantiation>
+         <rico:Instantiation rdf:about="instantiation/-C0009_i4-i1">
+            <rico:instantiates rdf:resource="recordResource/-C0009_i4"/>
+            <rico:identifier>32101040795377</rico:identifier>
+            <rico:hasLocation rdf:resource=""/>
+            <rdfs:seeAlso rdf:resource="https://www.siv.archives-nationales.culture.gouv.fr/siv/UD/C0009/C0009_i4"/>
+         </rico:Instantiation>
+      </rico:hasInstantiation>
+   </rico:RecordResource>
+   <rico:RecordResource rdf:about="recordResource/-C0009_i5">
+      <rico:includedIn rdf:resource="recordResource/-top"/>
+      <rico:hasInstantiation>
+         <rico:Instantiation rdf:about="instantiation/-C0009_i5-i1">
+            <rico:instantiates rdf:resource="recordResource/-C0009_i5"/>
+            <rico:identifier>32101040795385</rico:identifier>
+            <rico:hasLocation rdf:resource=""/>
+            <rdfs:seeAlso rdf:resource="https://www.siv.archives-nationales.culture.gouv.fr/siv/UD/C0009/C0009_i5"/>
+         </rico:Instantiation>
+      </rico:hasInstantiation>
+   </rico:RecordResource>
+</rdf:RDF>

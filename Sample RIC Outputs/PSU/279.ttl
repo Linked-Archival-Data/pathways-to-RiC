@@ -1,0 +1,546 @@
+@prefix ns0: <https://www.ica.org/standards/RiC/ontology#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix dc11: <http://purl.org/dc/elements/1.1/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<http://data.archives-nationales.culture.gouv.fr/record/>
+  a <https://www.ica.org/standards/RiC/ontology#Record> ;
+  ns0:hasDocumentaryFormType <https://www.ica.org/standards/RiC/vocabularies/documentaryFormTypes#FindingAid> ;
+  ns0:regulatedBy <http://data.archives-nationales.culture.gouv.fr/rule/rl005>, <http://data.archives-nationales.culture.gouv.fr/rule/rl004>, <http://data.archives-nationales.culture.gouv.fr/rule/rl006>, <http://data.archives-nationales.culture.gouv.fr/rule/rl007>, <http://data.archives-nationales.culture.gouv.fr/rule/rl009> ;
+  ns0:title "A. Howry Espenshade papers, 1911-1947 00279"@en ;
+  rdfs:label "A. Howry Espenshade papers, 1911-1947 00279"@en ;
+  ns0:createdBy <http://data.archives-nationales.culture.gouv.fr/agent/005061> ;
+  ns0:publishedBy <http://data.archives-nationales.culture.gouv.fr/agent/005061> ;
+  ns0:history """
+         <html:div xmlns:html="http://www.w3.org/1999/xhtml">
+            <html:h4>auteur(s)</html:h4>
+            <html:p namespacelang="en">Prepared by Special Collections Library faculty/staff.</html:p>
+         </html:div>
+"""^^rdf:XMLLiteral ;
+  ns0:describes <http://data.archives-nationales.culture.gouv.fr/recordResource/-top> ;
+  ns0:hasInstantiation <http://data.archives-nationales.culture.gouv.fr/instantiation/-i1> .
+
+<http://data.archives-nationales.culture.gouv.fr/instantiation/-i1>
+  a ns0:Instantiation ;
+  ns0:instantiates <http://data.archives-nationales.culture.gouv.fr/record/> ;
+  ns0:title "A. Howry Espenshade papers, 1911-1947 00279"@en ;
+  rdfs:label "A. Howry Espenshade papers, 1911-1947 00279"@en ;
+  ns0:history "This finding aid was produced using ArchivesSpace on 2022-05-19 10:46:24 -0400."@en ;
+  ns0:regulatedBy <http://data.archives-nationales.culture.gouv.fr/rule/rl010> ;
+  dc11:format "text/xml"@en ;
+  ns0:identifier "00279" ;
+  ns0:heldBy <http://data.archives-nationales.culture.gouv.fr/agent/005061> ;
+  rdfs:seeAlso <https://www.siv.archives-nationales.culture.gouv.fr/siv/IR/00279> .
+
+<http://data.archives-nationales.culture.gouv.fr/recordResource/-top>
+  a ns0:RecordResource, ns0:RecordSet ;
+  ns0:describedBy <http://data.archives-nationales.culture.gouv.fr/record/> ;
+  ns0:hasRecordSetType <https://www.ica.org/standards/RiC/vocabularies/recordSetTypes#Collection> ;
+  ns0:heldBy [
+    a ns0:Agent ;
+    rdfs:label "Eberly Family Special Collections Library"@en ;
+    ns0:hasAgentName [
+      a ns0:AgentName ;
+      rdfs:label "Eberly Family Special Collections Library"@en ;
+      ns0:textualValue "Eberly Family Special Collections Library"@en
+    ]
+  ] ;
+  ns0:title "A. Howry Espenshade papers"@en ;
+  rdfs:label "A. Howry Espenshade papers"@en ;
+  ns0:beginningDate "1911"^^xsd:gYear ;
+  ns0:endDate "1947"^^xsd:gYear ;
+  ns0:date "1911-1947"@en ;
+  ns0:hasLanguage <http://data.archives-nationales.culture.gouv.fr/language/FRAN_RI_100-name6> ;
+  ns0:conditionsOfUse """
+         <html:p xmlns:html="http://www.w3.org/1999/xhtml" namespacelang="en">Copyright is retained by the creators of items in these papers, or their descendants, as stipulated by United States copyright law.</html:p>
+"""^^rdf:XMLLiteral ;
+  ns0:conditionsOfAccess """
+         <html:p xmlns:html="http://www.w3.org/1999/xhtml" namespacelang="en">Collection is open for research.</html:p>
+"""^^rdf:XMLLiteral ;
+  ns0:history """
+         <html:div xmlns:html="http://www.w3.org/1999/xhtml" namespacelang="en">
+            <html:h4>Informations sur le traitement</html:h4>
+            <html:h5>Processing Information</html:h5>
+            <html:p>Processed by Special Collections staff.</html:p>
+         </html:div>
+"""^^rdf:XMLLiteral ;
+  ns0:hasInstantiation <http://data.archives-nationales.culture.gouv.fr/instantiation/-top-i1> ;
+  ns0:includes <http://data.archives-nationales.culture.gouv.fr/recordResource/-aspace_52d33339c6abb1f590aea00250058c1e>, <http://data.archives-nationales.culture.gouv.fr/recordResource/-aspace_0ea41b8320b09f8a1b972ebb024bffe8>, <http://data.archives-nationales.culture.gouv.fr/recordResource/-aspace_64c4b538e1bdfb55cfad23f4b49eaf76>, <http://data.archives-nationales.culture.gouv.fr/recordResource/-aspace_14ae4447b4bab1eb25ea702563fa6ce4>, <http://data.archives-nationales.culture.gouv.fr/recordResource/-aspace_9681b8b001c7ac9390e26af37a9e75ae>, <http://data.archives-nationales.culture.gouv.fr/recordResource/-aspace_88a3e4eb115827bf18a85cde99279602>, <http://data.archives-nationales.culture.gouv.fr/recordResource/-aspace_cab46a0fcb84784295aaf300f963f71f>, <http://data.archives-nationales.culture.gouv.fr/recordResource/-aspace_27a1d24cf8ce1499b089e85b72374ec4>, <http://data.archives-nationales.culture.gouv.fr/recordResource/-aspace_40b816d9b5c7b73788acc4188b7f746a>, <http://data.archives-nationales.culture.gouv.fr/recordResource/-aspace_228c14251b38f5f08e2b8d960ee35693>, <http://data.archives-nationales.culture.gouv.fr/recordResource/-aspace_d95693a1f745eca4fd8c2398c6e8bbab>, <http://data.archives-nationales.culture.gouv.fr/recordResource/-aspace_7bd3eb54c3763ac9c6b89e83d51bf3b1>, <http://data.archives-nationales.culture.gouv.fr/recordResource/-aspace_f3c6145b2856da8ebb9340f6795c7b54>, <http://data.archives-nationales.culture.gouv.fr/recordResource/-aspace_9f6411f101a8cfd5046c64493844381c>, <http://data.archives-nationales.culture.gouv.fr/recordResource/-aspace_49fbfa1fe301717bd229e0d104fd63e3>, <http://data.archives-nationales.culture.gouv.fr/recordResource/-aspace_8029640e251df90e8795a49bc9c1747b>, <http://data.archives-nationales.culture.gouv.fr/recordResource/-aspace_17b10268e7aa1d02057bdab78750dafc>, <http://data.archives-nationales.culture.gouv.fr/recordResource/-aspace_02d9515d98f3385083edc4052fe657cd>, <http://data.archives-nationales.culture.gouv.fr/recordResource/-aspace_7460ec2075262a9ec0f79754af510664>, <http://data.archives-nationales.culture.gouv.fr/recordResource/-aspace_cfed8ff7395c11b30ded39c1a41d716c>, <http://data.archives-nationales.culture.gouv.fr/recordResource/-aspace_bae68aadc1bca209502005f4603d080a>, <http://data.archives-nationales.culture.gouv.fr/recordResource/-aspace_44867d92f6ef46b0847a5b73d366a985>, <http://data.archives-nationales.culture.gouv.fr/recordResource/-aspace_7c8383c7af5f5f93a06eea9c213532ca>, <http://data.archives-nationales.culture.gouv.fr/recordResource/-aspace_61218b1f2f47774656fd360cf86b2288> .
+
+<http://data.archives-nationales.culture.gouv.fr/instantiation/-top-i1>
+  a ns0:Instantiation ;
+  ns0:instantiates <http://data.archives-nationales.culture.gouv.fr/recordResource/-top> ;
+  ns0:heldBy [
+    a ns0:Agent ;
+    rdfs:label "Eberly Family Special Collections Library"@en ;
+    ns0:hasAgentName [
+      a ns0:AgentName ;
+      rdfs:label "Eberly Family Special Collections Library"@en ;
+      ns0:textualValue "Eberly Family Special Collections Library"@en
+    ]
+  ] ;
+  ns0:title "A. Howry Espenshade papers"@en ;
+  rdfs:label "A. Howry Espenshade papers"@en ;
+  ns0:identifier "00279" ;
+  ns0:instantiationExtent """
+               <html:p xmlns:html="http://www.w3.org/1999/xhtml" namespacelang="en">2 Cubic feet</html:p>
+"""^^rdf:XMLLiteral ;
+  ns0:beginningDate "1911"^^xsd:gYear ;
+  ns0:endDate "1947"^^xsd:gYear ;
+  ns0:date "1911-1947"@en ;
+  ns0:hasLocation <http://data.archives-nationales.culture.gouv.fr/> ;
+  ns0:conditionsOfUse """
+               <html:p xmlns:html="http://www.w3.org/1999/xhtml" namespacelang="en">Copyright is retained by the creators of items in these papers, or their descendants, as stipulated by United States copyright law.</html:p>
+"""^^rdf:XMLLiteral ;
+  ns0:conditionsOfAccess """
+               <html:p xmlns:html="http://www.w3.org/1999/xhtml" namespacelang="en">Collection is open for research.</html:p>
+"""^^rdf:XMLLiteral ;
+  ns0:history """
+               <html:div xmlns:html="http://www.w3.org/1999/xhtml" namespacelang="en">
+                  <html:h4>Informations sur le traitement</html:h4>
+                  <html:h5>Processing Information</html:h5>
+                  <html:p>Processed by Special Collections staff.</html:p>
+               </html:div>
+"""^^rdf:XMLLiteral ;
+  rdfs:seeAlso <https://www.siv.archives-nationales.culture.gouv.fr/siv/UD/00279/top> .
+
+<http://data.archives-nationales.culture.gouv.fr/recordResource/-aspace_52d33339c6abb1f590aea00250058c1e>
+  a ns0:RecordResource, ns0:RecordSet ;
+  ns0:includedIn <http://data.archives-nationales.culture.gouv.fr/recordResource/-top> ;
+  ns0:hasRecordSetType <https://www.ica.org/standards/RiC/vocabularies/recordSetTypes#File> ;
+  ns0:title "Poem Scroll"@en ;
+  rdfs:label "Poem Scroll"@en ;
+  ns0:date "1918"^^xsd:gYear, "1918"@en ;
+  ns0:hasInstantiation <http://data.archives-nationales.culture.gouv.fr/instantiation/-aspace_52d33339c6abb1f590aea00250058c1e-i1> .
+
+<http://data.archives-nationales.culture.gouv.fr/instantiation/-aspace_52d33339c6abb1f590aea00250058c1e-i1>
+  a ns0:Instantiation ;
+  ns0:instantiates <http://data.archives-nationales.culture.gouv.fr/recordResource/-aspace_52d33339c6abb1f590aea00250058c1e> ;
+  ns0:title "Poem Scroll"@en ;
+  rdfs:label "Poem Scroll"@en ;
+  ns0:date "1918"^^xsd:gYear, "1918"@en ;
+  rdfs:seeAlso <https://www.siv.archives-nationales.culture.gouv.fr/siv/UD/00279/aspace_52d33339c6abb1f590aea00250058c1e> .
+
+<http://data.archives-nationales.culture.gouv.fr/recordResource/-aspace_0ea41b8320b09f8a1b972ebb024bffe8>
+  a ns0:RecordResource, ns0:RecordSet ;
+  ns0:includedIn <http://data.archives-nationales.culture.gouv.fr/recordResource/-top> ;
+  ns0:hasRecordSetType <https://www.ica.org/standards/RiC/vocabularies/recordSetTypes#File> ;
+  ns0:title "Pennsylvania County Names, Definitions and History"@en ;
+  rdfs:label "Pennsylvania County Names, Definitions and History"@en ;
+  ns0:date "Undated"@en ;
+  ns0:hasInstantiation <http://data.archives-nationales.culture.gouv.fr/instantiation/-aspace_0ea41b8320b09f8a1b972ebb024bffe8-i1> .
+
+<http://data.archives-nationales.culture.gouv.fr/instantiation/-aspace_0ea41b8320b09f8a1b972ebb024bffe8-i1>
+  a ns0:Instantiation ;
+  ns0:instantiates <http://data.archives-nationales.culture.gouv.fr/recordResource/-aspace_0ea41b8320b09f8a1b972ebb024bffe8> ;
+  ns0:title "Pennsylvania County Names, Definitions and History"@en ;
+  rdfs:label "Pennsylvania County Names, Definitions and History"@en ;
+  ns0:date "Undated"@en ;
+  rdfs:seeAlso <https://www.siv.archives-nationales.culture.gouv.fr/siv/UD/00279/aspace_0ea41b8320b09f8a1b972ebb024bffe8> .
+
+<http://data.archives-nationales.culture.gouv.fr/recordResource/-aspace_64c4b538e1bdfb55cfad23f4b49eaf76>
+  a ns0:RecordResource, ns0:RecordSet ;
+  ns0:includedIn <http://data.archives-nationales.culture.gouv.fr/recordResource/-top> ;
+  ns0:hasRecordSetType <https://www.ica.org/standards/RiC/vocabularies/recordSetTypes#File> ;
+  ns0:title "Words Derived from the American Indian Languages"@en ;
+  rdfs:label "Words Derived from the American Indian Languages"@en ;
+  ns0:date "Undated"@en ;
+  ns0:hasInstantiation <http://data.archives-nationales.culture.gouv.fr/instantiation/-aspace_64c4b538e1bdfb55cfad23f4b49eaf76-i1> .
+
+<http://data.archives-nationales.culture.gouv.fr/instantiation/-aspace_64c4b538e1bdfb55cfad23f4b49eaf76-i1>
+  a ns0:Instantiation ;
+  ns0:instantiates <http://data.archives-nationales.culture.gouv.fr/recordResource/-aspace_64c4b538e1bdfb55cfad23f4b49eaf76> ;
+  ns0:title "Words Derived from the American Indian Languages"@en ;
+  rdfs:label "Words Derived from the American Indian Languages"@en ;
+  ns0:date "Undated"@en ;
+  rdfs:seeAlso <https://www.siv.archives-nationales.culture.gouv.fr/siv/UD/00279/aspace_64c4b538e1bdfb55cfad23f4b49eaf76> .
+
+<http://data.archives-nationales.culture.gouv.fr/recordResource/-aspace_14ae4447b4bab1eb25ea702563fa6ce4>
+  a ns0:RecordResource, ns0:RecordSet ;
+  ns0:includedIn <http://data.archives-nationales.culture.gouv.fr/recordResource/-top> ;
+  ns0:hasRecordSetType <https://www.ica.org/standards/RiC/vocabularies/recordSetTypes#File> ;
+  ns0:title "Old Main Items List"@en ;
+  rdfs:label "Old Main Items List"@en ;
+  ns0:date "1929"^^xsd:gYear, "1929"@en ;
+  ns0:hasInstantiation <http://data.archives-nationales.culture.gouv.fr/instantiation/-aspace_14ae4447b4bab1eb25ea702563fa6ce4-i1> .
+
+<http://data.archives-nationales.culture.gouv.fr/instantiation/-aspace_14ae4447b4bab1eb25ea702563fa6ce4-i1>
+  a ns0:Instantiation ;
+  ns0:instantiates <http://data.archives-nationales.culture.gouv.fr/recordResource/-aspace_14ae4447b4bab1eb25ea702563fa6ce4> ;
+  ns0:title "Old Main Items List"@en ;
+  rdfs:label "Old Main Items List"@en ;
+  ns0:date "1929"^^xsd:gYear, "1929"@en ;
+  rdfs:seeAlso <https://www.siv.archives-nationales.culture.gouv.fr/siv/UD/00279/aspace_14ae4447b4bab1eb25ea702563fa6ce4> .
+
+<http://data.archives-nationales.culture.gouv.fr/recordResource/-aspace_9681b8b001c7ac9390e26af37a9e75ae>
+  a ns0:RecordResource, ns0:RecordSet ;
+  ns0:includedIn <http://data.archives-nationales.culture.gouv.fr/recordResource/-top> ;
+  ns0:hasRecordSetType <https://www.ica.org/standards/RiC/vocabularies/recordSetTypes#File> ;
+  ns0:title "Registrar Promotion"@en ;
+  rdfs:label "Registrar Promotion"@en ;
+  ns0:beginningDate "1912"^^xsd:gYear ;
+  ns0:endDate "1947"^^xsd:gYear ;
+  ns0:date "1912-1947"@en ;
+  ns0:hasInstantiation <http://data.archives-nationales.culture.gouv.fr/instantiation/-aspace_9681b8b001c7ac9390e26af37a9e75ae-i1> .
+
+<http://data.archives-nationales.culture.gouv.fr/instantiation/-aspace_9681b8b001c7ac9390e26af37a9e75ae-i1>
+  a ns0:Instantiation ;
+  ns0:instantiates <http://data.archives-nationales.culture.gouv.fr/recordResource/-aspace_9681b8b001c7ac9390e26af37a9e75ae> ;
+  ns0:title "Registrar Promotion"@en ;
+  rdfs:label "Registrar Promotion"@en ;
+  ns0:beginningDate "1912"^^xsd:gYear ;
+  ns0:endDate "1947"^^xsd:gYear ;
+  ns0:date "1912-1947"@en ;
+  rdfs:seeAlso <https://www.siv.archives-nationales.culture.gouv.fr/siv/UD/00279/aspace_9681b8b001c7ac9390e26af37a9e75ae> .
+
+<http://data.archives-nationales.culture.gouv.fr/recordResource/-aspace_88a3e4eb115827bf18a85cde99279602>
+  a ns0:RecordResource, ns0:RecordSet ;
+  ns0:includedIn <http://data.archives-nationales.culture.gouv.fr/recordResource/-top> ;
+  ns0:hasRecordSetType <https://www.ica.org/standards/RiC/vocabularies/recordSetTypes#File> ;
+  ns0:title "Related Data"@en ;
+  rdfs:label "Related Data"@en ;
+  ns0:beginningDate "1908"^^xsd:gYear ;
+  ns0:endDate "1920"^^xsd:gYear ;
+  ns0:date "1908-1920"@en ;
+  ns0:hasInstantiation <http://data.archives-nationales.culture.gouv.fr/instantiation/-aspace_88a3e4eb115827bf18a85cde99279602-i1> .
+
+<http://data.archives-nationales.culture.gouv.fr/instantiation/-aspace_88a3e4eb115827bf18a85cde99279602-i1>
+  a ns0:Instantiation ;
+  ns0:instantiates <http://data.archives-nationales.culture.gouv.fr/recordResource/-aspace_88a3e4eb115827bf18a85cde99279602> ;
+  ns0:title "Related Data"@en ;
+  rdfs:label "Related Data"@en ;
+  ns0:beginningDate "1908"^^xsd:gYear ;
+  ns0:endDate "1920"^^xsd:gYear ;
+  ns0:date "1908-1920"@en ;
+  rdfs:seeAlso <https://www.siv.archives-nationales.culture.gouv.fr/siv/UD/00279/aspace_88a3e4eb115827bf18a85cde99279602> .
+
+<http://data.archives-nationales.culture.gouv.fr/recordResource/-aspace_cab46a0fcb84784295aaf300f963f71f>
+  a ns0:RecordResource, ns0:RecordSet ;
+  ns0:includedIn <http://data.archives-nationales.culture.gouv.fr/recordResource/-top> ;
+  ns0:hasRecordSetType <https://www.ica.org/standards/RiC/vocabularies/recordSetTypes#File> ;
+  ns0:title "Papers and Correspondence"@en ;
+  rdfs:label "Papers and Correspondence"@en ;
+  ns0:beginningDate "1915"^^xsd:gYear ;
+  ns0:endDate "1918"^^xsd:gYear ;
+  ns0:date "1915-1918"@en ;
+  ns0:hasInstantiation <http://data.archives-nationales.culture.gouv.fr/instantiation/-aspace_cab46a0fcb84784295aaf300f963f71f-i1> .
+
+<http://data.archives-nationales.culture.gouv.fr/instantiation/-aspace_cab46a0fcb84784295aaf300f963f71f-i1>
+  a ns0:Instantiation ;
+  ns0:instantiates <http://data.archives-nationales.culture.gouv.fr/recordResource/-aspace_cab46a0fcb84784295aaf300f963f71f> ;
+  ns0:title "Papers and Correspondence"@en ;
+  rdfs:label "Papers and Correspondence"@en ;
+  ns0:beginningDate "1915"^^xsd:gYear ;
+  ns0:endDate "1918"^^xsd:gYear ;
+  ns0:date "1915-1918"@en ;
+  rdfs:seeAlso <https://www.siv.archives-nationales.culture.gouv.fr/siv/UD/00279/aspace_cab46a0fcb84784295aaf300f963f71f> .
+
+<http://data.archives-nationales.culture.gouv.fr/recordResource/-aspace_27a1d24cf8ce1499b089e85b72374ec4>
+  a ns0:RecordResource, ns0:RecordSet ;
+  ns0:includedIn <http://data.archives-nationales.culture.gouv.fr/recordResource/-top> ;
+  ns0:hasRecordSetType <https://www.ica.org/standards/RiC/vocabularies/recordSetTypes#File> ;
+  ns0:title "Correspondence"@en ;
+  rdfs:label "Correspondence"@en ;
+  ns0:beginningDate "1924"^^xsd:gYear ;
+  ns0:endDate "1925"^^xsd:gYear ;
+  ns0:date "1924-1925"@en ;
+  ns0:hasInstantiation <http://data.archives-nationales.culture.gouv.fr/instantiation/-aspace_27a1d24cf8ce1499b089e85b72374ec4-i1> .
+
+<http://data.archives-nationales.culture.gouv.fr/instantiation/-aspace_27a1d24cf8ce1499b089e85b72374ec4-i1>
+  a ns0:Instantiation ;
+  ns0:instantiates <http://data.archives-nationales.culture.gouv.fr/recordResource/-aspace_27a1d24cf8ce1499b089e85b72374ec4> ;
+  ns0:title "Correspondence"@en ;
+  rdfs:label "Correspondence"@en ;
+  ns0:beginningDate "1924"^^xsd:gYear ;
+  ns0:endDate "1925"^^xsd:gYear ;
+  ns0:date "1924-1925"@en ;
+  rdfs:seeAlso <https://www.siv.archives-nationales.culture.gouv.fr/siv/UD/00279/aspace_27a1d24cf8ce1499b089e85b72374ec4> .
+
+<http://data.archives-nationales.culture.gouv.fr/recordResource/-aspace_40b816d9b5c7b73788acc4188b7f746a>
+  a ns0:RecordResource, ns0:RecordSet ;
+  ns0:includedIn <http://data.archives-nationales.culture.gouv.fr/recordResource/-top> ;
+  ns0:hasRecordSetType <https://www.ica.org/standards/RiC/vocabularies/recordSetTypes#File> ;
+  ns0:title "Rejected Parts Manuscript"@en ;
+  rdfs:label "Rejected Parts Manuscript"@en ;
+  ns0:date "Undated"@en ;
+  ns0:hasInstantiation <http://data.archives-nationales.culture.gouv.fr/instantiation/-aspace_40b816d9b5c7b73788acc4188b7f746a-i1> .
+
+<http://data.archives-nationales.culture.gouv.fr/instantiation/-aspace_40b816d9b5c7b73788acc4188b7f746a-i1>
+  a ns0:Instantiation ;
+  ns0:instantiates <http://data.archives-nationales.culture.gouv.fr/recordResource/-aspace_40b816d9b5c7b73788acc4188b7f746a> ;
+  ns0:title "Rejected Parts Manuscript"@en ;
+  rdfs:label "Rejected Parts Manuscript"@en ;
+  ns0:date "Undated"@en ;
+  rdfs:seeAlso <https://www.siv.archives-nationales.culture.gouv.fr/siv/UD/00279/aspace_40b816d9b5c7b73788acc4188b7f746a> .
+
+<http://data.archives-nationales.culture.gouv.fr/recordResource/-aspace_228c14251b38f5f08e2b8d960ee35693>
+  a ns0:RecordResource, ns0:RecordSet ;
+  ns0:includedIn <http://data.archives-nationales.culture.gouv.fr/recordResource/-top> ;
+  ns0:hasRecordSetType <https://www.ica.org/standards/RiC/vocabularies/recordSetTypes#File> ;
+  ns0:title "Origin of County Names"@en ;
+  rdfs:label "Origin of County Names"@en ;
+  ns0:beginningDate "1911"^^xsd:gYear ;
+  ns0:endDate "1916"^^xsd:gYear ;
+  ns0:date "1911-1916"@en ;
+  ns0:hasInstantiation <http://data.archives-nationales.culture.gouv.fr/instantiation/-aspace_228c14251b38f5f08e2b8d960ee35693-i1> .
+
+<http://data.archives-nationales.culture.gouv.fr/instantiation/-aspace_228c14251b38f5f08e2b8d960ee35693-i1>
+  a ns0:Instantiation ;
+  ns0:instantiates <http://data.archives-nationales.culture.gouv.fr/recordResource/-aspace_228c14251b38f5f08e2b8d960ee35693> ;
+  ns0:title "Origin of County Names"@en ;
+  rdfs:label "Origin of County Names"@en ;
+  ns0:beginningDate "1911"^^xsd:gYear ;
+  ns0:endDate "1916"^^xsd:gYear ;
+  ns0:date "1911-1916"@en ;
+  rdfs:seeAlso <https://www.siv.archives-nationales.culture.gouv.fr/siv/UD/00279/aspace_228c14251b38f5f08e2b8d960ee35693> .
+
+<http://data.archives-nationales.culture.gouv.fr/recordResource/-aspace_d95693a1f745eca4fd8c2398c6e8bbab>
+  a ns0:RecordResource, ns0:RecordSet ;
+  ns0:includedIn <http://data.archives-nationales.culture.gouv.fr/recordResource/-top> ;
+  ns0:hasRecordSetType <https://www.ica.org/standards/RiC/vocabularies/recordSetTypes#File> ;
+  ns0:title "Evangelical Press"@en ;
+  rdfs:label "Evangelical Press"@en ;
+  ns0:beginningDate "1924"^^xsd:gYear ;
+  ns0:endDate "1925"^^xsd:gYear ;
+  ns0:date "1924-1925"@en ;
+  ns0:hasInstantiation <http://data.archives-nationales.culture.gouv.fr/instantiation/-aspace_d95693a1f745eca4fd8c2398c6e8bbab-i1> .
+
+<http://data.archives-nationales.culture.gouv.fr/instantiation/-aspace_d95693a1f745eca4fd8c2398c6e8bbab-i1>
+  a ns0:Instantiation ;
+  ns0:instantiates <http://data.archives-nationales.culture.gouv.fr/recordResource/-aspace_d95693a1f745eca4fd8c2398c6e8bbab> ;
+  ns0:title "Evangelical Press"@en ;
+  rdfs:label "Evangelical Press"@en ;
+  ns0:beginningDate "1924"^^xsd:gYear ;
+  ns0:endDate "1925"^^xsd:gYear ;
+  ns0:date "1924-1925"@en ;
+  rdfs:seeAlso <https://www.siv.archives-nationales.culture.gouv.fr/siv/UD/00279/aspace_d95693a1f745eca4fd8c2398c6e8bbab> .
+
+<http://data.archives-nationales.culture.gouv.fr/recordResource/-aspace_7bd3eb54c3763ac9c6b89e83d51bf3b1>
+  a ns0:RecordResource, ns0:RecordSet ;
+  ns0:includedIn <http://data.archives-nationales.culture.gouv.fr/recordResource/-top> ;
+  ns0:hasRecordSetType <https://www.ica.org/standards/RiC/vocabularies/recordSetTypes#File> ;
+  ns0:title "Book Rough Draft"@en ;
+  rdfs:label "Book Rough Draft"@en ;
+  ns0:date "1925"^^xsd:gYear, "1925"@en ;
+  ns0:hasInstantiation <http://data.archives-nationales.culture.gouv.fr/instantiation/-aspace_7bd3eb54c3763ac9c6b89e83d51bf3b1-i1> .
+
+<http://data.archives-nationales.culture.gouv.fr/instantiation/-aspace_7bd3eb54c3763ac9c6b89e83d51bf3b1-i1>
+  a ns0:Instantiation ;
+  ns0:instantiates <http://data.archives-nationales.culture.gouv.fr/recordResource/-aspace_7bd3eb54c3763ac9c6b89e83d51bf3b1> ;
+  ns0:title "Book Rough Draft"@en ;
+  rdfs:label "Book Rough Draft"@en ;
+  ns0:date "1925"^^xsd:gYear, "1925"@en ;
+  rdfs:seeAlso <https://www.siv.archives-nationales.culture.gouv.fr/siv/UD/00279/aspace_7bd3eb54c3763ac9c6b89e83d51bf3b1> .
+
+<http://data.archives-nationales.culture.gouv.fr/recordResource/-aspace_f3c6145b2856da8ebb9340f6795c7b54>
+  a ns0:RecordResource, ns0:RecordSet ;
+  ns0:includedIn <http://data.archives-nationales.culture.gouv.fr/recordResource/-top> ;
+  ns0:hasRecordSetType <https://www.ica.org/standards/RiC/vocabularies/recordSetTypes#File> ;
+  ns0:title "Returned Manuscript"@en ;
+  rdfs:label "Returned Manuscript"@en ;
+  ns0:date "Undated"@en ;
+  ns0:hasInstantiation <http://data.archives-nationales.culture.gouv.fr/instantiation/-aspace_f3c6145b2856da8ebb9340f6795c7b54-i1> .
+
+<http://data.archives-nationales.culture.gouv.fr/instantiation/-aspace_f3c6145b2856da8ebb9340f6795c7b54-i1>
+  a ns0:Instantiation ;
+  ns0:instantiates <http://data.archives-nationales.culture.gouv.fr/recordResource/-aspace_f3c6145b2856da8ebb9340f6795c7b54> ;
+  ns0:title "Returned Manuscript"@en ;
+  rdfs:label "Returned Manuscript"@en ;
+  ns0:date "Undated"@en ;
+  rdfs:seeAlso <https://www.siv.archives-nationales.culture.gouv.fr/siv/UD/00279/aspace_f3c6145b2856da8ebb9340f6795c7b54> .
+
+<http://data.archives-nationales.culture.gouv.fr/recordResource/-aspace_9f6411f101a8cfd5046c64493844381c>
+  a ns0:RecordResource, ns0:RecordSet ;
+  ns0:includedIn <http://data.archives-nationales.culture.gouv.fr/recordResource/-top> ;
+  ns0:hasRecordSetType <https://www.ica.org/standards/RiC/vocabularies/recordSetTypes#File> ;
+  ns0:title "Pond Scum Book"@en ;
+  rdfs:label "Pond Scum Book"@en ;
+  ns0:date "1914"^^xsd:gYear, "1914"@en ;
+  ns0:hasInstantiation <http://data.archives-nationales.culture.gouv.fr/instantiation/-aspace_9f6411f101a8cfd5046c64493844381c-i1> .
+
+<http://data.archives-nationales.culture.gouv.fr/instantiation/-aspace_9f6411f101a8cfd5046c64493844381c-i1>
+  a ns0:Instantiation ;
+  ns0:instantiates <http://data.archives-nationales.culture.gouv.fr/recordResource/-aspace_9f6411f101a8cfd5046c64493844381c> ;
+  ns0:title "Pond Scum Book"@en ;
+  rdfs:label "Pond Scum Book"@en ;
+  ns0:date "1914"^^xsd:gYear, "1914"@en ;
+  rdfs:seeAlso <https://www.siv.archives-nationales.culture.gouv.fr/siv/UD/00279/aspace_9f6411f101a8cfd5046c64493844381c> .
+
+<http://data.archives-nationales.culture.gouv.fr/recordResource/-aspace_49fbfa1fe301717bd229e0d104fd63e3>
+  a ns0:RecordResource, ns0:RecordSet ;
+  ns0:includedIn <http://data.archives-nationales.culture.gouv.fr/recordResource/-top> ;
+  ns0:hasRecordSetType <https://www.ica.org/standards/RiC/vocabularies/recordSetTypes#File> ;
+  ns0:title "Horticulture 2 Practicum"@en ;
+  rdfs:label "Horticulture 2 Practicum"@en ;
+  ns0:date "1917"^^xsd:gYear, "1917"@en ;
+  ns0:hasInstantiation <http://data.archives-nationales.culture.gouv.fr/instantiation/-aspace_49fbfa1fe301717bd229e0d104fd63e3-i1> .
+
+<http://data.archives-nationales.culture.gouv.fr/instantiation/-aspace_49fbfa1fe301717bd229e0d104fd63e3-i1>
+  a ns0:Instantiation ;
+  ns0:instantiates <http://data.archives-nationales.culture.gouv.fr/recordResource/-aspace_49fbfa1fe301717bd229e0d104fd63e3> ;
+  ns0:title "Horticulture 2 Practicum"@en ;
+  rdfs:label "Horticulture 2 Practicum"@en ;
+  ns0:date "1917"^^xsd:gYear, "1917"@en ;
+  rdfs:seeAlso <https://www.siv.archives-nationales.culture.gouv.fr/siv/UD/00279/aspace_49fbfa1fe301717bd229e0d104fd63e3> .
+
+<http://data.archives-nationales.culture.gouv.fr/recordResource/-aspace_8029640e251df90e8795a49bc9c1747b>
+  a ns0:RecordResource, ns0:RecordSet ;
+  ns0:includedIn <http://data.archives-nationales.culture.gouv.fr/recordResource/-top> ;
+  ns0:hasRecordSetType <https://www.ica.org/standards/RiC/vocabularies/recordSetTypes#File> ;
+  ns0:title "Final Exam"@en ;
+  rdfs:label "Final Exam"@en ;
+  ns0:beginningDate "1913"^^xsd:gYear ;
+  ns0:endDate "1914"^^xsd:gYear ;
+  ns0:date "1913-1914"@en ;
+  ns0:hasInstantiation <http://data.archives-nationales.culture.gouv.fr/instantiation/-aspace_8029640e251df90e8795a49bc9c1747b-i1> .
+
+<http://data.archives-nationales.culture.gouv.fr/instantiation/-aspace_8029640e251df90e8795a49bc9c1747b-i1>
+  a ns0:Instantiation ;
+  ns0:instantiates <http://data.archives-nationales.culture.gouv.fr/recordResource/-aspace_8029640e251df90e8795a49bc9c1747b> ;
+  ns0:title "Final Exam"@en ;
+  rdfs:label "Final Exam"@en ;
+  ns0:beginningDate "1913"^^xsd:gYear ;
+  ns0:endDate "1914"^^xsd:gYear ;
+  ns0:date "1913-1914"@en ;
+  rdfs:seeAlso <https://www.siv.archives-nationales.culture.gouv.fr/siv/UD/00279/aspace_8029640e251df90e8795a49bc9c1747b> .
+
+<http://data.archives-nationales.culture.gouv.fr/recordResource/-aspace_17b10268e7aa1d02057bdab78750dafc>
+  a ns0:RecordResource, ns0:RecordSet ;
+  ns0:includedIn <http://data.archives-nationales.culture.gouv.fr/recordResource/-top> ;
+  ns0:hasRecordSetType <https://www.ica.org/standards/RiC/vocabularies/recordSetTypes#File> ;
+  ns0:title "Laboratory Worksheets"@en ;
+  rdfs:label "Laboratory Worksheets"@en ;
+  ns0:date "Undated"@en ;
+  ns0:hasInstantiation <http://data.archives-nationales.culture.gouv.fr/instantiation/-aspace_17b10268e7aa1d02057bdab78750dafc-i1> .
+
+<http://data.archives-nationales.culture.gouv.fr/instantiation/-aspace_17b10268e7aa1d02057bdab78750dafc-i1>
+  a ns0:Instantiation ;
+  ns0:instantiates <http://data.archives-nationales.culture.gouv.fr/recordResource/-aspace_17b10268e7aa1d02057bdab78750dafc> ;
+  ns0:title "Laboratory Worksheets"@en ;
+  rdfs:label "Laboratory Worksheets"@en ;
+  ns0:date "Undated"@en ;
+  rdfs:seeAlso <https://www.siv.archives-nationales.culture.gouv.fr/siv/UD/00279/aspace_17b10268e7aa1d02057bdab78750dafc> .
+
+<http://data.archives-nationales.culture.gouv.fr/recordResource/-aspace_02d9515d98f3385083edc4052fe657cd>
+  a ns0:RecordResource, ns0:RecordSet ;
+  ns0:includedIn <http://data.archives-nationales.culture.gouv.fr/recordResource/-top> ;
+  ns0:hasRecordSetType <https://www.ica.org/standards/RiC/vocabularies/recordSetTypes#File> ;
+  ns0:title "Name Book Chapters I - XXV"@en ;
+  rdfs:label "Name Book Chapters I - XXV"@en ;
+  ns0:date "Undated"@en ;
+  ns0:hasInstantiation <http://data.archives-nationales.culture.gouv.fr/instantiation/-aspace_02d9515d98f3385083edc4052fe657cd-i1> .
+
+<http://data.archives-nationales.culture.gouv.fr/instantiation/-aspace_02d9515d98f3385083edc4052fe657cd-i1>
+  a ns0:Instantiation ;
+  ns0:instantiates <http://data.archives-nationales.culture.gouv.fr/recordResource/-aspace_02d9515d98f3385083edc4052fe657cd> ;
+  ns0:title "Name Book Chapters I - XXV"@en ;
+  rdfs:label "Name Book Chapters I - XXV"@en ;
+  ns0:date "Undated"@en ;
+  rdfs:seeAlso <https://www.siv.archives-nationales.culture.gouv.fr/siv/UD/00279/aspace_02d9515d98f3385083edc4052fe657cd> .
+
+<http://data.archives-nationales.culture.gouv.fr/recordResource/-aspace_7460ec2075262a9ec0f79754af510664>
+  a ns0:RecordResource, ns0:RecordSet ;
+  ns0:includedIn <http://data.archives-nationales.culture.gouv.fr/recordResource/-top> ;
+  ns0:hasRecordSetType <https://www.ica.org/standards/RiC/vocabularies/recordSetTypes#File> ;
+  ns0:title "Manuscript Chapters VII, VIII, X, XVI"@en ;
+  rdfs:label "Manuscript Chapters VII, VIII, X, XVI"@en ;
+  ns0:date "1922"^^xsd:gYear, "1922"@en ;
+  ns0:hasInstantiation <http://data.archives-nationales.culture.gouv.fr/instantiation/-aspace_7460ec2075262a9ec0f79754af510664-i1> .
+
+<http://data.archives-nationales.culture.gouv.fr/instantiation/-aspace_7460ec2075262a9ec0f79754af510664-i1>
+  a ns0:Instantiation ;
+  ns0:instantiates <http://data.archives-nationales.culture.gouv.fr/recordResource/-aspace_7460ec2075262a9ec0f79754af510664> ;
+  ns0:title "Manuscript Chapters VII, VIII, X, XVI"@en ;
+  rdfs:label "Manuscript Chapters VII, VIII, X, XVI"@en ;
+  ns0:date "1922"^^xsd:gYear, "1922"@en ;
+  rdfs:seeAlso <https://www.siv.archives-nationales.culture.gouv.fr/siv/UD/00279/aspace_7460ec2075262a9ec0f79754af510664> .
+
+<http://data.archives-nationales.culture.gouv.fr/recordResource/-aspace_cfed8ff7395c11b30ded39c1a41d716c>
+  a ns0:RecordResource, ns0:RecordSet ;
+  ns0:includedIn <http://data.archives-nationales.culture.gouv.fr/recordResource/-top> ;
+  ns0:hasRecordSetType <https://www.ica.org/standards/RiC/vocabularies/recordSetTypes#File> ;
+  ns0:title "Articles and Letters"@en ;
+  rdfs:label "Articles and Letters"@en ;
+  ns0:date "1925"^^xsd:gYear, "1925"@en ;
+  ns0:hasInstantiation <http://data.archives-nationales.culture.gouv.fr/instantiation/-aspace_cfed8ff7395c11b30ded39c1a41d716c-i1> .
+
+<http://data.archives-nationales.culture.gouv.fr/instantiation/-aspace_cfed8ff7395c11b30ded39c1a41d716c-i1>
+  a ns0:Instantiation ;
+  ns0:instantiates <http://data.archives-nationales.culture.gouv.fr/recordResource/-aspace_cfed8ff7395c11b30ded39c1a41d716c> ;
+  ns0:title "Articles and Letters"@en ;
+  rdfs:label "Articles and Letters"@en ;
+  ns0:date "1925"^^xsd:gYear, "1925"@en ;
+  rdfs:seeAlso <https://www.siv.archives-nationales.culture.gouv.fr/siv/UD/00279/aspace_cfed8ff7395c11b30ded39c1a41d716c> .
+
+<http://data.archives-nationales.culture.gouv.fr/recordResource/-aspace_bae68aadc1bca209502005f4603d080a>
+  a ns0:RecordResource, ns0:RecordSet ;
+  ns0:includedIn <http://data.archives-nationales.culture.gouv.fr/recordResource/-top> ;
+  ns0:hasRecordSetType <https://www.ica.org/standards/RiC/vocabularies/recordSetTypes#File> ;
+  ns0:title "Data"@en ;
+  rdfs:label "Data"@en ;
+  ns0:date "Undated"@en ;
+  ns0:hasInstantiation <http://data.archives-nationales.culture.gouv.fr/instantiation/-aspace_bae68aadc1bca209502005f4603d080a-i1> .
+
+<http://data.archives-nationales.culture.gouv.fr/instantiation/-aspace_bae68aadc1bca209502005f4603d080a-i1>
+  a ns0:Instantiation ;
+  ns0:instantiates <http://data.archives-nationales.culture.gouv.fr/recordResource/-aspace_bae68aadc1bca209502005f4603d080a> ;
+  ns0:title "Data"@en ;
+  rdfs:label "Data"@en ;
+  ns0:date "Undated"@en ;
+  rdfs:seeAlso <https://www.siv.archives-nationales.culture.gouv.fr/siv/UD/00279/aspace_bae68aadc1bca209502005f4603d080a> .
+
+<http://data.archives-nationales.culture.gouv.fr/recordResource/-aspace_44867d92f6ef46b0847a5b73d366a985>
+  a ns0:RecordResource, ns0:RecordSet ;
+  ns0:includedIn <http://data.archives-nationales.culture.gouv.fr/recordResource/-top> ;
+  ns0:hasRecordSetType <https://www.ica.org/standards/RiC/vocabularies/recordSetTypes#File> ;
+  ns0:title "Reviews and Testimonials"@en ;
+  rdfs:label "Reviews and Testimonials"@en ;
+  ns0:date "1925"^^xsd:gYear, "1925"@en ;
+  ns0:hasInstantiation <http://data.archives-nationales.culture.gouv.fr/instantiation/-aspace_44867d92f6ef46b0847a5b73d366a985-i1> .
+
+<http://data.archives-nationales.culture.gouv.fr/instantiation/-aspace_44867d92f6ef46b0847a5b73d366a985-i1>
+  a ns0:Instantiation ;
+  ns0:instantiates <http://data.archives-nationales.culture.gouv.fr/recordResource/-aspace_44867d92f6ef46b0847a5b73d366a985> ;
+  ns0:title "Reviews and Testimonials"@en ;
+  rdfs:label "Reviews and Testimonials"@en ;
+  ns0:date "1925"^^xsd:gYear, "1925"@en ;
+  rdfs:seeAlso <https://www.siv.archives-nationales.culture.gouv.fr/siv/UD/00279/aspace_44867d92f6ef46b0847a5b73d366a985> .
+
+<http://data.archives-nationales.culture.gouv.fr/recordResource/-aspace_7c8383c7af5f5f93a06eea9c213532ca>
+  a ns0:RecordResource, ns0:RecordSet ;
+  ns0:includedIn <http://data.archives-nationales.culture.gouv.fr/recordResource/-top> ;
+  ns0:hasRecordSetType <https://www.ica.org/standards/RiC/vocabularies/recordSetTypes#File> ;
+  ns0:title "Advanced Order Letters"@en ;
+  rdfs:label "Advanced Order Letters"@en ;
+  ns0:date "1925"^^xsd:gYear, "1925"@en ;
+  ns0:hasInstantiation <http://data.archives-nationales.culture.gouv.fr/instantiation/-aspace_7c8383c7af5f5f93a06eea9c213532ca-i1> .
+
+<http://data.archives-nationales.culture.gouv.fr/instantiation/-aspace_7c8383c7af5f5f93a06eea9c213532ca-i1>
+  a ns0:Instantiation ;
+  ns0:instantiates <http://data.archives-nationales.culture.gouv.fr/recordResource/-aspace_7c8383c7af5f5f93a06eea9c213532ca> ;
+  ns0:title "Advanced Order Letters"@en ;
+  rdfs:label "Advanced Order Letters"@en ;
+  ns0:date "1925"^^xsd:gYear, "1925"@en ;
+  rdfs:seeAlso <https://www.siv.archives-nationales.culture.gouv.fr/siv/UD/00279/aspace_7c8383c7af5f5f93a06eea9c213532ca> .
+
+<http://data.archives-nationales.culture.gouv.fr/recordResource/-aspace_61218b1f2f47774656fd360cf86b2288>
+  a ns0:RecordResource, ns0:RecordSet ;
+  ns0:includedIn <http://data.archives-nationales.culture.gouv.fr/recordResource/-top> ;
+  ns0:hasRecordSetType <https://www.ica.org/standards/RiC/vocabularies/recordSetTypes#File> ;
+  ns0:title "Correspondence and Data"@en ;
+  rdfs:label "Correspondence and Data"@en ;
+  ns0:beginningDate "1916"^^xsd:gYear ;
+  ns0:endDate "1925"^^xsd:gYear ;
+  ns0:date "1916-1925"@en ;
+  ns0:hasInstantiation <http://data.archives-nationales.culture.gouv.fr/instantiation/-aspace_61218b1f2f47774656fd360cf86b2288-i1> .
+
+<http://data.archives-nationales.culture.gouv.fr/instantiation/-aspace_61218b1f2f47774656fd360cf86b2288-i1>
+  a ns0:Instantiation ;
+  ns0:instantiates <http://data.archives-nationales.culture.gouv.fr/recordResource/-aspace_61218b1f2f47774656fd360cf86b2288> ;
+  ns0:title "Correspondence and Data"@en ;
+  rdfs:label "Correspondence and Data"@en ;
+  ns0:beginningDate "1916"^^xsd:gYear ;
+  ns0:endDate "1925"^^xsd:gYear ;
+  ns0:date "1916-1925"@en ;
+  rdfs:seeAlso <https://www.siv.archives-nationales.culture.gouv.fr/siv/UD/00279/aspace_61218b1f2f47774656fd360cf86b2288> .

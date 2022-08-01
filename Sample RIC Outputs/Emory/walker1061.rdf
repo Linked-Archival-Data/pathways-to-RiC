@@ -1,0 +1,247 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+         xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+         xmlns:rico="https://www.ica.org/standards/RiC/ontology#"
+         xmlns:dc="http://purl.org/dc/elements/1.1/"
+         xmlns:isni="http://isni.org/ontology#"
+         xmlns:owl="http://www.w3.org/2002/07/owl#"
+         xmlns:html="http://www.w3.org/1999/xhtml"
+         xml:base="http://data.archives-nationales.culture.gouv.fr/">
+   <rico:Record rdf:about="record/">
+      <rico:hasDocumentaryFormType rdf:resource="https://www.ica.org/standards/RiC/vocabularies/documentaryFormTypes#FindingAid"/>
+      <rico:regulatedBy rdf:resource="rule/rl005"/>
+      <rico:regulatedBy rdf:resource="rule/rl004"/>
+      <rico:regulatedBy rdf:resource="rule/rl006"/>
+      <rico:regulatedBy rdf:resource="rule/rl007"/>
+      <rico:regulatedBy rdf:resource="rule/rl009"/>
+      <rico:title xml:lang="en">Alice Walker papers, circa 1930-2010</rico:title>
+      <rdfs:label xml:lang="en">Alice Walker papers, circa 1930-2010</rdfs:label>
+      <rico:createdBy rdf:resource="agent/005061"/>
+      <rico:publishedBy rdf:resource="agent/005061"/>
+      <rico:publicationDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2009-04-23</rico:publicationDate>
+      <rico:history rdf:parseType="Literal">
+         <html:div>
+            <html:h4>auteur(s)</html:h4>
+            <html:p xml:lang="en">Stuart A. Rose Manuscript, Archives, and Rare Book Library, Emory University</html:p>
+         </html:div>
+      </rico:history>
+      <rico:hasLanguage rdf:resource="language/FRAN_RI_100-name6"/>
+      <rico:affectedBy>
+         <rico:Activity>
+            <rico:date rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2014-03-17</rico:date>
+            <rico:descriptiveNote xml:lang="en">Finding aid revised</rico:descriptiveNote>
+         </rico:Activity>
+      </rico:affectedBy>
+      <rico:affectedBy>
+         <rico:Activity>
+            <rico:date rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2014-11-20</rico:date>
+            <rico:descriptiveNote xml:lang="en">Restricted container lists in Series 1 and 13 identified in finding aid. Restricted container lists in Series 4.2, 10, 12.2, 12.3, and 12.4 redacted in finding aid.</rico:descriptiveNote>
+         </rico:Activity>
+      </rico:affectedBy>
+      <rico:affectedBy>
+         <rico:Activity>
+            <rico:date rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2015-07-29</rico:date>
+            <rico:descriptiveNote xml:lang="en">Finding aid revised to include enhanced metadata tagging.</rico:descriptiveNote>
+         </rico:Activity>
+      </rico:affectedBy>
+      <rico:affectedBy>
+         <rico:Activity>
+            <rico:date rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2018-12-10</rico:date>
+            <rico:descriptiveNote xml:lang="en">Finding aid revised to include Macbook Air born digital description.</rico:descriptiveNote>
+         </rico:Activity>
+      </rico:affectedBy>
+      <rico:describes rdf:resource="recordResource/-top"/>
+      <rico:hasInstantiation>
+         <rico:Instantiation rdf:about="instantiation/-i1">
+            <rico:instantiates rdf:resource="record/"/>
+            <rico:title xml:lang="en">Alice Walker papers, circa 1930-2010</rico:title>
+            <rdfs:label xml:lang="en">Alice Walker papers, circa 1930-2010</rdfs:label>
+            <rico:history xml:lang="en">Finding aid encoded, April 23, 2009</rico:history>
+            <rico:regulatedBy rdf:resource="rule/rl010"/>
+            <dc:format xml:lang="en">text/xml</dc:format>
+            <rico:identifier>walker1061</rico:identifier>
+            <rico:heldBy rdf:resource="agent/005061"/>
+            <rdfs:seeAlso rdf:resource="https://www.siv.archives-nationales.culture.gouv.fr/siv/IR/walker1061"/>
+         </rico:Instantiation>
+      </rico:hasInstantiation>
+   </rico:Record>
+   <rico:RecordResource rdf:about="recordResource/-top">
+      <rico:describedBy rdf:resource="record/"/>
+      <rdf:type rdf:resource="https://www.ica.org/standards/RiC/ontology#RecordSet"/>
+      <rico:hasRecordSetType rdf:resource="https://www.ica.org/standards/RiC/vocabularies/recordSetTypes#Collection"/>
+      <rico:title xml:lang="en">Alice Walker papers, circa 1930-2014</rico:title>
+      <rdfs:label xml:lang="en">Alice Walker papers, circa 1930-2014</rdfs:label>
+      <rico:beginningDate rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1930</rico:beginningDate>
+      <rico:endDate rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">2014</rico:endDate>
+      <rico:date xml:lang="en">circa 1930-2014</rico:date>
+      <rico:hasLanguage rdf:resource="language/FRAN_RI_100-name6"/>
+      <rico:heldBy>
+         <rico:Agent>
+            <rdfs:label xml:lang="en">Emory UniversityStuart A. Rose Manuscript, Archives, and Rare Book Library</rdfs:label>
+            <rico:hasAgentName>
+               <rico:AgentName>
+                  <rdfs:label xml:lang="en">Emory UniversityStuart A. Rose Manuscript, Archives, and Rare Book Library</rdfs:label>
+                  <rico:textualValue xml:lang="en">Emory UniversityStuart A. Rose Manuscript, Archives, and Rare Book Library</rico:textualValue>
+               </rico:AgentName>
+            </rico:hasAgentName>
+         </rico:Agent>
+      </rico:heldBy>
+      <rico:hasProvenance rdf:resource="agent/"/>
+      <rico:conditionsOfAccess rdf:parseType="Literal">
+         <html:div xml:lang="en">
+            <html:h5>Restrictions on Access</html:h5>
+            <html:p>Special restrictions apply: Selected correspondence in Series 1; business files (Subseries 4.2); journals (Series 10); legal files (Subseries 12.2), property files (Subseries 12.3), and financial records (Subseries 12.4) are closed until August 1, 2041.</html:p>
+            <html:p>Series 13: Access to processed born digital materials is only available in the Stuart A. Rose Manuscript, Archives, and Rare Book Library (the Rose Library). Use of the original digital media is restricted. The same restrictions listed above apply to born digital materials.</html:p>
+         </html:div>
+      </rico:conditionsOfAccess>
+      <rico:conditionsOfUse rdf:parseType="Literal">
+         <html:div xml:lang="en">
+            <html:h5>Terms Governing Use and Reproduction</html:h5>
+            <html:p>All requests subject to limitations noted in departmental policies on reproduction.</html:p>
+            <html:p>Researchers are not permitted to copy or download any of the digital files from the computer workstation.</html:p>
+         </html:div>
+      </rico:conditionsOfUse>
+      <rico:scopeAndContent rdf:parseType="Literal">
+         <html:p xml:lang="en">The collection consists of the literary and personal papers of Alice Walker from circa 1930-2015. The collection documents the development of Walker's writing career, her interest in political activism, and her personal relationships with friends and family. The collection also contains material about Walker's many interests, including civil rights, Zora Neale Hurston, female genital mutilation, Bessie Head, Cuba, Mumia Abu-Jamal, and women's rights. The papers include correspondence (1958-2014); drafts of poetry, novels, essays, and other writings (1961-2014); writings by other authors; subject files (1968-2012); printed material (1961-2014); publishing files and appearance files (1966-2012); audiovisual materials (1962-2007); photographs (circa 1930s-2012); scrapbooks (1959-1996); personal files (1958-2010); journals; and born digital materials (1987-2013).</html:p>
+      </rico:scopeAndContent>
+      <rico:structure rdf:parseType="Literal">
+         <html:div xml:lang="en">
+            <html:h5>Arrangement Note</html:h5>
+            <html:p>Organized into thirteen series: (1) Correspondence, (2) Writings by Walker, (3) Subject files, (4) Publishing files, (5) Printed material, (6) Writings by others, (7) Scrapbooks, (8) Photographs, (9) Audiovisual materials, (10) Journals, (11) Memorabilia and artwork, (12) Personal files, and (13) Born digital materials.</html:p>
+         </html:div>
+      </rico:structure>
+      <rico:hasSubject rdf:resource="agent/viaf-64109252"/>
+      <rico:hasSubject rdf:resource="agent/viaf-92449176"/>
+      <rico:hasSubject rdf:resource="agent/viaf-108895419"/>
+      <rico:hasSubject rdf:resource="agent/viaf-28757200"/>
+      <rico:hasSubject rdf:resource="agent/viaf-306396929"/>
+      <rico:hasSubject rdf:resource="agent/viaf-19692995"/>
+      <rico:hasSubject rdf:resource="agent/viaf-79115934"/>
+      <rico:hasSubject rdf:resource="agent/viaf-44315795"/>
+      <rico:hasSubject rdf:resource="agent/viaf-62824341"/>
+      <rico:hasSubject rdf:resource="agent/viaf-105601809"/>
+      <rico:hasSubject rdf:resource="agent/viaf-299442191"/>
+      <rico:hasSubject rdf:resource="agent/viaf-61565157"/>
+      <rico:hasSubject rdf:resource="agent/viaf-56422000"/>
+      <rico:hasSubject rdf:resource="agent/viaf-113912624"/>
+      <rico:hasSubject rdf:resource="agent/viaf-84513530"/>
+      <rico:hasSubject rdf:resource="agent/viaf-66471841"/>
+      <rico:hasSubject rdf:resource="agent/viaf-79036189"/>
+      <rico:hasSubject rdf:resource="agent/viaf-106986472"/>
+      <rico:hasSubject rdf:resource="place/geonames-3562981"/>
+      <rico:history rdf:parseType="Literal">
+         <html:div>
+            <html:div xml:lang="en">
+               <html:h4>Informations sur le traitement</html:h4>
+               <html:h5>Processing</html:h5>
+               <html:p>Processed by Elizabeth Russey, Brittney Cooper, Elizabeth Stice, and Brenda Tindal, April 23, 2009.</html:p>
+               <html:p>Born digital materials processed by Dorothy Waugh, March 17, 2014 and Brenna Edwards, November 2018. The born digital materials currently available to researchers are taken from 37 3.5" floppy disks, two compact discs, and a MacBook Air. For more information, see the processing note in the description of Series 13, Born digital materials.</html:p>
+               <html:p>This finding aid may include language that is offensive or harmful. Please refer to the Rose Library's for more information about why such language may appear and ongoing efforts to remediate racist, ableist, sexist, homophobic, euphemistic and other oppressive language. If you are concerned about language used in this finding aid, please contact us at rose.library@emory.edu.</html:p>
+            </html:div>
+            <html:div xml:lang="en">
+               <html:h4>Informations sur l'évaluation</html:h4>
+               <html:h5>Appraisal Note</html:h5>
+               <html:p>Acquired by Curator of African American Collections, Randall Burkett, as part of the Rose Library's holdings in African American literature.</html:p>
+            </html:div>
+         </html:div>
+      </rico:history>
+      <rico:hasInstantiation>
+         <rico:Instantiation rdf:about="instantiation/-top-i1">
+            <rico:instantiates rdf:resource="recordResource/-top"/>
+            <rico:title xml:lang="en">Alice Walker papers, circa 1930-2014</rico:title>
+            <rdfs:label xml:lang="en">Alice Walker papers, circa 1930-2014</rdfs:label>
+            <rico:beginningDate rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1930</rico:beginningDate>
+            <rico:endDate rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">2014</rico:endDate>
+            <rico:date xml:lang="en">circa 1930-2014</rico:date>
+            <rico:identifier>Manuscript Collection No. 1061</rico:identifier>
+            <rico:physicalCharacteristics rdf:parseType="Literal">
+               <html:p xml:lang="en">138 linear feet(253 boxes), 9 oversized papers boxes and 1 oversized papers folder (OP), 10 bound volumes (BV), 5 oversized bound volumes (OBV), 2 extraoversized papers folders (XOP)2 framed items (FR), AV Masters: 5.5 linear feet (6 boxes and CLP), and 7.2 GB of born digital materials (3,054 files)</html:p>
+            </rico:physicalCharacteristics>
+            <rico:instantiationExtent rdf:parseType="Literal">
+               <html:p xml:lang="en">138 linear feet</html:p>
+            </rico:instantiationExtent>
+            <rico:instantiationExtent rdf:parseType="Literal">
+               <html:p xml:lang="en">(253 boxes)</html:p>
+            </rico:instantiationExtent>
+            <rico:instantiationExtent rdf:parseType="Literal">
+               <html:p xml:lang="en">9 oversized papers boxes and 1 oversized papers folder (OP)</html:p>
+            </rico:instantiationExtent>
+            <rico:instantiationExtent rdf:parseType="Literal">
+               <html:p xml:lang="en">10 bound volumes (BV)</html:p>
+            </rico:instantiationExtent>
+            <rico:instantiationExtent rdf:parseType="Literal">
+               <html:p xml:lang="en">5 oversized bound volumes (OBV)</html:p>
+            </rico:instantiationExtent>
+            <rico:instantiationExtent rdf:parseType="Literal">
+               <html:p xml:lang="en">2 extraoversized papers folders (XOP)</html:p>
+            </rico:instantiationExtent>
+            <rico:instantiationExtent rdf:parseType="Literal">
+               <html:p xml:lang="en">2 framed items (FR)</html:p>
+            </rico:instantiationExtent>
+            <rico:instantiationExtent rdf:parseType="Literal">
+               <html:p xml:lang="en">AV Masters: 5.5 linear feet (6 boxes and CLP)</html:p>
+            </rico:instantiationExtent>
+            <rico:instantiationExtent rdf:parseType="Literal">
+               <html:p xml:lang="en">7.2 GB of born digital materials</html:p>
+            </rico:instantiationExtent>
+            <rico:instantiationExtent rdf:parseType="Literal">
+               <html:p xml:lang="en">(3,054 files)</html:p>
+            </rico:instantiationExtent>
+            <rico:heldBy>
+               <rico:Agent>
+                  <rdfs:label xml:lang="en">Emory UniversityStuart A. Rose Manuscript, Archives, and Rare Book Library</rdfs:label>
+                  <rico:hasAgentName>
+                     <rico:AgentName>
+                        <rdfs:label xml:lang="en">Emory UniversityStuart A. Rose Manuscript, Archives, and Rare Book Library</rdfs:label>
+                        <rico:textualValue xml:lang="en">Emory UniversityStuart A. Rose Manuscript, Archives, and Rare Book Library</rico:textualValue>
+                     </rico:AgentName>
+                  </rico:hasAgentName>
+               </rico:Agent>
+            </rico:heldBy>
+            <rico:hasProvenance rdf:resource="agent/"/>
+            <rico:conditionsOfAccess rdf:parseType="Literal">
+               <html:div xml:lang="en">
+                  <html:h5>Restrictions on Access</html:h5>
+                  <html:p>Special restrictions apply: Selected correspondence in Series 1; business files (Subseries 4.2); journals (Series 10); legal files (Subseries 12.2), property files (Subseries 12.3), and financial records (Subseries 12.4) are closed until August 1, 2041.</html:p>
+                  <html:p>Series 13: Access to processed born digital materials is only available in the Stuart A. Rose Manuscript, Archives, and Rare Book Library (the Rose Library). Use of the original digital media is restricted. The same restrictions listed above apply to born digital materials.</html:p>
+               </html:div>
+            </rico:conditionsOfAccess>
+            <rico:conditionsOfUse rdf:parseType="Literal">
+               <html:div xml:lang="en">
+                  <html:h5>Terms Governing Use and Reproduction</html:h5>
+                  <html:p>All requests subject to limitations noted in departmental policies on reproduction.</html:p>
+                  <html:p>Researchers are not permitted to copy or download any of the digital files from the computer workstation.</html:p>
+               </html:div>
+            </rico:conditionsOfUse>
+            <rico:structure rdf:parseType="Literal">
+               <html:div xml:lang="en">
+                  <html:h5>Arrangement Note</html:h5>
+                  <html:p>Organized into thirteen series: (1) Correspondence, (2) Writings by Walker, (3) Subject files, (4) Publishing files, (5) Printed material, (6) Writings by others, (7) Scrapbooks, (8) Photographs, (9) Audiovisual materials, (10) Journals, (11) Memorabilia and artwork, (12) Personal files, and (13) Born digital materials.</html:p>
+               </html:div>
+            </rico:structure>
+            <rico:history rdf:parseType="Literal">
+               <html:div>
+                  <html:div xml:lang="en">
+                     <html:h4>Informations sur les modalités d’entrée</html:h4>
+                     <html:h5>Source</html:h5>
+                     <html:p>Purchase from Glenn Horowitz Bookseller, on behalf of Alice Walker, 2007. Multiple additions were purchased from or donated by Alice Walker from 2007-2019.</html:p>
+                  </html:div>
+                  <html:div xml:lang="en">
+                     <html:h4>Informations sur le traitement</html:h4>
+                     <html:h5>Processing</html:h5>
+                     <html:p>Processed by Elizabeth Russey, Brittney Cooper, Elizabeth Stice, and Brenda Tindal, April 23, 2009.</html:p>
+                     <html:p>Born digital materials processed by Dorothy Waugh, March 17, 2014 and Brenna Edwards, November 2018. The born digital materials currently available to researchers are taken from 37 3.5" floppy disks, two compact discs, and a MacBook Air. For more information, see the processing note in the description of Series 13, Born digital materials.</html:p>
+                     <html:p>This finding aid may include language that is offensive or harmful. Please refer to the Rose Library's for more information about why such language may appear and ongoing efforts to remediate racist, ableist, sexist, homophobic, euphemistic and other oppressive language. If you are concerned about language used in this finding aid, please contact us at rose.library@emory.edu.</html:p>
+                  </html:div>
+                  <html:div xml:lang="en">
+                     <html:h4>Informations sur l'évaluation</html:h4>
+                     <html:h5>Appraisal Note</html:h5>
+                     <html:p>Acquired by Curator of African American Collections, Randall Burkett, as part of the Rose Library's holdings in African American literature.</html:p>
+                  </html:div>
+               </html:div>
+            </rico:history>
+            <rdfs:seeAlso rdf:resource="https://www.siv.archives-nationales.culture.gouv.fr/siv/UD/walker1061/top"/>
+         </rico:Instantiation>
+      </rico:hasInstantiation>
+   </rico:RecordResource>
+</rdf:RDF>

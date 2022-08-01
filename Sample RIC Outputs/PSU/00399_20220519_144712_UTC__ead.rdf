@@ -1,0 +1,2477 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+         xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+         xmlns:rico="https://www.ica.org/standards/RiC/ontology#"
+         xmlns:dc="http://purl.org/dc/elements/1.1/"
+         xmlns:isni="http://isni.org/ontology#"
+         xmlns:owl="http://www.w3.org/2002/07/owl#"
+         xmlns:html="http://www.w3.org/1999/xhtml"
+         xml:base="http://data.archives-nationales.culture.gouv.fr/">
+   <rico:Record rdf:about="record/">
+      <rico:hasDocumentaryFormType rdf:resource="https://www.ica.org/standards/RiC/vocabularies/documentaryFormTypes#FindingAid"/>
+      <rico:regulatedBy rdf:resource="rule/rl005"/>
+      <rico:regulatedBy rdf:resource="rule/rl004"/>
+      <rico:regulatedBy rdf:resource="rule/rl006"/>
+      <rico:regulatedBy rdf:resource="rule/rl007"/>
+      <rico:regulatedBy rdf:resource="rule/rl009"/>
+      <rico:title xml:lang="en">Arthur E. Goldschmidt papers, 1913-2001 (bulk 1960-2001) 00399</rico:title>
+      <rdfs:label xml:lang="en">Arthur E. Goldschmidt papers, 1913-2001 (bulk 1960-2001) 00399</rdfs:label>
+      <rico:createdBy rdf:resource="agent/005061"/>
+      <rico:publishedBy rdf:resource="agent/005061"/>
+      <rico:history rdf:parseType="Literal">
+         <html:div>
+            <html:h4>auteur(s)</html:h4>
+            <html:p xml:lang="en">Prepared by Special Collections Library faculty/staff</html:p>
+         </html:div>
+      </rico:history>
+      <rico:describes rdf:resource="recordResource/-top"/>
+      <rico:hasInstantiation>
+         <rico:Instantiation rdf:about="instantiation/-i1">
+            <rico:instantiates rdf:resource="record/"/>
+            <rico:title xml:lang="en">Arthur E. Goldschmidt papers, 1913-2001 (bulk 1960-2001) 00399</rico:title>
+            <rdfs:label xml:lang="en">Arthur E. Goldschmidt papers, 1913-2001 (bulk 1960-2001) 00399</rdfs:label>
+            <rico:history xml:lang="en">This finding aid was produced using ArchivesSpace on 2022-05-19 10:47:14 -0400.</rico:history>
+            <rico:regulatedBy rdf:resource="rule/rl010"/>
+            <dc:format xml:lang="en">text/xml</dc:format>
+            <rico:identifier>00399</rico:identifier>
+            <rico:heldBy rdf:resource="agent/005061"/>
+            <rdfs:seeAlso rdf:resource="https://www.siv.archives-nationales.culture.gouv.fr/siv/IR/00399"/>
+         </rico:Instantiation>
+      </rico:hasInstantiation>
+   </rico:Record>
+   <rico:RecordResource rdf:about="recordResource/-top">
+      <rico:describedBy rdf:resource="record/"/>
+      <rdf:type rdf:resource="https://www.ica.org/standards/RiC/ontology#RecordSet"/>
+      <rico:hasRecordSetType rdf:resource="https://www.ica.org/standards/RiC/vocabularies/recordSetTypes#Collection"/>
+      <rico:heldBy>
+         <rico:Agent>
+            <rdfs:label xml:lang="en">Eberly Family Special Collections Library</rdfs:label>
+            <rico:hasAgentName>
+               <rico:AgentName>
+                  <rdfs:label xml:lang="en">Eberly Family Special Collections Library</rdfs:label>
+                  <rico:textualValue xml:lang="en">Eberly Family Special Collections Library</rico:textualValue>
+               </rico:AgentName>
+            </rico:hasAgentName>
+         </rico:Agent>
+      </rico:heldBy>
+      <rico:title xml:lang="en">Arthur E. Goldschmidt papers</rico:title>
+      <rdfs:label xml:lang="en">Arthur E. Goldschmidt papers</rdfs:label>
+      <rico:beginningDate rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1913</rico:beginningDate>
+      <rico:endDate rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">2001</rico:endDate>
+      <rico:date xml:lang="en">1913-2001</rico:date>
+      <rico:beginningDate rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1960</rico:beginningDate>
+      <rico:endDate rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">2001</rico:endDate>
+      <rico:date xml:lang="en">1960-2001</rico:date>
+      <rico:hasLanguage rdf:resource="language/FRAN_RI_100-name6"/>
+      <rico:conditionsOfUse rdf:parseType="Literal">
+         <html:p xml:lang="en">Copyright is retained by the creators of items in these papers, or their descendants, as stipulated by United States copyright law.</html:p>
+      </rico:conditionsOfUse>
+      <rico:conditionsOfAccess rdf:parseType="Literal">
+         <html:p xml:lang="en">Collection is open for research.</html:p>
+      </rico:conditionsOfAccess>
+      <rico:history rdf:parseType="Literal">
+         <html:div xml:lang="en">
+            <html:h4>Informations sur le traitement</html:h4>
+            <html:h5>Processing Information</html:h5>
+            <html:p>Processed by Special Collections staff.</html:p>
+         </html:div>
+      </rico:history>
+      <rico:hasInstantiation>
+         <rico:Instantiation rdf:about="instantiation/-top-i1">
+            <rico:instantiates rdf:resource="recordResource/-top"/>
+            <rico:heldBy>
+               <rico:Agent>
+                  <rdfs:label xml:lang="en">Eberly Family Special Collections Library</rdfs:label>
+                  <rico:hasAgentName>
+                     <rico:AgentName>
+                        <rdfs:label xml:lang="en">Eberly Family Special Collections Library</rdfs:label>
+                        <rico:textualValue xml:lang="en">Eberly Family Special Collections Library</rico:textualValue>
+                     </rico:AgentName>
+                  </rico:hasAgentName>
+               </rico:Agent>
+            </rico:heldBy>
+            <rico:title xml:lang="en">Arthur E. Goldschmidt papers</rico:title>
+            <rdfs:label xml:lang="en">Arthur E. Goldschmidt papers</rdfs:label>
+            <rico:identifier>00399</rico:identifier>
+            <rico:instantiationExtent rdf:parseType="Literal">
+               <html:p xml:lang="en">10 Cubic feet</html:p>
+            </rico:instantiationExtent>
+            <rico:beginningDate rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1913</rico:beginningDate>
+            <rico:endDate rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">2001</rico:endDate>
+            <rico:date xml:lang="en">1913-2001</rico:date>
+            <rico:beginningDate rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1960</rico:beginningDate>
+            <rico:endDate rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">2001</rico:endDate>
+            <rico:date xml:lang="en">1960-2001</rico:date>
+            <rico:hasLocation rdf:resource=""/>
+            <rico:conditionsOfUse rdf:parseType="Literal">
+               <html:p xml:lang="en">Copyright is retained by the creators of items in these papers, or their descendants, as stipulated by United States copyright law.</html:p>
+            </rico:conditionsOfUse>
+            <rico:conditionsOfAccess rdf:parseType="Literal">
+               <html:p xml:lang="en">Collection is open for research.</html:p>
+            </rico:conditionsOfAccess>
+            <rico:history rdf:parseType="Literal">
+               <html:div xml:lang="en">
+                  <html:h4>Informations sur le traitement</html:h4>
+                  <html:h5>Processing Information</html:h5>
+                  <html:p>Processed by Special Collections staff.</html:p>
+               </html:div>
+            </rico:history>
+            <rdfs:seeAlso rdf:resource="https://www.siv.archives-nationales.culture.gouv.fr/siv/UD/00399/top"/>
+         </rico:Instantiation>
+      </rico:hasInstantiation>
+      <rico:includes rdf:resource="recordResource/-aspace_c564791558afc2fef5d8ef8c1c1c9c0d"/>
+      <rico:includes rdf:resource="recordResource/-aspace_a2feb112418c205d24d687ab1b2918fe"/>
+      <rico:includes rdf:resource="recordResource/-aspace_1bfeb2d1e188bb8421a272597a070005"/>
+      <rico:includes rdf:resource="recordResource/-aspace_70fe377b8d2c3b0a5e62820539c71580"/>
+      <rico:includes rdf:resource="recordResource/-aspace_1ad2972574263fb130df9b355ff01faf"/>
+      <rico:includes rdf:resource="recordResource/-aspace_6c2c8454137d8cd04943dcf7bae86e8c"/>
+      <rico:includes rdf:resource="recordResource/-aspace_c80a403a47bcc897157edaeff77f2bc7"/>
+      <rico:includes rdf:resource="recordResource/-aspace_84060b31558cb33e18a107256613dbf3"/>
+      <rico:includes rdf:resource="recordResource/-aspace_814b91ce76610543a1500fd36c2807e5"/>
+      <rico:includes rdf:resource="recordResource/-aspace_f772474307d69031b352a237a6def51b"/>
+      <rico:includes rdf:resource="recordResource/-aspace_03f5c2cf8a31e78854b44fbc0be22950"/>
+      <rico:includes rdf:resource="recordResource/-aspace_2ebcc17d4de2414a00cf60f02906d626"/>
+      <rico:includes rdf:resource="recordResource/-aspace_d75613156b8dadbce3dfe810feb4c2a5"/>
+      <rico:includes rdf:resource="recordResource/-aspace_6206f1a2972e4e4634786433e09e9cef"/>
+      <rico:includes rdf:resource="recordResource/-aspace_7b533ca688a52983fadc8d348b8b8e4d"/>
+      <rico:includes rdf:resource="recordResource/-aspace_9572f339652267b025dd161f3a632b33"/>
+      <rico:includes rdf:resource="recordResource/-aspace_e174c7ef2b42b111b19b0b887d97757a"/>
+      <rico:includes rdf:resource="recordResource/-aspace_6f843ac8cfdc0b3d72a9d5af8fcd1a25"/>
+      <rico:includes rdf:resource="recordResource/-aspace_1dad8bc23199f5601eb0e73f834ffe66"/>
+      <rico:includes rdf:resource="recordResource/-aspace_9fe8b2267276cd7c38b7cb883848bdc5"/>
+      <rico:includes rdf:resource="recordResource/-aspace_a93c3cf3521af7210f7ae72d43c5f589"/>
+      <rico:includes rdf:resource="recordResource/-aspace_39954c22c3e4270b1913ed6bcafc5667"/>
+      <rico:includes rdf:resource="recordResource/-aspace_3728ee26a9b44ff54df34a9ec0192b29"/>
+      <rico:includes rdf:resource="recordResource/-aspace_ecbf4be7ede7234c9f1a475c3e1f1a9f"/>
+      <rico:includes rdf:resource="recordResource/-aspace_1a215bb0cc97a2c1ccc98f2fffebca96"/>
+      <rico:includes rdf:resource="recordResource/-aspace_a603907b69a9087981b1d50041de5a3e"/>
+      <rico:includes rdf:resource="recordResource/-aspace_ceeec992670ebfb819ac3a1474c30b46"/>
+      <rico:includes rdf:resource="recordResource/-aspace_67078edeea35e4cabb4255e9c54d6fb8"/>
+      <rico:includes rdf:resource="recordResource/-aspace_73191e502869e7b760926153882a9abc"/>
+      <rico:includes rdf:resource="recordResource/-aspace_82322e6958945c067fea00fd57217fa4"/>
+      <rico:includes rdf:resource="recordResource/-aspace_6cbb3566eeb159de46653e8974ba8381"/>
+      <rico:includes rdf:resource="recordResource/-aspace_4a7bbe263dc314ac049ae7527dcba74d"/>
+      <rico:includes rdf:resource="recordResource/-aspace_15df12dc2ba618777813b01f8dce602c"/>
+      <rico:includes rdf:resource="recordResource/-aspace_2d1418c1073cbd17cfded0a6ba488d40"/>
+      <rico:includes rdf:resource="recordResource/-aspace_8d15a94ad0a69355c5977f21c2c3ad73"/>
+      <rico:includes rdf:resource="recordResource/-aspace_18b6cca4166a0381fe5e9aadd7592bb9"/>
+      <rico:includes rdf:resource="recordResource/-aspace_3984d719e053c4ea718089e27ff19c22"/>
+      <rico:includes rdf:resource="recordResource/-aspace_ff10b72a91bd6bdd3a6631ac8e2a70c2"/>
+      <rico:includes rdf:resource="recordResource/-aspace_046bb020ed6dfd646b38f5c290d9cb13"/>
+      <rico:includes rdf:resource="recordResource/-aspace_2a0c14dce13287ea2bd9c2fb0c866b75"/>
+      <rico:includes rdf:resource="recordResource/-aspace_bc76afea3fe0bc983e6dcd1c46b07ee5"/>
+      <rico:includes rdf:resource="recordResource/-aspace_0139835c1f6ae520485e1069ef438684"/>
+      <rico:includes rdf:resource="recordResource/-aspace_2f7a747695b4b55b9a0a5664a05fa8be"/>
+      <rico:includes rdf:resource="recordResource/-aspace_721a557f71b90d58e2956a6d26958c07"/>
+      <rico:includes rdf:resource="recordResource/-aspace_0f7e68f40beb5093c37676b600ca3e09"/>
+      <rico:includes rdf:resource="recordResource/-aspace_f4701edf32c01d73625a3f1a214918c2"/>
+      <rico:includes rdf:resource="recordResource/-aspace_85a8f8a262f5bcdcf1efe8ca6465de85"/>
+      <rico:includes rdf:resource="recordResource/-aspace_fa079e4a4a01be0d41f2b57b2f74e52b"/>
+      <rico:includes rdf:resource="recordResource/-aspace_f71e3142e872824094c9357cd04d675a"/>
+      <rico:includes rdf:resource="recordResource/-aspace_ca36e840a8acf2aea73546310bbeaab3"/>
+      <rico:includes rdf:resource="recordResource/-aspace_40d280448a005a4221ebe37360ddd788"/>
+      <rico:includes rdf:resource="recordResource/-aspace_ae53387dbd93ea9d6f8f0dacd63412b2"/>
+      <rico:includes rdf:resource="recordResource/-aspace_abab9257d31e760e6cbf867b6951b53b"/>
+      <rico:includes rdf:resource="recordResource/-aspace_49d0d3cfe9164d92d702af0a366c2f9c"/>
+      <rico:includes rdf:resource="recordResource/-aspace_511f9e4a73cf0a95ecd13768f7610db6"/>
+      <rico:includes rdf:resource="recordResource/-aspace_8dd2b701984c82ef97d70c57e928fc79"/>
+      <rico:includes rdf:resource="recordResource/-aspace_8b9afbb1f23c11f4f3dca7cc08a13b5f"/>
+      <rico:includes rdf:resource="recordResource/-aspace_16b716d5096f894d332343cf6cc698af"/>
+      <rico:includes rdf:resource="recordResource/-aspace_51b9bc420b753c56852cd6cfa38c6304"/>
+      <rico:includes rdf:resource="recordResource/-aspace_d810a81822eb46f4026b5d019c714bc6"/>
+      <rico:includes rdf:resource="recordResource/-aspace_72752cc8b4de22f0c2e7e468ee3cc692"/>
+      <rico:includes rdf:resource="recordResource/-aspace_523fdbdf70b6703f6072f0cff6dd30ae"/>
+      <rico:includes rdf:resource="recordResource/-aspace_50e05f5d8151f1658d0704c98f957357"/>
+      <rico:includes rdf:resource="recordResource/-aspace_ccdaeed765b78f4df8901abc76d32218"/>
+      <rico:includes rdf:resource="recordResource/-aspace_c4c620262395caf9fb915d8ab91f69e9"/>
+      <rico:includes rdf:resource="recordResource/-aspace_c1a4e6b989d36d462d95e3668ee44ae0"/>
+      <rico:includes rdf:resource="recordResource/-aspace_b5cfa21fdffb1648593873c895c0c70b"/>
+      <rico:includes rdf:resource="recordResource/-aspace_6bfce5e0c7d5c1741db9d29eb67cdaad"/>
+      <rico:includes rdf:resource="recordResource/-aspace_9adffad43504ce001bf1a599c1732bb1"/>
+      <rico:includes rdf:resource="recordResource/-aspace_b7c10b152389669a0f8bfecf17415164"/>
+      <rico:includes rdf:resource="recordResource/-aspace_7a7d72ab2759b0341a071fbeedcef0fc"/>
+      <rico:includes rdf:resource="recordResource/-aspace_5c4e748283a0f88047be61495509cef8"/>
+      <rico:includes rdf:resource="recordResource/-aspace_08bd9aebadd400adc6344b9fd4778542"/>
+      <rico:includes rdf:resource="recordResource/-aspace_c12eb4297adacd9375a2e521044490d2"/>
+      <rico:includes rdf:resource="recordResource/-aspace_3acc224db65c9c60f26fe199184cc3c2"/>
+      <rico:includes rdf:resource="recordResource/-aspace_97f9b35833a23378b8724baaf9ff4c94"/>
+      <rico:includes rdf:resource="recordResource/-aspace_197fa34e989b563966f6856ac8a4c783"/>
+      <rico:includes rdf:resource="recordResource/-aspace_b17e18bf73af13945ad3c6a395642d3a"/>
+      <rico:includes rdf:resource="recordResource/-aspace_fdd052779857536be2e27558d40a43c7"/>
+      <rico:includes rdf:resource="recordResource/-aspace_febf9f26cce267185f90d1fb8fcc4fe7"/>
+      <rico:includes rdf:resource="recordResource/-aspace_7e50b34409fea237266d5400b2fde76c"/>
+      <rico:includes rdf:resource="recordResource/-aspace_13d64a76ab2e66d3773aaf41a262962c"/>
+      <rico:includes rdf:resource="recordResource/-aspace_29f813a7595c0fe50df6805ebdd2a619"/>
+      <rico:includes rdf:resource="recordResource/-aspace_377a44e5c390954e9b21edb472691550"/>
+      <rico:includes rdf:resource="recordResource/-aspace_4cad045e04ced821134d59ad11a04ae4"/>
+      <rico:includes rdf:resource="recordResource/-aspace_0607b5e03eb6f0c7e49eb95f740d8e28"/>
+      <rico:includes rdf:resource="recordResource/-aspace_3ea4de200e0f1d25eaa737f86806ce6f"/>
+      <rico:includes rdf:resource="recordResource/-aspace_6037a6e6903fe5b270e30caf119ce5a8"/>
+      <rico:includes rdf:resource="recordResource/-aspace_7aea7f83fef2cd94265e55cb4759133d"/>
+      <rico:includes rdf:resource="recordResource/-aspace_6471f2ed19e4a76be933465fda9f30c4"/>
+      <rico:includes rdf:resource="recordResource/-aspace_cd8ef38b6e2a613f00d5897aa1bc2ada"/>
+      <rico:includes rdf:resource="recordResource/-aspace_8969b5db41c4d526f1fa4a15c77d7fcc"/>
+      <rico:includes rdf:resource="recordResource/-aspace_d66c063da5c0bcc5c491d667b57be28e"/>
+      <rico:includes rdf:resource="recordResource/-aspace_42fab0bc1ded0dcbb68594e4fb535d5b"/>
+      <rico:includes rdf:resource="recordResource/-aspace_1c13c12aab473a9008a0c647815e2fab"/>
+      <rico:includes rdf:resource="recordResource/-aspace_23a95ca89b05ead8ac593c2e201a8680"/>
+      <rico:includes rdf:resource="recordResource/-aspace_ef79a7d77c974e8010de043be7b7615e"/>
+      <rico:includes rdf:resource="recordResource/-aspace_76414b47893fc34fbfa6f3e572c68eb6"/>
+      <rico:includes rdf:resource="recordResource/-aspace_f416dcfd46bf9aceb7222b47a279f92e"/>
+      <rico:includes rdf:resource="recordResource/-aspace_cd2ac1461eca028b59376a821381a3c3"/>
+      <rico:includes rdf:resource="recordResource/-aspace_6ff3a77ddcb66ab17ee9dee5fa85d16f"/>
+      <rico:includes rdf:resource="recordResource/-aspace_c9bee181cc2a7d1af9c5938c2103b1be"/>
+      <rico:includes rdf:resource="recordResource/-aspace_ede65c042f825a1a794d58261b2e4438"/>
+      <rico:includes rdf:resource="recordResource/-aspace_68d0bf31791ecf55f06e7547b45212b1"/>
+      <rico:includes rdf:resource="recordResource/-aspace_a6276bd7f8891b7b5e6e68be45458eb4"/>
+      <rico:includes rdf:resource="recordResource/-aspace_1040f693ca1b1e29472e19029a7d6cc9"/>
+      <rico:includes rdf:resource="recordResource/-aspace_a12e66fef32ec01381c16918ffb6f4ed"/>
+      <rico:includes rdf:resource="recordResource/-aspace_e8808955131098e3b24e19cab38d86e8"/>
+      <rico:includes rdf:resource="recordResource/-aspace_26f0e4527a4f6134cf6a6762d588b1ae"/>
+      <rico:includes rdf:resource="recordResource/-aspace_abddbdfa7b1047c04b45c0dc7b55e076"/>
+      <rico:includes rdf:resource="recordResource/-aspace_04e7b4730ba5311f5f77b7a8a0f06877"/>
+      <rico:includes rdf:resource="recordResource/-aspace_5a1fddc5eff24f88b3ec6af9abf2aa43"/>
+      <rico:includes rdf:resource="recordResource/-aspace_d5904746220660b162efdb99340c137a"/>
+      <rico:includes rdf:resource="recordResource/-aspace_840724127109b710a9dffef3ff7ae048"/>
+      <rico:includes rdf:resource="recordResource/-aspace_cd9351ba0394f9da64564be660ecb5e3"/>
+      <rico:includes rdf:resource="recordResource/-aspace_9fef2a6db6a252bc28002419e7d7021d"/>
+      <rico:includes rdf:resource="recordResource/-aspace_9c4a9f4bfa5f90abfb454b101f2e7c91"/>
+   </rico:RecordResource>
+   <rico:RecordResource rdf:about="recordResource/-aspace_c564791558afc2fef5d8ef8c1c1c9c0d">
+      <rico:includedIn rdf:resource="recordResource/-top"/>
+      <rdf:type rdf:resource="https://www.ica.org/standards/RiC/ontology#RecordSet"/>
+      <rico:hasRecordSetType rdf:resource="https://www.ica.org/standards/RiC/vocabularies/recordSetTypes#File"/>
+      <rico:title xml:lang="en">Encart Encyclopedia - Egypt: Government and History</rico:title>
+      <rdfs:label xml:lang="en">Encart Encyclopedia - Egypt: Government and History</rdfs:label>
+      <rico:beginningDate rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1998</rico:beginningDate>
+      <rico:endDate rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">2005</rico:endDate>
+      <rico:date xml:lang="en">1998-2005</rico:date>
+      <rico:hasInstantiation>
+         <rico:Instantiation rdf:about="instantiation/-aspace_c564791558afc2fef5d8ef8c1c1c9c0d-i1">
+            <rico:instantiates rdf:resource="recordResource/-aspace_c564791558afc2fef5d8ef8c1c1c9c0d"/>
+            <rico:title xml:lang="en">Encart Encyclopedia - Egypt: Government and History</rico:title>
+            <rdfs:label xml:lang="en">Encart Encyclopedia - Egypt: Government and History</rdfs:label>
+            <rico:beginningDate rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1998</rico:beginningDate>
+            <rico:endDate rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">2005</rico:endDate>
+            <rico:date xml:lang="en">1998-2005</rico:date>
+            <rdfs:seeAlso rdf:resource="https://www.siv.archives-nationales.culture.gouv.fr/siv/UD/00399/aspace_c564791558afc2fef5d8ef8c1c1c9c0d"/>
+         </rico:Instantiation>
+      </rico:hasInstantiation>
+   </rico:RecordResource>
+   <rico:RecordResource rdf:about="recordResource/-aspace_a2feb112418c205d24d687ab1b2918fe">
+      <rico:includedIn rdf:resource="recordResource/-top"/>
+      <rdf:type rdf:resource="https://www.ica.org/standards/RiC/ontology#RecordSet"/>
+      <rico:hasRecordSetType rdf:resource="https://www.ica.org/standards/RiC/vocabularies/recordSetTypes#File"/>
+      <rico:title xml:lang="en">Correspondence with Lynne Rienner - Biographical Dictionary</rico:title>
+      <rdfs:label xml:lang="en">Correspondence with Lynne Rienner - Biographical Dictionary</rdfs:label>
+      <rico:beginningDate rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1995</rico:beginningDate>
+      <rico:endDate rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">2010</rico:endDate>
+      <rico:date xml:lang="en">1995-2010</rico:date>
+      <rico:hasInstantiation>
+         <rico:Instantiation rdf:about="instantiation/-aspace_a2feb112418c205d24d687ab1b2918fe-i1">
+            <rico:instantiates rdf:resource="recordResource/-aspace_a2feb112418c205d24d687ab1b2918fe"/>
+            <rico:title xml:lang="en">Correspondence with Lynne Rienner - Biographical Dictionary</rico:title>
+            <rdfs:label xml:lang="en">Correspondence with Lynne Rienner - Biographical Dictionary</rdfs:label>
+            <rico:beginningDate rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1995</rico:beginningDate>
+            <rico:endDate rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">2010</rico:endDate>
+            <rico:date xml:lang="en">1995-2010</rico:date>
+            <rdfs:seeAlso rdf:resource="https://www.siv.archives-nationales.culture.gouv.fr/siv/UD/00399/aspace_a2feb112418c205d24d687ab1b2918fe"/>
+         </rico:Instantiation>
+      </rico:hasInstantiation>
+   </rico:RecordResource>
+   <rico:RecordResource rdf:about="recordResource/-aspace_1bfeb2d1e188bb8421a272597a070005">
+      <rico:includedIn rdf:resource="recordResource/-top"/>
+      <rdf:type rdf:resource="https://www.ica.org/standards/RiC/ontology#RecordSet"/>
+      <rico:hasRecordSetType rdf:resource="https://www.ica.org/standards/RiC/vocabularies/recordSetTypes#File"/>
+      <rico:title xml:lang="en">History in Dispute - David Lesch</rico:title>
+      <rdfs:label xml:lang="en">History in Dispute - David Lesch</rdfs:label>
+      <rico:date rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">2003</rico:date>
+      <rico:date xml:lang="en">2003</rico:date>
+      <rico:hasInstantiation>
+         <rico:Instantiation rdf:about="instantiation/-aspace_1bfeb2d1e188bb8421a272597a070005-i1">
+            <rico:instantiates rdf:resource="recordResource/-aspace_1bfeb2d1e188bb8421a272597a070005"/>
+            <rico:title xml:lang="en">History in Dispute - David Lesch</rico:title>
+            <rdfs:label xml:lang="en">History in Dispute - David Lesch</rdfs:label>
+            <rico:date rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">2003</rico:date>
+            <rico:date xml:lang="en">2003</rico:date>
+            <rdfs:seeAlso rdf:resource="https://www.siv.archives-nationales.culture.gouv.fr/siv/UD/00399/aspace_1bfeb2d1e188bb8421a272597a070005"/>
+         </rico:Instantiation>
+      </rico:hasInstantiation>
+   </rico:RecordResource>
+   <rico:RecordResource rdf:about="recordResource/-aspace_70fe377b8d2c3b0a5e62820539c71580">
+      <rico:includedIn rdf:resource="recordResource/-top"/>
+      <rdf:type rdf:resource="https://www.ica.org/standards/RiC/ontology#RecordSet"/>
+      <rico:hasRecordSetType rdf:resource="https://www.ica.org/standards/RiC/vocabularies/recordSetTypes#File"/>
+      <rico:title xml:lang="en">Encyclopedia of Middle East and North Africa, 2nd ed.</rico:title>
+      <rdfs:label xml:lang="en">Encyclopedia of Middle East and North Africa, 2nd ed.</rdfs:label>
+      <rico:date rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">2003</rico:date>
+      <rico:date xml:lang="en">2003</rico:date>
+      <rico:hasInstantiation>
+         <rico:Instantiation rdf:about="instantiation/-aspace_70fe377b8d2c3b0a5e62820539c71580-i1">
+            <rico:instantiates rdf:resource="recordResource/-aspace_70fe377b8d2c3b0a5e62820539c71580"/>
+            <rico:title xml:lang="en">Encyclopedia of Middle East and North Africa, 2nd ed.</rico:title>
+            <rdfs:label xml:lang="en">Encyclopedia of Middle East and North Africa, 2nd ed.</rdfs:label>
+            <rico:date rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">2003</rico:date>
+            <rico:date xml:lang="en">2003</rico:date>
+            <rdfs:seeAlso rdf:resource="https://www.siv.archives-nationales.culture.gouv.fr/siv/UD/00399/aspace_70fe377b8d2c3b0a5e62820539c71580"/>
+         </rico:Instantiation>
+      </rico:hasInstantiation>
+   </rico:RecordResource>
+   <rico:RecordResource rdf:about="recordResource/-aspace_1ad2972574263fb130df9b355ff01faf">
+      <rico:includedIn rdf:resource="recordResource/-top"/>
+      <rdf:type rdf:resource="https://www.ica.org/standards/RiC/ontology#RecordSet"/>
+      <rico:hasRecordSetType rdf:resource="https://www.ica.org/standards/RiC/vocabularies/recordSetTypes#File"/>
+      <rico:title xml:lang="en">Literature of Travel and Exploration - Wilfred S. Blunt entry</rico:title>
+      <rdfs:label xml:lang="en">Literature of Travel and Exploration - Wilfred S. Blunt entry</rdfs:label>
+      <rico:date rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1999</rico:date>
+      <rico:date xml:lang="en">1999</rico:date>
+      <rico:hasInstantiation>
+         <rico:Instantiation rdf:about="instantiation/-aspace_1ad2972574263fb130df9b355ff01faf-i1">
+            <rico:instantiates rdf:resource="recordResource/-aspace_1ad2972574263fb130df9b355ff01faf"/>
+            <rico:title xml:lang="en">Literature of Travel and Exploration - Wilfred S. Blunt entry</rico:title>
+            <rdfs:label xml:lang="en">Literature of Travel and Exploration - Wilfred S. Blunt entry</rdfs:label>
+            <rico:date rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1999</rico:date>
+            <rico:date xml:lang="en">1999</rico:date>
+            <rdfs:seeAlso rdf:resource="https://www.siv.archives-nationales.culture.gouv.fr/siv/UD/00399/aspace_1ad2972574263fb130df9b355ff01faf"/>
+         </rico:Instantiation>
+      </rico:hasInstantiation>
+   </rico:RecordResource>
+   <rico:RecordResource rdf:about="recordResource/-aspace_6c2c8454137d8cd04943dcf7bae86e8c">
+      <rico:includedIn rdf:resource="recordResource/-top"/>
+      <rdf:type rdf:resource="https://www.ica.org/standards/RiC/ontology#RecordSet"/>
+      <rico:hasRecordSetType rdf:resource="https://www.ica.org/standards/RiC/vocabularies/recordSetTypes#File"/>
+      <rico:title xml:lang="en">Entries for Oxford Encyclopedia of the Modern World</rico:title>
+      <rdfs:label xml:lang="en">Entries for Oxford Encyclopedia of the Modern World</rdfs:label>
+      <rico:date rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">2005</rico:date>
+      <rico:date xml:lang="en">2005</rico:date>
+      <rico:hasInstantiation>
+         <rico:Instantiation rdf:about="instantiation/-aspace_6c2c8454137d8cd04943dcf7bae86e8c-i1">
+            <rico:instantiates rdf:resource="recordResource/-aspace_6c2c8454137d8cd04943dcf7bae86e8c"/>
+            <rico:title xml:lang="en">Entries for Oxford Encyclopedia of the Modern World</rico:title>
+            <rdfs:label xml:lang="en">Entries for Oxford Encyclopedia of the Modern World</rdfs:label>
+            <rico:date rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">2005</rico:date>
+            <rico:date xml:lang="en">2005</rico:date>
+            <rdfs:seeAlso rdf:resource="https://www.siv.archives-nationales.culture.gouv.fr/siv/UD/00399/aspace_6c2c8454137d8cd04943dcf7bae86e8c"/>
+         </rico:Instantiation>
+      </rico:hasInstantiation>
+   </rico:RecordResource>
+   <rico:RecordResource rdf:about="recordResource/-aspace_c80a403a47bcc897157edaeff77f2bc7">
+      <rico:includedIn rdf:resource="recordResource/-top"/>
+      <rdf:type rdf:resource="https://www.ica.org/standards/RiC/ontology#RecordSet"/>
+      <rico:hasRecordSetType rdf:resource="https://www.ica.org/standards/RiC/vocabularies/recordSetTypes#File"/>
+      <rico:title xml:lang="en">Goldschmidt, Arthur Jr. - Research and Writing: Projects and Papers</rico:title>
+      <rdfs:label xml:lang="en">Goldschmidt, Arthur Jr. - Research and Writing: Projects and Papers</rdfs:label>
+      <rico:date xml:lang="en">Undated</rico:date>
+      <rico:hasInstantiation>
+         <rico:Instantiation rdf:about="instantiation/-aspace_c80a403a47bcc897157edaeff77f2bc7-i1">
+            <rico:instantiates rdf:resource="recordResource/-aspace_c80a403a47bcc897157edaeff77f2bc7"/>
+            <rico:title xml:lang="en">Goldschmidt, Arthur Jr. - Research and Writing: Projects and Papers</rico:title>
+            <rdfs:label xml:lang="en">Goldschmidt, Arthur Jr. - Research and Writing: Projects and Papers</rdfs:label>
+            <rico:date xml:lang="en">Undated</rico:date>
+            <rdfs:seeAlso rdf:resource="https://www.siv.archives-nationales.culture.gouv.fr/siv/UD/00399/aspace_c80a403a47bcc897157edaeff77f2bc7"/>
+         </rico:Instantiation>
+      </rico:hasInstantiation>
+   </rico:RecordResource>
+   <rico:RecordResource rdf:about="recordResource/-aspace_84060b31558cb33e18a107256613dbf3">
+      <rico:includedIn rdf:resource="recordResource/-top"/>
+      <rdf:type rdf:resource="https://www.ica.org/standards/RiC/ontology#RecordSet"/>
+      <rico:hasRecordSetType rdf:resource="https://www.ica.org/standards/RiC/vocabularies/recordSetTypes#File"/>
+      <rico:title xml:lang="en">Goldschmidt, Arthur Jr. - Research and Writing: Projects and Papers</rico:title>
+      <rdfs:label xml:lang="en">Goldschmidt, Arthur Jr. - Research and Writing: Projects and Papers</rdfs:label>
+      <rico:date xml:lang="en">Undated</rico:date>
+      <rico:hasInstantiation>
+         <rico:Instantiation rdf:about="instantiation/-aspace_84060b31558cb33e18a107256613dbf3-i1">
+            <rico:instantiates rdf:resource="recordResource/-aspace_84060b31558cb33e18a107256613dbf3"/>
+            <rico:title xml:lang="en">Goldschmidt, Arthur Jr. - Research and Writing: Projects and Papers</rico:title>
+            <rdfs:label xml:lang="en">Goldschmidt, Arthur Jr. - Research and Writing: Projects and Papers</rdfs:label>
+            <rico:date xml:lang="en">Undated</rico:date>
+            <rdfs:seeAlso rdf:resource="https://www.siv.archives-nationales.culture.gouv.fr/siv/UD/00399/aspace_84060b31558cb33e18a107256613dbf3"/>
+         </rico:Instantiation>
+      </rico:hasInstantiation>
+   </rico:RecordResource>
+   <rico:RecordResource rdf:about="recordResource/-aspace_814b91ce76610543a1500fd36c2807e5">
+      <rico:includedIn rdf:resource="recordResource/-top"/>
+      <rdf:type rdf:resource="https://www.ica.org/standards/RiC/ontology#RecordSet"/>
+      <rico:hasRecordSetType rdf:resource="https://www.ica.org/standards/RiC/vocabularies/recordSetTypes#File"/>
+      <rico:title xml:lang="en">Goldschmidt, Arthur Jr. - Research and Writing: Projects and Papers</rico:title>
+      <rdfs:label xml:lang="en">Goldschmidt, Arthur Jr. - Research and Writing: Projects and Papers</rdfs:label>
+      <rico:date xml:lang="en">Undated</rico:date>
+      <rico:hasInstantiation>
+         <rico:Instantiation rdf:about="instantiation/-aspace_814b91ce76610543a1500fd36c2807e5-i1">
+            <rico:instantiates rdf:resource="recordResource/-aspace_814b91ce76610543a1500fd36c2807e5"/>
+            <rico:title xml:lang="en">Goldschmidt, Arthur Jr. - Research and Writing: Projects and Papers</rico:title>
+            <rdfs:label xml:lang="en">Goldschmidt, Arthur Jr. - Research and Writing: Projects and Papers</rdfs:label>
+            <rico:date xml:lang="en">Undated</rico:date>
+            <rdfs:seeAlso rdf:resource="https://www.siv.archives-nationales.culture.gouv.fr/siv/UD/00399/aspace_814b91ce76610543a1500fd36c2807e5"/>
+         </rico:Instantiation>
+      </rico:hasInstantiation>
+   </rico:RecordResource>
+   <rico:RecordResource rdf:about="recordResource/-aspace_f772474307d69031b352a237a6def51b">
+      <rico:includedIn rdf:resource="recordResource/-top"/>
+      <rdf:type rdf:resource="https://www.ica.org/standards/RiC/ontology#RecordSet"/>
+      <rico:hasRecordSetType rdf:resource="https://www.ica.org/standards/RiC/vocabularies/recordSetTypes#File"/>
+      <rico:title xml:lang="en">Goldschmidt, Arthur Jr. - Research and Writing: Projects and Papers</rico:title>
+      <rdfs:label xml:lang="en">Goldschmidt, Arthur Jr. - Research and Writing: Projects and Papers</rdfs:label>
+      <rico:date xml:lang="en">Undated</rico:date>
+      <rico:hasInstantiation>
+         <rico:Instantiation rdf:about="instantiation/-aspace_f772474307d69031b352a237a6def51b-i1">
+            <rico:instantiates rdf:resource="recordResource/-aspace_f772474307d69031b352a237a6def51b"/>
+            <rico:title xml:lang="en">Goldschmidt, Arthur Jr. - Research and Writing: Projects and Papers</rico:title>
+            <rdfs:label xml:lang="en">Goldschmidt, Arthur Jr. - Research and Writing: Projects and Papers</rdfs:label>
+            <rico:date xml:lang="en">Undated</rico:date>
+            <rdfs:seeAlso rdf:resource="https://www.siv.archives-nationales.culture.gouv.fr/siv/UD/00399/aspace_f772474307d69031b352a237a6def51b"/>
+         </rico:Instantiation>
+      </rico:hasInstantiation>
+   </rico:RecordResource>
+   <rico:RecordResource rdf:about="recordResource/-aspace_03f5c2cf8a31e78854b44fbc0be22950">
+      <rico:includedIn rdf:resource="recordResource/-top"/>
+      <rdf:type rdf:resource="https://www.ica.org/standards/RiC/ontology#RecordSet"/>
+      <rico:hasRecordSetType rdf:resource="https://www.ica.org/standards/RiC/vocabularies/recordSetTypes#File"/>
+      <rico:title xml:lang="en">Liberal Arts Council of Senators</rico:title>
+      <rdfs:label xml:lang="en">Liberal Arts Council of Senators</rdfs:label>
+      <rico:beginningDate rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1984</rico:beginningDate>
+      <rico:endDate rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1985</rico:endDate>
+      <rico:date xml:lang="en">1984-1985</rico:date>
+      <rico:hasInstantiation>
+         <rico:Instantiation rdf:about="instantiation/-aspace_03f5c2cf8a31e78854b44fbc0be22950-i1">
+            <rico:instantiates rdf:resource="recordResource/-aspace_03f5c2cf8a31e78854b44fbc0be22950"/>
+            <rico:title xml:lang="en">Liberal Arts Council of Senators</rico:title>
+            <rdfs:label xml:lang="en">Liberal Arts Council of Senators</rdfs:label>
+            <rico:beginningDate rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1984</rico:beginningDate>
+            <rico:endDate rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1985</rico:endDate>
+            <rico:date xml:lang="en">1984-1985</rico:date>
+            <rdfs:seeAlso rdf:resource="https://www.siv.archives-nationales.culture.gouv.fr/siv/UD/00399/aspace_03f5c2cf8a31e78854b44fbc0be22950"/>
+         </rico:Instantiation>
+      </rico:hasInstantiation>
+   </rico:RecordResource>
+   <rico:RecordResource rdf:about="recordResource/-aspace_2ebcc17d4de2414a00cf60f02906d626">
+      <rico:includedIn rdf:resource="recordResource/-top"/>
+      <rdf:type rdf:resource="https://www.ica.org/standards/RiC/ontology#RecordSet"/>
+      <rico:hasRecordSetType rdf:resource="https://www.ica.org/standards/RiC/vocabularies/recordSetTypes#File"/>
+      <rico:title xml:lang="en">Correspondence</rico:title>
+      <rdfs:label xml:lang="en">Correspondence</rdfs:label>
+      <rico:date rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1990</rico:date>
+      <rico:date xml:lang="en">1990</rico:date>
+      <rico:hasInstantiation>
+         <rico:Instantiation rdf:about="instantiation/-aspace_2ebcc17d4de2414a00cf60f02906d626-i1">
+            <rico:instantiates rdf:resource="recordResource/-aspace_2ebcc17d4de2414a00cf60f02906d626"/>
+            <rico:title xml:lang="en">Correspondence</rico:title>
+            <rdfs:label xml:lang="en">Correspondence</rdfs:label>
+            <rico:date rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1990</rico:date>
+            <rico:date xml:lang="en">1990</rico:date>
+            <rdfs:seeAlso rdf:resource="https://www.siv.archives-nationales.culture.gouv.fr/siv/UD/00399/aspace_2ebcc17d4de2414a00cf60f02906d626"/>
+         </rico:Instantiation>
+      </rico:hasInstantiation>
+   </rico:RecordResource>
+   <rico:RecordResource rdf:about="recordResource/-aspace_d75613156b8dadbce3dfe810feb4c2a5">
+      <rico:includedIn rdf:resource="recordResource/-top"/>
+      <rdf:type rdf:resource="https://www.ica.org/standards/RiC/ontology#RecordSet"/>
+      <rico:hasRecordSetType rdf:resource="https://www.ica.org/standards/RiC/vocabularies/recordSetTypes#File"/>
+      <rico:title xml:lang="en">Middle East is Governments and Politics book</rico:title>
+      <rdfs:label xml:lang="en">Middle East is Governments and Politics book</rdfs:label>
+      <rico:date xml:lang="en">Undated</rico:date>
+      <rico:hasInstantiation>
+         <rico:Instantiation rdf:about="instantiation/-aspace_d75613156b8dadbce3dfe810feb4c2a5-i1">
+            <rico:instantiates rdf:resource="recordResource/-aspace_d75613156b8dadbce3dfe810feb4c2a5"/>
+            <rico:title xml:lang="en">Middle East is Governments and Politics book</rico:title>
+            <rdfs:label xml:lang="en">Middle East is Governments and Politics book</rdfs:label>
+            <rico:date xml:lang="en">Undated</rico:date>
+            <rdfs:seeAlso rdf:resource="https://www.siv.archives-nationales.culture.gouv.fr/siv/UD/00399/aspace_d75613156b8dadbce3dfe810feb4c2a5"/>
+         </rico:Instantiation>
+      </rico:hasInstantiation>
+   </rico:RecordResource>
+   <rico:RecordResource rdf:about="recordResource/-aspace_6206f1a2972e4e4634786433e09e9cef">
+      <rico:includedIn rdf:resource="recordResource/-top"/>
+      <rdf:type rdf:resource="https://www.ica.org/standards/RiC/ontology#RecordSet"/>
+      <rico:hasRecordSetType rdf:resource="https://www.ica.org/standards/RiC/vocabularies/recordSetTypes#File"/>
+      <rico:title xml:lang="en">General Egyptian Book Organization</rico:title>
+      <rdfs:label xml:lang="en">General Egyptian Book Organization</rdfs:label>
+      <rico:date rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1983</rico:date>
+      <rico:date xml:lang="en">1983</rico:date>
+      <rico:hasInstantiation>
+         <rico:Instantiation rdf:about="instantiation/-aspace_6206f1a2972e4e4634786433e09e9cef-i1">
+            <rico:instantiates rdf:resource="recordResource/-aspace_6206f1a2972e4e4634786433e09e9cef"/>
+            <rico:title xml:lang="en">General Egyptian Book Organization</rico:title>
+            <rdfs:label xml:lang="en">General Egyptian Book Organization</rdfs:label>
+            <rico:date rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1983</rico:date>
+            <rico:date xml:lang="en">1983</rico:date>
+            <rdfs:seeAlso rdf:resource="https://www.siv.archives-nationales.culture.gouv.fr/siv/UD/00399/aspace_6206f1a2972e4e4634786433e09e9cef"/>
+         </rico:Instantiation>
+      </rico:hasInstantiation>
+   </rico:RecordResource>
+   <rico:RecordResource rdf:about="recordResource/-aspace_7b533ca688a52983fadc8d348b8b8e4d">
+      <rico:includedIn rdf:resource="recordResource/-top"/>
+      <rdf:type rdf:resource="https://www.ica.org/standards/RiC/ontology#RecordSet"/>
+      <rico:hasRecordSetType rdf:resource="https://www.ica.org/standards/RiC/vocabularies/recordSetTypes#File"/>
+      <rico:title xml:lang="en">National Defense Foreign Language Fellowship correspondence</rico:title>
+      <rdfs:label xml:lang="en">National Defense Foreign Language Fellowship correspondence</rdfs:label>
+      <rico:beginningDate rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1960</rico:beginningDate>
+      <rico:endDate rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1965</rico:endDate>
+      <rico:date xml:lang="en">1960-1965</rico:date>
+      <rico:hasInstantiation>
+         <rico:Instantiation rdf:about="instantiation/-aspace_7b533ca688a52983fadc8d348b8b8e4d-i1">
+            <rico:instantiates rdf:resource="recordResource/-aspace_7b533ca688a52983fadc8d348b8b8e4d"/>
+            <rico:title xml:lang="en">National Defense Foreign Language Fellowship correspondence</rico:title>
+            <rdfs:label xml:lang="en">National Defense Foreign Language Fellowship correspondence</rdfs:label>
+            <rico:beginningDate rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1960</rico:beginningDate>
+            <rico:endDate rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1965</rico:endDate>
+            <rico:date xml:lang="en">1960-1965</rico:date>
+            <rdfs:seeAlso rdf:resource="https://www.siv.archives-nationales.culture.gouv.fr/siv/UD/00399/aspace_7b533ca688a52983fadc8d348b8b8e4d"/>
+         </rico:Instantiation>
+      </rico:hasInstantiation>
+   </rico:RecordResource>
+   <rico:RecordResource rdf:about="recordResource/-aspace_9572f339652267b025dd161f3a632b33">
+      <rico:includedIn rdf:resource="recordResource/-top"/>
+      <rdf:type rdf:resource="https://www.ica.org/standards/RiC/ontology#RecordSet"/>
+      <rico:hasRecordSetType rdf:resource="https://www.ica.org/standards/RiC/vocabularies/recordSetTypes#File"/>
+      <rico:title xml:lang="en">Biographical Dictionary of Modern Egypt correspondence</rico:title>
+      <rdfs:label xml:lang="en">Biographical Dictionary of Modern Egypt correspondence</rdfs:label>
+      <rico:beginningDate rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1969</rico:beginningDate>
+      <rico:endDate rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1971</rico:endDate>
+      <rico:date xml:lang="en">1969-1971</rico:date>
+      <rico:hasInstantiation>
+         <rico:Instantiation rdf:about="instantiation/-aspace_9572f339652267b025dd161f3a632b33-i1">
+            <rico:instantiates rdf:resource="recordResource/-aspace_9572f339652267b025dd161f3a632b33"/>
+            <rico:title xml:lang="en">Biographical Dictionary of Modern Egypt correspondence</rico:title>
+            <rdfs:label xml:lang="en">Biographical Dictionary of Modern Egypt correspondence</rdfs:label>
+            <rico:beginningDate rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1969</rico:beginningDate>
+            <rico:endDate rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1971</rico:endDate>
+            <rico:date xml:lang="en">1969-1971</rico:date>
+            <rdfs:seeAlso rdf:resource="https://www.siv.archives-nationales.culture.gouv.fr/siv/UD/00399/aspace_9572f339652267b025dd161f3a632b33"/>
+         </rico:Instantiation>
+      </rico:hasInstantiation>
+   </rico:RecordResource>
+   <rico:RecordResource rdf:about="recordResource/-aspace_e174c7ef2b42b111b19b0b887d97757a">
+      <rico:includedIn rdf:resource="recordResource/-top"/>
+      <rdf:type rdf:resource="https://www.ica.org/standards/RiC/ontology#RecordSet"/>
+      <rico:hasRecordSetType rdf:resource="https://www.ica.org/standards/RiC/vocabularies/recordSetTypes#File"/>
+      <rico:title xml:lang="en">Egyptian Biographical Dictionary Lists</rico:title>
+      <rdfs:label xml:lang="en">Egyptian Biographical Dictionary Lists</rdfs:label>
+      <rico:date xml:lang="en">Undated</rico:date>
+      <rico:hasInstantiation>
+         <rico:Instantiation rdf:about="instantiation/-aspace_e174c7ef2b42b111b19b0b887d97757a-i1">
+            <rico:instantiates rdf:resource="recordResource/-aspace_e174c7ef2b42b111b19b0b887d97757a"/>
+            <rico:title xml:lang="en">Egyptian Biographical Dictionary Lists</rico:title>
+            <rdfs:label xml:lang="en">Egyptian Biographical Dictionary Lists</rdfs:label>
+            <rico:date xml:lang="en">Undated</rico:date>
+            <rdfs:seeAlso rdf:resource="https://www.siv.archives-nationales.culture.gouv.fr/siv/UD/00399/aspace_e174c7ef2b42b111b19b0b887d97757a"/>
+         </rico:Instantiation>
+      </rico:hasInstantiation>
+   </rico:RecordResource>
+   <rico:RecordResource rdf:about="recordResource/-aspace_6f843ac8cfdc0b3d72a9d5af8fcd1a25">
+      <rico:includedIn rdf:resource="recordResource/-top"/>
+      <rdf:type rdf:resource="https://www.ica.org/standards/RiC/ontology#RecordSet"/>
+      <rico:hasRecordSetType rdf:resource="https://www.ica.org/standards/RiC/vocabularies/recordSetTypes#File"/>
+      <rico:title xml:lang="en">Historical Dictionary of Egypt</rico:title>
+      <rdfs:label xml:lang="en">Historical Dictionary of Egypt</rdfs:label>
+      <rico:date rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1994</rico:date>
+      <rico:date xml:lang="en">1994</rico:date>
+      <rico:hasInstantiation>
+         <rico:Instantiation rdf:about="instantiation/-aspace_6f843ac8cfdc0b3d72a9d5af8fcd1a25-i1">
+            <rico:instantiates rdf:resource="recordResource/-aspace_6f843ac8cfdc0b3d72a9d5af8fcd1a25"/>
+            <rico:title xml:lang="en">Historical Dictionary of Egypt</rico:title>
+            <rdfs:label xml:lang="en">Historical Dictionary of Egypt</rdfs:label>
+            <rico:date rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1994</rico:date>
+            <rico:date xml:lang="en">1994</rico:date>
+            <rdfs:seeAlso rdf:resource="https://www.siv.archives-nationales.culture.gouv.fr/siv/UD/00399/aspace_6f843ac8cfdc0b3d72a9d5af8fcd1a25"/>
+         </rico:Instantiation>
+      </rico:hasInstantiation>
+   </rico:RecordResource>
+   <rico:RecordResource rdf:about="recordResource/-aspace_1dad8bc23199f5601eb0e73f834ffe66">
+      <rico:includedIn rdf:resource="recordResource/-top"/>
+      <rdf:type rdf:resource="https://www.ica.org/standards/RiC/ontology#RecordSet"/>
+      <rico:hasRecordSetType rdf:resource="https://www.ica.org/standards/RiC/vocabularies/recordSetTypes#File"/>
+      <rico:title xml:lang="en">Encyclopedia of Modern Middle East Correspondence and Research Notes for Entries</rico:title>
+      <rdfs:label xml:lang="en">Encyclopedia of Modern Middle East Correspondence and Research Notes for Entries</rdfs:label>
+      <rico:date xml:lang="en">Undated</rico:date>
+      <rico:hasInstantiation>
+         <rico:Instantiation rdf:about="instantiation/-aspace_1dad8bc23199f5601eb0e73f834ffe66-i1">
+            <rico:instantiates rdf:resource="recordResource/-aspace_1dad8bc23199f5601eb0e73f834ffe66"/>
+            <rico:title xml:lang="en">Encyclopedia of Modern Middle East Correspondence and Research Notes for Entries</rico:title>
+            <rdfs:label xml:lang="en">Encyclopedia of Modern Middle East Correspondence and Research Notes for Entries</rdfs:label>
+            <rico:date xml:lang="en">Undated</rico:date>
+            <rdfs:seeAlso rdf:resource="https://www.siv.archives-nationales.culture.gouv.fr/siv/UD/00399/aspace_1dad8bc23199f5601eb0e73f834ffe66"/>
+         </rico:Instantiation>
+      </rico:hasInstantiation>
+   </rico:RecordResource>
+   <rico:RecordResource rdf:about="recordResource/-aspace_9fe8b2267276cd7c38b7cb883848bdc5">
+      <rico:includedIn rdf:resource="recordResource/-top"/>
+      <rdf:type rdf:resource="https://www.ica.org/standards/RiC/ontology#RecordSet"/>
+      <rico:hasRecordSetType rdf:resource="https://www.ica.org/standards/RiC/vocabularies/recordSetTypes#File"/>
+      <rico:title xml:lang="en">Alternative Employment correspondence</rico:title>
+      <rdfs:label xml:lang="en">Alternative Employment correspondence</rdfs:label>
+      <rico:beginningDate rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1964</rico:beginningDate>
+      <rico:endDate rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1969</rico:endDate>
+      <rico:date xml:lang="en">1964-1969</rico:date>
+      <rico:hasInstantiation>
+         <rico:Instantiation rdf:about="instantiation/-aspace_9fe8b2267276cd7c38b7cb883848bdc5-i1">
+            <rico:instantiates rdf:resource="recordResource/-aspace_9fe8b2267276cd7c38b7cb883848bdc5"/>
+            <rico:title xml:lang="en">Alternative Employment correspondence</rico:title>
+            <rdfs:label xml:lang="en">Alternative Employment correspondence</rdfs:label>
+            <rico:beginningDate rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1964</rico:beginningDate>
+            <rico:endDate rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1969</rico:endDate>
+            <rico:date xml:lang="en">1964-1969</rico:date>
+            <rdfs:seeAlso rdf:resource="https://www.siv.archives-nationales.culture.gouv.fr/siv/UD/00399/aspace_9fe8b2267276cd7c38b7cb883848bdc5"/>
+         </rico:Instantiation>
+      </rico:hasInstantiation>
+   </rico:RecordResource>
+   <rico:RecordResource rdf:about="recordResource/-aspace_a93c3cf3521af7210f7ae72d43c5f589">
+      <rico:includedIn rdf:resource="recordResource/-top"/>
+      <rdf:type rdf:resource="https://www.ica.org/standards/RiC/ontology#RecordSet"/>
+      <rico:hasRecordSetType rdf:resource="https://www.ica.org/standards/RiC/vocabularies/recordSetTypes#File"/>
+      <rico:title xml:lang="en">Concise History of Middle East (Maps for Editions 1-5)</rico:title>
+      <rdfs:label xml:lang="en">Concise History of Middle East (Maps for Editions 1-5)</rdfs:label>
+      <rico:date xml:lang="en">Undated</rico:date>
+      <rico:hasInstantiation>
+         <rico:Instantiation rdf:about="instantiation/-aspace_a93c3cf3521af7210f7ae72d43c5f589-i1">
+            <rico:instantiates rdf:resource="recordResource/-aspace_a93c3cf3521af7210f7ae72d43c5f589"/>
+            <rico:title xml:lang="en">Concise History of Middle East (Maps for Editions 1-5)</rico:title>
+            <rdfs:label xml:lang="en">Concise History of Middle East (Maps for Editions 1-5)</rdfs:label>
+            <rico:date xml:lang="en">Undated</rico:date>
+            <rdfs:seeAlso rdf:resource="https://www.siv.archives-nationales.culture.gouv.fr/siv/UD/00399/aspace_a93c3cf3521af7210f7ae72d43c5f589"/>
+         </rico:Instantiation>
+      </rico:hasInstantiation>
+   </rico:RecordResource>
+   <rico:RecordResource rdf:about="recordResource/-aspace_39954c22c3e4270b1913ed6bcafc5667">
+      <rico:includedIn rdf:resource="recordResource/-top"/>
+      <rdf:type rdf:resource="https://www.ica.org/standards/RiC/ontology#RecordSet"/>
+      <rico:hasRecordSetType rdf:resource="https://www.ica.org/standards/RiC/vocabularies/recordSetTypes#File"/>
+      <rico:title xml:lang="en">Harvard and Grade Reports</rico:title>
+      <rdfs:label xml:lang="en">Harvard and Grade Reports</rdfs:label>
+      <rico:date xml:lang="en">Undated</rico:date>
+      <rico:hasInstantiation>
+         <rico:Instantiation rdf:about="instantiation/-aspace_39954c22c3e4270b1913ed6bcafc5667-i1">
+            <rico:instantiates rdf:resource="recordResource/-aspace_39954c22c3e4270b1913ed6bcafc5667"/>
+            <rico:title xml:lang="en">Harvard and Grade Reports</rico:title>
+            <rdfs:label xml:lang="en">Harvard and Grade Reports</rdfs:label>
+            <rico:date xml:lang="en">Undated</rico:date>
+            <rdfs:seeAlso rdf:resource="https://www.siv.archives-nationales.culture.gouv.fr/siv/UD/00399/aspace_39954c22c3e4270b1913ed6bcafc5667"/>
+         </rico:Instantiation>
+      </rico:hasInstantiation>
+   </rico:RecordResource>
+   <rico:RecordResource rdf:about="recordResource/-aspace_3728ee26a9b44ff54df34a9ec0192b29">
+      <rico:includedIn rdf:resource="recordResource/-top"/>
+      <rdf:type rdf:resource="https://www.ica.org/standards/RiC/ontology#RecordSet"/>
+      <rico:hasRecordSetType rdf:resource="https://www.ica.org/standards/RiC/vocabularies/recordSetTypes#File"/>
+      <rico:title xml:lang="en">Pennsylvania Arabs</rico:title>
+      <rdfs:label xml:lang="en">Pennsylvania Arabs</rdfs:label>
+      <rico:beginningDate rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1966</rico:beginningDate>
+      <rico:endDate rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1968</rico:endDate>
+      <rico:date xml:lang="en">1966-1968</rico:date>
+      <rico:hasInstantiation>
+         <rico:Instantiation rdf:about="instantiation/-aspace_3728ee26a9b44ff54df34a9ec0192b29-i1">
+            <rico:instantiates rdf:resource="recordResource/-aspace_3728ee26a9b44ff54df34a9ec0192b29"/>
+            <rico:title xml:lang="en">Pennsylvania Arabs</rico:title>
+            <rdfs:label xml:lang="en">Pennsylvania Arabs</rdfs:label>
+            <rico:beginningDate rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1966</rico:beginningDate>
+            <rico:endDate rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1968</rico:endDate>
+            <rico:date xml:lang="en">1966-1968</rico:date>
+            <rdfs:seeAlso rdf:resource="https://www.siv.archives-nationales.culture.gouv.fr/siv/UD/00399/aspace_3728ee26a9b44ff54df34a9ec0192b29"/>
+         </rico:Instantiation>
+      </rico:hasInstantiation>
+   </rico:RecordResource>
+   <rico:RecordResource rdf:about="recordResource/-aspace_ecbf4be7ede7234c9f1a475c3e1f1a9f">
+      <rico:includedIn rdf:resource="recordResource/-top"/>
+      <rdf:type rdf:resource="https://www.ica.org/standards/RiC/ontology#RecordSet"/>
+      <rico:hasRecordSetType rdf:resource="https://www.ica.org/standards/RiC/vocabularies/recordSetTypes#File"/>
+      <rico:title xml:lang="en">Published Book Reviews</rico:title>
+      <rdfs:label xml:lang="en">Published Book Reviews</rdfs:label>
+      <rico:date rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1969</rico:date>
+      <rico:date xml:lang="en">1969</rico:date>
+      <rico:hasInstantiation>
+         <rico:Instantiation rdf:about="instantiation/-aspace_ecbf4be7ede7234c9f1a475c3e1f1a9f-i1">
+            <rico:instantiates rdf:resource="recordResource/-aspace_ecbf4be7ede7234c9f1a475c3e1f1a9f"/>
+            <rico:title xml:lang="en">Published Book Reviews</rico:title>
+            <rdfs:label xml:lang="en">Published Book Reviews</rdfs:label>
+            <rico:date rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1969</rico:date>
+            <rico:date xml:lang="en">1969</rico:date>
+            <rdfs:seeAlso rdf:resource="https://www.siv.archives-nationales.culture.gouv.fr/siv/UD/00399/aspace_ecbf4be7ede7234c9f1a475c3e1f1a9f"/>
+         </rico:Instantiation>
+      </rico:hasInstantiation>
+   </rico:RecordResource>
+   <rico:RecordResource rdf:about="recordResource/-aspace_1a215bb0cc97a2c1ccc98f2fffebca96">
+      <rico:includedIn rdf:resource="recordResource/-top"/>
+      <rdf:type rdf:resource="https://www.ica.org/standards/RiC/ontology#RecordSet"/>
+      <rico:hasRecordSetType rdf:resource="https://www.ica.org/standards/RiC/vocabularies/recordSetTypes#File"/>
+      <rico:title xml:lang="en">Correspondence with Libraries and Archives</rico:title>
+      <rdfs:label xml:lang="en">Correspondence with Libraries and Archives</rdfs:label>
+      <rico:beginningDate rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1963</rico:beginningDate>
+      <rico:endDate rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1983</rico:endDate>
+      <rico:date xml:lang="en">1963-1983</rico:date>
+      <rico:hasInstantiation>
+         <rico:Instantiation rdf:about="instantiation/-aspace_1a215bb0cc97a2c1ccc98f2fffebca96-i1">
+            <rico:instantiates rdf:resource="recordResource/-aspace_1a215bb0cc97a2c1ccc98f2fffebca96"/>
+            <rico:title xml:lang="en">Correspondence with Libraries and Archives</rico:title>
+            <rdfs:label xml:lang="en">Correspondence with Libraries and Archives</rdfs:label>
+            <rico:beginningDate rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1963</rico:beginningDate>
+            <rico:endDate rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1983</rico:endDate>
+            <rico:date xml:lang="en">1963-1983</rico:date>
+            <rdfs:seeAlso rdf:resource="https://www.siv.archives-nationales.culture.gouv.fr/siv/UD/00399/aspace_1a215bb0cc97a2c1ccc98f2fffebca96"/>
+         </rico:Instantiation>
+      </rico:hasInstantiation>
+   </rico:RecordResource>
+   <rico:RecordResource rdf:about="recordResource/-aspace_a603907b69a9087981b1d50041de5a3e">
+      <rico:includedIn rdf:resource="recordResource/-top"/>
+      <rdf:type rdf:resource="https://www.ica.org/standards/RiC/ontology#RecordSet"/>
+      <rico:hasRecordSetType rdf:resource="https://www.ica.org/standards/RiC/vocabularies/recordSetTypes#File"/>
+      <rico:title xml:lang="en">Social Sciences 127 Term Papers</rico:title>
+      <rdfs:label xml:lang="en">Social Sciences 127 Term Papers</rdfs:label>
+      <rico:beginningDate rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1959</rico:beginningDate>
+      <rico:endDate rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1960</rico:endDate>
+      <rico:date xml:lang="en">1959-1960</rico:date>
+      <rico:hasInstantiation>
+         <rico:Instantiation rdf:about="instantiation/-aspace_a603907b69a9087981b1d50041de5a3e-i1">
+            <rico:instantiates rdf:resource="recordResource/-aspace_a603907b69a9087981b1d50041de5a3e"/>
+            <rico:title xml:lang="en">Social Sciences 127 Term Papers</rico:title>
+            <rdfs:label xml:lang="en">Social Sciences 127 Term Papers</rdfs:label>
+            <rico:beginningDate rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1959</rico:beginningDate>
+            <rico:endDate rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1960</rico:endDate>
+            <rico:date xml:lang="en">1959-1960</rico:date>
+            <rdfs:seeAlso rdf:resource="https://www.siv.archives-nationales.culture.gouv.fr/siv/UD/00399/aspace_a603907b69a9087981b1d50041de5a3e"/>
+         </rico:Instantiation>
+      </rico:hasInstantiation>
+   </rico:RecordResource>
+   <rico:RecordResource rdf:about="recordResource/-aspace_ceeec992670ebfb819ac3a1474c30b46">
+      <rico:includedIn rdf:resource="recordResource/-top"/>
+      <rdf:type rdf:resource="https://www.ica.org/standards/RiC/ontology#RecordSet"/>
+      <rico:hasRecordSetType rdf:resource="https://www.ica.org/standards/RiC/vocabularies/recordSetTypes#File"/>
+      <rico:title xml:lang="en">History 187 Essay</rico:title>
+      <rdfs:label xml:lang="en">History 187 Essay</rdfs:label>
+      <rico:date xml:lang="en">1961/03/31</rico:date>
+      <rico:hasInstantiation>
+         <rico:Instantiation rdf:about="instantiation/-aspace_ceeec992670ebfb819ac3a1474c30b46-i1">
+            <rico:instantiates rdf:resource="recordResource/-aspace_ceeec992670ebfb819ac3a1474c30b46"/>
+            <rico:title xml:lang="en">History 187 Essay</rico:title>
+            <rdfs:label xml:lang="en">History 187 Essay</rdfs:label>
+            <rico:date xml:lang="en">1961/03/31</rico:date>
+            <rdfs:seeAlso rdf:resource="https://www.siv.archives-nationales.culture.gouv.fr/siv/UD/00399/aspace_ceeec992670ebfb819ac3a1474c30b46"/>
+         </rico:Instantiation>
+      </rico:hasInstantiation>
+   </rico:RecordResource>
+   <rico:RecordResource rdf:about="recordResource/-aspace_67078edeea35e4cabb4255e9c54d6fb8">
+      <rico:includedIn rdf:resource="recordResource/-top"/>
+      <rdf:type rdf:resource="https://www.ica.org/standards/RiC/ontology#RecordSet"/>
+      <rico:hasRecordSetType rdf:resource="https://www.ica.org/standards/RiC/vocabularies/recordSetTypes#File"/>
+      <rico:title xml:lang="en">Government 296</rico:title>
+      <rdfs:label xml:lang="en">Government 296</rdfs:label>
+      <rico:date xml:lang="en">1961/05/18</rico:date>
+      <rico:hasInstantiation>
+         <rico:Instantiation rdf:about="instantiation/-aspace_67078edeea35e4cabb4255e9c54d6fb8-i1">
+            <rico:instantiates rdf:resource="recordResource/-aspace_67078edeea35e4cabb4255e9c54d6fb8"/>
+            <rico:title xml:lang="en">Government 296</rico:title>
+            <rdfs:label xml:lang="en">Government 296</rdfs:label>
+            <rico:date xml:lang="en">1961/05/18</rico:date>
+            <rdfs:seeAlso rdf:resource="https://www.siv.archives-nationales.culture.gouv.fr/siv/UD/00399/aspace_67078edeea35e4cabb4255e9c54d6fb8"/>
+         </rico:Instantiation>
+      </rico:hasInstantiation>
+   </rico:RecordResource>
+   <rico:RecordResource rdf:about="recordResource/-aspace_73191e502869e7b760926153882a9abc">
+      <rico:includedIn rdf:resource="recordResource/-top"/>
+      <rdf:type rdf:resource="https://www.ica.org/standards/RiC/ontology#RecordSet"/>
+      <rico:hasRecordSetType rdf:resource="https://www.ica.org/standards/RiC/vocabularies/recordSetTypes#File"/>
+      <rico:title xml:lang="en">History 232B</rico:title>
+      <rdfs:label xml:lang="en">History 232B</rdfs:label>
+      <rico:date xml:lang="en">1962/01/22</rico:date>
+      <rico:hasInstantiation>
+         <rico:Instantiation rdf:about="instantiation/-aspace_73191e502869e7b760926153882a9abc-i1">
+            <rico:instantiates rdf:resource="recordResource/-aspace_73191e502869e7b760926153882a9abc"/>
+            <rico:title xml:lang="en">History 232B</rico:title>
+            <rdfs:label xml:lang="en">History 232B</rdfs:label>
+            <rico:date xml:lang="en">1962/01/22</rico:date>
+            <rdfs:seeAlso rdf:resource="https://www.siv.archives-nationales.culture.gouv.fr/siv/UD/00399/aspace_73191e502869e7b760926153882a9abc"/>
+         </rico:Instantiation>
+      </rico:hasInstantiation>
+   </rico:RecordResource>
+   <rico:RecordResource rdf:about="recordResource/-aspace_82322e6958945c067fea00fd57217fa4">
+      <rico:includedIn rdf:resource="recordResource/-top"/>
+      <rdf:type rdf:resource="https://www.ica.org/standards/RiC/ontology#RecordSet"/>
+      <rico:hasRecordSetType rdf:resource="https://www.ica.org/standards/RiC/vocabularies/recordSetTypes#File"/>
+      <rico:title xml:lang="en">Government 120</rico:title>
+      <rdfs:label xml:lang="en">Government 120</rdfs:label>
+      <rico:date xml:lang="en">1961/01/20</rico:date>
+      <rico:hasInstantiation>
+         <rico:Instantiation rdf:about="instantiation/-aspace_82322e6958945c067fea00fd57217fa4-i1">
+            <rico:instantiates rdf:resource="recordResource/-aspace_82322e6958945c067fea00fd57217fa4"/>
+            <rico:title xml:lang="en">Government 120</rico:title>
+            <rdfs:label xml:lang="en">Government 120</rdfs:label>
+            <rico:date xml:lang="en">1961/01/20</rico:date>
+            <rdfs:seeAlso rdf:resource="https://www.siv.archives-nationales.culture.gouv.fr/siv/UD/00399/aspace_82322e6958945c067fea00fd57217fa4"/>
+         </rico:Instantiation>
+      </rico:hasInstantiation>
+   </rico:RecordResource>
+   <rico:RecordResource rdf:about="recordResource/-aspace_6cbb3566eeb159de46653e8974ba8381">
+      <rico:includedIn rdf:resource="recordResource/-top"/>
+      <rdf:type rdf:resource="https://www.ica.org/standards/RiC/ontology#RecordSet"/>
+      <rico:hasRecordSetType rdf:resource="https://www.ica.org/standards/RiC/vocabularies/recordSetTypes#File"/>
+      <rico:title xml:lang="en">Farid Diaries Memoirs English Translation</rico:title>
+      <rdfs:label xml:lang="en">Farid Diaries Memoirs English Translation</rdfs:label>
+      <rico:date rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1913</rico:date>
+      <rico:date xml:lang="en">1913</rico:date>
+      <rico:hasInstantiation>
+         <rico:Instantiation rdf:about="instantiation/-aspace_6cbb3566eeb159de46653e8974ba8381-i1">
+            <rico:instantiates rdf:resource="recordResource/-aspace_6cbb3566eeb159de46653e8974ba8381"/>
+            <rico:title xml:lang="en">Farid Diaries Memoirs English Translation</rico:title>
+            <rdfs:label xml:lang="en">Farid Diaries Memoirs English Translation</rdfs:label>
+            <rico:date rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1913</rico:date>
+            <rico:date xml:lang="en">1913</rico:date>
+            <rdfs:seeAlso rdf:resource="https://www.siv.archives-nationales.culture.gouv.fr/siv/UD/00399/aspace_6cbb3566eeb159de46653e8974ba8381"/>
+         </rico:Instantiation>
+      </rico:hasInstantiation>
+   </rico:RecordResource>
+   <rico:RecordResource rdf:about="recordResource/-aspace_4a7bbe263dc314ac049ae7527dcba74d">
+      <rico:includedIn rdf:resource="recordResource/-top"/>
+      <rdf:type rdf:resource="https://www.ica.org/standards/RiC/ontology#RecordSet"/>
+      <rico:hasRecordSetType rdf:resource="https://www.ica.org/standards/RiC/vocabularies/recordSetTypes#File"/>
+      <rico:title xml:lang="en">Farid Memoirs Translation Mellen Press</rico:title>
+      <rdfs:label xml:lang="en">Farid Memoirs Translation Mellen Press</rdfs:label>
+      <rico:date rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1991</rico:date>
+      <rico:date xml:lang="en">1991</rico:date>
+      <rico:hasInstantiation>
+         <rico:Instantiation rdf:about="instantiation/-aspace_4a7bbe263dc314ac049ae7527dcba74d-i1">
+            <rico:instantiates rdf:resource="recordResource/-aspace_4a7bbe263dc314ac049ae7527dcba74d"/>
+            <rico:title xml:lang="en">Farid Memoirs Translation Mellen Press</rico:title>
+            <rdfs:label xml:lang="en">Farid Memoirs Translation Mellen Press</rdfs:label>
+            <rico:date rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1991</rico:date>
+            <rico:date xml:lang="en">1991</rico:date>
+            <rdfs:seeAlso rdf:resource="https://www.siv.archives-nationales.culture.gouv.fr/siv/UD/00399/aspace_4a7bbe263dc314ac049ae7527dcba74d"/>
+         </rico:Instantiation>
+      </rico:hasInstantiation>
+   </rico:RecordResource>
+   <rico:RecordResource rdf:about="recordResource/-aspace_15df12dc2ba618777813b01f8dce602c">
+      <rico:includedIn rdf:resource="recordResource/-top"/>
+      <rdf:type rdf:resource="https://www.ica.org/standards/RiC/ontology#RecordSet"/>
+      <rico:hasRecordSetType rdf:resource="https://www.ica.org/standards/RiC/vocabularies/recordSetTypes#File"/>
+      <rico:title xml:lang="en">Leave of Absence</rico:title>
+      <rdfs:label xml:lang="en">Leave of Absence</rdfs:label>
+      <rico:date rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1969</rico:date>
+      <rico:date xml:lang="en">1969</rico:date>
+      <rico:hasInstantiation>
+         <rico:Instantiation rdf:about="instantiation/-aspace_15df12dc2ba618777813b01f8dce602c-i1">
+            <rico:instantiates rdf:resource="recordResource/-aspace_15df12dc2ba618777813b01f8dce602c"/>
+            <rico:title xml:lang="en">Leave of Absence</rico:title>
+            <rdfs:label xml:lang="en">Leave of Absence</rdfs:label>
+            <rico:date rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1969</rico:date>
+            <rico:date xml:lang="en">1969</rico:date>
+            <rdfs:seeAlso rdf:resource="https://www.siv.archives-nationales.culture.gouv.fr/siv/UD/00399/aspace_15df12dc2ba618777813b01f8dce602c"/>
+         </rico:Instantiation>
+      </rico:hasInstantiation>
+   </rico:RecordResource>
+   <rico:RecordResource rdf:about="recordResource/-aspace_2d1418c1073cbd17cfded0a6ba488d40">
+      <rico:includedIn rdf:resource="recordResource/-top"/>
+      <rdf:type rdf:resource="https://www.ica.org/standards/RiC/ontology#RecordSet"/>
+      <rico:hasRecordSetType rdf:resource="https://www.ica.org/standards/RiC/vocabularies/recordSetTypes#File"/>
+      <rico:title xml:lang="en">Report to Newsletter of American Research Center in Egypt</rico:title>
+      <rdfs:label xml:lang="en">Report to Newsletter of American Research Center in Egypt</rdfs:label>
+      <rico:date rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1969</rico:date>
+      <rico:date xml:lang="en">1969</rico:date>
+      <rico:hasInstantiation>
+         <rico:Instantiation rdf:about="instantiation/-aspace_2d1418c1073cbd17cfded0a6ba488d40-i1">
+            <rico:instantiates rdf:resource="recordResource/-aspace_2d1418c1073cbd17cfded0a6ba488d40"/>
+            <rico:title xml:lang="en">Report to Newsletter of American Research Center in Egypt</rico:title>
+            <rdfs:label xml:lang="en">Report to Newsletter of American Research Center in Egypt</rdfs:label>
+            <rico:date rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1969</rico:date>
+            <rico:date xml:lang="en">1969</rico:date>
+            <rdfs:seeAlso rdf:resource="https://www.siv.archives-nationales.culture.gouv.fr/siv/UD/00399/aspace_2d1418c1073cbd17cfded0a6ba488d40"/>
+         </rico:Instantiation>
+      </rico:hasInstantiation>
+   </rico:RecordResource>
+   <rico:RecordResource rdf:about="recordResource/-aspace_8d15a94ad0a69355c5977f21c2c3ad73">
+      <rico:includedIn rdf:resource="recordResource/-top"/>
+      <rdf:type rdf:resource="https://www.ica.org/standards/RiC/ontology#RecordSet"/>
+      <rico:hasRecordSetType rdf:resource="https://www.ica.org/standards/RiC/vocabularies/recordSetTypes#File"/>
+      <rico:title xml:lang="en">Haifa University Sabbatical Leave</rico:title>
+      <rdfs:label xml:lang="en">Haifa University Sabbatical Leave</rdfs:label>
+      <rico:beginningDate rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1973</rico:beginningDate>
+      <rico:endDate rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1974</rico:endDate>
+      <rico:date xml:lang="en">1973-1974</rico:date>
+      <rico:hasInstantiation>
+         <rico:Instantiation rdf:about="instantiation/-aspace_8d15a94ad0a69355c5977f21c2c3ad73-i1">
+            <rico:instantiates rdf:resource="recordResource/-aspace_8d15a94ad0a69355c5977f21c2c3ad73"/>
+            <rico:title xml:lang="en">Haifa University Sabbatical Leave</rico:title>
+            <rdfs:label xml:lang="en">Haifa University Sabbatical Leave</rdfs:label>
+            <rico:beginningDate rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1973</rico:beginningDate>
+            <rico:endDate rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1974</rico:endDate>
+            <rico:date xml:lang="en">1973-1974</rico:date>
+            <rdfs:seeAlso rdf:resource="https://www.siv.archives-nationales.culture.gouv.fr/siv/UD/00399/aspace_8d15a94ad0a69355c5977f21c2c3ad73"/>
+         </rico:Instantiation>
+      </rico:hasInstantiation>
+   </rico:RecordResource>
+   <rico:RecordResource rdf:about="recordResource/-aspace_18b6cca4166a0381fe5e9aadd7592bb9">
+      <rico:includedIn rdf:resource="recordResource/-top"/>
+      <rdf:type rdf:resource="https://www.ica.org/standards/RiC/ontology#RecordSet"/>
+      <rico:hasRecordSetType rdf:resource="https://www.ica.org/standards/RiC/vocabularies/recordSetTypes#File"/>
+      <rico:title xml:lang="en">Cairo University Fulbright Program - Sabbatical Leave</rico:title>
+      <rdfs:label xml:lang="en">Cairo University Fulbright Program - Sabbatical Leave</rdfs:label>
+      <rico:beginningDate rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1981</rico:beginningDate>
+      <rico:endDate rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1982</rico:endDate>
+      <rico:date xml:lang="en">1981-1982</rico:date>
+      <rico:hasInstantiation>
+         <rico:Instantiation rdf:about="instantiation/-aspace_18b6cca4166a0381fe5e9aadd7592bb9-i1">
+            <rico:instantiates rdf:resource="recordResource/-aspace_18b6cca4166a0381fe5e9aadd7592bb9"/>
+            <rico:title xml:lang="en">Cairo University Fulbright Program - Sabbatical Leave</rico:title>
+            <rdfs:label xml:lang="en">Cairo University Fulbright Program - Sabbatical Leave</rdfs:label>
+            <rico:beginningDate rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1981</rico:beginningDate>
+            <rico:endDate rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1982</rico:endDate>
+            <rico:date xml:lang="en">1981-1982</rico:date>
+            <rdfs:seeAlso rdf:resource="https://www.siv.archives-nationales.culture.gouv.fr/siv/UD/00399/aspace_18b6cca4166a0381fe5e9aadd7592bb9"/>
+         </rico:Instantiation>
+      </rico:hasInstantiation>
+   </rico:RecordResource>
+   <rico:RecordResource rdf:about="recordResource/-aspace_3984d719e053c4ea718089e27ff19c22">
+      <rico:includedIn rdf:resource="recordResource/-top"/>
+      <rdf:type rdf:resource="https://www.ica.org/standards/RiC/ontology#RecordSet"/>
+      <rico:hasRecordSetType rdf:resource="https://www.ica.org/standards/RiC/vocabularies/recordSetTypes#File"/>
+      <rico:title xml:lang="en">Research and Travel to England</rico:title>
+      <rdfs:label xml:lang="en">Research and Travel to England</rdfs:label>
+      <rico:date rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1989</rico:date>
+      <rico:date xml:lang="en">1989</rico:date>
+      <rico:hasInstantiation>
+         <rico:Instantiation rdf:about="instantiation/-aspace_3984d719e053c4ea718089e27ff19c22-i1">
+            <rico:instantiates rdf:resource="recordResource/-aspace_3984d719e053c4ea718089e27ff19c22"/>
+            <rico:title xml:lang="en">Research and Travel to England</rico:title>
+            <rdfs:label xml:lang="en">Research and Travel to England</rdfs:label>
+            <rico:date rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1989</rico:date>
+            <rico:date xml:lang="en">1989</rico:date>
+            <rdfs:seeAlso rdf:resource="https://www.siv.archives-nationales.culture.gouv.fr/siv/UD/00399/aspace_3984d719e053c4ea718089e27ff19c22"/>
+         </rico:Instantiation>
+      </rico:hasInstantiation>
+   </rico:RecordResource>
+   <rico:RecordResource rdf:about="recordResource/-aspace_ff10b72a91bd6bdd3a6631ac8e2a70c2">
+      <rico:includedIn rdf:resource="recordResource/-top"/>
+      <rdf:type rdf:resource="https://www.ica.org/standards/RiC/ontology#RecordSet"/>
+      <rico:hasRecordSetType rdf:resource="https://www.ica.org/standards/RiC/vocabularies/recordSetTypes#File"/>
+      <rico:title xml:lang="en">Durham University Sabbatical Leave</rico:title>
+      <rdfs:label xml:lang="en">Durham University Sabbatical Leave</rdfs:label>
+      <rico:beginningDate rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1990</rico:beginningDate>
+      <rico:endDate rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1991</rico:endDate>
+      <rico:date xml:lang="en">1990-1991</rico:date>
+      <rico:hasInstantiation>
+         <rico:Instantiation rdf:about="instantiation/-aspace_ff10b72a91bd6bdd3a6631ac8e2a70c2-i1">
+            <rico:instantiates rdf:resource="recordResource/-aspace_ff10b72a91bd6bdd3a6631ac8e2a70c2"/>
+            <rico:title xml:lang="en">Durham University Sabbatical Leave</rico:title>
+            <rdfs:label xml:lang="en">Durham University Sabbatical Leave</rdfs:label>
+            <rico:beginningDate rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1990</rico:beginningDate>
+            <rico:endDate rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1991</rico:endDate>
+            <rico:date xml:lang="en">1990-1991</rico:date>
+            <rdfs:seeAlso rdf:resource="https://www.siv.archives-nationales.culture.gouv.fr/siv/UD/00399/aspace_ff10b72a91bd6bdd3a6631ac8e2a70c2"/>
+         </rico:Instantiation>
+      </rico:hasInstantiation>
+   </rico:RecordResource>
+   <rico:RecordResource rdf:about="recordResource/-aspace_046bb020ed6dfd646b38f5c290d9cb13">
+      <rico:includedIn rdf:resource="recordResource/-top"/>
+      <rdf:type rdf:resource="https://www.ica.org/standards/RiC/ontology#RecordSet"/>
+      <rico:hasRecordSetType rdf:resource="https://www.ica.org/standards/RiC/vocabularies/recordSetTypes#File"/>
+      <rico:title xml:lang="en">Arabian Peninsula proposed trips</rico:title>
+      <rdfs:label xml:lang="en">Arabian Peninsula proposed trips</rdfs:label>
+      <rico:beginningDate rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1995</rico:beginningDate>
+      <rico:endDate rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1997</rico:endDate>
+      <rico:date xml:lang="en">1995-1997</rico:date>
+      <rico:hasInstantiation>
+         <rico:Instantiation rdf:about="instantiation/-aspace_046bb020ed6dfd646b38f5c290d9cb13-i1">
+            <rico:instantiates rdf:resource="recordResource/-aspace_046bb020ed6dfd646b38f5c290d9cb13"/>
+            <rico:title xml:lang="en">Arabian Peninsula proposed trips</rico:title>
+            <rdfs:label xml:lang="en">Arabian Peninsula proposed trips</rdfs:label>
+            <rico:beginningDate rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1995</rico:beginningDate>
+            <rico:endDate rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1997</rico:endDate>
+            <rico:date xml:lang="en">1995-1997</rico:date>
+            <rdfs:seeAlso rdf:resource="https://www.siv.archives-nationales.culture.gouv.fr/siv/UD/00399/aspace_046bb020ed6dfd646b38f5c290d9cb13"/>
+         </rico:Instantiation>
+      </rico:hasInstantiation>
+   </rico:RecordResource>
+   <rico:RecordResource rdf:about="recordResource/-aspace_2a0c14dce13287ea2bd9c2fb0c866b75">
+      <rico:includedIn rdf:resource="recordResource/-top"/>
+      <rdf:type rdf:resource="https://www.ica.org/standards/RiC/ontology#RecordSet"/>
+      <rico:hasRecordSetType rdf:resource="https://www.ica.org/standards/RiC/vocabularies/recordSetTypes#File"/>
+      <rico:title xml:lang="en">American Research Center in Egypt Sabbatical Leave</rico:title>
+      <rdfs:label xml:lang="en">American Research Center in Egypt Sabbatical Leave</rdfs:label>
+      <rico:beginningDate rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1997</rico:beginningDate>
+      <rico:endDate rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1998</rico:endDate>
+      <rico:date xml:lang="en">1997-1998</rico:date>
+      <rico:hasInstantiation>
+         <rico:Instantiation rdf:about="instantiation/-aspace_2a0c14dce13287ea2bd9c2fb0c866b75-i1">
+            <rico:instantiates rdf:resource="recordResource/-aspace_2a0c14dce13287ea2bd9c2fb0c866b75"/>
+            <rico:title xml:lang="en">American Research Center in Egypt Sabbatical Leave</rico:title>
+            <rdfs:label xml:lang="en">American Research Center in Egypt Sabbatical Leave</rdfs:label>
+            <rico:beginningDate rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1997</rico:beginningDate>
+            <rico:endDate rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1998</rico:endDate>
+            <rico:date xml:lang="en">1997-1998</rico:date>
+            <rdfs:seeAlso rdf:resource="https://www.siv.archives-nationales.culture.gouv.fr/siv/UD/00399/aspace_2a0c14dce13287ea2bd9c2fb0c866b75"/>
+         </rico:Instantiation>
+      </rico:hasInstantiation>
+   </rico:RecordResource>
+   <rico:RecordResource rdf:about="recordResource/-aspace_bc76afea3fe0bc983e6dcd1c46b07ee5">
+      <rico:includedIn rdf:resource="recordResource/-top"/>
+      <rdf:type rdf:resource="https://www.ica.org/standards/RiC/ontology#RecordSet"/>
+      <rico:hasRecordSetType rdf:resource="https://www.ica.org/standards/RiC/vocabularies/recordSetTypes#File"/>
+      <rico:title xml:lang="en">English - Original Version of Arabic article</rico:title>
+      <rdfs:label xml:lang="en">English - Original Version of Arabic article</rdfs:label>
+      <rico:date xml:lang="en">Undated</rico:date>
+      <rico:hasInstantiation>
+         <rico:Instantiation rdf:about="instantiation/-aspace_bc76afea3fe0bc983e6dcd1c46b07ee5-i1">
+            <rico:instantiates rdf:resource="recordResource/-aspace_bc76afea3fe0bc983e6dcd1c46b07ee5"/>
+            <rico:title xml:lang="en">English - Original Version of Arabic article</rico:title>
+            <rdfs:label xml:lang="en">English - Original Version of Arabic article</rdfs:label>
+            <rico:date xml:lang="en">Undated</rico:date>
+            <rdfs:seeAlso rdf:resource="https://www.siv.archives-nationales.culture.gouv.fr/siv/UD/00399/aspace_bc76afea3fe0bc983e6dcd1c46b07ee5"/>
+         </rico:Instantiation>
+      </rico:hasInstantiation>
+   </rico:RecordResource>
+   <rico:RecordResource rdf:about="recordResource/-aspace_0139835c1f6ae520485e1069ef438684">
+      <rico:includedIn rdf:resource="recordResource/-top"/>
+      <rdf:type rdf:resource="https://www.ica.org/standards/RiC/ontology#RecordSet"/>
+      <rico:hasRecordSetType rdf:resource="https://www.ica.org/standards/RiC/vocabularies/recordSetTypes#File"/>
+      <rico:title xml:lang="en">Almussarrar Newsletter</rico:title>
+      <rdfs:label xml:lang="en">Almussarrar Newsletter</rdfs:label>
+      <rico:date xml:lang="en">1969/11/14</rico:date>
+      <rico:hasInstantiation>
+         <rico:Instantiation rdf:about="instantiation/-aspace_0139835c1f6ae520485e1069ef438684-i1">
+            <rico:instantiates rdf:resource="recordResource/-aspace_0139835c1f6ae520485e1069ef438684"/>
+            <rico:title xml:lang="en">Almussarrar Newsletter</rico:title>
+            <rdfs:label xml:lang="en">Almussarrar Newsletter</rdfs:label>
+            <rico:date xml:lang="en">1969/11/14</rico:date>
+            <rdfs:seeAlso rdf:resource="https://www.siv.archives-nationales.culture.gouv.fr/siv/UD/00399/aspace_0139835c1f6ae520485e1069ef438684"/>
+         </rico:Instantiation>
+      </rico:hasInstantiation>
+   </rico:RecordResource>
+   <rico:RecordResource rdf:about="recordResource/-aspace_2f7a747695b4b55b9a0a5664a05fa8be">
+      <rico:includedIn rdf:resource="recordResource/-top"/>
+      <rdf:type rdf:resource="https://www.ica.org/standards/RiC/ontology#RecordSet"/>
+      <rico:hasRecordSetType rdf:resource="https://www.ica.org/standards/RiC/vocabularies/recordSetTypes#File"/>
+      <rico:title xml:lang="en">Baker, Paul Show on WHP</rico:title>
+      <rdfs:label xml:lang="en">Baker, Paul Show on WHP</rdfs:label>
+      <rico:date xml:lang="en">1991/08/16</rico:date>
+      <rico:hasInstantiation>
+         <rico:Instantiation rdf:about="instantiation/-aspace_2f7a747695b4b55b9a0a5664a05fa8be-i1">
+            <rico:instantiates rdf:resource="recordResource/-aspace_2f7a747695b4b55b9a0a5664a05fa8be"/>
+            <rico:title xml:lang="en">Baker, Paul Show on WHP</rico:title>
+            <rdfs:label xml:lang="en">Baker, Paul Show on WHP</rdfs:label>
+            <rico:date xml:lang="en">1991/08/16</rico:date>
+            <rdfs:seeAlso rdf:resource="https://www.siv.archives-nationales.culture.gouv.fr/siv/UD/00399/aspace_2f7a747695b4b55b9a0a5664a05fa8be"/>
+         </rico:Instantiation>
+      </rico:hasInstantiation>
+   </rico:RecordResource>
+   <rico:RecordResource rdf:about="recordResource/-aspace_721a557f71b90d58e2956a6d26958c07">
+      <rico:includedIn rdf:resource="recordResource/-top"/>
+      <rdf:type rdf:resource="https://www.ica.org/standards/RiC/ontology#RecordSet"/>
+      <rico:hasRecordSetType rdf:resource="https://www.ica.org/standards/RiC/vocabularies/recordSetTypes#File"/>
+      <rico:title xml:lang="en">Radio Interview</rico:title>
+      <rdfs:label xml:lang="en">Radio Interview</rdfs:label>
+      <rico:date xml:lang="en">1991/01/31</rico:date>
+      <rico:hasInstantiation>
+         <rico:Instantiation rdf:about="instantiation/-aspace_721a557f71b90d58e2956a6d26958c07-i1">
+            <rico:instantiates rdf:resource="recordResource/-aspace_721a557f71b90d58e2956a6d26958c07"/>
+            <rico:title xml:lang="en">Radio Interview</rico:title>
+            <rdfs:label xml:lang="en">Radio Interview</rdfs:label>
+            <rico:date xml:lang="en">1991/01/31</rico:date>
+            <rdfs:seeAlso rdf:resource="https://www.siv.archives-nationales.culture.gouv.fr/siv/UD/00399/aspace_721a557f71b90d58e2956a6d26958c07"/>
+         </rico:Instantiation>
+      </rico:hasInstantiation>
+   </rico:RecordResource>
+   <rico:RecordResource rdf:about="recordResource/-aspace_0f7e68f40beb5093c37676b600ca3e09">
+      <rico:includedIn rdf:resource="recordResource/-top"/>
+      <rdf:type rdf:resource="https://www.ica.org/standards/RiC/ontology#RecordSet"/>
+      <rico:hasRecordSetType rdf:resource="https://www.ica.org/standards/RiC/vocabularies/recordSetTypes#File"/>
+      <rico:title xml:lang="en">Speaking on Middle East at Quadrange Retirement Community</rico:title>
+      <rdfs:label xml:lang="en">Speaking on Middle East at Quadrange Retirement Community</rdfs:label>
+      <rico:date xml:lang="en">1991/05/16</rico:date>
+      <rico:hasInstantiation>
+         <rico:Instantiation rdf:about="instantiation/-aspace_0f7e68f40beb5093c37676b600ca3e09-i1">
+            <rico:instantiates rdf:resource="recordResource/-aspace_0f7e68f40beb5093c37676b600ca3e09"/>
+            <rico:title xml:lang="en">Speaking on Middle East at Quadrange Retirement Community</rico:title>
+            <rdfs:label xml:lang="en">Speaking on Middle East at Quadrange Retirement Community</rdfs:label>
+            <rico:date xml:lang="en">1991/05/16</rico:date>
+            <rdfs:seeAlso rdf:resource="https://www.siv.archives-nationales.culture.gouv.fr/siv/UD/00399/aspace_0f7e68f40beb5093c37676b600ca3e09"/>
+         </rico:Instantiation>
+      </rico:hasInstantiation>
+   </rico:RecordResource>
+   <rico:RecordResource rdf:about="recordResource/-aspace_f4701edf32c01d73625a3f1a214918c2">
+      <rico:includedIn rdf:resource="recordResource/-top"/>
+      <rdf:type rdf:resource="https://www.ica.org/standards/RiC/ontology#RecordSet"/>
+      <rico:hasRecordSetType rdf:resource="https://www.ica.org/standards/RiC/vocabularies/recordSetTypes#File"/>
+      <rico:title xml:lang="en">Interview on Penn State Radio</rico:title>
+      <rdfs:label xml:lang="en">Interview on Penn State Radio</rdfs:label>
+      <rico:date rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1994</rico:date>
+      <rico:date xml:lang="en">1994</rico:date>
+      <rico:hasInstantiation>
+         <rico:Instantiation rdf:about="instantiation/-aspace_f4701edf32c01d73625a3f1a214918c2-i1">
+            <rico:instantiates rdf:resource="recordResource/-aspace_f4701edf32c01d73625a3f1a214918c2"/>
+            <rico:title xml:lang="en">Interview on Penn State Radio</rico:title>
+            <rdfs:label xml:lang="en">Interview on Penn State Radio</rdfs:label>
+            <rico:date rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1994</rico:date>
+            <rico:date xml:lang="en">1994</rico:date>
+            <rdfs:seeAlso rdf:resource="https://www.siv.archives-nationales.culture.gouv.fr/siv/UD/00399/aspace_f4701edf32c01d73625a3f1a214918c2"/>
+         </rico:Instantiation>
+      </rico:hasInstantiation>
+   </rico:RecordResource>
+   <rico:RecordResource rdf:about="recordResource/-aspace_85a8f8a262f5bcdcf1efe8ca6465de85">
+      <rico:includedIn rdf:resource="recordResource/-top"/>
+      <rdf:type rdf:resource="https://www.ica.org/standards/RiC/ontology#RecordSet"/>
+      <rico:hasRecordSetType rdf:resource="https://www.ica.org/standards/RiC/vocabularies/recordSetTypes#File"/>
+      <rico:title xml:lang="en">Penn State Schuylkill Campus Talk</rico:title>
+      <rdfs:label xml:lang="en">Penn State Schuylkill Campus Talk</rdfs:label>
+      <rico:date xml:lang="en">1991/02/05</rico:date>
+      <rico:hasInstantiation>
+         <rico:Instantiation rdf:about="instantiation/-aspace_85a8f8a262f5bcdcf1efe8ca6465de85-i1">
+            <rico:instantiates rdf:resource="recordResource/-aspace_85a8f8a262f5bcdcf1efe8ca6465de85"/>
+            <rico:title xml:lang="en">Penn State Schuylkill Campus Talk</rico:title>
+            <rdfs:label xml:lang="en">Penn State Schuylkill Campus Talk</rdfs:label>
+            <rico:date xml:lang="en">1991/02/05</rico:date>
+            <rdfs:seeAlso rdf:resource="https://www.siv.archives-nationales.culture.gouv.fr/siv/UD/00399/aspace_85a8f8a262f5bcdcf1efe8ca6465de85"/>
+         </rico:Instantiation>
+      </rico:hasInstantiation>
+   </rico:RecordResource>
+   <rico:RecordResource rdf:about="recordResource/-aspace_fa079e4a4a01be0d41f2b57b2f74e52b">
+      <rico:includedIn rdf:resource="recordResource/-top"/>
+      <rdf:type rdf:resource="https://www.ica.org/standards/RiC/ontology#RecordSet"/>
+      <rico:hasRecordSetType rdf:resource="https://www.ica.org/standards/RiC/vocabularies/recordSetTypes#File"/>
+      <rico:title xml:lang="en">Goldschmidt, Arthur Jr. - Materials Pertaining to History 10 (Non-Western Civilization)</rico:title>
+      <rdfs:label xml:lang="en">Goldschmidt, Arthur Jr. - Materials Pertaining to History 10 (Non-Western Civilization)</rdfs:label>
+      <rico:beginningDate rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1981</rico:beginningDate>
+      <rico:endDate rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1999</rico:endDate>
+      <rico:date xml:lang="en">1981-1999</rico:date>
+      <rico:hasInstantiation>
+         <rico:Instantiation rdf:about="instantiation/-aspace_fa079e4a4a01be0d41f2b57b2f74e52b-i1">
+            <rico:instantiates rdf:resource="recordResource/-aspace_fa079e4a4a01be0d41f2b57b2f74e52b"/>
+            <rico:title xml:lang="en">Goldschmidt, Arthur Jr. - Materials Pertaining to History 10 (Non-Western Civilization)</rico:title>
+            <rdfs:label xml:lang="en">Goldschmidt, Arthur Jr. - Materials Pertaining to History 10 (Non-Western Civilization)</rdfs:label>
+            <rico:beginningDate rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1981</rico:beginningDate>
+            <rico:endDate rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1999</rico:endDate>
+            <rico:date xml:lang="en">1981-1999</rico:date>
+            <rdfs:seeAlso rdf:resource="https://www.siv.archives-nationales.culture.gouv.fr/siv/UD/00399/aspace_fa079e4a4a01be0d41f2b57b2f74e52b"/>
+         </rico:Instantiation>
+      </rico:hasInstantiation>
+   </rico:RecordResource>
+   <rico:RecordResource rdf:about="recordResource/-aspace_f71e3142e872824094c9357cd04d675a">
+      <rico:includedIn rdf:resource="recordResource/-top"/>
+      <rdf:type rdf:resource="https://www.ica.org/standards/RiC/ontology#RecordSet"/>
+      <rico:hasRecordSetType rdf:resource="https://www.ica.org/standards/RiC/vocabularies/recordSetTypes#File"/>
+      <rico:title xml:lang="en">Goldschmidt, Arthur Jr. - Committee Service New Jersey Scholars</rico:title>
+      <rdfs:label xml:lang="en">Goldschmidt, Arthur Jr. - Committee Service New Jersey Scholars</rdfs:label>
+      <rico:date rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1985</rico:date>
+      <rico:date xml:lang="en">1985</rico:date>
+      <rico:hasInstantiation>
+         <rico:Instantiation rdf:about="instantiation/-aspace_f71e3142e872824094c9357cd04d675a-i1">
+            <rico:instantiates rdf:resource="recordResource/-aspace_f71e3142e872824094c9357cd04d675a"/>
+            <rico:title xml:lang="en">Goldschmidt, Arthur Jr. - Committee Service New Jersey Scholars</rico:title>
+            <rdfs:label xml:lang="en">Goldschmidt, Arthur Jr. - Committee Service New Jersey Scholars</rdfs:label>
+            <rico:date rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1985</rico:date>
+            <rico:date xml:lang="en">1985</rico:date>
+            <rdfs:seeAlso rdf:resource="https://www.siv.archives-nationales.culture.gouv.fr/siv/UD/00399/aspace_f71e3142e872824094c9357cd04d675a"/>
+         </rico:Instantiation>
+      </rico:hasInstantiation>
+   </rico:RecordResource>
+   <rico:RecordResource rdf:about="recordResource/-aspace_ca36e840a8acf2aea73546310bbeaab3">
+      <rico:includedIn rdf:resource="recordResource/-top"/>
+      <rdf:type rdf:resource="https://www.ica.org/standards/RiC/ontology#RecordSet"/>
+      <rico:hasRecordSetType rdf:resource="https://www.ica.org/standards/RiC/vocabularies/recordSetTypes#File"/>
+      <rico:title xml:lang="en">Goldschmidt, Arthur Jr. - Course Handouts, Lectures, Discussion Outlines (400-UP)</rico:title>
+      <rdfs:label xml:lang="en">Goldschmidt, Arthur Jr. - Course Handouts, Lectures, Discussion Outlines (400-UP)</rdfs:label>
+      <rico:date xml:lang="en">Undated</rico:date>
+      <rico:hasInstantiation>
+         <rico:Instantiation rdf:about="instantiation/-aspace_ca36e840a8acf2aea73546310bbeaab3-i1">
+            <rico:instantiates rdf:resource="recordResource/-aspace_ca36e840a8acf2aea73546310bbeaab3"/>
+            <rico:title xml:lang="en">Goldschmidt, Arthur Jr. - Course Handouts, Lectures, Discussion Outlines (400-UP)</rico:title>
+            <rdfs:label xml:lang="en">Goldschmidt, Arthur Jr. - Course Handouts, Lectures, Discussion Outlines (400-UP)</rdfs:label>
+            <rico:date xml:lang="en">Undated</rico:date>
+            <rdfs:seeAlso rdf:resource="https://www.siv.archives-nationales.culture.gouv.fr/siv/UD/00399/aspace_ca36e840a8acf2aea73546310bbeaab3"/>
+         </rico:Instantiation>
+      </rico:hasInstantiation>
+   </rico:RecordResource>
+   <rico:RecordResource rdf:about="recordResource/-aspace_40d280448a005a4221ebe37360ddd788">
+      <rico:includedIn rdf:resource="recordResource/-top"/>
+      <rdf:type rdf:resource="https://www.ica.org/standards/RiC/ontology#RecordSet"/>
+      <rico:hasRecordSetType rdf:resource="https://www.ica.org/standards/RiC/vocabularies/recordSetTypes#File"/>
+      <rico:title xml:lang="en">Goldschmidt, Arthur Jr. - Elderhostel Courses</rico:title>
+      <rdfs:label xml:lang="en">Goldschmidt, Arthur Jr. - Elderhostel Courses</rdfs:label>
+      <rico:date xml:lang="en">Undated</rico:date>
+      <rico:hasInstantiation>
+         <rico:Instantiation rdf:about="instantiation/-aspace_40d280448a005a4221ebe37360ddd788-i1">
+            <rico:instantiates rdf:resource="recordResource/-aspace_40d280448a005a4221ebe37360ddd788"/>
+            <rico:title xml:lang="en">Goldschmidt, Arthur Jr. - Elderhostel Courses</rico:title>
+            <rdfs:label xml:lang="en">Goldschmidt, Arthur Jr. - Elderhostel Courses</rdfs:label>
+            <rico:date xml:lang="en">Undated</rico:date>
+            <rdfs:seeAlso rdf:resource="https://www.siv.archives-nationales.culture.gouv.fr/siv/UD/00399/aspace_40d280448a005a4221ebe37360ddd788"/>
+         </rico:Instantiation>
+      </rico:hasInstantiation>
+   </rico:RecordResource>
+   <rico:RecordResource rdf:about="recordResource/-aspace_ae53387dbd93ea9d6f8f0dacd63412b2">
+      <rico:includedIn rdf:resource="recordResource/-top"/>
+      <rdf:type rdf:resource="https://www.ica.org/standards/RiC/ontology#RecordSet"/>
+      <rico:hasRecordSetType rdf:resource="https://www.ica.org/standards/RiC/vocabularies/recordSetTypes#File"/>
+      <rico:title xml:lang="en">Goldschmidt, Arthur Jr. - Course Handouts, Lectures, Discussion Outlines (History 11, 19, 181, 191)</rico:title>
+      <rdfs:label xml:lang="en">Goldschmidt, Arthur Jr. - Course Handouts, Lectures, Discussion Outlines (History 11, 19, 181, 191)</rdfs:label>
+      <rico:date xml:lang="en">Undated</rico:date>
+      <rico:hasInstantiation>
+         <rico:Instantiation rdf:about="instantiation/-aspace_ae53387dbd93ea9d6f8f0dacd63412b2-i1">
+            <rico:instantiates rdf:resource="recordResource/-aspace_ae53387dbd93ea9d6f8f0dacd63412b2"/>
+            <rico:title xml:lang="en">Goldschmidt, Arthur Jr. - Course Handouts, Lectures, Discussion Outlines (History 11, 19, 181, 191)</rico:title>
+            <rdfs:label xml:lang="en">Goldschmidt, Arthur Jr. - Course Handouts, Lectures, Discussion Outlines (History 11, 19, 181, 191)</rdfs:label>
+            <rico:date xml:lang="en">Undated</rico:date>
+            <rdfs:seeAlso rdf:resource="https://www.siv.archives-nationales.culture.gouv.fr/siv/UD/00399/aspace_ae53387dbd93ea9d6f8f0dacd63412b2"/>
+         </rico:Instantiation>
+      </rico:hasInstantiation>
+   </rico:RecordResource>
+   <rico:RecordResource rdf:about="recordResource/-aspace_abab9257d31e760e6cbf867b6951b53b">
+      <rico:includedIn rdf:resource="recordResource/-top"/>
+      <rdf:type rdf:resource="https://www.ica.org/standards/RiC/ontology#RecordSet"/>
+      <rico:hasRecordSetType rdf:resource="https://www.ica.org/standards/RiC/vocabularies/recordSetTypes#File"/>
+      <rico:title xml:lang="en">Correspondence</rico:title>
+      <rdfs:label xml:lang="en">Correspondence</rdfs:label>
+      <rico:beginningDate rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1992</rico:beginningDate>
+      <rico:endDate rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1995</rico:endDate>
+      <rico:date xml:lang="en">1992-1995</rico:date>
+      <rico:hasInstantiation>
+         <rico:Instantiation rdf:about="instantiation/-aspace_abab9257d31e760e6cbf867b6951b53b-i1">
+            <rico:instantiates rdf:resource="recordResource/-aspace_abab9257d31e760e6cbf867b6951b53b"/>
+            <rico:title xml:lang="en">Correspondence</rico:title>
+            <rdfs:label xml:lang="en">Correspondence</rdfs:label>
+            <rico:beginningDate rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1992</rico:beginningDate>
+            <rico:endDate rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1995</rico:endDate>
+            <rico:date xml:lang="en">1992-1995</rico:date>
+            <rdfs:seeAlso rdf:resource="https://www.siv.archives-nationales.culture.gouv.fr/siv/UD/00399/aspace_abab9257d31e760e6cbf867b6951b53b"/>
+         </rico:Instantiation>
+      </rico:hasInstantiation>
+   </rico:RecordResource>
+   <rico:RecordResource rdf:about="recordResource/-aspace_49d0d3cfe9164d92d702af0a366c2f9c">
+      <rico:includedIn rdf:resource="recordResource/-top"/>
+      <rdf:type rdf:resource="https://www.ica.org/standards/RiC/ontology#RecordSet"/>
+      <rico:hasRecordSetType rdf:resource="https://www.ica.org/standards/RiC/vocabularies/recordSetTypes#File"/>
+      <rico:title xml:lang="en">Published Writings, offprints</rico:title>
+      <rdfs:label xml:lang="en">Published Writings, offprints</rdfs:label>
+      <rico:beginningDate rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1982</rico:beginningDate>
+      <rico:endDate rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1993</rico:endDate>
+      <rico:date xml:lang="en">1982-1993</rico:date>
+      <rico:hasInstantiation>
+         <rico:Instantiation rdf:about="instantiation/-aspace_49d0d3cfe9164d92d702af0a366c2f9c-i1">
+            <rico:instantiates rdf:resource="recordResource/-aspace_49d0d3cfe9164d92d702af0a366c2f9c"/>
+            <rico:title xml:lang="en">Published Writings, offprints</rico:title>
+            <rdfs:label xml:lang="en">Published Writings, offprints</rdfs:label>
+            <rico:beginningDate rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1982</rico:beginningDate>
+            <rico:endDate rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1993</rico:endDate>
+            <rico:date xml:lang="en">1982-1993</rico:date>
+            <rdfs:seeAlso rdf:resource="https://www.siv.archives-nationales.culture.gouv.fr/siv/UD/00399/aspace_49d0d3cfe9164d92d702af0a366c2f9c"/>
+         </rico:Instantiation>
+      </rico:hasInstantiation>
+   </rico:RecordResource>
+   <rico:RecordResource rdf:about="recordResource/-aspace_511f9e4a73cf0a95ecd13768f7610db6">
+      <rico:includedIn rdf:resource="recordResource/-top"/>
+      <rdf:type rdf:resource="https://www.ica.org/standards/RiC/ontology#RecordSet"/>
+      <rico:hasRecordSetType rdf:resource="https://www.ica.org/standards/RiC/vocabularies/recordSetTypes#File"/>
+      <rico:title xml:lang="en">Sabbatical Leave</rico:title>
+      <rdfs:label xml:lang="en">Sabbatical Leave</rdfs:label>
+      <rico:beginningDate rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1981</rico:beginningDate>
+      <rico:endDate rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1982</rico:endDate>
+      <rico:date xml:lang="en">1981-1982</rico:date>
+      <rico:hasInstantiation>
+         <rico:Instantiation rdf:about="instantiation/-aspace_511f9e4a73cf0a95ecd13768f7610db6-i1">
+            <rico:instantiates rdf:resource="recordResource/-aspace_511f9e4a73cf0a95ecd13768f7610db6"/>
+            <rico:title xml:lang="en">Sabbatical Leave</rico:title>
+            <rdfs:label xml:lang="en">Sabbatical Leave</rdfs:label>
+            <rico:beginningDate rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1981</rico:beginningDate>
+            <rico:endDate rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1982</rico:endDate>
+            <rico:date xml:lang="en">1981-1982</rico:date>
+            <rdfs:seeAlso rdf:resource="https://www.siv.archives-nationales.culture.gouv.fr/siv/UD/00399/aspace_511f9e4a73cf0a95ecd13768f7610db6"/>
+         </rico:Instantiation>
+      </rico:hasInstantiation>
+   </rico:RecordResource>
+   <rico:RecordResource rdf:about="recordResource/-aspace_8dd2b701984c82ef97d70c57e928fc79">
+      <rico:includedIn rdf:resource="recordResource/-top"/>
+      <rdf:type rdf:resource="https://www.ica.org/standards/RiC/ontology#RecordSet"/>
+      <rico:hasRecordSetType rdf:resource="https://www.ica.org/standards/RiC/vocabularies/recordSetTypes#File"/>
+      <rico:title xml:lang="en">PHD Candidates (work with)</rico:title>
+      <rdfs:label xml:lang="en">PHD Candidates (work with)</rdfs:label>
+      <rico:beginningDate rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1968</rico:beginningDate>
+      <rico:endDate rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1993</rico:endDate>
+      <rico:date xml:lang="en">1968-1993</rico:date>
+      <rico:hasInstantiation>
+         <rico:Instantiation rdf:about="instantiation/-aspace_8dd2b701984c82ef97d70c57e928fc79-i1">
+            <rico:instantiates rdf:resource="recordResource/-aspace_8dd2b701984c82ef97d70c57e928fc79"/>
+            <rico:title xml:lang="en">PHD Candidates (work with)</rico:title>
+            <rdfs:label xml:lang="en">PHD Candidates (work with)</rdfs:label>
+            <rico:beginningDate rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1968</rico:beginningDate>
+            <rico:endDate rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1993</rico:endDate>
+            <rico:date xml:lang="en">1968-1993</rico:date>
+            <rdfs:seeAlso rdf:resource="https://www.siv.archives-nationales.culture.gouv.fr/siv/UD/00399/aspace_8dd2b701984c82ef97d70c57e928fc79"/>
+         </rico:Instantiation>
+      </rico:hasInstantiation>
+   </rico:RecordResource>
+   <rico:RecordResource rdf:about="recordResource/-aspace_8b9afbb1f23c11f4f3dca7cc08a13b5f">
+      <rico:includedIn rdf:resource="recordResource/-top"/>
+      <rdf:type rdf:resource="https://www.ica.org/standards/RiC/ontology#RecordSet"/>
+      <rico:hasRecordSetType rdf:resource="https://www.ica.org/standards/RiC/vocabularies/recordSetTypes#File"/>
+      <rico:title xml:lang="en">Harvard College Commencement</rico:title>
+      <rdfs:label xml:lang="en">Harvard College Commencement</rdfs:label>
+      <rico:date rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1968</rico:date>
+      <rico:date xml:lang="en">1968</rico:date>
+      <rico:hasInstantiation>
+         <rico:Instantiation rdf:about="instantiation/-aspace_8b9afbb1f23c11f4f3dca7cc08a13b5f-i1">
+            <rico:instantiates rdf:resource="recordResource/-aspace_8b9afbb1f23c11f4f3dca7cc08a13b5f"/>
+            <rico:title xml:lang="en">Harvard College Commencement</rico:title>
+            <rdfs:label xml:lang="en">Harvard College Commencement</rdfs:label>
+            <rico:date rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1968</rico:date>
+            <rico:date xml:lang="en">1968</rico:date>
+            <rdfs:seeAlso rdf:resource="https://www.siv.archives-nationales.culture.gouv.fr/siv/UD/00399/aspace_8b9afbb1f23c11f4f3dca7cc08a13b5f"/>
+         </rico:Instantiation>
+      </rico:hasInstantiation>
+   </rico:RecordResource>
+   <rico:RecordResource rdf:about="recordResource/-aspace_16b716d5096f894d332343cf6cc698af">
+      <rico:includedIn rdf:resource="recordResource/-top"/>
+      <rdf:type rdf:resource="https://www.ica.org/standards/RiC/ontology#RecordSet"/>
+      <rico:hasRecordSetType rdf:resource="https://www.ica.org/standards/RiC/vocabularies/recordSetTypes#File"/>
+      <rico:title xml:lang="en">Satanic Verses, Controversy</rico:title>
+      <rdfs:label xml:lang="en">Satanic Verses, Controversy</rdfs:label>
+      <rico:date xml:lang="en">Undated</rico:date>
+      <rico:hasInstantiation>
+         <rico:Instantiation rdf:about="instantiation/-aspace_16b716d5096f894d332343cf6cc698af-i1">
+            <rico:instantiates rdf:resource="recordResource/-aspace_16b716d5096f894d332343cf6cc698af"/>
+            <rico:title xml:lang="en">Satanic Verses, Controversy</rico:title>
+            <rdfs:label xml:lang="en">Satanic Verses, Controversy</rdfs:label>
+            <rico:date xml:lang="en">Undated</rico:date>
+            <rdfs:seeAlso rdf:resource="https://www.siv.archives-nationales.culture.gouv.fr/siv/UD/00399/aspace_16b716d5096f894d332343cf6cc698af"/>
+         </rico:Instantiation>
+      </rico:hasInstantiation>
+   </rico:RecordResource>
+   <rico:RecordResource rdf:about="recordResource/-aspace_51b9bc420b753c56852cd6cfa38c6304">
+      <rico:includedIn rdf:resource="recordResource/-top"/>
+      <rdf:type rdf:resource="https://www.ica.org/standards/RiC/ontology#RecordSet"/>
+      <rico:hasRecordSetType rdf:resource="https://www.ica.org/standards/RiC/vocabularies/recordSetTypes#File"/>
+      <rico:title xml:lang="en">Semester at Sea</rico:title>
+      <rdfs:label xml:lang="en">Semester at Sea</rdfs:label>
+      <rico:date rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1987</rico:date>
+      <rico:date xml:lang="en">1987</rico:date>
+      <rico:hasInstantiation>
+         <rico:Instantiation rdf:about="instantiation/-aspace_51b9bc420b753c56852cd6cfa38c6304-i1">
+            <rico:instantiates rdf:resource="recordResource/-aspace_51b9bc420b753c56852cd6cfa38c6304"/>
+            <rico:title xml:lang="en">Semester at Sea</rico:title>
+            <rdfs:label xml:lang="en">Semester at Sea</rdfs:label>
+            <rico:date rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1987</rico:date>
+            <rico:date xml:lang="en">1987</rico:date>
+            <rdfs:seeAlso rdf:resource="https://www.siv.archives-nationales.culture.gouv.fr/siv/UD/00399/aspace_51b9bc420b753c56852cd6cfa38c6304"/>
+         </rico:Instantiation>
+      </rico:hasInstantiation>
+   </rico:RecordResource>
+   <rico:RecordResource rdf:about="recordResource/-aspace_d810a81822eb46f4026b5d019c714bc6">
+      <rico:includedIn rdf:resource="recordResource/-top"/>
+      <rdf:type rdf:resource="https://www.ica.org/standards/RiC/ontology#RecordSet"/>
+      <rico:hasRecordSetType rdf:resource="https://www.ica.org/standards/RiC/vocabularies/recordSetTypes#File"/>
+      <rico:title xml:lang="en">Semester at Sea</rico:title>
+      <rdfs:label xml:lang="en">Semester at Sea</rdfs:label>
+      <rico:beginningDate rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1983</rico:beginningDate>
+      <rico:endDate rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1997</rico:endDate>
+      <rico:date xml:lang="en">1983-1997</rico:date>
+      <rico:hasInstantiation>
+         <rico:Instantiation rdf:about="instantiation/-aspace_d810a81822eb46f4026b5d019c714bc6-i1">
+            <rico:instantiates rdf:resource="recordResource/-aspace_d810a81822eb46f4026b5d019c714bc6"/>
+            <rico:title xml:lang="en">Semester at Sea</rico:title>
+            <rdfs:label xml:lang="en">Semester at Sea</rdfs:label>
+            <rico:beginningDate rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1983</rico:beginningDate>
+            <rico:endDate rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1997</rico:endDate>
+            <rico:date xml:lang="en">1983-1997</rico:date>
+            <rdfs:seeAlso rdf:resource="https://www.siv.archives-nationales.culture.gouv.fr/siv/UD/00399/aspace_d810a81822eb46f4026b5d019c714bc6"/>
+         </rico:Instantiation>
+      </rico:hasInstantiation>
+   </rico:RecordResource>
+   <rico:RecordResource rdf:about="recordResource/-aspace_72752cc8b4de22f0c2e7e468ee3cc692">
+      <rico:includedIn rdf:resource="recordResource/-top"/>
+      <rdf:type rdf:resource="https://www.ica.org/standards/RiC/ontology#RecordSet"/>
+      <rico:hasRecordSetType rdf:resource="https://www.ica.org/standards/RiC/vocabularies/recordSetTypes#File"/>
+      <rico:title xml:lang="en">Undergraduate Middle East Conferences</rico:title>
+      <rdfs:label xml:lang="en">Undergraduate Middle East Conferences</rdfs:label>
+      <rico:beginningDate rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1987</rico:beginningDate>
+      <rico:endDate rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1989</rico:endDate>
+      <rico:date xml:lang="en">1987-1989</rico:date>
+      <rico:hasInstantiation>
+         <rico:Instantiation rdf:about="instantiation/-aspace_72752cc8b4de22f0c2e7e468ee3cc692-i1">
+            <rico:instantiates rdf:resource="recordResource/-aspace_72752cc8b4de22f0c2e7e468ee3cc692"/>
+            <rico:title xml:lang="en">Undergraduate Middle East Conferences</rico:title>
+            <rdfs:label xml:lang="en">Undergraduate Middle East Conferences</rdfs:label>
+            <rico:beginningDate rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1987</rico:beginningDate>
+            <rico:endDate rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1989</rico:endDate>
+            <rico:date xml:lang="en">1987-1989</rico:date>
+            <rdfs:seeAlso rdf:resource="https://www.siv.archives-nationales.culture.gouv.fr/siv/UD/00399/aspace_72752cc8b4de22f0c2e7e468ee3cc692"/>
+         </rico:Instantiation>
+      </rico:hasInstantiation>
+   </rico:RecordResource>
+   <rico:RecordResource rdf:about="recordResource/-aspace_523fdbdf70b6703f6072f0cff6dd30ae">
+      <rico:includedIn rdf:resource="recordResource/-top"/>
+      <rdf:type rdf:resource="https://www.ica.org/standards/RiC/ontology#RecordSet"/>
+      <rico:hasRecordSetType rdf:resource="https://www.ica.org/standards/RiC/vocabularies/recordSetTypes#File"/>
+      <rico:title xml:lang="en">Research Grants</rico:title>
+      <rdfs:label xml:lang="en">Research Grants</rdfs:label>
+      <rico:beginningDate rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1986</rico:beginningDate>
+      <rico:endDate rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1998</rico:endDate>
+      <rico:date xml:lang="en">1986-1998</rico:date>
+      <rico:hasInstantiation>
+         <rico:Instantiation rdf:about="instantiation/-aspace_523fdbdf70b6703f6072f0cff6dd30ae-i1">
+            <rico:instantiates rdf:resource="recordResource/-aspace_523fdbdf70b6703f6072f0cff6dd30ae"/>
+            <rico:title xml:lang="en">Research Grants</rico:title>
+            <rdfs:label xml:lang="en">Research Grants</rdfs:label>
+            <rico:beginningDate rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1986</rico:beginningDate>
+            <rico:endDate rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1998</rico:endDate>
+            <rico:date xml:lang="en">1986-1998</rico:date>
+            <rdfs:seeAlso rdf:resource="https://www.siv.archives-nationales.culture.gouv.fr/siv/UD/00399/aspace_523fdbdf70b6703f6072f0cff6dd30ae"/>
+         </rico:Instantiation>
+      </rico:hasInstantiation>
+   </rico:RecordResource>
+   <rico:RecordResource rdf:about="recordResource/-aspace_50e05f5d8151f1658d0704c98f957357">
+      <rico:includedIn rdf:resource="recordResource/-top"/>
+      <rdf:type rdf:resource="https://www.ica.org/standards/RiC/ontology#RecordSet"/>
+      <rico:hasRecordSetType rdf:resource="https://www.ica.org/standards/RiC/vocabularies/recordSetTypes#File"/>
+      <rico:title xml:lang="en">Speeches</rico:title>
+      <rdfs:label xml:lang="en">Speeches</rdfs:label>
+      <rico:beginningDate rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1982</rico:beginningDate>
+      <rico:endDate rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">2000</rico:endDate>
+      <rico:date xml:lang="en">1982-2000</rico:date>
+      <rico:hasInstantiation>
+         <rico:Instantiation rdf:about="instantiation/-aspace_50e05f5d8151f1658d0704c98f957357-i1">
+            <rico:instantiates rdf:resource="recordResource/-aspace_50e05f5d8151f1658d0704c98f957357"/>
+            <rico:title xml:lang="en">Speeches</rico:title>
+            <rdfs:label xml:lang="en">Speeches</rdfs:label>
+            <rico:beginningDate rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1982</rico:beginningDate>
+            <rico:endDate rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">2000</rico:endDate>
+            <rico:date xml:lang="en">1982-2000</rico:date>
+            <rdfs:seeAlso rdf:resource="https://www.siv.archives-nationales.culture.gouv.fr/siv/UD/00399/aspace_50e05f5d8151f1658d0704c98f957357"/>
+         </rico:Instantiation>
+      </rico:hasInstantiation>
+   </rico:RecordResource>
+   <rico:RecordResource rdf:about="recordResource/-aspace_ccdaeed765b78f4df8901abc76d32218">
+      <rico:includedIn rdf:resource="recordResource/-top"/>
+      <rdf:type rdf:resource="https://www.ica.org/standards/RiC/ontology#RecordSet"/>
+      <rico:hasRecordSetType rdf:resource="https://www.ica.org/standards/RiC/vocabularies/recordSetTypes#File"/>
+      <rico:title xml:lang="en">Gulf War - Speeches and Newspaper Articles</rico:title>
+      <rdfs:label xml:lang="en">Gulf War - Speeches and Newspaper Articles</rdfs:label>
+      <rico:date rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1991</rico:date>
+      <rico:date xml:lang="en">1991</rico:date>
+      <rico:hasInstantiation>
+         <rico:Instantiation rdf:about="instantiation/-aspace_ccdaeed765b78f4df8901abc76d32218-i1">
+            <rico:instantiates rdf:resource="recordResource/-aspace_ccdaeed765b78f4df8901abc76d32218"/>
+            <rico:title xml:lang="en">Gulf War - Speeches and Newspaper Articles</rico:title>
+            <rdfs:label xml:lang="en">Gulf War - Speeches and Newspaper Articles</rdfs:label>
+            <rico:date rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1991</rico:date>
+            <rico:date xml:lang="en">1991</rico:date>
+            <rdfs:seeAlso rdf:resource="https://www.siv.archives-nationales.culture.gouv.fr/siv/UD/00399/aspace_ccdaeed765b78f4df8901abc76d32218"/>
+         </rico:Instantiation>
+      </rico:hasInstantiation>
+   </rico:RecordResource>
+   <rico:RecordResource rdf:about="recordResource/-aspace_c4c620262395caf9fb915d8ab91f69e9">
+      <rico:includedIn rdf:resource="recordResource/-top"/>
+      <rdf:type rdf:resource="https://www.ica.org/standards/RiC/ontology#RecordSet"/>
+      <rico:hasRecordSetType rdf:resource="https://www.ica.org/standards/RiC/vocabularies/recordSetTypes#File"/>
+      <rico:title xml:lang="en">Pennsylvania Humanities Council Speaking Stint</rico:title>
+      <rdfs:label xml:lang="en">Pennsylvania Humanities Council Speaking Stint</rdfs:label>
+      <rico:date rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1989</rico:date>
+      <rico:date xml:lang="en">1989</rico:date>
+      <rico:hasInstantiation>
+         <rico:Instantiation rdf:about="instantiation/-aspace_c4c620262395caf9fb915d8ab91f69e9-i1">
+            <rico:instantiates rdf:resource="recordResource/-aspace_c4c620262395caf9fb915d8ab91f69e9"/>
+            <rico:title xml:lang="en">Pennsylvania Humanities Council Speaking Stint</rico:title>
+            <rdfs:label xml:lang="en">Pennsylvania Humanities Council Speaking Stint</rdfs:label>
+            <rico:date rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1989</rico:date>
+            <rico:date xml:lang="en">1989</rico:date>
+            <rdfs:seeAlso rdf:resource="https://www.siv.archives-nationales.culture.gouv.fr/siv/UD/00399/aspace_c4c620262395caf9fb915d8ab91f69e9"/>
+         </rico:Instantiation>
+      </rico:hasInstantiation>
+   </rico:RecordResource>
+   <rico:RecordResource rdf:about="recordResource/-aspace_c1a4e6b989d36d462d95e3668ee44ae0">
+      <rico:includedIn rdf:resource="recordResource/-top"/>
+      <rdf:type rdf:resource="https://www.ica.org/standards/RiC/ontology#RecordSet"/>
+      <rico:hasRecordSetType rdf:resource="https://www.ica.org/standards/RiC/vocabularies/recordSetTypes#File"/>
+      <rico:title xml:lang="en">Modern Egypt draft chapters</rico:title>
+      <rdfs:label xml:lang="en">Modern Egypt draft chapters</rdfs:label>
+      <rico:date rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1986</rico:date>
+      <rico:date xml:lang="en">1986</rico:date>
+      <rico:hasInstantiation>
+         <rico:Instantiation rdf:about="instantiation/-aspace_c1a4e6b989d36d462d95e3668ee44ae0-i1">
+            <rico:instantiates rdf:resource="recordResource/-aspace_c1a4e6b989d36d462d95e3668ee44ae0"/>
+            <rico:title xml:lang="en">Modern Egypt draft chapters</rico:title>
+            <rdfs:label xml:lang="en">Modern Egypt draft chapters</rdfs:label>
+            <rico:date rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1986</rico:date>
+            <rico:date xml:lang="en">1986</rico:date>
+            <rdfs:seeAlso rdf:resource="https://www.siv.archives-nationales.culture.gouv.fr/siv/UD/00399/aspace_c1a4e6b989d36d462d95e3668ee44ae0"/>
+         </rico:Instantiation>
+      </rico:hasInstantiation>
+   </rico:RecordResource>
+   <rico:RecordResource rdf:about="recordResource/-aspace_b5cfa21fdffb1648593873c895c0c70b">
+      <rico:includedIn rdf:resource="recordResource/-top"/>
+      <rdf:type rdf:resource="https://www.ica.org/standards/RiC/ontology#RecordSet"/>
+      <rico:hasRecordSetType rdf:resource="https://www.ica.org/standards/RiC/vocabularies/recordSetTypes#File"/>
+      <rico:title xml:lang="en">Draft materials for History 10 reader</rico:title>
+      <rdfs:label xml:lang="en">Draft materials for History 10 reader</rdfs:label>
+      <rico:hasInstantiation>
+         <rico:Instantiation rdf:about="instantiation/-aspace_b5cfa21fdffb1648593873c895c0c70b-i1">
+            <rico:instantiates rdf:resource="recordResource/-aspace_b5cfa21fdffb1648593873c895c0c70b"/>
+            <rico:title xml:lang="en">Draft materials for History 10 reader</rico:title>
+            <rdfs:label xml:lang="en">Draft materials for History 10 reader</rdfs:label>
+            <rdfs:seeAlso rdf:resource="https://www.siv.archives-nationales.culture.gouv.fr/siv/UD/00399/aspace_b5cfa21fdffb1648593873c895c0c70b"/>
+         </rico:Instantiation>
+      </rico:hasInstantiation>
+   </rico:RecordResource>
+   <rico:RecordResource rdf:about="recordResource/-aspace_6bfce5e0c7d5c1741db9d29eb67cdaad">
+      <rico:includedIn rdf:resource="recordResource/-top"/>
+      <rdf:type rdf:resource="https://www.ica.org/standards/RiC/ontology#RecordSet"/>
+      <rico:hasRecordSetType rdf:resource="https://www.ica.org/standards/RiC/vocabularies/recordSetTypes#File"/>
+      <rico:title xml:lang="en">Duquesne History Forum</rico:title>
+      <rdfs:label xml:lang="en">Duquesne History Forum</rdfs:label>
+      <rico:date rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1983</rico:date>
+      <rico:date xml:lang="en">1983</rico:date>
+      <rico:hasInstantiation>
+         <rico:Instantiation rdf:about="instantiation/-aspace_6bfce5e0c7d5c1741db9d29eb67cdaad-i1">
+            <rico:instantiates rdf:resource="recordResource/-aspace_6bfce5e0c7d5c1741db9d29eb67cdaad"/>
+            <rico:title xml:lang="en">Duquesne History Forum</rico:title>
+            <rdfs:label xml:lang="en">Duquesne History Forum</rdfs:label>
+            <rico:date rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1983</rico:date>
+            <rico:date xml:lang="en">1983</rico:date>
+            <rdfs:seeAlso rdf:resource="https://www.siv.archives-nationales.culture.gouv.fr/siv/UD/00399/aspace_6bfce5e0c7d5c1741db9d29eb67cdaad"/>
+         </rico:Instantiation>
+      </rico:hasInstantiation>
+   </rico:RecordResource>
+   <rico:RecordResource rdf:about="recordResource/-aspace_9adffad43504ce001bf1a599c1732bb1">
+      <rico:includedIn rdf:resource="recordResource/-top"/>
+      <rdf:type rdf:resource="https://www.ica.org/standards/RiC/ontology#RecordSet"/>
+      <rico:hasRecordSetType rdf:resource="https://www.ica.org/standards/RiC/vocabularies/recordSetTypes#File"/>
+      <rico:title xml:lang="en">International Military Encyclopedia</rico:title>
+      <rdfs:label xml:lang="en">International Military Encyclopedia</rdfs:label>
+      <rico:beginningDate rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1982</rico:beginningDate>
+      <rico:endDate rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1987</rico:endDate>
+      <rico:date xml:lang="en">1982-1987</rico:date>
+      <rico:hasInstantiation>
+         <rico:Instantiation rdf:about="instantiation/-aspace_9adffad43504ce001bf1a599c1732bb1-i1">
+            <rico:instantiates rdf:resource="recordResource/-aspace_9adffad43504ce001bf1a599c1732bb1"/>
+            <rico:title xml:lang="en">International Military Encyclopedia</rico:title>
+            <rdfs:label xml:lang="en">International Military Encyclopedia</rdfs:label>
+            <rico:beginningDate rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1982</rico:beginningDate>
+            <rico:endDate rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1987</rico:endDate>
+            <rico:date xml:lang="en">1982-1987</rico:date>
+            <rdfs:seeAlso rdf:resource="https://www.siv.archives-nationales.culture.gouv.fr/siv/UD/00399/aspace_9adffad43504ce001bf1a599c1732bb1"/>
+         </rico:Instantiation>
+      </rico:hasInstantiation>
+   </rico:RecordResource>
+   <rico:RecordResource rdf:about="recordResource/-aspace_b7c10b152389669a0f8bfecf17415164">
+      <rico:includedIn rdf:resource="recordResource/-top"/>
+      <rdf:type rdf:resource="https://www.ica.org/standards/RiC/ontology#RecordSet"/>
+      <rico:hasRecordSetType rdf:resource="https://www.ica.org/standards/RiC/vocabularies/recordSetTypes#File"/>
+      <rico:title xml:lang="en">UPCLOSE</rico:title>
+      <rdfs:label xml:lang="en">UPCLOSE</rdfs:label>
+      <rico:beginningDate rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1980</rico:beginningDate>
+      <rico:endDate rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1984</rico:endDate>
+      <rico:date xml:lang="en">1980-1984</rico:date>
+      <rico:hasInstantiation>
+         <rico:Instantiation rdf:about="instantiation/-aspace_b7c10b152389669a0f8bfecf17415164-i1">
+            <rico:instantiates rdf:resource="recordResource/-aspace_b7c10b152389669a0f8bfecf17415164"/>
+            <rico:title xml:lang="en">UPCLOSE</rico:title>
+            <rdfs:label xml:lang="en">UPCLOSE</rdfs:label>
+            <rico:beginningDate rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1980</rico:beginningDate>
+            <rico:endDate rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1984</rico:endDate>
+            <rico:date xml:lang="en">1980-1984</rico:date>
+            <rdfs:seeAlso rdf:resource="https://www.siv.archives-nationales.culture.gouv.fr/siv/UD/00399/aspace_b7c10b152389669a0f8bfecf17415164"/>
+         </rico:Instantiation>
+      </rico:hasInstantiation>
+   </rico:RecordResource>
+   <rico:RecordResource rdf:about="recordResource/-aspace_7a7d72ab2759b0341a071fbeedcef0fc">
+      <rico:includedIn rdf:resource="recordResource/-top"/>
+      <rdf:type rdf:resource="https://www.ica.org/standards/RiC/ontology#RecordSet"/>
+      <rico:hasRecordSetType rdf:resource="https://www.ica.org/standards/RiC/vocabularies/recordSetTypes#File"/>
+      <rico:title xml:lang="en">Articles on "Arab League" and "Middle East History" for Funk and Wagnall's Encyclopedia</rico:title>
+      <rdfs:label xml:lang="en">Articles on "Arab League" and "Middle East History" for Funk and Wagnall's Encyclopedia</rdfs:label>
+      <rico:date rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1980</rico:date>
+      <rico:date xml:lang="en">1980</rico:date>
+      <rico:hasInstantiation>
+         <rico:Instantiation rdf:about="instantiation/-aspace_7a7d72ab2759b0341a071fbeedcef0fc-i1">
+            <rico:instantiates rdf:resource="recordResource/-aspace_7a7d72ab2759b0341a071fbeedcef0fc"/>
+            <rico:title xml:lang="en">Articles on "Arab League" and "Middle East History" for Funk and Wagnall's Encyclopedia</rico:title>
+            <rdfs:label xml:lang="en">Articles on "Arab League" and "Middle East History" for Funk and Wagnall's Encyclopedia</rdfs:label>
+            <rico:date rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1980</rico:date>
+            <rico:date xml:lang="en">1980</rico:date>
+            <rdfs:seeAlso rdf:resource="https://www.siv.archives-nationales.culture.gouv.fr/siv/UD/00399/aspace_7a7d72ab2759b0341a071fbeedcef0fc"/>
+         </rico:Instantiation>
+      </rico:hasInstantiation>
+   </rico:RecordResource>
+   <rico:RecordResource rdf:about="recordResource/-aspace_5c4e748283a0f88047be61495509cef8">
+      <rico:includedIn rdf:resource="recordResource/-top"/>
+      <rdf:type rdf:resource="https://www.ica.org/standards/RiC/ontology#RecordSet"/>
+      <rico:hasRecordSetType rdf:resource="https://www.ica.org/standards/RiC/vocabularies/recordSetTypes#File"/>
+      <rico:title xml:lang="en">Concise History of Middle East - students' notes for 1983 revision</rico:title>
+      <rdfs:label xml:lang="en">Concise History of Middle East - students' notes for 1983 revision</rdfs:label>
+      <rico:date rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1983</rico:date>
+      <rico:date xml:lang="en">1983</rico:date>
+      <rico:hasInstantiation>
+         <rico:Instantiation rdf:about="instantiation/-aspace_5c4e748283a0f88047be61495509cef8-i1">
+            <rico:instantiates rdf:resource="recordResource/-aspace_5c4e748283a0f88047be61495509cef8"/>
+            <rico:title xml:lang="en">Concise History of Middle East - students' notes for 1983 revision</rico:title>
+            <rdfs:label xml:lang="en">Concise History of Middle East - students' notes for 1983 revision</rdfs:label>
+            <rico:date rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1983</rico:date>
+            <rico:date xml:lang="en">1983</rico:date>
+            <rdfs:seeAlso rdf:resource="https://www.siv.archives-nationales.culture.gouv.fr/siv/UD/00399/aspace_5c4e748283a0f88047be61495509cef8"/>
+         </rico:Instantiation>
+      </rico:hasInstantiation>
+   </rico:RecordResource>
+   <rico:RecordResource rdf:about="recordResource/-aspace_08bd9aebadd400adc6344b9fd4778542">
+      <rico:includedIn rdf:resource="recordResource/-top"/>
+      <rdf:type rdf:resource="https://www.ica.org/standards/RiC/ontology#RecordSet"/>
+      <rico:hasRecordSetType rdf:resource="https://www.ica.org/standards/RiC/vocabularies/recordSetTypes#File"/>
+      <rico:title xml:lang="en">AMOCO and CASE teaching awards</rico:title>
+      <rdfs:label xml:lang="en">AMOCO and CASE teaching awards</rdfs:label>
+      <rico:date rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1981</rico:date>
+      <rico:date xml:lang="en">1981</rico:date>
+      <rico:hasInstantiation>
+         <rico:Instantiation rdf:about="instantiation/-aspace_08bd9aebadd400adc6344b9fd4778542-i1">
+            <rico:instantiates rdf:resource="recordResource/-aspace_08bd9aebadd400adc6344b9fd4778542"/>
+            <rico:title xml:lang="en">AMOCO and CASE teaching awards</rico:title>
+            <rdfs:label xml:lang="en">AMOCO and CASE teaching awards</rdfs:label>
+            <rico:date rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1981</rico:date>
+            <rico:date xml:lang="en">1981</rico:date>
+            <rdfs:seeAlso rdf:resource="https://www.siv.archives-nationales.culture.gouv.fr/siv/UD/00399/aspace_08bd9aebadd400adc6344b9fd4778542"/>
+         </rico:Instantiation>
+      </rico:hasInstantiation>
+   </rico:RecordResource>
+   <rico:RecordResource rdf:about="recordResource/-aspace_c12eb4297adacd9375a2e521044490d2">
+      <rico:includedIn rdf:resource="recordResource/-top"/>
+      <rdf:type rdf:resource="https://www.ica.org/standards/RiC/ontology#RecordSet"/>
+      <rico:hasRecordSetType rdf:resource="https://www.ica.org/standards/RiC/vocabularies/recordSetTypes#File"/>
+      <rico:title xml:lang="en">Concise History of Middle East - 1978 version - Glenn Perry comments</rico:title>
+      <rdfs:label xml:lang="en">Concise History of Middle East - 1978 version - Glenn Perry comments</rdfs:label>
+      <rico:date rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1978</rico:date>
+      <rico:date xml:lang="en">1978</rico:date>
+      <rico:hasInstantiation>
+         <rico:Instantiation rdf:about="instantiation/-aspace_c12eb4297adacd9375a2e521044490d2-i1">
+            <rico:instantiates rdf:resource="recordResource/-aspace_c12eb4297adacd9375a2e521044490d2"/>
+            <rico:title xml:lang="en">Concise History of Middle East - 1978 version - Glenn Perry comments</rico:title>
+            <rdfs:label xml:lang="en">Concise History of Middle East - 1978 version - Glenn Perry comments</rdfs:label>
+            <rico:date rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1978</rico:date>
+            <rico:date xml:lang="en">1978</rico:date>
+            <rdfs:seeAlso rdf:resource="https://www.siv.archives-nationales.culture.gouv.fr/siv/UD/00399/aspace_c12eb4297adacd9375a2e521044490d2"/>
+         </rico:Instantiation>
+      </rico:hasInstantiation>
+   </rico:RecordResource>
+   <rico:RecordResource rdf:about="recordResource/-aspace_3acc224db65c9c60f26fe199184cc3c2">
+      <rico:includedIn rdf:resource="recordResource/-top"/>
+      <rdf:type rdf:resource="https://www.ica.org/standards/RiC/ontology#RecordSet"/>
+      <rico:hasRecordSetType rdf:resource="https://www.ica.org/standards/RiC/vocabularies/recordSetTypes#File"/>
+      <rico:title xml:lang="en">Middle East Studies Association - Research and Training (RATS)</rico:title>
+      <rdfs:label xml:lang="en">Middle East Studies Association - Research and Training (RATS)</rdfs:label>
+      <rico:beginningDate rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1975</rico:beginningDate>
+      <rico:endDate rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1979</rico:endDate>
+      <rico:date xml:lang="en">1975-1979</rico:date>
+      <rico:hasInstantiation>
+         <rico:Instantiation rdf:about="instantiation/-aspace_3acc224db65c9c60f26fe199184cc3c2-i1">
+            <rico:instantiates rdf:resource="recordResource/-aspace_3acc224db65c9c60f26fe199184cc3c2"/>
+            <rico:title xml:lang="en">Middle East Studies Association - Research and Training (RATS)</rico:title>
+            <rdfs:label xml:lang="en">Middle East Studies Association - Research and Training (RATS)</rdfs:label>
+            <rico:beginningDate rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1975</rico:beginningDate>
+            <rico:endDate rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1979</rico:endDate>
+            <rico:date xml:lang="en">1975-1979</rico:date>
+            <rdfs:seeAlso rdf:resource="https://www.siv.archives-nationales.culture.gouv.fr/siv/UD/00399/aspace_3acc224db65c9c60f26fe199184cc3c2"/>
+         </rico:Instantiation>
+      </rico:hasInstantiation>
+   </rico:RecordResource>
+   <rico:RecordResource rdf:about="recordResource/-aspace_97f9b35833a23378b8724baaf9ff4c94">
+      <rico:includedIn rdf:resource="recordResource/-top"/>
+      <rdf:type rdf:resource="https://www.ica.org/standards/RiC/ontology#RecordSet"/>
+      <rico:hasRecordSetType rdf:resource="https://www.ica.org/standards/RiC/vocabularies/recordSetTypes#File"/>
+      <rico:title xml:lang="en">Perspective on the 1980's Task Force: "Students and Society"</rico:title>
+      <rdfs:label xml:lang="en">Perspective on the 1980's Task Force: "Students and Society"</rdfs:label>
+      <rico:date xml:lang="en">circa 1980-1989</rico:date>
+      <rico:hasInstantiation>
+         <rico:Instantiation rdf:about="instantiation/-aspace_97f9b35833a23378b8724baaf9ff4c94-i1">
+            <rico:instantiates rdf:resource="recordResource/-aspace_97f9b35833a23378b8724baaf9ff4c94"/>
+            <rico:title xml:lang="en">Perspective on the 1980's Task Force: "Students and Society"</rico:title>
+            <rdfs:label xml:lang="en">Perspective on the 1980's Task Force: "Students and Society"</rdfs:label>
+            <rico:date xml:lang="en">circa 1980-1989</rico:date>
+            <rdfs:seeAlso rdf:resource="https://www.siv.archives-nationales.culture.gouv.fr/siv/UD/00399/aspace_97f9b35833a23378b8724baaf9ff4c94"/>
+         </rico:Instantiation>
+      </rico:hasInstantiation>
+   </rico:RecordResource>
+   <rico:RecordResource rdf:about="recordResource/-aspace_197fa34e989b563966f6856ac8a4c783">
+      <rico:includedIn rdf:resource="recordResource/-top"/>
+      <rdf:type rdf:resource="https://www.ica.org/standards/RiC/ontology#RecordSet"/>
+      <rico:hasRecordSetType rdf:resource="https://www.ica.org/standards/RiC/vocabularies/recordSetTypes#File"/>
+      <rico:title xml:lang="en">Griswold-Perry Project</rico:title>
+      <rdfs:label xml:lang="en">Griswold-Perry Project</rdfs:label>
+      <rico:hasInstantiation>
+         <rico:Instantiation rdf:about="instantiation/-aspace_197fa34e989b563966f6856ac8a4c783-i1">
+            <rico:instantiates rdf:resource="recordResource/-aspace_197fa34e989b563966f6856ac8a4c783"/>
+            <rico:title xml:lang="en">Griswold-Perry Project</rico:title>
+            <rdfs:label xml:lang="en">Griswold-Perry Project</rdfs:label>
+            <rdfs:seeAlso rdf:resource="https://www.siv.archives-nationales.culture.gouv.fr/siv/UD/00399/aspace_197fa34e989b563966f6856ac8a4c783"/>
+         </rico:Instantiation>
+      </rico:hasInstantiation>
+   </rico:RecordResource>
+   <rico:RecordResource rdf:about="recordResource/-aspace_b17e18bf73af13945ad3c6a395642d3a">
+      <rico:includedIn rdf:resource="recordResource/-top"/>
+      <rdf:type rdf:resource="https://www.ica.org/standards/RiC/ontology#RecordSet"/>
+      <rico:hasRecordSetType rdf:resource="https://www.ica.org/standards/RiC/vocabularies/recordSetTypes#File"/>
+      <rico:title xml:lang="en">Islamic Teaching Materials Project</rico:title>
+      <rdfs:label xml:lang="en">Islamic Teaching Materials Project</rdfs:label>
+      <rico:beginningDate rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1973</rico:beginningDate>
+      <rico:endDate rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1975</rico:endDate>
+      <rico:date xml:lang="en">1973-1975</rico:date>
+      <rico:hasInstantiation>
+         <rico:Instantiation rdf:about="instantiation/-aspace_b17e18bf73af13945ad3c6a395642d3a-i1">
+            <rico:instantiates rdf:resource="recordResource/-aspace_b17e18bf73af13945ad3c6a395642d3a"/>
+            <rico:title xml:lang="en">Islamic Teaching Materials Project</rico:title>
+            <rdfs:label xml:lang="en">Islamic Teaching Materials Project</rdfs:label>
+            <rico:beginningDate rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1973</rico:beginningDate>
+            <rico:endDate rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1975</rico:endDate>
+            <rico:date xml:lang="en">1973-1975</rico:date>
+            <rdfs:seeAlso rdf:resource="https://www.siv.archives-nationales.culture.gouv.fr/siv/UD/00399/aspace_b17e18bf73af13945ad3c6a395642d3a"/>
+         </rico:Instantiation>
+      </rico:hasInstantiation>
+   </rico:RecordResource>
+   <rico:RecordResource rdf:about="recordResource/-aspace_fdd052779857536be2e27558d40a43c7">
+      <rico:includedIn rdf:resource="recordResource/-top"/>
+      <rdf:type rdf:resource="https://www.ica.org/standards/RiC/ontology#RecordSet"/>
+      <rico:hasRecordSetType rdf:resource="https://www.ica.org/standards/RiC/vocabularies/recordSetTypes#File"/>
+      <rico:title xml:lang="en">Secretarial work for the College of the Liberal Arts</rico:title>
+      <rdfs:label xml:lang="en">Secretarial work for the College of the Liberal Arts</rdfs:label>
+      <rico:beginningDate rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1978</rico:beginningDate>
+      <rico:endDate rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1979</rico:endDate>
+      <rico:date xml:lang="en">1978-1979</rico:date>
+      <rico:hasInstantiation>
+         <rico:Instantiation rdf:about="instantiation/-aspace_fdd052779857536be2e27558d40a43c7-i1">
+            <rico:instantiates rdf:resource="recordResource/-aspace_fdd052779857536be2e27558d40a43c7"/>
+            <rico:title xml:lang="en">Secretarial work for the College of the Liberal Arts</rico:title>
+            <rdfs:label xml:lang="en">Secretarial work for the College of the Liberal Arts</rdfs:label>
+            <rico:beginningDate rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1978</rico:beginningDate>
+            <rico:endDate rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1979</rico:endDate>
+            <rico:date xml:lang="en">1978-1979</rico:date>
+            <rdfs:seeAlso rdf:resource="https://www.siv.archives-nationales.culture.gouv.fr/siv/UD/00399/aspace_fdd052779857536be2e27558d40a43c7"/>
+         </rico:Instantiation>
+      </rico:hasInstantiation>
+   </rico:RecordResource>
+   <rico:RecordResource rdf:about="recordResource/-aspace_febf9f26cce267185f90d1fb8fcc4fe7">
+      <rico:includedIn rdf:resource="recordResource/-top"/>
+      <rdf:type rdf:resource="https://www.ica.org/standards/RiC/ontology#RecordSet"/>
+      <rico:hasRecordSetType rdf:resource="https://www.ica.org/standards/RiC/vocabularies/recordSetTypes#File"/>
+      <rico:title xml:lang="en">Academic Advising Award and subsequent committee work</rico:title>
+      <rdfs:label xml:lang="en">Academic Advising Award and subsequent committee work</rdfs:label>
+      <rico:date rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1976</rico:date>
+      <rico:date xml:lang="en">1976</rico:date>
+      <rico:hasInstantiation>
+         <rico:Instantiation rdf:about="instantiation/-aspace_febf9f26cce267185f90d1fb8fcc4fe7-i1">
+            <rico:instantiates rdf:resource="recordResource/-aspace_febf9f26cce267185f90d1fb8fcc4fe7"/>
+            <rico:title xml:lang="en">Academic Advising Award and subsequent committee work</rico:title>
+            <rdfs:label xml:lang="en">Academic Advising Award and subsequent committee work</rdfs:label>
+            <rico:date rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1976</rico:date>
+            <rico:date xml:lang="en">1976</rico:date>
+            <rdfs:seeAlso rdf:resource="https://www.siv.archives-nationales.culture.gouv.fr/siv/UD/00399/aspace_febf9f26cce267185f90d1fb8fcc4fe7"/>
+         </rico:Instantiation>
+      </rico:hasInstantiation>
+   </rico:RecordResource>
+   <rico:RecordResource rdf:about="recordResource/-aspace_7e50b34409fea237266d5400b2fde76c">
+      <rico:includedIn rdf:resource="recordResource/-top"/>
+      <rdf:type rdf:resource="https://www.ica.org/standards/RiC/ontology#RecordSet"/>
+      <rico:hasRecordSetType rdf:resource="https://www.ica.org/standards/RiC/vocabularies/recordSetTypes#File"/>
+      <rico:title xml:lang="en">Middle East History proposed syllabus for University of Pennsylvania</rico:title>
+      <rdfs:label xml:lang="en">Middle East History proposed syllabus for University of Pennsylvania</rdfs:label>
+      <rico:beginningDate rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1975</rico:beginningDate>
+      <rico:endDate rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1977</rico:endDate>
+      <rico:date xml:lang="en">1975-1977</rico:date>
+      <rico:hasInstantiation>
+         <rico:Instantiation rdf:about="instantiation/-aspace_7e50b34409fea237266d5400b2fde76c-i1">
+            <rico:instantiates rdf:resource="recordResource/-aspace_7e50b34409fea237266d5400b2fde76c"/>
+            <rico:title xml:lang="en">Middle East History proposed syllabus for University of Pennsylvania</rico:title>
+            <rdfs:label xml:lang="en">Middle East History proposed syllabus for University of Pennsylvania</rdfs:label>
+            <rico:beginningDate rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1975</rico:beginningDate>
+            <rico:endDate rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1977</rico:endDate>
+            <rico:date xml:lang="en">1975-1977</rico:date>
+            <rdfs:seeAlso rdf:resource="https://www.siv.archives-nationales.culture.gouv.fr/siv/UD/00399/aspace_7e50b34409fea237266d5400b2fde76c"/>
+         </rico:Instantiation>
+      </rico:hasInstantiation>
+   </rico:RecordResource>
+   <rico:RecordResource rdf:about="recordResource/-aspace_13d64a76ab2e66d3773aaf41a262962c">
+      <rico:includedIn rdf:resource="recordResource/-top"/>
+      <rdf:type rdf:resource="https://www.ica.org/standards/RiC/ontology#RecordSet"/>
+      <rico:hasRecordSetType rdf:resource="https://www.ica.org/standards/RiC/vocabularies/recordSetTypes#File"/>
+      <rico:title xml:lang="en">Borthwick, Bruce politics text critique</rico:title>
+      <rdfs:label xml:lang="en">Borthwick, Bruce politics text critique</rdfs:label>
+      <rico:beginningDate rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1974</rico:beginningDate>
+      <rico:endDate rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1982</rico:endDate>
+      <rico:date xml:lang="en">1974-1982</rico:date>
+      <rico:hasInstantiation>
+         <rico:Instantiation rdf:about="instantiation/-aspace_13d64a76ab2e66d3773aaf41a262962c-i1">
+            <rico:instantiates rdf:resource="recordResource/-aspace_13d64a76ab2e66d3773aaf41a262962c"/>
+            <rico:title xml:lang="en">Borthwick, Bruce politics text critique</rico:title>
+            <rdfs:label xml:lang="en">Borthwick, Bruce politics text critique</rdfs:label>
+            <rico:beginningDate rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1974</rico:beginningDate>
+            <rico:endDate rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1982</rico:endDate>
+            <rico:date xml:lang="en">1974-1982</rico:date>
+            <rdfs:seeAlso rdf:resource="https://www.siv.archives-nationales.culture.gouv.fr/siv/UD/00399/aspace_13d64a76ab2e66d3773aaf41a262962c"/>
+         </rico:Instantiation>
+      </rico:hasInstantiation>
+   </rico:RecordResource>
+   <rico:RecordResource rdf:about="recordResource/-aspace_29f813a7595c0fe50df6805ebdd2a619">
+      <rico:includedIn rdf:resource="recordResource/-top"/>
+      <rdf:type rdf:resource="https://www.ica.org/standards/RiC/ontology#RecordSet"/>
+      <rico:hasRecordSetType rdf:resource="https://www.ica.org/standards/RiC/vocabularies/recordSetTypes#File"/>
+      <rico:title xml:lang="en">Agriculture speaking engagements and clippings</rico:title>
+      <rdfs:label xml:lang="en">Agriculture speaking engagements and clippings</rdfs:label>
+      <rico:date rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1980</rico:date>
+      <rico:date xml:lang="en">1980</rico:date>
+      <rico:hasInstantiation>
+         <rico:Instantiation rdf:about="instantiation/-aspace_29f813a7595c0fe50df6805ebdd2a619-i1">
+            <rico:instantiates rdf:resource="recordResource/-aspace_29f813a7595c0fe50df6805ebdd2a619"/>
+            <rico:title xml:lang="en">Agriculture speaking engagements and clippings</rico:title>
+            <rdfs:label xml:lang="en">Agriculture speaking engagements and clippings</rdfs:label>
+            <rico:date rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1980</rico:date>
+            <rico:date xml:lang="en">1980</rico:date>
+            <rdfs:seeAlso rdf:resource="https://www.siv.archives-nationales.culture.gouv.fr/siv/UD/00399/aspace_29f813a7595c0fe50df6805ebdd2a619"/>
+         </rico:Instantiation>
+      </rico:hasInstantiation>
+   </rico:RecordResource>
+   <rico:RecordResource rdf:about="recordResource/-aspace_377a44e5c390954e9b21edb472691550">
+      <rico:includedIn rdf:resource="recordResource/-top"/>
+      <rdf:type rdf:resource="https://www.ica.org/standards/RiC/ontology#RecordSet"/>
+      <rico:hasRecordSetType rdf:resource="https://www.ica.org/standards/RiC/vocabularies/recordSetTypes#File"/>
+      <rico:title xml:lang="en">Agriculture speaking engagements and clippings</rico:title>
+      <rdfs:label xml:lang="en">Agriculture speaking engagements and clippings</rdfs:label>
+      <rico:beginningDate rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1974</rico:beginningDate>
+      <rico:endDate rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1979</rico:endDate>
+      <rico:date xml:lang="en">1974-1979</rico:date>
+      <rico:hasInstantiation>
+         <rico:Instantiation rdf:about="instantiation/-aspace_377a44e5c390954e9b21edb472691550-i1">
+            <rico:instantiates rdf:resource="recordResource/-aspace_377a44e5c390954e9b21edb472691550"/>
+            <rico:title xml:lang="en">Agriculture speaking engagements and clippings</rico:title>
+            <rdfs:label xml:lang="en">Agriculture speaking engagements and clippings</rdfs:label>
+            <rico:beginningDate rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1974</rico:beginningDate>
+            <rico:endDate rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1979</rico:endDate>
+            <rico:date xml:lang="en">1974-1979</rico:date>
+            <rdfs:seeAlso rdf:resource="https://www.siv.archives-nationales.culture.gouv.fr/siv/UD/00399/aspace_377a44e5c390954e9b21edb472691550"/>
+         </rico:Instantiation>
+      </rico:hasInstantiation>
+   </rico:RecordResource>
+   <rico:RecordResource rdf:about="recordResource/-aspace_4cad045e04ced821134d59ad11a04ae4">
+      <rico:includedIn rdf:resource="recordResource/-top"/>
+      <rdf:type rdf:resource="https://www.ica.org/standards/RiC/ontology#RecordSet"/>
+      <rico:hasRecordSetType rdf:resource="https://www.ica.org/standards/RiC/vocabularies/recordSetTypes#File"/>
+      <rico:title xml:lang="en">Agriculture speaking engagements and clippings</rico:title>
+      <rdfs:label xml:lang="en">Agriculture speaking engagements and clippings</rdfs:label>
+      <rico:beginningDate rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1974</rico:beginningDate>
+      <rico:endDate rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1979</rico:endDate>
+      <rico:date xml:lang="en">1974-1979</rico:date>
+      <rico:hasInstantiation>
+         <rico:Instantiation rdf:about="instantiation/-aspace_4cad045e04ced821134d59ad11a04ae4-i1">
+            <rico:instantiates rdf:resource="recordResource/-aspace_4cad045e04ced821134d59ad11a04ae4"/>
+            <rico:title xml:lang="en">Agriculture speaking engagements and clippings</rico:title>
+            <rdfs:label xml:lang="en">Agriculture speaking engagements and clippings</rdfs:label>
+            <rico:beginningDate rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1974</rico:beginningDate>
+            <rico:endDate rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1979</rico:endDate>
+            <rico:date xml:lang="en">1974-1979</rico:date>
+            <rdfs:seeAlso rdf:resource="https://www.siv.archives-nationales.culture.gouv.fr/siv/UD/00399/aspace_4cad045e04ced821134d59ad11a04ae4"/>
+         </rico:Instantiation>
+      </rico:hasInstantiation>
+   </rico:RecordResource>
+   <rico:RecordResource rdf:about="recordResource/-aspace_0607b5e03eb6f0c7e49eb95f740d8e28">
+      <rico:includedIn rdf:resource="recordResource/-top"/>
+      <rdf:type rdf:resource="https://www.ica.org/standards/RiC/ontology#RecordSet"/>
+      <rico:hasRecordSetType rdf:resource="https://www.ica.org/standards/RiC/vocabularies/recordSetTypes#File"/>
+      <rico:title xml:lang="en">Program review: East Asian Studies</rico:title>
+      <rdfs:label xml:lang="en">Program review: East Asian Studies</rdfs:label>
+      <rico:date rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1975</rico:date>
+      <rico:date xml:lang="en">1975</rico:date>
+      <rico:hasInstantiation>
+         <rico:Instantiation rdf:about="instantiation/-aspace_0607b5e03eb6f0c7e49eb95f740d8e28-i1">
+            <rico:instantiates rdf:resource="recordResource/-aspace_0607b5e03eb6f0c7e49eb95f740d8e28"/>
+            <rico:title xml:lang="en">Program review: East Asian Studies</rico:title>
+            <rdfs:label xml:lang="en">Program review: East Asian Studies</rdfs:label>
+            <rico:date rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1975</rico:date>
+            <rico:date xml:lang="en">1975</rico:date>
+            <rdfs:seeAlso rdf:resource="https://www.siv.archives-nationales.culture.gouv.fr/siv/UD/00399/aspace_0607b5e03eb6f0c7e49eb95f740d8e28"/>
+         </rico:Instantiation>
+      </rico:hasInstantiation>
+   </rico:RecordResource>
+   <rico:RecordResource rdf:about="recordResource/-aspace_3ea4de200e0f1d25eaa737f86806ce6f">
+      <rico:includedIn rdf:resource="recordResource/-top"/>
+      <rdf:type rdf:resource="https://www.ica.org/standards/RiC/ontology#RecordSet"/>
+      <rico:hasRecordSetType rdf:resource="https://www.ica.org/standards/RiC/vocabularies/recordSetTypes#File"/>
+      <rico:title xml:lang="en">Class of 1933 Humanities Award 1972 and subsequent committee work 1973-1975</rico:title>
+      <rdfs:label xml:lang="en">Class of 1933 Humanities Award 1972 and subsequent committee work 1973-1975</rdfs:label>
+      <rico:beginningDate rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1972</rico:beginningDate>
+      <rico:endDate rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1975</rico:endDate>
+      <rico:date xml:lang="en">1972-1975</rico:date>
+      <rico:hasInstantiation>
+         <rico:Instantiation rdf:about="instantiation/-aspace_3ea4de200e0f1d25eaa737f86806ce6f-i1">
+            <rico:instantiates rdf:resource="recordResource/-aspace_3ea4de200e0f1d25eaa737f86806ce6f"/>
+            <rico:title xml:lang="en">Class of 1933 Humanities Award 1972 and subsequent committee work 1973-1975</rico:title>
+            <rdfs:label xml:lang="en">Class of 1933 Humanities Award 1972 and subsequent committee work 1973-1975</rdfs:label>
+            <rico:beginningDate rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1972</rico:beginningDate>
+            <rico:endDate rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1975</rico:endDate>
+            <rico:date xml:lang="en">1972-1975</rico:date>
+            <rdfs:seeAlso rdf:resource="https://www.siv.archives-nationales.culture.gouv.fr/siv/UD/00399/aspace_3ea4de200e0f1d25eaa737f86806ce6f"/>
+         </rico:Instantiation>
+      </rico:hasInstantiation>
+   </rico:RecordResource>
+   <rico:RecordResource rdf:about="recordResource/-aspace_6037a6e6903fe5b270e30caf119ce5a8">
+      <rico:includedIn rdf:resource="recordResource/-top"/>
+      <rdf:type rdf:resource="https://www.ica.org/standards/RiC/ontology#RecordSet"/>
+      <rico:hasRecordSetType rdf:resource="https://www.ica.org/standards/RiC/vocabularies/recordSetTypes#File"/>
+      <rico:title xml:lang="en">Heravi - Middle East dictionary</rico:title>
+      <rdfs:label xml:lang="en">Heravi - Middle East dictionary</rdfs:label>
+      <rico:date rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1969</rico:date>
+      <rico:date xml:lang="en">1969</rico:date>
+      <rico:hasInstantiation>
+         <rico:Instantiation rdf:about="instantiation/-aspace_6037a6e6903fe5b270e30caf119ce5a8-i1">
+            <rico:instantiates rdf:resource="recordResource/-aspace_6037a6e6903fe5b270e30caf119ce5a8"/>
+            <rico:title xml:lang="en">Heravi - Middle East dictionary</rico:title>
+            <rdfs:label xml:lang="en">Heravi - Middle East dictionary</rdfs:label>
+            <rico:date rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1969</rico:date>
+            <rico:date xml:lang="en">1969</rico:date>
+            <rdfs:seeAlso rdf:resource="https://www.siv.archives-nationales.culture.gouv.fr/siv/UD/00399/aspace_6037a6e6903fe5b270e30caf119ce5a8"/>
+         </rico:Instantiation>
+      </rico:hasInstantiation>
+   </rico:RecordResource>
+   <rico:RecordResource rdf:about="recordResource/-aspace_7aea7f83fef2cd94265e55cb4759133d">
+      <rico:includedIn rdf:resource="recordResource/-top"/>
+      <rdf:type rdf:resource="https://www.ica.org/standards/RiC/ontology#RecordSet"/>
+      <rico:hasRecordSetType rdf:resource="https://www.ica.org/standards/RiC/vocabularies/recordSetTypes#File"/>
+      <rico:title xml:lang="en">Correspondence and Newspaper Clippings</rico:title>
+      <rdfs:label xml:lang="en">Correspondence and Newspaper Clippings</rdfs:label>
+      <rico:beginningDate rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1981</rico:beginningDate>
+      <rico:endDate rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">2000</rico:endDate>
+      <rico:date xml:lang="en">1981-2000</rico:date>
+      <rico:hasInstantiation>
+         <rico:Instantiation rdf:about="instantiation/-aspace_7aea7f83fef2cd94265e55cb4759133d-i1">
+            <rico:instantiates rdf:resource="recordResource/-aspace_7aea7f83fef2cd94265e55cb4759133d"/>
+            <rico:title xml:lang="en">Correspondence and Newspaper Clippings</rico:title>
+            <rdfs:label xml:lang="en">Correspondence and Newspaper Clippings</rdfs:label>
+            <rico:beginningDate rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1981</rico:beginningDate>
+            <rico:endDate rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">2000</rico:endDate>
+            <rico:date xml:lang="en">1981-2000</rico:date>
+            <rdfs:seeAlso rdf:resource="https://www.siv.archives-nationales.culture.gouv.fr/siv/UD/00399/aspace_7aea7f83fef2cd94265e55cb4759133d"/>
+         </rico:Instantiation>
+      </rico:hasInstantiation>
+   </rico:RecordResource>
+   <rico:RecordResource rdf:about="recordResource/-aspace_6471f2ed19e4a76be933465fda9f30c4">
+      <rico:includedIn rdf:resource="recordResource/-top"/>
+      <rdf:type rdf:resource="https://www.ica.org/standards/RiC/ontology#RecordSet"/>
+      <rico:hasRecordSetType rdf:resource="https://www.ica.org/standards/RiC/vocabularies/recordSetTypes#File"/>
+      <rico:title xml:lang="en">Middle East Encyclopedia Sources</rico:title>
+      <rdfs:label xml:lang="en">Middle East Encyclopedia Sources</rdfs:label>
+      <rico:beginningDate rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">2005</rico:beginningDate>
+      <rico:endDate rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">2006</rico:endDate>
+      <rico:date xml:lang="en">2005-2006</rico:date>
+      <rico:hasInstantiation>
+         <rico:Instantiation rdf:about="instantiation/-aspace_6471f2ed19e4a76be933465fda9f30c4-i1">
+            <rico:instantiates rdf:resource="recordResource/-aspace_6471f2ed19e4a76be933465fda9f30c4"/>
+            <rico:title xml:lang="en">Middle East Encyclopedia Sources</rico:title>
+            <rdfs:label xml:lang="en">Middle East Encyclopedia Sources</rdfs:label>
+            <rico:beginningDate rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">2005</rico:beginningDate>
+            <rico:endDate rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">2006</rico:endDate>
+            <rico:date xml:lang="en">2005-2006</rico:date>
+            <rdfs:seeAlso rdf:resource="https://www.siv.archives-nationales.culture.gouv.fr/siv/UD/00399/aspace_6471f2ed19e4a76be933465fda9f30c4"/>
+         </rico:Instantiation>
+      </rico:hasInstantiation>
+   </rico:RecordResource>
+   <rico:RecordResource rdf:about="recordResource/-aspace_cd8ef38b6e2a613f00d5897aa1bc2ada">
+      <rico:includedIn rdf:resource="recordResource/-top"/>
+      <rdf:type rdf:resource="https://www.ica.org/standards/RiC/ontology#RecordSet"/>
+      <rico:hasRecordSetType rdf:resource="https://www.ica.org/standards/RiC/vocabularies/recordSetTypes#File"/>
+      <rico:title xml:lang="en">Contemporary Middle East:: Westview Reader</rico:title>
+      <rdfs:label xml:lang="en">Contemporary Middle East:: Westview Reader</rdfs:label>
+      <rico:date rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">2005</rico:date>
+      <rico:date xml:lang="en">2005</rico:date>
+      <rico:hasInstantiation>
+         <rico:Instantiation rdf:about="instantiation/-aspace_cd8ef38b6e2a613f00d5897aa1bc2ada-i1">
+            <rico:instantiates rdf:resource="recordResource/-aspace_cd8ef38b6e2a613f00d5897aa1bc2ada"/>
+            <rico:title xml:lang="en">Contemporary Middle East:: Westview Reader</rico:title>
+            <rdfs:label xml:lang="en">Contemporary Middle East:: Westview Reader</rdfs:label>
+            <rico:date rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">2005</rico:date>
+            <rico:date xml:lang="en">2005</rico:date>
+            <rdfs:seeAlso rdf:resource="https://www.siv.archives-nationales.culture.gouv.fr/siv/UD/00399/aspace_cd8ef38b6e2a613f00d5897aa1bc2ada"/>
+         </rico:Instantiation>
+      </rico:hasInstantiation>
+   </rico:RecordResource>
+   <rico:RecordResource rdf:about="recordResource/-aspace_8969b5db41c4d526f1fa4a15c77d7fcc">
+      <rico:includedIn rdf:resource="recordResource/-top"/>
+      <rdf:type rdf:resource="https://www.ica.org/standards/RiC/ontology#RecordSet"/>
+      <rico:hasRecordSetType rdf:resource="https://www.ica.org/standards/RiC/vocabularies/recordSetTypes#File"/>
+      <rico:title xml:lang="en">The Egyptian Nationalist Party - revised dissertation - not published</rico:title>
+      <rdfs:label xml:lang="en">The Egyptian Nationalist Party - revised dissertation - not published</rdfs:label>
+      <rico:hasInstantiation>
+         <rico:Instantiation rdf:about="instantiation/-aspace_8969b5db41c4d526f1fa4a15c77d7fcc-i1">
+            <rico:instantiates rdf:resource="recordResource/-aspace_8969b5db41c4d526f1fa4a15c77d7fcc"/>
+            <rico:title xml:lang="en">The Egyptian Nationalist Party - revised dissertation - not published</rico:title>
+            <rdfs:label xml:lang="en">The Egyptian Nationalist Party - revised dissertation - not published</rdfs:label>
+            <rdfs:seeAlso rdf:resource="https://www.siv.archives-nationales.culture.gouv.fr/siv/UD/00399/aspace_8969b5db41c4d526f1fa4a15c77d7fcc"/>
+         </rico:Instantiation>
+      </rico:hasInstantiation>
+   </rico:RecordResource>
+   <rico:RecordResource rdf:about="recordResource/-aspace_d66c063da5c0bcc5c491d667b57be28e">
+      <rico:includedIn rdf:resource="recordResource/-top"/>
+      <rdf:type rdf:resource="https://www.ica.org/standards/RiC/ontology#RecordSet"/>
+      <rico:hasRecordSetType rdf:resource="https://www.ica.org/standards/RiC/vocabularies/recordSetTypes#File"/>
+      <rico:title xml:lang="en">The Egyptian Nationalist Party - revised dissertation - not published</rico:title>
+      <rdfs:label xml:lang="en">The Egyptian Nationalist Party - revised dissertation - not published</rdfs:label>
+      <rico:hasInstantiation>
+         <rico:Instantiation rdf:about="instantiation/-aspace_d66c063da5c0bcc5c491d667b57be28e-i1">
+            <rico:instantiates rdf:resource="recordResource/-aspace_d66c063da5c0bcc5c491d667b57be28e"/>
+            <rico:title xml:lang="en">The Egyptian Nationalist Party - revised dissertation - not published</rico:title>
+            <rdfs:label xml:lang="en">The Egyptian Nationalist Party - revised dissertation - not published</rdfs:label>
+            <rdfs:seeAlso rdf:resource="https://www.siv.archives-nationales.culture.gouv.fr/siv/UD/00399/aspace_d66c063da5c0bcc5c491d667b57be28e"/>
+         </rico:Instantiation>
+      </rico:hasInstantiation>
+   </rico:RecordResource>
+   <rico:RecordResource rdf:about="recordResource/-aspace_42fab0bc1ded0dcbb68594e4fb535d5b">
+      <rico:includedIn rdf:resource="recordResource/-top"/>
+      <rdf:type rdf:resource="https://www.ica.org/standards/RiC/ontology#RecordSet"/>
+      <rico:hasRecordSetType rdf:resource="https://www.ica.org/standards/RiC/vocabularies/recordSetTypes#File"/>
+      <rico:title xml:lang="en">The Egyptian Nationalist Party - revised dissertation - not published</rico:title>
+      <rdfs:label xml:lang="en">The Egyptian Nationalist Party - revised dissertation - not published</rdfs:label>
+      <rico:hasInstantiation>
+         <rico:Instantiation rdf:about="instantiation/-aspace_42fab0bc1ded0dcbb68594e4fb535d5b-i1">
+            <rico:instantiates rdf:resource="recordResource/-aspace_42fab0bc1ded0dcbb68594e4fb535d5b"/>
+            <rico:title xml:lang="en">The Egyptian Nationalist Party - revised dissertation - not published</rico:title>
+            <rdfs:label xml:lang="en">The Egyptian Nationalist Party - revised dissertation - not published</rdfs:label>
+            <rdfs:seeAlso rdf:resource="https://www.siv.archives-nationales.culture.gouv.fr/siv/UD/00399/aspace_42fab0bc1ded0dcbb68594e4fb535d5b"/>
+         </rico:Instantiation>
+      </rico:hasInstantiation>
+   </rico:RecordResource>
+   <rico:RecordResource rdf:about="recordResource/-aspace_1c13c12aab473a9008a0c647815e2fab">
+      <rico:includedIn rdf:resource="recordResource/-top"/>
+      <rdf:type rdf:resource="https://www.ica.org/standards/RiC/ontology#RecordSet"/>
+      <rico:hasRecordSetType rdf:resource="https://www.ica.org/standards/RiC/vocabularies/recordSetTypes#File"/>
+      <rico:title xml:lang="en">The Egyptian Nationalist Party - original version of PhD dissertation</rico:title>
+      <rdfs:label xml:lang="en">The Egyptian Nationalist Party - original version of PhD dissertation</rdfs:label>
+      <rico:date rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1965</rico:date>
+      <rico:date xml:lang="en">1965</rico:date>
+      <rico:hasInstantiation>
+         <rico:Instantiation rdf:about="instantiation/-aspace_1c13c12aab473a9008a0c647815e2fab-i1">
+            <rico:instantiates rdf:resource="recordResource/-aspace_1c13c12aab473a9008a0c647815e2fab"/>
+            <rico:title xml:lang="en">The Egyptian Nationalist Party - original version of PhD dissertation</rico:title>
+            <rdfs:label xml:lang="en">The Egyptian Nationalist Party - original version of PhD dissertation</rdfs:label>
+            <rico:date rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1965</rico:date>
+            <rico:date xml:lang="en">1965</rico:date>
+            <rdfs:seeAlso rdf:resource="https://www.siv.archives-nationales.culture.gouv.fr/siv/UD/00399/aspace_1c13c12aab473a9008a0c647815e2fab"/>
+         </rico:Instantiation>
+      </rico:hasInstantiation>
+   </rico:RecordResource>
+   <rico:RecordResource rdf:about="recordResource/-aspace_23a95ca89b05ead8ac593c2e201a8680">
+      <rico:includedIn rdf:resource="recordResource/-top"/>
+      <rdf:type rdf:resource="https://www.ica.org/standards/RiC/ontology#RecordSet"/>
+      <rico:hasRecordSetType rdf:resource="https://www.ica.org/standards/RiC/vocabularies/recordSetTypes#File"/>
+      <rico:title xml:lang="en">The Egyptian Nationalist Party - original version of PhD dissertation</rico:title>
+      <rdfs:label xml:lang="en">The Egyptian Nationalist Party - original version of PhD dissertation</rdfs:label>
+      <rico:date rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1965</rico:date>
+      <rico:date xml:lang="en">1965</rico:date>
+      <rico:hasInstantiation>
+         <rico:Instantiation rdf:about="instantiation/-aspace_23a95ca89b05ead8ac593c2e201a8680-i1">
+            <rico:instantiates rdf:resource="recordResource/-aspace_23a95ca89b05ead8ac593c2e201a8680"/>
+            <rico:title xml:lang="en">The Egyptian Nationalist Party - original version of PhD dissertation</rico:title>
+            <rdfs:label xml:lang="en">The Egyptian Nationalist Party - original version of PhD dissertation</rdfs:label>
+            <rico:date rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1965</rico:date>
+            <rico:date xml:lang="en">1965</rico:date>
+            <rdfs:seeAlso rdf:resource="https://www.siv.archives-nationales.culture.gouv.fr/siv/UD/00399/aspace_23a95ca89b05ead8ac593c2e201a8680"/>
+         </rico:Instantiation>
+      </rico:hasInstantiation>
+   </rico:RecordResource>
+   <rico:RecordResource rdf:about="recordResource/-aspace_ef79a7d77c974e8010de043be7b7615e">
+      <rico:includedIn rdf:resource="recordResource/-top"/>
+      <rdf:type rdf:resource="https://www.ica.org/standards/RiC/ontology#RecordSet"/>
+      <rico:hasRecordSetType rdf:resource="https://www.ica.org/standards/RiC/vocabularies/recordSetTypes#File"/>
+      <rico:title xml:lang="en">The Egyptian Nationalist Party - original version of PhD dissertation</rico:title>
+      <rdfs:label xml:lang="en">The Egyptian Nationalist Party - original version of PhD dissertation</rdfs:label>
+      <rico:date rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1965</rico:date>
+      <rico:date xml:lang="en">1965</rico:date>
+      <rico:hasInstantiation>
+         <rico:Instantiation rdf:about="instantiation/-aspace_ef79a7d77c974e8010de043be7b7615e-i1">
+            <rico:instantiates rdf:resource="recordResource/-aspace_ef79a7d77c974e8010de043be7b7615e"/>
+            <rico:title xml:lang="en">The Egyptian Nationalist Party - original version of PhD dissertation</rico:title>
+            <rdfs:label xml:lang="en">The Egyptian Nationalist Party - original version of PhD dissertation</rdfs:label>
+            <rico:date rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1965</rico:date>
+            <rico:date xml:lang="en">1965</rico:date>
+            <rdfs:seeAlso rdf:resource="https://www.siv.archives-nationales.culture.gouv.fr/siv/UD/00399/aspace_ef79a7d77c974e8010de043be7b7615e"/>
+         </rico:Instantiation>
+      </rico:hasInstantiation>
+   </rico:RecordResource>
+   <rico:RecordResource rdf:about="recordResource/-aspace_76414b47893fc34fbfa6f3e572c68eb6">
+      <rico:includedIn rdf:resource="recordResource/-top"/>
+      <rdf:type rdf:resource="https://www.ica.org/standards/RiC/ontology#RecordSet"/>
+      <rico:hasRecordSetType rdf:resource="https://www.ica.org/standards/RiC/vocabularies/recordSetTypes#File"/>
+      <rico:title xml:lang="en">Concise History of the Middle East - 2nd ed. - typescript manuscript</rico:title>
+      <rdfs:label xml:lang="en">Concise History of the Middle East - 2nd ed. - typescript manuscript</rdfs:label>
+      <rico:date rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1982</rico:date>
+      <rico:date xml:lang="en">1982</rico:date>
+      <rico:hasInstantiation>
+         <rico:Instantiation rdf:about="instantiation/-aspace_76414b47893fc34fbfa6f3e572c68eb6-i1">
+            <rico:instantiates rdf:resource="recordResource/-aspace_76414b47893fc34fbfa6f3e572c68eb6"/>
+            <rico:title xml:lang="en">Concise History of the Middle East - 2nd ed. - typescript manuscript</rico:title>
+            <rdfs:label xml:lang="en">Concise History of the Middle East - 2nd ed. - typescript manuscript</rdfs:label>
+            <rico:date rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1982</rico:date>
+            <rico:date xml:lang="en">1982</rico:date>
+            <rdfs:seeAlso rdf:resource="https://www.siv.archives-nationales.culture.gouv.fr/siv/UD/00399/aspace_76414b47893fc34fbfa6f3e572c68eb6"/>
+         </rico:Instantiation>
+      </rico:hasInstantiation>
+   </rico:RecordResource>
+   <rico:RecordResource rdf:about="recordResource/-aspace_f416dcfd46bf9aceb7222b47a279f92e">
+      <rico:includedIn rdf:resource="recordResource/-top"/>
+      <rdf:type rdf:resource="https://www.ica.org/standards/RiC/ontology#RecordSet"/>
+      <rico:hasRecordSetType rdf:resource="https://www.ica.org/standards/RiC/vocabularies/recordSetTypes#File"/>
+      <rico:title xml:lang="en">Concise History of the Middle East - 2nd ed. - typescript manuscript</rico:title>
+      <rdfs:label xml:lang="en">Concise History of the Middle East - 2nd ed. - typescript manuscript</rdfs:label>
+      <rico:date rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1982</rico:date>
+      <rico:date xml:lang="en">1982</rico:date>
+      <rico:hasInstantiation>
+         <rico:Instantiation rdf:about="instantiation/-aspace_f416dcfd46bf9aceb7222b47a279f92e-i1">
+            <rico:instantiates rdf:resource="recordResource/-aspace_f416dcfd46bf9aceb7222b47a279f92e"/>
+            <rico:title xml:lang="en">Concise History of the Middle East - 2nd ed. - typescript manuscript</rico:title>
+            <rdfs:label xml:lang="en">Concise History of the Middle East - 2nd ed. - typescript manuscript</rdfs:label>
+            <rico:date rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1982</rico:date>
+            <rico:date xml:lang="en">1982</rico:date>
+            <rdfs:seeAlso rdf:resource="https://www.siv.archives-nationales.culture.gouv.fr/siv/UD/00399/aspace_f416dcfd46bf9aceb7222b47a279f92e"/>
+         </rico:Instantiation>
+      </rico:hasInstantiation>
+   </rico:RecordResource>
+   <rico:RecordResource rdf:about="recordResource/-aspace_cd2ac1461eca028b59376a821381a3c3">
+      <rico:includedIn rdf:resource="recordResource/-top"/>
+      <rdf:type rdf:resource="https://www.ica.org/standards/RiC/ontology#RecordSet"/>
+      <rico:hasRecordSetType rdf:resource="https://www.ica.org/standards/RiC/vocabularies/recordSetTypes#File"/>
+      <rico:title xml:lang="en">Concise History of the Middle East - 2nd ed. - typescript manuscript</rico:title>
+      <rdfs:label xml:lang="en">Concise History of the Middle East - 2nd ed. - typescript manuscript</rdfs:label>
+      <rico:date rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1982</rico:date>
+      <rico:date xml:lang="en">1982</rico:date>
+      <rico:hasInstantiation>
+         <rico:Instantiation rdf:about="instantiation/-aspace_cd2ac1461eca028b59376a821381a3c3-i1">
+            <rico:instantiates rdf:resource="recordResource/-aspace_cd2ac1461eca028b59376a821381a3c3"/>
+            <rico:title xml:lang="en">Concise History of the Middle East - 2nd ed. - typescript manuscript</rico:title>
+            <rdfs:label xml:lang="en">Concise History of the Middle East - 2nd ed. - typescript manuscript</rdfs:label>
+            <rico:date rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1982</rico:date>
+            <rico:date xml:lang="en">1982</rico:date>
+            <rdfs:seeAlso rdf:resource="https://www.siv.archives-nationales.culture.gouv.fr/siv/UD/00399/aspace_cd2ac1461eca028b59376a821381a3c3"/>
+         </rico:Instantiation>
+      </rico:hasInstantiation>
+   </rico:RecordResource>
+   <rico:RecordResource rdf:about="recordResource/-aspace_6ff3a77ddcb66ab17ee9dee5fa85d16f">
+      <rico:includedIn rdf:resource="recordResource/-top"/>
+      <rdf:type rdf:resource="https://www.ica.org/standards/RiC/ontology#RecordSet"/>
+      <rico:hasRecordSetType rdf:resource="https://www.ica.org/standards/RiC/vocabularies/recordSetTypes#File"/>
+      <rico:title xml:lang="en">Concise History of the Middle East - 2nd ed. - typescript manuscript</rico:title>
+      <rdfs:label xml:lang="en">Concise History of the Middle East - 2nd ed. - typescript manuscript</rdfs:label>
+      <rico:date rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1982</rico:date>
+      <rico:date xml:lang="en">1982</rico:date>
+      <rico:hasInstantiation>
+         <rico:Instantiation rdf:about="instantiation/-aspace_6ff3a77ddcb66ab17ee9dee5fa85d16f-i1">
+            <rico:instantiates rdf:resource="recordResource/-aspace_6ff3a77ddcb66ab17ee9dee5fa85d16f"/>
+            <rico:title xml:lang="en">Concise History of the Middle East - 2nd ed. - typescript manuscript</rico:title>
+            <rdfs:label xml:lang="en">Concise History of the Middle East - 2nd ed. - typescript manuscript</rdfs:label>
+            <rico:date rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1982</rico:date>
+            <rico:date xml:lang="en">1982</rico:date>
+            <rdfs:seeAlso rdf:resource="https://www.siv.archives-nationales.culture.gouv.fr/siv/UD/00399/aspace_6ff3a77ddcb66ab17ee9dee5fa85d16f"/>
+         </rico:Instantiation>
+      </rico:hasInstantiation>
+   </rico:RecordResource>
+   <rico:RecordResource rdf:about="recordResource/-aspace_c9bee181cc2a7d1af9c5938c2103b1be">
+      <rico:includedIn rdf:resource="recordResource/-top"/>
+      <rdf:type rdf:resource="https://www.ica.org/standards/RiC/ontology#RecordSet"/>
+      <rico:hasRecordSetType rdf:resource="https://www.ica.org/standards/RiC/vocabularies/recordSetTypes#File"/>
+      <rico:title xml:lang="en">Concise History of the Middle East - 2nd ed. - typescript manuscript</rico:title>
+      <rdfs:label xml:lang="en">Concise History of the Middle East - 2nd ed. - typescript manuscript</rdfs:label>
+      <rico:date rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1982</rico:date>
+      <rico:date xml:lang="en">1982</rico:date>
+      <rico:hasInstantiation>
+         <rico:Instantiation rdf:about="instantiation/-aspace_c9bee181cc2a7d1af9c5938c2103b1be-i1">
+            <rico:instantiates rdf:resource="recordResource/-aspace_c9bee181cc2a7d1af9c5938c2103b1be"/>
+            <rico:title xml:lang="en">Concise History of the Middle East - 2nd ed. - typescript manuscript</rico:title>
+            <rdfs:label xml:lang="en">Concise History of the Middle East - 2nd ed. - typescript manuscript</rdfs:label>
+            <rico:date rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1982</rico:date>
+            <rico:date xml:lang="en">1982</rico:date>
+            <rdfs:seeAlso rdf:resource="https://www.siv.archives-nationales.culture.gouv.fr/siv/UD/00399/aspace_c9bee181cc2a7d1af9c5938c2103b1be"/>
+         </rico:Instantiation>
+      </rico:hasInstantiation>
+   </rico:RecordResource>
+   <rico:RecordResource rdf:about="recordResource/-aspace_ede65c042f825a1a794d58261b2e4438">
+      <rico:includedIn rdf:resource="recordResource/-top"/>
+      <rdf:type rdf:resource="https://www.ica.org/standards/RiC/ontology#RecordSet"/>
+      <rico:hasRecordSetType rdf:resource="https://www.ica.org/standards/RiC/vocabularies/recordSetTypes#File"/>
+      <rico:title xml:lang="en">Historical Dictionary of Egypt (rev. ed.) - typed manuscript</rico:title>
+      <rdfs:label xml:lang="en">Historical Dictionary of Egypt (rev. ed.) - typed manuscript</rdfs:label>
+      <rico:date rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1994</rico:date>
+      <rico:date xml:lang="en">1994</rico:date>
+      <rico:hasInstantiation>
+         <rico:Instantiation rdf:about="instantiation/-aspace_ede65c042f825a1a794d58261b2e4438-i1">
+            <rico:instantiates rdf:resource="recordResource/-aspace_ede65c042f825a1a794d58261b2e4438"/>
+            <rico:title xml:lang="en">Historical Dictionary of Egypt (rev. ed.) - typed manuscript</rico:title>
+            <rdfs:label xml:lang="en">Historical Dictionary of Egypt (rev. ed.) - typed manuscript</rdfs:label>
+            <rico:date rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1994</rico:date>
+            <rico:date xml:lang="en">1994</rico:date>
+            <rdfs:seeAlso rdf:resource="https://www.siv.archives-nationales.culture.gouv.fr/siv/UD/00399/aspace_ede65c042f825a1a794d58261b2e4438"/>
+         </rico:Instantiation>
+      </rico:hasInstantiation>
+   </rico:RecordResource>
+   <rico:RecordResource rdf:about="recordResource/-aspace_68d0bf31791ecf55f06e7547b45212b1">
+      <rico:includedIn rdf:resource="recordResource/-top"/>
+      <rdf:type rdf:resource="https://www.ica.org/standards/RiC/ontology#RecordSet"/>
+      <rico:hasRecordSetType rdf:resource="https://www.ica.org/standards/RiC/vocabularies/recordSetTypes#File"/>
+      <rico:title xml:lang="en">Historical Dictionary of Egypt (rev. ed.) - typed manuscript</rico:title>
+      <rdfs:label xml:lang="en">Historical Dictionary of Egypt (rev. ed.) - typed manuscript</rdfs:label>
+      <rico:date rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1994</rico:date>
+      <rico:date xml:lang="en">1994</rico:date>
+      <rico:hasInstantiation>
+         <rico:Instantiation rdf:about="instantiation/-aspace_68d0bf31791ecf55f06e7547b45212b1-i1">
+            <rico:instantiates rdf:resource="recordResource/-aspace_68d0bf31791ecf55f06e7547b45212b1"/>
+            <rico:title xml:lang="en">Historical Dictionary of Egypt (rev. ed.) - typed manuscript</rico:title>
+            <rdfs:label xml:lang="en">Historical Dictionary of Egypt (rev. ed.) - typed manuscript</rdfs:label>
+            <rico:date rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1994</rico:date>
+            <rico:date xml:lang="en">1994</rico:date>
+            <rdfs:seeAlso rdf:resource="https://www.siv.archives-nationales.culture.gouv.fr/siv/UD/00399/aspace_68d0bf31791ecf55f06e7547b45212b1"/>
+         </rico:Instantiation>
+      </rico:hasInstantiation>
+   </rico:RecordResource>
+   <rico:RecordResource rdf:about="recordResource/-aspace_a6276bd7f8891b7b5e6e68be45458eb4">
+      <rico:includedIn rdf:resource="recordResource/-top"/>
+      <rdf:type rdf:resource="https://www.ica.org/standards/RiC/ontology#RecordSet"/>
+      <rico:hasRecordSetType rdf:resource="https://www.ica.org/standards/RiC/vocabularies/recordSetTypes#File"/>
+      <rico:title xml:lang="en">Historical Dictionary of Egypt (rev. ed.) - typed manuscript</rico:title>
+      <rdfs:label xml:lang="en">Historical Dictionary of Egypt (rev. ed.) - typed manuscript</rdfs:label>
+      <rico:date rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1994</rico:date>
+      <rico:date xml:lang="en">1994</rico:date>
+      <rico:hasInstantiation>
+         <rico:Instantiation rdf:about="instantiation/-aspace_a6276bd7f8891b7b5e6e68be45458eb4-i1">
+            <rico:instantiates rdf:resource="recordResource/-aspace_a6276bd7f8891b7b5e6e68be45458eb4"/>
+            <rico:title xml:lang="en">Historical Dictionary of Egypt (rev. ed.) - typed manuscript</rico:title>
+            <rdfs:label xml:lang="en">Historical Dictionary of Egypt (rev. ed.) - typed manuscript</rdfs:label>
+            <rico:date rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1994</rico:date>
+            <rico:date xml:lang="en">1994</rico:date>
+            <rdfs:seeAlso rdf:resource="https://www.siv.archives-nationales.culture.gouv.fr/siv/UD/00399/aspace_a6276bd7f8891b7b5e6e68be45458eb4"/>
+         </rico:Instantiation>
+      </rico:hasInstantiation>
+   </rico:RecordResource>
+   <rico:RecordResource rdf:about="recordResource/-aspace_1040f693ca1b1e29472e19029a7d6cc9">
+      <rico:includedIn rdf:resource="recordResource/-top"/>
+      <rdf:type rdf:resource="https://www.ica.org/standards/RiC/ontology#RecordSet"/>
+      <rico:hasRecordSetType rdf:resource="https://www.ica.org/standards/RiC/vocabularies/recordSetTypes#File"/>
+      <rico:title xml:lang="en">Historical Dictionary of Egypt (rev. ed.) - typed manuscript</rico:title>
+      <rdfs:label xml:lang="en">Historical Dictionary of Egypt (rev. ed.) - typed manuscript</rdfs:label>
+      <rico:date rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1994</rico:date>
+      <rico:date xml:lang="en">1994</rico:date>
+      <rico:hasInstantiation>
+         <rico:Instantiation rdf:about="instantiation/-aspace_1040f693ca1b1e29472e19029a7d6cc9-i1">
+            <rico:instantiates rdf:resource="recordResource/-aspace_1040f693ca1b1e29472e19029a7d6cc9"/>
+            <rico:title xml:lang="en">Historical Dictionary of Egypt (rev. ed.) - typed manuscript</rico:title>
+            <rdfs:label xml:lang="en">Historical Dictionary of Egypt (rev. ed.) - typed manuscript</rdfs:label>
+            <rico:date rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1994</rico:date>
+            <rico:date xml:lang="en">1994</rico:date>
+            <rdfs:seeAlso rdf:resource="https://www.siv.archives-nationales.culture.gouv.fr/siv/UD/00399/aspace_1040f693ca1b1e29472e19029a7d6cc9"/>
+         </rico:Instantiation>
+      </rico:hasInstantiation>
+   </rico:RecordResource>
+   <rico:RecordResource rdf:about="recordResource/-aspace_a12e66fef32ec01381c16918ffb6f4ed">
+      <rico:includedIn rdf:resource="recordResource/-top"/>
+      <rdf:type rdf:resource="https://www.ica.org/standards/RiC/ontology#RecordSet"/>
+      <rico:hasRecordSetType rdf:resource="https://www.ica.org/standards/RiC/vocabularies/recordSetTypes#File"/>
+      <rico:title xml:lang="en">Re-Envisioning Egypt</rico:title>
+      <rdfs:label xml:lang="en">Re-Envisioning Egypt</rdfs:label>
+      <rico:beginningDate rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">2003</rico:beginningDate>
+      <rico:endDate rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">2005</rico:endDate>
+      <rico:date xml:lang="en">2003-2005</rico:date>
+      <rico:hasInstantiation>
+         <rico:Instantiation rdf:about="instantiation/-aspace_a12e66fef32ec01381c16918ffb6f4ed-i1">
+            <rico:instantiates rdf:resource="recordResource/-aspace_a12e66fef32ec01381c16918ffb6f4ed"/>
+            <rico:title xml:lang="en">Re-Envisioning Egypt</rico:title>
+            <rdfs:label xml:lang="en">Re-Envisioning Egypt</rdfs:label>
+            <rico:beginningDate rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">2003</rico:beginningDate>
+            <rico:endDate rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">2005</rico:endDate>
+            <rico:date xml:lang="en">2003-2005</rico:date>
+            <rdfs:seeAlso rdf:resource="https://www.siv.archives-nationales.culture.gouv.fr/siv/UD/00399/aspace_a12e66fef32ec01381c16918ffb6f4ed"/>
+         </rico:Instantiation>
+      </rico:hasInstantiation>
+   </rico:RecordResource>
+   <rico:RecordResource rdf:about="recordResource/-aspace_e8808955131098e3b24e19cab38d86e8">
+      <rico:includedIn rdf:resource="recordResource/-top"/>
+      <rdf:type rdf:resource="https://www.ica.org/standards/RiC/ontology#RecordSet"/>
+      <rico:hasRecordSetType rdf:resource="https://www.ica.org/standards/RiC/vocabularies/recordSetTypes#File"/>
+      <rico:title xml:lang="en">Encylopedia of African History - articles</rico:title>
+      <rdfs:label xml:lang="en">Encylopedia of African History - articles</rdfs:label>
+      <rico:date rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1999</rico:date>
+      <rico:date xml:lang="en">1999</rico:date>
+      <rico:hasInstantiation>
+         <rico:Instantiation rdf:about="instantiation/-aspace_e8808955131098e3b24e19cab38d86e8-i1">
+            <rico:instantiates rdf:resource="recordResource/-aspace_e8808955131098e3b24e19cab38d86e8"/>
+            <rico:title xml:lang="en">Encylopedia of African History - articles</rico:title>
+            <rdfs:label xml:lang="en">Encylopedia of African History - articles</rdfs:label>
+            <rico:date rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1999</rico:date>
+            <rico:date xml:lang="en">1999</rico:date>
+            <rdfs:seeAlso rdf:resource="https://www.siv.archives-nationales.culture.gouv.fr/siv/UD/00399/aspace_e8808955131098e3b24e19cab38d86e8"/>
+         </rico:Instantiation>
+      </rico:hasInstantiation>
+   </rico:RecordResource>
+   <rico:RecordResource rdf:about="recordResource/-aspace_26f0e4527a4f6134cf6a6762d588b1ae">
+      <rico:includedIn rdf:resource="recordResource/-top"/>
+      <rdf:type rdf:resource="https://www.ica.org/standards/RiC/ontology#RecordSet"/>
+      <rico:hasRecordSetType rdf:resource="https://www.ica.org/standards/RiC/vocabularies/recordSetTypes#File"/>
+      <rico:title xml:lang="en">Berkshire Women's History Conference</rico:title>
+      <rdfs:label xml:lang="en">Berkshire Women's History Conference</rdfs:label>
+      <rico:date rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1978</rico:date>
+      <rico:date xml:lang="en">1978</rico:date>
+      <rico:hasInstantiation>
+         <rico:Instantiation rdf:about="instantiation/-aspace_26f0e4527a4f6134cf6a6762d588b1ae-i1">
+            <rico:instantiates rdf:resource="recordResource/-aspace_26f0e4527a4f6134cf6a6762d588b1ae"/>
+            <rico:title xml:lang="en">Berkshire Women's History Conference</rico:title>
+            <rdfs:label xml:lang="en">Berkshire Women's History Conference</rdfs:label>
+            <rico:date rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1978</rico:date>
+            <rico:date xml:lang="en">1978</rico:date>
+            <rdfs:seeAlso rdf:resource="https://www.siv.archives-nationales.culture.gouv.fr/siv/UD/00399/aspace_26f0e4527a4f6134cf6a6762d588b1ae"/>
+         </rico:Instantiation>
+      </rico:hasInstantiation>
+   </rico:RecordResource>
+   <rico:RecordResource rdf:about="recordResource/-aspace_abddbdfa7b1047c04b45c0dc7b55e076">
+      <rico:includedIn rdf:resource="recordResource/-top"/>
+      <rdf:type rdf:resource="https://www.ica.org/standards/RiC/ontology#RecordSet"/>
+      <rico:hasRecordSetType rdf:resource="https://www.ica.org/standards/RiC/vocabularies/recordSetTypes#File"/>
+      <rico:title xml:lang="en">Encylopedia Britannica - Egypt</rico:title>
+      <rdfs:label xml:lang="en">Encylopedia Britannica - Egypt</rdfs:label>
+      <rico:date rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">2007</rico:date>
+      <rico:date xml:lang="en">2007</rico:date>
+      <rico:hasInstantiation>
+         <rico:Instantiation rdf:about="instantiation/-aspace_abddbdfa7b1047c04b45c0dc7b55e076-i1">
+            <rico:instantiates rdf:resource="recordResource/-aspace_abddbdfa7b1047c04b45c0dc7b55e076"/>
+            <rico:title xml:lang="en">Encylopedia Britannica - Egypt</rico:title>
+            <rdfs:label xml:lang="en">Encylopedia Britannica - Egypt</rdfs:label>
+            <rico:date rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">2007</rico:date>
+            <rico:date xml:lang="en">2007</rico:date>
+            <rdfs:seeAlso rdf:resource="https://www.siv.archives-nationales.culture.gouv.fr/siv/UD/00399/aspace_abddbdfa7b1047c04b45c0dc7b55e076"/>
+         </rico:Instantiation>
+      </rico:hasInstantiation>
+   </rico:RecordResource>
+   <rico:RecordResource rdf:about="recordResource/-aspace_04e7b4730ba5311f5f77b7a8a0f06877">
+      <rico:includedIn rdf:resource="recordResource/-top"/>
+      <rdf:type rdf:resource="https://www.ica.org/standards/RiC/ontology#RecordSet"/>
+      <rico:hasRecordSetType rdf:resource="https://www.ica.org/standards/RiC/vocabularies/recordSetTypes#File"/>
+      <rico:title xml:lang="en">Encylopedia Britannica - Egypt article revision</rico:title>
+      <rdfs:label xml:lang="en">Encylopedia Britannica - Egypt article revision</rdfs:label>
+      <rico:date rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">2000</rico:date>
+      <rico:date xml:lang="en">2000</rico:date>
+      <rico:hasInstantiation>
+         <rico:Instantiation rdf:about="instantiation/-aspace_04e7b4730ba5311f5f77b7a8a0f06877-i1">
+            <rico:instantiates rdf:resource="recordResource/-aspace_04e7b4730ba5311f5f77b7a8a0f06877"/>
+            <rico:title xml:lang="en">Encylopedia Britannica - Egypt article revision</rico:title>
+            <rdfs:label xml:lang="en">Encylopedia Britannica - Egypt article revision</rdfs:label>
+            <rico:date rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">2000</rico:date>
+            <rico:date xml:lang="en">2000</rico:date>
+            <rdfs:seeAlso rdf:resource="https://www.siv.archives-nationales.culture.gouv.fr/siv/UD/00399/aspace_04e7b4730ba5311f5f77b7a8a0f06877"/>
+         </rico:Instantiation>
+      </rico:hasInstantiation>
+   </rico:RecordResource>
+   <rico:RecordResource rdf:about="recordResource/-aspace_5a1fddc5eff24f88b3ec6af9abf2aa43">
+      <rico:includedIn rdf:resource="recordResource/-top"/>
+      <rdf:type rdf:resource="https://www.ica.org/standards/RiC/ontology#RecordSet"/>
+      <rico:hasRecordSetType rdf:resource="https://www.ica.org/standards/RiC/vocabularies/recordSetTypes#File"/>
+      <rico:title xml:lang="en">Concise History of the Middle East - 8th ed. - correspondence with Lawrence Davidson</rico:title>
+      <rdfs:label xml:lang="en">Concise History of the Middle East - 8th ed. - correspondence with Lawrence Davidson</rdfs:label>
+      <rico:beginningDate rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">2004</rico:beginningDate>
+      <rico:endDate rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">2005</rico:endDate>
+      <rico:date xml:lang="en">2004-2005</rico:date>
+      <rico:hasInstantiation>
+         <rico:Instantiation rdf:about="instantiation/-aspace_5a1fddc5eff24f88b3ec6af9abf2aa43-i1">
+            <rico:instantiates rdf:resource="recordResource/-aspace_5a1fddc5eff24f88b3ec6af9abf2aa43"/>
+            <rico:title xml:lang="en">Concise History of the Middle East - 8th ed. - correspondence with Lawrence Davidson</rico:title>
+            <rdfs:label xml:lang="en">Concise History of the Middle East - 8th ed. - correspondence with Lawrence Davidson</rdfs:label>
+            <rico:beginningDate rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">2004</rico:beginningDate>
+            <rico:endDate rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">2005</rico:endDate>
+            <rico:date xml:lang="en">2004-2005</rico:date>
+            <rdfs:seeAlso rdf:resource="https://www.siv.archives-nationales.culture.gouv.fr/siv/UD/00399/aspace_5a1fddc5eff24f88b3ec6af9abf2aa43"/>
+         </rico:Instantiation>
+      </rico:hasInstantiation>
+   </rico:RecordResource>
+   <rico:RecordResource rdf:about="recordResource/-aspace_d5904746220660b162efdb99340c137a">
+      <rico:includedIn rdf:resource="recordResource/-top"/>
+      <rdf:type rdf:resource="https://www.ica.org/standards/RiC/ontology#RecordSet"/>
+      <rico:hasRecordSetType rdf:resource="https://www.ica.org/standards/RiC/vocabularies/recordSetTypes#File"/>
+      <rico:title xml:lang="en">Concise History of the Middle East - 8th ed. - proofs for photographs</rico:title>
+      <rdfs:label xml:lang="en">Concise History of the Middle East - 8th ed. - proofs for photographs</rdfs:label>
+      <rico:beginningDate rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">2004</rico:beginningDate>
+      <rico:endDate rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">2005</rico:endDate>
+      <rico:date xml:lang="en">2004-2005</rico:date>
+      <rico:hasInstantiation>
+         <rico:Instantiation rdf:about="instantiation/-aspace_d5904746220660b162efdb99340c137a-i1">
+            <rico:instantiates rdf:resource="recordResource/-aspace_d5904746220660b162efdb99340c137a"/>
+            <rico:title xml:lang="en">Concise History of the Middle East - 8th ed. - proofs for photographs</rico:title>
+            <rdfs:label xml:lang="en">Concise History of the Middle East - 8th ed. - proofs for photographs</rdfs:label>
+            <rico:beginningDate rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">2004</rico:beginningDate>
+            <rico:endDate rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">2005</rico:endDate>
+            <rico:date xml:lang="en">2004-2005</rico:date>
+            <rdfs:seeAlso rdf:resource="https://www.siv.archives-nationales.culture.gouv.fr/siv/UD/00399/aspace_d5904746220660b162efdb99340c137a"/>
+         </rico:Instantiation>
+      </rico:hasInstantiation>
+   </rico:RecordResource>
+   <rico:RecordResource rdf:about="recordResource/-aspace_840724127109b710a9dffef3ff7ae048">
+      <rico:includedIn rdf:resource="recordResource/-top"/>
+      <rdf:type rdf:resource="https://www.ica.org/standards/RiC/ontology#RecordSet"/>
+      <rico:hasRecordSetType rdf:resource="https://www.ica.org/standards/RiC/vocabularies/recordSetTypes#File"/>
+      <rico:title xml:lang="en">Concise History of the Middle East - 8th ed. - publisher correspondence</rico:title>
+      <rdfs:label xml:lang="en">Concise History of the Middle East - 8th ed. - publisher correspondence</rdfs:label>
+      <rico:beginningDate rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">2004</rico:beginningDate>
+      <rico:endDate rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">2005</rico:endDate>
+      <rico:date xml:lang="en">2004-2005</rico:date>
+      <rico:hasInstantiation>
+         <rico:Instantiation rdf:about="instantiation/-aspace_840724127109b710a9dffef3ff7ae048-i1">
+            <rico:instantiates rdf:resource="recordResource/-aspace_840724127109b710a9dffef3ff7ae048"/>
+            <rico:title xml:lang="en">Concise History of the Middle East - 8th ed. - publisher correspondence</rico:title>
+            <rdfs:label xml:lang="en">Concise History of the Middle East - 8th ed. - publisher correspondence</rdfs:label>
+            <rico:beginningDate rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">2004</rico:beginningDate>
+            <rico:endDate rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">2005</rico:endDate>
+            <rico:date xml:lang="en">2004-2005</rico:date>
+            <rdfs:seeAlso rdf:resource="https://www.siv.archives-nationales.culture.gouv.fr/siv/UD/00399/aspace_840724127109b710a9dffef3ff7ae048"/>
+         </rico:Instantiation>
+      </rico:hasInstantiation>
+   </rico:RecordResource>
+   <rico:RecordResource rdf:about="recordResource/-aspace_cd9351ba0394f9da64564be660ecb5e3">
+      <rico:includedIn rdf:resource="recordResource/-top"/>
+      <rdf:type rdf:resource="https://www.ica.org/standards/RiC/ontology#RecordSet"/>
+      <rico:hasRecordSetType rdf:resource="https://www.ica.org/standards/RiC/vocabularies/recordSetTypes#File"/>
+      <rico:title xml:lang="en">Concise History of the Middle East - 8th ed. - revisions</rico:title>
+      <rdfs:label xml:lang="en">Concise History of the Middle East - 8th ed. - revisions</rdfs:label>
+      <rico:beginningDate rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">2004</rico:beginningDate>
+      <rico:endDate rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">2005</rico:endDate>
+      <rico:date xml:lang="en">2004-2005</rico:date>
+      <rico:hasInstantiation>
+         <rico:Instantiation rdf:about="instantiation/-aspace_cd9351ba0394f9da64564be660ecb5e3-i1">
+            <rico:instantiates rdf:resource="recordResource/-aspace_cd9351ba0394f9da64564be660ecb5e3"/>
+            <rico:title xml:lang="en">Concise History of the Middle East - 8th ed. - revisions</rico:title>
+            <rdfs:label xml:lang="en">Concise History of the Middle East - 8th ed. - revisions</rdfs:label>
+            <rico:beginningDate rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">2004</rico:beginningDate>
+            <rico:endDate rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">2005</rico:endDate>
+            <rico:date xml:lang="en">2004-2005</rico:date>
+            <rdfs:seeAlso rdf:resource="https://www.siv.archives-nationales.culture.gouv.fr/siv/UD/00399/aspace_cd9351ba0394f9da64564be660ecb5e3"/>
+         </rico:Instantiation>
+      </rico:hasInstantiation>
+   </rico:RecordResource>
+   <rico:RecordResource rdf:about="recordResource/-aspace_9fef2a6db6a252bc28002419e7d7021d">
+      <rico:includedIn rdf:resource="recordResource/-top"/>
+      <rdf:type rdf:resource="https://www.ica.org/standards/RiC/ontology#RecordSet"/>
+      <rico:hasRecordSetType rdf:resource="https://www.ica.org/standards/RiC/vocabularies/recordSetTypes#File"/>
+      <rico:title xml:lang="en">Concise History of the Middle East - 7th ed.</rico:title>
+      <rdfs:label xml:lang="en">Concise History of the Middle East - 7th ed.</rdfs:label>
+      <rico:beginningDate rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1997</rico:beginningDate>
+      <rico:endDate rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">2001</rico:endDate>
+      <rico:date xml:lang="en">1997-2001</rico:date>
+      <rico:hasInstantiation>
+         <rico:Instantiation rdf:about="instantiation/-aspace_9fef2a6db6a252bc28002419e7d7021d-i1">
+            <rico:instantiates rdf:resource="recordResource/-aspace_9fef2a6db6a252bc28002419e7d7021d"/>
+            <rico:title xml:lang="en">Concise History of the Middle East - 7th ed.</rico:title>
+            <rdfs:label xml:lang="en">Concise History of the Middle East - 7th ed.</rdfs:label>
+            <rico:beginningDate rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1997</rico:beginningDate>
+            <rico:endDate rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">2001</rico:endDate>
+            <rico:date xml:lang="en">1997-2001</rico:date>
+            <rdfs:seeAlso rdf:resource="https://www.siv.archives-nationales.culture.gouv.fr/siv/UD/00399/aspace_9fef2a6db6a252bc28002419e7d7021d"/>
+         </rico:Instantiation>
+      </rico:hasInstantiation>
+   </rico:RecordResource>
+   <rico:RecordResource rdf:about="recordResource/-aspace_9c4a9f4bfa5f90abfb454b101f2e7c91">
+      <rico:includedIn rdf:resource="recordResource/-top"/>
+      <rdf:type rdf:resource="https://www.ica.org/standards/RiC/ontology#RecordSet"/>
+      <rico:hasRecordSetType rdf:resource="https://www.ica.org/standards/RiC/vocabularies/recordSetTypes#File"/>
+      <rico:title xml:lang="en">Understanding the Contemporary Middle East - 2nd ed.</rico:title>
+      <rdfs:label xml:lang="en">Understanding the Contemporary Middle East - 2nd ed.</rdfs:label>
+      <rico:date rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">2004</rico:date>
+      <rico:date xml:lang="en">2004</rico:date>
+      <rico:hasInstantiation>
+         <rico:Instantiation rdf:about="instantiation/-aspace_9c4a9f4bfa5f90abfb454b101f2e7c91-i1">
+            <rico:instantiates rdf:resource="recordResource/-aspace_9c4a9f4bfa5f90abfb454b101f2e7c91"/>
+            <rico:title xml:lang="en">Understanding the Contemporary Middle East - 2nd ed.</rico:title>
+            <rdfs:label xml:lang="en">Understanding the Contemporary Middle East - 2nd ed.</rdfs:label>
+            <rico:date rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">2004</rico:date>
+            <rico:date xml:lang="en">2004</rico:date>
+            <rdfs:seeAlso rdf:resource="https://www.siv.archives-nationales.culture.gouv.fr/siv/UD/00399/aspace_9c4a9f4bfa5f90abfb454b101f2e7c91"/>
+         </rico:Instantiation>
+      </rico:hasInstantiation>
+   </rico:RecordResource>
+</rdf:RDF>

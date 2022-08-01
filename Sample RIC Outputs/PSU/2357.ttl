@@ -1,0 +1,1320 @@
+@prefix ns0: <https://www.ica.org/standards/RiC/ontology#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix dc11: <http://purl.org/dc/elements/1.1/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<http://data.archives-nationales.culture.gouv.fr/record/>
+  a <https://www.ica.org/standards/RiC/ontology#Record> ;
+  ns0:hasDocumentaryFormType <https://www.ica.org/standards/RiC/vocabularies/documentaryFormTypes#FindingAid> ;
+  ns0:regulatedBy <http://data.archives-nationales.culture.gouv.fr/rule/rl005>, <http://data.archives-nationales.culture.gouv.fr/rule/rl004>, <http://data.archives-nationales.culture.gouv.fr/rule/rl006>, <http://data.archives-nationales.culture.gouv.fr/rule/rl007>, <http://data.archives-nationales.culture.gouv.fr/rule/rl009> ;
+  ns0:title "George C. Izenour architectural drawings, 1960-1978 02357"@en ;
+  rdfs:label "George C. Izenour architectural drawings, 1960-1978 02357"@en ;
+  ns0:createdBy <http://data.archives-nationales.culture.gouv.fr/agent/005061> ;
+  ns0:publishedBy <http://data.archives-nationales.culture.gouv.fr/agent/005061> ;
+  ns0:history """
+         <html:div xmlns:html="http://www.w3.org/1999/xhtml">
+            <html:h4>auteur(s)</html:h4>
+            <html:p namespacelang="en">Prepared by Special Collections Library faculty/staff.</html:p>
+         </html:div>
+"""^^rdf:XMLLiteral ;
+  ns0:describes <http://data.archives-nationales.culture.gouv.fr/recordResource/-top> ;
+  ns0:hasInstantiation <http://data.archives-nationales.culture.gouv.fr/instantiation/-i1> .
+
+<http://data.archives-nationales.culture.gouv.fr/instantiation/-i1>
+  a ns0:Instantiation ;
+  ns0:instantiates <http://data.archives-nationales.culture.gouv.fr/record/> ;
+  ns0:title "George C. Izenour architectural drawings, 1960-1978 02357"@en ;
+  rdfs:label "George C. Izenour architectural drawings, 1960-1978 02357"@en ;
+  ns0:history "This finding aid was produced using ArchivesSpace on 2022-05-19 10:52:09 -0400."@en ;
+  ns0:regulatedBy <http://data.archives-nationales.culture.gouv.fr/rule/rl010> ;
+  dc11:format "text/xml"@en ;
+  ns0:identifier "02357" ;
+  ns0:heldBy <http://data.archives-nationales.culture.gouv.fr/agent/005061> ;
+  rdfs:seeAlso <https://www.siv.archives-nationales.culture.gouv.fr/siv/IR/02357> .
+
+<http://data.archives-nationales.culture.gouv.fr/recordResource/-top>
+  a ns0:RecordResource, ns0:RecordSet ;
+  ns0:describedBy <http://data.archives-nationales.culture.gouv.fr/record/> ;
+  ns0:hasRecordSetType <https://www.ica.org/standards/RiC/vocabularies/recordSetTypes#Collection> ;
+  ns0:heldBy [
+    a ns0:Agent ;
+    rdfs:label "Eberly Family Special Collections Library"@en ;
+    ns0:hasAgentName [
+      a ns0:AgentName ;
+      rdfs:label "Eberly Family Special Collections Library"@en ;
+      ns0:textualValue "Eberly Family Special Collections Library"@en
+    ]
+  ] ;
+  ns0:title "George C. Izenour architectural drawings"@en ;
+  rdfs:label "George C. Izenour architectural drawings"@en ;
+  ns0:beginningDate "1960"^^xsd:gYear ;
+  ns0:endDate "1978"^^xsd:gYear ;
+  ns0:date "1960-1978"@en ;
+  ns0:hasLanguage <http://data.archives-nationales.culture.gouv.fr/language/FRAN_RI_100-name6> ;
+  ns0:conditionsOfUse """
+         <html:p xmlns:html="http://www.w3.org/1999/xhtml" namespacelang="en">Copyright is retained by the creators of items in these papers, or their descendants, as stipulated by United States copyright law.</html:p>
+"""^^rdf:XMLLiteral ;
+  ns0:scopeAndContent """
+         <html:p xmlns:html="http://www.w3.org/1999/xhtml" namespacelang="en">The collection contains drafts, final drawings, blueprints, and sepia prints on paper, mylar, and architectural vellum for theaters and performing arts centers designed by Izenour for communities and universities in Saudi Arabia, the United States, and Venezuela.</html:p>
+"""^^rdf:XMLLiteral ;
+  ns0:structure """
+         <html:div xmlns:html="http://www.w3.org/1999/xhtml" namespacelang="en">
+            <html:h5>Collection Arrangement</html:h5>
+            <html:p>The drawings are organized into one series: Architectural Drawings.</html:p>
+         </html:div>
+"""^^rdf:XMLLiteral ;
+  ns0:conditionsOfAccess """
+         <html:p xmlns:html="http://www.w3.org/1999/xhtml" namespacelang="en">Collection is open for research.</html:p>
+"""^^rdf:XMLLiteral ;
+  ns0:hasSubject <http://data.archives-nationales.culture.gouv.fr/thing/Library of Congress Subject Headings-http://id.loc.gov/authorities/subjects/sh85134583> ;
+  ns0:history """
+         <html:div xmlns:html="http://www.w3.org/1999/xhtml" namespacelang="en">
+            <html:h4>Informations sur le traitement</html:h4>
+            <html:h5>Processing Information</html:h5>
+            <html:p>Processed by Special Collections staff.</html:p>
+         </html:div>
+"""^^rdf:XMLLiteral ;
+  ns0:hasInstantiation <http://data.archives-nationales.culture.gouv.fr/instantiation/-top-i1> ;
+  ns0:includes <http://data.archives-nationales.culture.gouv.fr/recordResource/-aspace_f102ca916f305eee1e5d8ea6ad334ba1> .
+
+<http://data.archives-nationales.culture.gouv.fr/instantiation/-top-i1>
+  a ns0:Instantiation ;
+  ns0:instantiates <http://data.archives-nationales.culture.gouv.fr/recordResource/-top> ;
+  ns0:heldBy [
+    a ns0:Agent ;
+    rdfs:label "Eberly Family Special Collections Library"@en ;
+    ns0:hasAgentName [
+      a ns0:AgentName ;
+      rdfs:label "Eberly Family Special Collections Library"@en ;
+      ns0:textualValue "Eberly Family Special Collections Library"@en
+    ]
+  ] ;
+  ns0:title "George C. Izenour architectural drawings"@en ;
+  rdfs:label "George C. Izenour architectural drawings"@en ;
+  ns0:identifier "02357" ;
+  ns0:instantiationExtent """
+               <html:p xmlns:html="http://www.w3.org/1999/xhtml" namespacelang="en">1848 Items</html:p>
+"""^^rdf:XMLLiteral ;
+  ns0:beginningDate "1960"^^xsd:gYear ;
+  ns0:endDate "1978"^^xsd:gYear ;
+  ns0:date "1960-1978"@en ;
+  ns0:hasLocation <http://data.archives-nationales.culture.gouv.fr/> ;
+  ns0:conditionsOfUse """
+               <html:p xmlns:html="http://www.w3.org/1999/xhtml" namespacelang="en">Copyright is retained by the creators of items in these papers, or their descendants, as stipulated by United States copyright law.</html:p>
+"""^^rdf:XMLLiteral ;
+  ns0:structure """
+               <html:div xmlns:html="http://www.w3.org/1999/xhtml" namespacelang="en">
+                  <html:h5>Collection Arrangement</html:h5>
+                  <html:p>The drawings are organized into one series: Architectural Drawings.</html:p>
+               </html:div>
+"""^^rdf:XMLLiteral ;
+  ns0:conditionsOfAccess """
+               <html:p xmlns:html="http://www.w3.org/1999/xhtml" namespacelang="en">Collection is open for research.</html:p>
+"""^^rdf:XMLLiteral ;
+  ns0:history """
+               <html:div xmlns:html="http://www.w3.org/1999/xhtml" namespacelang="en">
+                  <html:h4>Informations sur le traitement</html:h4>
+                  <html:h5>Processing Information</html:h5>
+                  <html:p>Processed by Special Collections staff.</html:p>
+               </html:div>
+"""^^rdf:XMLLiteral ;
+  rdfs:seeAlso <https://www.siv.archives-nationales.culture.gouv.fr/siv/UD/02357/top> .
+
+<http://data.archives-nationales.culture.gouv.fr/recordResource/-aspace_f102ca916f305eee1e5d8ea6ad334ba1>
+  a ns0:RecordResource, ns0:RecordSet ;
+  ns0:includedIn <http://data.archives-nationales.culture.gouv.fr/recordResource/-top> ;
+  ns0:hasRecordSetType <https://www.ica.org/standards/RiC/vocabularies/recordSetTypes#Series> ;
+  ns0:title "Architectural drawings"@en ;
+  rdfs:label "Architectural drawings"@en ;
+  ns0:hasInstantiation <http://data.archives-nationales.culture.gouv.fr/instantiation/-aspace_f102ca916f305eee1e5d8ea6ad334ba1-i1> ;
+  ns0:includes <http://data.archives-nationales.culture.gouv.fr/recordResource/-aspace_fd896d033d3d6c82573a00ebba55875b>, <http://data.archives-nationales.culture.gouv.fr/recordResource/-aspace_9f952c446a97a59901f2ed4f6f82f8e5>, <http://data.archives-nationales.culture.gouv.fr/recordResource/-aspace_ef728bba74ff773e099e3b1ccaba1d06>, <http://data.archives-nationales.culture.gouv.fr/recordResource/-aspace_a6a848394be8c2cdc2a57f599a806c1d>, <http://data.archives-nationales.culture.gouv.fr/recordResource/-aspace_c60c92302bafade535bf11bccd4393c6>, <http://data.archives-nationales.culture.gouv.fr/recordResource/-aspace_b9b73d455371041e82ae2f610e2675ed>, <http://data.archives-nationales.culture.gouv.fr/recordResource/-aspace_dd31bbf47eee040d76a483f634cc1910>, <http://data.archives-nationales.culture.gouv.fr/recordResource/-aspace_dc276957d180c55d6d9dd76f385ecd00>, <http://data.archives-nationales.culture.gouv.fr/recordResource/-aspace_1c8d96855563b73ae558cfc0b0ec4894>, <http://data.archives-nationales.culture.gouv.fr/recordResource/-aspace_6f30826b4e2e526c8593975ee5fad418>, <http://data.archives-nationales.culture.gouv.fr/recordResource/-aspace_37c616d668db4086cb532649270ec184>, <http://data.archives-nationales.culture.gouv.fr/recordResource/-aspace_f5585ff15c541e8418f1cd09e54cfeab>, <http://data.archives-nationales.culture.gouv.fr/recordResource/-aspace_180afbd54d9ae59f63e8ae4e138b1642>, <http://data.archives-nationales.culture.gouv.fr/recordResource/-aspace_f79b681ac0999f0867b9803d94375976>, <http://data.archives-nationales.culture.gouv.fr/recordResource/-aspace_f4ea92deef3a5926059c9a43ebf54b8b>, <http://data.archives-nationales.culture.gouv.fr/recordResource/-aspace_55bc7a53bea70e372def4ebc8e1b7fa1>, <http://data.archives-nationales.culture.gouv.fr/recordResource/-aspace_991e739a328df7b6aa476c392f6d37cd>, <http://data.archives-nationales.culture.gouv.fr/recordResource/-aspace_45568e7b882062ed8a2cb22545088459>, <http://data.archives-nationales.culture.gouv.fr/recordResource/-aspace_328647699a13ef06b0c99b8ae9a67bf1>, <http://data.archives-nationales.culture.gouv.fr/recordResource/-aspace_376339098656f7a3e70f20b8c99e5a9b>, <http://data.archives-nationales.culture.gouv.fr/recordResource/-aspace_c67732dfd66b35787a9b201f0ac64311>, <http://data.archives-nationales.culture.gouv.fr/recordResource/-aspace_62a534eec213af24424b99b2e7e07696>, <http://data.archives-nationales.culture.gouv.fr/recordResource/-aspace_4e865e4e89575a9d8c7d355c6c60007e>, <http://data.archives-nationales.culture.gouv.fr/recordResource/-aspace_ae2c7844c34f516d275b044963824b22>, <http://data.archives-nationales.culture.gouv.fr/recordResource/-aspace_b606e145e17c178b05368d03ab16db79>, <http://data.archives-nationales.culture.gouv.fr/recordResource/-aspace_2be1601626d0b8823b980c38e3fc7967>, <http://data.archives-nationales.culture.gouv.fr/recordResource/-aspace_d9790db980ef8a0d1f01c78b790b68c5>, <http://data.archives-nationales.culture.gouv.fr/recordResource/-aspace_5d55b342a8a6968fd67f09e35443c036>, <http://data.archives-nationales.culture.gouv.fr/recordResource/-aspace_53ec70ba269a50cec3081a86c7766b52>, <http://data.archives-nationales.culture.gouv.fr/recordResource/-aspace_e29cf607342591214240fe1c20dbe5d3>, <http://data.archives-nationales.culture.gouv.fr/recordResource/-aspace_052a291dcddf363fb86b7baf35654f95>, <http://data.archives-nationales.culture.gouv.fr/recordResource/-aspace_386d55aff3fa4d2caedc14c84533b85d>, <http://data.archives-nationales.culture.gouv.fr/recordResource/-aspace_b4de4ecd4ab919e59029ed51e1846a2a>, <http://data.archives-nationales.culture.gouv.fr/recordResource/-aspace_0d55447332cf4ca976a39ea977b1ca2c>, <http://data.archives-nationales.culture.gouv.fr/recordResource/-aspace_7b15e46216787cb2baef59c0e064b10d>, <http://data.archives-nationales.culture.gouv.fr/recordResource/-aspace_9aa15cf051cc326294f3cf1f20abf2a9>, <http://data.archives-nationales.culture.gouv.fr/recordResource/-aspace_2c5622334dfa7e9a2cc7a3070ccf0d82>, <http://data.archives-nationales.culture.gouv.fr/recordResource/-aspace_43ae1f439ee04f9b78000cbd28f6ec65>, <http://data.archives-nationales.culture.gouv.fr/recordResource/-aspace_69ae3119dda889882a4defc92ee70b26>, <http://data.archives-nationales.culture.gouv.fr/recordResource/-aspace_4578c051508ed52b23e476b80c8e28f5>, <http://data.archives-nationales.culture.gouv.fr/recordResource/-aspace_0ed91a5ee7c047726518e03b96393ea0>, <http://data.archives-nationales.culture.gouv.fr/recordResource/-aspace_b9ee7b7cef5409e8921cbff1842b5e33>, <http://data.archives-nationales.culture.gouv.fr/recordResource/-aspace_fd32c0ca42fbbf68f98fdb243c00a279>, <http://data.archives-nationales.culture.gouv.fr/recordResource/-aspace_742878ae67473e1d88ae5e3e9427141d>, <http://data.archives-nationales.culture.gouv.fr/recordResource/-aspace_3acba55c27bed227150c372f897a292d>, <http://data.archives-nationales.culture.gouv.fr/recordResource/-aspace_1a68d2d9da4e7840e03594ec2dd72ad6>, <http://data.archives-nationales.culture.gouv.fr/recordResource/-aspace_48a0cd4f8e1cfaf6e5bdd8c4bee1e113>, <http://data.archives-nationales.culture.gouv.fr/recordResource/-aspace_9e596bf891caab9a8e14b113425dbb71>, <http://data.archives-nationales.culture.gouv.fr/recordResource/-aspace_67822cff3f9e759c45bb346a4bc1eba3>, <http://data.archives-nationales.culture.gouv.fr/recordResource/-aspace_c7bce558f572e9c6285ab79730a77706>, <http://data.archives-nationales.culture.gouv.fr/recordResource/-aspace_f10760d2667bc6757d0c89d7b9f4d297>, <http://data.archives-nationales.culture.gouv.fr/recordResource/-aspace_9f854830bc32bf13a1e33d29b9db6035>, <http://data.archives-nationales.culture.gouv.fr/recordResource/-aspace_6f6d41a244de2c987570dd836e5fe26d>, <http://data.archives-nationales.culture.gouv.fr/recordResource/-aspace_45c45c67ee0bf972e5415b58ba4c50db>, <http://data.archives-nationales.culture.gouv.fr/recordResource/-aspace_fb676e960c5ef1e32abca06413dc258d>, <http://data.archives-nationales.culture.gouv.fr/recordResource/-aspace_1c7cb1aea4e6d9171634f9bed08119c4>, <http://data.archives-nationales.culture.gouv.fr/recordResource/-aspace_c581852416bc41e1a2cdd615624b979c> .
+
+<http://data.archives-nationales.culture.gouv.fr/instantiation/-aspace_f102ca916f305eee1e5d8ea6ad334ba1-i1>
+  a ns0:Instantiation ;
+  ns0:instantiates <http://data.archives-nationales.culture.gouv.fr/recordResource/-aspace_f102ca916f305eee1e5d8ea6ad334ba1> ;
+  ns0:title "Architectural drawings"@en ;
+  rdfs:label "Architectural drawings"@en ;
+  ns0:identifier "1" ;
+  rdfs:seeAlso <https://www.siv.archives-nationales.culture.gouv.fr/siv/UD/02357/aspace_f102ca916f305eee1e5d8ea6ad334ba1> .
+
+<http://data.archives-nationales.culture.gouv.fr/recordResource/-aspace_fd896d033d3d6c82573a00ebba55875b>
+  a ns0:RecordResource, ns0:RecordSet ;
+  ns0:includedIn <http://data.archives-nationales.culture.gouv.fr/recordResource/-aspace_f102ca916f305eee1e5d8ea6ad334ba1> ;
+  ns0:hasRecordSetType <https://www.ica.org/standards/RiC/vocabularies/recordSetTypes#File> ;
+  ns0:title "Structural engineering drawings: William Penn High School, Wilson High School, Riverside Civil Auditorium, Krannert Center, Newton High School, Greenwich Country Day School, SUNY Stony Brook, West Virginia University"@en ;
+  rdfs:label "Structural engineering drawings: William Penn High School, Wilson High School, Riverside Civil Auditorium, Krannert Center, Newton High School, Greenwich Country Day School, SUNY Stony Brook, West Virginia University"@en ;
+  ns0:date "undated"@en ;
+  ns0:hasInstantiation <http://data.archives-nationales.culture.gouv.fr/instantiation/-aspace_fd896d033d3d6c82573a00ebba55875b-i1> .
+
+<http://data.archives-nationales.culture.gouv.fr/instantiation/-aspace_fd896d033d3d6c82573a00ebba55875b-i1>
+  a ns0:Instantiation ;
+  ns0:instantiates <http://data.archives-nationales.culture.gouv.fr/recordResource/-aspace_fd896d033d3d6c82573a00ebba55875b> ;
+  ns0:title "Structural engineering drawings: William Penn High School, Wilson High School, Riverside Civil Auditorium, Krannert Center, Newton High School, Greenwich Country Day School, SUNY Stony Brook, West Virginia University"@en ;
+  rdfs:label "Structural engineering drawings: William Penn High School, Wilson High School, Riverside Civil Auditorium, Krannert Center, Newton High School, Greenwich Country Day School, SUNY Stony Brook, West Virginia University"@en ;
+  ns0:date "undated"@en ;
+  rdfs:seeAlso <https://www.siv.archives-nationales.culture.gouv.fr/siv/UD/02357/aspace_fd896d033d3d6c82573a00ebba55875b> .
+
+<http://data.archives-nationales.culture.gouv.fr/recordResource/-aspace_9f952c446a97a59901f2ed4f6f82f8e5>
+  a ns0:RecordResource, ns0:RecordSet ;
+  ns0:includedIn <http://data.archives-nationales.culture.gouv.fr/recordResource/-aspace_f102ca916f305eee1e5d8ea6ad334ba1> ;
+  ns0:hasRecordSetType <https://www.ica.org/standards/RiC/vocabularies/recordSetTypes#File> ;
+  ns0:title "Structural engineering drawings: Oral Roberts University, Longstreet Theatre (Univ. of SC), El Paso, Choate, Jesse Jones Hall, Eastman Theater"@en ;
+  rdfs:label "Structural engineering drawings: Oral Roberts University, Longstreet Theatre (Univ. of SC), El Paso, Choate, Jesse Jones Hall, Eastman Theater"@en ;
+  ns0:date "undated"@en ;
+  ns0:hasInstantiation <http://data.archives-nationales.culture.gouv.fr/instantiation/-aspace_9f952c446a97a59901f2ed4f6f82f8e5-i1> .
+
+<http://data.archives-nationales.culture.gouv.fr/instantiation/-aspace_9f952c446a97a59901f2ed4f6f82f8e5-i1>
+  a ns0:Instantiation ;
+  ns0:instantiates <http://data.archives-nationales.culture.gouv.fr/recordResource/-aspace_9f952c446a97a59901f2ed4f6f82f8e5> ;
+  ns0:title "Structural engineering drawings: Oral Roberts University, Longstreet Theatre (Univ. of SC), El Paso, Choate, Jesse Jones Hall, Eastman Theater"@en ;
+  rdfs:label "Structural engineering drawings: Oral Roberts University, Longstreet Theatre (Univ. of SC), El Paso, Choate, Jesse Jones Hall, Eastman Theater"@en ;
+  ns0:date "undated"@en ;
+  rdfs:seeAlso <https://www.siv.archives-nationales.culture.gouv.fr/siv/UD/02357/aspace_9f952c446a97a59901f2ed4f6f82f8e5> .
+
+<http://data.archives-nationales.culture.gouv.fr/recordResource/-aspace_ef728bba74ff773e099e3b1ccaba1d06>
+  a ns0:RecordResource, ns0:RecordSet ;
+  ns0:includedIn <http://data.archives-nationales.culture.gouv.fr/recordResource/-aspace_f102ca916f305eee1e5d8ea6ad334ba1> ;
+  ns0:hasRecordSetType <https://www.ica.org/standards/RiC/vocabularies/recordSetTypes#File> ;
+  ns0:title "Lorain, Ohio blueprints: A1-24, E1-15"@en ;
+  rdfs:label "Lorain, Ohio blueprints: A1-24, E1-15"@en ;
+  ns0:date "undated"@en ;
+  ns0:hasInstantiation <http://data.archives-nationales.culture.gouv.fr/instantiation/-aspace_ef728bba74ff773e099e3b1ccaba1d06-i1> .
+
+<http://data.archives-nationales.culture.gouv.fr/instantiation/-aspace_ef728bba74ff773e099e3b1ccaba1d06-i1>
+  a ns0:Instantiation ;
+  ns0:instantiates <http://data.archives-nationales.culture.gouv.fr/recordResource/-aspace_ef728bba74ff773e099e3b1ccaba1d06> ;
+  ns0:title "Lorain, Ohio blueprints: A1-24, E1-15"@en ;
+  rdfs:label "Lorain, Ohio blueprints: A1-24, E1-15"@en ;
+  ns0:date "undated"@en ;
+  rdfs:seeAlso <https://www.siv.archives-nationales.culture.gouv.fr/siv/UD/02357/aspace_ef728bba74ff773e099e3b1ccaba1d06> .
+
+<http://data.archives-nationales.culture.gouv.fr/recordResource/-aspace_a6a848394be8c2cdc2a57f599a806c1d>
+  a ns0:RecordResource, ns0:RecordSet ;
+  ns0:includedIn <http://data.archives-nationales.culture.gouv.fr/recordResource/-aspace_f102ca916f305eee1e5d8ea6ad334ba1> ;
+  ns0:hasRecordSetType <https://www.ica.org/standards/RiC/vocabularies/recordSetTypes#File> ;
+  ns0:title "Lorain, Ohio blueprints: index, S1-11, SE1-13, P1-5, HVAC 1-9, FP1-3"@en ;
+  rdfs:label "Lorain, Ohio blueprints: index, S1-11, SE1-13, P1-5, HVAC 1-9, FP1-3"@en ;
+  ns0:date "undated"@en ;
+  ns0:hasInstantiation <http://data.archives-nationales.culture.gouv.fr/instantiation/-aspace_a6a848394be8c2cdc2a57f599a806c1d-i1> .
+
+<http://data.archives-nationales.culture.gouv.fr/instantiation/-aspace_a6a848394be8c2cdc2a57f599a806c1d-i1>
+  a ns0:Instantiation ;
+  ns0:instantiates <http://data.archives-nationales.culture.gouv.fr/recordResource/-aspace_a6a848394be8c2cdc2a57f599a806c1d> ;
+  ns0:title "Lorain, Ohio blueprints: index, S1-11, SE1-13, P1-5, HVAC 1-9, FP1-3"@en ;
+  rdfs:label "Lorain, Ohio blueprints: index, S1-11, SE1-13, P1-5, HVAC 1-9, FP1-3"@en ;
+  ns0:date "undated"@en ;
+  rdfs:seeAlso <https://www.siv.archives-nationales.culture.gouv.fr/siv/UD/02357/aspace_a6a848394be8c2cdc2a57f599a806c1d> .
+
+<http://data.archives-nationales.culture.gouv.fr/recordResource/-aspace_c60c92302bafade535bf11bccd4393c6>
+  a ns0:RecordResource, ns0:RecordSet ;
+  ns0:includedIn <http://data.archives-nationales.culture.gouv.fr/recordResource/-aspace_f102ca916f305eee1e5d8ea6ad334ba1> ;
+  ns0:hasRecordSetType <https://www.ica.org/standards/RiC/vocabularies/recordSetTypes#File> ;
+  ns0:title "Riyadh, Saudi Arabia Cultural Center: Cover, table of contents, architectural drawings A1-25, site drawings L1-3"@en ;
+  rdfs:label "Riyadh, Saudi Arabia Cultural Center: Cover, table of contents, architectural drawings A1-25, site drawings L1-3"@en ;
+  ns0:beginningDate "1976"^^xsd:gYear ;
+  ns0:endDate "1976"^^xsd:gYear ;
+  ns0:date "1976"@en ;
+  ns0:hasInstantiation <http://data.archives-nationales.culture.gouv.fr/instantiation/-aspace_c60c92302bafade535bf11bccd4393c6-i1> .
+
+<http://data.archives-nationales.culture.gouv.fr/instantiation/-aspace_c60c92302bafade535bf11bccd4393c6-i1>
+  a ns0:Instantiation ;
+  ns0:instantiates <http://data.archives-nationales.culture.gouv.fr/recordResource/-aspace_c60c92302bafade535bf11bccd4393c6> ;
+  ns0:title "Riyadh, Saudi Arabia Cultural Center: Cover, table of contents, architectural drawings A1-25, site drawings L1-3"@en ;
+  rdfs:label "Riyadh, Saudi Arabia Cultural Center: Cover, table of contents, architectural drawings A1-25, site drawings L1-3"@en ;
+  ns0:beginningDate "1976"^^xsd:gYear ;
+  ns0:endDate "1976"^^xsd:gYear ;
+  ns0:date "1976"@en ;
+  rdfs:seeAlso <https://www.siv.archives-nationales.culture.gouv.fr/siv/UD/02357/aspace_c60c92302bafade535bf11bccd4393c6> .
+
+<http://data.archives-nationales.culture.gouv.fr/recordResource/-aspace_b9b73d455371041e82ae2f610e2675ed>
+  a ns0:RecordResource, ns0:RecordSet ;
+  ns0:includedIn <http://data.archives-nationales.culture.gouv.fr/recordResource/-aspace_f102ca916f305eee1e5d8ea6ad334ba1> ;
+  ns0:hasRecordSetType <https://www.ica.org/standards/RiC/vocabularies/recordSetTypes#File> ;
+  ns0:title "Riyadh, Saudi Arabia Cultural Center: Structural drawings blueprints S1-35"@en ;
+  rdfs:label "Riyadh, Saudi Arabia Cultural Center: Structural drawings blueprints S1-35"@en ;
+  ns0:beginningDate "1976"^^xsd:gYear ;
+  ns0:endDate "1976"^^xsd:gYear ;
+  ns0:date "1976"@en ;
+  ns0:hasInstantiation <http://data.archives-nationales.culture.gouv.fr/instantiation/-aspace_b9b73d455371041e82ae2f610e2675ed-i1> .
+
+<http://data.archives-nationales.culture.gouv.fr/instantiation/-aspace_b9b73d455371041e82ae2f610e2675ed-i1>
+  a ns0:Instantiation ;
+  ns0:instantiates <http://data.archives-nationales.culture.gouv.fr/recordResource/-aspace_b9b73d455371041e82ae2f610e2675ed> ;
+  ns0:title "Riyadh, Saudi Arabia Cultural Center: Structural drawings blueprints S1-35"@en ;
+  rdfs:label "Riyadh, Saudi Arabia Cultural Center: Structural drawings blueprints S1-35"@en ;
+  ns0:beginningDate "1976"^^xsd:gYear ;
+  ns0:endDate "1976"^^xsd:gYear ;
+  ns0:date "1976"@en ;
+  rdfs:seeAlso <https://www.siv.archives-nationales.culture.gouv.fr/siv/UD/02357/aspace_b9b73d455371041e82ae2f610e2675ed> .
+
+<http://data.archives-nationales.culture.gouv.fr/recordResource/-aspace_dd31bbf47eee040d76a483f634cc1910>
+  a ns0:RecordResource, ns0:RecordSet ;
+  ns0:includedIn <http://data.archives-nationales.culture.gouv.fr/recordResource/-aspace_f102ca916f305eee1e5d8ea6ad334ba1> ;
+  ns0:hasRecordSetType <https://www.ica.org/standards/RiC/vocabularies/recordSetTypes#File> ;
+  ns0:title "Riyadh, Saudi Arabia Cultural Center: Structural drawings blueprints S36-50, 55-73"@en ;
+  rdfs:label "Riyadh, Saudi Arabia Cultural Center: Structural drawings blueprints S36-50, 55-73"@en ;
+  ns0:beginningDate "1976"^^xsd:gYear ;
+  ns0:endDate "1976"^^xsd:gYear ;
+  ns0:date "1976"@en ;
+  ns0:hasInstantiation <http://data.archives-nationales.culture.gouv.fr/instantiation/-aspace_dd31bbf47eee040d76a483f634cc1910-i1> .
+
+<http://data.archives-nationales.culture.gouv.fr/instantiation/-aspace_dd31bbf47eee040d76a483f634cc1910-i1>
+  a ns0:Instantiation ;
+  ns0:instantiates <http://data.archives-nationales.culture.gouv.fr/recordResource/-aspace_dd31bbf47eee040d76a483f634cc1910> ;
+  ns0:title "Riyadh, Saudi Arabia Cultural Center: Structural drawings blueprints S36-50, 55-73"@en ;
+  rdfs:label "Riyadh, Saudi Arabia Cultural Center: Structural drawings blueprints S36-50, 55-73"@en ;
+  ns0:beginningDate "1976"^^xsd:gYear ;
+  ns0:endDate "1976"^^xsd:gYear ;
+  ns0:date "1976"@en ;
+  rdfs:seeAlso <https://www.siv.archives-nationales.culture.gouv.fr/siv/UD/02357/aspace_dd31bbf47eee040d76a483f634cc1910> .
+
+<http://data.archives-nationales.culture.gouv.fr/recordResource/-aspace_dc276957d180c55d6d9dd76f385ecd00>
+  a ns0:RecordResource, ns0:RecordSet ;
+  ns0:includedIn <http://data.archives-nationales.culture.gouv.fr/recordResource/-aspace_f102ca916f305eee1e5d8ea6ad334ba1> ;
+  ns0:hasRecordSetType <https://www.ica.org/standards/RiC/vocabularies/recordSetTypes#File> ;
+  ns0:title "Riyadh, Saudi Arabia Cultural Center: Architectural drawings A26-27, 29-81"@en ;
+  rdfs:label "Riyadh, Saudi Arabia Cultural Center: Architectural drawings A26-27, 29-81"@en ;
+  ns0:beginningDate "1976"^^xsd:gYear ;
+  ns0:endDate "1976"^^xsd:gYear ;
+  ns0:date "1976"@en ;
+  ns0:hasInstantiation <http://data.archives-nationales.culture.gouv.fr/instantiation/-aspace_dc276957d180c55d6d9dd76f385ecd00-i1> .
+
+<http://data.archives-nationales.culture.gouv.fr/instantiation/-aspace_dc276957d180c55d6d9dd76f385ecd00-i1>
+  a ns0:Instantiation ;
+  ns0:instantiates <http://data.archives-nationales.culture.gouv.fr/recordResource/-aspace_dc276957d180c55d6d9dd76f385ecd00> ;
+  ns0:title "Riyadh, Saudi Arabia Cultural Center: Architectural drawings A26-27, 29-81"@en ;
+  rdfs:label "Riyadh, Saudi Arabia Cultural Center: Architectural drawings A26-27, 29-81"@en ;
+  ns0:beginningDate "1976"^^xsd:gYear ;
+  ns0:endDate "1976"^^xsd:gYear ;
+  ns0:date "1976"@en ;
+  rdfs:seeAlso <https://www.siv.archives-nationales.culture.gouv.fr/siv/UD/02357/aspace_dc276957d180c55d6d9dd76f385ecd00> .
+
+<http://data.archives-nationales.culture.gouv.fr/recordResource/-aspace_1c8d96855563b73ae558cfc0b0ec4894>
+  a ns0:RecordResource, ns0:RecordSet ;
+  ns0:includedIn <http://data.archives-nationales.culture.gouv.fr/recordResource/-aspace_f102ca916f305eee1e5d8ea6ad334ba1> ;
+  ns0:hasRecordSetType <https://www.ica.org/standards/RiC/vocabularies/recordSetTypes#File> ;
+  ns0:title "Grand Rapids (MI) Convention/Entertainment Center: Electrical (E1-40) and Mechanical (ME 1-2) drawings"@en ;
+  rdfs:label "Grand Rapids (MI) Convention/Entertainment Center: Electrical (E1-40) and Mechanical (ME 1-2) drawings"@en ;
+  ns0:beginningDate "1978"^^xsd:gYear ;
+  ns0:endDate "1978"^^xsd:gYear ;
+  ns0:date "1978"@en ;
+  ns0:hasInstantiation <http://data.archives-nationales.culture.gouv.fr/instantiation/-aspace_1c8d96855563b73ae558cfc0b0ec4894-i1> .
+
+<http://data.archives-nationales.culture.gouv.fr/instantiation/-aspace_1c8d96855563b73ae558cfc0b0ec4894-i1>
+  a ns0:Instantiation ;
+  ns0:instantiates <http://data.archives-nationales.culture.gouv.fr/recordResource/-aspace_1c8d96855563b73ae558cfc0b0ec4894> ;
+  ns0:title "Grand Rapids (MI) Convention/Entertainment Center: Electrical (E1-40) and Mechanical (ME 1-2) drawings"@en ;
+  rdfs:label "Grand Rapids (MI) Convention/Entertainment Center: Electrical (E1-40) and Mechanical (ME 1-2) drawings"@en ;
+  ns0:beginningDate "1978"^^xsd:gYear ;
+  ns0:endDate "1978"^^xsd:gYear ;
+  ns0:date "1978"@en ;
+  rdfs:seeAlso <https://www.siv.archives-nationales.culture.gouv.fr/siv/UD/02357/aspace_1c8d96855563b73ae558cfc0b0ec4894> .
+
+<http://data.archives-nationales.culture.gouv.fr/recordResource/-aspace_6f30826b4e2e526c8593975ee5fad418>
+  a ns0:RecordResource, ns0:RecordSet ;
+  ns0:includedIn <http://data.archives-nationales.culture.gouv.fr/recordResource/-aspace_f102ca916f305eee1e5d8ea6ad334ba1> ;
+  ns0:hasRecordSetType <https://www.ica.org/standards/RiC/vocabularies/recordSetTypes#File> ;
+  ns0:title "Grand Rapids (MI) Convention/Entertainment Center: Stage equipment (SE1-37) drawings"@en ;
+  rdfs:label "Grand Rapids (MI) Convention/Entertainment Center: Stage equipment (SE1-37) drawings"@en ;
+  ns0:beginningDate "1978"^^xsd:gYear ;
+  ns0:endDate "1978"^^xsd:gYear ;
+  ns0:date "1978"@en ;
+  ns0:hasInstantiation <http://data.archives-nationales.culture.gouv.fr/instantiation/-aspace_6f30826b4e2e526c8593975ee5fad418-i1> .
+
+<http://data.archives-nationales.culture.gouv.fr/instantiation/-aspace_6f30826b4e2e526c8593975ee5fad418-i1>
+  a ns0:Instantiation ;
+  ns0:instantiates <http://data.archives-nationales.culture.gouv.fr/recordResource/-aspace_6f30826b4e2e526c8593975ee5fad418> ;
+  ns0:title "Grand Rapids (MI) Convention/Entertainment Center: Stage equipment (SE1-37) drawings"@en ;
+  rdfs:label "Grand Rapids (MI) Convention/Entertainment Center: Stage equipment (SE1-37) drawings"@en ;
+  ns0:beginningDate "1978"^^xsd:gYear ;
+  ns0:endDate "1978"^^xsd:gYear ;
+  ns0:date "1978"@en ;
+  rdfs:seeAlso <https://www.siv.archives-nationales.culture.gouv.fr/siv/UD/02357/aspace_6f30826b4e2e526c8593975ee5fad418> .
+
+<http://data.archives-nationales.culture.gouv.fr/recordResource/-aspace_37c616d668db4086cb532649270ec184>
+  a ns0:RecordResource, ns0:RecordSet ;
+  ns0:includedIn <http://data.archives-nationales.culture.gouv.fr/recordResource/-aspace_f102ca916f305eee1e5d8ea6ad334ba1> ;
+  ns0:hasRecordSetType <https://www.ica.org/standards/RiC/vocabularies/recordSetTypes#File> ;
+  ns0:title "Grand Rapids (MI) Convention/Entertainment Center: HVAC, Fire Protection, Plumbing drawings"@en ;
+  rdfs:label "Grand Rapids (MI) Convention/Entertainment Center: HVAC, Fire Protection, Plumbing drawings"@en ;
+  ns0:beginningDate "1978"^^xsd:gYear ;
+  ns0:endDate "1978"^^xsd:gYear ;
+  ns0:date "1978"@en ;
+  ns0:hasInstantiation <http://data.archives-nationales.culture.gouv.fr/instantiation/-aspace_37c616d668db4086cb532649270ec184-i1> .
+
+<http://data.archives-nationales.culture.gouv.fr/instantiation/-aspace_37c616d668db4086cb532649270ec184-i1>
+  a ns0:Instantiation ;
+  ns0:instantiates <http://data.archives-nationales.culture.gouv.fr/recordResource/-aspace_37c616d668db4086cb532649270ec184> ;
+  ns0:title "Grand Rapids (MI) Convention/Entertainment Center: HVAC, Fire Protection, Plumbing drawings"@en ;
+  rdfs:label "Grand Rapids (MI) Convention/Entertainment Center: HVAC, Fire Protection, Plumbing drawings"@en ;
+  ns0:beginningDate "1978"^^xsd:gYear ;
+  ns0:endDate "1978"^^xsd:gYear ;
+  ns0:date "1978"@en ;
+  rdfs:seeAlso <https://www.siv.archives-nationales.culture.gouv.fr/siv/UD/02357/aspace_37c616d668db4086cb532649270ec184> .
+
+<http://data.archives-nationales.culture.gouv.fr/recordResource/-aspace_f5585ff15c541e8418f1cd09e54cfeab>
+  a ns0:RecordResource, ns0:RecordSet ;
+  ns0:includedIn <http://data.archives-nationales.culture.gouv.fr/recordResource/-aspace_f102ca916f305eee1e5d8ea6ad334ba1> ;
+  ns0:hasRecordSetType <https://www.ica.org/standards/RiC/vocabularies/recordSetTypes#File> ;
+  ns0:title "Grand Rapids (MI) Convention/Entertainment Center: Structural drawings (S1-16, 21-46, 51-56)"@en ;
+  rdfs:label "Grand Rapids (MI) Convention/Entertainment Center: Structural drawings (S1-16, 21-46, 51-56)"@en ;
+  ns0:beginningDate "1978"^^xsd:gYear ;
+  ns0:endDate "1978"^^xsd:gYear ;
+  ns0:date "1978"@en ;
+  ns0:hasInstantiation <http://data.archives-nationales.culture.gouv.fr/instantiation/-aspace_f5585ff15c541e8418f1cd09e54cfeab-i1> .
+
+<http://data.archives-nationales.culture.gouv.fr/instantiation/-aspace_f5585ff15c541e8418f1cd09e54cfeab-i1>
+  a ns0:Instantiation ;
+  ns0:instantiates <http://data.archives-nationales.culture.gouv.fr/recordResource/-aspace_f5585ff15c541e8418f1cd09e54cfeab> ;
+  ns0:title "Grand Rapids (MI) Convention/Entertainment Center: Structural drawings (S1-16, 21-46, 51-56)"@en ;
+  rdfs:label "Grand Rapids (MI) Convention/Entertainment Center: Structural drawings (S1-16, 21-46, 51-56)"@en ;
+  ns0:beginningDate "1978"^^xsd:gYear ;
+  ns0:endDate "1978"^^xsd:gYear ;
+  ns0:date "1978"@en ;
+  rdfs:seeAlso <https://www.siv.archives-nationales.culture.gouv.fr/siv/UD/02357/aspace_f5585ff15c541e8418f1cd09e54cfeab> .
+
+<http://data.archives-nationales.culture.gouv.fr/recordResource/-aspace_180afbd54d9ae59f63e8ae4e138b1642>
+  a ns0:RecordResource, ns0:RecordSet ;
+  ns0:includedIn <http://data.archives-nationales.culture.gouv.fr/recordResource/-aspace_f102ca916f305eee1e5d8ea6ad334ba1> ;
+  ns0:hasRecordSetType <https://www.ica.org/standards/RiC/vocabularies/recordSetTypes#File> ;
+  ns0:title "Lincoln Center for the Performing Arts, NYC: Vivian Beaumont Theater preliminary spacing use studies"@en ;
+  rdfs:label "Lincoln Center for the Performing Arts, NYC: Vivian Beaumont Theater preliminary spacing use studies"@en ;
+  ns0:beginningDate "1960"^^xsd:gYear ;
+  ns0:endDate "1960"^^xsd:gYear ;
+  ns0:date "1960"@en ;
+  ns0:hasInstantiation <http://data.archives-nationales.culture.gouv.fr/instantiation/-aspace_180afbd54d9ae59f63e8ae4e138b1642-i1> .
+
+<http://data.archives-nationales.culture.gouv.fr/instantiation/-aspace_180afbd54d9ae59f63e8ae4e138b1642-i1>
+  a ns0:Instantiation ;
+  ns0:instantiates <http://data.archives-nationales.culture.gouv.fr/recordResource/-aspace_180afbd54d9ae59f63e8ae4e138b1642> ;
+  ns0:title "Lincoln Center for the Performing Arts, NYC: Vivian Beaumont Theater preliminary spacing use studies"@en ;
+  rdfs:label "Lincoln Center for the Performing Arts, NYC: Vivian Beaumont Theater preliminary spacing use studies"@en ;
+  ns0:beginningDate "1960"^^xsd:gYear ;
+  ns0:endDate "1960"^^xsd:gYear ;
+  ns0:date "1960"@en ;
+  rdfs:seeAlso <https://www.siv.archives-nationales.culture.gouv.fr/siv/UD/02357/aspace_180afbd54d9ae59f63e8ae4e138b1642> .
+
+<http://data.archives-nationales.culture.gouv.fr/recordResource/-aspace_f79b681ac0999f0867b9803d94375976>
+  a ns0:RecordResource, ns0:RecordSet ;
+  ns0:includedIn <http://data.archives-nationales.culture.gouv.fr/recordResource/-aspace_f102ca916f305eee1e5d8ea6ad334ba1> ;
+  ns0:hasRecordSetType <https://www.ica.org/standards/RiC/vocabularies/recordSetTypes#File> ;
+  ns0:title "Lincoln Center for the Performing Arts, NYC: Vivian Beaumont Repertory Theater early lighting layout and studies"@en ;
+  rdfs:label "Lincoln Center for the Performing Arts, NYC: Vivian Beaumont Repertory Theater early lighting layout and studies"@en ;
+  ns0:beginningDate "1960"^^xsd:gYear ;
+  ns0:endDate "1960"^^xsd:gYear ;
+  ns0:date "1960"@en ;
+  ns0:hasInstantiation <http://data.archives-nationales.culture.gouv.fr/instantiation/-aspace_f79b681ac0999f0867b9803d94375976-i1> .
+
+<http://data.archives-nationales.culture.gouv.fr/instantiation/-aspace_f79b681ac0999f0867b9803d94375976-i1>
+  a ns0:Instantiation ;
+  ns0:instantiates <http://data.archives-nationales.culture.gouv.fr/recordResource/-aspace_f79b681ac0999f0867b9803d94375976> ;
+  ns0:title "Lincoln Center for the Performing Arts, NYC: Vivian Beaumont Repertory Theater early lighting layout and studies"@en ;
+  rdfs:label "Lincoln Center for the Performing Arts, NYC: Vivian Beaumont Repertory Theater early lighting layout and studies"@en ;
+  ns0:beginningDate "1960"^^xsd:gYear ;
+  ns0:endDate "1960"^^xsd:gYear ;
+  ns0:date "1960"@en ;
+  rdfs:seeAlso <https://www.siv.archives-nationales.culture.gouv.fr/siv/UD/02357/aspace_f79b681ac0999f0867b9803d94375976> .
+
+<http://data.archives-nationales.culture.gouv.fr/recordResource/-aspace_f4ea92deef3a5926059c9a43ebf54b8b>
+  a ns0:RecordResource, ns0:RecordSet ;
+  ns0:includedIn <http://data.archives-nationales.culture.gouv.fr/recordResource/-aspace_f102ca916f305eee1e5d8ea6ad334ba1> ;
+  ns0:hasRecordSetType <https://www.ica.org/standards/RiC/vocabularies/recordSetTypes#File> ;
+  ns0:title "Lincoln Center for the Performing Arts, NYC: Repertory Theater Museum and Library"@en ;
+  rdfs:label "Lincoln Center for the Performing Arts, NYC: Repertory Theater Museum and Library"@en ;
+  ns0:beginningDate "1960"^^xsd:gYear ;
+  ns0:endDate "1960"^^xsd:gYear ;
+  ns0:date "1960"@en ;
+  ns0:hasInstantiation <http://data.archives-nationales.culture.gouv.fr/instantiation/-aspace_f4ea92deef3a5926059c9a43ebf54b8b-i1> .
+
+<http://data.archives-nationales.culture.gouv.fr/instantiation/-aspace_f4ea92deef3a5926059c9a43ebf54b8b-i1>
+  a ns0:Instantiation ;
+  ns0:instantiates <http://data.archives-nationales.culture.gouv.fr/recordResource/-aspace_f4ea92deef3a5926059c9a43ebf54b8b> ;
+  ns0:title "Lincoln Center for the Performing Arts, NYC: Repertory Theater Museum and Library"@en ;
+  rdfs:label "Lincoln Center for the Performing Arts, NYC: Repertory Theater Museum and Library"@en ;
+  ns0:beginningDate "1960"^^xsd:gYear ;
+  ns0:endDate "1960"^^xsd:gYear ;
+  ns0:date "1960"@en ;
+  rdfs:seeAlso <https://www.siv.archives-nationales.culture.gouv.fr/siv/UD/02357/aspace_f4ea92deef3a5926059c9a43ebf54b8b> .
+
+<http://data.archives-nationales.culture.gouv.fr/recordResource/-aspace_55bc7a53bea70e372def4ebc8e1b7fa1>
+  a ns0:RecordResource, ns0:RecordSet ;
+  ns0:includedIn <http://data.archives-nationales.culture.gouv.fr/recordResource/-aspace_f102ca916f305eee1e5d8ea6ad334ba1> ;
+  ns0:hasRecordSetType <https://www.ica.org/standards/RiC/vocabularies/recordSetTypes#File> ;
+  ns0:title "Lincoln Center for the Performing Arts, NYC: Electrical drawings"@en ;
+  rdfs:label "Lincoln Center for the Performing Arts, NYC: Electrical drawings"@en ;
+  ns0:beginningDate "1962"^^xsd:gYear ;
+  ns0:endDate "1962"^^xsd:gYear ;
+  ns0:date "1962"@en ;
+  ns0:hasInstantiation <http://data.archives-nationales.culture.gouv.fr/instantiation/-aspace_55bc7a53bea70e372def4ebc8e1b7fa1-i1> .
+
+<http://data.archives-nationales.culture.gouv.fr/instantiation/-aspace_55bc7a53bea70e372def4ebc8e1b7fa1-i1>
+  a ns0:Instantiation ;
+  ns0:instantiates <http://data.archives-nationales.culture.gouv.fr/recordResource/-aspace_55bc7a53bea70e372def4ebc8e1b7fa1> ;
+  ns0:title "Lincoln Center for the Performing Arts, NYC: Electrical drawings"@en ;
+  rdfs:label "Lincoln Center for the Performing Arts, NYC: Electrical drawings"@en ;
+  ns0:beginningDate "1962"^^xsd:gYear ;
+  ns0:endDate "1962"^^xsd:gYear ;
+  ns0:date "1962"@en ;
+  rdfs:seeAlso <https://www.siv.archives-nationales.culture.gouv.fr/siv/UD/02357/aspace_55bc7a53bea70e372def4ebc8e1b7fa1> .
+
+<http://data.archives-nationales.culture.gouv.fr/recordResource/-aspace_991e739a328df7b6aa476c392f6d37cd>
+  a ns0:RecordResource, ns0:RecordSet ;
+  ns0:includedIn <http://data.archives-nationales.culture.gouv.fr/recordResource/-aspace_f102ca916f305eee1e5d8ea6ad334ba1> ;
+  ns0:hasRecordSetType <https://www.ica.org/standards/RiC/vocabularies/recordSetTypes#File> ;
+  ns0:title "Damman Cultural Center, Saudi Arabia: Blueprints A36-67, 82"@en ;
+  rdfs:label "Damman Cultural Center, Saudi Arabia: Blueprints A36-67, 82"@en ;
+  ns0:beginningDate "1976"^^xsd:gYear ;
+  ns0:endDate "1977"^^xsd:gYear ;
+  ns0:date "1976-1977"@en ;
+  ns0:hasInstantiation <http://data.archives-nationales.culture.gouv.fr/instantiation/-aspace_991e739a328df7b6aa476c392f6d37cd-i1> .
+
+<http://data.archives-nationales.culture.gouv.fr/instantiation/-aspace_991e739a328df7b6aa476c392f6d37cd-i1>
+  a ns0:Instantiation ;
+  ns0:instantiates <http://data.archives-nationales.culture.gouv.fr/recordResource/-aspace_991e739a328df7b6aa476c392f6d37cd> ;
+  ns0:title "Damman Cultural Center, Saudi Arabia: Blueprints A36-67, 82"@en ;
+  rdfs:label "Damman Cultural Center, Saudi Arabia: Blueprints A36-67, 82"@en ;
+  ns0:beginningDate "1976"^^xsd:gYear ;
+  ns0:endDate "1977"^^xsd:gYear ;
+  ns0:date "1976-1977"@en ;
+  rdfs:seeAlso <https://www.siv.archives-nationales.culture.gouv.fr/siv/UD/02357/aspace_991e739a328df7b6aa476c392f6d37cd> .
+
+<http://data.archives-nationales.culture.gouv.fr/recordResource/-aspace_45568e7b882062ed8a2cb22545088459>
+  a ns0:RecordResource, ns0:RecordSet ;
+  ns0:includedIn <http://data.archives-nationales.culture.gouv.fr/recordResource/-aspace_f102ca916f305eee1e5d8ea6ad334ba1> ;
+  ns0:hasRecordSetType <https://www.ica.org/standards/RiC/vocabularies/recordSetTypes#File> ;
+  ns0:title "Damman Cultural Center, Saudi Arabia: Blueprints Structural P-S part plan"@en ;
+  rdfs:label "Damman Cultural Center, Saudi Arabia: Blueprints Structural P-S part plan"@en ;
+  ns0:beginningDate "1976"^^xsd:gYear ;
+  ns0:endDate "1977"^^xsd:gYear ;
+  ns0:date "1976-1977"@en ;
+  ns0:hasInstantiation <http://data.archives-nationales.culture.gouv.fr/instantiation/-aspace_45568e7b882062ed8a2cb22545088459-i1> .
+
+<http://data.archives-nationales.culture.gouv.fr/instantiation/-aspace_45568e7b882062ed8a2cb22545088459-i1>
+  a ns0:Instantiation ;
+  ns0:instantiates <http://data.archives-nationales.culture.gouv.fr/recordResource/-aspace_45568e7b882062ed8a2cb22545088459> ;
+  ns0:title "Damman Cultural Center, Saudi Arabia: Blueprints Structural P-S part plan"@en ;
+  rdfs:label "Damman Cultural Center, Saudi Arabia: Blueprints Structural P-S part plan"@en ;
+  ns0:beginningDate "1976"^^xsd:gYear ;
+  ns0:endDate "1977"^^xsd:gYear ;
+  ns0:date "1976-1977"@en ;
+  rdfs:seeAlso <https://www.siv.archives-nationales.culture.gouv.fr/siv/UD/02357/aspace_45568e7b882062ed8a2cb22545088459> .
+
+<http://data.archives-nationales.culture.gouv.fr/recordResource/-aspace_328647699a13ef06b0c99b8ae9a67bf1>
+  a ns0:RecordResource, ns0:RecordSet ;
+  ns0:includedIn <http://data.archives-nationales.culture.gouv.fr/recordResource/-aspace_f102ca916f305eee1e5d8ea6ad334ba1> ;
+  ns0:hasRecordSetType <https://www.ica.org/standards/RiC/vocabularies/recordSetTypes#File> ;
+  ns0:title "Damman Cultural Center, Saudi Arabia: Blueprints A6-35"@en ;
+  rdfs:label "Damman Cultural Center, Saudi Arabia: Blueprints A6-35"@en ;
+  ns0:beginningDate "1976"^^xsd:gYear ;
+  ns0:endDate "1977"^^xsd:gYear ;
+  ns0:date "1976-1977"@en ;
+  ns0:hasInstantiation <http://data.archives-nationales.culture.gouv.fr/instantiation/-aspace_328647699a13ef06b0c99b8ae9a67bf1-i1> .
+
+<http://data.archives-nationales.culture.gouv.fr/instantiation/-aspace_328647699a13ef06b0c99b8ae9a67bf1-i1>
+  a ns0:Instantiation ;
+  ns0:instantiates <http://data.archives-nationales.culture.gouv.fr/recordResource/-aspace_328647699a13ef06b0c99b8ae9a67bf1> ;
+  ns0:title "Damman Cultural Center, Saudi Arabia: Blueprints A6-35"@en ;
+  rdfs:label "Damman Cultural Center, Saudi Arabia: Blueprints A6-35"@en ;
+  ns0:beginningDate "1976"^^xsd:gYear ;
+  ns0:endDate "1977"^^xsd:gYear ;
+  ns0:date "1976-1977"@en ;
+  rdfs:seeAlso <https://www.siv.archives-nationales.culture.gouv.fr/siv/UD/02357/aspace_328647699a13ef06b0c99b8ae9a67bf1> .
+
+<http://data.archives-nationales.culture.gouv.fr/recordResource/-aspace_376339098656f7a3e70f20b8c99e5a9b>
+  a ns0:RecordResource, ns0:RecordSet ;
+  ns0:includedIn <http://data.archives-nationales.culture.gouv.fr/recordResource/-aspace_f102ca916f305eee1e5d8ea6ad334ba1> ;
+  ns0:hasRecordSetType <https://www.ica.org/standards/RiC/vocabularies/recordSetTypes#File> ;
+  ns0:title "Damman Cultural Center, Saudi Arabia: Mylar drawings"@en ;
+  rdfs:label "Damman Cultural Center, Saudi Arabia: Mylar drawings"@en ;
+  ns0:beginningDate "1976"^^xsd:gYear ;
+  ns0:endDate "1976"^^xsd:gYear ;
+  ns0:date "1976"@en ;
+  ns0:hasInstantiation <http://data.archives-nationales.culture.gouv.fr/instantiation/-aspace_376339098656f7a3e70f20b8c99e5a9b-i1> .
+
+<http://data.archives-nationales.culture.gouv.fr/instantiation/-aspace_376339098656f7a3e70f20b8c99e5a9b-i1>
+  a ns0:Instantiation ;
+  ns0:instantiates <http://data.archives-nationales.culture.gouv.fr/recordResource/-aspace_376339098656f7a3e70f20b8c99e5a9b> ;
+  ns0:title "Damman Cultural Center, Saudi Arabia: Mylar drawings"@en ;
+  rdfs:label "Damman Cultural Center, Saudi Arabia: Mylar drawings"@en ;
+  ns0:beginningDate "1976"^^xsd:gYear ;
+  ns0:endDate "1976"^^xsd:gYear ;
+  ns0:date "1976"@en ;
+  rdfs:seeAlso <https://www.siv.archives-nationales.culture.gouv.fr/siv/UD/02357/aspace_376339098656f7a3e70f20b8c99e5a9b> .
+
+<http://data.archives-nationales.culture.gouv.fr/recordResource/-aspace_c67732dfd66b35787a9b201f0ac64311>
+  a ns0:RecordResource, ns0:RecordSet ;
+  ns0:includedIn <http://data.archives-nationales.culture.gouv.fr/recordResource/-aspace_f102ca916f305eee1e5d8ea6ad334ba1> ;
+  ns0:hasRecordSetType <https://www.ica.org/standards/RiC/vocabularies/recordSetTypes#File> ;
+  ns0:title "Ft. Wayne (IN) Fine Arts Foundation Theater of Performing Arts; BMW Museum picture screen"@en ;
+  rdfs:label "Ft. Wayne (IN) Fine Arts Foundation Theater of Performing Arts; BMW Museum picture screen"@en ;
+  ns0:beginningDate "1969"^^xsd:gYear ;
+  ns0:endDate "1976"^^xsd:gYear ;
+  ns0:date "1969, 1976"@en ;
+  ns0:hasInstantiation <http://data.archives-nationales.culture.gouv.fr/instantiation/-aspace_c67732dfd66b35787a9b201f0ac64311-i1> .
+
+<http://data.archives-nationales.culture.gouv.fr/instantiation/-aspace_c67732dfd66b35787a9b201f0ac64311-i1>
+  a ns0:Instantiation ;
+  ns0:instantiates <http://data.archives-nationales.culture.gouv.fr/recordResource/-aspace_c67732dfd66b35787a9b201f0ac64311> ;
+  ns0:title "Ft. Wayne (IN) Fine Arts Foundation Theater of Performing Arts; BMW Museum picture screen"@en ;
+  rdfs:label "Ft. Wayne (IN) Fine Arts Foundation Theater of Performing Arts; BMW Museum picture screen"@en ;
+  ns0:beginningDate "1969"^^xsd:gYear ;
+  ns0:endDate "1976"^^xsd:gYear ;
+  ns0:date "1969, 1976"@en ;
+  rdfs:seeAlso <https://www.siv.archives-nationales.culture.gouv.fr/siv/UD/02357/aspace_c67732dfd66b35787a9b201f0ac64311> .
+
+<http://data.archives-nationales.culture.gouv.fr/recordResource/-aspace_62a534eec213af24424b99b2e7e07696>
+  a ns0:RecordResource, ns0:RecordSet ;
+  ns0:includedIn <http://data.archives-nationales.culture.gouv.fr/recordResource/-aspace_f102ca916f305eee1e5d8ea6ad334ba1> ;
+  ns0:hasRecordSetType <https://www.ica.org/standards/RiC/vocabularies/recordSetTypes#File> ;
+  ns0:title "Rodey Theater, University of New Mexico: Miscellaneous prints"@en ;
+  rdfs:label "Rodey Theater, University of New Mexico: Miscellaneous prints"@en ;
+  ns0:beginningDate "1971"^^xsd:gYear ;
+  ns0:endDate "1971"^^xsd:gYear ;
+  ns0:date "1971"@en ;
+  ns0:hasInstantiation <http://data.archives-nationales.culture.gouv.fr/instantiation/-aspace_62a534eec213af24424b99b2e7e07696-i1> .
+
+<http://data.archives-nationales.culture.gouv.fr/instantiation/-aspace_62a534eec213af24424b99b2e7e07696-i1>
+  a ns0:Instantiation ;
+  ns0:instantiates <http://data.archives-nationales.culture.gouv.fr/recordResource/-aspace_62a534eec213af24424b99b2e7e07696> ;
+  ns0:title "Rodey Theater, University of New Mexico: Miscellaneous prints"@en ;
+  rdfs:label "Rodey Theater, University of New Mexico: Miscellaneous prints"@en ;
+  ns0:beginningDate "1971"^^xsd:gYear ;
+  ns0:endDate "1971"^^xsd:gYear ;
+  ns0:date "1971"@en ;
+  rdfs:seeAlso <https://www.siv.archives-nationales.culture.gouv.fr/siv/UD/02357/aspace_62a534eec213af24424b99b2e7e07696> .
+
+<http://data.archives-nationales.culture.gouv.fr/recordResource/-aspace_4e865e4e89575a9d8c7d355c6c60007e>
+  a ns0:RecordResource, ns0:RecordSet ;
+  ns0:includedIn <http://data.archives-nationales.culture.gouv.fr/recordResource/-aspace_f102ca916f305eee1e5d8ea6ad334ba1> ;
+  ns0:hasRecordSetType <https://www.ica.org/standards/RiC/vocabularies/recordSetTypes#File> ;
+  ns0:title "Rodey Theater, University of New Mexico: Miscellaneous prints"@en ;
+  rdfs:label "Rodey Theater, University of New Mexico: Miscellaneous prints"@en ;
+  ns0:beginningDate "1971"^^xsd:gYear ;
+  ns0:endDate "1971"^^xsd:gYear ;
+  ns0:date "1971"@en ;
+  ns0:hasInstantiation <http://data.archives-nationales.culture.gouv.fr/instantiation/-aspace_4e865e4e89575a9d8c7d355c6c60007e-i1> .
+
+<http://data.archives-nationales.culture.gouv.fr/instantiation/-aspace_4e865e4e89575a9d8c7d355c6c60007e-i1>
+  a ns0:Instantiation ;
+  ns0:instantiates <http://data.archives-nationales.culture.gouv.fr/recordResource/-aspace_4e865e4e89575a9d8c7d355c6c60007e> ;
+  ns0:title "Rodey Theater, University of New Mexico: Miscellaneous prints"@en ;
+  rdfs:label "Rodey Theater, University of New Mexico: Miscellaneous prints"@en ;
+  ns0:beginningDate "1971"^^xsd:gYear ;
+  ns0:endDate "1971"^^xsd:gYear ;
+  ns0:date "1971"@en ;
+  rdfs:seeAlso <https://www.siv.archives-nationales.culture.gouv.fr/siv/UD/02357/aspace_4e865e4e89575a9d8c7d355c6c60007e> .
+
+<http://data.archives-nationales.culture.gouv.fr/recordResource/-aspace_ae2c7844c34f516d275b044963824b22>
+  a ns0:RecordResource, ns0:RecordSet ;
+  ns0:includedIn <http://data.archives-nationales.culture.gouv.fr/recordResource/-aspace_f102ca916f305eee1e5d8ea6ad334ba1> ;
+  ns0:hasRecordSetType <https://www.ica.org/standards/RiC/vocabularies/recordSetTypes#File> ;
+  ns0:title "Rodey Theater, University of New Mexico: Original and sepia drawings"@en ;
+  rdfs:label "Rodey Theater, University of New Mexico: Original and sepia drawings"@en ;
+  ns0:beginningDate "1971"^^xsd:gYear ;
+  ns0:endDate "1971"^^xsd:gYear ;
+  ns0:date "1971"@en ;
+  ns0:hasInstantiation <http://data.archives-nationales.culture.gouv.fr/instantiation/-aspace_ae2c7844c34f516d275b044963824b22-i1> .
+
+<http://data.archives-nationales.culture.gouv.fr/instantiation/-aspace_ae2c7844c34f516d275b044963824b22-i1>
+  a ns0:Instantiation ;
+  ns0:instantiates <http://data.archives-nationales.culture.gouv.fr/recordResource/-aspace_ae2c7844c34f516d275b044963824b22> ;
+  ns0:title "Rodey Theater, University of New Mexico: Original and sepia drawings"@en ;
+  rdfs:label "Rodey Theater, University of New Mexico: Original and sepia drawings"@en ;
+  ns0:beginningDate "1971"^^xsd:gYear ;
+  ns0:endDate "1971"^^xsd:gYear ;
+  ns0:date "1971"@en ;
+  rdfs:seeAlso <https://www.siv.archives-nationales.culture.gouv.fr/siv/UD/02357/aspace_ae2c7844c34f516d275b044963824b22> .
+
+<http://data.archives-nationales.culture.gouv.fr/recordResource/-aspace_b606e145e17c178b05368d03ab16db79>
+  a ns0:RecordResource, ns0:RecordSet ;
+  ns0:includedIn <http://data.archives-nationales.culture.gouv.fr/recordResource/-aspace_f102ca916f305eee1e5d8ea6ad334ba1> ;
+  ns0:hasRecordSetType <https://www.ica.org/standards/RiC/vocabularies/recordSetTypes#File> ;
+  ns0:title "Longstreet Theatre, University of South Carolina: Original drawings, mostly obsolete"@en ;
+  rdfs:label "Longstreet Theatre, University of South Carolina: Original drawings, mostly obsolete"@en ;
+  ns0:beginningDate "1975"^^xsd:gYear ;
+  ns0:endDate "1975"^^xsd:gYear ;
+  ns0:date "1975"@en ;
+  ns0:hasInstantiation <http://data.archives-nationales.culture.gouv.fr/instantiation/-aspace_b606e145e17c178b05368d03ab16db79-i1> .
+
+<http://data.archives-nationales.culture.gouv.fr/instantiation/-aspace_b606e145e17c178b05368d03ab16db79-i1>
+  a ns0:Instantiation ;
+  ns0:instantiates <http://data.archives-nationales.culture.gouv.fr/recordResource/-aspace_b606e145e17c178b05368d03ab16db79> ;
+  ns0:title "Longstreet Theatre, University of South Carolina: Original drawings, mostly obsolete"@en ;
+  rdfs:label "Longstreet Theatre, University of South Carolina: Original drawings, mostly obsolete"@en ;
+  ns0:beginningDate "1975"^^xsd:gYear ;
+  ns0:endDate "1975"^^xsd:gYear ;
+  ns0:date "1975"@en ;
+  rdfs:seeAlso <https://www.siv.archives-nationales.culture.gouv.fr/siv/UD/02357/aspace_b606e145e17c178b05368d03ab16db79> .
+
+<http://data.archives-nationales.culture.gouv.fr/recordResource/-aspace_2be1601626d0b8823b980c38e3fc7967>
+  a ns0:RecordResource, ns0:RecordSet ;
+  ns0:includedIn <http://data.archives-nationales.culture.gouv.fr/recordResource/-aspace_f102ca916f305eee1e5d8ea6ad334ba1> ;
+  ns0:hasRecordSetType <https://www.ica.org/standards/RiC/vocabularies/recordSetTypes#File> ;
+  ns0:title "Longstreet Theatre, University of South Carolina: Blueprints"@en ;
+  rdfs:label "Longstreet Theatre, University of South Carolina: Blueprints"@en ;
+  ns0:beginningDate "1975"^^xsd:gYear ;
+  ns0:endDate "1975"^^xsd:gYear ;
+  ns0:date "1975"@en ;
+  ns0:hasInstantiation <http://data.archives-nationales.culture.gouv.fr/instantiation/-aspace_2be1601626d0b8823b980c38e3fc7967-i1> .
+
+<http://data.archives-nationales.culture.gouv.fr/instantiation/-aspace_2be1601626d0b8823b980c38e3fc7967-i1>
+  a ns0:Instantiation ;
+  ns0:instantiates <http://data.archives-nationales.culture.gouv.fr/recordResource/-aspace_2be1601626d0b8823b980c38e3fc7967> ;
+  ns0:title "Longstreet Theatre, University of South Carolina: Blueprints"@en ;
+  rdfs:label "Longstreet Theatre, University of South Carolina: Blueprints"@en ;
+  ns0:beginningDate "1975"^^xsd:gYear ;
+  ns0:endDate "1975"^^xsd:gYear ;
+  ns0:date "1975"@en ;
+  rdfs:seeAlso <https://www.siv.archives-nationales.culture.gouv.fr/siv/UD/02357/aspace_2be1601626d0b8823b980c38e3fc7967> .
+
+<http://data.archives-nationales.culture.gouv.fr/recordResource/-aspace_d9790db980ef8a0d1f01c78b790b68c5>
+  a ns0:RecordResource, ns0:RecordSet ;
+  ns0:includedIn <http://data.archives-nationales.culture.gouv.fr/recordResource/-aspace_f102ca916f305eee1e5d8ea6ad334ba1> ;
+  ns0:hasRecordSetType <https://www.ica.org/standards/RiC/vocabularies/recordSetTypes#File> ;
+  ns0:title "Longstreet Theatre, University of South Carolina: Original drawings, mostly obsolete"@en ;
+  rdfs:label "Longstreet Theatre, University of South Carolina: Original drawings, mostly obsolete"@en ;
+  ns0:beginningDate "1975"^^xsd:gYear ;
+  ns0:endDate "1975"^^xsd:gYear ;
+  ns0:date "1975"@en ;
+  ns0:hasInstantiation <http://data.archives-nationales.culture.gouv.fr/instantiation/-aspace_d9790db980ef8a0d1f01c78b790b68c5-i1> .
+
+<http://data.archives-nationales.culture.gouv.fr/instantiation/-aspace_d9790db980ef8a0d1f01c78b790b68c5-i1>
+  a ns0:Instantiation ;
+  ns0:instantiates <http://data.archives-nationales.culture.gouv.fr/recordResource/-aspace_d9790db980ef8a0d1f01c78b790b68c5> ;
+  ns0:title "Longstreet Theatre, University of South Carolina: Original drawings, mostly obsolete"@en ;
+  rdfs:label "Longstreet Theatre, University of South Carolina: Original drawings, mostly obsolete"@en ;
+  ns0:beginningDate "1975"^^xsd:gYear ;
+  ns0:endDate "1975"^^xsd:gYear ;
+  ns0:date "1975"@en ;
+  rdfs:seeAlso <https://www.siv.archives-nationales.culture.gouv.fr/siv/UD/02357/aspace_d9790db980ef8a0d1f01c78b790b68c5> .
+
+<http://data.archives-nationales.culture.gouv.fr/recordResource/-aspace_5d55b342a8a6968fd67f09e35443c036>
+  a ns0:RecordResource, ns0:RecordSet ;
+  ns0:includedIn <http://data.archives-nationales.culture.gouv.fr/recordResource/-aspace_f102ca916f305eee1e5d8ea6ad334ba1> ;
+  ns0:hasRecordSetType <https://www.ica.org/standards/RiC/vocabularies/recordSetTypes#File> ;
+  ns0:title "Longstreet Theatre, University of South Carolina: Original tracings"@en ;
+  rdfs:label "Longstreet Theatre, University of South Carolina: Original tracings"@en ;
+  ns0:beginningDate "1975"^^xsd:gYear ;
+  ns0:endDate "1975"^^xsd:gYear ;
+  ns0:date "1975"@en ;
+  ns0:hasInstantiation <http://data.archives-nationales.culture.gouv.fr/instantiation/-aspace_5d55b342a8a6968fd67f09e35443c036-i1> .
+
+<http://data.archives-nationales.culture.gouv.fr/instantiation/-aspace_5d55b342a8a6968fd67f09e35443c036-i1>
+  a ns0:Instantiation ;
+  ns0:instantiates <http://data.archives-nationales.culture.gouv.fr/recordResource/-aspace_5d55b342a8a6968fd67f09e35443c036> ;
+  ns0:title "Longstreet Theatre, University of South Carolina: Original tracings"@en ;
+  rdfs:label "Longstreet Theatre, University of South Carolina: Original tracings"@en ;
+  ns0:beginningDate "1975"^^xsd:gYear ;
+  ns0:endDate "1975"^^xsd:gYear ;
+  ns0:date "1975"@en ;
+  rdfs:seeAlso <https://www.siv.archives-nationales.culture.gouv.fr/siv/UD/02357/aspace_5d55b342a8a6968fd67f09e35443c036> .
+
+<http://data.archives-nationales.culture.gouv.fr/recordResource/-aspace_53ec70ba269a50cec3081a86c7766b52>
+  a ns0:RecordResource, ns0:RecordSet ;
+  ns0:includedIn <http://data.archives-nationales.culture.gouv.fr/recordResource/-aspace_f102ca916f305eee1e5d8ea6ad334ba1> ;
+  ns0:hasRecordSetType <https://www.ica.org/standards/RiC/vocabularies/recordSetTypes#File> ;
+  ns0:title "Riyadh, Saudi Arabia Cultural Center: Electrical blueprints E1-30"@en ;
+  rdfs:label "Riyadh, Saudi Arabia Cultural Center: Electrical blueprints E1-30"@en ;
+  ns0:beginningDate "1976"^^xsd:gYear ;
+  ns0:endDate "1976"^^xsd:gYear ;
+  ns0:date "1976"@en ;
+  ns0:hasInstantiation <http://data.archives-nationales.culture.gouv.fr/instantiation/-aspace_53ec70ba269a50cec3081a86c7766b52-i1> .
+
+<http://data.archives-nationales.culture.gouv.fr/instantiation/-aspace_53ec70ba269a50cec3081a86c7766b52-i1>
+  a ns0:Instantiation ;
+  ns0:instantiates <http://data.archives-nationales.culture.gouv.fr/recordResource/-aspace_53ec70ba269a50cec3081a86c7766b52> ;
+  ns0:title "Riyadh, Saudi Arabia Cultural Center: Electrical blueprints E1-30"@en ;
+  rdfs:label "Riyadh, Saudi Arabia Cultural Center: Electrical blueprints E1-30"@en ;
+  ns0:beginningDate "1976"^^xsd:gYear ;
+  ns0:endDate "1976"^^xsd:gYear ;
+  ns0:date "1976"@en ;
+  rdfs:seeAlso <https://www.siv.archives-nationales.culture.gouv.fr/siv/UD/02357/aspace_53ec70ba269a50cec3081a86c7766b52> .
+
+<http://data.archives-nationales.culture.gouv.fr/recordResource/-aspace_e29cf607342591214240fe1c20dbe5d3>
+  a ns0:RecordResource, ns0:RecordSet ;
+  ns0:includedIn <http://data.archives-nationales.culture.gouv.fr/recordResource/-aspace_f102ca916f305eee1e5d8ea6ad334ba1> ;
+  ns0:hasRecordSetType <https://www.ica.org/standards/RiC/vocabularies/recordSetTypes#File> ;
+  ns0:title "Riyadh, Saudi Arabia Cultural Center: Electrical blueprints E31-60"@en ;
+  rdfs:label "Riyadh, Saudi Arabia Cultural Center: Electrical blueprints E31-60"@en ;
+  ns0:beginningDate "1976"^^xsd:gYear ;
+  ns0:endDate "1976"^^xsd:gYear ;
+  ns0:date "1976"@en ;
+  ns0:hasInstantiation <http://data.archives-nationales.culture.gouv.fr/instantiation/-aspace_e29cf607342591214240fe1c20dbe5d3-i1> .
+
+<http://data.archives-nationales.culture.gouv.fr/instantiation/-aspace_e29cf607342591214240fe1c20dbe5d3-i1>
+  a ns0:Instantiation ;
+  ns0:instantiates <http://data.archives-nationales.culture.gouv.fr/recordResource/-aspace_e29cf607342591214240fe1c20dbe5d3> ;
+  ns0:title "Riyadh, Saudi Arabia Cultural Center: Electrical blueprints E31-60"@en ;
+  rdfs:label "Riyadh, Saudi Arabia Cultural Center: Electrical blueprints E31-60"@en ;
+  ns0:beginningDate "1976"^^xsd:gYear ;
+  ns0:endDate "1976"^^xsd:gYear ;
+  ns0:date "1976"@en ;
+  rdfs:seeAlso <https://www.siv.archives-nationales.culture.gouv.fr/siv/UD/02357/aspace_e29cf607342591214240fe1c20dbe5d3> .
+
+<http://data.archives-nationales.culture.gouv.fr/recordResource/-aspace_052a291dcddf363fb86b7baf35654f95>
+  a ns0:RecordResource, ns0:RecordSet ;
+  ns0:includedIn <http://data.archives-nationales.culture.gouv.fr/recordResource/-aspace_f102ca916f305eee1e5d8ea6ad334ba1> ;
+  ns0:hasRecordSetType <https://www.ica.org/standards/RiC/vocabularies/recordSetTypes#File> ;
+  ns0:title "Riyadh, Saudi Arabia Cultural Center: Electrical blueprints E61-90"@en ;
+  rdfs:label "Riyadh, Saudi Arabia Cultural Center: Electrical blueprints E61-90"@en ;
+  ns0:beginningDate "1976"^^xsd:gYear ;
+  ns0:endDate "1976"^^xsd:gYear ;
+  ns0:date "1976"@en ;
+  ns0:hasInstantiation <http://data.archives-nationales.culture.gouv.fr/instantiation/-aspace_052a291dcddf363fb86b7baf35654f95-i1> .
+
+<http://data.archives-nationales.culture.gouv.fr/instantiation/-aspace_052a291dcddf363fb86b7baf35654f95-i1>
+  a ns0:Instantiation ;
+  ns0:instantiates <http://data.archives-nationales.culture.gouv.fr/recordResource/-aspace_052a291dcddf363fb86b7baf35654f95> ;
+  ns0:title "Riyadh, Saudi Arabia Cultural Center: Electrical blueprints E61-90"@en ;
+  rdfs:label "Riyadh, Saudi Arabia Cultural Center: Electrical blueprints E61-90"@en ;
+  ns0:beginningDate "1976"^^xsd:gYear ;
+  ns0:endDate "1976"^^xsd:gYear ;
+  ns0:date "1976"@en ;
+  rdfs:seeAlso <https://www.siv.archives-nationales.culture.gouv.fr/siv/UD/02357/aspace_052a291dcddf363fb86b7baf35654f95> .
+
+<http://data.archives-nationales.culture.gouv.fr/recordResource/-aspace_386d55aff3fa4d2caedc14c84533b85d>
+  a ns0:RecordResource, ns0:RecordSet ;
+  ns0:includedIn <http://data.archives-nationales.culture.gouv.fr/recordResource/-aspace_f102ca916f305eee1e5d8ea6ad334ba1> ;
+  ns0:hasRecordSetType <https://www.ica.org/standards/RiC/vocabularies/recordSetTypes#File> ;
+  ns0:title "Riyadh, Saudi Arabia Cultural Center: Electrical blueprints E91-123"@en ;
+  rdfs:label "Riyadh, Saudi Arabia Cultural Center: Electrical blueprints E91-123"@en ;
+  ns0:beginningDate "1976"^^xsd:gYear ;
+  ns0:endDate "1976"^^xsd:gYear ;
+  ns0:date "1976"@en ;
+  ns0:hasInstantiation <http://data.archives-nationales.culture.gouv.fr/instantiation/-aspace_386d55aff3fa4d2caedc14c84533b85d-i1> .
+
+<http://data.archives-nationales.culture.gouv.fr/instantiation/-aspace_386d55aff3fa4d2caedc14c84533b85d-i1>
+  a ns0:Instantiation ;
+  ns0:instantiates <http://data.archives-nationales.culture.gouv.fr/recordResource/-aspace_386d55aff3fa4d2caedc14c84533b85d> ;
+  ns0:title "Riyadh, Saudi Arabia Cultural Center: Electrical blueprints E91-123"@en ;
+  rdfs:label "Riyadh, Saudi Arabia Cultural Center: Electrical blueprints E91-123"@en ;
+  ns0:beginningDate "1976"^^xsd:gYear ;
+  ns0:endDate "1976"^^xsd:gYear ;
+  ns0:date "1976"@en ;
+  rdfs:seeAlso <https://www.siv.archives-nationales.culture.gouv.fr/siv/UD/02357/aspace_386d55aff3fa4d2caedc14c84533b85d> .
+
+<http://data.archives-nationales.culture.gouv.fr/recordResource/-aspace_b4de4ecd4ab919e59029ed51e1846a2a>
+  a ns0:RecordResource, ns0:RecordSet ;
+  ns0:includedIn <http://data.archives-nationales.culture.gouv.fr/recordResource/-aspace_f102ca916f305eee1e5d8ea6ad334ba1> ;
+  ns0:hasRecordSetType <https://www.ica.org/standards/RiC/vocabularies/recordSetTypes#File> ;
+  ns0:title "Riyadh, Saudi Arabia Cultural Center: Blueprints, Mechanical"@en ;
+  rdfs:label "Riyadh, Saudi Arabia Cultural Center: Blueprints, Mechanical"@en ;
+  ns0:beginningDate "1976"^^xsd:gYear ;
+  ns0:endDate "1976"^^xsd:gYear ;
+  ns0:date "1976"@en ;
+  ns0:hasInstantiation <http://data.archives-nationales.culture.gouv.fr/instantiation/-aspace_b4de4ecd4ab919e59029ed51e1846a2a-i1> .
+
+<http://data.archives-nationales.culture.gouv.fr/instantiation/-aspace_b4de4ecd4ab919e59029ed51e1846a2a-i1>
+  a ns0:Instantiation ;
+  ns0:instantiates <http://data.archives-nationales.culture.gouv.fr/recordResource/-aspace_b4de4ecd4ab919e59029ed51e1846a2a> ;
+  ns0:title "Riyadh, Saudi Arabia Cultural Center: Blueprints, Mechanical"@en ;
+  rdfs:label "Riyadh, Saudi Arabia Cultural Center: Blueprints, Mechanical"@en ;
+  ns0:beginningDate "1976"^^xsd:gYear ;
+  ns0:endDate "1976"^^xsd:gYear ;
+  ns0:date "1976"@en ;
+  rdfs:seeAlso <https://www.siv.archives-nationales.culture.gouv.fr/siv/UD/02357/aspace_b4de4ecd4ab919e59029ed51e1846a2a> .
+
+<http://data.archives-nationales.culture.gouv.fr/recordResource/-aspace_0d55447332cf4ca976a39ea977b1ca2c>
+  a ns0:RecordResource, ns0:RecordSet ;
+  ns0:includedIn <http://data.archives-nationales.culture.gouv.fr/recordResource/-aspace_f102ca916f305eee1e5d8ea6ad334ba1> ;
+  ns0:hasRecordSetType <https://www.ica.org/standards/RiC/vocabularies/recordSetTypes#File> ;
+  ns0:title "Riyadh, Saudi Arabia Cultural Center: Blueprints, Drainage 1-17, 19-29"@en ;
+  rdfs:label "Riyadh, Saudi Arabia Cultural Center: Blueprints, Drainage 1-17, 19-29"@en ;
+  ns0:beginningDate "1976"^^xsd:gYear ;
+  ns0:endDate "1976"^^xsd:gYear ;
+  ns0:date "1976"@en ;
+  ns0:hasInstantiation <http://data.archives-nationales.culture.gouv.fr/instantiation/-aspace_0d55447332cf4ca976a39ea977b1ca2c-i1> .
+
+<http://data.archives-nationales.culture.gouv.fr/instantiation/-aspace_0d55447332cf4ca976a39ea977b1ca2c-i1>
+  a ns0:Instantiation ;
+  ns0:instantiates <http://data.archives-nationales.culture.gouv.fr/recordResource/-aspace_0d55447332cf4ca976a39ea977b1ca2c> ;
+  ns0:title "Riyadh, Saudi Arabia Cultural Center: Blueprints, Drainage 1-17, 19-29"@en ;
+  rdfs:label "Riyadh, Saudi Arabia Cultural Center: Blueprints, Drainage 1-17, 19-29"@en ;
+  ns0:beginningDate "1976"^^xsd:gYear ;
+  ns0:endDate "1976"^^xsd:gYear ;
+  ns0:date "1976"@en ;
+  rdfs:seeAlso <https://www.siv.archives-nationales.culture.gouv.fr/siv/UD/02357/aspace_0d55447332cf4ca976a39ea977b1ca2c> .
+
+<http://data.archives-nationales.culture.gouv.fr/recordResource/-aspace_7b15e46216787cb2baef59c0e064b10d>
+  a ns0:RecordResource, ns0:RecordSet ;
+  ns0:includedIn <http://data.archives-nationales.culture.gouv.fr/recordResource/-aspace_f102ca916f305eee1e5d8ea6ad334ba1> ;
+  ns0:hasRecordSetType <https://www.ica.org/standards/RiC/vocabularies/recordSetTypes#File> ;
+  ns0:title "Riyadh, Saudi Arabia Cultural Center: Blueprints, Piped Services P1-22"@en ;
+  rdfs:label "Riyadh, Saudi Arabia Cultural Center: Blueprints, Piped Services P1-22"@en ;
+  ns0:beginningDate "1976"^^xsd:gYear ;
+  ns0:endDate "1976"^^xsd:gYear ;
+  ns0:date "1976"@en ;
+  ns0:hasInstantiation <http://data.archives-nationales.culture.gouv.fr/instantiation/-aspace_7b15e46216787cb2baef59c0e064b10d-i1> .
+
+<http://data.archives-nationales.culture.gouv.fr/instantiation/-aspace_7b15e46216787cb2baef59c0e064b10d-i1>
+  a ns0:Instantiation ;
+  ns0:instantiates <http://data.archives-nationales.culture.gouv.fr/recordResource/-aspace_7b15e46216787cb2baef59c0e064b10d> ;
+  ns0:title "Riyadh, Saudi Arabia Cultural Center: Blueprints, Piped Services P1-22"@en ;
+  rdfs:label "Riyadh, Saudi Arabia Cultural Center: Blueprints, Piped Services P1-22"@en ;
+  ns0:beginningDate "1976"^^xsd:gYear ;
+  ns0:endDate "1976"^^xsd:gYear ;
+  ns0:date "1976"@en ;
+  rdfs:seeAlso <https://www.siv.archives-nationales.culture.gouv.fr/siv/UD/02357/aspace_7b15e46216787cb2baef59c0e064b10d> .
+
+<http://data.archives-nationales.culture.gouv.fr/recordResource/-aspace_9aa15cf051cc326294f3cf1f20abf2a9>
+  a ns0:RecordResource, ns0:RecordSet ;
+  ns0:includedIn <http://data.archives-nationales.culture.gouv.fr/recordResource/-aspace_f102ca916f305eee1e5d8ea6ad334ba1> ;
+  ns0:hasRecordSetType <https://www.ica.org/standards/RiC/vocabularies/recordSetTypes#File> ;
+  ns0:title "Riyadh, Saudi Arabia Cultural Center: Blueprints, Food Service FS1-6, Air Conditioning M14-34"@en ;
+  rdfs:label "Riyadh, Saudi Arabia Cultural Center: Blueprints, Food Service FS1-6, Air Conditioning M14-34"@en ;
+  ns0:beginningDate "1976"^^xsd:gYear ;
+  ns0:endDate "1976"^^xsd:gYear ;
+  ns0:date "1976"@en ;
+  ns0:hasInstantiation <http://data.archives-nationales.culture.gouv.fr/instantiation/-aspace_9aa15cf051cc326294f3cf1f20abf2a9-i1> .
+
+<http://data.archives-nationales.culture.gouv.fr/instantiation/-aspace_9aa15cf051cc326294f3cf1f20abf2a9-i1>
+  a ns0:Instantiation ;
+  ns0:instantiates <http://data.archives-nationales.culture.gouv.fr/recordResource/-aspace_9aa15cf051cc326294f3cf1f20abf2a9> ;
+  ns0:title "Riyadh, Saudi Arabia Cultural Center: Blueprints, Food Service FS1-6, Air Conditioning M14-34"@en ;
+  rdfs:label "Riyadh, Saudi Arabia Cultural Center: Blueprints, Food Service FS1-6, Air Conditioning M14-34"@en ;
+  ns0:beginningDate "1976"^^xsd:gYear ;
+  ns0:endDate "1976"^^xsd:gYear ;
+  ns0:date "1976"@en ;
+  rdfs:seeAlso <https://www.siv.archives-nationales.culture.gouv.fr/siv/UD/02357/aspace_9aa15cf051cc326294f3cf1f20abf2a9> .
+
+<http://data.archives-nationales.culture.gouv.fr/recordResource/-aspace_2c5622334dfa7e9a2cc7a3070ccf0d82>
+  a ns0:RecordResource, ns0:RecordSet ;
+  ns0:includedIn <http://data.archives-nationales.culture.gouv.fr/recordResource/-aspace_f102ca916f305eee1e5d8ea6ad334ba1> ;
+  ns0:hasRecordSetType <https://www.ica.org/standards/RiC/vocabularies/recordSetTypes#File> ;
+  ns0:title "Mauch Chunk Opera House, Jim Thorpe, Pa."@en ;
+  rdfs:label "Mauch Chunk Opera House, Jim Thorpe, Pa."@en ;
+  ns0:beginningDate "1977"^^xsd:gYear ;
+  ns0:endDate "1977"^^xsd:gYear ;
+  ns0:date "1977"@en ;
+  ns0:hasInstantiation <http://data.archives-nationales.culture.gouv.fr/instantiation/-aspace_2c5622334dfa7e9a2cc7a3070ccf0d82-i1> .
+
+<http://data.archives-nationales.culture.gouv.fr/instantiation/-aspace_2c5622334dfa7e9a2cc7a3070ccf0d82-i1>
+  a ns0:Instantiation ;
+  ns0:instantiates <http://data.archives-nationales.culture.gouv.fr/recordResource/-aspace_2c5622334dfa7e9a2cc7a3070ccf0d82> ;
+  ns0:title "Mauch Chunk Opera House, Jim Thorpe, Pa."@en ;
+  rdfs:label "Mauch Chunk Opera House, Jim Thorpe, Pa."@en ;
+  ns0:beginningDate "1977"^^xsd:gYear ;
+  ns0:endDate "1977"^^xsd:gYear ;
+  ns0:date "1977"@en ;
+  rdfs:seeAlso <https://www.siv.archives-nationales.culture.gouv.fr/siv/UD/02357/aspace_2c5622334dfa7e9a2cc7a3070ccf0d82> .
+
+<http://data.archives-nationales.culture.gouv.fr/recordResource/-aspace_43ae1f439ee04f9b78000cbd28f6ec65>
+  a ns0:RecordResource, ns0:RecordSet ;
+  ns0:includedIn <http://data.archives-nationales.culture.gouv.fr/recordResource/-aspace_f102ca916f305eee1e5d8ea6ad334ba1> ;
+  ns0:hasRecordSetType <https://www.ica.org/standards/RiC/vocabularies/recordSetTypes#File> ;
+  ns0:title "Fine Arts Center, Francis Marion College, Florence, SC: Blueprints S1-18, M1-13"@en ;
+  rdfs:label "Fine Arts Center, Francis Marion College, Florence, SC: Blueprints S1-18, M1-13"@en ;
+  ns0:beginningDate "1978"^^xsd:gYear ;
+  ns0:endDate "1978"^^xsd:gYear ;
+  ns0:date "1978"@en ;
+  ns0:hasInstantiation <http://data.archives-nationales.culture.gouv.fr/instantiation/-aspace_43ae1f439ee04f9b78000cbd28f6ec65-i1> .
+
+<http://data.archives-nationales.culture.gouv.fr/instantiation/-aspace_43ae1f439ee04f9b78000cbd28f6ec65-i1>
+  a ns0:Instantiation ;
+  ns0:instantiates <http://data.archives-nationales.culture.gouv.fr/recordResource/-aspace_43ae1f439ee04f9b78000cbd28f6ec65> ;
+  ns0:title "Fine Arts Center, Francis Marion College, Florence, SC: Blueprints S1-18, M1-13"@en ;
+  rdfs:label "Fine Arts Center, Francis Marion College, Florence, SC: Blueprints S1-18, M1-13"@en ;
+  ns0:beginningDate "1978"^^xsd:gYear ;
+  ns0:endDate "1978"^^xsd:gYear ;
+  ns0:date "1978"@en ;
+  rdfs:seeAlso <https://www.siv.archives-nationales.culture.gouv.fr/siv/UD/02357/aspace_43ae1f439ee04f9b78000cbd28f6ec65> .
+
+<http://data.archives-nationales.culture.gouv.fr/recordResource/-aspace_69ae3119dda889882a4defc92ee70b26>
+  a ns0:RecordResource, ns0:RecordSet ;
+  ns0:includedIn <http://data.archives-nationales.culture.gouv.fr/recordResource/-aspace_f102ca916f305eee1e5d8ea6ad334ba1> ;
+  ns0:hasRecordSetType <https://www.ica.org/standards/RiC/vocabularies/recordSetTypes#File> ;
+  ns0:title "Fine Arts Center, Francis Marion College, Florence, SC: Blueprints MP1-8, E1-19, Miscellaneous"@en ;
+  rdfs:label "Fine Arts Center, Francis Marion College, Florence, SC: Blueprints MP1-8, E1-19, Miscellaneous"@en ;
+  ns0:beginningDate "1978"^^xsd:gYear ;
+  ns0:endDate "1978"^^xsd:gYear ;
+  ns0:date "1978"@en ;
+  ns0:hasInstantiation <http://data.archives-nationales.culture.gouv.fr/instantiation/-aspace_69ae3119dda889882a4defc92ee70b26-i1> .
+
+<http://data.archives-nationales.culture.gouv.fr/instantiation/-aspace_69ae3119dda889882a4defc92ee70b26-i1>
+  a ns0:Instantiation ;
+  ns0:instantiates <http://data.archives-nationales.culture.gouv.fr/recordResource/-aspace_69ae3119dda889882a4defc92ee70b26> ;
+  ns0:title "Fine Arts Center, Francis Marion College, Florence, SC: Blueprints MP1-8, E1-19, Miscellaneous"@en ;
+  rdfs:label "Fine Arts Center, Francis Marion College, Florence, SC: Blueprints MP1-8, E1-19, Miscellaneous"@en ;
+  ns0:beginningDate "1978"^^xsd:gYear ;
+  ns0:endDate "1978"^^xsd:gYear ;
+  ns0:date "1978"@en ;
+  rdfs:seeAlso <https://www.siv.archives-nationales.culture.gouv.fr/siv/UD/02357/aspace_69ae3119dda889882a4defc92ee70b26> .
+
+<http://data.archives-nationales.culture.gouv.fr/recordResource/-aspace_4578c051508ed52b23e476b80c8e28f5>
+  a ns0:RecordResource, ns0:RecordSet ;
+  ns0:includedIn <http://data.archives-nationales.culture.gouv.fr/recordResource/-aspace_f102ca916f305eee1e5d8ea6ad334ba1> ;
+  ns0:hasRecordSetType <https://www.ica.org/standards/RiC/vocabularies/recordSetTypes#File> ;
+  ns0:title "Fine Arts Center, Francis Marion College, Florence, SC: Blueprints C1-2, A1-33, SE1-12"@en ;
+  rdfs:label "Fine Arts Center, Francis Marion College, Florence, SC: Blueprints C1-2, A1-33, SE1-12"@en ;
+  ns0:beginningDate "1978"^^xsd:gYear ;
+  ns0:endDate "1978"^^xsd:gYear ;
+  ns0:date "1978"@en ;
+  ns0:hasInstantiation <http://data.archives-nationales.culture.gouv.fr/instantiation/-aspace_4578c051508ed52b23e476b80c8e28f5-i1> .
+
+<http://data.archives-nationales.culture.gouv.fr/instantiation/-aspace_4578c051508ed52b23e476b80c8e28f5-i1>
+  a ns0:Instantiation ;
+  ns0:instantiates <http://data.archives-nationales.culture.gouv.fr/recordResource/-aspace_4578c051508ed52b23e476b80c8e28f5> ;
+  ns0:title "Fine Arts Center, Francis Marion College, Florence, SC: Blueprints C1-2, A1-33, SE1-12"@en ;
+  rdfs:label "Fine Arts Center, Francis Marion College, Florence, SC: Blueprints C1-2, A1-33, SE1-12"@en ;
+  ns0:beginningDate "1978"^^xsd:gYear ;
+  ns0:endDate "1978"^^xsd:gYear ;
+  ns0:date "1978"@en ;
+  rdfs:seeAlso <https://www.siv.archives-nationales.culture.gouv.fr/siv/UD/02357/aspace_4578c051508ed52b23e476b80c8e28f5> .
+
+<http://data.archives-nationales.culture.gouv.fr/recordResource/-aspace_0ed91a5ee7c047726518e03b96393ea0>
+  a ns0:RecordResource, ns0:RecordSet ;
+  ns0:includedIn <http://data.archives-nationales.culture.gouv.fr/recordResource/-aspace_f102ca916f305eee1e5d8ea6ad334ba1> ;
+  ns0:hasRecordSetType <https://www.ica.org/standards/RiC/vocabularies/recordSetTypes#File> ;
+  ns0:title "Fine Arts Center, SUNY Stony Brook: Design drawings and sepia prints"@en ;
+  rdfs:label "Fine Arts Center, SUNY Stony Brook: Design drawings and sepia prints"@en ;
+  ns0:beginningDate "1974"^^xsd:gYear ;
+  ns0:endDate "1974"^^xsd:gYear ;
+  ns0:date "1974"@en ;
+  ns0:hasInstantiation <http://data.archives-nationales.culture.gouv.fr/instantiation/-aspace_0ed91a5ee7c047726518e03b96393ea0-i1> .
+
+<http://data.archives-nationales.culture.gouv.fr/instantiation/-aspace_0ed91a5ee7c047726518e03b96393ea0-i1>
+  a ns0:Instantiation ;
+  ns0:instantiates <http://data.archives-nationales.culture.gouv.fr/recordResource/-aspace_0ed91a5ee7c047726518e03b96393ea0> ;
+  ns0:title "Fine Arts Center, SUNY Stony Brook: Design drawings and sepia prints"@en ;
+  rdfs:label "Fine Arts Center, SUNY Stony Brook: Design drawings and sepia prints"@en ;
+  ns0:beginningDate "1974"^^xsd:gYear ;
+  ns0:endDate "1974"^^xsd:gYear ;
+  ns0:date "1974"@en ;
+  rdfs:seeAlso <https://www.siv.archives-nationales.culture.gouv.fr/siv/UD/02357/aspace_0ed91a5ee7c047726518e03b96393ea0> .
+
+<http://data.archives-nationales.culture.gouv.fr/recordResource/-aspace_b9ee7b7cef5409e8921cbff1842b5e33>
+  a ns0:RecordResource, ns0:RecordSet ;
+  ns0:includedIn <http://data.archives-nationales.culture.gouv.fr/recordResource/-aspace_f102ca916f305eee1e5d8ea6ad334ba1> ;
+  ns0:hasRecordSetType <https://www.ica.org/standards/RiC/vocabularies/recordSetTypes#File> ;
+  ns0:title "Grand Rapids (MI) Convention/Entertainment Center: Architectural drawings"@en ;
+  rdfs:label "Grand Rapids (MI) Convention/Entertainment Center: Architectural drawings"@en ;
+  ns0:beginningDate "1978"^^xsd:gYear ;
+  ns0:endDate "1978"^^xsd:gYear ;
+  ns0:date "1978"@en ;
+  ns0:hasInstantiation <http://data.archives-nationales.culture.gouv.fr/instantiation/-aspace_b9ee7b7cef5409e8921cbff1842b5e33-i1> .
+
+<http://data.archives-nationales.culture.gouv.fr/instantiation/-aspace_b9ee7b7cef5409e8921cbff1842b5e33-i1>
+  a ns0:Instantiation ;
+  ns0:instantiates <http://data.archives-nationales.culture.gouv.fr/recordResource/-aspace_b9ee7b7cef5409e8921cbff1842b5e33> ;
+  ns0:title "Grand Rapids (MI) Convention/Entertainment Center: Architectural drawings"@en ;
+  rdfs:label "Grand Rapids (MI) Convention/Entertainment Center: Architectural drawings"@en ;
+  ns0:beginningDate "1978"^^xsd:gYear ;
+  ns0:endDate "1978"^^xsd:gYear ;
+  ns0:date "1978"@en ;
+  rdfs:seeAlso <https://www.siv.archives-nationales.culture.gouv.fr/siv/UD/02357/aspace_b9ee7b7cef5409e8921cbff1842b5e33> .
+
+<http://data.archives-nationales.culture.gouv.fr/recordResource/-aspace_fd32c0ca42fbbf68f98fdb243c00a279>
+  a ns0:RecordResource, ns0:RecordSet ;
+  ns0:includedIn <http://data.archives-nationales.culture.gouv.fr/recordResource/-aspace_f102ca916f305eee1e5d8ea6ad334ba1> ;
+  ns0:hasRecordSetType <https://www.ica.org/standards/RiC/vocabularies/recordSetTypes#File> ;
+  ns0:title "Folly Theater, Kansas City, Mo.: Preliminary drawings"@en ;
+  rdfs:label "Folly Theater, Kansas City, Mo.: Preliminary drawings"@en ;
+  ns0:beginningDate "1978"^^xsd:gYear ;
+  ns0:endDate "1978"^^xsd:gYear ;
+  ns0:date "1978"@en ;
+  ns0:hasInstantiation <http://data.archives-nationales.culture.gouv.fr/instantiation/-aspace_fd32c0ca42fbbf68f98fdb243c00a279-i1> .
+
+<http://data.archives-nationales.culture.gouv.fr/instantiation/-aspace_fd32c0ca42fbbf68f98fdb243c00a279-i1>
+  a ns0:Instantiation ;
+  ns0:instantiates <http://data.archives-nationales.culture.gouv.fr/recordResource/-aspace_fd32c0ca42fbbf68f98fdb243c00a279> ;
+  ns0:title "Folly Theater, Kansas City, Mo.: Preliminary drawings"@en ;
+  rdfs:label "Folly Theater, Kansas City, Mo.: Preliminary drawings"@en ;
+  ns0:beginningDate "1978"^^xsd:gYear ;
+  ns0:endDate "1978"^^xsd:gYear ;
+  ns0:date "1978"@en ;
+  rdfs:seeAlso <https://www.siv.archives-nationales.culture.gouv.fr/siv/UD/02357/aspace_fd32c0ca42fbbf68f98fdb243c00a279> .
+
+<http://data.archives-nationales.culture.gouv.fr/recordResource/-aspace_742878ae67473e1d88ae5e3e9427141d>
+  a ns0:RecordResource, ns0:RecordSet ;
+  ns0:includedIn <http://data.archives-nationales.culture.gouv.fr/recordResource/-aspace_f102ca916f305eee1e5d8ea6ad334ba1> ;
+  ns0:hasRecordSetType <https://www.ica.org/standards/RiC/vocabularies/recordSetTypes#File> ;
+  ns0:title "Standard GCI machinery and structural drawings"@en ;
+  rdfs:label "Standard GCI machinery and structural drawings"@en ;
+  ns0:beginningDate "1967"^^xsd:gYear ;
+  ns0:endDate "1967"^^xsd:gYear ;
+  ns0:date "1967"@en ;
+  ns0:hasInstantiation <http://data.archives-nationales.culture.gouv.fr/instantiation/-aspace_742878ae67473e1d88ae5e3e9427141d-i1> .
+
+<http://data.archives-nationales.culture.gouv.fr/instantiation/-aspace_742878ae67473e1d88ae5e3e9427141d-i1>
+  a ns0:Instantiation ;
+  ns0:instantiates <http://data.archives-nationales.culture.gouv.fr/recordResource/-aspace_742878ae67473e1d88ae5e3e9427141d> ;
+  ns0:title "Standard GCI machinery and structural drawings"@en ;
+  rdfs:label "Standard GCI machinery and structural drawings"@en ;
+  ns0:beginningDate "1967"^^xsd:gYear ;
+  ns0:endDate "1967"^^xsd:gYear ;
+  ns0:date "1967"@en ;
+  rdfs:seeAlso <https://www.siv.archives-nationales.culture.gouv.fr/siv/UD/02357/aspace_742878ae67473e1d88ae5e3e9427141d> .
+
+<http://data.archives-nationales.culture.gouv.fr/recordResource/-aspace_3acba55c27bed227150c372f897a292d>
+  a ns0:RecordResource, ns0:RecordSet ;
+  ns0:includedIn <http://data.archives-nationales.culture.gouv.fr/recordResource/-aspace_f102ca916f305eee1e5d8ea6ad334ba1> ;
+  ns0:hasRecordSetType <https://www.ica.org/standards/RiC/vocabularies/recordSetTypes#File> ;
+  ns0:title "Cincinnati Gardens, Ohio"@en ;
+  rdfs:label "Cincinnati Gardens, Ohio"@en ;
+  ns0:beginningDate "1981"^^xsd:gYear ;
+  ns0:endDate "1981"^^xsd:gYear ;
+  ns0:date "1981"@en ;
+  ns0:hasInstantiation <http://data.archives-nationales.culture.gouv.fr/instantiation/-aspace_3acba55c27bed227150c372f897a292d-i1> .
+
+<http://data.archives-nationales.culture.gouv.fr/instantiation/-aspace_3acba55c27bed227150c372f897a292d-i1>
+  a ns0:Instantiation ;
+  ns0:instantiates <http://data.archives-nationales.culture.gouv.fr/recordResource/-aspace_3acba55c27bed227150c372f897a292d> ;
+  ns0:title "Cincinnati Gardens, Ohio"@en ;
+  rdfs:label "Cincinnati Gardens, Ohio"@en ;
+  ns0:beginningDate "1981"^^xsd:gYear ;
+  ns0:endDate "1981"^^xsd:gYear ;
+  ns0:date "1981"@en ;
+  rdfs:seeAlso <https://www.siv.archives-nationales.culture.gouv.fr/siv/UD/02357/aspace_3acba55c27bed227150c372f897a292d> .
+
+<http://data.archives-nationales.culture.gouv.fr/recordResource/-aspace_1a68d2d9da4e7840e03594ec2dd72ad6>
+  a ns0:RecordResource, ns0:RecordSet ;
+  ns0:includedIn <http://data.archives-nationales.culture.gouv.fr/recordResource/-aspace_f102ca916f305eee1e5d8ea6ad334ba1> ;
+  ns0:hasRecordSetType <https://www.ica.org/standards/RiC/vocabularies/recordSetTypes#File> ;
+  ns0:title "Mesa Community Center, Mesa, AZ: with Frank Lloyd Wright Foundation"@en ;
+  rdfs:label "Mesa Community Center, Mesa, AZ: with Frank Lloyd Wright Foundation"@en ;
+  ns0:beginningDate "1976"^^xsd:gYear ;
+  ns0:endDate "1976"^^xsd:gYear ;
+  ns0:date "1976"@en ;
+  ns0:hasInstantiation <http://data.archives-nationales.culture.gouv.fr/instantiation/-aspace_1a68d2d9da4e7840e03594ec2dd72ad6-i1> .
+
+<http://data.archives-nationales.culture.gouv.fr/instantiation/-aspace_1a68d2d9da4e7840e03594ec2dd72ad6-i1>
+  a ns0:Instantiation ;
+  ns0:instantiates <http://data.archives-nationales.culture.gouv.fr/recordResource/-aspace_1a68d2d9da4e7840e03594ec2dd72ad6> ;
+  ns0:title "Mesa Community Center, Mesa, AZ: with Frank Lloyd Wright Foundation"@en ;
+  rdfs:label "Mesa Community Center, Mesa, AZ: with Frank Lloyd Wright Foundation"@en ;
+  ns0:beginningDate "1976"^^xsd:gYear ;
+  ns0:endDate "1976"^^xsd:gYear ;
+  ns0:date "1976"@en ;
+  rdfs:seeAlso <https://www.siv.archives-nationales.culture.gouv.fr/siv/UD/02357/aspace_1a68d2d9da4e7840e03594ec2dd72ad6> .
+
+<http://data.archives-nationales.culture.gouv.fr/recordResource/-aspace_48a0cd4f8e1cfaf6e5bdd8c4bee1e113>
+  a ns0:RecordResource, ns0:RecordSet ;
+  ns0:includedIn <http://data.archives-nationales.culture.gouv.fr/recordResource/-aspace_f102ca916f305eee1e5d8ea6ad334ba1> ;
+  ns0:hasRecordSetType <https://www.ica.org/standards/RiC/vocabularies/recordSetTypes#File> ;
+  ns0:title "Mexico City: Prints with overlays"@en ;
+  rdfs:label "Mexico City: Prints with overlays"@en ;
+  ns0:beginningDate "1977"^^xsd:gYear ;
+  ns0:endDate "1977"^^xsd:gYear ;
+  ns0:date "1977"@en ;
+  ns0:hasInstantiation <http://data.archives-nationales.culture.gouv.fr/instantiation/-aspace_48a0cd4f8e1cfaf6e5bdd8c4bee1e113-i1> .
+
+<http://data.archives-nationales.culture.gouv.fr/instantiation/-aspace_48a0cd4f8e1cfaf6e5bdd8c4bee1e113-i1>
+  a ns0:Instantiation ;
+  ns0:instantiates <http://data.archives-nationales.culture.gouv.fr/recordResource/-aspace_48a0cd4f8e1cfaf6e5bdd8c4bee1e113> ;
+  ns0:title "Mexico City: Prints with overlays"@en ;
+  rdfs:label "Mexico City: Prints with overlays"@en ;
+  ns0:beginningDate "1977"^^xsd:gYear ;
+  ns0:endDate "1977"^^xsd:gYear ;
+  ns0:date "1977"@en ;
+  rdfs:seeAlso <https://www.siv.archives-nationales.culture.gouv.fr/siv/UD/02357/aspace_48a0cd4f8e1cfaf6e5bdd8c4bee1e113> .
+
+<http://data.archives-nationales.culture.gouv.fr/recordResource/-aspace_9e596bf891caab9a8e14b113425dbb71>
+  a ns0:RecordResource, ns0:RecordSet ;
+  ns0:includedIn <http://data.archives-nationales.culture.gouv.fr/recordResource/-aspace_f102ca916f305eee1e5d8ea6ad334ba1> ;
+  ns0:hasRecordSetType <https://www.ica.org/standards/RiC/vocabularies/recordSetTypes#File> ;
+  ns0:title "Mexico City: Original vellum drawings"@en ;
+  rdfs:label "Mexico City: Original vellum drawings"@en ;
+  ns0:beginningDate "1977"^^xsd:gYear ;
+  ns0:endDate "1977"^^xsd:gYear ;
+  ns0:date "1977"@en ;
+  ns0:hasInstantiation <http://data.archives-nationales.culture.gouv.fr/instantiation/-aspace_9e596bf891caab9a8e14b113425dbb71-i1> .
+
+<http://data.archives-nationales.culture.gouv.fr/instantiation/-aspace_9e596bf891caab9a8e14b113425dbb71-i1>
+  a ns0:Instantiation ;
+  ns0:instantiates <http://data.archives-nationales.culture.gouv.fr/recordResource/-aspace_9e596bf891caab9a8e14b113425dbb71> ;
+  ns0:title "Mexico City: Original vellum drawings"@en ;
+  rdfs:label "Mexico City: Original vellum drawings"@en ;
+  ns0:beginningDate "1977"^^xsd:gYear ;
+  ns0:endDate "1977"^^xsd:gYear ;
+  ns0:date "1977"@en ;
+  rdfs:seeAlso <https://www.siv.archives-nationales.culture.gouv.fr/siv/UD/02357/aspace_9e596bf891caab9a8e14b113425dbb71> .
+
+<http://data.archives-nationales.culture.gouv.fr/recordResource/-aspace_67822cff3f9e759c45bb346a4bc1eba3>
+  a ns0:RecordResource, ns0:RecordSet ;
+  ns0:includedIn <http://data.archives-nationales.culture.gouv.fr/recordResource/-aspace_f102ca916f305eee1e5d8ea6ad334ba1> ;
+  ns0:hasRecordSetType <https://www.ica.org/standards/RiC/vocabularies/recordSetTypes#File> ;
+  ns0:title "Mexico City: Sepia prints"@en ;
+  rdfs:label "Mexico City: Sepia prints"@en ;
+  ns0:beginningDate "1977"^^xsd:gYear ;
+  ns0:endDate "1977"^^xsd:gYear ;
+  ns0:date "1977"@en ;
+  ns0:hasInstantiation <http://data.archives-nationales.culture.gouv.fr/instantiation/-aspace_67822cff3f9e759c45bb346a4bc1eba3-i1> .
+
+<http://data.archives-nationales.culture.gouv.fr/instantiation/-aspace_67822cff3f9e759c45bb346a4bc1eba3-i1>
+  a ns0:Instantiation ;
+  ns0:instantiates <http://data.archives-nationales.culture.gouv.fr/recordResource/-aspace_67822cff3f9e759c45bb346a4bc1eba3> ;
+  ns0:title "Mexico City: Sepia prints"@en ;
+  rdfs:label "Mexico City: Sepia prints"@en ;
+  ns0:beginningDate "1977"^^xsd:gYear ;
+  ns0:endDate "1977"^^xsd:gYear ;
+  ns0:date "1977"@en ;
+  rdfs:seeAlso <https://www.siv.archives-nationales.culture.gouv.fr/siv/UD/02357/aspace_67822cff3f9e759c45bb346a4bc1eba3> .
+
+<http://data.archives-nationales.culture.gouv.fr/recordResource/-aspace_c7bce558f572e9c6285ab79730a77706>
+  a ns0:RecordResource, ns0:RecordSet ;
+  ns0:includedIn <http://data.archives-nationales.culture.gouv.fr/recordResource/-aspace_f102ca916f305eee1e5d8ea6ad334ba1> ;
+  ns0:hasRecordSetType <https://www.ica.org/standards/RiC/vocabularies/recordSetTypes#File> ;
+  ns0:title "Mexico City: Prints, some with overlays"@en ;
+  rdfs:label "Mexico City: Prints, some with overlays"@en ;
+  ns0:beginningDate "1977"^^xsd:gYear ;
+  ns0:endDate "1977"^^xsd:gYear ;
+  ns0:date "1977"@en ;
+  ns0:hasInstantiation <http://data.archives-nationales.culture.gouv.fr/instantiation/-aspace_c7bce558f572e9c6285ab79730a77706-i1> .
+
+<http://data.archives-nationales.culture.gouv.fr/instantiation/-aspace_c7bce558f572e9c6285ab79730a77706-i1>
+  a ns0:Instantiation ;
+  ns0:instantiates <http://data.archives-nationales.culture.gouv.fr/recordResource/-aspace_c7bce558f572e9c6285ab79730a77706> ;
+  ns0:title "Mexico City: Prints, some with overlays"@en ;
+  rdfs:label "Mexico City: Prints, some with overlays"@en ;
+  ns0:beginningDate "1977"^^xsd:gYear ;
+  ns0:endDate "1977"^^xsd:gYear ;
+  ns0:date "1977"@en ;
+  rdfs:seeAlso <https://www.siv.archives-nationales.culture.gouv.fr/siv/UD/02357/aspace_c7bce558f572e9c6285ab79730a77706> .
+
+<http://data.archives-nationales.culture.gouv.fr/recordResource/-aspace_f10760d2667bc6757d0c89d7b9f4d297>
+  a ns0:RecordResource, ns0:RecordSet ;
+  ns0:includedIn <http://data.archives-nationales.culture.gouv.fr/recordResource/-aspace_f102ca916f305eee1e5d8ea6ad334ba1> ;
+  ns0:hasRecordSetType <https://www.ica.org/standards/RiC/vocabularies/recordSetTypes#File> ;
+  ns0:title "Midland Center for the Arts, Midland, MI: Part A, Part C, Site plans, Floor plans"@en ;
+  rdfs:label "Midland Center for the Arts, Midland, MI: Part A, Part C, Site plans, Floor plans"@en ;
+  ns0:beginningDate "1970"^^xsd:gYear ;
+  ns0:endDate "1970"^^xsd:gYear ;
+  ns0:date "1970"@en ;
+  ns0:hasInstantiation <http://data.archives-nationales.culture.gouv.fr/instantiation/-aspace_f10760d2667bc6757d0c89d7b9f4d297-i1> .
+
+<http://data.archives-nationales.culture.gouv.fr/instantiation/-aspace_f10760d2667bc6757d0c89d7b9f4d297-i1>
+  a ns0:Instantiation ;
+  ns0:instantiates <http://data.archives-nationales.culture.gouv.fr/recordResource/-aspace_f10760d2667bc6757d0c89d7b9f4d297> ;
+  ns0:title "Midland Center for the Arts, Midland, MI: Part A, Part C, Site plans, Floor plans"@en ;
+  rdfs:label "Midland Center for the Arts, Midland, MI: Part A, Part C, Site plans, Floor plans"@en ;
+  ns0:beginningDate "1970"^^xsd:gYear ;
+  ns0:endDate "1970"^^xsd:gYear ;
+  ns0:date "1970"@en ;
+  rdfs:seeAlso <https://www.siv.archives-nationales.culture.gouv.fr/siv/UD/02357/aspace_f10760d2667bc6757d0c89d7b9f4d297> .
+
+<http://data.archives-nationales.culture.gouv.fr/recordResource/-aspace_9f854830bc32bf13a1e33d29b9db6035>
+  a ns0:RecordResource, ns0:RecordSet ;
+  ns0:includedIn <http://data.archives-nationales.culture.gouv.fr/recordResource/-aspace_f102ca916f305eee1e5d8ea6ad334ba1> ;
+  ns0:hasRecordSetType <https://www.ica.org/standards/RiC/vocabularies/recordSetTypes#File> ;
+  ns0:title "Teatro Teresa Carrena, Caracas, Venezuela: Prints 1-25"@en ;
+  rdfs:label "Teatro Teresa Carrena, Caracas, Venezuela: Prints 1-25"@en ;
+  ns0:beginningDate "1974"^^xsd:gYear ;
+  ns0:endDate "1974"^^xsd:gYear ;
+  ns0:date "1974"@en ;
+  ns0:hasInstantiation <http://data.archives-nationales.culture.gouv.fr/instantiation/-aspace_9f854830bc32bf13a1e33d29b9db6035-i1> .
+
+<http://data.archives-nationales.culture.gouv.fr/instantiation/-aspace_9f854830bc32bf13a1e33d29b9db6035-i1>
+  a ns0:Instantiation ;
+  ns0:instantiates <http://data.archives-nationales.culture.gouv.fr/recordResource/-aspace_9f854830bc32bf13a1e33d29b9db6035> ;
+  ns0:title "Teatro Teresa Carrena, Caracas, Venezuela: Prints 1-25"@en ;
+  rdfs:label "Teatro Teresa Carrena, Caracas, Venezuela: Prints 1-25"@en ;
+  ns0:beginningDate "1974"^^xsd:gYear ;
+  ns0:endDate "1974"^^xsd:gYear ;
+  ns0:date "1974"@en ;
+  rdfs:seeAlso <https://www.siv.archives-nationales.culture.gouv.fr/siv/UD/02357/aspace_9f854830bc32bf13a1e33d29b9db6035> .
+
+<http://data.archives-nationales.culture.gouv.fr/recordResource/-aspace_6f6d41a244de2c987570dd836e5fe26d>
+  a ns0:RecordResource, ns0:RecordSet ;
+  ns0:includedIn <http://data.archives-nationales.culture.gouv.fr/recordResource/-aspace_f102ca916f305eee1e5d8ea6ad334ba1> ;
+  ns0:hasRecordSetType <https://www.ica.org/standards/RiC/vocabularies/recordSetTypes#File> ;
+  ns0:title "Teatro Teresa Carrena, Caracas, Venezuela: Prints 26-50"@en ;
+  rdfs:label "Teatro Teresa Carrena, Caracas, Venezuela: Prints 26-50"@en ;
+  ns0:beginningDate "1974"^^xsd:gYear ;
+  ns0:endDate "1974"^^xsd:gYear ;
+  ns0:date "1974"@en ;
+  ns0:hasInstantiation <http://data.archives-nationales.culture.gouv.fr/instantiation/-aspace_6f6d41a244de2c987570dd836e5fe26d-i1> .
+
+<http://data.archives-nationales.culture.gouv.fr/instantiation/-aspace_6f6d41a244de2c987570dd836e5fe26d-i1>
+  a ns0:Instantiation ;
+  ns0:instantiates <http://data.archives-nationales.culture.gouv.fr/recordResource/-aspace_6f6d41a244de2c987570dd836e5fe26d> ;
+  ns0:title "Teatro Teresa Carrena, Caracas, Venezuela: Prints 26-50"@en ;
+  rdfs:label "Teatro Teresa Carrena, Caracas, Venezuela: Prints 26-50"@en ;
+  ns0:beginningDate "1974"^^xsd:gYear ;
+  ns0:endDate "1974"^^xsd:gYear ;
+  ns0:date "1974"@en ;
+  rdfs:seeAlso <https://www.siv.archives-nationales.culture.gouv.fr/siv/UD/02357/aspace_6f6d41a244de2c987570dd836e5fe26d> .
+
+<http://data.archives-nationales.culture.gouv.fr/recordResource/-aspace_45c45c67ee0bf972e5415b58ba4c50db>
+  a ns0:RecordResource, ns0:RecordSet ;
+  ns0:includedIn <http://data.archives-nationales.culture.gouv.fr/recordResource/-aspace_f102ca916f305eee1e5d8ea6ad334ba1> ;
+  ns0:hasRecordSetType <https://www.ica.org/standards/RiC/vocabularies/recordSetTypes#File> ;
+  ns0:title "Milwaukee County (WI) War Memorial Center for the Performing Arts: Mylar drawings 1-7, 10-35"@en ;
+  rdfs:label "Milwaukee County (WI) War Memorial Center for the Performing Arts: Mylar drawings 1-7, 10-35"@en ;
+  ns0:beginningDate "1966"^^xsd:gYear ;
+  ns0:endDate "1966"^^xsd:gYear ;
+  ns0:date "1966"@en ;
+  ns0:hasInstantiation <http://data.archives-nationales.culture.gouv.fr/instantiation/-aspace_45c45c67ee0bf972e5415b58ba4c50db-i1> .
+
+<http://data.archives-nationales.culture.gouv.fr/instantiation/-aspace_45c45c67ee0bf972e5415b58ba4c50db-i1>
+  a ns0:Instantiation ;
+  ns0:instantiates <http://data.archives-nationales.culture.gouv.fr/recordResource/-aspace_45c45c67ee0bf972e5415b58ba4c50db> ;
+  ns0:title "Milwaukee County (WI) War Memorial Center for the Performing Arts: Mylar drawings 1-7, 10-35"@en ;
+  rdfs:label "Milwaukee County (WI) War Memorial Center for the Performing Arts: Mylar drawings 1-7, 10-35"@en ;
+  ns0:beginningDate "1966"^^xsd:gYear ;
+  ns0:endDate "1966"^^xsd:gYear ;
+  ns0:date "1966"@en ;
+  rdfs:seeAlso <https://www.siv.archives-nationales.culture.gouv.fr/siv/UD/02357/aspace_45c45c67ee0bf972e5415b58ba4c50db> .
+
+<http://data.archives-nationales.culture.gouv.fr/recordResource/-aspace_fb676e960c5ef1e32abca06413dc258d>
+  a ns0:RecordResource, ns0:RecordSet ;
+  ns0:includedIn <http://data.archives-nationales.culture.gouv.fr/recordResource/-aspace_f102ca916f305eee1e5d8ea6ad334ba1> ;
+  ns0:hasRecordSetType <https://www.ica.org/standards/RiC/vocabularies/recordSetTypes#File> ;
+  ns0:title "Riyadh, Saudi Arabia Cultural Center: Secondary structures for stage and auditorium (Mylar negatives for printing)"@en ;
+  rdfs:label "Riyadh, Saudi Arabia Cultural Center: Secondary structures for stage and auditorium (Mylar negatives for printing)"@en ;
+  ns0:beginningDate "1976"^^xsd:gYear ;
+  ns0:endDate "1976"^^xsd:gYear ;
+  ns0:date "1976"@en ;
+  ns0:hasInstantiation <http://data.archives-nationales.culture.gouv.fr/instantiation/-aspace_fb676e960c5ef1e32abca06413dc258d-i1> .
+
+<http://data.archives-nationales.culture.gouv.fr/instantiation/-aspace_fb676e960c5ef1e32abca06413dc258d-i1>
+  a ns0:Instantiation ;
+  ns0:instantiates <http://data.archives-nationales.culture.gouv.fr/recordResource/-aspace_fb676e960c5ef1e32abca06413dc258d> ;
+  ns0:title "Riyadh, Saudi Arabia Cultural Center: Secondary structures for stage and auditorium (Mylar negatives for printing)"@en ;
+  rdfs:label "Riyadh, Saudi Arabia Cultural Center: Secondary structures for stage and auditorium (Mylar negatives for printing)"@en ;
+  ns0:beginningDate "1976"^^xsd:gYear ;
+  ns0:endDate "1976"^^xsd:gYear ;
+  ns0:date "1976"@en ;
+  rdfs:seeAlso <https://www.siv.archives-nationales.culture.gouv.fr/siv/UD/02357/aspace_fb676e960c5ef1e32abca06413dc258d> .
+
+<http://data.archives-nationales.culture.gouv.fr/recordResource/-aspace_1c7cb1aea4e6d9171634f9bed08119c4>
+  a ns0:RecordResource, ns0:RecordSet ;
+  ns0:includedIn <http://data.archives-nationales.culture.gouv.fr/recordResource/-aspace_f102ca916f305eee1e5d8ea6ad334ba1> ;
+  ns0:hasRecordSetType <https://www.ica.org/standards/RiC/vocabularies/recordSetTypes#File> ;
+  ns0:title "Riyadh, Saudi Arabia Cultural Center: Stage equipment drawings (Mylar)"@en ;
+  rdfs:label "Riyadh, Saudi Arabia Cultural Center: Stage equipment drawings (Mylar)"@en ;
+  ns0:beginningDate "1976"^^xsd:gYear ;
+  ns0:endDate "1976"^^xsd:gYear ;
+  ns0:date "1976"@en ;
+  ns0:hasInstantiation <http://data.archives-nationales.culture.gouv.fr/instantiation/-aspace_1c7cb1aea4e6d9171634f9bed08119c4-i1> .
+
+<http://data.archives-nationales.culture.gouv.fr/instantiation/-aspace_1c7cb1aea4e6d9171634f9bed08119c4-i1>
+  a ns0:Instantiation ;
+  ns0:instantiates <http://data.archives-nationales.culture.gouv.fr/recordResource/-aspace_1c7cb1aea4e6d9171634f9bed08119c4> ;
+  ns0:title "Riyadh, Saudi Arabia Cultural Center: Stage equipment drawings (Mylar)"@en ;
+  rdfs:label "Riyadh, Saudi Arabia Cultural Center: Stage equipment drawings (Mylar)"@en ;
+  ns0:beginningDate "1976"^^xsd:gYear ;
+  ns0:endDate "1976"^^xsd:gYear ;
+  ns0:date "1976"@en ;
+  rdfs:seeAlso <https://www.siv.archives-nationales.culture.gouv.fr/siv/UD/02357/aspace_1c7cb1aea4e6d9171634f9bed08119c4> .
+
+<http://data.archives-nationales.culture.gouv.fr/recordResource/-aspace_c581852416bc41e1a2cdd615624b979c>
+  a ns0:RecordResource, ns0:RecordSet ;
+  ns0:includedIn <http://data.archives-nationales.culture.gouv.fr/recordResource/-aspace_f102ca916f305eee1e5d8ea6ad334ba1> ;
+  ns0:hasRecordSetType <https://www.ica.org/standards/RiC/vocabularies/recordSetTypes#File> ;
+  ns0:title "University of Nebraska: Design drawings"@en ;
+  rdfs:label "University of Nebraska: Design drawings"@en ;
+  ns0:beginningDate "1973"^^xsd:gYear ;
+  ns0:endDate "1973"^^xsd:gYear ;
+  ns0:date "1973"@en ;
+  ns0:hasInstantiation <http://data.archives-nationales.culture.gouv.fr/instantiation/-aspace_c581852416bc41e1a2cdd615624b979c-i1> .
+
+<http://data.archives-nationales.culture.gouv.fr/instantiation/-aspace_c581852416bc41e1a2cdd615624b979c-i1>
+  a ns0:Instantiation ;
+  ns0:instantiates <http://data.archives-nationales.culture.gouv.fr/recordResource/-aspace_c581852416bc41e1a2cdd615624b979c> ;
+  ns0:title "University of Nebraska: Design drawings"@en ;
+  rdfs:label "University of Nebraska: Design drawings"@en ;
+  ns0:beginningDate "1973"^^xsd:gYear ;
+  ns0:endDate "1973"^^xsd:gYear ;
+  ns0:date "1973"@en ;
+  rdfs:seeAlso <https://www.siv.archives-nationales.culture.gouv.fr/siv/UD/02357/aspace_c581852416bc41e1a2cdd615624b979c> .

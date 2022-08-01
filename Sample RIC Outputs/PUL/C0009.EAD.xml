@@ -1,0 +1,1182 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE ead
+  SYSTEM "ead.dtd">
+<ead xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+     xsi:schemaLocation="urn:isbn:1-931666-22-9 http://www.loc.gov/ead/ead.xsd"
+     audience="external">
+   <eadheader countryencoding="iso3166-1"
+              dateencoding="iso8601"
+              langencoding="iso639-2b"
+              repositoryencoding="iso15511"
+              scriptencoding="iso15924">
+      <eadid countrycode="US"
+             mainagencycode="US-NjP"
+             url="http://arks.princeton.edu/ark:/88435/cj82k730f"
+             urn="ark:/88435/cj82k730f">C0009</eadid>
+      <filedesc>
+         <titlestmt>
+            <titleproper>Barrows Mussey Translations, <date normal="1940/1944" type="inclusive">1940-[1944?]</date>: Finding Aid</titleproper>
+         </titlestmt>
+         <publicationstmt id="rbscAddress">
+            <publisher>Princeton University Library. Special Collections.</publisher>
+            <address>
+               <addressline>Manuscripts Division</addressline>
+               <addressline>One Washington Road</addressline>
+               <addressline>Princeton, New Jersey 08544 USA</addressline>
+               <addressline>Phone: (609) 258-3184</addressline>
+               <addressline>Fax: (609) 258-2324</addressline>
+               <addressline>rbsc@princeton.edu</addressline>
+               <addressline>http://www.princeton.edu/~rbsc</addressline>
+            </address>
+            <date type="publication" normal="2004">2004</date>
+         </publicationstmt>
+      </filedesc>
+      <profiledesc>
+         <creation>Machine-readable finding aid encoded in EAD 2002 by Techbooks, Cristela García-Spitz, and Diann Benti on <date normal="2007-05-11">May 11, 2007</date>. Created from MARC record via MarcEdit and XSL stylesheets in 2007. </creation>
+         <langusage>
+            <language langcode="eng"/>
+         </langusage>
+         <descrules>Finding aid content adheres to that prescribed by 
+               Describing Archives: A Content Standard. 
+         </descrules>
+      </profiledesc>
+      <revisiondesc>
+         <change>
+            <date normal="2012-05-02">2012-05-02T13:07:12.304-04:00</date>
+            <item>Run through PULFA 2.0 normalization routines.</item>
+         </change>
+      </revisiondesc>
+   </eadheader>
+   <archdesc type="findingaid" level="collection" relatedencoding="marc21">
+      <did>
+         <unitid type="collection" countrycode="US" repositorycode="US-NjP">C0009</unitid>
+         <repository id="mss">
+            <corpname source="viaf" authfilenumber="http://viaf.org/viaf/168350386">Princeton University Library. Special Collections.</corpname>
+            <subarea>Manuscripts Division</subarea>
+            <address>
+               <addressline>One Washington Road</addressline>
+               <addressline>Princeton, New Jersey 08544 USA</addressline>
+            </address>
+         </repository>
+         <unittitle>Barrows Mussey Translations</unittitle>
+         <unitdate normal="1940/1944" type="inclusive">circa 1940-1944</unitdate>
+         <physdesc>
+            <extent>2.1 linear feet</extent>
+            <extent unit="box">5 archival boxes</extent>
+         </physdesc>
+         <origination>
+            <persname source="viaf"
+                      role="cre"
+                      authfilenumber="http://viaf.org/viaf/111068958">Mussey, June Barrows, 1910-1985.<ptr target="C0009_b1"/>
+            </persname>
+         </origination>
+         <langmaterial>
+            <language langcode="eng"/>
+            <language langcode="ger"/>
+            <language langcode="dut"/>
+         </langmaterial>
+         <abstract>The Barrows Mussey Translations collection consists of English translations of works by various European authors, predominately German, made by the American translator Barrows Mussey.</abstract>
+         <physloc type="code">rcpxm</physloc>
+      </did>
+      <bioghist id="C0009_b1">
+         
+         <p>Barrows Mussey was an American translator who completed English translations of various works, mostly novels, of German and other European authors during the 1940s.</p>
+      </bioghist>
+      <descgrp id="dacs3">
+         <scopecontent>
+            <p>Consists of typed manuscripts, often heavily revised or corrected, of Mussey's English translations of various works, mostly novels, of German and other European authors during the 1940s. Included are Frans G. Bengtsson's Red Orm (incomplete); Hermann Borchardt's The Conspiracy of Carpenters; Dola de Jong's Knikkernik, Knakkernak, and Knokkernok (several chapters); Anthony Fokker and Frank Harper's Specialized in Terror; Heinrich Hauser's Time Was; Frederick Heydenau's The Wrath of the Eagles; Hugo von Hofmannsthal's Plays at Salzburg; Hermann Kesten's Colonel Kock; Christine Liungman's The Shining Sea; Ernst Lothar's Beneath Another Sun and A Woman is Witness; Emil Ludwig's Mediterranean; Gerardo E. Neisser's Call Me Frank; and Hermann Rauschning's The Redemption of Democracy.</p>
+            <p>In addition, the collection includes Fritz von Unruh's untitled 1941 novel, as well as Franz Werfel's Jacobowsky and the Colonel and A Portrait of Giuseppe Verdi. Some of Mussey's translations were apparently never published. "Translators and Traitors," Mussey's article describing his experiences as a translator, rounds out the collection.</p>
+            <p>The following standard abbreviation, or its variations, is used to identify materials in this collection: ALS = autograph letter signed, TLS = typed letter signed, TMs = typed manuscript, TMsS = typed manuscript signed.</p>
+         </scopecontent>
+         <arrangement>
+            <p>The collection is arranged alphabetically by author name.</p>
+         </arrangement>
+      </descgrp>
+      <descgrp id="dacs4">
+         <accessrestrict type="open">
+            <p>Collection is open for research use.</p>
+         </accessrestrict>
+         
+         <userestrict>
+            <p>Single photocopies may be made for research purposes. No further photoduplication of
+               copies of material in the collection can be made when Princeton University Library
+               does not own the original. Inquiries regarding publishing material from the
+               collection should be directed to RBSC Public Services staff through the <extref xmlns:xlink="http://www.w3.org/1999/xlink"
+                       xlink:href="https://library.princeton.edu/special-collections/ask-us"
+                       xlink:type="simple">Ask Us! form</extref>.
+               The library has no information on the status of literary rights in the collection and
+               researchers are responsible for determining any questions of copyright.</p>
+         </userestrict>
+      </descgrp>
+      <descgrp id="dacs5">
+         <acqinfo>
+            <p>Originally, this collection formed part of Princeton's Archives of American Literature.</p>
+         </acqinfo>
+         <appraisal>
+            <p>No appraisal information is available.</p>
+         </appraisal>
+      </descgrp>
+      <descgrp id="dacs6">
+         <bibliography>
+            <p>Some of the manuscripts found in draft form in the collection came to print in the following publications: Bengtsson, Frans G., Red Orm (NY: Charles Scribner's Sons, 1943); Borchardt, Hermann, The Conspiracy of Carpenters (NY: Simon and Schuster, 1943); De Jong, Dola, Knikkernik, Knakkernak, and Knokkernok (NY: Charles Scribner's Sons, 1942); Hauser, Heinrich, Time Was (NY: Reynal &amp; Hitchcock, 1942); Lothar, Ernst, Beneath Another Sun (Garden City, NY: Doubleday, Doran, 1943), and A Woman is Witness (Garden City, NY: Doubleday, Doran, 1941); Ludwig, Emil, The Mediterranean (NY: Whittlesey House, 1942); and Rauschning, Hermann, The Redemption Of Democracy (NY: Alliance Book Corp., 1941).</p>
+         </bibliography>
+      </descgrp>
+      <descgrp id="dacs7">
+         <prefercite>
+            <p>Identification of specific item; Date (if known); Barrows Mussey Translations, Box and Folder Number; Special Collections, Princeton University Library.</p>
+         </prefercite>
+         <processinfo type="processing">
+            <p>This collection was processed by <name role="processor">Rachel Jordan</name> in <date type="processed" normal="2004"> 2004</date>. Finding aid written by <name role="author">Rachel Jordan</name> in <date type="processed" normal="2004"> 2004</date>.</p>
+            <p>Biography written by Jessica Marati, '08.</p>
+         </processinfo>
+      </descgrp>
+      
+
+
+      <controlaccess>
+         
+         <subject source="lcsh">Dutch fiction -- Translations into English.</subject>
+         <subject source="lcsh">German fiction -- Translations into English.</subject>
+         <subject source="lcsh">Swedish fiction -- Translations into English.</subject>
+         <subject source="lcsh">Translating and interpreting -- United States -- 20th century.</subject>
+         <occupation source="lcsh">Translators -- United States -- 20th century.</occupation>
+         <subject rules="local"
+                  source="local"
+                  encodinganalog="690"
+                  authfilenumber="t28">European literature</subject>
+         <subject rules="local"
+                  source="local"
+                  encodinganalog="690"
+                  authfilenumber="t9">American literature</subject>
+      </controlaccess>
+      <dsc type="combined">
+         <c level="file" id="C0009_c001">
+            <did>
+               <unittitle>Bengtsson, Franz Gunnar</unittitle>
+               <unitdate>dates not examined</unitdate>
+               <physdesc>
+                  <extent type="computed" unit="folder">1 folder</extent>
+               </physdesc>
+            </did>
+            <c level="file" id="C0009_c002">
+               <did>
+                  <unittitle>
+                     Red Orm (incomplete)</unittitle>
+                  <unitdate>dates not examined</unitdate>
+                  <physdesc>
+                     <extent type="computed" unit="folder">1 folder</extent>
+                  </physdesc>
+               </did>
+               <c level="file" id="C0009_c003">
+                  <did>
+                     
+                     <container type="folder" parent="C0009_i1">1</container>
+                     <unittitle>TMs</unittitle>
+                     <unitdate>dates not examined</unitdate>
+                     <physdesc>
+                        <extent type="computed" unit="folder">1 folder</extent>
+                     </physdesc>
+                  </did>
+               </c>
+               <c level="file" id="C0009_c004">
+                  <did>
+                     
+                     <container type="folder" parent="C0009_i1">1</container>
+                     <unittitle>Program: December 24, 1940, Berlin</unittitle>
+                     <unitdate>dates not examined</unitdate>
+                     <physdesc>
+                        <extent type="computed" unit="folder">1 folder</extent>
+                     </physdesc>
+                  </did>
+               </c>
+            </c>
+         </c>
+         <c level="file" id="C0009_c005">
+            <did>
+               <unittitle>Bochardt, Hermann</unittitle>
+               <unitdate normal="1943-01-14/1943-01-14">1943 January 14</unitdate>
+               <physdesc>
+                  <extent type="computed" unit="folder">3 folders</extent>
+               </physdesc>
+            </did>
+            <c level="file" id="C0009_c006">
+               <did>
+                  
+                  <container type="folder" parent="C0009_i1">2</container>
+                  <unittitle>ALS by Bochardt to Mussey</unittitle>
+                  <unitdate normal="1943-01-14">1943 January 14</unitdate>
+                  <physdesc>
+                     <extent type="computed" unit="folder">1 folder</extent>
+                  </physdesc>
+               </did>
+            </c>
+            <c level="file" id="C0009_c007">
+               <did>
+                  <unittitle altrender="Conspiracy of the Carpenters">
+                     The Conspiracy of the Carpenters
+                 </unittitle>
+                  <unitdate>dates not examined</unitdate>
+                  <physdesc>
+                     <extent type="computed" unit="folder">3 folders</extent>
+                  </physdesc>
+               </did>
+               <c level="file" id="C0009_c008">
+                  <did>
+                     
+                     <container type="folder" parent="C0009_i1">2</container>
+                     <unittitle>TMs (I), English translation (Simon &amp; Schuster)</unittitle>
+                     <unitdate>dates not examined</unitdate>
+                     <physdesc>
+                        <extent type="computed" unit="folder">1 folder</extent>
+                     </physdesc>
+                  </did>
+               </c>
+               <c level="file" id="C0009_c009">
+                  <did>
+                     
+                     <container type="folder" parent="C0009_i1">3</container>
+                     <unittitle>TMs (II), English translation (Simon &amp; Schuster)</unittitle>
+                     <unitdate>dates not examined</unitdate>
+                     <physdesc>
+                        <extent type="computed" unit="folder">1 folder</extent>
+                     </physdesc>
+                  </did>
+               </c>
+               <c level="file" id="C0009_c010">
+                  <did>
+                     
+                     <container type="folder" parent="C0009_i1">4</container>
+                     <unittitle>TMs (III), English translation (Simon &amp; Schuster)</unittitle>
+                     <unitdate>dates not examined</unitdate>
+                     <physdesc>
+                        <extent type="computed" unit="folder">1 folder</extent>
+                     </physdesc>
+                  </did>
+               </c>
+            </c>
+         </c>
+         <c level="file" id="C0009_c011">
+            <did>
+               <unittitle>De Jong, Dola</unittitle>
+               <unitdate>dates not examined</unitdate>
+               <physdesc>
+                  <extent type="computed" unit="folder">2 folders</extent>
+               </physdesc>
+            </did>
+            <c level="file" id="C0009_c012">
+               <did>
+                  <unittitle>
+                     De Herfstfabriek van Kabauter Kleur
+                 </unittitle>
+                  <unitdate>dates not examined</unitdate>
+                  <physdesc>
+                     <extent type="computed" unit="folder">1 folder</extent>
+                  </physdesc>
+               </did>
+               <c level="file" id="C0009_c013">
+                  <did>
+                     
+                     <container type="folder" parent="C0009_i1">5</container>
+                     <unittitle>TMs (carbon), Dutch (unpublished)</unittitle>
+                     <unitdate>dates not examined</unitdate>
+                     <physdesc>
+                        <extent type="computed" unit="folder">1 folder</extent>
+                     </physdesc>
+                  </did>
+                  <scopecontent>
+                     <p>English translation made but lost.</p>
+                  </scopecontent>
+               </c>
+            </c>
+            <c level="file" id="C0009_c014">
+               <did>
+                  <unittitle>
+                     Knikkernik Is a Hero, Chapter VII</unittitle>
+                  <unitdate>dates not examined</unitdate>
+                  <physdesc>
+                     <extent type="computed" unit="folder">1 folder</extent>
+                  </physdesc>
+               </did>
+               <c level="file" id="C0009_c015">
+                  <did>
+                     
+                     <container type="folder" parent="C0009_i1">6</container>
+                     <unittitle>TMs (carbon) (Scribner)</unittitle>
+                     <unitdate>dates not examined</unitdate>
+                     <physdesc>
+                        <extent type="computed" unit="folder">1 folder</extent>
+                     </physdesc>
+                  </did>
+               </c>
+            </c>
+         </c>
+         <c level="file" id="C0009_c016">
+            <did>
+               <unittitle>Fokker, Anthony and Frank Harper</unittitle>
+               <unitdate>dates not examined</unitdate>
+               <physdesc>
+                  <extent type="computed" unit="folder">1 folder</extent>
+               </physdesc>
+            </did>
+            <c level="file" id="C0009_c017">
+               <did>
+                  <unittitle>
+                     Specialized in Terror
+                 </unittitle>
+                  <unitdate>dates not examined</unitdate>
+                  <physdesc>
+                     <extent type="computed" unit="folder">1 folder</extent>
+                  </physdesc>
+               </did>
+               <c level="file" id="C0009_c018">
+                  <did>
+                     
+                     <container type="folder" parent="C0009_i1">7</container>
+                     <unittitle>TMs, German, translation made but lost (unpublished)</unittitle>
+                     <unitdate>dates not examined</unitdate>
+                     <physdesc>
+                        <extent type="computed" unit="folder">1 folder</extent>
+                     </physdesc>
+                  </did>
+               </c>
+            </c>
+         </c>
+         <c level="file" id="C0009_c019">
+            <did>
+               <unittitle>Hauser, Heinrich</unittitle>
+               <unitdate>dates not examined</unitdate>
+               <physdesc>
+                  <extent type="computed" unit="folder">1 folder</extent>
+               </physdesc>
+            </did>
+            <c level="file" id="C0009_c020">
+               <did>
+                  <unittitle>
+                     Time Was
+                 </unittitle>
+                  <unitdate>dates not examined</unitdate>
+                  <physdesc>
+                     <extent type="computed" unit="folder">1 folder</extent>
+                  </physdesc>
+               </did>
+               <c level="file" id="C0009_c021">
+                  <did>
+                     
+                     <container type="folder" parent="C0009_i2">1</container>
+                     <unittitle>TMs</unittitle>
+                     <unitdate>dates not examined</unitdate>
+                     <physdesc>
+                        <extent type="computed" unit="folder">1 folder</extent>
+                     </physdesc>
+                  </did>
+               </c>
+            </c>
+         </c>
+         <c level="file" id="C0009_c022">
+            <did>
+               <unittitle>Heydenau, Frederick</unittitle>
+               <unitdate>dates not examined</unitdate>
+               <physdesc>
+                  <extent type="computed" unit="folder">2 folders</extent>
+               </physdesc>
+            </did>
+            <c level="file" id="C0009_c023">
+               <did>
+                  <unittitle altrender="Wrath of the Eagles">
+                     The Wrath of the Eagles
+                 </unittitle>
+                  <unitdate>dates not examined</unitdate>
+                  <physdesc>
+                     <extent type="computed" unit="folder">1 folder</extent>
+                  </physdesc>
+               </did>
+               <c level="file" id="C0009_c024">
+                  <did>
+                     
+                     <container type="folder" parent="C0009_i2">2</container>
+                     <unittitle>TMs (mostly carbon), German: Der Zorn der Adler
+                    </unittitle>
+                     <unitdate>dates not examined</unitdate>
+                     <physdesc>
+                        <extent type="computed" unit="folder">1 folder</extent>
+                     </physdesc>
+                  </did>
+               </c>
+               <c level="file" id="C0009_c025">
+                  <did>
+                     
+                     <container type="folder" parent="C0009_i2">2</container>
+                     <unittitle>Program: February 22, 194?, Berlin</unittitle>
+                     <unitdate>dates not examined</unitdate>
+                     <physdesc>
+                        <extent type="computed" unit="folder">1 folder</extent>
+                     </physdesc>
+                  </did>
+               </c>
+            </c>
+            <c level="file" id="C0009_c026">
+               <did>
+                  <unittitle>Report on Heydenau's Ms, The Wrath of the Eagles
+                 </unittitle>
+                  <unitdate>dates not examined</unitdate>
+                  <physdesc>
+                     <extent type="computed" unit="folder">1 folder</extent>
+                  </physdesc>
+               </did>
+               <c level="file" id="C0009_c027">
+                  <did>
+                     
+                     <container type="folder" parent="C0009_i2">3</container>
+                     <unittitle>TMs</unittitle>
+                     <unitdate>dates not examined</unitdate>
+                     <physdesc>
+                        <extent type="computed" unit="folder">1 folder</extent>
+                     </physdesc>
+                  </did>
+               </c>
+               <c level="file" id="C0009_c028">
+                  <did>
+                     
+                     <container type="folder" parent="C0009_i2">3</container>
+                     <unittitle>Program: December 25, 1940, Rome</unittitle>
+                     <unitdate>dates not examined</unitdate>
+                     <physdesc>
+                        <extent type="computed" unit="folder">1 folder</extent>
+                     </physdesc>
+                  </did>
+               </c>
+            </c>
+         </c>
+         <c level="file" id="C0009_c029">
+            <did>
+               <unittitle>Hofmannsthal, Hugo von</unittitle>
+               <unitdate>dates not examined</unitdate>
+               <physdesc>
+                  <extent type="computed" unit="folder">2 folders</extent>
+               </physdesc>
+            </did>
+            <c level="file" id="C0009_c030">
+               <did>
+                  <unittitle>"Festival Plays at Salzburg"</unittitle>
+                  <unitdate>dates not examined</unitdate>
+                  <physdesc>
+                     <extent type="computed" unit="folder">1 folder</extent>
+                  </physdesc>
+               </did>
+               <c level="file" id="C0009_c031">
+                  <did>
+                     
+                     <container type="folder" parent="C0009_i2">4</container>
+                     <unittitle>TMs</unittitle>
+                     <unitdate>dates not examined</unitdate>
+                     <physdesc>
+                        <extent type="computed" unit="folder">1 folder</extent>
+                     </physdesc>
+                  </did>
+               </c>
+               <c level="file" id="C0009_c032">
+                  <did>
+                     
+                     <container type="folder" parent="C0009_i2">4</container>
+                     <unittitle>Program: December 25, 1940, Berlin</unittitle>
+                     <unitdate>dates not examined</unitdate>
+                     <physdesc>
+                        <extent type="computed" unit="folder">1 folder</extent>
+                     </physdesc>
+                  </did>
+               </c>
+            </c>
+            <c level="file" id="C0009_c033">
+               <did>
+                  <unittitle>"Festpiele in Salzburg"</unittitle>
+                  <unitdate>dates not examined</unitdate>
+                  <physdesc>
+                     <extent type="computed" unit="folder">1 folder</extent>
+                  </physdesc>
+               </did>
+               <c level="file" id="C0009_c034">
+                  <did>
+                     
+                     <container type="folder" parent="C0009_i2">5</container>
+                     <unittitle>TMs</unittitle>
+                     <unitdate>dates not examined</unitdate>
+                     <physdesc>
+                        <extent type="computed" unit="folder">1 folder</extent>
+                     </physdesc>
+                  </did>
+               </c>
+               <c level="file" id="C0009_c035">
+                  <did>
+                     
+                     <container type="folder" parent="C0009_i2">5</container>
+                     <unittitle>Program: May 17, 1942</unittitle>
+                     <unitdate>dates not examined</unitdate>
+                     <physdesc>
+                        <extent type="computed" unit="folder">1 folder</extent>
+                     </physdesc>
+                  </did>
+               </c>
+            </c>
+         </c>
+         <c level="file" id="C0009_c036">
+            <did>
+               <unittitle>Kesten, Hermann</unittitle>
+               <unitdate>dates not examined</unitdate>
+               <physdesc>
+                  <extent type="computed" unit="folder">2 folders</extent>
+               </physdesc>
+            </did>
+            <c level="file" id="C0009_c037">
+               <did>
+                  <unittitle>"Colonel Kock"</unittitle>
+                  <unitdate>dates not examined</unitdate>
+                  <physdesc>
+                     <extent type="computed" unit="folder">1 folder</extent>
+                  </physdesc>
+               </did>
+               <c level="file" id="C0009_c038">
+                  <did>
+                     
+                     <container type="folder" parent="C0009_i2">6</container>
+                     <unittitle>TMs, English translation</unittitle>
+                     <unitdate>dates not examined</unitdate>
+                     <physdesc>
+                        <extent type="computed" unit="folder">1 folder</extent>
+                     </physdesc>
+                  </did>
+               </c>
+               <c level="file" id="C0009_c039">
+                  <did>
+                     
+                     <container type="folder" parent="C0009_i2">6</container>
+                     <unittitle>Program: December 25, 1940, Berlin</unittitle>
+                     <unitdate>dates not examined</unitdate>
+                     <physdesc>
+                        <extent type="computed" unit="folder">1 folder</extent>
+                     </physdesc>
+                  </did>
+               </c>
+            </c>
+            <c level="file" id="C0009_c040">
+               <did>
+                  <unittitle>"Oberst Kock"</unittitle>
+                  <unitdate>dates not examined</unitdate>
+                  <physdesc>
+                     <extent type="computed" unit="folder">1 folder</extent>
+                  </physdesc>
+               </did>
+               <c level="file" id="C0009_c041">
+                  <did>
+                     
+                     <container type="folder" parent="C0009_i2">7</container>
+                     <unittitle>TMs (carbon), German</unittitle>
+                     <unitdate>dates not examined</unitdate>
+                     <physdesc>
+                        <extent type="computed" unit="folder">1 folder</extent>
+                     </physdesc>
+                  </did>
+               </c>
+               <c level="file" id="C0009_c042">
+                  <did>
+                     
+                     <container type="folder" parent="C0009_i2">7</container>
+                     <unittitle>Program: May 17, 1942</unittitle>
+                     <unitdate>dates not examined</unitdate>
+                     <physdesc>
+                        <extent type="computed" unit="folder">1 folder</extent>
+                     </physdesc>
+                  </did>
+               </c>
+            </c>
+         </c>
+         <c level="file" id="C0009_c043">
+            <did>
+               <unittitle>Liungman, Christine</unittitle>
+               <unitdate>dates not examined</unitdate>
+               <physdesc>
+                  <extent type="computed" unit="folder">2 folders</extent>
+               </physdesc>
+            </did>
+            <c level="file" id="C0009_c044">
+               <did>
+                  <unittitle altrender="Shining Sea">
+                     The Shining Sea
+                 </unittitle>
+                  <unitdate>dates not examined</unitdate>
+                  <physdesc>
+                     <extent type="computed" unit="folder">2 folders</extent>
+                  </physdesc>
+               </did>
+               <c level="file" id="C0009_c045">
+                  <did>
+                     
+                     <container type="folder" parent="C0009_i2">8</container>
+                     <unittitle>TMs</unittitle>
+                     <unitdate>dates not examined</unitdate>
+                     <physdesc>
+                        <extent type="computed" unit="folder">1 folder</extent>
+                     </physdesc>
+                  </did>
+               </c>
+               <c level="file" id="C0009_c046">
+                  <did>
+                     
+                     <container type="folder" parent="C0009_i2">9</container>
+                     <unittitle>TMs (carbon)</unittitle>
+                     <unitdate>dates not examined</unitdate>
+                     <physdesc>
+                        <extent type="computed" unit="folder">1 folder</extent>
+                     </physdesc>
+                  </did>
+               </c>
+            </c>
+         </c>
+         <c level="file" id="C0009_c047">
+            <did>
+               <unittitle>Lothar, Ernst</unittitle>
+               <unitdate normal="1940-01-01/1941-12-31" type="inclusive">1940-1941</unitdate>
+               <physdesc>
+                  <extent type="computed" unit="box">2 boxes</extent>
+               </physdesc>
+            </did>
+            <c level="file" id="C0009_c048">
+               <did>
+                  <unittitle>
+                     Beneath Another Sun, Part I</unittitle>
+                  <unitdate>dates not examined</unitdate>
+                  <physdesc>
+                     <extent type="computed" unit="folder">1 folder</extent>
+                  </physdesc>
+               </did>
+               <c level="file" id="C0009_c049">
+                  <did>
+                     
+                     <container type="folder" parent="C0009_i3">1</container>
+                     <unittitle>TMs, German</unittitle>
+                     <unitdate>dates not examined</unitdate>
+                     <physdesc>
+                        <extent type="computed" unit="folder">1 folder</extent>
+                     </physdesc>
+                  </did>
+               </c>
+            </c>
+            <c level="file" id="C0009_c050">
+               <did>
+                  <unittitle>
+                     Beneath Another Sun, Part II</unittitle>
+                  <unitdate>dates not examined</unitdate>
+                  <physdesc>
+                     <extent type="computed" unit="folder">1 folder</extent>
+                  </physdesc>
+               </did>
+               <c level="file" id="C0009_c051">
+                  <did>
+                     
+                     <container type="folder" parent="C0009_i3">2</container>
+                     <unittitle>TMs, German</unittitle>
+                     <unitdate>dates not examined</unitdate>
+                     <physdesc>
+                        <extent type="computed" unit="folder">1 folder</extent>
+                     </physdesc>
+                  </did>
+               </c>
+            </c>
+            <c level="file" id="C0009_c052">
+               <did>
+                  <unittitle>
+                     Beneath Another Sun, Part I</unittitle>
+                  <unitdate>dates not examined</unitdate>
+                  <physdesc>
+                     <extent type="computed" unit="folder">1 folder</extent>
+                  </physdesc>
+               </did>
+               <c level="file" id="C0009_c053">
+                  <did>
+                     
+                     <container type="folder" parent="C0009_i3">3</container>
+                     <unittitle>TMs, English translation (Doubleday)</unittitle>
+                     <unitdate>dates not examined</unitdate>
+                     <physdesc>
+                        <extent type="computed" unit="folder">1 folder</extent>
+                     </physdesc>
+                  </did>
+               </c>
+            </c>
+            <c level="file" id="C0009_c054">
+               <did>
+                  <unittitle>
+                     Beneath Another Sun, Part II</unittitle>
+                  <unitdate>dates not examined</unitdate>
+                  <physdesc>
+                     <extent type="computed" unit="folder">1 folder</extent>
+                  </physdesc>
+               </did>
+               <c level="file" id="C0009_c055">
+                  <did>
+                     
+                     <container type="folder" parent="C0009_i3">4</container>
+                     <unittitle>TMs with holograph revisions, English translation (Doubleday)</unittitle>
+                     <unitdate>dates not examined</unitdate>
+                     <physdesc>
+                        <extent type="computed" unit="folder">1 folder</extent>
+                     </physdesc>
+                  </did>
+               </c>
+            </c>
+            <c level="file" id="C0009_c056">
+               <did>
+                  
+                  <container type="folder" parent="C0009_i4">1</container>
+                  <unittitle>2 ALsS to Barrows Mussey</unittitle>
+                  <unitdate type="inclusive" normal="1940/1941">1940-1941</unitdate>
+                  <physdesc>
+                     <extent type="computed" unit="folder">1 folder</extent>
+                  </physdesc>
+               </did>
+            </c>
+            <c level="file" id="C0009_c057">
+               <did>
+                  <unittitle altrender="Woman is Witness">
+                     A Woman is Witness
+                 </unittitle>
+                  <unitdate>dates not examined</unitdate>
+                  <physdesc>
+                     <extent type="computed" unit="folder">1 folder</extent>
+                  </physdesc>
+               </did>
+               <c level="file" id="C0009_c058">
+                  <did>
+                     
+                     <container type="folder" parent="C0009_i4">1</container>
+                     <unittitle>TMs (carbon), German</unittitle>
+                     <unitdate>dates not examined</unitdate>
+                     <physdesc>
+                        <extent type="computed" unit="folder">1 folder</extent>
+                     </physdesc>
+                  </did>
+               </c>
+            </c>
+            <c level="file" id="C0009_c059">
+               <did>
+                  <unittitle altrender="Woman is Witness, Part I">
+                     A Woman is Witness, Part I</unittitle>
+                  <unitdate>dates not examined</unitdate>
+                  <physdesc>
+                     <extent type="computed" unit="folder">1 folder</extent>
+                  </physdesc>
+               </did>
+               <c level="file" id="C0009_c060">
+                  <did>
+                     
+                     <container type="folder" parent="C0009_i4">2</container>
+                     <unittitle>TMs, English translation</unittitle>
+                     <unitdate>dates not examined</unitdate>
+                     <physdesc>
+                        <extent type="computed" unit="folder">1 folder</extent>
+                     </physdesc>
+                  </did>
+               </c>
+            </c>
+            <c level="file" id="C0009_c061">
+               <did>
+                  <unittitle altrender="Woman is Witness, Part II">
+                     A Woman is Witness, Part II</unittitle>
+                  <unitdate>dates not examined</unitdate>
+                  <physdesc>
+                     <extent type="computed" unit="folder">1 folder</extent>
+                  </physdesc>
+               </did>
+               <c level="file" id="C0009_c062">
+                  <did>
+                     
+                     <container type="folder" parent="C0009_i4">3</container>
+                     <unittitle>TMs, English translation</unittitle>
+                     <unitdate>dates not examined</unitdate>
+                     <physdesc>
+                        <extent type="computed" unit="folder">1 folder</extent>
+                     </physdesc>
+                  </did>
+               </c>
+            </c>
+         </c>
+         <c level="file" id="C0009_c063">
+            <did>
+               <unittitle>Ludwig, Emil</unittitle>
+               <unitdate>dates not examined</unitdate>
+               <physdesc>
+                  <extent type="computed" unit="box">2 boxes</extent>
+               </physdesc>
+            </did>
+            <c level="file" id="C0009_c064">
+               <did>
+                  <unittitle altrender="Mediterranean, Part I">
+                     The Mediterranean, Part I</unittitle>
+                  <unitdate>dates not examined</unitdate>
+                  <physdesc>
+                     <extent type="computed" unit="folder">1 folder</extent>
+                  </physdesc>
+               </did>
+               <c level="file" id="C0009_c065">
+                  <did>
+                     
+                     <container type="folder" parent="C0009_i4">4</container>
+                     <unittitle>TMs</unittitle>
+                     <unitdate>dates not examined</unitdate>
+                     <physdesc>
+                        <extent type="computed" unit="folder">1 folder</extent>
+                     </physdesc>
+                  </did>
+                  <scopecontent>
+                     <p>Contains corrections, glossary, new forward (German) for translation</p>
+                  </scopecontent>
+               </c>
+            </c>
+            <c level="file" id="C0009_c066">
+               <did>
+                  <unittitle altrender="Mediterranean, Part II">
+                     The Mediterranean, Part II</unittitle>
+                  <unitdate>dates not examined</unitdate>
+                  <physdesc>
+                     <extent type="computed" unit="folder">1 folder</extent>
+                  </physdesc>
+               </did>
+               <c level="file" id="C0009_c067">
+                  <did>
+                     
+                     <container type="folder" parent="C0009_i4">5</container>
+                     <unittitle>TMs</unittitle>
+                     <unitdate>dates not examined</unitdate>
+                     <physdesc>
+                        <extent type="computed" unit="folder">1 folder</extent>
+                     </physdesc>
+                  </did>
+               </c>
+            </c>
+            <c level="file" id="C0009_c068">
+               <did>
+                  <unittitle altrender="Mediterranean, Part III">
+                     The Mediterranean, Part III</unittitle>
+                  <unitdate>dates not examined</unitdate>
+                  <physdesc>
+                     <extent type="computed" unit="folder">1 folder</extent>
+                  </physdesc>
+               </did>
+               <c level="file" id="C0009_c069">
+                  <did>
+                     
+                     <container type="folder" parent="C0009_i5">1</container>
+                     <unittitle>TMs</unittitle>
+                     <unitdate>dates not examined</unitdate>
+                     <physdesc>
+                        <extent type="computed" unit="folder">1 folder</extent>
+                     </physdesc>
+                  </did>
+               </c>
+            </c>
+         </c>
+         <c level="file" id="C0009_c070">
+            <did>
+               <unittitle>Mussey, Barrows</unittitle>
+               <unitdate>dates not examined</unitdate>
+               <physdesc>
+                  <extent type="computed" unit="folder">1 folder</extent>
+               </physdesc>
+            </did>
+            <c level="file" id="C0009_c071">
+               <did>
+                  <unittitle>"Translators and Traitors"</unittitle>
+                  <unitdate>dates not examined</unitdate>
+                  <physdesc>
+                     <extent type="computed" unit="folder">1 folder</extent>
+                  </physdesc>
+               </did>
+               <c level="file" id="C0009_c072">
+                  <did>
+                     
+                     <container type="folder" parent="C0009_i5">2</container>
+                     <unittitle>TMs (carbon)</unittitle>
+                     <unitdate>dates not examined</unitdate>
+                     <physdesc>
+                        <extent type="computed" unit="folder">1 folder</extent>
+                     </physdesc>
+                  </did>
+               </c>
+            </c>
+         </c>
+         <c level="file" id="C0009_c073">
+            <did>
+               <unittitle>Neisser, Gerardo E.</unittitle>
+               <unitdate normal="1942-01-01/1942-12-31" type="inclusive">1942</unitdate>
+               <physdesc>
+                  <extent type="computed" unit="folder">1 folder</extent>
+               </physdesc>
+            </did>
+            <c level="file" id="C0009_c074">
+               <did>
+                  <unittitle>"Call Me Frank"</unittitle>
+                  <unitdate>dates not examined</unitdate>
+                  <physdesc>
+                     <extent type="computed" unit="folder">1 folder</extent>
+                  </physdesc>
+               </did>
+               <c level="file" id="C0009_c075">
+                  <did>
+                     
+                     <container type="folder" parent="C0009_i5">3</container>
+                     <unittitle>TMs (carbon)</unittitle>
+                     <unitdate>dates not examined</unitdate>
+                     <physdesc>
+                        <extent type="computed" unit="folder">1 folder</extent>
+                     </physdesc>
+                  </did>
+               </c>
+            </c>
+            <c level="file" id="C0009_c076">
+               <did>
+                  
+                  <container type="folder" parent="C0009_i5">3</container>
+                  <unittitle>TLS by Neisser to Mussey</unittitle>
+                  <unitdate normal="1942/1942">1942</unitdate>
+                  <physdesc>
+                     <extent type="computed" unit="folder">1 folder</extent>
+                  </physdesc>
+               </did>
+            </c>
+            <c level="file" id="C0009_c077">
+               <did>
+                  
+                  <container type="folder" parent="C0009_i5">3</container>
+                  <unittitle>Program: December 25, 1940, London</unittitle>
+                  <unitdate>dates not examined</unitdate>
+                  <physdesc>
+                     <extent type="computed" unit="folder">1 folder</extent>
+                  </physdesc>
+               </did>
+            </c>
+         </c>
+         <c level="file" id="C0009_c078">
+            <did>
+               <unittitle>Rauschning, Hermann</unittitle>
+               <unitdate>dates not examined</unitdate>
+               <physdesc>
+                  <extent type="computed" unit="folder">2 folders</extent>
+               </physdesc>
+            </did>
+            <c level="file" id="C0009_c079">
+               <did>
+                  <unittitle>
+                     Das Jahr der Entscheidung
+                 </unittitle>
+                  <unitdate>dates not examined</unitdate>
+                  <physdesc>
+                     <extent type="computed" unit="folder">1 folder</extent>
+                  </physdesc>
+               </did>
+               <c level="file" id="C0009_c080">
+                  <did>
+                     
+                     <container type="folder" parent="C0009_i5">4</container>
+                     <unittitle>TMs, German (English translation made but lost) (unpublished)</unittitle>
+                     <unitdate>dates not examined</unitdate>
+                     <physdesc>
+                        <extent type="computed" unit="folder">1 folder</extent>
+                     </physdesc>
+                  </did>
+               </c>
+            </c>
+            <c level="file" id="C0009_c081">
+               <did>
+                  <unittitle altrender="Redemption of Democracy">
+                     The Redemption of Democracy
+                 </unittitle>
+                  <unitdate>dates not examined</unitdate>
+                  <physdesc>
+                     <extent type="computed" unit="folder">1 folder</extent>
+                  </physdesc>
+               </did>
+               <c level="file" id="C0009_c082">
+                  <did>
+                     
+                     <container type="folder" parent="C0009_i5">5</container>
+                     <unittitle>TMs (Alliance Book Corp.)</unittitle>
+                     <unitdate>dates not examined</unitdate>
+                     <physdesc>
+                        <extent type="computed" unit="folder">1 folder</extent>
+                     </physdesc>
+                  </did>
+               </c>
+            </c>
+         </c>
+         <c level="file" id="C0009_c083">
+            <did>
+               <unittitle>Unruh, Fritz von</unittitle>
+               <unitdate normal="1941-01-01/1941-12-31" type="inclusive">1941</unitdate>
+               <physdesc>
+                  <extent type="computed" unit="folder">1 folder</extent>
+               </physdesc>
+            </did>
+            <c level="file" id="C0009_c084">
+               <did>
+                  <unittitle>[Untitled novel]</unittitle>
+                  <unitdate normal="1941/1941">1941</unitdate>
+                  <physdesc>
+                     <extent type="computed" unit="folder">1 folder</extent>
+                  </physdesc>
+               </did>
+               <c level="file" id="C0009_c085">
+                  <did>
+                     
+                     <container type="folder" parent="C0009_i5">6</container>
+                     <unittitle>TMs, English translation</unittitle>
+                     <unitdate>dates not examined</unitdate>
+                     <physdesc>
+                        <extent type="computed" unit="folder">1 folder</extent>
+                     </physdesc>
+                  </did>
+               </c>
+            </c>
+            <c level="file" id="C0009_c086">
+               <did>
+                  
+                  <container type="folder" parent="C0009_i5">6</container>
+                  <unittitle>TLS by Unruh to Mussey</unittitle>
+                  <unitdate normal="1941/1941">1941</unitdate>
+                  <physdesc>
+                     <extent type="computed" unit="folder">1 folder</extent>
+                  </physdesc>
+               </did>
+            </c>
+            <c level="file" id="C0009_c087">
+               <did>
+                  
+                  <container type="folder" parent="C0009_i5">6</container>
+                  <unittitle>ALS by Unruh to Mussey</unittitle>
+                  <unitdate normal="1941/1941">1941</unitdate>
+                  <physdesc>
+                     <extent type="computed" unit="folder">1 folder</extent>
+                  </physdesc>
+               </did>
+            </c>
+         </c>
+         <c level="file" id="C0009_c088">
+            <did>
+               <unittitle>Wertel, Franz</unittitle>
+               <unitdate>dates not examined</unitdate>
+               <physdesc>
+                  <extent type="computed" unit="folder">4 folders</extent>
+               </physdesc>
+            </did>
+            <c level="file" id="C0009_c089">
+               <did>
+                  <unittitle>
+                     Jacobowsky and the Colonel
+                 </unittitle>
+                  <unitdate>dates not examined</unitdate>
+                  <physdesc>
+                     <extent type="computed" unit="folder">2 folders</extent>
+                  </physdesc>
+               </did>
+               <c level="file" id="C0009_c090">
+                  <did>
+                     
+                     <container type="folder" parent="C0009_i5">7</container>
+                     <unittitle>TMs (carbon), German: Jacobowsky und der Oberst
+                    </unittitle>
+                     <unitdate>dates not examined</unitdate>
+                     <physdesc>
+                        <extent type="computed" unit="folder">1 folder</extent>
+                     </physdesc>
+                  </did>
+               </c>
+               <c level="file" id="C0009_c091">
+                  <did>
+                     
+                     <container type="folder" parent="C0009_i5">8</container>
+                     <unittitle>TMs, English translation by Mussey</unittitle>
+                     <unitdate>dates not examined</unitdate>
+                     <physdesc>
+                        <extent type="computed" unit="folder">1 folder</extent>
+                     </physdesc>
+                  </did>
+               </c>
+            </c>
+            <c level="file" id="C0009_c092">
+               <did>
+                  <unittitle altrender="Portrait of Giuseppe Verdi">
+                     A Portrait of Giuseppe Verdi
+                 </unittitle>
+                  <unitdate>dates not examined</unitdate>
+                  <physdesc>
+                     <extent type="computed" unit="folder">2 folders</extent>
+                  </physdesc>
+               </did>
+               <c level="file" id="C0009_c093">
+                  <did>
+                     
+                     <container type="folder" parent="C0009_i5">9</container>
+                     <unittitle>TMsS (carbon), German: Ein Bildnis Giuseppe Verdi's
+                    </unittitle>
+                     <unitdate>dates not examined</unitdate>
+                     <physdesc>
+                        <extent type="computed" unit="folder">1 folder</extent>
+                     </physdesc>
+                  </did>
+               </c>
+               <c level="file" id="C0009_c094">
+                  <did>
+                     
+                     <container type="folder" parent="C0009_i5">10</container>
+                     <unittitle>TMs, English translation by Mussey</unittitle>
+                     <unitdate>dates not examined</unitdate>
+                     <physdesc>
+                        <extent type="computed" unit="folder">1 folder</extent>
+                     </physdesc>
+                  </did>
+               </c>
+            </c>
+         </c>
+      </dsc>
+      <dsc type="othertype" othertype="physicalholdings">
+         <c level="otherlevel" otherlevel="physicalitem" id="C0009_i1">
+            <did>
+               <container type="box">1</container>
+               <unitid type="barcode">32101040795344</unitid>
+               <physloc type="code">rcpxm</physloc>
+               
+            </did>
+         </c>
+         <c level="otherlevel" otherlevel="physicalitem" id="C0009_i2">
+            <did>
+               <container type="box">2</container>
+               <unitid type="barcode">32101040795351</unitid>
+               <physloc type="code">rcpxm</physloc>
+               
+            </did>
+         </c>
+         <c level="otherlevel" otherlevel="physicalitem" id="C0009_i3">
+            <did>
+               <container type="box">3</container>
+               <unitid type="barcode">32101040795369</unitid>
+               <physloc type="code">rcpxm</physloc>
+               
+            </did>
+         </c>
+         <c level="otherlevel" otherlevel="physicalitem" id="C0009_i4">
+            <did>
+               <container type="box">4</container>
+               <unitid type="barcode">32101040795377</unitid>
+               <physloc type="code">rcpxm</physloc>
+               
+            </did>
+         </c>
+         <c level="otherlevel" otherlevel="physicalitem" id="C0009_i5">
+            <did>
+               <container type="box">5</container>
+               <unitid type="barcode">32101040795385</unitid>
+               <physloc type="code">rcpxm</physloc>
+               
+            </did>
+         </c>
+      </dsc>
+   </archdesc>
+</ead>

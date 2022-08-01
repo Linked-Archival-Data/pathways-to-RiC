@@ -1,0 +1,408 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE ead
+  SYSTEM "ead.dtd">
+<ead xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+     xsi:schemaLocation="urn:isbn:1-931666-22-9 http://www.loc.gov/ead/ead.xsd"
+     audience="external">
+   <eadheader repositoryencoding="iso15511"
+              countryencoding="iso3166-1"
+              dateencoding="iso8601"
+              langencoding="iso639-2b"
+              scriptencoding="iso15924">
+      <eadid mainagencycode="US-NjP"
+             countrycode="US"
+             url="http://arks.princeton.edu/ark:/88435/v979v313x"
+             urn="ark:/88435/v979v313x">C0007</eadid>
+      <filedesc>
+         <titlestmt>
+            <titleproper>"We Saw It Happen" Collection, <date normal="1937">1937</date>: Finding Aid</titleproper>
+         </titlestmt>
+         <publicationstmt id="rbscAddress">
+            <publisher>Princeton University Library. Special Collections.</publisher>
+            <address>
+               <addressline>Manuscripts Division</addressline>
+               <addressline>One Washington Road</addressline>
+               <addressline>Princeton, New Jersey 08544 USA</addressline>
+               <addressline>Phone: (609) 258-3184</addressline>
+               <addressline>Fax: (609) 258-2324</addressline>
+               <addressline>rbsc@princeton.edu</addressline>
+               <addressline>http://www.princeton.edu/~rbsc</addressline>
+            </address>
+            <date type="publication" normal="2008">2008</date>
+         </publicationstmt>
+      </filedesc>
+      <profiledesc>
+         <creation>This finding aid was produced using the Archivists' Toolkit <date normal="2011-07-26">2011-07-26T12:28-0400</date>
+         </creation>
+         <langusage>
+            <language langcode="eng"/>
+         </langusage>
+         <descrules>Finding aid content adheres to that prescribed by 
+               Describing Archives: A Content Standard. 
+         </descrules>
+      </profiledesc>
+      <revisiondesc>
+         <change>
+            <date normal="2012-05-02">2012-05-02T14:40:22.329-04:00</date>
+            <item>Run through PULFA 2.0 normalization routines.</item>
+         </change>
+      </revisiondesc>
+   </eadheader>
+   <archdesc type="findingaid" level="collection" relatedencoding="marc21">
+      <did>
+         <unitid type="collection" countrycode="US" repositorycode="US-NjP">C0007</unitid>
+         <repository id="mss">
+            <corpname source="viaf" authfilenumber="http://viaf.org/viaf/168350386">Princeton University Library. Special Collections.</corpname>
+            <subarea>Manuscripts Division</subarea>
+            <address>
+               <addressline>One Washington Road</addressline>
+               <addressline>Princeton, New Jersey 08544 USA</addressline>
+            </address>
+         </repository>
+         <unittitle>"We Saw It Happen" Collection</unittitle>
+         <unitdate type="inclusive" normal="1937/1937">1937</unitdate>
+         <physdesc>
+            <extent>0.6 linear feet</extent>
+            <extent unit="box">2 boxes</extent>
+         </physdesc>
+         <origination>
+            <corpname source="viaf"
+                      role="cre"
+                      authfilenumber="https://viaf.org/viaf/168350386">Princeton University. Library. Special Collections</corpname>
+         </origination>
+         <langmaterial>
+            <language langcode="eng"/>
+         </langmaterial>
+         <abstract>Consists of the typed manuscripts of We Saw It Happen (1938), edited by Hanson W. Baldwin and Shepard Stone, each chapter contributed by a different correspondent of the New York Times. The work details major news stories chronicled by important journalists of the day.</abstract>
+         <physloc type="code">mss</physloc>
+      </did>
+      <descgrp id="dacs3">
+         <scopecontent>
+            <p>The collection consists of the typed manuscripts of the introduction and the twelve chapters of We Saw It Happen (1938), edited by Hanson W. Baldwin and Shepard Stone, each chapter contributed by a different correspondent of the New York Times: Arthur Krock, G. E. R. Gedye, F. Raymond Daniell, Frank Nugent and Douglas Churchill, Elliott V. Bell, Ferdinand Kuhn, Russell Owen, John Kieran, William R. Conklin, Hugh Byas, Brooks Atkinson, and Louis Stark. Most of the manuscripts exist in two versions: one with the author's corrections, the other, "final" version with the proofreader's marks.</p>
+         </scopecontent>
+      </descgrp>
+      <descgrp id="dacs4">
+         <accessrestrict type="open">
+            <p>The collection is open for research.</p>
+         </accessrestrict>
+         <userestrict>
+            <p>Single photocopies may be made for research purposes. No further photoduplication of
+               copies of material in the collection can be made when Princeton University Library
+               does not own the original. Inquiries regarding publishing material from the
+               collection should be directed to RBSC Public Services staff through the <extref xmlns:xlink="http://www.w3.org/1999/xlink"
+                       xlink:href="https://library.princeton.edu/special-collections/ask-us"
+                       xlink:type="simple">Ask Us! form</extref>.
+               The library has no information on the status of literary rights in the collection and
+               researchers are responsible for determining any questions of copyright.</p>
+         </userestrict>
+      </descgrp>
+      <descgrp id="dacs5">
+         <custodhist>
+            <p>Originally, this collection formed part of Princeton's Archives of American Literature.</p>
+         </custodhist>
+         <appraisal>
+            <p>No appraisal information is available.</p>
+         </appraisal>
+      </descgrp>
+      <descgrp id="dacs6">
+         <altformavail>
+            <p>Publications: We Saw It Happen (N.Y.: Simon &amp; Shuster, 1938), edited by Hanson W. Baldwin and Shepard Stone.</p>
+         </altformavail>
+      </descgrp>
+      <descgrp id="dacs7">
+         <prefercite>
+            <p>Identification of specific item; Date (if known); "We Saw It Happen" Collection, Box and Folder Number; Special Collections, Princeton University Library.</p>
+         </prefercite>
+         <processinfo type="processing">
+            <p>Folder inventory prepared by Alex Rodgers '2014 in 2011.</p>
+         </processinfo>
+      </descgrp>
+      
+
+
+      <controlaccess>
+         
+         <corpname source="viaf" authfilenumber="http://viaf.org/viaf/192149064">New York Times.</corpname>
+         <subject source="lcsh">Reporters and reporting -- United States -- 20th century.</subject>
+         <genreform source="aat">Foreign correspondents -- United States -- 20th century.</genreform>
+         <genreform source="aat">Journalists -- United States -- 20th century.</genreform>
+         <subject rules="local"
+                  source="local"
+                  encodinganalog="690"
+                  authfilenumber="t34">Journalism</subject>
+      </controlaccess>
+      <dsc type="combined">
+         <c id="C0007_c001" level="file">
+            <did>
+               <unittitle>Introduction - By Baldwin, Hanson W. and Shepard Stone (with Corrections)</unittitle>
+               <unitdate normal="1938/1938">1938</unitdate>
+               
+               <container type="folder" parent="C0007_i1">1</container>
+               <physdesc>
+                  <extent type="computed" unit="folder">1 folder</extent>
+               </physdesc>
+            </did>
+         </c>
+         <c id="C0007_c002" level="file">
+            <did>
+               <unittitle>"Chapter 1: Washington, D. C." - Krock, Arthur; Some Corrections</unittitle>
+               <unitdate>undated</unitdate>
+               
+               <container type="folder" parent="C0007_i1">2</container>
+               <physdesc>
+                  <extent type="computed" unit="folder">1 folder</extent>
+               </physdesc>
+            </did>
+         </c>
+         <c id="C0007_c003" level="file">
+            <did>
+               <unittitle>"Chapter 1: Washington, D. C." - Krock, Arthur; Final Version and Printers Corrections</unittitle>
+               <unitdate>undated</unitdate>
+               
+               <container type="folder" parent="C0007_i1">3</container>
+               <physdesc>
+                  <extent type="computed" unit="folder">1 folder</extent>
+               </physdesc>
+            </did>
+         </c>
+         <c id="C0007_c004" level="file">
+            <did>
+               <unittitle>"Chapter 2: Vienna Waltz" - Gedye, G. E. R.; Final Version and Notes to Printer, 2 Pages Unpublished</unittitle>
+               <unitdate>undated</unitdate>
+               
+               <container type="folder" parent="C0007_i1">4</container>
+               <physdesc>
+                  <extent type="computed" unit="folder">1 folder</extent>
+               </physdesc>
+            </did>
+         </c>
+         <c id="C0007_c005" level="file">
+            <did>
+               <unittitle>"Chapter 3: Land of the Free" - Daniell, F. Raymond; Final Version and Corrections</unittitle>
+               <unitdate>undated</unitdate>
+               
+               <container type="folder" parent="C0007_i1">5</container>
+               <physdesc>
+                  <extent type="computed" unit="folder">1 folder</extent>
+               </physdesc>
+            </did>
+         </c>
+         <c id="C0007_c006" level="file">
+            <did>
+               <unittitle>"Chapter 4: Graustark" - Nugent, Frank and D. Churchill; Carbon with Many Corrections</unittitle>
+               <unitdate>undated</unitdate>
+               
+               <container type="folder" parent="C0007_i1">6</container>
+               <physdesc>
+                  <extent type="computed" unit="folder">1 folder</extent>
+               </physdesc>
+            </did>
+         </c>
+         <c id="C0007_c007" level="file">
+            <did>
+               <unittitle>"Chapter 4: Graustark" - Nugent, Frank and D. Churchill; Final Version and Corrections</unittitle>
+               <unitdate>undated</unitdate>
+               
+               <container type="folder" parent="C0007_i1">7</container>
+               <physdesc>
+                  <extent type="computed" unit="folder">1 folder</extent>
+               </physdesc>
+            </did>
+         </c>
+         <c id="C0007_c008" level="file">
+            <did>
+               <unittitle>"Chapter 5: The Decline of the Money Barons" - Bell, Elliott V.; Original Manuscript with Corrections</unittitle>
+               <unitdate>undated</unitdate>
+               
+               <container type="folder" parent="C0007_i1">8</container>
+               <physdesc>
+                  <extent type="computed" unit="folder">1 folder</extent>
+               </physdesc>
+            </did>
+         </c>
+         <c id="C0007_c009" level="file">
+            <did>
+               <unittitle>"Chapter 5: The Decline of the Money Barons" - Bell, Elliott V.; Final Version and Proffreader's Corrections</unittitle>
+               <unitdate>undated</unitdate>
+               
+               <container type="folder" parent="C0007_i1">9</container>
+               <physdesc>
+                  <extent type="computed" unit="folder">1 folder</extent>
+               </physdesc>
+            </did>
+         </c>
+         <c id="C0007_c010" level="file">
+            <did>
+               <unittitle>"Chapter 6: Britain - A Story of Old Age" - Kuhn, Ferdinand; Corrections</unittitle>
+               <unitdate normal="1937/1937">1937</unitdate>
+               
+               <container type="folder" parent="C0007_i1">10</container>
+               <physdesc>
+                  <extent type="computed" unit="folder">1 folder</extent>
+               </physdesc>
+            </did>
+         </c>
+         <c id="C0007_c011" level="file">
+            <did>
+               <unittitle>"Chapter 6: Britain - A Story of Old Age" - Kuhn, Ferdinand; Final Version and Proofreader's Corrections</unittitle>
+               <unitdate>undated</unitdate>
+               
+               <container type="folder" parent="C0007_i1">11</container>
+               <physdesc>
+                  <extent type="computed" unit="folder">1 folder</extent>
+               </physdesc>
+            </did>
+         </c>
+         <c id="C0007_c012" level="file">
+            <did>
+               <unittitle>"Chapter 7: Hot Lands and Cold" - Owen, Russell; with Corrections</unittitle>
+               <unitdate>undated</unitdate>
+               
+               <container type="folder" parent="C0007_i1">12</container>
+               <physdesc>
+                  <extent type="computed" unit="folder">1 folder</extent>
+               </physdesc>
+            </did>
+         </c>
+         <c id="C0007_c013" level="file">
+            <did>
+               <unittitle>"Chapter 7: Hot Lands and Cold" - Owen, Russell; Final Version and Some Corrections</unittitle>
+               <unitdate>undated</unitdate>
+               
+               <container type="folder" parent="C0007_i1">13</container>
+               <physdesc>
+                  <extent type="computed" unit="folder">1 folder</extent>
+               </physdesc>
+            </did>
+         </c>
+         <c id="C0007_c014" level="file">
+            <did>
+               <unittitle>"Chapter 8: Sports of the Times" - Kieran, John; with Corrections</unittitle>
+               <unitdate>undated</unitdate>
+               
+               <container type="folder" parent="C0007_i1">14</container>
+               <physdesc>
+                  <extent type="computed" unit="folder">1 folder</extent>
+               </physdesc>
+            </did>
+         </c>
+         <c id="C0007_c015" level="file">
+            <did>
+               <unittitle>"Chapter 8: Sports of the Times" - Kieran, John; Final Version and Proofreader's Corrections</unittitle>
+               <unitdate>undated</unitdate>
+               
+               <container type="folder" parent="C0007_i1">15</container>
+               <physdesc>
+                  <extent type="computed" unit="folder">1 folder</extent>
+               </physdesc>
+            </did>
+         </c>
+         <c id="C0007_c016" level="file">
+            <did>
+               <unittitle>"Chapter 9: Manhattan Machine" - Conklin, William R.; Original Manuscript and Corrections</unittitle>
+               <unitdate>undated</unitdate>
+               
+               <container type="folder" parent="C0007_i2">1</container>
+               <physdesc>
+                  <extent type="computed" unit="folder">1 folder</extent>
+               </physdesc>
+            </did>
+         </c>
+         <c id="C0007_c017" level="file">
+            <did>
+               <unittitle>"Chapter 9: Manhattan Machine" - Conklin, William R.; Final Version and Proofreader's Corrections</unittitle>
+               <unitdate>undated</unitdate>
+               
+               <container type="folder" parent="C0007_i2">2</container>
+               <physdesc>
+                  <extent type="computed" unit="folder">1 folder</extent>
+               </physdesc>
+            </did>
+         </c>
+         <c id="C0007_c018" level="file">
+            <did>
+               <unittitle>"Chapter 10: Land of the Rising Sun" - Byas, Hugh; with Corrections</unittitle>
+               <unitdate>undated</unitdate>
+               
+               <container type="folder" parent="C0007_i2">3</container>
+               <physdesc>
+                  <extent type="computed" unit="folder">1 folder</extent>
+               </physdesc>
+            </did>
+         </c>
+         <c id="C0007_c019" level="file">
+            <did>
+               <unittitle>"Chapter 10: Land of the Rising Sun" - Byas, Hugh; Final Version and Proofreader's Corrections</unittitle>
+               <unitdate>undated</unitdate>
+               
+               <container type="folder" parent="C0007_i2">4</container>
+               <physdesc>
+                  <extent type="computed" unit="folder">1 folder</extent>
+               </physdesc>
+            </did>
+         </c>
+         <c id="C0007_c020" level="file">
+            <did>
+               <unittitle>"Chapter 11: Off Stage and On" - Atkinson, Brooks; Original Title: "Dramatic Buccaneering" and Corrections</unittitle>
+               <unitdate>undated</unitdate>
+               
+               <container type="folder" parent="C0007_i2">5</container>
+               <physdesc>
+                  <extent type="computed" unit="folder">1 folder</extent>
+               </physdesc>
+            </did>
+         </c>
+         <c id="C0007_c021" level="file">
+            <did>
+               <unittitle>"Chapter 11: Off Stage and On" - Atkinson, Brooks; Final Version and Proofreader's Corrections</unittitle>
+               <unitdate>undated</unitdate>
+               
+               <container type="folder" parent="C0007_i2">6</container>
+               <physdesc>
+                  <extent type="computed" unit="folder">1 folder</extent>
+               </physdesc>
+            </did>
+         </c>
+         <c id="C0007_c022" level="file">
+            <did>
+               <unittitle>"Chapter 12: A Case that Rocked the World" - Stark, Louis; with Corrections</unittitle>
+               <unitdate>undated</unitdate>
+               
+               <container type="folder" parent="C0007_i2">7</container>
+               <physdesc>
+                  <extent type="computed" unit="folder">1 folder</extent>
+               </physdesc>
+            </did>
+         </c>
+         <c id="C0007_c023" level="file">
+            <did>
+               <unittitle>"Chapter 12: A Case that Rocked the World" - Stark, Louis; Final Version and Proofreader's Corrections</unittitle>
+               <unitdate>undated</unitdate>
+               
+               <container type="folder" parent="C0007_i2">8</container>
+               <physdesc>
+                  <extent type="computed" unit="folder">1 folder</extent>
+               </physdesc>
+            </did>
+         </c>
+      </dsc>
+      <dsc type="othertype" othertype="physicalholdings">
+         <c level="otherlevel" otherlevel="physicalitem" id="C0007_i1">
+            <did>
+               <container type="box">1</container>
+               <unitid type="barcode">32101040679100</unitid>
+               <physloc type="code">mss</physloc>
+               
+            </did>
+         </c>
+         <c level="otherlevel" otherlevel="physicalitem" id="C0007_i2">
+            <did>
+               <container type="box">2</container>
+               <unitid type="barcode">32101040679118</unitid>
+               <physloc type="code">mss</physloc>
+               
+            </did>
+         </c>
+      </dsc>
+   </archdesc>
+</ead>

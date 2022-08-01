@@ -1,0 +1,2365 @@
+@prefix ns0: <https://www.ica.org/standards/RiC/ontology#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix dc11: <http://purl.org/dc/elements/1.1/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<http://data.archives-nationales.culture.gouv.fr/record/>
+  a <https://www.ica.org/standards/RiC/ontology#Record> ;
+  ns0:hasDocumentaryFormType <https://www.ica.org/standards/RiC/vocabularies/documentaryFormTypes#FindingAid> ;
+  ns0:regulatedBy <http://data.archives-nationales.culture.gouv.fr/rule/rl005>, <http://data.archives-nationales.culture.gouv.fr/rule/rl004>, <http://data.archives-nationales.culture.gouv.fr/rule/rl006>, <http://data.archives-nationales.culture.gouv.fr/rule/rl007>, <http://data.archives-nationales.culture.gouv.fr/rule/rl009> ;
+  ns0:title "Darlington Hoopes papers, 1910-1977 01883"@en ;
+  rdfs:label "Darlington Hoopes papers, 1910-1977 01883"@en ;
+  ns0:createdBy <http://data.archives-nationales.culture.gouv.fr/agent/005061> ;
+  ns0:publishedBy <http://data.archives-nationales.culture.gouv.fr/agent/005061> ;
+  ns0:history """
+         <html:div xmlns:html="http://www.w3.org/1999/xhtml">
+            <html:h4>auteur(s)</html:h4>
+            <html:p namespacelang="en">Processed by G. Johns 2015.</html:p>
+         </html:div>
+"""^^rdf:XMLLiteral ;
+  ns0:describes <http://data.archives-nationales.culture.gouv.fr/recordResource/-top> ;
+  ns0:hasInstantiation <http://data.archives-nationales.culture.gouv.fr/instantiation/-i1> .
+
+<http://data.archives-nationales.culture.gouv.fr/instantiation/-i1>
+  a ns0:Instantiation ;
+  ns0:instantiates <http://data.archives-nationales.culture.gouv.fr/record/> ;
+  ns0:title "Darlington Hoopes papers, 1910-1977 01883"@en ;
+  rdfs:label "Darlington Hoopes papers, 1910-1977 01883"@en ;
+  ns0:history "This finding aid was produced using ArchivesSpace on 2022-05-19 10:51:53 -0400."@en ;
+  ns0:regulatedBy <http://data.archives-nationales.culture.gouv.fr/rule/rl010> ;
+  dc11:format "text/xml"@en ;
+  ns0:identifier "01883" ;
+  ns0:heldBy <http://data.archives-nationales.culture.gouv.fr/agent/005061> ;
+  rdfs:seeAlso <https://www.siv.archives-nationales.culture.gouv.fr/siv/IR/01883> .
+
+<http://data.archives-nationales.culture.gouv.fr/recordResource/-top>
+  a ns0:RecordResource, ns0:RecordSet ;
+  ns0:describedBy <http://data.archives-nationales.culture.gouv.fr/record/> ;
+  ns0:hasRecordSetType <https://www.ica.org/standards/RiC/vocabularies/recordSetTypes#Collection> ;
+  ns0:heldBy [
+    a ns0:Agent ;
+    rdfs:label "Eberly Family Special Collections Library"@en ;
+    ns0:hasAgentName [
+      a ns0:AgentName ;
+      rdfs:label "Eberly Family Special Collections Library"@en ;
+      ns0:textualValue "Eberly Family Special Collections Library"@en
+    ]
+  ] ;
+  ns0:title "Darlington Hoopes papers"@en ;
+  rdfs:label "Darlington Hoopes papers"@en ;
+  ns0:beginningDate "1910"^^xsd:gYear ;
+  ns0:endDate "1977"^^xsd:gYear ;
+  ns0:date "1910-1977"@en ;
+  ns0:hasLanguage <http://data.archives-nationales.culture.gouv.fr/language/FRAN_RI_100-name6> ;
+  ns0:conditionsOfUse """
+         <html:p xmlns:html="http://www.w3.org/1999/xhtml" namespacelang="en">Copyright is retained by the creators of items in these papers, or their descendants, as stipulated by United States copyright law.</html:p>
+"""^^rdf:XMLLiteral ;
+  ns0:scopeAndContent """
+         <html:p xmlns:html="http://www.w3.org/1999/xhtml" namespacelang="en">The Darlington Hoopes papers consist of materials that document Hoopes activism, his political career, and his work as a Socialist Party official for the Socialist Party (U.S.) (1917-1977), the Socialist Party of Pennsylvania (1920-1952), and the Local Berks Country Socialist Party of Pennsylvania (1910-1975). Political materials include legislative bills introduced as Hoopes as a member of the Pennsylvania House of Representatives; campaign records for his vice-presidential (1944) and presidential campaigns (1952, 1956); correspondence and minutes of the National Executive Committee and the Young People's Socialist League; Socialist newsletters; and press clippings. Some potential areas of interest include correspondence and administrative records concering civil rights, equality before the law, fair housing rights, and discrimination in housing for Reading, Pennsylvania; as well as correspondence and photographs from a German prisoner of war held in the Soviet Union during World War II.</html:p>
+"""^^rdf:XMLLiteral ;
+  ns0:conditionsOfAccess """
+         <html:p xmlns:html="http://www.w3.org/1999/xhtml" namespacelang="en">Collection is open for research.</html:p>
+"""^^rdf:XMLLiteral ;
+  ns0:structure """
+         <html:div xmlns:html="http://www.w3.org/1999/xhtml" namespacelang="en">
+            <html:h5>Arrangement</html:h5>
+            <html:p>This collection is arranged to the following series: Socialist Party (U.S.); Socialist Party of Pennsylvania; Local Berks County, Socialist Party of Pennsylvania (Reading, Pa.); Eastern Cooperative League; Pennsylvania Equal Rights Council; Reading-Berks (Pa.) Human Relations Council; microfilm.</html:p>
+         </html:div>
+"""^^rdf:XMLLiteral ;
+  ns0:hasSubject <http://data.archives-nationales.culture.gouv.fr/thing/Library of Congress Subject Headings-http://id.loc.gov/authorities/subjects/sh2010113892> ;
+  ns0:history """
+         <html:div xmlns:html="http://www.w3.org/1999/xhtml" namespacelang="en">
+            <html:h4>Informations sur le traitement</html:h4>
+            <html:h5>Processing Information</html:h5>
+            <html:p>Processed by G. Johns, 2015</html:p>
+         </html:div>
+"""^^rdf:XMLLiteral ;
+  ns0:hasInstantiation <http://data.archives-nationales.culture.gouv.fr/instantiation/-top-i1> ;
+  ns0:includes <http://data.archives-nationales.culture.gouv.fr/recordResource/-aspace_3309973b88971857a1035b2865848c32>, <http://data.archives-nationales.culture.gouv.fr/recordResource/-aspace_b141608d716f606b7763860ef7801c67>, <http://data.archives-nationales.culture.gouv.fr/recordResource/-aspace_594e587c25103aef6e5d6e86ff1c6bd5>, <http://data.archives-nationales.culture.gouv.fr/recordResource/-aspace_0b9166fe09737c91f26cecd2e3938029>, <http://data.archives-nationales.culture.gouv.fr/recordResource/-aspace_ed7d06ac4918135be32cb209f16c4734>, <http://data.archives-nationales.culture.gouv.fr/recordResource/-aspace_efed5d36fc4fb807ffc241cf74aff96f>, <http://data.archives-nationales.culture.gouv.fr/recordResource/-aspace_a1bff211f2f9a39549ed33b06c02ec5e> .
+
+<http://data.archives-nationales.culture.gouv.fr/instantiation/-top-i1>
+  a ns0:Instantiation ;
+  ns0:instantiates <http://data.archives-nationales.culture.gouv.fr/recordResource/-top> ;
+  ns0:heldBy [
+    a ns0:Agent ;
+    rdfs:label "Eberly Family Special Collections Library"@en ;
+    ns0:hasAgentName [
+      a ns0:AgentName ;
+      rdfs:label "Eberly Family Special Collections Library"@en ;
+      ns0:textualValue "Eberly Family Special Collections Library"@en
+    ]
+  ] ;
+  ns0:title "Darlington Hoopes papers"@en ;
+  rdfs:label "Darlington Hoopes papers"@en ;
+  ns0:identifier "01883" ;
+  ns0:instantiationExtent """
+               <html:p xmlns:html="http://www.w3.org/1999/xhtml" namespacelang="en">15 Linear Feet</html:p>
+"""^^rdf:XMLLiteral ;
+  ns0:beginningDate "1910"^^xsd:gYear ;
+  ns0:endDate "1977"^^xsd:gYear ;
+  ns0:date "1910-1977"@en ;
+  ns0:hasLocation <http://data.archives-nationales.culture.gouv.fr/> ;
+  ns0:conditionsOfUse """
+               <html:p xmlns:html="http://www.w3.org/1999/xhtml" namespacelang="en">Copyright is retained by the creators of items in these papers, or their descendants, as stipulated by United States copyright law.</html:p>
+"""^^rdf:XMLLiteral ;
+  ns0:conditionsOfAccess """
+               <html:p xmlns:html="http://www.w3.org/1999/xhtml" namespacelang="en">Collection is open for research.</html:p>
+"""^^rdf:XMLLiteral ;
+  ns0:structure """
+               <html:div xmlns:html="http://www.w3.org/1999/xhtml" namespacelang="en">
+                  <html:h5>Arrangement</html:h5>
+                  <html:p>This collection is arranged to the following series: Socialist Party (U.S.); Socialist Party of Pennsylvania; Local Berks County, Socialist Party of Pennsylvania (Reading, Pa.); Eastern Cooperative League; Pennsylvania Equal Rights Council; Reading-Berks (Pa.) Human Relations Council; microfilm.</html:p>
+               </html:div>
+"""^^rdf:XMLLiteral ;
+  ns0:history """
+               <html:div xmlns:html="http://www.w3.org/1999/xhtml" namespacelang="en">
+                  <html:h4>Informations sur le traitement</html:h4>
+                  <html:h5>Processing Information</html:h5>
+                  <html:p>Processed by G. Johns, 2015</html:p>
+               </html:div>
+"""^^rdf:XMLLiteral ;
+  rdfs:seeAlso <https://www.siv.archives-nationales.culture.gouv.fr/siv/UD/01883/top> .
+
+<http://data.archives-nationales.culture.gouv.fr/recordResource/-aspace_3309973b88971857a1035b2865848c32>
+  a ns0:RecordResource, ns0:RecordSet ;
+  ns0:includedIn <http://data.archives-nationales.culture.gouv.fr/recordResource/-top> ;
+  ns0:hasRecordSetType <https://www.ica.org/standards/RiC/vocabularies/recordSetTypes#Series> ;
+  ns0:title "Socialist Party (U.S.)"@en ;
+  rdfs:label "Socialist Party (U.S.)"@en ;
+  ns0:beginningDate "1917"^^xsd:gYear ;
+  ns0:endDate "1977"^^xsd:gYear ;
+  ns0:date "1917-1977"@en ;
+  ns0:hasInstantiation <http://data.archives-nationales.culture.gouv.fr/instantiation/-aspace_3309973b88971857a1035b2865848c32-i1> ;
+  ns0:includes <http://data.archives-nationales.culture.gouv.fr/recordResource/-aspace_df65198977f7110262d88ac732d45e36>, <http://data.archives-nationales.culture.gouv.fr/recordResource/-aspace_f854643311605e7f8e71b17ca816f7b6>, <http://data.archives-nationales.culture.gouv.fr/recordResource/-aspace_9476b31c3464d6dec486fdae150cacec>, <http://data.archives-nationales.culture.gouv.fr/recordResource/-aspace_2c3a087a65653a787fe54929b477d951>, <http://data.archives-nationales.culture.gouv.fr/recordResource/-aspace_4d68fbb30822bb75e071fea610715f5b>, <http://data.archives-nationales.culture.gouv.fr/recordResource/-aspace_dbb73e2fe46399d0858c1d36f3425c4d>, <http://data.archives-nationales.culture.gouv.fr/recordResource/-aspace_4ccb9af0f977f03204d0bcd845a05315>, <http://data.archives-nationales.culture.gouv.fr/recordResource/-aspace_44925be5cb5c2d467f4df25cbf2ef6eb>, <http://data.archives-nationales.culture.gouv.fr/recordResource/-aspace_2b0ba78f2ba07ff71be11a9e2399afe1>, <http://data.archives-nationales.culture.gouv.fr/recordResource/-aspace_cf3e969778e15f8401ba40546456c2f8>, <http://data.archives-nationales.culture.gouv.fr/recordResource/-aspace_ae50228547a6450578d66ec99f81981c>, <http://data.archives-nationales.culture.gouv.fr/recordResource/-aspace_d8ab8d208ad2eb89bc3fdc9decd0de69>, <http://data.archives-nationales.culture.gouv.fr/recordResource/-aspace_cd8651b309b50eeaa4bbdb66fd20b2af>, <http://data.archives-nationales.culture.gouv.fr/recordResource/-aspace_781840feabbc7a71965cb690d3b27478>, <http://data.archives-nationales.culture.gouv.fr/recordResource/-aspace_ebf4d77658b4c43a79a2f845ab5f136b>, <http://data.archives-nationales.culture.gouv.fr/recordResource/-aspace_04063142a023ebd87d735ee1cb78c249>, <http://data.archives-nationales.culture.gouv.fr/recordResource/-aspace_b26ca4a5761f295903eaba6159ea6386>, <http://data.archives-nationales.culture.gouv.fr/recordResource/-aspace_7bbb661bd1f7f3c06df46e56afb85fb6>, <http://data.archives-nationales.culture.gouv.fr/recordResource/-aspace_5b8901f64f415b096c0a47c1bc3a46d1>, <http://data.archives-nationales.culture.gouv.fr/recordResource/-aspace_2a51436dabff21dd8b8d31899e87c0ac>, <http://data.archives-nationales.culture.gouv.fr/recordResource/-aspace_97d4906b8378c77a66dd6e4ea6d17f9e>, <http://data.archives-nationales.culture.gouv.fr/recordResource/-aspace_2e378f6ff25b9ab13a23b6228bf37846>, <http://data.archives-nationales.culture.gouv.fr/recordResource/-aspace_63c17dbddaa8f3e66425add34d1fed75>, <http://data.archives-nationales.culture.gouv.fr/recordResource/-aspace_b1ebb1b69e87bb62795ff0811dd75112>, <http://data.archives-nationales.culture.gouv.fr/recordResource/-aspace_eeec59c2a9bf74742450e69779b90da3>, <http://data.archives-nationales.culture.gouv.fr/recordResource/-aspace_0ff18fae0b3c6569e676ef34d962af19>, <http://data.archives-nationales.culture.gouv.fr/recordResource/-aspace_bbe7c13312aca93e911a37b1da16e1f5>, <http://data.archives-nationales.culture.gouv.fr/recordResource/-aspace_e4f9135acc2b92bb48ca89dca8b3c412>, <http://data.archives-nationales.culture.gouv.fr/recordResource/-aspace_4fe5951358c52aa4eb63151b98e085bc>, <http://data.archives-nationales.culture.gouv.fr/recordResource/-aspace_245faac6c0b6a2c91c8ed625bc5b4b37>, <http://data.archives-nationales.culture.gouv.fr/recordResource/-aspace_d089f795b6a856367f00b3cc836a1e04>, <http://data.archives-nationales.culture.gouv.fr/recordResource/-aspace_9de1e53304653f34d32a3650d2d7caf5>, <http://data.archives-nationales.culture.gouv.fr/recordResource/-aspace_4ef73ef62fbaf4c0cce1c9518333bcbc>, <http://data.archives-nationales.culture.gouv.fr/recordResource/-aspace_71e04b99d94000f9a0e3121908f16eb7>, <http://data.archives-nationales.culture.gouv.fr/recordResource/-aspace_d7eb4339333fbc2fb37c937ae7ce2890>, <http://data.archives-nationales.culture.gouv.fr/recordResource/-aspace_fe8e4871338b1d42d7813c15e1356bf9>, <http://data.archives-nationales.culture.gouv.fr/recordResource/-aspace_70ef998c028440dacbe8d411ca0e23f5>, <http://data.archives-nationales.culture.gouv.fr/recordResource/-aspace_6c644fc0c5ac68e54d8ce05955933dc2>, <http://data.archives-nationales.culture.gouv.fr/recordResource/-aspace_8e844c5c4140004d3155a958c3674360>, <http://data.archives-nationales.culture.gouv.fr/recordResource/-aspace_c934d268a3d0e9eb36d0e9e9767d5a6e>, <http://data.archives-nationales.culture.gouv.fr/recordResource/-aspace_cea41ecc7cab24d01177cb762e3d04f2>, <http://data.archives-nationales.culture.gouv.fr/recordResource/-aspace_833cd38b6c2ecdd198b23aa73165407a>, <http://data.archives-nationales.culture.gouv.fr/recordResource/-aspace_c47a10bd8dad5dffaf1cfa2854283308>, <http://data.archives-nationales.culture.gouv.fr/recordResource/-aspace_7bbce66bd60b6c2326ee35abd7912a6d>, <http://data.archives-nationales.culture.gouv.fr/recordResource/-aspace_2ed07cbb97aa67c0a1576e29bf3fc5eb>, <http://data.archives-nationales.culture.gouv.fr/recordResource/-aspace_7269c56d9410f01c78cb71054baf7b2b>, <http://data.archives-nationales.culture.gouv.fr/recordResource/-aspace_4eb98b6d9e189b4c52651d152745f731>, <http://data.archives-nationales.culture.gouv.fr/recordResource/-aspace_7d524dc4862bbf3ead3fb8e623df9bb6>, <http://data.archives-nationales.culture.gouv.fr/recordResource/-aspace_3e63839674ba3f8f525cbd4f64d4453a>, <http://data.archives-nationales.culture.gouv.fr/recordResource/-aspace_8e53c984d27cd511f69d7e2a803b3022>, <http://data.archives-nationales.culture.gouv.fr/recordResource/-aspace_07b70cc4524b682169696302723e3459>, <http://data.archives-nationales.culture.gouv.fr/recordResource/-aspace_c25195940a1d02c6166f9828ce92ac1f>, <http://data.archives-nationales.culture.gouv.fr/recordResource/-aspace_da6a1f37247c4d154c899330c013c5ab>, <http://data.archives-nationales.culture.gouv.fr/recordResource/-aspace_a429be7170f979624c5b1be00fe6bfde>, <http://data.archives-nationales.culture.gouv.fr/recordResource/-aspace_768fcb97a80cc2324a018a45d9e83397>, <http://data.archives-nationales.culture.gouv.fr/recordResource/-aspace_c761b54e89651a92582e77ba7c53a69f>, <http://data.archives-nationales.culture.gouv.fr/recordResource/-aspace_6892cf5577fdae6f55847b6026482645> .
+
+<http://data.archives-nationales.culture.gouv.fr/instantiation/-aspace_3309973b88971857a1035b2865848c32-i1>
+  a ns0:Instantiation ;
+  ns0:instantiates <http://data.archives-nationales.culture.gouv.fr/recordResource/-aspace_3309973b88971857a1035b2865848c32> ;
+  ns0:title "Socialist Party (U.S.)"@en ;
+  rdfs:label "Socialist Party (U.S.)"@en ;
+  ns0:identifier "1" ;
+  ns0:beginningDate "1917"^^xsd:gYear ;
+  ns0:endDate "1977"^^xsd:gYear ;
+  ns0:date "1917-1977"@en ;
+  rdfs:seeAlso <https://www.siv.archives-nationales.culture.gouv.fr/siv/UD/01883/aspace_3309973b88971857a1035b2865848c32> .
+
+<http://data.archives-nationales.culture.gouv.fr/recordResource/-aspace_df65198977f7110262d88ac732d45e36>
+  a ns0:RecordResource, ns0:RecordSet ;
+  ns0:includedIn <http://data.archives-nationales.culture.gouv.fr/recordResource/-aspace_3309973b88971857a1035b2865848c32> ;
+  ns0:hasRecordSetType <https://www.ica.org/standards/RiC/vocabularies/recordSetTypes#File> ;
+  ns0:title "Correspondence; Socialist newsletters, including Hammer & Tongs; political campaign bulletins"@en ;
+  rdfs:label "Correspondence; Socialist newsletters, including Hammer & Tongs; political campaign bulletins"@en ;
+  ns0:beginningDate "1974"^^xsd:gYear ;
+  ns0:endDate "1976"^^xsd:gYear ;
+  ns0:date "1974-1976"@en ;
+  ns0:hasInstantiation <http://data.archives-nationales.culture.gouv.fr/instantiation/-aspace_df65198977f7110262d88ac732d45e36-i1> .
+
+<http://data.archives-nationales.culture.gouv.fr/instantiation/-aspace_df65198977f7110262d88ac732d45e36-i1>
+  a ns0:Instantiation ;
+  ns0:instantiates <http://data.archives-nationales.culture.gouv.fr/recordResource/-aspace_df65198977f7110262d88ac732d45e36> ;
+  ns0:title "Correspondence; Socialist newsletters, including Hammer & Tongs; political campaign bulletins"@en ;
+  rdfs:label "Correspondence; Socialist newsletters, including Hammer & Tongs; political campaign bulletins"@en ;
+  ns0:beginningDate "1974"^^xsd:gYear ;
+  ns0:endDate "1976"^^xsd:gYear ;
+  ns0:date "1974-1976"@en ;
+  rdfs:seeAlso <https://www.siv.archives-nationales.culture.gouv.fr/siv/UD/01883/aspace_df65198977f7110262d88ac732d45e36> .
+
+<http://data.archives-nationales.culture.gouv.fr/recordResource/-aspace_f854643311605e7f8e71b17ca816f7b6>
+  a ns0:RecordResource, ns0:RecordSet ;
+  ns0:includedIn <http://data.archives-nationales.culture.gouv.fr/recordResource/-aspace_3309973b88971857a1035b2865848c32> ;
+  ns0:hasRecordSetType <https://www.ica.org/standards/RiC/vocabularies/recordSetTypes#File> ;
+  ns0:title "Regional Socialist newsletters, including: California socialist; Colorado call; Florida socialist; North West call; Socialist spotlight; and Tennessee Valley Socialist"@en ;
+  rdfs:label "Regional Socialist newsletters, including: California socialist; Colorado call; Florida socialist; North West call; Socialist spotlight; and Tennessee Valley Socialist"@en ;
+  ns0:beginningDate "1974"^^xsd:gYear ;
+  ns0:endDate "1977"^^xsd:gYear ;
+  ns0:date "1974-1977"@en ;
+  ns0:hasInstantiation <http://data.archives-nationales.culture.gouv.fr/instantiation/-aspace_f854643311605e7f8e71b17ca816f7b6-i1> .
+
+<http://data.archives-nationales.culture.gouv.fr/instantiation/-aspace_f854643311605e7f8e71b17ca816f7b6-i1>
+  a ns0:Instantiation ;
+  ns0:instantiates <http://data.archives-nationales.culture.gouv.fr/recordResource/-aspace_f854643311605e7f8e71b17ca816f7b6> ;
+  ns0:title "Regional Socialist newsletters, including: California socialist; Colorado call; Florida socialist; North West call; Socialist spotlight; and Tennessee Valley Socialist"@en ;
+  rdfs:label "Regional Socialist newsletters, including: California socialist; Colorado call; Florida socialist; North West call; Socialist spotlight; and Tennessee Valley Socialist"@en ;
+  ns0:beginningDate "1974"^^xsd:gYear ;
+  ns0:endDate "1977"^^xsd:gYear ;
+  ns0:date "1974-1977"@en ;
+  rdfs:seeAlso <https://www.siv.archives-nationales.culture.gouv.fr/siv/UD/01883/aspace_f854643311605e7f8e71b17ca816f7b6> .
+
+<http://data.archives-nationales.culture.gouv.fr/recordResource/-aspace_9476b31c3464d6dec486fdae150cacec>
+  a ns0:RecordResource, ns0:RecordSet ;
+  ns0:includedIn <http://data.archives-nationales.culture.gouv.fr/recordResource/-aspace_3309973b88971857a1035b2865848c32> ;
+  ns0:hasRecordSetType <https://www.ica.org/standards/RiC/vocabularies/recordSetTypes#File> ;
+  ns0:title "Constitution of the Socialist Party of the United States of America"@en ;
+  rdfs:label "Constitution of the Socialist Party of the United States of America"@en ;
+  ns0:date "1940"^^xsd:gYear, "1940"@en ;
+  ns0:hasInstantiation <http://data.archives-nationales.culture.gouv.fr/instantiation/-aspace_9476b31c3464d6dec486fdae150cacec-i1> .
+
+<http://data.archives-nationales.culture.gouv.fr/instantiation/-aspace_9476b31c3464d6dec486fdae150cacec-i1>
+  a ns0:Instantiation ;
+  ns0:instantiates <http://data.archives-nationales.culture.gouv.fr/recordResource/-aspace_9476b31c3464d6dec486fdae150cacec> ;
+  ns0:title "Constitution of the Socialist Party of the United States of America"@en ;
+  rdfs:label "Constitution of the Socialist Party of the United States of America"@en ;
+  ns0:date "1940"^^xsd:gYear, "1940"@en ;
+  rdfs:seeAlso <https://www.siv.archives-nationales.culture.gouv.fr/siv/UD/01883/aspace_9476b31c3464d6dec486fdae150cacec> .
+
+<http://data.archives-nationales.culture.gouv.fr/recordResource/-aspace_2c3a087a65653a787fe54929b477d951>
+  a ns0:RecordResource, ns0:RecordSet ;
+  ns0:includedIn <http://data.archives-nationales.culture.gouv.fr/recordResource/-aspace_3309973b88971857a1035b2865848c32> ;
+  ns0:hasRecordSetType <https://www.ica.org/standards/RiC/vocabularies/recordSetTypes#File> ;
+  ns0:title "Norman Thomas testimonial luncheon (Commodore Hotel, New York), programs and clippings"@en ;
+  rdfs:label "Norman Thomas testimonial luncheon (Commodore Hotel, New York), programs and clippings"@en ;
+  ns0:date "1950"^^xsd:gYear, "1950"@en ;
+  ns0:hasInstantiation <http://data.archives-nationales.culture.gouv.fr/instantiation/-aspace_2c3a087a65653a787fe54929b477d951-i1> .
+
+<http://data.archives-nationales.culture.gouv.fr/instantiation/-aspace_2c3a087a65653a787fe54929b477d951-i1>
+  a ns0:Instantiation ;
+  ns0:instantiates <http://data.archives-nationales.culture.gouv.fr/recordResource/-aspace_2c3a087a65653a787fe54929b477d951> ;
+  ns0:title "Norman Thomas testimonial luncheon (Commodore Hotel, New York), programs and clippings"@en ;
+  rdfs:label "Norman Thomas testimonial luncheon (Commodore Hotel, New York), programs and clippings"@en ;
+  ns0:date "1950"^^xsd:gYear, "1950"@en ;
+  rdfs:seeAlso <https://www.siv.archives-nationales.culture.gouv.fr/siv/UD/01883/aspace_2c3a087a65653a787fe54929b477d951> .
+
+<http://data.archives-nationales.culture.gouv.fr/recordResource/-aspace_4d68fbb30822bb75e071fea610715f5b>
+  a ns0:RecordResource, ns0:RecordSet ;
+  ns0:includedIn <http://data.archives-nationales.culture.gouv.fr/recordResource/-aspace_3309973b88971857a1035b2865848c32> ;
+  ns0:hasRecordSetType <https://www.ica.org/standards/RiC/vocabularies/recordSetTypes#File> ;
+  ns0:title "Correspondence; minutes (administrative records); Socialist newsletters"@en ;
+  rdfs:label "Correspondence; minutes (administrative records); Socialist newsletters"@en ;
+  ns0:beginningDate "1950"^^xsd:gYear ;
+  ns0:endDate "1954"^^xsd:gYear ;
+  ns0:date "1950-1954"@en ;
+  ns0:hasInstantiation <http://data.archives-nationales.culture.gouv.fr/instantiation/-aspace_4d68fbb30822bb75e071fea610715f5b-i1> .
+
+<http://data.archives-nationales.culture.gouv.fr/instantiation/-aspace_4d68fbb30822bb75e071fea610715f5b-i1>
+  a ns0:Instantiation ;
+  ns0:instantiates <http://data.archives-nationales.culture.gouv.fr/recordResource/-aspace_4d68fbb30822bb75e071fea610715f5b> ;
+  ns0:title "Correspondence; minutes (administrative records); Socialist newsletters"@en ;
+  rdfs:label "Correspondence; minutes (administrative records); Socialist newsletters"@en ;
+  ns0:beginningDate "1950"^^xsd:gYear ;
+  ns0:endDate "1954"^^xsd:gYear ;
+  ns0:date "1950-1954"@en ;
+  rdfs:seeAlso <https://www.siv.archives-nationales.culture.gouv.fr/siv/UD/01883/aspace_4d68fbb30822bb75e071fea610715f5b> .
+
+<http://data.archives-nationales.culture.gouv.fr/recordResource/-aspace_dbb73e2fe46399d0858c1d36f3425c4d>
+  a ns0:RecordResource, ns0:RecordSet ;
+  ns0:includedIn <http://data.archives-nationales.culture.gouv.fr/recordResource/-aspace_3309973b88971857a1035b2865848c32> ;
+  ns0:hasRecordSetType <https://www.ica.org/standards/RiC/vocabularies/recordSetTypes#File> ;
+  ns0:title "Oath at the Elbe, signed by Joseph Polowsky"@en ;
+  rdfs:label "Oath at the Elbe, signed by Joseph Polowsky"@en ;
+  ns0:date "1950"^^xsd:gYear, "1950"@en ;
+  ns0:hasInstantiation <http://data.archives-nationales.culture.gouv.fr/instantiation/-aspace_dbb73e2fe46399d0858c1d36f3425c4d-i1> .
+
+<http://data.archives-nationales.culture.gouv.fr/instantiation/-aspace_dbb73e2fe46399d0858c1d36f3425c4d-i1>
+  a ns0:Instantiation ;
+  ns0:instantiates <http://data.archives-nationales.culture.gouv.fr/recordResource/-aspace_dbb73e2fe46399d0858c1d36f3425c4d> ;
+  ns0:title "Oath at the Elbe, signed by Joseph Polowsky"@en ;
+  rdfs:label "Oath at the Elbe, signed by Joseph Polowsky"@en ;
+  ns0:date "1950"^^xsd:gYear, "1950"@en ;
+  rdfs:seeAlso <https://www.siv.archives-nationales.culture.gouv.fr/siv/UD/01883/aspace_dbb73e2fe46399d0858c1d36f3425c4d> .
+
+<http://data.archives-nationales.culture.gouv.fr/recordResource/-aspace_4ccb9af0f977f03204d0bcd845a05315>
+  a ns0:RecordResource, ns0:RecordSet ;
+  ns0:includedIn <http://data.archives-nationales.culture.gouv.fr/recordResource/-aspace_3309973b88971857a1035b2865848c32> ;
+  ns0:hasRecordSetType <https://www.ica.org/standards/RiC/vocabularies/recordSetTypes#File> ;
+  ns0:title "Sketch of Léon Blum"@en ;
+  rdfs:label "Sketch of Léon Blum"@en ;
+  ns0:date "undated"@en ;
+  ns0:hasInstantiation <http://data.archives-nationales.culture.gouv.fr/instantiation/-aspace_4ccb9af0f977f03204d0bcd845a05315-i1> .
+
+<http://data.archives-nationales.culture.gouv.fr/instantiation/-aspace_4ccb9af0f977f03204d0bcd845a05315-i1>
+  a ns0:Instantiation ;
+  ns0:instantiates <http://data.archives-nationales.culture.gouv.fr/recordResource/-aspace_4ccb9af0f977f03204d0bcd845a05315> ;
+  ns0:title "Sketch of Léon Blum"@en ;
+  rdfs:label "Sketch of Léon Blum"@en ;
+  ns0:date "undated"@en ;
+  rdfs:seeAlso <https://www.siv.archives-nationales.culture.gouv.fr/siv/UD/01883/aspace_4ccb9af0f977f03204d0bcd845a05315> .
+
+<http://data.archives-nationales.culture.gouv.fr/recordResource/-aspace_44925be5cb5c2d467f4df25cbf2ef6eb>
+  a ns0:RecordResource, ns0:RecordSet ;
+  ns0:includedIn <http://data.archives-nationales.culture.gouv.fr/recordResource/-aspace_3309973b88971857a1035b2865848c32> ;
+  ns0:hasRecordSetType <https://www.ica.org/standards/RiC/vocabularies/recordSetTypes#File> ;
+  ns0:title "Correspondence and photographs from a German prisoner of war held in the Soviet Union after the Battle of Stalingrad (Volgograd, Russia)"@en ;
+  rdfs:label "Correspondence and photographs from a German prisoner of war held in the Soviet Union after the Battle of Stalingrad (Volgograd, Russia)"@en ;
+  ns0:beginningDate "1949"^^xsd:gYear ;
+  ns0:endDate "1953"^^xsd:gYear ;
+  ns0:date "1949-1953"@en ;
+  ns0:hasInstantiation <http://data.archives-nationales.culture.gouv.fr/instantiation/-aspace_44925be5cb5c2d467f4df25cbf2ef6eb-i1> .
+
+<http://data.archives-nationales.culture.gouv.fr/instantiation/-aspace_44925be5cb5c2d467f4df25cbf2ef6eb-i1>
+  a ns0:Instantiation ;
+  ns0:instantiates <http://data.archives-nationales.culture.gouv.fr/recordResource/-aspace_44925be5cb5c2d467f4df25cbf2ef6eb> ;
+  ns0:title "Correspondence and photographs from a German prisoner of war held in the Soviet Union after the Battle of Stalingrad (Volgograd, Russia)"@en ;
+  rdfs:label "Correspondence and photographs from a German prisoner of war held in the Soviet Union after the Battle of Stalingrad (Volgograd, Russia)"@en ;
+  ns0:beginningDate "1949"^^xsd:gYear ;
+  ns0:endDate "1953"^^xsd:gYear ;
+  ns0:date "1949-1953"@en ;
+  rdfs:seeAlso <https://www.siv.archives-nationales.culture.gouv.fr/siv/UD/01883/aspace_44925be5cb5c2d467f4df25cbf2ef6eb> .
+
+<http://data.archives-nationales.culture.gouv.fr/recordResource/-aspace_2b0ba78f2ba07ff71be11a9e2399afe1>
+  a ns0:RecordResource, ns0:RecordSet ;
+  ns0:includedIn <http://data.archives-nationales.culture.gouv.fr/recordResource/-aspace_3309973b88971857a1035b2865848c32> ;
+  ns0:hasRecordSetType <https://www.ica.org/standards/RiC/vocabularies/recordSetTypes#File> ;
+  ns0:title "National Chairman's correspondence; Young People's Socialist League minutes (administrative records) and reports"@en ;
+  rdfs:label "National Chairman's correspondence; Young People's Socialist League minutes (administrative records) and reports"@en ;
+  ns0:beginningDate "1947"^^xsd:gYear ;
+  ns0:endDate "1952"^^xsd:gYear ;
+  ns0:date "1947-1952"@en ;
+  ns0:hasInstantiation <http://data.archives-nationales.culture.gouv.fr/instantiation/-aspace_2b0ba78f2ba07ff71be11a9e2399afe1-i1> .
+
+<http://data.archives-nationales.culture.gouv.fr/instantiation/-aspace_2b0ba78f2ba07ff71be11a9e2399afe1-i1>
+  a ns0:Instantiation ;
+  ns0:instantiates <http://data.archives-nationales.culture.gouv.fr/recordResource/-aspace_2b0ba78f2ba07ff71be11a9e2399afe1> ;
+  ns0:title "National Chairman's correspondence; Young People's Socialist League minutes (administrative records) and reports"@en ;
+  rdfs:label "National Chairman's correspondence; Young People's Socialist League minutes (administrative records) and reports"@en ;
+  ns0:beginningDate "1947"^^xsd:gYear ;
+  ns0:endDate "1952"^^xsd:gYear ;
+  ns0:date "1947-1952"@en ;
+  rdfs:seeAlso <https://www.siv.archives-nationales.culture.gouv.fr/siv/UD/01883/aspace_2b0ba78f2ba07ff71be11a9e2399afe1> .
+
+<http://data.archives-nationales.culture.gouv.fr/recordResource/-aspace_cf3e969778e15f8401ba40546456c2f8>
+  a ns0:RecordResource, ns0:RecordSet ;
+  ns0:includedIn <http://data.archives-nationales.culture.gouv.fr/recordResource/-aspace_3309973b88971857a1035b2865848c32> ;
+  ns0:hasRecordSetType <https://www.ica.org/standards/RiC/vocabularies/recordSetTypes#File> ;
+  ns0:title "National Chairman's correspondence; National Executive Committee minutes (administrative records); flier protesting the legal lynching of the Groveland Four (Lake County, Florida)"@en ;
+  rdfs:label "National Chairman's correspondence; National Executive Committee minutes (administrative records); flier protesting the legal lynching of the Groveland Four (Lake County, Florida)"@en ;
+  ns0:beginningDate "1951"^^xsd:gYear ;
+  ns0:endDate "1952"^^xsd:gYear ;
+  ns0:date "1951-1952"@en ;
+  ns0:hasInstantiation <http://data.archives-nationales.culture.gouv.fr/instantiation/-aspace_cf3e969778e15f8401ba40546456c2f8-i1> .
+
+<http://data.archives-nationales.culture.gouv.fr/instantiation/-aspace_cf3e969778e15f8401ba40546456c2f8-i1>
+  a ns0:Instantiation ;
+  ns0:instantiates <http://data.archives-nationales.culture.gouv.fr/recordResource/-aspace_cf3e969778e15f8401ba40546456c2f8> ;
+  ns0:title "National Chairman's correspondence; National Executive Committee minutes (administrative records); flier protesting the legal lynching of the Groveland Four (Lake County, Florida)"@en ;
+  rdfs:label "National Chairman's correspondence; National Executive Committee minutes (administrative records); flier protesting the legal lynching of the Groveland Four (Lake County, Florida)"@en ;
+  ns0:beginningDate "1951"^^xsd:gYear ;
+  ns0:endDate "1952"^^xsd:gYear ;
+  ns0:date "1951-1952"@en ;
+  rdfs:seeAlso <https://www.siv.archives-nationales.culture.gouv.fr/siv/UD/01883/aspace_cf3e969778e15f8401ba40546456c2f8> .
+
+<http://data.archives-nationales.culture.gouv.fr/recordResource/-aspace_ae50228547a6450578d66ec99f81981c>
+  a ns0:RecordResource, ns0:RecordSet ;
+  ns0:includedIn <http://data.archives-nationales.culture.gouv.fr/recordResource/-aspace_3309973b88971857a1035b2865848c32> ;
+  ns0:hasRecordSetType <https://www.ica.org/standards/RiC/vocabularies/recordSetTypes#File> ;
+  ns0:title "Regional Socialist newsletters (Hollywood Red Ink; The Roberts News); California pension plan pamphlets"@en ;
+  rdfs:label "Regional Socialist newsletters (Hollywood Red Ink; The Roberts News); California pension plan pamphlets"@en ;
+  ns0:beginningDate "1937"^^xsd:gYear ;
+  ns0:endDate "1938"^^xsd:gYear ;
+  ns0:date "1937-1938"@en ;
+  ns0:hasInstantiation <http://data.archives-nationales.culture.gouv.fr/instantiation/-aspace_ae50228547a6450578d66ec99f81981c-i1> .
+
+<http://data.archives-nationales.culture.gouv.fr/instantiation/-aspace_ae50228547a6450578d66ec99f81981c-i1>
+  a ns0:Instantiation ;
+  ns0:instantiates <http://data.archives-nationales.culture.gouv.fr/recordResource/-aspace_ae50228547a6450578d66ec99f81981c> ;
+  ns0:title "Regional Socialist newsletters (Hollywood Red Ink; The Roberts News); California pension plan pamphlets"@en ;
+  rdfs:label "Regional Socialist newsletters (Hollywood Red Ink; The Roberts News); California pension plan pamphlets"@en ;
+  ns0:beginningDate "1937"^^xsd:gYear ;
+  ns0:endDate "1938"^^xsd:gYear ;
+  ns0:date "1937-1938"@en ;
+  rdfs:seeAlso <https://www.siv.archives-nationales.culture.gouv.fr/siv/UD/01883/aspace_ae50228547a6450578d66ec99f81981c> .
+
+<http://data.archives-nationales.culture.gouv.fr/recordResource/-aspace_d8ab8d208ad2eb89bc3fdc9decd0de69>
+  a ns0:RecordResource, ns0:RecordSet ;
+  ns0:includedIn <http://data.archives-nationales.culture.gouv.fr/recordResource/-aspace_3309973b88971857a1035b2865848c32> ;
+  ns0:hasRecordSetType <https://www.ica.org/standards/RiC/vocabularies/recordSetTypes#File> ;
+  ns0:title "Conference proceedings; correspondence; minutes (administrative records)"@en ;
+  rdfs:label "Conference proceedings; correspondence; minutes (administrative records)"@en ;
+  ns0:beginningDate "1956"^^xsd:gYear ;
+  ns0:endDate "1958"^^xsd:gYear ;
+  ns0:date "1956-1958"@en ;
+  ns0:hasInstantiation <http://data.archives-nationales.culture.gouv.fr/instantiation/-aspace_d8ab8d208ad2eb89bc3fdc9decd0de69-i1> .
+
+<http://data.archives-nationales.culture.gouv.fr/instantiation/-aspace_d8ab8d208ad2eb89bc3fdc9decd0de69-i1>
+  a ns0:Instantiation ;
+  ns0:instantiates <http://data.archives-nationales.culture.gouv.fr/recordResource/-aspace_d8ab8d208ad2eb89bc3fdc9decd0de69> ;
+  ns0:title "Conference proceedings; correspondence; minutes (administrative records)"@en ;
+  rdfs:label "Conference proceedings; correspondence; minutes (administrative records)"@en ;
+  ns0:beginningDate "1956"^^xsd:gYear ;
+  ns0:endDate "1958"^^xsd:gYear ;
+  ns0:date "1956-1958"@en ;
+  rdfs:seeAlso <https://www.siv.archives-nationales.culture.gouv.fr/siv/UD/01883/aspace_d8ab8d208ad2eb89bc3fdc9decd0de69> .
+
+<http://data.archives-nationales.culture.gouv.fr/recordResource/-aspace_cd8651b309b50eeaa4bbdb66fd20b2af>
+  a ns0:RecordResource, ns0:RecordSet ;
+  ns0:includedIn <http://data.archives-nationales.culture.gouv.fr/recordResource/-aspace_3309973b88971857a1035b2865848c32> ;
+  ns0:hasRecordSetType <https://www.ica.org/standards/RiC/vocabularies/recordSetTypes#File> ;
+  ns0:title "Socialist Party - Social Democratic Federation, Unity Convention (New York): correspondence; statement"@en ;
+  rdfs:label "Socialist Party - Social Democratic Federation, Unity Convention (New York): correspondence; statement"@en ;
+  ns0:date "1957"^^xsd:gYear, "1957"@en ;
+  ns0:hasInstantiation <http://data.archives-nationales.culture.gouv.fr/instantiation/-aspace_cd8651b309b50eeaa4bbdb66fd20b2af-i1> .
+
+<http://data.archives-nationales.culture.gouv.fr/instantiation/-aspace_cd8651b309b50eeaa4bbdb66fd20b2af-i1>
+  a ns0:Instantiation ;
+  ns0:instantiates <http://data.archives-nationales.culture.gouv.fr/recordResource/-aspace_cd8651b309b50eeaa4bbdb66fd20b2af> ;
+  ns0:title "Socialist Party - Social Democratic Federation, Unity Convention (New York): correspondence; statement"@en ;
+  rdfs:label "Socialist Party - Social Democratic Federation, Unity Convention (New York): correspondence; statement"@en ;
+  ns0:date "1957"^^xsd:gYear, "1957"@en ;
+  rdfs:seeAlso <https://www.siv.archives-nationales.culture.gouv.fr/siv/UD/01883/aspace_cd8651b309b50eeaa4bbdb66fd20b2af> .
+
+<http://data.archives-nationales.culture.gouv.fr/recordResource/-aspace_781840feabbc7a71965cb690d3b27478>
+  a ns0:RecordResource, ns0:RecordSet ;
+  ns0:includedIn <http://data.archives-nationales.culture.gouv.fr/recordResource/-aspace_3309973b88971857a1035b2865848c32> ;
+  ns0:hasRecordSetType <https://www.ica.org/standards/RiC/vocabularies/recordSetTypes#File> ;
+  ns0:title "Prohibition Party National Committee: correspondence"@en ;
+  rdfs:label "Prohibition Party National Committee: correspondence"@en ;
+  ns0:beginningDate "1952"^^xsd:gYear ;
+  ns0:endDate "1956"^^xsd:gYear ;
+  ns0:date "1952-1956"@en ;
+  ns0:hasInstantiation <http://data.archives-nationales.culture.gouv.fr/instantiation/-aspace_781840feabbc7a71965cb690d3b27478-i1> .
+
+<http://data.archives-nationales.culture.gouv.fr/instantiation/-aspace_781840feabbc7a71965cb690d3b27478-i1>
+  a ns0:Instantiation ;
+  ns0:instantiates <http://data.archives-nationales.culture.gouv.fr/recordResource/-aspace_781840feabbc7a71965cb690d3b27478> ;
+  ns0:title "Prohibition Party National Committee: correspondence"@en ;
+  rdfs:label "Prohibition Party National Committee: correspondence"@en ;
+  ns0:beginningDate "1952"^^xsd:gYear ;
+  ns0:endDate "1956"^^xsd:gYear ;
+  ns0:date "1952-1956"@en ;
+  rdfs:seeAlso <https://www.siv.archives-nationales.culture.gouv.fr/siv/UD/01883/aspace_781840feabbc7a71965cb690d3b27478> .
+
+<http://data.archives-nationales.culture.gouv.fr/recordResource/-aspace_ebf4d77658b4c43a79a2f845ab5f136b>
+  a ns0:RecordResource, ns0:RecordSet ;
+  ns0:includedIn <http://data.archives-nationales.culture.gouv.fr/recordResource/-aspace_3309973b88971857a1035b2865848c32> ;
+  ns0:hasRecordSetType <https://www.ica.org/standards/RiC/vocabularies/recordSetTypes#File> ;
+  ns0:title "Clippings; correspondence"@en ;
+  rdfs:label "Clippings; correspondence"@en ;
+  ns0:date "1956"^^xsd:gYear, "1956"@en ;
+  ns0:hasInstantiation <http://data.archives-nationales.culture.gouv.fr/instantiation/-aspace_ebf4d77658b4c43a79a2f845ab5f136b-i1> .
+
+<http://data.archives-nationales.culture.gouv.fr/instantiation/-aspace_ebf4d77658b4c43a79a2f845ab5f136b-i1>
+  a ns0:Instantiation ;
+  ns0:instantiates <http://data.archives-nationales.culture.gouv.fr/recordResource/-aspace_ebf4d77658b4c43a79a2f845ab5f136b> ;
+  ns0:title "Clippings; correspondence"@en ;
+  rdfs:label "Clippings; correspondence"@en ;
+  ns0:date "1956"^^xsd:gYear, "1956"@en ;
+  rdfs:seeAlso <https://www.siv.archives-nationales.culture.gouv.fr/siv/UD/01883/aspace_ebf4d77658b4c43a79a2f845ab5f136b> .
+
+<http://data.archives-nationales.culture.gouv.fr/recordResource/-aspace_04063142a023ebd87d735ee1cb78c249>
+  a ns0:RecordResource, ns0:RecordSet ;
+  ns0:includedIn <http://data.archives-nationales.culture.gouv.fr/recordResource/-aspace_3309973b88971857a1035b2865848c32> ;
+  ns0:hasRecordSetType <https://www.ica.org/standards/RiC/vocabularies/recordSetTypes#File> ;
+  ns0:title "National Executive Committee: brochures; correspondence; minutes (administrative records)"@en ;
+  rdfs:label "National Executive Committee: brochures; correspondence; minutes (administrative records)"@en ;
+  ns0:beginningDate "1932"^^xsd:gYear ;
+  ns0:endDate "1936"^^xsd:gYear ;
+  ns0:date "1932-1936"@en ;
+  ns0:hasInstantiation <http://data.archives-nationales.culture.gouv.fr/instantiation/-aspace_04063142a023ebd87d735ee1cb78c249-i1> .
+
+<http://data.archives-nationales.culture.gouv.fr/instantiation/-aspace_04063142a023ebd87d735ee1cb78c249-i1>
+  a ns0:Instantiation ;
+  ns0:instantiates <http://data.archives-nationales.culture.gouv.fr/recordResource/-aspace_04063142a023ebd87d735ee1cb78c249> ;
+  ns0:title "National Executive Committee: brochures; correspondence; minutes (administrative records)"@en ;
+  rdfs:label "National Executive Committee: brochures; correspondence; minutes (administrative records)"@en ;
+  ns0:beginningDate "1932"^^xsd:gYear ;
+  ns0:endDate "1936"^^xsd:gYear ;
+  ns0:date "1932-1936"@en ;
+  rdfs:seeAlso <https://www.siv.archives-nationales.culture.gouv.fr/siv/UD/01883/aspace_04063142a023ebd87d735ee1cb78c249> .
+
+<http://data.archives-nationales.culture.gouv.fr/recordResource/-aspace_b26ca4a5761f295903eaba6159ea6386>
+  a ns0:RecordResource, ns0:RecordSet ;
+  ns0:includedIn <http://data.archives-nationales.culture.gouv.fr/recordResource/-aspace_3309973b88971857a1035b2865848c32> ;
+  ns0:hasRecordSetType <https://www.ica.org/standards/RiC/vocabularies/recordSetTypes#File> ;
+  ns0:title "National Executive Committee: brochures; correspondence; minutes (administrative records)"@en ;
+  rdfs:label "National Executive Committee: brochures; correspondence; minutes (administrative records)"@en ;
+  ns0:beginningDate "1948"^^xsd:gYear ;
+  ns0:endDate "1953"^^xsd:gYear ;
+  ns0:date "1948-1953"@en ;
+  ns0:hasInstantiation <http://data.archives-nationales.culture.gouv.fr/instantiation/-aspace_b26ca4a5761f295903eaba6159ea6386-i1> .
+
+<http://data.archives-nationales.culture.gouv.fr/instantiation/-aspace_b26ca4a5761f295903eaba6159ea6386-i1>
+  a ns0:Instantiation ;
+  ns0:instantiates <http://data.archives-nationales.culture.gouv.fr/recordResource/-aspace_b26ca4a5761f295903eaba6159ea6386> ;
+  ns0:title "National Executive Committee: brochures; correspondence; minutes (administrative records)"@en ;
+  rdfs:label "National Executive Committee: brochures; correspondence; minutes (administrative records)"@en ;
+  ns0:beginningDate "1948"^^xsd:gYear ;
+  ns0:endDate "1953"^^xsd:gYear ;
+  ns0:date "1948-1953"@en ;
+  rdfs:seeAlso <https://www.siv.archives-nationales.culture.gouv.fr/siv/UD/01883/aspace_b26ca4a5761f295903eaba6159ea6386> .
+
+<http://data.archives-nationales.culture.gouv.fr/recordResource/-aspace_7bbb661bd1f7f3c06df46e56afb85fb6>
+  a ns0:RecordResource, ns0:RecordSet ;
+  ns0:includedIn <http://data.archives-nationales.culture.gouv.fr/recordResource/-aspace_3309973b88971857a1035b2865848c32> ;
+  ns0:hasRecordSetType <https://www.ica.org/standards/RiC/vocabularies/recordSetTypes#File> ;
+  ns0:title "Young People's Socialist League minutes (administrative records) and reports"@en ;
+  rdfs:label "Young People's Socialist League minutes (administrative records) and reports"@en ;
+  ns0:beginningDate "1933"^^xsd:gYear ;
+  ns0:endDate "1935"^^xsd:gYear ;
+  ns0:date "1933-1935"@en ;
+  ns0:hasInstantiation <http://data.archives-nationales.culture.gouv.fr/instantiation/-aspace_7bbb661bd1f7f3c06df46e56afb85fb6-i1> .
+
+<http://data.archives-nationales.culture.gouv.fr/instantiation/-aspace_7bbb661bd1f7f3c06df46e56afb85fb6-i1>
+  a ns0:Instantiation ;
+  ns0:instantiates <http://data.archives-nationales.culture.gouv.fr/recordResource/-aspace_7bbb661bd1f7f3c06df46e56afb85fb6> ;
+  ns0:title "Young People's Socialist League minutes (administrative records) and reports"@en ;
+  rdfs:label "Young People's Socialist League minutes (administrative records) and reports"@en ;
+  ns0:beginningDate "1933"^^xsd:gYear ;
+  ns0:endDate "1935"^^xsd:gYear ;
+  ns0:date "1933-1935"@en ;
+  rdfs:seeAlso <https://www.siv.archives-nationales.culture.gouv.fr/siv/UD/01883/aspace_7bbb661bd1f7f3c06df46e56afb85fb6> .
+
+<http://data.archives-nationales.culture.gouv.fr/recordResource/-aspace_5b8901f64f415b096c0a47c1bc3a46d1>
+  a ns0:RecordResource, ns0:RecordSet ;
+  ns0:includedIn <http://data.archives-nationales.culture.gouv.fr/recordResource/-aspace_3309973b88971857a1035b2865848c32> ;
+  ns0:hasRecordSetType <https://www.ica.org/standards/RiC/vocabularies/recordSetTypes#File> ;
+  ns0:title "National Executive Committee minutes (administrative records); Young People's Socialist League minutes (administrative records) and reports"@en ;
+  rdfs:label "National Executive Committee minutes (administrative records); Young People's Socialist League minutes (administrative records) and reports"@en ;
+  ns0:beginningDate "1948"^^xsd:gYear ;
+  ns0:endDate "1953"^^xsd:gYear ;
+  ns0:date "1948-1953"@en ;
+  ns0:hasInstantiation <http://data.archives-nationales.culture.gouv.fr/instantiation/-aspace_5b8901f64f415b096c0a47c1bc3a46d1-i1> .
+
+<http://data.archives-nationales.culture.gouv.fr/instantiation/-aspace_5b8901f64f415b096c0a47c1bc3a46d1-i1>
+  a ns0:Instantiation ;
+  ns0:instantiates <http://data.archives-nationales.culture.gouv.fr/recordResource/-aspace_5b8901f64f415b096c0a47c1bc3a46d1> ;
+  ns0:title "National Executive Committee minutes (administrative records); Young People's Socialist League minutes (administrative records) and reports"@en ;
+  rdfs:label "National Executive Committee minutes (administrative records); Young People's Socialist League minutes (administrative records) and reports"@en ;
+  ns0:beginningDate "1948"^^xsd:gYear ;
+  ns0:endDate "1953"^^xsd:gYear ;
+  ns0:date "1948-1953"@en ;
+  rdfs:seeAlso <https://www.siv.archives-nationales.culture.gouv.fr/siv/UD/01883/aspace_5b8901f64f415b096c0a47c1bc3a46d1> .
+
+<http://data.archives-nationales.culture.gouv.fr/recordResource/-aspace_2a51436dabff21dd8b8d31899e87c0ac>
+  a ns0:RecordResource, ns0:RecordSet ;
+  ns0:includedIn <http://data.archives-nationales.culture.gouv.fr/recordResource/-aspace_3309973b88971857a1035b2865848c32> ;
+  ns0:hasRecordSetType <https://www.ica.org/standards/RiC/vocabularies/recordSetTypes#File> ;
+  ns0:title "National Executive Committee: clippings; correspondence; minutes (administrative records)"@en ;
+  rdfs:label "National Executive Committee: clippings; correspondence; minutes (administrative records)"@en ;
+  ns0:beginningDate "1954"^^xsd:gYear ;
+  ns0:endDate "1956"^^xsd:gYear ;
+  ns0:date "1954-1956"@en ;
+  ns0:hasInstantiation <http://data.archives-nationales.culture.gouv.fr/instantiation/-aspace_2a51436dabff21dd8b8d31899e87c0ac-i1> .
+
+<http://data.archives-nationales.culture.gouv.fr/instantiation/-aspace_2a51436dabff21dd8b8d31899e87c0ac-i1>
+  a ns0:Instantiation ;
+  ns0:instantiates <http://data.archives-nationales.culture.gouv.fr/recordResource/-aspace_2a51436dabff21dd8b8d31899e87c0ac> ;
+  ns0:title "National Executive Committee: clippings; correspondence; minutes (administrative records)"@en ;
+  rdfs:label "National Executive Committee: clippings; correspondence; minutes (administrative records)"@en ;
+  ns0:beginningDate "1954"^^xsd:gYear ;
+  ns0:endDate "1956"^^xsd:gYear ;
+  ns0:date "1954-1956"@en ;
+  rdfs:seeAlso <https://www.siv.archives-nationales.culture.gouv.fr/siv/UD/01883/aspace_2a51436dabff21dd8b8d31899e87c0ac> .
+
+<http://data.archives-nationales.culture.gouv.fr/recordResource/-aspace_97d4906b8378c77a66dd6e4ea6d17f9e>
+  a ns0:RecordResource, ns0:RecordSet ;
+  ns0:includedIn <http://data.archives-nationales.culture.gouv.fr/recordResource/-aspace_3309973b88971857a1035b2865848c32> ;
+  ns0:hasRecordSetType <https://www.ica.org/standards/RiC/vocabularies/recordSetTypes#File> ;
+  ns0:title "National Executive Committee: correspondence; minutes (administrative records)"@en ;
+  rdfs:label "National Executive Committee: correspondence; minutes (administrative records)"@en ;
+  ns0:beginningDate "1943"^^xsd:gYear ;
+  ns0:endDate "1949"^^xsd:gYear ;
+  ns0:date "1943-1949"@en ;
+  ns0:hasInstantiation <http://data.archives-nationales.culture.gouv.fr/instantiation/-aspace_97d4906b8378c77a66dd6e4ea6d17f9e-i1> .
+
+<http://data.archives-nationales.culture.gouv.fr/instantiation/-aspace_97d4906b8378c77a66dd6e4ea6d17f9e-i1>
+  a ns0:Instantiation ;
+  ns0:instantiates <http://data.archives-nationales.culture.gouv.fr/recordResource/-aspace_97d4906b8378c77a66dd6e4ea6d17f9e> ;
+  ns0:title "National Executive Committee: correspondence; minutes (administrative records)"@en ;
+  rdfs:label "National Executive Committee: correspondence; minutes (administrative records)"@en ;
+  ns0:beginningDate "1943"^^xsd:gYear ;
+  ns0:endDate "1949"^^xsd:gYear ;
+  ns0:date "1943-1949"@en ;
+  rdfs:seeAlso <https://www.siv.archives-nationales.culture.gouv.fr/siv/UD/01883/aspace_97d4906b8378c77a66dd6e4ea6d17f9e> .
+
+<http://data.archives-nationales.culture.gouv.fr/recordResource/-aspace_2e378f6ff25b9ab13a23b6228bf37846>
+  a ns0:RecordResource, ns0:RecordSet ;
+  ns0:includedIn <http://data.archives-nationales.culture.gouv.fr/recordResource/-aspace_3309973b88971857a1035b2865848c32> ;
+  ns0:hasRecordSetType <https://www.ica.org/standards/RiC/vocabularies/recordSetTypes#File> ;
+  ns0:title "Socialist nomination papers"@en ;
+  rdfs:label "Socialist nomination papers"@en ;
+  ns0:beginningDate "1928"^^xsd:gYear ;
+  ns0:endDate "1936"^^xsd:gYear ;
+  ns0:date "1928-1936"@en ;
+  ns0:hasInstantiation <http://data.archives-nationales.culture.gouv.fr/instantiation/-aspace_2e378f6ff25b9ab13a23b6228bf37846-i1> .
+
+<http://data.archives-nationales.culture.gouv.fr/instantiation/-aspace_2e378f6ff25b9ab13a23b6228bf37846-i1>
+  a ns0:Instantiation ;
+  ns0:instantiates <http://data.archives-nationales.culture.gouv.fr/recordResource/-aspace_2e378f6ff25b9ab13a23b6228bf37846> ;
+  ns0:title "Socialist nomination papers"@en ;
+  rdfs:label "Socialist nomination papers"@en ;
+  ns0:beginningDate "1928"^^xsd:gYear ;
+  ns0:endDate "1936"^^xsd:gYear ;
+  ns0:date "1928-1936"@en ;
+  rdfs:seeAlso <https://www.siv.archives-nationales.culture.gouv.fr/siv/UD/01883/aspace_2e378f6ff25b9ab13a23b6228bf37846> .
+
+<http://data.archives-nationales.culture.gouv.fr/recordResource/-aspace_63c17dbddaa8f3e66425add34d1fed75>
+  a ns0:RecordResource, ns0:RecordSet ;
+  ns0:includedIn <http://data.archives-nationales.culture.gouv.fr/recordResource/-aspace_3309973b88971857a1035b2865848c32> ;
+  ns0:hasRecordSetType <https://www.ica.org/standards/RiC/vocabularies/recordSetTypes#File> ;
+  ns0:title "Clippings and correspondence regarding speeches and speaking commitments"@en ;
+  rdfs:label "Clippings and correspondence regarding speeches and speaking commitments"@en ;
+  ns0:beginningDate "1933"^^xsd:gYear ;
+  ns0:endDate "1935"^^xsd:gYear ;
+  ns0:date "1933-1935"@en ;
+  ns0:hasInstantiation <http://data.archives-nationales.culture.gouv.fr/instantiation/-aspace_63c17dbddaa8f3e66425add34d1fed75-i1> .
+
+<http://data.archives-nationales.culture.gouv.fr/instantiation/-aspace_63c17dbddaa8f3e66425add34d1fed75-i1>
+  a ns0:Instantiation ;
+  ns0:instantiates <http://data.archives-nationales.culture.gouv.fr/recordResource/-aspace_63c17dbddaa8f3e66425add34d1fed75> ;
+  ns0:title "Clippings and correspondence regarding speeches and speaking commitments"@en ;
+  rdfs:label "Clippings and correspondence regarding speeches and speaking commitments"@en ;
+  ns0:beginningDate "1933"^^xsd:gYear ;
+  ns0:endDate "1935"^^xsd:gYear ;
+  ns0:date "1933-1935"@en ;
+  rdfs:seeAlso <https://www.siv.archives-nationales.culture.gouv.fr/siv/UD/01883/aspace_63c17dbddaa8f3e66425add34d1fed75> .
+
+<http://data.archives-nationales.culture.gouv.fr/recordResource/-aspace_b1ebb1b69e87bb62795ff0811dd75112>
+  a ns0:RecordResource, ns0:RecordSet ;
+  ns0:includedIn <http://data.archives-nationales.culture.gouv.fr/recordResource/-aspace_3309973b88971857a1035b2865848c32> ;
+  ns0:hasRecordSetType <https://www.ica.org/standards/RiC/vocabularies/recordSetTypes#File> ;
+  ns0:title "National Executive Committee: clippings; correspondence; minutes (administrative records); Young People's Socialist League minutes (administrative records) and reports"@en ;
+  rdfs:label "National Executive Committee: clippings; correspondence; minutes (administrative records); Young People's Socialist League minutes (administrative records) and reports"@en ;
+  ns0:beginningDate "1922"^^xsd:gYear ;
+  ns0:endDate "1935"^^xsd:gYear ;
+  ns0:date "1922-1935"@en ;
+  ns0:hasInstantiation <http://data.archives-nationales.culture.gouv.fr/instantiation/-aspace_b1ebb1b69e87bb62795ff0811dd75112-i1> .
+
+<http://data.archives-nationales.culture.gouv.fr/instantiation/-aspace_b1ebb1b69e87bb62795ff0811dd75112-i1>
+  a ns0:Instantiation ;
+  ns0:instantiates <http://data.archives-nationales.culture.gouv.fr/recordResource/-aspace_b1ebb1b69e87bb62795ff0811dd75112> ;
+  ns0:title "National Executive Committee: clippings; correspondence; minutes (administrative records); Young People's Socialist League minutes (administrative records) and reports"@en ;
+  rdfs:label "National Executive Committee: clippings; correspondence; minutes (administrative records); Young People's Socialist League minutes (administrative records) and reports"@en ;
+  ns0:beginningDate "1922"^^xsd:gYear ;
+  ns0:endDate "1935"^^xsd:gYear ;
+  ns0:date "1922-1935"@en ;
+  rdfs:seeAlso <https://www.siv.archives-nationales.culture.gouv.fr/siv/UD/01883/aspace_b1ebb1b69e87bb62795ff0811dd75112> .
+
+<http://data.archives-nationales.culture.gouv.fr/recordResource/-aspace_eeec59c2a9bf74742450e69779b90da3>
+  a ns0:RecordResource, ns0:RecordSet ;
+  ns0:includedIn <http://data.archives-nationales.culture.gouv.fr/recordResource/-aspace_3309973b88971857a1035b2865848c32> ;
+  ns0:hasRecordSetType <https://www.ica.org/standards/RiC/vocabularies/recordSetTypes#File> ;
+  ns0:title "National Executive Committee: organization leaflets (printed works)"@en ;
+  rdfs:label "National Executive Committee: organization leaflets (printed works)"@en ;
+  ns0:date "1917, 1922"@en ;
+  ns0:hasInstantiation <http://data.archives-nationales.culture.gouv.fr/instantiation/-aspace_eeec59c2a9bf74742450e69779b90da3-i1> .
+
+<http://data.archives-nationales.culture.gouv.fr/instantiation/-aspace_eeec59c2a9bf74742450e69779b90da3-i1>
+  a ns0:Instantiation ;
+  ns0:instantiates <http://data.archives-nationales.culture.gouv.fr/recordResource/-aspace_eeec59c2a9bf74742450e69779b90da3> ;
+  ns0:title "National Executive Committee: organization leaflets (printed works)"@en ;
+  rdfs:label "National Executive Committee: organization leaflets (printed works)"@en ;
+  ns0:date "1917, 1922"@en ;
+  rdfs:seeAlso <https://www.siv.archives-nationales.culture.gouv.fr/siv/UD/01883/aspace_eeec59c2a9bf74742450e69779b90da3> .
+
+<http://data.archives-nationales.culture.gouv.fr/recordResource/-aspace_0ff18fae0b3c6569e676ef34d962af19>
+  a ns0:RecordResource, ns0:RecordSet ;
+  ns0:includedIn <http://data.archives-nationales.culture.gouv.fr/recordResource/-aspace_3309973b88971857a1035b2865848c32> ;
+  ns0:hasRecordSetType <https://www.ica.org/standards/RiC/vocabularies/recordSetTypes#File> ;
+  ns0:title "Norman Thomas political campaign: correspondence; leaflets; speeches by Norman Thomas"@en ;
+  rdfs:label "Norman Thomas political campaign: correspondence; leaflets; speeches by Norman Thomas"@en ;
+  ns0:beginningDate "1935"^^xsd:gYear ;
+  ns0:endDate "1936"^^xsd:gYear ;
+  ns0:date "1935-1936"@en ;
+  ns0:hasInstantiation <http://data.archives-nationales.culture.gouv.fr/instantiation/-aspace_0ff18fae0b3c6569e676ef34d962af19-i1> .
+
+<http://data.archives-nationales.culture.gouv.fr/instantiation/-aspace_0ff18fae0b3c6569e676ef34d962af19-i1>
+  a ns0:Instantiation ;
+  ns0:instantiates <http://data.archives-nationales.culture.gouv.fr/recordResource/-aspace_0ff18fae0b3c6569e676ef34d962af19> ;
+  ns0:title "Norman Thomas political campaign: correspondence; leaflets; speeches by Norman Thomas"@en ;
+  rdfs:label "Norman Thomas political campaign: correspondence; leaflets; speeches by Norman Thomas"@en ;
+  ns0:beginningDate "1935"^^xsd:gYear ;
+  ns0:endDate "1936"^^xsd:gYear ;
+  ns0:date "1935-1936"@en ;
+  rdfs:seeAlso <https://www.siv.archives-nationales.culture.gouv.fr/siv/UD/01883/aspace_0ff18fae0b3c6569e676ef34d962af19> .
+
+<http://data.archives-nationales.culture.gouv.fr/recordResource/-aspace_bbe7c13312aca93e911a37b1da16e1f5>
+  a ns0:RecordResource, ns0:RecordSet ;
+  ns0:includedIn <http://data.archives-nationales.culture.gouv.fr/recordResource/-aspace_3309973b88971857a1035b2865848c32> ;
+  ns0:hasRecordSetType <https://www.ica.org/standards/RiC/vocabularies/recordSetTypes#File> ;
+  ns0:title "Norman Thomas and Darlington Hoopes political campaign: National Executive Committee correspondence; minutes (administrative records)"@en ;
+  rdfs:label "Norman Thomas and Darlington Hoopes political campaign: National Executive Committee correspondence; minutes (administrative records)"@en ;
+  ns0:beginningDate "1942"^^xsd:gYear ;
+  ns0:endDate "1944"^^xsd:gYear ;
+  ns0:date "1942-1944"@en ;
+  ns0:hasInstantiation <http://data.archives-nationales.culture.gouv.fr/instantiation/-aspace_bbe7c13312aca93e911a37b1da16e1f5-i1> .
+
+<http://data.archives-nationales.culture.gouv.fr/instantiation/-aspace_bbe7c13312aca93e911a37b1da16e1f5-i1>
+  a ns0:Instantiation ;
+  ns0:instantiates <http://data.archives-nationales.culture.gouv.fr/recordResource/-aspace_bbe7c13312aca93e911a37b1da16e1f5> ;
+  ns0:title "Norman Thomas and Darlington Hoopes political campaign: National Executive Committee correspondence; minutes (administrative records)"@en ;
+  rdfs:label "Norman Thomas and Darlington Hoopes political campaign: National Executive Committee correspondence; minutes (administrative records)"@en ;
+  ns0:beginningDate "1942"^^xsd:gYear ;
+  ns0:endDate "1944"^^xsd:gYear ;
+  ns0:date "1942-1944"@en ;
+  rdfs:seeAlso <https://www.siv.archives-nationales.culture.gouv.fr/siv/UD/01883/aspace_bbe7c13312aca93e911a37b1da16e1f5> .
+
+<http://data.archives-nationales.culture.gouv.fr/recordResource/-aspace_e4f9135acc2b92bb48ca89dca8b3c412>
+  a ns0:RecordResource, ns0:RecordSet ;
+  ns0:includedIn <http://data.archives-nationales.culture.gouv.fr/recordResource/-aspace_3309973b88971857a1035b2865848c32> ;
+  ns0:hasRecordSetType <https://www.ica.org/standards/RiC/vocabularies/recordSetTypes#File> ;
+  ns0:title "Norman Thomas and Darlington Hoopes political campaign: clippings; correspondence; radio broadcast speeches"@en ;
+  rdfs:label "Norman Thomas and Darlington Hoopes political campaign: clippings; correspondence; radio broadcast speeches"@en ;
+  ns0:date "1944"^^xsd:gYear, "1944"@en ;
+  ns0:hasInstantiation <http://data.archives-nationales.culture.gouv.fr/instantiation/-aspace_e4f9135acc2b92bb48ca89dca8b3c412-i1> .
+
+<http://data.archives-nationales.culture.gouv.fr/instantiation/-aspace_e4f9135acc2b92bb48ca89dca8b3c412-i1>
+  a ns0:Instantiation ;
+  ns0:instantiates <http://data.archives-nationales.culture.gouv.fr/recordResource/-aspace_e4f9135acc2b92bb48ca89dca8b3c412> ;
+  ns0:title "Norman Thomas and Darlington Hoopes political campaign: clippings; correspondence; radio broadcast speeches"@en ;
+  rdfs:label "Norman Thomas and Darlington Hoopes political campaign: clippings; correspondence; radio broadcast speeches"@en ;
+  ns0:date "1944"^^xsd:gYear, "1944"@en ;
+  rdfs:seeAlso <https://www.siv.archives-nationales.culture.gouv.fr/siv/UD/01883/aspace_e4f9135acc2b92bb48ca89dca8b3c412> .
+
+<http://data.archives-nationales.culture.gouv.fr/recordResource/-aspace_4fe5951358c52aa4eb63151b98e085bc>
+  a ns0:RecordResource, ns0:RecordSet ;
+  ns0:includedIn <http://data.archives-nationales.culture.gouv.fr/recordResource/-aspace_3309973b88971857a1035b2865848c32> ;
+  ns0:hasRecordSetType <https://www.ica.org/standards/RiC/vocabularies/recordSetTypes#File> ;
+  ns0:title "General election independent nominating petition of the Socialist Party"@en ;
+  rdfs:label "General election independent nominating petition of the Socialist Party"@en ;
+  ns0:date "1948"^^xsd:gYear, "1948"@en ;
+  ns0:hasInstantiation <http://data.archives-nationales.culture.gouv.fr/instantiation/-aspace_4fe5951358c52aa4eb63151b98e085bc-i1> .
+
+<http://data.archives-nationales.culture.gouv.fr/instantiation/-aspace_4fe5951358c52aa4eb63151b98e085bc-i1>
+  a ns0:Instantiation ;
+  ns0:instantiates <http://data.archives-nationales.culture.gouv.fr/recordResource/-aspace_4fe5951358c52aa4eb63151b98e085bc> ;
+  ns0:title "General election independent nominating petition of the Socialist Party"@en ;
+  rdfs:label "General election independent nominating petition of the Socialist Party"@en ;
+  ns0:date "1948"^^xsd:gYear, "1948"@en ;
+  rdfs:seeAlso <https://www.siv.archives-nationales.culture.gouv.fr/siv/UD/01883/aspace_4fe5951358c52aa4eb63151b98e085bc> .
+
+<http://data.archives-nationales.culture.gouv.fr/recordResource/-aspace_245faac6c0b6a2c91c8ed625bc5b4b37>
+  a ns0:RecordResource, ns0:RecordSet ;
+  ns0:includedIn <http://data.archives-nationales.culture.gouv.fr/recordResource/-aspace_3309973b88971857a1035b2865848c32> ;
+  ns0:hasRecordSetType <https://www.ica.org/standards/RiC/vocabularies/recordSetTypes#File> ;
+  ns0:title "Correspondence from Harold E. Fackert relating to pacifism; including drawings copied from The Jersey journal and Jersey observer (Human goodwill; Tears of the Korean people; War battered Europe; Children of Nagasaki)"@en ;
+  rdfs:label "Correspondence from Harold E. Fackert relating to pacifism; including drawings copied from The Jersey journal and Jersey observer (Human goodwill; Tears of the Korean people; War battered Europe; Children of Nagasaki)"@en ;
+  ns0:beginningDate "1950"^^xsd:gYear ;
+  ns0:endDate "1952"^^xsd:gYear ;
+  ns0:date "1950-1952"@en ;
+  ns0:hasInstantiation <http://data.archives-nationales.culture.gouv.fr/instantiation/-aspace_245faac6c0b6a2c91c8ed625bc5b4b37-i1> .
+
+<http://data.archives-nationales.culture.gouv.fr/instantiation/-aspace_245faac6c0b6a2c91c8ed625bc5b4b37-i1>
+  a ns0:Instantiation ;
+  ns0:instantiates <http://data.archives-nationales.culture.gouv.fr/recordResource/-aspace_245faac6c0b6a2c91c8ed625bc5b4b37> ;
+  ns0:title "Correspondence from Harold E. Fackert relating to pacifism; including drawings copied from The Jersey journal and Jersey observer (Human goodwill; Tears of the Korean people; War battered Europe; Children of Nagasaki)"@en ;
+  rdfs:label "Correspondence from Harold E. Fackert relating to pacifism; including drawings copied from The Jersey journal and Jersey observer (Human goodwill; Tears of the Korean people; War battered Europe; Children of Nagasaki)"@en ;
+  ns0:beginningDate "1950"^^xsd:gYear ;
+  ns0:endDate "1952"^^xsd:gYear ;
+  ns0:date "1950-1952"@en ;
+  rdfs:seeAlso <https://www.siv.archives-nationales.culture.gouv.fr/siv/UD/01883/aspace_245faac6c0b6a2c91c8ed625bc5b4b37> .
+
+<http://data.archives-nationales.culture.gouv.fr/recordResource/-aspace_d089f795b6a856367f00b3cc836a1e04>
+  a ns0:RecordResource, ns0:RecordSet ;
+  ns0:includedIn <http://data.archives-nationales.culture.gouv.fr/recordResource/-aspace_3309973b88971857a1035b2865848c32> ;
+  ns0:hasRecordSetType <https://www.ica.org/standards/RiC/vocabularies/recordSetTypes#File> ;
+  ns0:title "27th National Convention (Detroit, Michigan) reports"@en ;
+  rdfs:label "27th National Convention (Detroit, Michigan) reports"@en ;
+  ns0:date "1950"^^xsd:gYear, "1950"@en ;
+  ns0:hasInstantiation <http://data.archives-nationales.culture.gouv.fr/instantiation/-aspace_d089f795b6a856367f00b3cc836a1e04-i1> .
+
+<http://data.archives-nationales.culture.gouv.fr/instantiation/-aspace_d089f795b6a856367f00b3cc836a1e04-i1>
+  a ns0:Instantiation ;
+  ns0:instantiates <http://data.archives-nationales.culture.gouv.fr/recordResource/-aspace_d089f795b6a856367f00b3cc836a1e04> ;
+  ns0:title "27th National Convention (Detroit, Michigan) reports"@en ;
+  rdfs:label "27th National Convention (Detroit, Michigan) reports"@en ;
+  ns0:date "1950"^^xsd:gYear, "1950"@en ;
+  rdfs:seeAlso <https://www.siv.archives-nationales.culture.gouv.fr/siv/UD/01883/aspace_d089f795b6a856367f00b3cc836a1e04> .
+
+<http://data.archives-nationales.culture.gouv.fr/recordResource/-aspace_9de1e53304653f34d32a3650d2d7caf5>
+  a ns0:RecordResource, ns0:RecordSet ;
+  ns0:includedIn <http://data.archives-nationales.culture.gouv.fr/recordResource/-aspace_3309973b88971857a1035b2865848c32> ;
+  ns0:hasRecordSetType <https://www.ica.org/standards/RiC/vocabularies/recordSetTypes#File> ;
+  ns0:title "Darlington Hoopes and Samuel H. Friedman political campaign: clippings; correspondence"@en ;
+  rdfs:label "Darlington Hoopes and Samuel H. Friedman political campaign: clippings; correspondence"@en ;
+  ns0:date "1952"^^xsd:gYear, "1952"@en ;
+  ns0:hasInstantiation <http://data.archives-nationales.culture.gouv.fr/instantiation/-aspace_9de1e53304653f34d32a3650d2d7caf5-i1> .
+
+<http://data.archives-nationales.culture.gouv.fr/instantiation/-aspace_9de1e53304653f34d32a3650d2d7caf5-i1>
+  a ns0:Instantiation ;
+  ns0:instantiates <http://data.archives-nationales.culture.gouv.fr/recordResource/-aspace_9de1e53304653f34d32a3650d2d7caf5> ;
+  ns0:title "Darlington Hoopes and Samuel H. Friedman political campaign: clippings; correspondence"@en ;
+  rdfs:label "Darlington Hoopes and Samuel H. Friedman political campaign: clippings; correspondence"@en ;
+  ns0:date "1952"^^xsd:gYear, "1952"@en ;
+  rdfs:seeAlso <https://www.siv.archives-nationales.culture.gouv.fr/siv/UD/01883/aspace_9de1e53304653f34d32a3650d2d7caf5> .
+
+<http://data.archives-nationales.culture.gouv.fr/recordResource/-aspace_4ef73ef62fbaf4c0cce1c9518333bcbc>
+  a ns0:RecordResource, ns0:RecordSet ;
+  ns0:includedIn <http://data.archives-nationales.culture.gouv.fr/recordResource/-aspace_3309973b88971857a1035b2865848c32> ;
+  ns0:hasRecordSetType <https://www.ica.org/standards/RiC/vocabularies/recordSetTypes#File> ;
+  ns0:title "Election clippings"@en ;
+  rdfs:label "Election clippings"@en ;
+  ns0:date "1952"^^xsd:gYear, "1952"@en ;
+  ns0:hasInstantiation <http://data.archives-nationales.culture.gouv.fr/instantiation/-aspace_4ef73ef62fbaf4c0cce1c9518333bcbc-i1> .
+
+<http://data.archives-nationales.culture.gouv.fr/instantiation/-aspace_4ef73ef62fbaf4c0cce1c9518333bcbc-i1>
+  a ns0:Instantiation ;
+  ns0:instantiates <http://data.archives-nationales.culture.gouv.fr/recordResource/-aspace_4ef73ef62fbaf4c0cce1c9518333bcbc> ;
+  ns0:title "Election clippings"@en ;
+  rdfs:label "Election clippings"@en ;
+  ns0:date "1952"^^xsd:gYear, "1952"@en ;
+  rdfs:seeAlso <https://www.siv.archives-nationales.culture.gouv.fr/siv/UD/01883/aspace_4ef73ef62fbaf4c0cce1c9518333bcbc> .
+
+<http://data.archives-nationales.culture.gouv.fr/recordResource/-aspace_71e04b99d94000f9a0e3121908f16eb7>
+  a ns0:RecordResource, ns0:RecordSet ;
+  ns0:includedIn <http://data.archives-nationales.culture.gouv.fr/recordResource/-aspace_3309973b88971857a1035b2865848c32> ;
+  ns0:hasRecordSetType <https://www.ica.org/standards/RiC/vocabularies/recordSetTypes#File> ;
+  ns0:title "Darlington Hoopes and Samuel H. Friedman political campaign: speeches"@en ;
+  rdfs:label "Darlington Hoopes and Samuel H. Friedman political campaign: speeches"@en ;
+  ns0:date "1952"^^xsd:gYear, "1952"@en ;
+  ns0:hasInstantiation <http://data.archives-nationales.culture.gouv.fr/instantiation/-aspace_71e04b99d94000f9a0e3121908f16eb7-i1> .
+
+<http://data.archives-nationales.culture.gouv.fr/instantiation/-aspace_71e04b99d94000f9a0e3121908f16eb7-i1>
+  a ns0:Instantiation ;
+  ns0:instantiates <http://data.archives-nationales.culture.gouv.fr/recordResource/-aspace_71e04b99d94000f9a0e3121908f16eb7> ;
+  ns0:title "Darlington Hoopes and Samuel H. Friedman political campaign: speeches"@en ;
+  rdfs:label "Darlington Hoopes and Samuel H. Friedman political campaign: speeches"@en ;
+  ns0:date "1952"^^xsd:gYear, "1952"@en ;
+  rdfs:seeAlso <https://www.siv.archives-nationales.culture.gouv.fr/siv/UD/01883/aspace_71e04b99d94000f9a0e3121908f16eb7> .
+
+<http://data.archives-nationales.culture.gouv.fr/recordResource/-aspace_d7eb4339333fbc2fb37c937ae7ce2890>
+  a ns0:RecordResource, ns0:RecordSet ;
+  ns0:includedIn <http://data.archives-nationales.culture.gouv.fr/recordResource/-aspace_3309973b88971857a1035b2865848c32> ;
+  ns0:hasRecordSetType <https://www.ica.org/standards/RiC/vocabularies/recordSetTypes#File> ;
+  ns0:title "Darlington Hoopes and Samuel H. Friedman political campaign: clippings; correspondence; speeches"@en ;
+  rdfs:label "Darlington Hoopes and Samuel H. Friedman political campaign: clippings; correspondence; speeches"@en ;
+  ns0:date "1956"^^xsd:gYear, "1956"@en ;
+  ns0:hasInstantiation <http://data.archives-nationales.culture.gouv.fr/instantiation/-aspace_d7eb4339333fbc2fb37c937ae7ce2890-i1> .
+
+<http://data.archives-nationales.culture.gouv.fr/instantiation/-aspace_d7eb4339333fbc2fb37c937ae7ce2890-i1>
+  a ns0:Instantiation ;
+  ns0:instantiates <http://data.archives-nationales.culture.gouv.fr/recordResource/-aspace_d7eb4339333fbc2fb37c937ae7ce2890> ;
+  ns0:title "Darlington Hoopes and Samuel H. Friedman political campaign: clippings; correspondence; speeches"@en ;
+  rdfs:label "Darlington Hoopes and Samuel H. Friedman political campaign: clippings; correspondence; speeches"@en ;
+  ns0:date "1956"^^xsd:gYear, "1956"@en ;
+  rdfs:seeAlso <https://www.siv.archives-nationales.culture.gouv.fr/siv/UD/01883/aspace_d7eb4339333fbc2fb37c937ae7ce2890> .
+
+<http://data.archives-nationales.culture.gouv.fr/recordResource/-aspace_fe8e4871338b1d42d7813c15e1356bf9>
+  a ns0:RecordResource, ns0:RecordSet ;
+  ns0:includedIn <http://data.archives-nationales.culture.gouv.fr/recordResource/-aspace_3309973b88971857a1035b2865848c32> ;
+  ns0:hasRecordSetType <https://www.ica.org/standards/RiC/vocabularies/recordSetTypes#File> ;
+  ns0:title "Social Democratic Federation: brochures; correspondence"@en ;
+  rdfs:label "Social Democratic Federation: brochures; correspondence"@en ;
+  ns0:beginningDate "1960"^^xsd:gYear ;
+  ns0:endDate "1963"^^xsd:gYear ;
+  ns0:date "1960-1963"@en ;
+  ns0:hasInstantiation <http://data.archives-nationales.culture.gouv.fr/instantiation/-aspace_fe8e4871338b1d42d7813c15e1356bf9-i1> .
+
+<http://data.archives-nationales.culture.gouv.fr/instantiation/-aspace_fe8e4871338b1d42d7813c15e1356bf9-i1>
+  a ns0:Instantiation ;
+  ns0:instantiates <http://data.archives-nationales.culture.gouv.fr/recordResource/-aspace_fe8e4871338b1d42d7813c15e1356bf9> ;
+  ns0:title "Social Democratic Federation: brochures; correspondence"@en ;
+  rdfs:label "Social Democratic Federation: brochures; correspondence"@en ;
+  ns0:beginningDate "1960"^^xsd:gYear ;
+  ns0:endDate "1963"^^xsd:gYear ;
+  ns0:date "1960-1963"@en ;
+  rdfs:seeAlso <https://www.siv.archives-nationales.culture.gouv.fr/siv/UD/01883/aspace_fe8e4871338b1d42d7813c15e1356bf9> .
+
+<http://data.archives-nationales.culture.gouv.fr/recordResource/-aspace_70ef998c028440dacbe8d411ca0e23f5>
+  a ns0:RecordResource, ns0:RecordSet ;
+  ns0:includedIn <http://data.archives-nationales.culture.gouv.fr/recordResource/-aspace_3309973b88971857a1035b2865848c32> ;
+  ns0:hasRecordSetType <https://www.ica.org/standards/RiC/vocabularies/recordSetTypes#File> ;
+  ns0:title "Social Democratic Federation: National convention (Chicago, Illinois) proceedings; correspondence"@en ;
+  rdfs:label "Social Democratic Federation: National convention (Chicago, Illinois) proceedings; correspondence"@en ;
+  ns0:date "1964"^^xsd:gYear, "1964"@en ;
+  ns0:hasInstantiation <http://data.archives-nationales.culture.gouv.fr/instantiation/-aspace_70ef998c028440dacbe8d411ca0e23f5-i1> .
+
+<http://data.archives-nationales.culture.gouv.fr/instantiation/-aspace_70ef998c028440dacbe8d411ca0e23f5-i1>
+  a ns0:Instantiation ;
+  ns0:instantiates <http://data.archives-nationales.culture.gouv.fr/recordResource/-aspace_70ef998c028440dacbe8d411ca0e23f5> ;
+  ns0:title "Social Democratic Federation: National convention (Chicago, Illinois) proceedings; correspondence"@en ;
+  rdfs:label "Social Democratic Federation: National convention (Chicago, Illinois) proceedings; correspondence"@en ;
+  ns0:date "1964"^^xsd:gYear, "1964"@en ;
+  rdfs:seeAlso <https://www.siv.archives-nationales.culture.gouv.fr/siv/UD/01883/aspace_70ef998c028440dacbe8d411ca0e23f5> .
+
+<http://data.archives-nationales.culture.gouv.fr/recordResource/-aspace_6c644fc0c5ac68e54d8ce05955933dc2>
+  a ns0:RecordResource, ns0:RecordSet ;
+  ns0:includedIn <http://data.archives-nationales.culture.gouv.fr/recordResource/-aspace_3309973b88971857a1035b2865848c32> ;
+  ns0:hasRecordSetType <https://www.ica.org/standards/RiC/vocabularies/recordSetTypes#File> ;
+  ns0:title "Socialist newsletter, Hammer & Tongs"@en ;
+  rdfs:label "Socialist newsletter, Hammer & Tongs"@en ;
+  ns0:date "1958, 1964"@en ;
+  ns0:hasInstantiation <http://data.archives-nationales.culture.gouv.fr/instantiation/-aspace_6c644fc0c5ac68e54d8ce05955933dc2-i1> .
+
+<http://data.archives-nationales.culture.gouv.fr/instantiation/-aspace_6c644fc0c5ac68e54d8ce05955933dc2-i1>
+  a ns0:Instantiation ;
+  ns0:instantiates <http://data.archives-nationales.culture.gouv.fr/recordResource/-aspace_6c644fc0c5ac68e54d8ce05955933dc2> ;
+  ns0:title "Socialist newsletter, Hammer & Tongs"@en ;
+  rdfs:label "Socialist newsletter, Hammer & Tongs"@en ;
+  ns0:date "1958, 1964"@en ;
+  rdfs:seeAlso <https://www.siv.archives-nationales.culture.gouv.fr/siv/UD/01883/aspace_6c644fc0c5ac68e54d8ce05955933dc2> .
+
+<http://data.archives-nationales.culture.gouv.fr/recordResource/-aspace_8e844c5c4140004d3155a958c3674360>
+  a ns0:RecordResource, ns0:RecordSet ;
+  ns0:includedIn <http://data.archives-nationales.culture.gouv.fr/recordResource/-aspace_3309973b88971857a1035b2865848c32> ;
+  ns0:hasRecordSetType <https://www.ica.org/standards/RiC/vocabularies/recordSetTypes#File> ;
+  ns0:title "Election clippings and pamphlets"@en ;
+  rdfs:label "Election clippings and pamphlets"@en ;
+  ns0:beginningDate "1937"^^xsd:gYear ;
+  ns0:endDate "1950"^^xsd:gYear ;
+  ns0:date "1937-1950"@en ;
+  ns0:hasInstantiation <http://data.archives-nationales.culture.gouv.fr/instantiation/-aspace_8e844c5c4140004d3155a958c3674360-i1> .
+
+<http://data.archives-nationales.culture.gouv.fr/instantiation/-aspace_8e844c5c4140004d3155a958c3674360-i1>
+  a ns0:Instantiation ;
+  ns0:instantiates <http://data.archives-nationales.culture.gouv.fr/recordResource/-aspace_8e844c5c4140004d3155a958c3674360> ;
+  ns0:title "Election clippings and pamphlets"@en ;
+  rdfs:label "Election clippings and pamphlets"@en ;
+  ns0:beginningDate "1937"^^xsd:gYear ;
+  ns0:endDate "1950"^^xsd:gYear ;
+  ns0:date "1937-1950"@en ;
+  rdfs:seeAlso <https://www.siv.archives-nationales.culture.gouv.fr/siv/UD/01883/aspace_8e844c5c4140004d3155a958c3674360> .
+
+<http://data.archives-nationales.culture.gouv.fr/recordResource/-aspace_c934d268a3d0e9eb36d0e9e9767d5a6e>
+  a ns0:RecordResource, ns0:RecordSet ;
+  ns0:includedIn <http://data.archives-nationales.culture.gouv.fr/recordResource/-aspace_3309973b88971857a1035b2865848c32> ;
+  ns0:hasRecordSetType <https://www.ica.org/standards/RiC/vocabularies/recordSetTypes#File> ;
+  ns0:title "Socialist Labor Party of America: brochures; pamphlets"@en ;
+  rdfs:label "Socialist Labor Party of America: brochures; pamphlets"@en ;
+  ns0:beginningDate "1931"^^xsd:gYear ;
+  ns0:endDate "1940"^^xsd:gYear ;
+  ns0:date "1931-1940"@en ;
+  ns0:hasInstantiation <http://data.archives-nationales.culture.gouv.fr/instantiation/-aspace_c934d268a3d0e9eb36d0e9e9767d5a6e-i1> .
+
+<http://data.archives-nationales.culture.gouv.fr/instantiation/-aspace_c934d268a3d0e9eb36d0e9e9767d5a6e-i1>
+  a ns0:Instantiation ;
+  ns0:instantiates <http://data.archives-nationales.culture.gouv.fr/recordResource/-aspace_c934d268a3d0e9eb36d0e9e9767d5a6e> ;
+  ns0:title "Socialist Labor Party of America: brochures; pamphlets"@en ;
+  rdfs:label "Socialist Labor Party of America: brochures; pamphlets"@en ;
+  ns0:beginningDate "1931"^^xsd:gYear ;
+  ns0:endDate "1940"^^xsd:gYear ;
+  ns0:date "1931-1940"@en ;
+  rdfs:seeAlso <https://www.siv.archives-nationales.culture.gouv.fr/siv/UD/01883/aspace_c934d268a3d0e9eb36d0e9e9767d5a6e> .
+
+<http://data.archives-nationales.culture.gouv.fr/recordResource/-aspace_cea41ecc7cab24d01177cb762e3d04f2>
+  a ns0:RecordResource, ns0:RecordSet ;
+  ns0:includedIn <http://data.archives-nationales.culture.gouv.fr/recordResource/-aspace_3309973b88971857a1035b2865848c32> ;
+  ns0:hasRecordSetType <https://www.ica.org/standards/RiC/vocabularies/recordSetTypes#File> ;
+  ns0:title "Socialist Labor Party of America: membership packet, Parti Socialiste (France) SFIO"@en ;
+  rdfs:label "Socialist Labor Party of America: membership packet, Parti Socialiste (France) SFIO"@en ;
+  ns0:beginningDate "1932"^^xsd:gYear ;
+  ns0:endDate "1934"^^xsd:gYear ;
+  ns0:date "1932-1934"@en ;
+  ns0:hasInstantiation <http://data.archives-nationales.culture.gouv.fr/instantiation/-aspace_cea41ecc7cab24d01177cb762e3d04f2-i1> .
+
+<http://data.archives-nationales.culture.gouv.fr/instantiation/-aspace_cea41ecc7cab24d01177cb762e3d04f2-i1>
+  a ns0:Instantiation ;
+  ns0:instantiates <http://data.archives-nationales.culture.gouv.fr/recordResource/-aspace_cea41ecc7cab24d01177cb762e3d04f2> ;
+  ns0:title "Socialist Labor Party of America: membership packet, Parti Socialiste (France) SFIO"@en ;
+  rdfs:label "Socialist Labor Party of America: membership packet, Parti Socialiste (France) SFIO"@en ;
+  ns0:beginningDate "1932"^^xsd:gYear ;
+  ns0:endDate "1934"^^xsd:gYear ;
+  ns0:date "1932-1934"@en ;
+  rdfs:seeAlso <https://www.siv.archives-nationales.culture.gouv.fr/siv/UD/01883/aspace_cea41ecc7cab24d01177cb762e3d04f2> .
+
+<http://data.archives-nationales.culture.gouv.fr/recordResource/-aspace_833cd38b6c2ecdd198b23aa73165407a>
+  a ns0:RecordResource, ns0:RecordSet ;
+  ns0:includedIn <http://data.archives-nationales.culture.gouv.fr/recordResource/-aspace_3309973b88971857a1035b2865848c32> ;
+  ns0:hasRecordSetType <https://www.ica.org/standards/RiC/vocabularies/recordSetTypes#File> ;
+  ns0:title "Correspondence, speeches"@en ;
+  rdfs:label "Correspondence, speeches"@en ;
+  ns0:beginningDate "1949"^^xsd:gYear ;
+  ns0:endDate "1952"^^xsd:gYear ;
+  ns0:date "1949-1952"@en ;
+  ns0:hasInstantiation <http://data.archives-nationales.culture.gouv.fr/instantiation/-aspace_833cd38b6c2ecdd198b23aa73165407a-i1> .
+
+<http://data.archives-nationales.culture.gouv.fr/instantiation/-aspace_833cd38b6c2ecdd198b23aa73165407a-i1>
+  a ns0:Instantiation ;
+  ns0:instantiates <http://data.archives-nationales.culture.gouv.fr/recordResource/-aspace_833cd38b6c2ecdd198b23aa73165407a> ;
+  ns0:title "Correspondence, speeches"@en ;
+  rdfs:label "Correspondence, speeches"@en ;
+  ns0:beginningDate "1949"^^xsd:gYear ;
+  ns0:endDate "1952"^^xsd:gYear ;
+  ns0:date "1949-1952"@en ;
+  rdfs:seeAlso <https://www.siv.archives-nationales.culture.gouv.fr/siv/UD/01883/aspace_833cd38b6c2ecdd198b23aa73165407a> .
+
+<http://data.archives-nationales.culture.gouv.fr/recordResource/-aspace_c47a10bd8dad5dffaf1cfa2854283308>
+  a ns0:RecordResource, ns0:RecordSet ;
+  ns0:includedIn <http://data.archives-nationales.culture.gouv.fr/recordResource/-aspace_3309973b88971857a1035b2865848c32> ;
+  ns0:hasRecordSetType <https://www.ica.org/standards/RiC/vocabularies/recordSetTypes#File> ;
+  ns0:title "Social Democratic Federation: National Executive Committee: articles of incorporation; correspondence (including with Algernon Lee); minutes (administrative records)"@en ;
+  rdfs:label "Social Democratic Federation: National Executive Committee: articles of incorporation; correspondence (including with Algernon Lee); minutes (administrative records)"@en ;
+  ns0:beginningDate "1938"^^xsd:gYear ;
+  ns0:endDate "1946"^^xsd:gYear ;
+  ns0:date "1938-1946"@en ;
+  ns0:hasInstantiation <http://data.archives-nationales.culture.gouv.fr/instantiation/-aspace_c47a10bd8dad5dffaf1cfa2854283308-i1> .
+
+<http://data.archives-nationales.culture.gouv.fr/instantiation/-aspace_c47a10bd8dad5dffaf1cfa2854283308-i1>
+  a ns0:Instantiation ;
+  ns0:instantiates <http://data.archives-nationales.culture.gouv.fr/recordResource/-aspace_c47a10bd8dad5dffaf1cfa2854283308> ;
+  ns0:title "Social Democratic Federation: National Executive Committee: articles of incorporation; correspondence (including with Algernon Lee); minutes (administrative records)"@en ;
+  rdfs:label "Social Democratic Federation: National Executive Committee: articles of incorporation; correspondence (including with Algernon Lee); minutes (administrative records)"@en ;
+  ns0:beginningDate "1938"^^xsd:gYear ;
+  ns0:endDate "1946"^^xsd:gYear ;
+  ns0:date "1938-1946"@en ;
+  rdfs:seeAlso <https://www.siv.archives-nationales.culture.gouv.fr/siv/UD/01883/aspace_c47a10bd8dad5dffaf1cfa2854283308> .
+
+<http://data.archives-nationales.culture.gouv.fr/recordResource/-aspace_7bbce66bd60b6c2326ee35abd7912a6d>
+  a ns0:RecordResource, ns0:RecordSet ;
+  ns0:includedIn <http://data.archives-nationales.culture.gouv.fr/recordResource/-aspace_3309973b88971857a1035b2865848c32> ;
+  ns0:hasRecordSetType <https://www.ica.org/standards/RiC/vocabularies/recordSetTypes#File> ;
+  ns0:title "National convention (Chicago, Illinois) proceedings; minutes (administrative records); Socialist newsletter, Hammer & Tongs; Young People's Socialist League minutes (administrative records) and reports"@en ;
+  rdfs:label "National convention (Chicago, Illinois) proceedings; minutes (administrative records); Socialist newsletter, Hammer & Tongs; Young People's Socialist League minutes (administrative records) and reports"@en ;
+  ns0:date "1968"^^xsd:gYear, "1968"@en ;
+  ns0:hasInstantiation <http://data.archives-nationales.culture.gouv.fr/instantiation/-aspace_7bbce66bd60b6c2326ee35abd7912a6d-i1> .
+
+<http://data.archives-nationales.culture.gouv.fr/instantiation/-aspace_7bbce66bd60b6c2326ee35abd7912a6d-i1>
+  a ns0:Instantiation ;
+  ns0:instantiates <http://data.archives-nationales.culture.gouv.fr/recordResource/-aspace_7bbce66bd60b6c2326ee35abd7912a6d> ;
+  ns0:title "National convention (Chicago, Illinois) proceedings; minutes (administrative records); Socialist newsletter, Hammer & Tongs; Young People's Socialist League minutes (administrative records) and reports"@en ;
+  rdfs:label "National convention (Chicago, Illinois) proceedings; minutes (administrative records); Socialist newsletter, Hammer & Tongs; Young People's Socialist League minutes (administrative records) and reports"@en ;
+  ns0:date "1968"^^xsd:gYear, "1968"@en ;
+  rdfs:seeAlso <https://www.siv.archives-nationales.culture.gouv.fr/siv/UD/01883/aspace_7bbce66bd60b6c2326ee35abd7912a6d> .
+
+<http://data.archives-nationales.culture.gouv.fr/recordResource/-aspace_2ed07cbb97aa67c0a1576e29bf3fc5eb>
+  a ns0:RecordResource, ns0:RecordSet ;
+  ns0:includedIn <http://data.archives-nationales.culture.gouv.fr/recordResource/-aspace_3309973b88971857a1035b2865848c32> ;
+  ns0:hasRecordSetType <https://www.ica.org/standards/RiC/vocabularies/recordSetTypes#File> ;
+  ns0:title "National convention (Commodore Hotel, New York) clippings, correspondence and proceedings; Socialist newsletter, Hammer & Tongs"@en ;
+  rdfs:label "National convention (Commodore Hotel, New York) clippings, correspondence and proceedings; Socialist newsletter, Hammer & Tongs"@en ;
+  ns0:date "1970"^^xsd:gYear, "1970"@en ;
+  ns0:hasInstantiation <http://data.archives-nationales.culture.gouv.fr/instantiation/-aspace_2ed07cbb97aa67c0a1576e29bf3fc5eb-i1> .
+
+<http://data.archives-nationales.culture.gouv.fr/instantiation/-aspace_2ed07cbb97aa67c0a1576e29bf3fc5eb-i1>
+  a ns0:Instantiation ;
+  ns0:instantiates <http://data.archives-nationales.culture.gouv.fr/recordResource/-aspace_2ed07cbb97aa67c0a1576e29bf3fc5eb> ;
+  ns0:title "National convention (Commodore Hotel, New York) clippings, correspondence and proceedings; Socialist newsletter, Hammer & Tongs"@en ;
+  rdfs:label "National convention (Commodore Hotel, New York) clippings, correspondence and proceedings; Socialist newsletter, Hammer & Tongs"@en ;
+  ns0:date "1970"^^xsd:gYear, "1970"@en ;
+  rdfs:seeAlso <https://www.siv.archives-nationales.culture.gouv.fr/siv/UD/01883/aspace_2ed07cbb97aa67c0a1576e29bf3fc5eb> .
+
+<http://data.archives-nationales.culture.gouv.fr/recordResource/-aspace_7269c56d9410f01c78cb71054baf7b2b>
+  a ns0:RecordResource, ns0:RecordSet ;
+  ns0:includedIn <http://data.archives-nationales.culture.gouv.fr/recordResource/-aspace_3309973b88971857a1035b2865848c32> ;
+  ns0:hasRecordSetType <https://www.ica.org/standards/RiC/vocabularies/recordSetTypes#File> ;
+  ns0:title "National Action Committee: correspondence; minutes (administrative records)"@en ;
+  rdfs:label "National Action Committee: correspondence; minutes (administrative records)"@en ;
+  ns0:beginningDate "1962"^^xsd:gYear ;
+  ns0:endDate "1972"^^xsd:gYear ;
+  ns0:date "1962-1972"@en ;
+  ns0:hasInstantiation <http://data.archives-nationales.culture.gouv.fr/instantiation/-aspace_7269c56d9410f01c78cb71054baf7b2b-i1> .
+
+<http://data.archives-nationales.culture.gouv.fr/instantiation/-aspace_7269c56d9410f01c78cb71054baf7b2b-i1>
+  a ns0:Instantiation ;
+  ns0:instantiates <http://data.archives-nationales.culture.gouv.fr/recordResource/-aspace_7269c56d9410f01c78cb71054baf7b2b> ;
+  ns0:title "National Action Committee: correspondence; minutes (administrative records)"@en ;
+  rdfs:label "National Action Committee: correspondence; minutes (administrative records)"@en ;
+  ns0:beginningDate "1962"^^xsd:gYear ;
+  ns0:endDate "1972"^^xsd:gYear ;
+  ns0:date "1962-1972"@en ;
+  rdfs:seeAlso <https://www.siv.archives-nationales.culture.gouv.fr/siv/UD/01883/aspace_7269c56d9410f01c78cb71054baf7b2b> .
+
+<http://data.archives-nationales.culture.gouv.fr/recordResource/-aspace_4eb98b6d9e189b4c52651d152745f731>
+  a ns0:RecordResource, ns0:RecordSet ;
+  ns0:includedIn <http://data.archives-nationales.culture.gouv.fr/recordResource/-aspace_3309973b88971857a1035b2865848c32> ;
+  ns0:hasRecordSetType <https://www.ica.org/standards/RiC/vocabularies/recordSetTypes#File> ;
+  ns0:title "Union for Democratic Socialism: correspondence, newsletters"@en ;
+  rdfs:label "Union for Democratic Socialism: correspondence, newsletters"@en ;
+  ns0:date "1972"^^xsd:gYear, "1972"@en ;
+  ns0:hasInstantiation <http://data.archives-nationales.culture.gouv.fr/instantiation/-aspace_4eb98b6d9e189b4c52651d152745f731-i1> .
+
+<http://data.archives-nationales.culture.gouv.fr/instantiation/-aspace_4eb98b6d9e189b4c52651d152745f731-i1>
+  a ns0:Instantiation ;
+  ns0:instantiates <http://data.archives-nationales.culture.gouv.fr/recordResource/-aspace_4eb98b6d9e189b4c52651d152745f731> ;
+  ns0:title "Union for Democratic Socialism: correspondence, newsletters"@en ;
+  rdfs:label "Union for Democratic Socialism: correspondence, newsletters"@en ;
+  ns0:date "1972"^^xsd:gYear, "1972"@en ;
+  rdfs:seeAlso <https://www.siv.archives-nationales.culture.gouv.fr/siv/UD/01883/aspace_4eb98b6d9e189b4c52651d152745f731> .
+
+<http://data.archives-nationales.culture.gouv.fr/recordResource/-aspace_7d524dc4862bbf3ead3fb8e623df9bb6>
+  a ns0:RecordResource, ns0:RecordSet ;
+  ns0:includedIn <http://data.archives-nationales.culture.gouv.fr/recordResource/-aspace_3309973b88971857a1035b2865848c32> ;
+  ns0:hasRecordSetType <https://www.ica.org/standards/RiC/vocabularies/recordSetTypes#File> ;
+  ns0:title "Correspondence; minutes (administrative records); Socialist newsletters, including Hammer & Tongs"@en ;
+  rdfs:label "Correspondence; minutes (administrative records); Socialist newsletters, including Hammer & Tongs"@en ;
+  ns0:beginningDate "1967"^^xsd:gYear ;
+  ns0:endDate "1974"^^xsd:gYear ;
+  ns0:date "1967-1974"@en ;
+  ns0:hasInstantiation <http://data.archives-nationales.culture.gouv.fr/instantiation/-aspace_7d524dc4862bbf3ead3fb8e623df9bb6-i1> .
+
+<http://data.archives-nationales.culture.gouv.fr/instantiation/-aspace_7d524dc4862bbf3ead3fb8e623df9bb6-i1>
+  a ns0:Instantiation ;
+  ns0:instantiates <http://data.archives-nationales.culture.gouv.fr/recordResource/-aspace_7d524dc4862bbf3ead3fb8e623df9bb6> ;
+  ns0:title "Correspondence; minutes (administrative records); Socialist newsletters, including Hammer & Tongs"@en ;
+  rdfs:label "Correspondence; minutes (administrative records); Socialist newsletters, including Hammer & Tongs"@en ;
+  ns0:beginningDate "1967"^^xsd:gYear ;
+  ns0:endDate "1974"^^xsd:gYear ;
+  ns0:date "1967-1974"@en ;
+  rdfs:seeAlso <https://www.siv.archives-nationales.culture.gouv.fr/siv/UD/01883/aspace_7d524dc4862bbf3ead3fb8e623df9bb6> .
+
+<http://data.archives-nationales.culture.gouv.fr/recordResource/-aspace_3e63839674ba3f8f525cbd4f64d4453a>
+  a ns0:RecordResource, ns0:RecordSet ;
+  ns0:includedIn <http://data.archives-nationales.culture.gouv.fr/recordResource/-aspace_3309973b88971857a1035b2865848c32> ;
+  ns0:hasRecordSetType <https://www.ica.org/standards/RiC/vocabularies/recordSetTypes#File> ;
+  ns0:title "National Action Committee: correspondence; minutes (administrative records)"@en ;
+  rdfs:label "National Action Committee: correspondence; minutes (administrative records)"@en ;
+  ns0:beginningDate "1973"^^xsd:gYear ;
+  ns0:endDate "1975"^^xsd:gYear ;
+  ns0:date "1973-1975"@en ;
+  ns0:hasInstantiation <http://data.archives-nationales.culture.gouv.fr/instantiation/-aspace_3e63839674ba3f8f525cbd4f64d4453a-i1> .
+
+<http://data.archives-nationales.culture.gouv.fr/instantiation/-aspace_3e63839674ba3f8f525cbd4f64d4453a-i1>
+  a ns0:Instantiation ;
+  ns0:instantiates <http://data.archives-nationales.culture.gouv.fr/recordResource/-aspace_3e63839674ba3f8f525cbd4f64d4453a> ;
+  ns0:title "National Action Committee: correspondence; minutes (administrative records)"@en ;
+  rdfs:label "National Action Committee: correspondence; minutes (administrative records)"@en ;
+  ns0:beginningDate "1973"^^xsd:gYear ;
+  ns0:endDate "1975"^^xsd:gYear ;
+  ns0:date "1973-1975"@en ;
+  rdfs:seeAlso <https://www.siv.archives-nationales.culture.gouv.fr/siv/UD/01883/aspace_3e63839674ba3f8f525cbd4f64d4453a> .
+
+<http://data.archives-nationales.culture.gouv.fr/recordResource/-aspace_8e53c984d27cd511f69d7e2a803b3022>
+  a ns0:RecordResource, ns0:RecordSet ;
+  ns0:includedIn <http://data.archives-nationales.culture.gouv.fr/recordResource/-aspace_3309973b88971857a1035b2865848c32> ;
+  ns0:hasRecordSetType <https://www.ica.org/standards/RiC/vocabularies/recordSetTypes#File> ;
+  ns0:title "Socialist newsletters, including: Colorado call; Hammer & Tongs; North West call; Philadelphia Observer; Socialist spotlight"@en ;
+  rdfs:label "Socialist newsletters, including: Colorado call; Hammer & Tongs; North West call; Philadelphia Observer; Socialist spotlight"@en ;
+  ns0:beginningDate "1966"^^xsd:gYear ;
+  ns0:endDate "1975"^^xsd:gYear ;
+  ns0:date "1966-1975"@en ;
+  ns0:hasInstantiation <http://data.archives-nationales.culture.gouv.fr/instantiation/-aspace_8e53c984d27cd511f69d7e2a803b3022-i1> .
+
+<http://data.archives-nationales.culture.gouv.fr/instantiation/-aspace_8e53c984d27cd511f69d7e2a803b3022-i1>
+  a ns0:Instantiation ;
+  ns0:instantiates <http://data.archives-nationales.culture.gouv.fr/recordResource/-aspace_8e53c984d27cd511f69d7e2a803b3022> ;
+  ns0:title "Socialist newsletters, including: Colorado call; Hammer & Tongs; North West call; Philadelphia Observer; Socialist spotlight"@en ;
+  rdfs:label "Socialist newsletters, including: Colorado call; Hammer & Tongs; North West call; Philadelphia Observer; Socialist spotlight"@en ;
+  ns0:beginningDate "1966"^^xsd:gYear ;
+  ns0:endDate "1975"^^xsd:gYear ;
+  ns0:date "1966-1975"@en ;
+  rdfs:seeAlso <https://www.siv.archives-nationales.culture.gouv.fr/siv/UD/01883/aspace_8e53c984d27cd511f69d7e2a803b3022> .
+
+<http://data.archives-nationales.culture.gouv.fr/recordResource/-aspace_07b70cc4524b682169696302723e3459>
+  a ns0:RecordResource, ns0:RecordSet ;
+  ns0:includedIn <http://data.archives-nationales.culture.gouv.fr/recordResource/-aspace_3309973b88971857a1035b2865848c32> ;
+  ns0:hasRecordSetType <https://www.ica.org/standards/RiC/vocabularies/recordSetTypes#File> ;
+  ns0:title "Correspondence concerning bequests"@en ;
+  rdfs:label "Correspondence concerning bequests"@en ;
+  ns0:beginningDate "1963"^^xsd:gYear ;
+  ns0:endDate "1975"^^xsd:gYear ;
+  ns0:date "1963-1975"@en ;
+  ns0:hasInstantiation <http://data.archives-nationales.culture.gouv.fr/instantiation/-aspace_07b70cc4524b682169696302723e3459-i1> .
+
+<http://data.archives-nationales.culture.gouv.fr/instantiation/-aspace_07b70cc4524b682169696302723e3459-i1>
+  a ns0:Instantiation ;
+  ns0:instantiates <http://data.archives-nationales.culture.gouv.fr/recordResource/-aspace_07b70cc4524b682169696302723e3459> ;
+  ns0:title "Correspondence concerning bequests"@en ;
+  rdfs:label "Correspondence concerning bequests"@en ;
+  ns0:beginningDate "1963"^^xsd:gYear ;
+  ns0:endDate "1975"^^xsd:gYear ;
+  ns0:date "1963-1975"@en ;
+  rdfs:seeAlso <https://www.siv.archives-nationales.culture.gouv.fr/siv/UD/01883/aspace_07b70cc4524b682169696302723e3459> .
+
+<http://data.archives-nationales.culture.gouv.fr/recordResource/-aspace_c25195940a1d02c6166f9828ce92ac1f>
+  a ns0:RecordResource, ns0:RecordSet ;
+  ns0:includedIn <http://data.archives-nationales.culture.gouv.fr/recordResource/-aspace_3309973b88971857a1035b2865848c32> ;
+  ns0:hasRecordSetType <https://www.ica.org/standards/RiC/vocabularies/recordSetTypes#File> ;
+  ns0:title "Social Democratic Federation: brochures; correspondence"@en ;
+  rdfs:label "Social Democratic Federation: brochures; correspondence"@en ;
+  ns0:beginningDate "1956"^^xsd:gYear ;
+  ns0:endDate "1960"^^xsd:gYear ;
+  ns0:date "1956-1960"@en ;
+  ns0:hasInstantiation <http://data.archives-nationales.culture.gouv.fr/instantiation/-aspace_c25195940a1d02c6166f9828ce92ac1f-i1> .
+
+<http://data.archives-nationales.culture.gouv.fr/instantiation/-aspace_c25195940a1d02c6166f9828ce92ac1f-i1>
+  a ns0:Instantiation ;
+  ns0:instantiates <http://data.archives-nationales.culture.gouv.fr/recordResource/-aspace_c25195940a1d02c6166f9828ce92ac1f> ;
+  ns0:title "Social Democratic Federation: brochures; correspondence"@en ;
+  rdfs:label "Social Democratic Federation: brochures; correspondence"@en ;
+  ns0:beginningDate "1956"^^xsd:gYear ;
+  ns0:endDate "1960"^^xsd:gYear ;
+  ns0:date "1956-1960"@en ;
+  rdfs:seeAlso <https://www.siv.archives-nationales.culture.gouv.fr/siv/UD/01883/aspace_c25195940a1d02c6166f9828ce92ac1f> .
+
+<http://data.archives-nationales.culture.gouv.fr/recordResource/-aspace_da6a1f37247c4d154c899330c013c5ab>
+  a ns0:RecordResource, ns0:RecordSet ;
+  ns0:includedIn <http://data.archives-nationales.culture.gouv.fr/recordResource/-aspace_3309973b88971857a1035b2865848c32> ;
+  ns0:hasRecordSetType <https://www.ica.org/standards/RiC/vocabularies/recordSetTypes#File> ;
+  ns0:title "National Action Committee: correspondence; minutes (administrative records)"@en ;
+  rdfs:label "National Action Committee: correspondence; minutes (administrative records)"@en ;
+  ns0:beginningDate "1959"^^xsd:gYear ;
+  ns0:endDate "1960"^^xsd:gYear ;
+  ns0:date "1959-1960"@en ;
+  ns0:hasInstantiation <http://data.archives-nationales.culture.gouv.fr/instantiation/-aspace_da6a1f37247c4d154c899330c013c5ab-i1> .
+
+<http://data.archives-nationales.culture.gouv.fr/instantiation/-aspace_da6a1f37247c4d154c899330c013c5ab-i1>
+  a ns0:Instantiation ;
+  ns0:instantiates <http://data.archives-nationales.culture.gouv.fr/recordResource/-aspace_da6a1f37247c4d154c899330c013c5ab> ;
+  ns0:title "National Action Committee: correspondence; minutes (administrative records)"@en ;
+  rdfs:label "National Action Committee: correspondence; minutes (administrative records)"@en ;
+  ns0:beginningDate "1959"^^xsd:gYear ;
+  ns0:endDate "1960"^^xsd:gYear ;
+  ns0:date "1959-1960"@en ;
+  rdfs:seeAlso <https://www.siv.archives-nationales.culture.gouv.fr/siv/UD/01883/aspace_da6a1f37247c4d154c899330c013c5ab> .
+
+<http://data.archives-nationales.culture.gouv.fr/recordResource/-aspace_a429be7170f979624c5b1be00fe6bfde>
+  a ns0:RecordResource, ns0:RecordSet ;
+  ns0:includedIn <http://data.archives-nationales.culture.gouv.fr/recordResource/-aspace_3309973b88971857a1035b2865848c32> ;
+  ns0:hasRecordSetType <https://www.ica.org/standards/RiC/vocabularies/recordSetTypes#File> ;
+  ns0:title "Correspondence, election clippings and memorandums"@en ;
+  rdfs:label "Correspondence, election clippings and memorandums"@en ;
+  ns0:date "circa 1955"@en ;
+  ns0:hasInstantiation <http://data.archives-nationales.culture.gouv.fr/instantiation/-aspace_a429be7170f979624c5b1be00fe6bfde-i1> .
+
+<http://data.archives-nationales.culture.gouv.fr/instantiation/-aspace_a429be7170f979624c5b1be00fe6bfde-i1>
+  a ns0:Instantiation ;
+  ns0:instantiates <http://data.archives-nationales.culture.gouv.fr/recordResource/-aspace_a429be7170f979624c5b1be00fe6bfde> ;
+  ns0:title "Correspondence, election clippings and memorandums"@en ;
+  rdfs:label "Correspondence, election clippings and memorandums"@en ;
+  ns0:date "circa 1955"@en ;
+  rdfs:seeAlso <https://www.siv.archives-nationales.culture.gouv.fr/siv/UD/01883/aspace_a429be7170f979624c5b1be00fe6bfde> .
+
+<http://data.archives-nationales.culture.gouv.fr/recordResource/-aspace_768fcb97a80cc2324a018a45d9e83397>
+  a ns0:RecordResource, ns0:RecordSet ;
+  ns0:includedIn <http://data.archives-nationales.culture.gouv.fr/recordResource/-aspace_3309973b88971857a1035b2865848c32> ;
+  ns0:hasRecordSetType <https://www.ica.org/standards/RiC/vocabularies/recordSetTypes#File> ;
+  ns0:title "Social Democratic Federation: brochures; correspondence"@en ;
+  rdfs:label "Social Democratic Federation: brochures; correspondence"@en ;
+  ns0:beginningDate "1960"^^xsd:gYear ;
+  ns0:endDate "1962"^^xsd:gYear ;
+  ns0:date "1960-1962"@en ;
+  ns0:hasInstantiation <http://data.archives-nationales.culture.gouv.fr/instantiation/-aspace_768fcb97a80cc2324a018a45d9e83397-i1> .
+
+<http://data.archives-nationales.culture.gouv.fr/instantiation/-aspace_768fcb97a80cc2324a018a45d9e83397-i1>
+  a ns0:Instantiation ;
+  ns0:instantiates <http://data.archives-nationales.culture.gouv.fr/recordResource/-aspace_768fcb97a80cc2324a018a45d9e83397> ;
+  ns0:title "Social Democratic Federation: brochures; correspondence"@en ;
+  rdfs:label "Social Democratic Federation: brochures; correspondence"@en ;
+  ns0:beginningDate "1960"^^xsd:gYear ;
+  ns0:endDate "1962"^^xsd:gYear ;
+  ns0:date "1960-1962"@en ;
+  rdfs:seeAlso <https://www.siv.archives-nationales.culture.gouv.fr/siv/UD/01883/aspace_768fcb97a80cc2324a018a45d9e83397> .
+
+<http://data.archives-nationales.culture.gouv.fr/recordResource/-aspace_c761b54e89651a92582e77ba7c53a69f>
+  a ns0:RecordResource, ns0:RecordSet ;
+  ns0:includedIn <http://data.archives-nationales.culture.gouv.fr/recordResource/-aspace_3309973b88971857a1035b2865848c32> ;
+  ns0:hasRecordSetType <https://www.ica.org/standards/RiC/vocabularies/recordSetTypes#File> ;
+  ns0:title "National Executive Committee correspondence; Socialist newsletters, including Share Croppers' Voice (Southern Tenant Farmers' Union)"@en ;
+  rdfs:label "National Executive Committee correspondence; Socialist newsletters, including Share Croppers' Voice (Southern Tenant Farmers' Union)"@en ;
+  ns0:beginningDate "1934"^^xsd:gYear ;
+  ns0:endDate "1935"^^xsd:gYear ;
+  ns0:date "1934-1935"@en ;
+  ns0:hasInstantiation <http://data.archives-nationales.culture.gouv.fr/instantiation/-aspace_c761b54e89651a92582e77ba7c53a69f-i1> .
+
+<http://data.archives-nationales.culture.gouv.fr/instantiation/-aspace_c761b54e89651a92582e77ba7c53a69f-i1>
+  a ns0:Instantiation ;
+  ns0:instantiates <http://data.archives-nationales.culture.gouv.fr/recordResource/-aspace_c761b54e89651a92582e77ba7c53a69f> ;
+  ns0:title "National Executive Committee correspondence; Socialist newsletters, including Share Croppers' Voice (Southern Tenant Farmers' Union)"@en ;
+  rdfs:label "National Executive Committee correspondence; Socialist newsletters, including Share Croppers' Voice (Southern Tenant Farmers' Union)"@en ;
+  ns0:beginningDate "1934"^^xsd:gYear ;
+  ns0:endDate "1935"^^xsd:gYear ;
+  ns0:date "1934-1935"@en ;
+  rdfs:seeAlso <https://www.siv.archives-nationales.culture.gouv.fr/siv/UD/01883/aspace_c761b54e89651a92582e77ba7c53a69f> .
+
+<http://data.archives-nationales.culture.gouv.fr/recordResource/-aspace_6892cf5577fdae6f55847b6026482645>
+  a ns0:RecordResource, ns0:RecordSet ;
+  ns0:includedIn <http://data.archives-nationales.culture.gouv.fr/recordResource/-aspace_3309973b88971857a1035b2865848c32> ;
+  ns0:hasRecordSetType <https://www.ica.org/standards/RiC/vocabularies/recordSetTypes#File> ;
+  ns0:title "Correspondence"@en ;
+  rdfs:label "Correspondence"@en ;
+  ns0:beginningDate "1964"^^xsd:gYear ;
+  ns0:endDate "1967"^^xsd:gYear ;
+  ns0:date "1964-1967"@en ;
+  ns0:hasInstantiation <http://data.archives-nationales.culture.gouv.fr/instantiation/-aspace_6892cf5577fdae6f55847b6026482645-i1> .
+
+<http://data.archives-nationales.culture.gouv.fr/instantiation/-aspace_6892cf5577fdae6f55847b6026482645-i1>
+  a ns0:Instantiation ;
+  ns0:instantiates <http://data.archives-nationales.culture.gouv.fr/recordResource/-aspace_6892cf5577fdae6f55847b6026482645> ;
+  ns0:title "Correspondence"@en ;
+  rdfs:label "Correspondence"@en ;
+  ns0:beginningDate "1964"^^xsd:gYear ;
+  ns0:endDate "1967"^^xsd:gYear ;
+  ns0:date "1964-1967"@en ;
+  rdfs:seeAlso <https://www.siv.archives-nationales.culture.gouv.fr/siv/UD/01883/aspace_6892cf5577fdae6f55847b6026482645> .
+
+<http://data.archives-nationales.culture.gouv.fr/recordResource/-aspace_b141608d716f606b7763860ef7801c67>
+  a ns0:RecordResource, ns0:RecordSet ;
+  ns0:includedIn <http://data.archives-nationales.culture.gouv.fr/recordResource/-top> ;
+  ns0:hasRecordSetType <https://www.ica.org/standards/RiC/vocabularies/recordSetTypes#Series> ;
+  ns0:title "Socialist Party of Pennsylvania"@en ;
+  rdfs:label "Socialist Party of Pennsylvania"@en ;
+  ns0:beginningDate "1920"^^xsd:gYear ;
+  ns0:endDate "1952"^^xsd:gYear ;
+  ns0:date "1920-1952"@en ;
+  ns0:hasInstantiation <http://data.archives-nationales.culture.gouv.fr/instantiation/-aspace_b141608d716f606b7763860ef7801c67-i1> ;
+  ns0:includes <http://data.archives-nationales.culture.gouv.fr/recordResource/-aspace_87b66d10b27ea0be3f35603c2a1bd6e8>, <http://data.archives-nationales.culture.gouv.fr/recordResource/-aspace_485a48ed23dc996a5e31549d276313c4>, <http://data.archives-nationales.culture.gouv.fr/recordResource/-aspace_b681e16eee38df9487dfe1c983f12918>, <http://data.archives-nationales.culture.gouv.fr/recordResource/-aspace_3e0cf0ebee8663a0fc42695dc62c0c79>, <http://data.archives-nationales.culture.gouv.fr/recordResource/-aspace_920569d0c284cefdc0f51b62ea7805c7>, <http://data.archives-nationales.culture.gouv.fr/recordResource/-aspace_092bf1543e91de69077a5c36df8c9dc2>, <http://data.archives-nationales.culture.gouv.fr/recordResource/-aspace_c040a385a1cf992642efe944f257f89f>, <http://data.archives-nationales.culture.gouv.fr/recordResource/-aspace_790a1db77922d8df2e2d8d21ca865af5>, <http://data.archives-nationales.culture.gouv.fr/recordResource/-aspace_bdfa3b60873fafaf2b8a1c8ef3df0116> .
+
+<http://data.archives-nationales.culture.gouv.fr/instantiation/-aspace_b141608d716f606b7763860ef7801c67-i1>
+  a ns0:Instantiation ;
+  ns0:instantiates <http://data.archives-nationales.culture.gouv.fr/recordResource/-aspace_b141608d716f606b7763860ef7801c67> ;
+  ns0:title "Socialist Party of Pennsylvania"@en ;
+  rdfs:label "Socialist Party of Pennsylvania"@en ;
+  ns0:identifier "2" ;
+  ns0:beginningDate "1920"^^xsd:gYear ;
+  ns0:endDate "1952"^^xsd:gYear ;
+  ns0:date "1920-1952"@en ;
+  rdfs:seeAlso <https://www.siv.archives-nationales.culture.gouv.fr/siv/UD/01883/aspace_b141608d716f606b7763860ef7801c67> .
+
+<http://data.archives-nationales.culture.gouv.fr/recordResource/-aspace_87b66d10b27ea0be3f35603c2a1bd6e8>
+  a ns0:RecordResource, ns0:RecordSet ;
+  ns0:includedIn <http://data.archives-nationales.culture.gouv.fr/recordResource/-aspace_b141608d716f606b7763860ef7801c67> ;
+  ns0:hasRecordSetType <https://www.ica.org/standards/RiC/vocabularies/recordSetTypes#File> ;
+  ns0:title "Pennsylvania State Executive Committee: correspondence; financial statements; minutes (administrative records)"@en ;
+  rdfs:label "Pennsylvania State Executive Committee: correspondence; financial statements; minutes (administrative records)"@en ;
+  ns0:beginningDate "1920"^^xsd:gYear ;
+  ns0:endDate "1932"^^xsd:gYear ;
+  ns0:date "1920-1932"@en ;
+  ns0:hasInstantiation <http://data.archives-nationales.culture.gouv.fr/instantiation/-aspace_87b66d10b27ea0be3f35603c2a1bd6e8-i1> .
+
+<http://data.archives-nationales.culture.gouv.fr/instantiation/-aspace_87b66d10b27ea0be3f35603c2a1bd6e8-i1>
+  a ns0:Instantiation ;
+  ns0:instantiates <http://data.archives-nationales.culture.gouv.fr/recordResource/-aspace_87b66d10b27ea0be3f35603c2a1bd6e8> ;
+  ns0:title "Pennsylvania State Executive Committee: correspondence; financial statements; minutes (administrative records)"@en ;
+  rdfs:label "Pennsylvania State Executive Committee: correspondence; financial statements; minutes (administrative records)"@en ;
+  ns0:beginningDate "1920"^^xsd:gYear ;
+  ns0:endDate "1932"^^xsd:gYear ;
+  ns0:date "1920-1932"@en ;
+  rdfs:seeAlso <https://www.siv.archives-nationales.culture.gouv.fr/siv/UD/01883/aspace_87b66d10b27ea0be3f35603c2a1bd6e8> .
+
+<http://data.archives-nationales.culture.gouv.fr/recordResource/-aspace_485a48ed23dc996a5e31549d276313c4>
+  a ns0:RecordResource, ns0:RecordSet ;
+  ns0:includedIn <http://data.archives-nationales.culture.gouv.fr/recordResource/-aspace_b141608d716f606b7763860ef7801c67> ;
+  ns0:hasRecordSetType <https://www.ica.org/standards/RiC/vocabularies/recordSetTypes#File> ;
+  ns0:title "Pennsylvania State Executive Committee: correspondence; financial statements; minutes (administrative records)"@en ;
+  rdfs:label "Pennsylvania State Executive Committee: correspondence; financial statements; minutes (administrative records)"@en ;
+  ns0:beginningDate "1931"^^xsd:gYear ;
+  ns0:endDate "1934"^^xsd:gYear ;
+  ns0:date "1931-1934"@en ;
+  ns0:hasInstantiation <http://data.archives-nationales.culture.gouv.fr/instantiation/-aspace_485a48ed23dc996a5e31549d276313c4-i1> .
+
+<http://data.archives-nationales.culture.gouv.fr/instantiation/-aspace_485a48ed23dc996a5e31549d276313c4-i1>
+  a ns0:Instantiation ;
+  ns0:instantiates <http://data.archives-nationales.culture.gouv.fr/recordResource/-aspace_485a48ed23dc996a5e31549d276313c4> ;
+  ns0:title "Pennsylvania State Executive Committee: correspondence; financial statements; minutes (administrative records)"@en ;
+  rdfs:label "Pennsylvania State Executive Committee: correspondence; financial statements; minutes (administrative records)"@en ;
+  ns0:beginningDate "1931"^^xsd:gYear ;
+  ns0:endDate "1934"^^xsd:gYear ;
+  ns0:date "1931-1934"@en ;
+  rdfs:seeAlso <https://www.siv.archives-nationales.culture.gouv.fr/siv/UD/01883/aspace_485a48ed23dc996a5e31549d276313c4> .
+
+<http://data.archives-nationales.culture.gouv.fr/recordResource/-aspace_b681e16eee38df9487dfe1c983f12918>
+  a ns0:RecordResource, ns0:RecordSet ;
+  ns0:includedIn <http://data.archives-nationales.culture.gouv.fr/recordResource/-aspace_b141608d716f606b7763860ef7801c67> ;
+  ns0:hasRecordSetType <https://www.ica.org/standards/RiC/vocabularies/recordSetTypes#File> ;
+  ns0:title "Membership lists"@en ;
+  rdfs:label "Membership lists"@en ;
+  ns0:beginningDate "1930"^^xsd:gYear ;
+  ns0:endDate "1934"^^xsd:gYear ;
+  ns0:date "1930-1934"@en ;
+  ns0:hasInstantiation <http://data.archives-nationales.culture.gouv.fr/instantiation/-aspace_b681e16eee38df9487dfe1c983f12918-i1> .
+
+<http://data.archives-nationales.culture.gouv.fr/instantiation/-aspace_b681e16eee38df9487dfe1c983f12918-i1>
+  a ns0:Instantiation ;
+  ns0:instantiates <http://data.archives-nationales.culture.gouv.fr/recordResource/-aspace_b681e16eee38df9487dfe1c983f12918> ;
+  ns0:title "Membership lists"@en ;
+  rdfs:label "Membership lists"@en ;
+  ns0:beginningDate "1930"^^xsd:gYear ;
+  ns0:endDate "1934"^^xsd:gYear ;
+  ns0:date "1930-1934"@en ;
+  rdfs:seeAlso <https://www.siv.archives-nationales.culture.gouv.fr/siv/UD/01883/aspace_b681e16eee38df9487dfe1c983f12918> .
+
+<http://data.archives-nationales.culture.gouv.fr/recordResource/-aspace_3e0cf0ebee8663a0fc42695dc62c0c79>
+  a ns0:RecordResource, ns0:RecordSet ;
+  ns0:includedIn <http://data.archives-nationales.culture.gouv.fr/recordResource/-aspace_b141608d716f606b7763860ef7801c67> ;
+  ns0:hasRecordSetType <https://www.ica.org/standards/RiC/vocabularies/recordSetTypes#File> ;
+  ns0:title "Membership lists"@en ;
+  rdfs:label "Membership lists"@en ;
+  ns0:beginningDate "1948"^^xsd:gYear ;
+  ns0:endDate "1950"^^xsd:gYear ;
+  ns0:date "1948-1950"@en ;
+  ns0:hasInstantiation <http://data.archives-nationales.culture.gouv.fr/instantiation/-aspace_3e0cf0ebee8663a0fc42695dc62c0c79-i1> .
+
+<http://data.archives-nationales.culture.gouv.fr/instantiation/-aspace_3e0cf0ebee8663a0fc42695dc62c0c79-i1>
+  a ns0:Instantiation ;
+  ns0:instantiates <http://data.archives-nationales.culture.gouv.fr/recordResource/-aspace_3e0cf0ebee8663a0fc42695dc62c0c79> ;
+  ns0:title "Membership lists"@en ;
+  rdfs:label "Membership lists"@en ;
+  ns0:beginningDate "1948"^^xsd:gYear ;
+  ns0:endDate "1950"^^xsd:gYear ;
+  ns0:date "1948-1950"@en ;
+  rdfs:seeAlso <https://www.siv.archives-nationales.culture.gouv.fr/siv/UD/01883/aspace_3e0cf0ebee8663a0fc42695dc62c0c79> .
+
+<http://data.archives-nationales.culture.gouv.fr/recordResource/-aspace_920569d0c284cefdc0f51b62ea7805c7>
+  a ns0:RecordResource, ns0:RecordSet ;
+  ns0:includedIn <http://data.archives-nationales.culture.gouv.fr/recordResource/-aspace_b141608d716f606b7763860ef7801c67> ;
+  ns0:hasRecordSetType <https://www.ica.org/standards/RiC/vocabularies/recordSetTypes#File> ;
+  ns0:title "Pennsylvania State Executive Committee: correspondence; financial statements; minutes (administrative records)"@en ;
+  rdfs:label "Pennsylvania State Executive Committee: correspondence; financial statements; minutes (administrative records)"@en ;
+  ns0:beginningDate "1950"^^xsd:gYear ;
+  ns0:endDate "1952"^^xsd:gYear ;
+  ns0:date "1950-1952"@en ;
+  ns0:hasInstantiation <http://data.archives-nationales.culture.gouv.fr/instantiation/-aspace_920569d0c284cefdc0f51b62ea7805c7-i1> .
+
+<http://data.archives-nationales.culture.gouv.fr/instantiation/-aspace_920569d0c284cefdc0f51b62ea7805c7-i1>
+  a ns0:Instantiation ;
+  ns0:instantiates <http://data.archives-nationales.culture.gouv.fr/recordResource/-aspace_920569d0c284cefdc0f51b62ea7805c7> ;
+  ns0:title "Pennsylvania State Executive Committee: correspondence; financial statements; minutes (administrative records)"@en ;
+  rdfs:label "Pennsylvania State Executive Committee: correspondence; financial statements; minutes (administrative records)"@en ;
+  ns0:beginningDate "1950"^^xsd:gYear ;
+  ns0:endDate "1952"^^xsd:gYear ;
+  ns0:date "1950-1952"@en ;
+  rdfs:seeAlso <https://www.siv.archives-nationales.culture.gouv.fr/siv/UD/01883/aspace_920569d0c284cefdc0f51b62ea7805c7> .
+
+<http://data.archives-nationales.culture.gouv.fr/recordResource/-aspace_092bf1543e91de69077a5c36df8c9dc2>
+  a ns0:RecordResource, ns0:RecordSet ;
+  ns0:includedIn <http://data.archives-nationales.culture.gouv.fr/recordResource/-aspace_b141608d716f606b7763860ef7801c67> ;
+  ns0:hasRecordSetType <https://www.ica.org/standards/RiC/vocabularies/recordSetTypes#File> ;
+  ns0:title "Correspondence"@en ;
+  rdfs:label "Correspondence"@en ;
+  ns0:beginningDate "1940"^^xsd:gYear ;
+  ns0:endDate "1950"^^xsd:gYear ;
+  ns0:date "1940-1950"@en ;
+  ns0:hasInstantiation <http://data.archives-nationales.culture.gouv.fr/instantiation/-aspace_092bf1543e91de69077a5c36df8c9dc2-i1> .
+
+<http://data.archives-nationales.culture.gouv.fr/instantiation/-aspace_092bf1543e91de69077a5c36df8c9dc2-i1>
+  a ns0:Instantiation ;
+  ns0:instantiates <http://data.archives-nationales.culture.gouv.fr/recordResource/-aspace_092bf1543e91de69077a5c36df8c9dc2> ;
+  ns0:title "Correspondence"@en ;
+  rdfs:label "Correspondence"@en ;
+  ns0:beginningDate "1940"^^xsd:gYear ;
+  ns0:endDate "1950"^^xsd:gYear ;
+  ns0:date "1940-1950"@en ;
+  rdfs:seeAlso <https://www.siv.archives-nationales.culture.gouv.fr/siv/UD/01883/aspace_092bf1543e91de69077a5c36df8c9dc2> .
+
+<http://data.archives-nationales.culture.gouv.fr/recordResource/-aspace_c040a385a1cf992642efe944f257f89f>
+  a ns0:RecordResource, ns0:RecordSet ;
+  ns0:includedIn <http://data.archives-nationales.culture.gouv.fr/recordResource/-aspace_b141608d716f606b7763860ef7801c67> ;
+  ns0:hasRecordSetType <https://www.ica.org/standards/RiC/vocabularies/recordSetTypes#File> ;
+  ns0:title "Bulletins; clippings; correspondence; illustrated flier protesting the political ignorance and prejudice of the American economic circus"@en ;
+  rdfs:label "Bulletins; clippings; correspondence; illustrated flier protesting the political ignorance and prejudice of the American economic circus"@en ;
+  ns0:beginningDate "1932"^^xsd:gYear ;
+  ns0:endDate "1942"^^xsd:gYear ;
+  ns0:date "1932-1942"@en ;
+  ns0:hasInstantiation <http://data.archives-nationales.culture.gouv.fr/instantiation/-aspace_c040a385a1cf992642efe944f257f89f-i1> .
+
+<http://data.archives-nationales.culture.gouv.fr/instantiation/-aspace_c040a385a1cf992642efe944f257f89f-i1>
+  a ns0:Instantiation ;
+  ns0:instantiates <http://data.archives-nationales.culture.gouv.fr/recordResource/-aspace_c040a385a1cf992642efe944f257f89f> ;
+  ns0:title "Bulletins; clippings; correspondence; illustrated flier protesting the political ignorance and prejudice of the American economic circus"@en ;
+  rdfs:label "Bulletins; clippings; correspondence; illustrated flier protesting the political ignorance and prejudice of the American economic circus"@en ;
+  ns0:beginningDate "1932"^^xsd:gYear ;
+  ns0:endDate "1942"^^xsd:gYear ;
+  ns0:date "1932-1942"@en ;
+  rdfs:seeAlso <https://www.siv.archives-nationales.culture.gouv.fr/siv/UD/01883/aspace_c040a385a1cf992642efe944f257f89f> .
+
+<http://data.archives-nationales.culture.gouv.fr/recordResource/-aspace_790a1db77922d8df2e2d8d21ca865af5>
+  a ns0:RecordResource, ns0:RecordSet ;
+  ns0:includedIn <http://data.archives-nationales.culture.gouv.fr/recordResource/-aspace_b141608d716f606b7763860ef7801c67> ;
+  ns0:hasRecordSetType <https://www.ica.org/standards/RiC/vocabularies/recordSetTypes#File> ;
+  ns0:title "Correspondence"@en ;
+  rdfs:label "Correspondence"@en ;
+  ns0:beginningDate "1934"^^xsd:gYear ;
+  ns0:endDate "1937"^^xsd:gYear ;
+  ns0:date "1934-1937"@en ;
+  ns0:hasInstantiation <http://data.archives-nationales.culture.gouv.fr/instantiation/-aspace_790a1db77922d8df2e2d8d21ca865af5-i1> .
+
+<http://data.archives-nationales.culture.gouv.fr/instantiation/-aspace_790a1db77922d8df2e2d8d21ca865af5-i1>
+  a ns0:Instantiation ;
+  ns0:instantiates <http://data.archives-nationales.culture.gouv.fr/recordResource/-aspace_790a1db77922d8df2e2d8d21ca865af5> ;
+  ns0:title "Correspondence"@en ;
+  rdfs:label "Correspondence"@en ;
+  ns0:beginningDate "1934"^^xsd:gYear ;
+  ns0:endDate "1937"^^xsd:gYear ;
+  ns0:date "1934-1937"@en ;
+  rdfs:seeAlso <https://www.siv.archives-nationales.culture.gouv.fr/siv/UD/01883/aspace_790a1db77922d8df2e2d8d21ca865af5> .
+
+<http://data.archives-nationales.culture.gouv.fr/recordResource/-aspace_bdfa3b60873fafaf2b8a1c8ef3df0116>
+  a ns0:RecordResource, ns0:RecordSet ;
+  ns0:includedIn <http://data.archives-nationales.culture.gouv.fr/recordResource/-aspace_b141608d716f606b7763860ef7801c67> ;
+  ns0:hasRecordSetType <https://www.ica.org/standards/RiC/vocabularies/recordSetTypes#File> ;
+  ns0:title "Bills (legislative records) introduced by Hoopes to the Pennsylvania General Assembly, House of Representatives"@en ;
+  rdfs:label "Bills (legislative records) introduced by Hoopes to the Pennsylvania General Assembly, House of Representatives"@en ;
+  ns0:beginningDate "1931"^^xsd:gYear ;
+  ns0:endDate "1936"^^xsd:gYear ;
+  ns0:date "1931-1936"@en ;
+  ns0:hasInstantiation <http://data.archives-nationales.culture.gouv.fr/instantiation/-aspace_bdfa3b60873fafaf2b8a1c8ef3df0116-i1> .
+
+<http://data.archives-nationales.culture.gouv.fr/instantiation/-aspace_bdfa3b60873fafaf2b8a1c8ef3df0116-i1>
+  a ns0:Instantiation ;
+  ns0:instantiates <http://data.archives-nationales.culture.gouv.fr/recordResource/-aspace_bdfa3b60873fafaf2b8a1c8ef3df0116> ;
+  ns0:title "Bills (legislative records) introduced by Hoopes to the Pennsylvania General Assembly, House of Representatives"@en ;
+  rdfs:label "Bills (legislative records) introduced by Hoopes to the Pennsylvania General Assembly, House of Representatives"@en ;
+  ns0:beginningDate "1931"^^xsd:gYear ;
+  ns0:endDate "1936"^^xsd:gYear ;
+  ns0:date "1931-1936"@en ;
+  rdfs:seeAlso <https://www.siv.archives-nationales.culture.gouv.fr/siv/UD/01883/aspace_bdfa3b60873fafaf2b8a1c8ef3df0116> .
+
+<http://data.archives-nationales.culture.gouv.fr/recordResource/-aspace_594e587c25103aef6e5d6e86ff1c6bd5>
+  a ns0:RecordResource, ns0:RecordSet ;
+  ns0:includedIn <http://data.archives-nationales.culture.gouv.fr/recordResource/-top> ;
+  ns0:hasRecordSetType <https://www.ica.org/standards/RiC/vocabularies/recordSetTypes#Series> ;
+  ns0:title "Local Berks County, Socialist Party of Pennsylvania (Reading, Pennsylvania)"@en ;
+  rdfs:label "Local Berks County, Socialist Party of Pennsylvania (Reading, Pennsylvania)"@en ;
+  ns0:beginningDate "1910"^^xsd:gYear ;
+  ns0:endDate "1975"^^xsd:gYear ;
+  ns0:date "1910-1975"@en ;
+  ns0:hasInstantiation <http://data.archives-nationales.culture.gouv.fr/instantiation/-aspace_594e587c25103aef6e5d6e86ff1c6bd5-i1> ;
+  ns0:includes <http://data.archives-nationales.culture.gouv.fr/recordResource/-aspace_15a6ef9eb3c0d471abe70a42ce784e3c>, <http://data.archives-nationales.culture.gouv.fr/recordResource/-aspace_3a463664d185883daf4b842c001f4560>, <http://data.archives-nationales.culture.gouv.fr/recordResource/-aspace_316d00c3b93a8fd9cd030c91c748e4d8>, <http://data.archives-nationales.culture.gouv.fr/recordResource/-aspace_c5d79ff916f8529f57bf0587694c9013>, <http://data.archives-nationales.culture.gouv.fr/recordResource/-aspace_f2b2ed5bd607ae86ab76139354d3d503>, <http://data.archives-nationales.culture.gouv.fr/recordResource/-aspace_c83c50eee4e33a753e94d2a46cf6e171>, <http://data.archives-nationales.culture.gouv.fr/recordResource/-aspace_262421fc5a9f3a63975b159a31af66f3>, <http://data.archives-nationales.culture.gouv.fr/recordResource/-aspace_40c176e8c3f9f4614dc541fdef5e3b04>, <http://data.archives-nationales.culture.gouv.fr/recordResource/-aspace_16123da7e78c262ea382909b5a16b630>, <http://data.archives-nationales.culture.gouv.fr/recordResource/-aspace_43548711a1e3ed9845687bbe84131428>, <http://data.archives-nationales.culture.gouv.fr/recordResource/-aspace_d10f2f96d99a425d158daf71dbca6257>, <http://data.archives-nationales.culture.gouv.fr/recordResource/-aspace_56ee2cd2bb89f843073ccf4cfc150e25>, <http://data.archives-nationales.culture.gouv.fr/recordResource/-aspace_7f8776dd809d63050a7bf383eaf8e481>, <http://data.archives-nationales.culture.gouv.fr/recordResource/-aspace_9110adc6e1a5d21a8afc06ef5029116a>, <http://data.archives-nationales.culture.gouv.fr/recordResource/-aspace_67a54eac256ef1300c92562646a696d9>, <http://data.archives-nationales.culture.gouv.fr/recordResource/-aspace_c0b359fc2f8590f0e3863d9876e4d719>, <http://data.archives-nationales.culture.gouv.fr/recordResource/-aspace_ac6c1fc9836d8d912c2a24da056d5526>, <http://data.archives-nationales.culture.gouv.fr/recordResource/-aspace_4c8ffb7aa1eb9812818b510024566319>, <http://data.archives-nationales.culture.gouv.fr/recordResource/-aspace_cf5adf52df84e642646f9c916fa33248>, <http://data.archives-nationales.culture.gouv.fr/recordResource/-aspace_b0d6e7e740e4ea8e522c6b5b2ad067e8>, <http://data.archives-nationales.culture.gouv.fr/recordResource/-aspace_414575adcc6e5a2a4ab67fb2bb391f46>, <http://data.archives-nationales.culture.gouv.fr/recordResource/-aspace_5900c873f507905b6d5e11e50fb7c2a1>, <http://data.archives-nationales.culture.gouv.fr/recordResource/-aspace_daaaab044d7cb94fb2ef5f70c7a57a56>, <http://data.archives-nationales.culture.gouv.fr/recordResource/-aspace_8edda061086a30fbb2a99fb57f0745ad>, <http://data.archives-nationales.culture.gouv.fr/recordResource/-aspace_e29dc42a196dab69f1be07f9e80cb7f9>, <http://data.archives-nationales.culture.gouv.fr/recordResource/-aspace_a1a7b08c7bae68b62e16ed52e8b21ab0>, <http://data.archives-nationales.culture.gouv.fr/recordResource/-aspace_a558bfbea716150f5f7211a074f38233>, <http://data.archives-nationales.culture.gouv.fr/recordResource/-aspace_82ac0bd776a94d4c37a0af8a61a422e3> .
+
+<http://data.archives-nationales.culture.gouv.fr/instantiation/-aspace_594e587c25103aef6e5d6e86ff1c6bd5-i1>
+  a ns0:Instantiation ;
+  ns0:instantiates <http://data.archives-nationales.culture.gouv.fr/recordResource/-aspace_594e587c25103aef6e5d6e86ff1c6bd5> ;
+  ns0:title "Local Berks County, Socialist Party of Pennsylvania (Reading, Pennsylvania)"@en ;
+  rdfs:label "Local Berks County, Socialist Party of Pennsylvania (Reading, Pennsylvania)"@en ;
+  ns0:identifier "3" ;
+  ns0:beginningDate "1910"^^xsd:gYear ;
+  ns0:endDate "1975"^^xsd:gYear ;
+  ns0:date "1910-1975"@en ;
+  rdfs:seeAlso <https://www.siv.archives-nationales.culture.gouv.fr/siv/UD/01883/aspace_594e587c25103aef6e5d6e86ff1c6bd5> .
+
+<http://data.archives-nationales.culture.gouv.fr/recordResource/-aspace_15a6ef9eb3c0d471abe70a42ce784e3c>
+  a ns0:RecordResource, ns0:RecordSet ;
+  ns0:includedIn <http://data.archives-nationales.culture.gouv.fr/recordResource/-aspace_594e587c25103aef6e5d6e86ff1c6bd5> ;
+  ns0:hasRecordSetType <https://www.ica.org/standards/RiC/vocabularies/recordSetTypes#File> ;
+  ns0:title "Economic Opportunity Council of Reading and Berks County, Pennsylvania: correspondence; minutes (administrative records)"@en ;
+  rdfs:label "Economic Opportunity Council of Reading and Berks County, Pennsylvania: correspondence; minutes (administrative records)"@en ;
+  ns0:beginningDate "1969"^^xsd:gYear ;
+  ns0:endDate "1972"^^xsd:gYear ;
+  ns0:date "1969-1972"@en ;
+  ns0:hasInstantiation <http://data.archives-nationales.culture.gouv.fr/instantiation/-aspace_15a6ef9eb3c0d471abe70a42ce784e3c-i1> .
+
+<http://data.archives-nationales.culture.gouv.fr/instantiation/-aspace_15a6ef9eb3c0d471abe70a42ce784e3c-i1>
+  a ns0:Instantiation ;
+  ns0:instantiates <http://data.archives-nationales.culture.gouv.fr/recordResource/-aspace_15a6ef9eb3c0d471abe70a42ce784e3c> ;
+  ns0:title "Economic Opportunity Council of Reading and Berks County, Pennsylvania: correspondence; minutes (administrative records)"@en ;
+  rdfs:label "Economic Opportunity Council of Reading and Berks County, Pennsylvania: correspondence; minutes (administrative records)"@en ;
+  ns0:beginningDate "1969"^^xsd:gYear ;
+  ns0:endDate "1972"^^xsd:gYear ;
+  ns0:date "1969-1972"@en ;
+  rdfs:seeAlso <https://www.siv.archives-nationales.culture.gouv.fr/siv/UD/01883/aspace_15a6ef9eb3c0d471abe70a42ce784e3c> .
+
+<http://data.archives-nationales.culture.gouv.fr/recordResource/-aspace_3a463664d185883daf4b842c001f4560>
+  a ns0:RecordResource, ns0:RecordSet ;
+  ns0:includedIn <http://data.archives-nationales.culture.gouv.fr/recordResource/-aspace_594e587c25103aef6e5d6e86ff1c6bd5> ;
+  ns0:hasRecordSetType <https://www.ica.org/standards/RiC/vocabularies/recordSetTypes#File> ;
+  ns0:title "Economic Opportunity Council of Reading and Berks County, Pennsylvania: Housing Subcommittee"@en ;
+  rdfs:label "Economic Opportunity Council of Reading and Berks County, Pennsylvania: Housing Subcommittee"@en ;
+  ns0:date "1968"^^xsd:gYear, "1968"@en ;
+  ns0:hasInstantiation <http://data.archives-nationales.culture.gouv.fr/instantiation/-aspace_3a463664d185883daf4b842c001f4560-i1> .
+
+<http://data.archives-nationales.culture.gouv.fr/instantiation/-aspace_3a463664d185883daf4b842c001f4560-i1>
+  a ns0:Instantiation ;
+  ns0:instantiates <http://data.archives-nationales.culture.gouv.fr/recordResource/-aspace_3a463664d185883daf4b842c001f4560> ;
+  ns0:title "Economic Opportunity Council of Reading and Berks County, Pennsylvania: Housing Subcommittee"@en ;
+  rdfs:label "Economic Opportunity Council of Reading and Berks County, Pennsylvania: Housing Subcommittee"@en ;
+  ns0:date "1968"^^xsd:gYear, "1968"@en ;
+  rdfs:seeAlso <https://www.siv.archives-nationales.culture.gouv.fr/siv/UD/01883/aspace_3a463664d185883daf4b842c001f4560> .
+
+<http://data.archives-nationales.culture.gouv.fr/recordResource/-aspace_316d00c3b93a8fd9cd030c91c748e4d8>
+  a ns0:RecordResource, ns0:RecordSet ;
+  ns0:includedIn <http://data.archives-nationales.culture.gouv.fr/recordResource/-aspace_594e587c25103aef6e5d6e86ff1c6bd5> ;
+  ns0:hasRecordSetType <https://www.ica.org/standards/RiC/vocabularies/recordSetTypes#File> ;
+  ns0:title "Newsletters: Economic Opportunity Report; NACD News (National Association for Community Development)"@en ;
+  rdfs:label "Newsletters: Economic Opportunity Report; NACD News (National Association for Community Development)"@en ;
+  ns0:date "1969"^^xsd:gYear, "1969"@en ;
+  ns0:hasInstantiation <http://data.archives-nationales.culture.gouv.fr/instantiation/-aspace_316d00c3b93a8fd9cd030c91c748e4d8-i1> .
+
+<http://data.archives-nationales.culture.gouv.fr/instantiation/-aspace_316d00c3b93a8fd9cd030c91c748e4d8-i1>
+  a ns0:Instantiation ;
+  ns0:instantiates <http://data.archives-nationales.culture.gouv.fr/recordResource/-aspace_316d00c3b93a8fd9cd030c91c748e4d8> ;
+  ns0:title "Newsletters: Economic Opportunity Report; NACD News (National Association for Community Development)"@en ;
+  rdfs:label "Newsletters: Economic Opportunity Report; NACD News (National Association for Community Development)"@en ;
+  ns0:date "1969"^^xsd:gYear, "1969"@en ;
+  rdfs:seeAlso <https://www.siv.archives-nationales.culture.gouv.fr/siv/UD/01883/aspace_316d00c3b93a8fd9cd030c91c748e4d8> .
+
+<http://data.archives-nationales.culture.gouv.fr/recordResource/-aspace_c5d79ff916f8529f57bf0587694c9013>
+  a ns0:RecordResource, ns0:RecordSet ;
+  ns0:includedIn <http://data.archives-nationales.culture.gouv.fr/recordResource/-aspace_594e587c25103aef6e5d6e86ff1c6bd5> ;
+  ns0:hasRecordSetType <https://www.ica.org/standards/RiC/vocabularies/recordSetTypes#File> ;
+  ns0:title "Economic Opportunity Council of Reading and Berks County, Pennsylvania: clippings"@en ;
+  rdfs:label "Economic Opportunity Council of Reading and Berks County, Pennsylvania: clippings"@en ;
+  ns0:beginningDate "1967"^^xsd:gYear ;
+  ns0:endDate "1975"^^xsd:gYear ;
+  ns0:date "1967-1975"@en ;
+  ns0:hasInstantiation <http://data.archives-nationales.culture.gouv.fr/instantiation/-aspace_c5d79ff916f8529f57bf0587694c9013-i1> .
+
+<http://data.archives-nationales.culture.gouv.fr/instantiation/-aspace_c5d79ff916f8529f57bf0587694c9013-i1>
+  a ns0:Instantiation ;
+  ns0:instantiates <http://data.archives-nationales.culture.gouv.fr/recordResource/-aspace_c5d79ff916f8529f57bf0587694c9013> ;
+  ns0:title "Economic Opportunity Council of Reading and Berks County, Pennsylvania: clippings"@en ;
+  rdfs:label "Economic Opportunity Council of Reading and Berks County, Pennsylvania: clippings"@en ;
+  ns0:beginningDate "1967"^^xsd:gYear ;
+  ns0:endDate "1975"^^xsd:gYear ;
+  ns0:date "1967-1975"@en ;
+  rdfs:seeAlso <https://www.siv.archives-nationales.culture.gouv.fr/siv/UD/01883/aspace_c5d79ff916f8529f57bf0587694c9013> .
+
+<http://data.archives-nationales.culture.gouv.fr/recordResource/-aspace_f2b2ed5bd607ae86ab76139354d3d503>
+  a ns0:RecordResource, ns0:RecordSet ;
+  ns0:includedIn <http://data.archives-nationales.culture.gouv.fr/recordResource/-aspace_594e587c25103aef6e5d6e86ff1c6bd5> ;
+  ns0:hasRecordSetType <https://www.ica.org/standards/RiC/vocabularies/recordSetTypes#File> ;
+  ns0:title "Economic Opportunity Council of Reading and Berks County, Pennsylvania: lease agreement"@en ;
+  rdfs:label "Economic Opportunity Council of Reading and Berks County, Pennsylvania: lease agreement"@en ;
+  ns0:date "1967"^^xsd:gYear, "1967"@en ;
+  ns0:hasInstantiation <http://data.archives-nationales.culture.gouv.fr/instantiation/-aspace_f2b2ed5bd607ae86ab76139354d3d503-i1> .
+
+<http://data.archives-nationales.culture.gouv.fr/instantiation/-aspace_f2b2ed5bd607ae86ab76139354d3d503-i1>
+  a ns0:Instantiation ;
+  ns0:instantiates <http://data.archives-nationales.culture.gouv.fr/recordResource/-aspace_f2b2ed5bd607ae86ab76139354d3d503> ;
+  ns0:title "Economic Opportunity Council of Reading and Berks County, Pennsylvania: lease agreement"@en ;
+  rdfs:label "Economic Opportunity Council of Reading and Berks County, Pennsylvania: lease agreement"@en ;
+  ns0:date "1967"^^xsd:gYear, "1967"@en ;
+  rdfs:seeAlso <https://www.siv.archives-nationales.culture.gouv.fr/siv/UD/01883/aspace_f2b2ed5bd607ae86ab76139354d3d503> .
+
+<http://data.archives-nationales.culture.gouv.fr/recordResource/-aspace_c83c50eee4e33a753e94d2a46cf6e171>
+  a ns0:RecordResource, ns0:RecordSet ;
+  ns0:includedIn <http://data.archives-nationales.culture.gouv.fr/recordResource/-aspace_594e587c25103aef6e5d6e86ff1c6bd5> ;
+  ns0:hasRecordSetType <https://www.ica.org/standards/RiC/vocabularies/recordSetTypes#File> ;
+  ns0:title "Reading, Pennsylvania Consumers Cooperative Association: articles of incorporation; bylaws and minutes (administrative records); correspondence"@en ;
+  rdfs:label "Reading, Pennsylvania Consumers Cooperative Association: articles of incorporation; bylaws and minutes (administrative records); correspondence"@en ;
+  ns0:beginningDate "1945"^^xsd:gYear ;
+  ns0:endDate "1952"^^xsd:gYear ;
+  ns0:date "1945-1952"@en ;
+  ns0:hasInstantiation <http://data.archives-nationales.culture.gouv.fr/instantiation/-aspace_c83c50eee4e33a753e94d2a46cf6e171-i1> .
+
+<http://data.archives-nationales.culture.gouv.fr/instantiation/-aspace_c83c50eee4e33a753e94d2a46cf6e171-i1>
+  a ns0:Instantiation ;
+  ns0:instantiates <http://data.archives-nationales.culture.gouv.fr/recordResource/-aspace_c83c50eee4e33a753e94d2a46cf6e171> ;
+  ns0:title "Reading, Pennsylvania Consumers Cooperative Association: articles of incorporation; bylaws and minutes (administrative records); correspondence"@en ;
+  rdfs:label "Reading, Pennsylvania Consumers Cooperative Association: articles of incorporation; bylaws and minutes (administrative records); correspondence"@en ;
+  ns0:beginningDate "1945"^^xsd:gYear ;
+  ns0:endDate "1952"^^xsd:gYear ;
+  ns0:date "1945-1952"@en ;
+  rdfs:seeAlso <https://www.siv.archives-nationales.culture.gouv.fr/siv/UD/01883/aspace_c83c50eee4e33a753e94d2a46cf6e171> .
+
+<http://data.archives-nationales.culture.gouv.fr/recordResource/-aspace_262421fc5a9f3a63975b159a31af66f3>
+  a ns0:RecordResource, ns0:RecordSet ;
+  ns0:includedIn <http://data.archives-nationales.culture.gouv.fr/recordResource/-aspace_594e587c25103aef6e5d6e86ff1c6bd5> ;
+  ns0:hasRecordSetType <https://www.ica.org/standards/RiC/vocabularies/recordSetTypes#File> ;
+  ns0:title "Pennsylvania Black News"@en ;
+  rdfs:label "Pennsylvania Black News"@en ;
+  ns0:date "1935 August 30"@en ;
+  ns0:hasInstantiation <http://data.archives-nationales.culture.gouv.fr/instantiation/-aspace_262421fc5a9f3a63975b159a31af66f3-i1> .
+
+<http://data.archives-nationales.culture.gouv.fr/instantiation/-aspace_262421fc5a9f3a63975b159a31af66f3-i1>
+  a ns0:Instantiation ;
+  ns0:instantiates <http://data.archives-nationales.culture.gouv.fr/recordResource/-aspace_262421fc5a9f3a63975b159a31af66f3> ;
+  ns0:title "Pennsylvania Black News"@en ;
+  rdfs:label "Pennsylvania Black News"@en ;
+  ns0:date "1935 August 30"@en ;
+  rdfs:seeAlso <https://www.siv.archives-nationales.culture.gouv.fr/siv/UD/01883/aspace_262421fc5a9f3a63975b159a31af66f3> .
+
+<http://data.archives-nationales.culture.gouv.fr/recordResource/-aspace_40c176e8c3f9f4614dc541fdef5e3b04>
+  a ns0:RecordResource, ns0:RecordSet ;
+  ns0:includedIn <http://data.archives-nationales.culture.gouv.fr/recordResource/-aspace_594e587c25103aef6e5d6e86ff1c6bd5> ;
+  ns0:hasRecordSetType <https://www.ica.org/standards/RiC/vocabularies/recordSetTypes#File> ;
+  ns0:title "Reading Labor Advocate (Reading, Pa.)"@en ;
+  rdfs:label "Reading Labor Advocate (Reading, Pa.)"@en ;
+  ns0:date "1934 November 2"@en ;
+  ns0:hasInstantiation <http://data.archives-nationales.culture.gouv.fr/instantiation/-aspace_40c176e8c3f9f4614dc541fdef5e3b04-i1> .
+
+<http://data.archives-nationales.culture.gouv.fr/instantiation/-aspace_40c176e8c3f9f4614dc541fdef5e3b04-i1>
+  a ns0:Instantiation ;
+  ns0:instantiates <http://data.archives-nationales.culture.gouv.fr/recordResource/-aspace_40c176e8c3f9f4614dc541fdef5e3b04> ;
+  ns0:title "Reading Labor Advocate (Reading, Pa.)"@en ;
+  rdfs:label "Reading Labor Advocate (Reading, Pa.)"@en ;
+  ns0:date "1934 November 2"@en ;
+  rdfs:seeAlso <https://www.siv.archives-nationales.culture.gouv.fr/siv/UD/01883/aspace_40c176e8c3f9f4614dc541fdef5e3b04> .
+
+<http://data.archives-nationales.culture.gouv.fr/recordResource/-aspace_16123da7e78c262ea382909b5a16b630>
+  a ns0:RecordResource, ns0:RecordSet ;
+  ns0:includedIn <http://data.archives-nationales.culture.gouv.fr/recordResource/-aspace_594e587c25103aef6e5d6e86ff1c6bd5> ;
+  ns0:hasRecordSetType <https://www.ica.org/standards/RiC/vocabularies/recordSetTypes#File> ;
+  ns0:title "Berks Patriot (Reading, Pa.)"@en ;
+  rdfs:label "Berks Patriot (Reading, Pa.)"@en ;
+  ns0:date "1939 September"@en ;
+  ns0:hasInstantiation <http://data.archives-nationales.culture.gouv.fr/instantiation/-aspace_16123da7e78c262ea382909b5a16b630-i1> .
+
+<http://data.archives-nationales.culture.gouv.fr/instantiation/-aspace_16123da7e78c262ea382909b5a16b630-i1>
+  a ns0:Instantiation ;
+  ns0:instantiates <http://data.archives-nationales.culture.gouv.fr/recordResource/-aspace_16123da7e78c262ea382909b5a16b630> ;
+  ns0:title "Berks Patriot (Reading, Pa.)"@en ;
+  rdfs:label "Berks Patriot (Reading, Pa.)"@en ;
+  ns0:date "1939 September"@en ;
+  rdfs:seeAlso <https://www.siv.archives-nationales.culture.gouv.fr/siv/UD/01883/aspace_16123da7e78c262ea382909b5a16b630> .
+
+<http://data.archives-nationales.culture.gouv.fr/recordResource/-aspace_43548711a1e3ed9845687bbe84131428>
+  a ns0:RecordResource, ns0:RecordSet ;
+  ns0:includedIn <http://data.archives-nationales.culture.gouv.fr/recordResource/-aspace_594e587c25103aef6e5d6e86ff1c6bd5> ;
+  ns0:hasRecordSetType <https://www.ica.org/standards/RiC/vocabularies/recordSetTypes#File> ;
+  ns0:title "Publications (including: Communist Manifesto; pamphlets by Norman Thomas; political poster featuring Hoopes and J. Henry Stump; Socialist Campaign Bulletin) and photograph of J. Henry Stump"@en ;
+  rdfs:label "Publications (including: Communist Manifesto; pamphlets by Norman Thomas; political poster featuring Hoopes and J. Henry Stump; Socialist Campaign Bulletin) and photograph of J. Henry Stump"@en ;
+  ns0:beginningDate "1938"^^xsd:gYear ;
+  ns0:endDate "1940"^^xsd:gYear ;
+  ns0:date "1938-1940"@en ;
+  ns0:hasInstantiation <http://data.archives-nationales.culture.gouv.fr/instantiation/-aspace_43548711a1e3ed9845687bbe84131428-i1> .
+
+<http://data.archives-nationales.culture.gouv.fr/instantiation/-aspace_43548711a1e3ed9845687bbe84131428-i1>
+  a ns0:Instantiation ;
+  ns0:instantiates <http://data.archives-nationales.culture.gouv.fr/recordResource/-aspace_43548711a1e3ed9845687bbe84131428> ;
+  ns0:title "Publications (including: Communist Manifesto; pamphlets by Norman Thomas; political poster featuring Hoopes and J. Henry Stump; Socialist Campaign Bulletin) and photograph of J. Henry Stump"@en ;
+  rdfs:label "Publications (including: Communist Manifesto; pamphlets by Norman Thomas; political poster featuring Hoopes and J. Henry Stump; Socialist Campaign Bulletin) and photograph of J. Henry Stump"@en ;
+  ns0:beginningDate "1938"^^xsd:gYear ;
+  ns0:endDate "1940"^^xsd:gYear ;
+  ns0:date "1938-1940"@en ;
+  rdfs:seeAlso <https://www.siv.archives-nationales.culture.gouv.fr/siv/UD/01883/aspace_43548711a1e3ed9845687bbe84131428> .
+
+<http://data.archives-nationales.culture.gouv.fr/recordResource/-aspace_d10f2f96d99a425d158daf71dbca6257>
+  a ns0:RecordResource, ns0:RecordSet ;
+  ns0:includedIn <http://data.archives-nationales.culture.gouv.fr/recordResource/-aspace_594e587c25103aef6e5d6e86ff1c6bd5> ;
+  ns0:hasRecordSetType <https://www.ica.org/standards/RiC/vocabularies/recordSetTypes#File> ;
+  ns0:title "Pension brochures: 60 After 60 Committee (Reading, Pa.)"@en ;
+  rdfs:label "Pension brochures: 60 After 60 Committee (Reading, Pa.)"@en ;
+  ns0:date "1938"^^xsd:gYear, "1938"@en ;
+  ns0:hasInstantiation <http://data.archives-nationales.culture.gouv.fr/instantiation/-aspace_d10f2f96d99a425d158daf71dbca6257-i1> .
+
+<http://data.archives-nationales.culture.gouv.fr/instantiation/-aspace_d10f2f96d99a425d158daf71dbca6257-i1>
+  a ns0:Instantiation ;
+  ns0:instantiates <http://data.archives-nationales.culture.gouv.fr/recordResource/-aspace_d10f2f96d99a425d158daf71dbca6257> ;
+  ns0:title "Pension brochures: 60 After 60 Committee (Reading, Pa.)"@en ;
+  rdfs:label "Pension brochures: 60 After 60 Committee (Reading, Pa.)"@en ;
+  ns0:date "1938"^^xsd:gYear, "1938"@en ;
+  rdfs:seeAlso <https://www.siv.archives-nationales.culture.gouv.fr/siv/UD/01883/aspace_d10f2f96d99a425d158daf71dbca6257> .
+
+<http://data.archives-nationales.culture.gouv.fr/recordResource/-aspace_56ee2cd2bb89f843073ccf4cfc150e25>
+  a ns0:RecordResource, ns0:RecordSet ;
+  ns0:includedIn <http://data.archives-nationales.culture.gouv.fr/recordResource/-aspace_594e587c25103aef6e5d6e86ff1c6bd5> ;
+  ns0:hasRecordSetType <https://www.ica.org/standards/RiC/vocabularies/recordSetTypes#File> ;
+  ns0:title "Clippings; correspondence; minutes (administrative records); publications, including: Berks County Democrat (Reading, Pa.)"@en ;
+  rdfs:label "Clippings; correspondence; minutes (administrative records); publications, including: Berks County Democrat (Reading, Pa.)"@en ;
+  ns0:beginningDate "1943"^^xsd:gYear ;
+  ns0:endDate "1952"^^xsd:gYear ;
+  ns0:date "1943-1952"@en ;
+  ns0:hasInstantiation <http://data.archives-nationales.culture.gouv.fr/instantiation/-aspace_56ee2cd2bb89f843073ccf4cfc150e25-i1> .
+
+<http://data.archives-nationales.culture.gouv.fr/instantiation/-aspace_56ee2cd2bb89f843073ccf4cfc150e25-i1>
+  a ns0:Instantiation ;
+  ns0:instantiates <http://data.archives-nationales.culture.gouv.fr/recordResource/-aspace_56ee2cd2bb89f843073ccf4cfc150e25> ;
+  ns0:title "Clippings; correspondence; minutes (administrative records); publications, including: Berks County Democrat (Reading, Pa.)"@en ;
+  rdfs:label "Clippings; correspondence; minutes (administrative records); publications, including: Berks County Democrat (Reading, Pa.)"@en ;
+  ns0:beginningDate "1943"^^xsd:gYear ;
+  ns0:endDate "1952"^^xsd:gYear ;
+  ns0:date "1943-1952"@en ;
+  rdfs:seeAlso <https://www.siv.archives-nationales.culture.gouv.fr/siv/UD/01883/aspace_56ee2cd2bb89f843073ccf4cfc150e25> .
+
+<http://data.archives-nationales.culture.gouv.fr/recordResource/-aspace_7f8776dd809d63050a7bf383eaf8e481>
+  a ns0:RecordResource, ns0:RecordSet ;
+  ns0:includedIn <http://data.archives-nationales.culture.gouv.fr/recordResource/-aspace_594e587c25103aef6e5d6e86ff1c6bd5> ;
+  ns0:hasRecordSetType <https://www.ica.org/standards/RiC/vocabularies/recordSetTypes#File> ;
+  ns0:title "Clippings; correspondence; petitions; publications, including: The Pioneer (Reading, Pa.)"@en ;
+  rdfs:label "Clippings; correspondence; petitions; publications, including: The Pioneer (Reading, Pa.)"@en ;
+  ns0:beginningDate "1930"^^xsd:gYear ;
+  ns0:endDate "1936"^^xsd:gYear ;
+  ns0:date "1930-1936"@en ;
+  ns0:hasInstantiation <http://data.archives-nationales.culture.gouv.fr/instantiation/-aspace_7f8776dd809d63050a7bf383eaf8e481-i1> .
+
+<http://data.archives-nationales.culture.gouv.fr/instantiation/-aspace_7f8776dd809d63050a7bf383eaf8e481-i1>
+  a ns0:Instantiation ;
+  ns0:instantiates <http://data.archives-nationales.culture.gouv.fr/recordResource/-aspace_7f8776dd809d63050a7bf383eaf8e481> ;
+  ns0:title "Clippings; correspondence; petitions; publications, including: The Pioneer (Reading, Pa.)"@en ;
+  rdfs:label "Clippings; correspondence; petitions; publications, including: The Pioneer (Reading, Pa.)"@en ;
+  ns0:beginningDate "1930"^^xsd:gYear ;
+  ns0:endDate "1936"^^xsd:gYear ;
+  ns0:date "1930-1936"@en ;
+  rdfs:seeAlso <https://www.siv.archives-nationales.culture.gouv.fr/siv/UD/01883/aspace_7f8776dd809d63050a7bf383eaf8e481> .
+
+<http://data.archives-nationales.culture.gouv.fr/recordResource/-aspace_9110adc6e1a5d21a8afc06ef5029116a>
+  a ns0:RecordResource, ns0:RecordSet ;
+  ns0:includedIn <http://data.archives-nationales.culture.gouv.fr/recordResource/-aspace_594e587c25103aef6e5d6e86ff1c6bd5> ;
+  ns0:hasRecordSetType <https://www.ica.org/standards/RiC/vocabularies/recordSetTypes#File> ;
+  ns0:title "Correspondence; speeches and educational radio broadcast announcements"@en ;
+  rdfs:label "Correspondence; speeches and educational radio broadcast announcements"@en ;
+  ns0:beginningDate "1938"^^xsd:gYear ;
+  ns0:endDate "1951"^^xsd:gYear ;
+  ns0:date "1938-1951"@en ;
+  ns0:hasInstantiation <http://data.archives-nationales.culture.gouv.fr/instantiation/-aspace_9110adc6e1a5d21a8afc06ef5029116a-i1> .
+
+<http://data.archives-nationales.culture.gouv.fr/instantiation/-aspace_9110adc6e1a5d21a8afc06ef5029116a-i1>
+  a ns0:Instantiation ;
+  ns0:instantiates <http://data.archives-nationales.culture.gouv.fr/recordResource/-aspace_9110adc6e1a5d21a8afc06ef5029116a> ;
+  ns0:title "Correspondence; speeches and educational radio broadcast announcements"@en ;
+  rdfs:label "Correspondence; speeches and educational radio broadcast announcements"@en ;
+  ns0:beginningDate "1938"^^xsd:gYear ;
+  ns0:endDate "1951"^^xsd:gYear ;
+  ns0:date "1938-1951"@en ;
+  rdfs:seeAlso <https://www.siv.archives-nationales.culture.gouv.fr/siv/UD/01883/aspace_9110adc6e1a5d21a8afc06ef5029116a> .
+
+<http://data.archives-nationales.culture.gouv.fr/recordResource/-aspace_67a54eac256ef1300c92562646a696d9>
+  a ns0:RecordResource, ns0:RecordSet ;
+  ns0:includedIn <http://data.archives-nationales.culture.gouv.fr/recordResource/-aspace_594e587c25103aef6e5d6e86ff1c6bd5> ;
+  ns0:hasRecordSetType <https://www.ica.org/standards/RiC/vocabularies/recordSetTypes#File> ;
+  ns0:title "Correspondence; publications; speeches"@en ;
+  rdfs:label "Correspondence; publications; speeches"@en ;
+  ns0:beginningDate "1942"^^xsd:gYear ;
+  ns0:endDate "1951"^^xsd:gYear ;
+  ns0:date "1942-1951"@en ;
+  ns0:hasInstantiation <http://data.archives-nationales.culture.gouv.fr/instantiation/-aspace_67a54eac256ef1300c92562646a696d9-i1> .
+
+<http://data.archives-nationales.culture.gouv.fr/instantiation/-aspace_67a54eac256ef1300c92562646a696d9-i1>
+  a ns0:Instantiation ;
+  ns0:instantiates <http://data.archives-nationales.culture.gouv.fr/recordResource/-aspace_67a54eac256ef1300c92562646a696d9> ;
+  ns0:title "Correspondence; publications; speeches"@en ;
+  rdfs:label "Correspondence; publications; speeches"@en ;
+  ns0:beginningDate "1942"^^xsd:gYear ;
+  ns0:endDate "1951"^^xsd:gYear ;
+  ns0:date "1942-1951"@en ;
+  rdfs:seeAlso <https://www.siv.archives-nationales.culture.gouv.fr/siv/UD/01883/aspace_67a54eac256ef1300c92562646a696d9> .
+
+<http://data.archives-nationales.culture.gouv.fr/recordResource/-aspace_c0b359fc2f8590f0e3863d9876e4d719>
+  a ns0:RecordResource, ns0:RecordSet ;
+  ns0:includedIn <http://data.archives-nationales.culture.gouv.fr/recordResource/-aspace_594e587c25103aef6e5d6e86ff1c6bd5> ;
+  ns0:hasRecordSetType <https://www.ica.org/standards/RiC/vocabularies/recordSetTypes#File> ;
+  ns0:title "Correspondence regarding speeches and speaking commitments"@en ;
+  rdfs:label "Correspondence regarding speeches and speaking commitments"@en ;
+  ns0:beginningDate "1945"^^xsd:gYear ;
+  ns0:endDate "1946"^^xsd:gYear ;
+  ns0:date "1945-1946"@en ;
+  ns0:hasInstantiation <http://data.archives-nationales.culture.gouv.fr/instantiation/-aspace_c0b359fc2f8590f0e3863d9876e4d719-i1> .
+
+<http://data.archives-nationales.culture.gouv.fr/instantiation/-aspace_c0b359fc2f8590f0e3863d9876e4d719-i1>
+  a ns0:Instantiation ;
+  ns0:instantiates <http://data.archives-nationales.culture.gouv.fr/recordResource/-aspace_c0b359fc2f8590f0e3863d9876e4d719> ;
+  ns0:title "Correspondence regarding speeches and speaking commitments"@en ;
+  rdfs:label "Correspondence regarding speeches and speaking commitments"@en ;
+  ns0:beginningDate "1945"^^xsd:gYear ;
+  ns0:endDate "1946"^^xsd:gYear ;
+  ns0:date "1945-1946"@en ;
+  rdfs:seeAlso <https://www.siv.archives-nationales.culture.gouv.fr/siv/UD/01883/aspace_c0b359fc2f8590f0e3863d9876e4d719> .
+
+<http://data.archives-nationales.culture.gouv.fr/recordResource/-aspace_ac6c1fc9836d8d912c2a24da056d5526>
+  a ns0:RecordResource, ns0:RecordSet ;
+  ns0:includedIn <http://data.archives-nationales.culture.gouv.fr/recordResource/-aspace_594e587c25103aef6e5d6e86ff1c6bd5> ;
+  ns0:hasRecordSetType <https://www.ica.org/standards/RiC/vocabularies/recordSetTypes#File> ;
+  ns0:title "Correspondence; speeches and educational radio broadcast announcements"@en ;
+  rdfs:label "Correspondence; speeches and educational radio broadcast announcements"@en ;
+  ns0:beginningDate "1929"^^xsd:gYear ;
+  ns0:endDate "1951"^^xsd:gYear ;
+  ns0:date "1929-1951"@en ;
+  ns0:hasInstantiation <http://data.archives-nationales.culture.gouv.fr/instantiation/-aspace_ac6c1fc9836d8d912c2a24da056d5526-i1> .
+
+<http://data.archives-nationales.culture.gouv.fr/instantiation/-aspace_ac6c1fc9836d8d912c2a24da056d5526-i1>
+  a ns0:Instantiation ;
+  ns0:instantiates <http://data.archives-nationales.culture.gouv.fr/recordResource/-aspace_ac6c1fc9836d8d912c2a24da056d5526> ;
+  ns0:title "Correspondence; speeches and educational radio broadcast announcements"@en ;
+  rdfs:label "Correspondence; speeches and educational radio broadcast announcements"@en ;
+  ns0:beginningDate "1929"^^xsd:gYear ;
+  ns0:endDate "1951"^^xsd:gYear ;
+  ns0:date "1929-1951"@en ;
+  rdfs:seeAlso <https://www.siv.archives-nationales.culture.gouv.fr/siv/UD/01883/aspace_ac6c1fc9836d8d912c2a24da056d5526> .
+
+<http://data.archives-nationales.culture.gouv.fr/recordResource/-aspace_4c8ffb7aa1eb9812818b510024566319>
+  a ns0:RecordResource, ns0:RecordSet ;
+  ns0:includedIn <http://data.archives-nationales.culture.gouv.fr/recordResource/-aspace_594e587c25103aef6e5d6e86ff1c6bd5> ;
+  ns0:hasRecordSetType <https://www.ica.org/standards/RiC/vocabularies/recordSetTypes#File> ;
+  ns0:title "Clippings, correspondence"@en ;
+  rdfs:label "Clippings, correspondence"@en ;
+  ns0:beginningDate "1910"^^xsd:gYear ;
+  ns0:endDate "1935"^^xsd:gYear ;
+  ns0:date "1910-1935"@en ;
+  ns0:hasInstantiation <http://data.archives-nationales.culture.gouv.fr/instantiation/-aspace_4c8ffb7aa1eb9812818b510024566319-i1> .
+
+<http://data.archives-nationales.culture.gouv.fr/instantiation/-aspace_4c8ffb7aa1eb9812818b510024566319-i1>
+  a ns0:Instantiation ;
+  ns0:instantiates <http://data.archives-nationales.culture.gouv.fr/recordResource/-aspace_4c8ffb7aa1eb9812818b510024566319> ;
+  ns0:title "Clippings, correspondence"@en ;
+  rdfs:label "Clippings, correspondence"@en ;
+  ns0:beginningDate "1910"^^xsd:gYear ;
+  ns0:endDate "1935"^^xsd:gYear ;
+  ns0:date "1910-1935"@en ;
+  rdfs:seeAlso <https://www.siv.archives-nationales.culture.gouv.fr/siv/UD/01883/aspace_4c8ffb7aa1eb9812818b510024566319> .
+
+<http://data.archives-nationales.culture.gouv.fr/recordResource/-aspace_cf5adf52df84e642646f9c916fa33248>
+  a ns0:RecordResource, ns0:RecordSet ;
+  ns0:includedIn <http://data.archives-nationales.culture.gouv.fr/recordResource/-aspace_594e587c25103aef6e5d6e86ff1c6bd5> ;
+  ns0:hasRecordSetType <https://www.ica.org/standards/RiC/vocabularies/recordSetTypes#File> ;
+  ns0:title "Minutes (administrative records)"@en ;
+  rdfs:label "Minutes (administrative records)"@en ;
+  ns0:date "1936"^^xsd:gYear, "1936"@en ;
+  ns0:hasInstantiation <http://data.archives-nationales.culture.gouv.fr/instantiation/-aspace_cf5adf52df84e642646f9c916fa33248-i1> .
+
+<http://data.archives-nationales.culture.gouv.fr/instantiation/-aspace_cf5adf52df84e642646f9c916fa33248-i1>
+  a ns0:Instantiation ;
+  ns0:instantiates <http://data.archives-nationales.culture.gouv.fr/recordResource/-aspace_cf5adf52df84e642646f9c916fa33248> ;
+  ns0:title "Minutes (administrative records)"@en ;
+  rdfs:label "Minutes (administrative records)"@en ;
+  ns0:date "1936"^^xsd:gYear, "1936"@en ;
+  rdfs:seeAlso <https://www.siv.archives-nationales.culture.gouv.fr/siv/UD/01883/aspace_cf5adf52df84e642646f9c916fa33248> .
+
+<http://data.archives-nationales.culture.gouv.fr/recordResource/-aspace_b0d6e7e740e4ea8e522c6b5b2ad067e8>
+  a ns0:RecordResource, ns0:RecordSet ;
+  ns0:includedIn <http://data.archives-nationales.culture.gouv.fr/recordResource/-aspace_594e587c25103aef6e5d6e86ff1c6bd5> ;
+  ns0:hasRecordSetType <https://www.ica.org/standards/RiC/vocabularies/recordSetTypes#File> ;
+  ns0:title "Correspondence"@en ;
+  rdfs:label "Correspondence"@en ;
+  ns0:beginningDate "1922"^^xsd:gYear ;
+  ns0:endDate "1927"^^xsd:gYear ;
+  ns0:date "1922-1927"@en ;
+  ns0:hasInstantiation <http://data.archives-nationales.culture.gouv.fr/instantiation/-aspace_b0d6e7e740e4ea8e522c6b5b2ad067e8-i1> .
+
+<http://data.archives-nationales.culture.gouv.fr/instantiation/-aspace_b0d6e7e740e4ea8e522c6b5b2ad067e8-i1>
+  a ns0:Instantiation ;
+  ns0:instantiates <http://data.archives-nationales.culture.gouv.fr/recordResource/-aspace_b0d6e7e740e4ea8e522c6b5b2ad067e8> ;
+  ns0:title "Correspondence"@en ;
+  rdfs:label "Correspondence"@en ;
+  ns0:beginningDate "1922"^^xsd:gYear ;
+  ns0:endDate "1927"^^xsd:gYear ;
+  ns0:date "1922-1927"@en ;
+  rdfs:seeAlso <https://www.siv.archives-nationales.culture.gouv.fr/siv/UD/01883/aspace_b0d6e7e740e4ea8e522c6b5b2ad067e8> .
+
+<http://data.archives-nationales.culture.gouv.fr/recordResource/-aspace_414575adcc6e5a2a4ab67fb2bb391f46>
+  a ns0:RecordResource, ns0:RecordSet ;
+  ns0:includedIn <http://data.archives-nationales.culture.gouv.fr/recordResource/-aspace_594e587c25103aef6e5d6e86ff1c6bd5> ;
+  ns0:hasRecordSetType <https://www.ica.org/standards/RiC/vocabularies/recordSetTypes#File> ;
+  ns0:title "Young People's Socialist League: constitution; correspondence; illustrated leaflets"@en ;
+  rdfs:label "Young People's Socialist League: constitution; correspondence; illustrated leaflets"@en ;
+  ns0:beginningDate "1932"^^xsd:gYear ;
+  ns0:endDate "1935"^^xsd:gYear ;
+  ns0:date "1932-1935"@en ;
+  ns0:hasInstantiation <http://data.archives-nationales.culture.gouv.fr/instantiation/-aspace_414575adcc6e5a2a4ab67fb2bb391f46-i1> .
+
+<http://data.archives-nationales.culture.gouv.fr/instantiation/-aspace_414575adcc6e5a2a4ab67fb2bb391f46-i1>
+  a ns0:Instantiation ;
+  ns0:instantiates <http://data.archives-nationales.culture.gouv.fr/recordResource/-aspace_414575adcc6e5a2a4ab67fb2bb391f46> ;
+  ns0:title "Young People's Socialist League: constitution; correspondence; illustrated leaflets"@en ;
+  rdfs:label "Young People's Socialist League: constitution; correspondence; illustrated leaflets"@en ;
+  ns0:beginningDate "1932"^^xsd:gYear ;
+  ns0:endDate "1935"^^xsd:gYear ;
+  ns0:date "1932-1935"@en ;
+  rdfs:seeAlso <https://www.siv.archives-nationales.culture.gouv.fr/siv/UD/01883/aspace_414575adcc6e5a2a4ab67fb2bb391f46> .
+
+<http://data.archives-nationales.culture.gouv.fr/recordResource/-aspace_5900c873f507905b6d5e11e50fb7c2a1>
+  a ns0:RecordResource, ns0:RecordSet ;
+  ns0:includedIn <http://data.archives-nationales.culture.gouv.fr/recordResource/-aspace_594e587c25103aef6e5d6e86ff1c6bd5> ;
+  ns0:hasRecordSetType <https://www.ica.org/standards/RiC/vocabularies/recordSetTypes#File> ;
+  ns0:title "Correspondence"@en ;
+  rdfs:label "Correspondence"@en ;
+  ns0:date "1935"^^xsd:gYear, "1935"@en ;
+  ns0:hasInstantiation <http://data.archives-nationales.culture.gouv.fr/instantiation/-aspace_5900c873f507905b6d5e11e50fb7c2a1-i1> .
+
+<http://data.archives-nationales.culture.gouv.fr/instantiation/-aspace_5900c873f507905b6d5e11e50fb7c2a1-i1>
+  a ns0:Instantiation ;
+  ns0:instantiates <http://data.archives-nationales.culture.gouv.fr/recordResource/-aspace_5900c873f507905b6d5e11e50fb7c2a1> ;
+  ns0:title "Correspondence"@en ;
+  rdfs:label "Correspondence"@en ;
+  ns0:date "1935"^^xsd:gYear, "1935"@en ;
+  rdfs:seeAlso <https://www.siv.archives-nationales.culture.gouv.fr/siv/UD/01883/aspace_5900c873f507905b6d5e11e50fb7c2a1> .
+
+<http://data.archives-nationales.culture.gouv.fr/recordResource/-aspace_daaaab044d7cb94fb2ef5f70c7a57a56>
+  a ns0:RecordResource, ns0:RecordSet ;
+  ns0:includedIn <http://data.archives-nationales.culture.gouv.fr/recordResource/-aspace_594e587c25103aef6e5d6e86ff1c6bd5> ;
+  ns0:hasRecordSetType <https://www.ica.org/standards/RiC/vocabularies/recordSetTypes#File> ;
+  ns0:title "Clippings, correspondence, minutes (administrative records)"@en ;
+  rdfs:label "Clippings, correspondence, minutes (administrative records)"@en ;
+  ns0:beginningDate "1933"^^xsd:gYear ;
+  ns0:endDate "1946"^^xsd:gYear ;
+  ns0:date "1933-1946"@en ;
+  ns0:hasInstantiation <http://data.archives-nationales.culture.gouv.fr/instantiation/-aspace_daaaab044d7cb94fb2ef5f70c7a57a56-i1> .
+
+<http://data.archives-nationales.culture.gouv.fr/instantiation/-aspace_daaaab044d7cb94fb2ef5f70c7a57a56-i1>
+  a ns0:Instantiation ;
+  ns0:instantiates <http://data.archives-nationales.culture.gouv.fr/recordResource/-aspace_daaaab044d7cb94fb2ef5f70c7a57a56> ;
+  ns0:title "Clippings, correspondence, minutes (administrative records)"@en ;
+  rdfs:label "Clippings, correspondence, minutes (administrative records)"@en ;
+  ns0:beginningDate "1933"^^xsd:gYear ;
+  ns0:endDate "1946"^^xsd:gYear ;
+  ns0:date "1933-1946"@en ;
+  rdfs:seeAlso <https://www.siv.archives-nationales.culture.gouv.fr/siv/UD/01883/aspace_daaaab044d7cb94fb2ef5f70c7a57a56> .
+
+<http://data.archives-nationales.culture.gouv.fr/recordResource/-aspace_8edda061086a30fbb2a99fb57f0745ad>
+  a ns0:RecordResource, ns0:RecordSet ;
+  ns0:includedIn <http://data.archives-nationales.culture.gouv.fr/recordResource/-aspace_594e587c25103aef6e5d6e86ff1c6bd5> ;
+  ns0:hasRecordSetType <https://www.ica.org/standards/RiC/vocabularies/recordSetTypes#File> ;
+  ns0:title "The Pioneer (Reading, Pa.)"@en ;
+  rdfs:label "The Pioneer (Reading, Pa.)"@en ;
+  ns0:beginningDate "1931"^^xsd:gYear ;
+  ns0:endDate "1940"^^xsd:gYear ;
+  ns0:date "1931-1940"@en ;
+  ns0:hasInstantiation <http://data.archives-nationales.culture.gouv.fr/instantiation/-aspace_8edda061086a30fbb2a99fb57f0745ad-i1> .
+
+<http://data.archives-nationales.culture.gouv.fr/instantiation/-aspace_8edda061086a30fbb2a99fb57f0745ad-i1>
+  a ns0:Instantiation ;
+  ns0:instantiates <http://data.archives-nationales.culture.gouv.fr/recordResource/-aspace_8edda061086a30fbb2a99fb57f0745ad> ;
+  ns0:title "The Pioneer (Reading, Pa.)"@en ;
+  rdfs:label "The Pioneer (Reading, Pa.)"@en ;
+  ns0:beginningDate "1931"^^xsd:gYear ;
+  ns0:endDate "1940"^^xsd:gYear ;
+  ns0:date "1931-1940"@en ;
+  rdfs:seeAlso <https://www.siv.archives-nationales.culture.gouv.fr/siv/UD/01883/aspace_8edda061086a30fbb2a99fb57f0745ad> .
+
+<http://data.archives-nationales.culture.gouv.fr/recordResource/-aspace_e29dc42a196dab69f1be07f9e80cb7f9>
+  a ns0:RecordResource, ns0:RecordSet ;
+  ns0:includedIn <http://data.archives-nationales.culture.gouv.fr/recordResource/-aspace_594e587c25103aef6e5d6e86ff1c6bd5> ;
+  ns0:hasRecordSetType <https://www.ica.org/standards/RiC/vocabularies/recordSetTypes#File> ;
+  ns0:title "Labor forums and symposia (conferences): correspondence, financial statements, programs"@en ;
+  rdfs:label "Labor forums and symposia (conferences): correspondence, financial statements, programs"@en ;
+  ns0:beginningDate "1966"^^xsd:gYear ;
+  ns0:endDate "1969"^^xsd:gYear ;
+  ns0:date "1966-1969"@en ;
+  ns0:hasInstantiation <http://data.archives-nationales.culture.gouv.fr/instantiation/-aspace_e29dc42a196dab69f1be07f9e80cb7f9-i1> .
+
+<http://data.archives-nationales.culture.gouv.fr/instantiation/-aspace_e29dc42a196dab69f1be07f9e80cb7f9-i1>
+  a ns0:Instantiation ;
+  ns0:instantiates <http://data.archives-nationales.culture.gouv.fr/recordResource/-aspace_e29dc42a196dab69f1be07f9e80cb7f9> ;
+  ns0:title "Labor forums and symposia (conferences): correspondence, financial statements, programs"@en ;
+  rdfs:label "Labor forums and symposia (conferences): correspondence, financial statements, programs"@en ;
+  ns0:beginningDate "1966"^^xsd:gYear ;
+  ns0:endDate "1969"^^xsd:gYear ;
+  ns0:date "1966-1969"@en ;
+  rdfs:seeAlso <https://www.siv.archives-nationales.culture.gouv.fr/siv/UD/01883/aspace_e29dc42a196dab69f1be07f9e80cb7f9> .
+
+<http://data.archives-nationales.culture.gouv.fr/recordResource/-aspace_a1a7b08c7bae68b62e16ed52e8b21ab0>
+  a ns0:RecordResource, ns0:RecordSet ;
+  ns0:includedIn <http://data.archives-nationales.culture.gouv.fr/recordResource/-aspace_594e587c25103aef6e5d6e86ff1c6bd5> ;
+  ns0:hasRecordSetType <https://www.ica.org/standards/RiC/vocabularies/recordSetTypes#File> ;
+  ns0:title "Clippings; minutes (administrative records)"@en ;
+  rdfs:label "Clippings; minutes (administrative records)"@en ;
+  ns0:beginningDate "1965"^^xsd:gYear ;
+  ns0:endDate "1970"^^xsd:gYear ;
+  ns0:date "1965-1970"@en ;
+  ns0:hasInstantiation <http://data.archives-nationales.culture.gouv.fr/instantiation/-aspace_a1a7b08c7bae68b62e16ed52e8b21ab0-i1> .
+
+<http://data.archives-nationales.culture.gouv.fr/instantiation/-aspace_a1a7b08c7bae68b62e16ed52e8b21ab0-i1>
+  a ns0:Instantiation ;
+  ns0:instantiates <http://data.archives-nationales.culture.gouv.fr/recordResource/-aspace_a1a7b08c7bae68b62e16ed52e8b21ab0> ;
+  ns0:title "Clippings; minutes (administrative records)"@en ;
+  rdfs:label "Clippings; minutes (administrative records)"@en ;
+  ns0:beginningDate "1965"^^xsd:gYear ;
+  ns0:endDate "1970"^^xsd:gYear ;
+  ns0:date "1965-1970"@en ;
+  rdfs:seeAlso <https://www.siv.archives-nationales.culture.gouv.fr/siv/UD/01883/aspace_a1a7b08c7bae68b62e16ed52e8b21ab0> .
+
+<http://data.archives-nationales.culture.gouv.fr/recordResource/-aspace_a558bfbea716150f5f7211a074f38233>
+  a ns0:RecordResource, ns0:RecordSet ;
+  ns0:includedIn <http://data.archives-nationales.culture.gouv.fr/recordResource/-aspace_594e587c25103aef6e5d6e86ff1c6bd5> ;
+  ns0:hasRecordSetType <https://www.ica.org/standards/RiC/vocabularies/recordSetTypes#File> ;
+  ns0:title "The Reading Socialist; local brochures"@en ;
+  rdfs:label "The Reading Socialist; local brochures"@en ;
+  ns0:beginningDate "1974"^^xsd:gYear ;
+  ns0:endDate "1975"^^xsd:gYear ;
+  ns0:date "1974-1975"@en ;
+  ns0:hasInstantiation <http://data.archives-nationales.culture.gouv.fr/instantiation/-aspace_a558bfbea716150f5f7211a074f38233-i1> .
+
+<http://data.archives-nationales.culture.gouv.fr/instantiation/-aspace_a558bfbea716150f5f7211a074f38233-i1>
+  a ns0:Instantiation ;
+  ns0:instantiates <http://data.archives-nationales.culture.gouv.fr/recordResource/-aspace_a558bfbea716150f5f7211a074f38233> ;
+  ns0:title "The Reading Socialist; local brochures"@en ;
+  rdfs:label "The Reading Socialist; local brochures"@en ;
+  ns0:beginningDate "1974"^^xsd:gYear ;
+  ns0:endDate "1975"^^xsd:gYear ;
+  ns0:date "1974-1975"@en ;
+  rdfs:seeAlso <https://www.siv.archives-nationales.culture.gouv.fr/siv/UD/01883/aspace_a558bfbea716150f5f7211a074f38233> .
+
+<http://data.archives-nationales.culture.gouv.fr/recordResource/-aspace_82ac0bd776a94d4c37a0af8a61a422e3>
+  a ns0:RecordResource, ns0:RecordSet ;
+  ns0:includedIn <http://data.archives-nationales.culture.gouv.fr/recordResource/-aspace_594e587c25103aef6e5d6e86ff1c6bd5> ;
+  ns0:hasRecordSetType <https://www.ica.org/standards/RiC/vocabularies/recordSetTypes#File> ;
+  ns0:title "Socialist Party of Reading, Pennsylvania, correspondence and dissertation by William Pratt"@en ;
+  rdfs:label "Socialist Party of Reading, Pennsylvania, correspondence and dissertation by William Pratt"@en ;
+  ns0:beginningDate "1967"^^xsd:gYear ;
+  ns0:endDate "1969"^^xsd:gYear ;
+  ns0:date "1967-1969"@en ;
+  ns0:hasInstantiation <http://data.archives-nationales.culture.gouv.fr/instantiation/-aspace_82ac0bd776a94d4c37a0af8a61a422e3-i1> .
+
+<http://data.archives-nationales.culture.gouv.fr/instantiation/-aspace_82ac0bd776a94d4c37a0af8a61a422e3-i1>
+  a ns0:Instantiation ;
+  ns0:instantiates <http://data.archives-nationales.culture.gouv.fr/recordResource/-aspace_82ac0bd776a94d4c37a0af8a61a422e3> ;
+  ns0:title "Socialist Party of Reading, Pennsylvania, correspondence and dissertation by William Pratt"@en ;
+  rdfs:label "Socialist Party of Reading, Pennsylvania, correspondence and dissertation by William Pratt"@en ;
+  ns0:beginningDate "1967"^^xsd:gYear ;
+  ns0:endDate "1969"^^xsd:gYear ;
+  ns0:date "1967-1969"@en ;
+  rdfs:seeAlso <https://www.siv.archives-nationales.culture.gouv.fr/siv/UD/01883/aspace_82ac0bd776a94d4c37a0af8a61a422e3> .
+
+<http://data.archives-nationales.culture.gouv.fr/recordResource/-aspace_0b9166fe09737c91f26cecd2e3938029>
+  a ns0:RecordResource, ns0:RecordSet ;
+  ns0:includedIn <http://data.archives-nationales.culture.gouv.fr/recordResource/-top> ;
+  ns0:hasRecordSetType <https://www.ica.org/standards/RiC/vocabularies/recordSetTypes#Series> ;
+  ns0:title "Eastern Cooperative League"@en ;
+  rdfs:label "Eastern Cooperative League"@en ;
+  ns0:beginningDate "1941"^^xsd:gYear ;
+  ns0:endDate "1951"^^xsd:gYear ;
+  ns0:date "1941-1951"@en ;
+  ns0:hasInstantiation <http://data.archives-nationales.culture.gouv.fr/instantiation/-aspace_0b9166fe09737c91f26cecd2e3938029-i1> ;
+  ns0:includes <http://data.archives-nationales.culture.gouv.fr/recordResource/-aspace_2ebd443d4877b41931db1adbb48dcc8b>, <http://data.archives-nationales.culture.gouv.fr/recordResource/-aspace_8dea6d1b4e31683bab303a5d9396a999>, <http://data.archives-nationales.culture.gouv.fr/recordResource/-aspace_01a847081988c70e30553f65ea158f1f>, <http://data.archives-nationales.culture.gouv.fr/recordResource/-aspace_0bb8f84c1ababf194353602eb0b7fd33>, <http://data.archives-nationales.culture.gouv.fr/recordResource/-aspace_0bb3067ccc55b6ab59436222b9195e27> .
+
+<http://data.archives-nationales.culture.gouv.fr/instantiation/-aspace_0b9166fe09737c91f26cecd2e3938029-i1>
+  a ns0:Instantiation ;
+  ns0:instantiates <http://data.archives-nationales.culture.gouv.fr/recordResource/-aspace_0b9166fe09737c91f26cecd2e3938029> ;
+  ns0:title "Eastern Cooperative League"@en ;
+  rdfs:label "Eastern Cooperative League"@en ;
+  ns0:identifier "4" ;
+  ns0:beginningDate "1941"^^xsd:gYear ;
+  ns0:endDate "1951"^^xsd:gYear ;
+  ns0:date "1941-1951"@en ;
+  rdfs:seeAlso <https://www.siv.archives-nationales.culture.gouv.fr/siv/UD/01883/aspace_0b9166fe09737c91f26cecd2e3938029> .
+
+<http://data.archives-nationales.culture.gouv.fr/recordResource/-aspace_2ebd443d4877b41931db1adbb48dcc8b>
+  a ns0:RecordResource, ns0:RecordSet ;
+  ns0:includedIn <http://data.archives-nationales.culture.gouv.fr/recordResource/-aspace_0b9166fe09737c91f26cecd2e3938029> ;
+  ns0:hasRecordSetType <https://www.ica.org/standards/RiC/vocabularies/recordSetTypes#File> ;
+  ns0:title "Correspondence; financial statements; minutes (administrative records); pamphlets"@en ;
+  rdfs:label "Correspondence; financial statements; minutes (administrative records); pamphlets"@en ;
+  ns0:beginningDate "1941"^^xsd:gYear ;
+  ns0:endDate "1948"^^xsd:gYear ;
+  ns0:date "1941-1948"@en ;
+  ns0:hasInstantiation <http://data.archives-nationales.culture.gouv.fr/instantiation/-aspace_2ebd443d4877b41931db1adbb48dcc8b-i1> .
+
+<http://data.archives-nationales.culture.gouv.fr/instantiation/-aspace_2ebd443d4877b41931db1adbb48dcc8b-i1>
+  a ns0:Instantiation ;
+  ns0:instantiates <http://data.archives-nationales.culture.gouv.fr/recordResource/-aspace_2ebd443d4877b41931db1adbb48dcc8b> ;
+  ns0:title "Correspondence; financial statements; minutes (administrative records); pamphlets"@en ;
+  rdfs:label "Correspondence; financial statements; minutes (administrative records); pamphlets"@en ;
+  ns0:beginningDate "1941"^^xsd:gYear ;
+  ns0:endDate "1948"^^xsd:gYear ;
+  ns0:date "1941-1948"@en ;
+  rdfs:seeAlso <https://www.siv.archives-nationales.culture.gouv.fr/siv/UD/01883/aspace_2ebd443d4877b41931db1adbb48dcc8b> .
+
+<http://data.archives-nationales.culture.gouv.fr/recordResource/-aspace_8dea6d1b4e31683bab303a5d9396a999>
+  a ns0:RecordResource, ns0:RecordSet ;
+  ns0:includedIn <http://data.archives-nationales.culture.gouv.fr/recordResource/-aspace_0b9166fe09737c91f26cecd2e3938029> ;
+  ns0:hasRecordSetType <https://www.ica.org/standards/RiC/vocabularies/recordSetTypes#File> ;
+  ns0:title "Correspondence; financial statements; minutes (administrative records); newsletters and pamphlets, including: The Cooperator"@en ;
+  rdfs:label "Correspondence; financial statements; minutes (administrative records); newsletters and pamphlets, including: The Cooperator"@en ;
+  ns0:beginningDate "1945"^^xsd:gYear ;
+  ns0:endDate "1951"^^xsd:gYear ;
+  ns0:date "1945-1951"@en ;
+  ns0:hasInstantiation <http://data.archives-nationales.culture.gouv.fr/instantiation/-aspace_8dea6d1b4e31683bab303a5d9396a999-i1> .
+
+<http://data.archives-nationales.culture.gouv.fr/instantiation/-aspace_8dea6d1b4e31683bab303a5d9396a999-i1>
+  a ns0:Instantiation ;
+  ns0:instantiates <http://data.archives-nationales.culture.gouv.fr/recordResource/-aspace_8dea6d1b4e31683bab303a5d9396a999> ;
+  ns0:title "Correspondence; financial statements; minutes (administrative records); newsletters and pamphlets, including: The Cooperator"@en ;
+  rdfs:label "Correspondence; financial statements; minutes (administrative records); newsletters and pamphlets, including: The Cooperator"@en ;
+  ns0:beginningDate "1945"^^xsd:gYear ;
+  ns0:endDate "1951"^^xsd:gYear ;
+  ns0:date "1945-1951"@en ;
+  rdfs:seeAlso <https://www.siv.archives-nationales.culture.gouv.fr/siv/UD/01883/aspace_8dea6d1b4e31683bab303a5d9396a999> .
+
+<http://data.archives-nationales.culture.gouv.fr/recordResource/-aspace_01a847081988c70e30553f65ea158f1f>
+  a ns0:RecordResource, ns0:RecordSet ;
+  ns0:includedIn <http://data.archives-nationales.culture.gouv.fr/recordResource/-aspace_0b9166fe09737c91f26cecd2e3938029> ;
+  ns0:hasRecordSetType <https://www.ica.org/standards/RiC/vocabularies/recordSetTypes#File> ;
+  ns0:title "Board and membership policy actions"@en ;
+  rdfs:label "Board and membership policy actions"@en ;
+  ns0:date "1949"^^xsd:gYear, "1949"@en ;
+  ns0:hasInstantiation <http://data.archives-nationales.culture.gouv.fr/instantiation/-aspace_01a847081988c70e30553f65ea158f1f-i1> .
+
+<http://data.archives-nationales.culture.gouv.fr/instantiation/-aspace_01a847081988c70e30553f65ea158f1f-i1>
+  a ns0:Instantiation ;
+  ns0:instantiates <http://data.archives-nationales.culture.gouv.fr/recordResource/-aspace_01a847081988c70e30553f65ea158f1f> ;
+  ns0:title "Board and membership policy actions"@en ;
+  rdfs:label "Board and membership policy actions"@en ;
+  ns0:date "1949"^^xsd:gYear, "1949"@en ;
+  rdfs:seeAlso <https://www.siv.archives-nationales.culture.gouv.fr/siv/UD/01883/aspace_01a847081988c70e30553f65ea158f1f> .
+
+<http://data.archives-nationales.culture.gouv.fr/recordResource/-aspace_0bb8f84c1ababf194353602eb0b7fd33>
+  a ns0:RecordResource, ns0:RecordSet ;
+  ns0:includedIn <http://data.archives-nationales.culture.gouv.fr/recordResource/-aspace_0b9166fe09737c91f26cecd2e3938029> ;
+  ns0:hasRecordSetType <https://www.ica.org/standards/RiC/vocabularies/recordSetTypes#File> ;
+  ns0:title "Annual reports; correspondence; financial and operating statements"@en ;
+  rdfs:label "Annual reports; correspondence; financial and operating statements"@en ;
+  ns0:beginningDate "1946"^^xsd:gYear ;
+  ns0:endDate "1951"^^xsd:gYear ;
+  ns0:date "1946-1951"@en ;
+  ns0:hasInstantiation <http://data.archives-nationales.culture.gouv.fr/instantiation/-aspace_0bb8f84c1ababf194353602eb0b7fd33-i1> .
+
+<http://data.archives-nationales.culture.gouv.fr/instantiation/-aspace_0bb8f84c1ababf194353602eb0b7fd33-i1>
+  a ns0:Instantiation ;
+  ns0:instantiates <http://data.archives-nationales.culture.gouv.fr/recordResource/-aspace_0bb8f84c1ababf194353602eb0b7fd33> ;
+  ns0:title "Annual reports; correspondence; financial and operating statements"@en ;
+  rdfs:label "Annual reports; correspondence; financial and operating statements"@en ;
+  ns0:beginningDate "1946"^^xsd:gYear ;
+  ns0:endDate "1951"^^xsd:gYear ;
+  ns0:date "1946-1951"@en ;
+  rdfs:seeAlso <https://www.siv.archives-nationales.culture.gouv.fr/siv/UD/01883/aspace_0bb8f84c1ababf194353602eb0b7fd33> .
+
+<http://data.archives-nationales.culture.gouv.fr/recordResource/-aspace_0bb3067ccc55b6ab59436222b9195e27>
+  a ns0:RecordResource, ns0:RecordSet ;
+  ns0:includedIn <http://data.archives-nationales.culture.gouv.fr/recordResource/-aspace_0b9166fe09737c91f26cecd2e3938029> ;
+  ns0:hasRecordSetType <https://www.ica.org/standards/RiC/vocabularies/recordSetTypes#File> ;
+  ns0:title "Correspondence; minutes (administrative records)"@en ;
+  rdfs:label "Correspondence; minutes (administrative records)"@en ;
+  ns0:beginningDate "1946"^^xsd:gYear ;
+  ns0:endDate "1951"^^xsd:gYear ;
+  ns0:date "1946-1951"@en ;
+  ns0:hasInstantiation <http://data.archives-nationales.culture.gouv.fr/instantiation/-aspace_0bb3067ccc55b6ab59436222b9195e27-i1> .
+
+<http://data.archives-nationales.culture.gouv.fr/instantiation/-aspace_0bb3067ccc55b6ab59436222b9195e27-i1>
+  a ns0:Instantiation ;
+  ns0:instantiates <http://data.archives-nationales.culture.gouv.fr/recordResource/-aspace_0bb3067ccc55b6ab59436222b9195e27> ;
+  ns0:title "Correspondence; minutes (administrative records)"@en ;
+  rdfs:label "Correspondence; minutes (administrative records)"@en ;
+  ns0:beginningDate "1946"^^xsd:gYear ;
+  ns0:endDate "1951"^^xsd:gYear ;
+  ns0:date "1946-1951"@en ;
+  rdfs:seeAlso <https://www.siv.archives-nationales.culture.gouv.fr/siv/UD/01883/aspace_0bb3067ccc55b6ab59436222b9195e27> .
+
+<http://data.archives-nationales.culture.gouv.fr/recordResource/-aspace_ed7d06ac4918135be32cb209f16c4734>
+  a ns0:RecordResource, ns0:RecordSet ;
+  ns0:includedIn <http://data.archives-nationales.culture.gouv.fr/recordResource/-top> ;
+  ns0:hasRecordSetType <https://www.ica.org/standards/RiC/vocabularies/recordSetTypes#Series> ;
+  ns0:title "Pennsylvania Equal Rights Council"@en ;
+  rdfs:label "Pennsylvania Equal Rights Council"@en ;
+  ns0:beginningDate "1961"^^xsd:gYear ;
+  ns0:endDate "1968"^^xsd:gYear ;
+  ns0:date "1961-1968"@en ;
+  ns0:hasInstantiation <http://data.archives-nationales.culture.gouv.fr/instantiation/-aspace_ed7d06ac4918135be32cb209f16c4734-i1> ;
+  ns0:includes <http://data.archives-nationales.culture.gouv.fr/recordResource/-aspace_414241059ab83861e535afe6e70c5df0>, <http://data.archives-nationales.culture.gouv.fr/recordResource/-aspace_e559f38e4d57dfff5b6ec453b07115b1> .
+
+<http://data.archives-nationales.culture.gouv.fr/instantiation/-aspace_ed7d06ac4918135be32cb209f16c4734-i1>
+  a ns0:Instantiation ;
+  ns0:instantiates <http://data.archives-nationales.culture.gouv.fr/recordResource/-aspace_ed7d06ac4918135be32cb209f16c4734> ;
+  ns0:title "Pennsylvania Equal Rights Council"@en ;
+  rdfs:label "Pennsylvania Equal Rights Council"@en ;
+  ns0:identifier "5" ;
+  ns0:beginningDate "1961"^^xsd:gYear ;
+  ns0:endDate "1968"^^xsd:gYear ;
+  ns0:date "1961-1968"@en ;
+  rdfs:seeAlso <https://www.siv.archives-nationales.culture.gouv.fr/siv/UD/01883/aspace_ed7d06ac4918135be32cb209f16c4734> .
+
+<http://data.archives-nationales.culture.gouv.fr/recordResource/-aspace_414241059ab83861e535afe6e70c5df0>
+  a ns0:RecordResource, ns0:RecordSet ;
+  ns0:includedIn <http://data.archives-nationales.culture.gouv.fr/recordResource/-aspace_ed7d06ac4918135be32cb209f16c4734> ;
+  ns0:hasRecordSetType <https://www.ica.org/standards/RiC/vocabularies/recordSetTypes#File> ;
+  ns0:title "Correspondence and press releases concerning civil rights in Pennsylvania"@en ;
+  rdfs:label "Correspondence and press releases concerning civil rights in Pennsylvania"@en ;
+  ns0:beginningDate "1964"^^xsd:gYear ;
+  ns0:endDate "1968"^^xsd:gYear ;
+  ns0:date "1964-1968"@en ;
+  ns0:hasInstantiation <http://data.archives-nationales.culture.gouv.fr/instantiation/-aspace_414241059ab83861e535afe6e70c5df0-i1> .
+
+<http://data.archives-nationales.culture.gouv.fr/instantiation/-aspace_414241059ab83861e535afe6e70c5df0-i1>
+  a ns0:Instantiation ;
+  ns0:instantiates <http://data.archives-nationales.culture.gouv.fr/recordResource/-aspace_414241059ab83861e535afe6e70c5df0> ;
+  ns0:title "Correspondence and press releases concerning civil rights in Pennsylvania"@en ;
+  rdfs:label "Correspondence and press releases concerning civil rights in Pennsylvania"@en ;
+  ns0:beginningDate "1964"^^xsd:gYear ;
+  ns0:endDate "1968"^^xsd:gYear ;
+  ns0:date "1964-1968"@en ;
+  rdfs:seeAlso <https://www.siv.archives-nationales.culture.gouv.fr/siv/UD/01883/aspace_414241059ab83861e535afe6e70c5df0> .
+
+<http://data.archives-nationales.culture.gouv.fr/recordResource/-aspace_e559f38e4d57dfff5b6ec453b07115b1>
+  a ns0:RecordResource, ns0:RecordSet ;
+  ns0:includedIn <http://data.archives-nationales.culture.gouv.fr/recordResource/-aspace_ed7d06ac4918135be32cb209f16c4734> ;
+  ns0:hasRecordSetType <https://www.ica.org/standards/RiC/vocabularies/recordSetTypes#File> ;
+  ns0:title "Correspondence and press releases concerning civil rights in Pennsylvania"@en ;
+  rdfs:label "Correspondence and press releases concerning civil rights in Pennsylvania"@en ;
+  ns0:beginningDate "1961"^^xsd:gYear ;
+  ns0:endDate "1963"^^xsd:gYear ;
+  ns0:date "1961-1963"@en ;
+  ns0:hasInstantiation <http://data.archives-nationales.culture.gouv.fr/instantiation/-aspace_e559f38e4d57dfff5b6ec453b07115b1-i1> .
+
+<http://data.archives-nationales.culture.gouv.fr/instantiation/-aspace_e559f38e4d57dfff5b6ec453b07115b1-i1>
+  a ns0:Instantiation ;
+  ns0:instantiates <http://data.archives-nationales.culture.gouv.fr/recordResource/-aspace_e559f38e4d57dfff5b6ec453b07115b1> ;
+  ns0:title "Correspondence and press releases concerning civil rights in Pennsylvania"@en ;
+  rdfs:label "Correspondence and press releases concerning civil rights in Pennsylvania"@en ;
+  ns0:beginningDate "1961"^^xsd:gYear ;
+  ns0:endDate "1963"^^xsd:gYear ;
+  ns0:date "1961-1963"@en ;
+  rdfs:seeAlso <https://www.siv.archives-nationales.culture.gouv.fr/siv/UD/01883/aspace_e559f38e4d57dfff5b6ec453b07115b1> .
+
+<http://data.archives-nationales.culture.gouv.fr/recordResource/-aspace_efed5d36fc4fb807ffc241cf74aff96f>
+  a ns0:RecordResource, ns0:RecordSet ;
+  ns0:includedIn <http://data.archives-nationales.culture.gouv.fr/recordResource/-top> ;
+  ns0:hasRecordSetType <https://www.ica.org/standards/RiC/vocabularies/recordSetTypes#Series> ;
+  ns0:title "Reading-Berks, Pennsylvania Human Relations Council"@en ;
+  rdfs:label "Reading-Berks, Pennsylvania Human Relations Council"@en ;
+  ns0:beginningDate "1962"^^xsd:gYear ;
+  ns0:endDate "1974"^^xsd:gYear ;
+  ns0:date "1962-1974"@en ;
+  ns0:hasInstantiation <http://data.archives-nationales.culture.gouv.fr/instantiation/-aspace_efed5d36fc4fb807ffc241cf74aff96f-i1> ;
+  ns0:includes <http://data.archives-nationales.culture.gouv.fr/recordResource/-aspace_faa0c15dede637503397c0f815c5f975>, <http://data.archives-nationales.culture.gouv.fr/recordResource/-aspace_293b0f42dc2cb59e3ab7d5c1c2c0a1b8> .
+
+<http://data.archives-nationales.culture.gouv.fr/instantiation/-aspace_efed5d36fc4fb807ffc241cf74aff96f-i1>
+  a ns0:Instantiation ;
+  ns0:instantiates <http://data.archives-nationales.culture.gouv.fr/recordResource/-aspace_efed5d36fc4fb807ffc241cf74aff96f> ;
+  ns0:title "Reading-Berks, Pennsylvania Human Relations Council"@en ;
+  rdfs:label "Reading-Berks, Pennsylvania Human Relations Council"@en ;
+  ns0:identifier "6" ;
+  ns0:beginningDate "1962"^^xsd:gYear ;
+  ns0:endDate "1974"^^xsd:gYear ;
+  ns0:date "1962-1974"@en ;
+  rdfs:seeAlso <https://www.siv.archives-nationales.culture.gouv.fr/siv/UD/01883/aspace_efed5d36fc4fb807ffc241cf74aff96f> .
+
+<http://data.archives-nationales.culture.gouv.fr/recordResource/-aspace_faa0c15dede637503397c0f815c5f975>
+  a ns0:RecordResource, ns0:RecordSet ;
+  ns0:includedIn <http://data.archives-nationales.culture.gouv.fr/recordResource/-aspace_efed5d36fc4fb807ffc241cf74aff96f> ;
+  ns0:hasRecordSetType <https://www.ica.org/standards/RiC/vocabularies/recordSetTypes#File> ;
+  ns0:title "Human relations commission: clippings, correspondence and minutes (administrative records) concerning civil rights, equality before the law, fair housing rights and discrimination in housing"@en ;
+  rdfs:label "Human relations commission: clippings, correspondence and minutes (administrative records) concerning civil rights, equality before the law, fair housing rights and discrimination in housing"@en ;
+  ns0:beginningDate "1962"^^xsd:gYear ;
+  ns0:endDate "1974"^^xsd:gYear ;
+  ns0:date "1962-1974"@en ;
+  ns0:hasInstantiation <http://data.archives-nationales.culture.gouv.fr/instantiation/-aspace_faa0c15dede637503397c0f815c5f975-i1> .
+
+<http://data.archives-nationales.culture.gouv.fr/instantiation/-aspace_faa0c15dede637503397c0f815c5f975-i1>
+  a ns0:Instantiation ;
+  ns0:instantiates <http://data.archives-nationales.culture.gouv.fr/recordResource/-aspace_faa0c15dede637503397c0f815c5f975> ;
+  ns0:title "Human relations commission: clippings, correspondence and minutes (administrative records) concerning civil rights, equality before the law, fair housing rights and discrimination in housing"@en ;
+  rdfs:label "Human relations commission: clippings, correspondence and minutes (administrative records) concerning civil rights, equality before the law, fair housing rights and discrimination in housing"@en ;
+  ns0:beginningDate "1962"^^xsd:gYear ;
+  ns0:endDate "1974"^^xsd:gYear ;
+  ns0:date "1962-1974"@en ;
+  rdfs:seeAlso <https://www.siv.archives-nationales.culture.gouv.fr/siv/UD/01883/aspace_faa0c15dede637503397c0f815c5f975> .
+
+<http://data.archives-nationales.culture.gouv.fr/recordResource/-aspace_293b0f42dc2cb59e3ab7d5c1c2c0a1b8>
+  a ns0:RecordResource, ns0:RecordSet ;
+  ns0:includedIn <http://data.archives-nationales.culture.gouv.fr/recordResource/-aspace_efed5d36fc4fb807ffc241cf74aff96f> ;
+  ns0:hasRecordSetType <https://www.ica.org/standards/RiC/vocabularies/recordSetTypes#File> ;
+  ns0:title "Bulletins; clippings; press releases"@en ;
+  rdfs:label "Bulletins; clippings; press releases"@en ;
+  ns0:beginningDate "1967"^^xsd:gYear ;
+  ns0:endDate "1968"^^xsd:gYear ;
+  ns0:date "1967-1968"@en ;
+  ns0:hasInstantiation <http://data.archives-nationales.culture.gouv.fr/instantiation/-aspace_293b0f42dc2cb59e3ab7d5c1c2c0a1b8-i1> .
+
+<http://data.archives-nationales.culture.gouv.fr/instantiation/-aspace_293b0f42dc2cb59e3ab7d5c1c2c0a1b8-i1>
+  a ns0:Instantiation ;
+  ns0:instantiates <http://data.archives-nationales.culture.gouv.fr/recordResource/-aspace_293b0f42dc2cb59e3ab7d5c1c2c0a1b8> ;
+  ns0:title "Bulletins; clippings; press releases"@en ;
+  rdfs:label "Bulletins; clippings; press releases"@en ;
+  ns0:beginningDate "1967"^^xsd:gYear ;
+  ns0:endDate "1968"^^xsd:gYear ;
+  ns0:date "1967-1968"@en ;
+  rdfs:seeAlso <https://www.siv.archives-nationales.culture.gouv.fr/siv/UD/01883/aspace_293b0f42dc2cb59e3ab7d5c1c2c0a1b8> .
+
+<http://data.archives-nationales.culture.gouv.fr/recordResource/-aspace_a1bff211f2f9a39549ed33b06c02ec5e>
+  a ns0:RecordResource, ns0:RecordSet ;
+  ns0:includedIn <http://data.archives-nationales.culture.gouv.fr/recordResource/-top> ;
+  ns0:hasRecordSetType <https://www.ica.org/standards/RiC/vocabularies/recordSetTypes#Series> ;
+  ns0:title "Microfilm"@en ;
+  rdfs:label "Microfilm"@en ;
+  ns0:hasInstantiation <http://data.archives-nationales.culture.gouv.fr/instantiation/-aspace_a1bff211f2f9a39549ed33b06c02ec5e-i1> ;
+  ns0:includes <http://data.archives-nationales.culture.gouv.fr/recordResource/-aspace_92e616152cfafd3413f0589a9022e179>, <http://data.archives-nationales.culture.gouv.fr/recordResource/-aspace_52f3a82cf72cf8bb028ae9ad113a08d1>, <http://data.archives-nationales.culture.gouv.fr/recordResource/-aspace_48ca5e03eb020e8102cf42fe07421fa5> .
+
+<http://data.archives-nationales.culture.gouv.fr/instantiation/-aspace_a1bff211f2f9a39549ed33b06c02ec5e-i1>
+  a ns0:Instantiation ;
+  ns0:instantiates <http://data.archives-nationales.culture.gouv.fr/recordResource/-aspace_a1bff211f2f9a39549ed33b06c02ec5e> ;
+  ns0:title "Microfilm"@en ;
+  rdfs:label "Microfilm"@en ;
+  ns0:identifier "7" ;
+  rdfs:seeAlso <https://www.siv.archives-nationales.culture.gouv.fr/siv/UD/01883/aspace_a1bff211f2f9a39549ed33b06c02ec5e> .
+
+<http://data.archives-nationales.culture.gouv.fr/recordResource/-aspace_92e616152cfafd3413f0589a9022e179>
+  a ns0:RecordResource, ns0:RecordSet ;
+  ns0:includedIn <http://data.archives-nationales.culture.gouv.fr/recordResource/-aspace_a1bff211f2f9a39549ed33b06c02ec5e> ;
+  ns0:hasRecordSetType <https://www.ica.org/standards/RiC/vocabularies/recordSetTypes#File> ;
+  ns0:title "Detailed microfilm reels index"@en ;
+  rdfs:label "Detailed microfilm reels index"@en ;
+  ns0:hasInstantiation <http://data.archives-nationales.culture.gouv.fr/instantiation/-aspace_92e616152cfafd3413f0589a9022e179-i1> .
+
+<http://data.archives-nationales.culture.gouv.fr/instantiation/-aspace_92e616152cfafd3413f0589a9022e179-i1>
+  a ns0:Instantiation ;
+  ns0:instantiates <http://data.archives-nationales.culture.gouv.fr/recordResource/-aspace_92e616152cfafd3413f0589a9022e179> ;
+  ns0:title "Detailed microfilm reels index"@en ;
+  rdfs:label "Detailed microfilm reels index"@en ;
+  rdfs:seeAlso <https://www.siv.archives-nationales.culture.gouv.fr/siv/UD/01883/aspace_92e616152cfafd3413f0589a9022e179> .
+
+<http://data.archives-nationales.culture.gouv.fr/recordResource/-aspace_52f3a82cf72cf8bb028ae9ad113a08d1>
+  a ns0:RecordResource, ns0:RecordSet ;
+  ns0:includedIn <http://data.archives-nationales.culture.gouv.fr/recordResource/-aspace_a1bff211f2f9a39549ed33b06c02ec5e> ;
+  ns0:hasRecordSetType <https://www.ica.org/standards/RiC/vocabularies/recordSetTypes#File> ;
+  ns0:title "Access copies"@en ;
+  rdfs:label "Access copies"@en ;
+  ns0:hasInstantiation <http://data.archives-nationales.culture.gouv.fr/instantiation/-aspace_52f3a82cf72cf8bb028ae9ad113a08d1-i1> .
+
+<http://data.archives-nationales.culture.gouv.fr/instantiation/-aspace_52f3a82cf72cf8bb028ae9ad113a08d1-i1>
+  a ns0:Instantiation ;
+  ns0:instantiates <http://data.archives-nationales.culture.gouv.fr/recordResource/-aspace_52f3a82cf72cf8bb028ae9ad113a08d1> ;
+  ns0:title "Access copies"@en ;
+  rdfs:label "Access copies"@en ;
+  rdfs:seeAlso <https://www.siv.archives-nationales.culture.gouv.fr/siv/UD/01883/aspace_52f3a82cf72cf8bb028ae9ad113a08d1> .
+
+<http://data.archives-nationales.culture.gouv.fr/recordResource/-aspace_48ca5e03eb020e8102cf42fe07421fa5>
+  a ns0:RecordResource, ns0:RecordSet ;
+  ns0:includedIn <http://data.archives-nationales.culture.gouv.fr/recordResource/-aspace_a1bff211f2f9a39549ed33b06c02ec5e> ;
+  ns0:hasRecordSetType <https://www.ica.org/standards/RiC/vocabularies/recordSetTypes#File> ;
+  ns0:title "Positive originals"@en ;
+  rdfs:label "Positive originals"@en ;
+  ns0:hasInstantiation <http://data.archives-nationales.culture.gouv.fr/instantiation/-aspace_48ca5e03eb020e8102cf42fe07421fa5-i1> .
+
+<http://data.archives-nationales.culture.gouv.fr/instantiation/-aspace_48ca5e03eb020e8102cf42fe07421fa5-i1>
+  a ns0:Instantiation ;
+  ns0:instantiates <http://data.archives-nationales.culture.gouv.fr/recordResource/-aspace_48ca5e03eb020e8102cf42fe07421fa5> ;
+  ns0:title "Positive originals"@en ;
+  rdfs:label "Positive originals"@en ;
+  rdfs:seeAlso <https://www.siv.archives-nationales.culture.gouv.fr/siv/UD/01883/aspace_48ca5e03eb020e8102cf42fe07421fa5> .

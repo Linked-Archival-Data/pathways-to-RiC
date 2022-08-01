@@ -1,0 +1,98 @@
+@prefix ns0: <https://www.ica.org/standards/RiC/ontology#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix dc11: <http://purl.org/dc/elements/1.1/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<http://data.archives-nationales.culture.gouv.fr/record/>
+  a <https://www.ica.org/standards/RiC/ontology#Record> ;
+  ns0:hasDocumentaryFormType <https://www.ica.org/standards/RiC/vocabularies/documentaryFormTypes#FindingAid> ;
+  ns0:regulatedBy <http://data.archives-nationales.culture.gouv.fr/rule/rl005>, <http://data.archives-nationales.culture.gouv.fr/rule/rl004>, <http://data.archives-nationales.culture.gouv.fr/rule/rl006>, <http://data.archives-nationales.culture.gouv.fr/rule/rl007>, <http://data.archives-nationales.culture.gouv.fr/rule/rl009> ;
+  ns0:title "Elisha J. Bracken Civil War diary, 1862-1863 06101"@en ;
+  rdfs:label "Elisha J. Bracken Civil War diary, 1862-1863 06101"@en ;
+  ns0:createdBy <http://data.archives-nationales.culture.gouv.fr/agent/005061> ;
+  ns0:publishedBy <http://data.archives-nationales.culture.gouv.fr/agent/005061> ;
+  ns0:history """
+         <html:div xmlns:html="http://www.w3.org/1999/xhtml">
+            <html:h4>auteur(s)</html:h4>
+            <html:p namespacelang="en">Matt Francis</html:p>
+         </html:div>
+"""^^rdf:XMLLiteral ;
+  ns0:describes <http://data.archives-nationales.culture.gouv.fr/recordResource/-top> ;
+  ns0:hasInstantiation <http://data.archives-nationales.culture.gouv.fr/instantiation/-i1> .
+
+<http://data.archives-nationales.culture.gouv.fr/instantiation/-i1>
+  a ns0:Instantiation ;
+  ns0:instantiates <http://data.archives-nationales.culture.gouv.fr/record/> ;
+  ns0:title "Elisha J. Bracken Civil War diary, 1862-1863 06101"@en ;
+  rdfs:label "Elisha J. Bracken Civil War diary, 1862-1863 06101"@en ;
+  ns0:history "This finding aid was produced using ArchivesSpace on 2022-05-19 10:51:19 -0400."@en ;
+  ns0:regulatedBy <http://data.archives-nationales.culture.gouv.fr/rule/rl010> ;
+  dc11:format "text/xml"@en ;
+  ns0:identifier "06101" ;
+  ns0:heldBy <http://data.archives-nationales.culture.gouv.fr/agent/005061> ;
+  rdfs:seeAlso <https://www.siv.archives-nationales.culture.gouv.fr/siv/IR/06101> .
+
+<http://data.archives-nationales.culture.gouv.fr/recordResource/-top>
+  a ns0:RecordResource, ns0:RecordSet ;
+  ns0:describedBy <http://data.archives-nationales.culture.gouv.fr/record/> ;
+  ns0:hasRecordSetType <https://www.ica.org/standards/RiC/vocabularies/recordSetTypes#Collection> ;
+  ns0:heldBy [
+    a ns0:Agent ;
+    rdfs:label "Eberly Family Special Collections Library"@en ;
+    ns0:hasAgentName [
+      a ns0:AgentName ;
+      rdfs:label "Eberly Family Special Collections Library"@en ;
+      ns0:textualValue "Eberly Family Special Collections Library"@en
+    ]
+  ] ;
+  ns0:title "Elisha J. Bracken Civil War diary"@en ;
+  rdfs:label "Elisha J. Bracken Civil War diary"@en ;
+  ns0:beginningDate "1862"^^xsd:gYear ;
+  ns0:endDate "1863"^^xsd:gYear ;
+  ns0:date "1862-1863"@en ;
+  ns0:hasLanguage <http://data.archives-nationales.culture.gouv.fr/language/FRAN_RI_100-name6> ;
+  ns0:hasProvenance [
+    a ns0:Agent, ns0:Person ;
+    rdfs:label "Bracken, Elisha J., 1840-1864"@en ;
+    ns0:hasAgentName [
+      a ns0:AgentName ;
+      rdfs:label "Bracken, Elisha J., 1840-1864"@en ;
+      ns0:textualValue "Bracken, Elisha J., 1840-1864"@en
+    ]
+  ] ;
+  ns0:hasInstantiation <http://data.archives-nationales.culture.gouv.fr/instantiation/-top-i1> .
+
+<http://data.archives-nationales.culture.gouv.fr/instantiation/-top-i1>
+  a ns0:Instantiation ;
+  ns0:instantiates <http://data.archives-nationales.culture.gouv.fr/recordResource/-top> ;
+  ns0:heldBy [
+    a ns0:Agent ;
+    rdfs:label "Eberly Family Special Collections Library"@en ;
+    ns0:hasAgentName [
+      a ns0:AgentName ;
+      rdfs:label "Eberly Family Special Collections Library"@en ;
+      ns0:textualValue "Eberly Family Special Collections Library"@en
+    ]
+  ] ;
+  ns0:title "Elisha J. Bracken Civil War diary"@en ;
+  rdfs:label "Elisha J. Bracken Civil War diary"@en ;
+  ns0:identifier "06101" ;
+  ns0:instantiationExtent """
+               <html:p xmlns:html="http://www.w3.org/1999/xhtml" namespacelang="en">.1 Linear Feet</html:p>
+"""^^rdf:XMLLiteral, """
+               <html:p xmlns:html="http://www.w3.org/1999/xhtml" namespacelang="en">2 items.</html:p>
+"""^^rdf:XMLLiteral ;
+  ns0:beginningDate "1862"^^xsd:gYear ;
+  ns0:endDate "1863"^^xsd:gYear ;
+  ns0:date "1862-1863"@en ;
+  ns0:hasProvenance [
+    a ns0:Agent, ns0:Person ;
+    rdfs:label "Bracken, Elisha J., 1840-1864"@en ;
+    ns0:hasAgentName [
+      a ns0:AgentName ;
+      rdfs:label "Bracken, Elisha J., 1840-1864"@en ;
+      ns0:textualValue "Bracken, Elisha J., 1840-1864"@en
+    ]
+  ] ;
+  rdfs:seeAlso <https://www.siv.archives-nationales.culture.gouv.fr/siv/UD/06101/top> .

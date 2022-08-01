@@ -1,0 +1,400 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+         xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+         xmlns:rico="https://www.ica.org/standards/RiC/ontology#"
+         xmlns:dc="http://purl.org/dc/elements/1.1/"
+         xmlns:isni="http://isni.org/ontology#"
+         xmlns:owl="http://www.w3.org/2002/07/owl#"
+         xmlns:html="http://www.w3.org/1999/xhtml"
+         xml:base="http://data.archives-nationales.culture.gouv.fr/">
+   <rico:Record rdf:about="record/">
+      <rico:hasDocumentaryFormType rdf:resource="https://www.ica.org/standards/RiC/vocabularies/documentaryFormTypes#FindingAid"/>
+      <rico:regulatedBy rdf:resource="rule/rl005"/>
+      <rico:regulatedBy rdf:resource="rule/rl004"/>
+      <rico:regulatedBy rdf:resource="rule/rl006"/>
+      <rico:regulatedBy rdf:resource="rule/rl007"/>
+      <rico:regulatedBy rdf:resource="rule/rl008"/>
+      <rico:regulatedBy rdf:resource="rule/rl009"/>
+      <rico:title xml:lang="en">Penelope Pennington Collection, 1798-1827: Finding Aid</rico:title>
+      <rdfs:label xml:lang="en">Penelope Pennington Collection, 1798-1827: Finding Aid</rdfs:label>
+      <rico:publishedBy rdf:resource="agent/005061"/>
+      <rico:publicationDate rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">2008</rico:publicationDate>
+      <rico:hasLanguage rdf:resource="language/FRAN_RI_100-name6"/>
+      <rico:affectedBy>
+         <rico:Activity>
+            <rico:date rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2012-05-21</rico:date>
+            <rico:descriptiveNote xml:lang="en">Run through PULFA 2.0 normalization routines.</rico:descriptiveNote>
+         </rico:Activity>
+      </rico:affectedBy>
+      <rico:describes rdf:resource="recordResource/-top"/>
+      <rico:hasInstantiation>
+         <rico:Instantiation rdf:about="instantiation/-i1">
+            <rico:instantiates rdf:resource="record/"/>
+            <rico:title xml:lang="en">Penelope Pennington Collection, 1798-1827: Finding Aid</rico:title>
+            <rdfs:label xml:lang="en">Penelope Pennington Collection, 1798-1827: Finding Aid</rdfs:label>
+            <rico:history xml:lang="en">This finding aid was produced using the Archivists' Toolkit 2012-05-21T11:25-0400</rico:history>
+            <rico:regulatedBy rdf:resource="rule/rl010"/>
+            <dc:format xml:lang="en">text/xml</dc:format>
+            <rico:identifier>C0002</rico:identifier>
+            <rico:heldBy rdf:resource="agent/005061"/>
+            <rdfs:seeAlso rdf:resource="https://www.siv.archives-nationales.culture.gouv.fr/siv/IR/C0002"/>
+         </rico:Instantiation>
+      </rico:hasInstantiation>
+   </rico:Record>
+   <rico:RecordResource rdf:about="recordResource/-top">
+      <rico:describedBy rdf:resource="record/"/>
+      <rdf:type rdf:resource="https://www.ica.org/standards/RiC/ontology#RecordSet"/>
+      <rico:hasRecordSetType rdf:resource="https://www.ica.org/standards/RiC/vocabularies/recordSetTypes#Collection"/>
+      <rico:heldBy>
+         <rico:Agent>
+            <rdfs:label xml:lang="en">Princeton University Library. Special Collections. Manuscripts Division One Washington Road Princeton, New Jersey 08544 USA</rdfs:label>
+            <rico:hasAgentName>
+               <rico:AgentName>
+                  <rdfs:label xml:lang="en">Princeton University Library. Special Collections. Manuscripts Division One Washington Road Princeton, New Jersey 08544 USA</rdfs:label>
+                  <rico:textualValue xml:lang="en">Princeton University Library. Special Collections. Manuscripts Division One Washington Road Princeton, New Jersey 08544 USA</rico:textualValue>
+               </rico:AgentName>
+            </rico:hasAgentName>
+         </rico:Agent>
+      </rico:heldBy>
+      <rico:title xml:lang="en">Penelope Pennington Collection</rico:title>
+      <rdfs:label xml:lang="en">Penelope Pennington Collection</rdfs:label>
+      <rico:beginningDate rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1798</rico:beginningDate>
+      <rico:endDate rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1827</rico:endDate>
+      <rico:date xml:lang="en">1798-1827</rico:date>
+      <rico:hasLanguage rdf:resource="language/FRAN_RI_100-name6"/>
+      <rico:hasProvenance>
+         <rico:Agent>
+            <rdf:type rdf:resource="https://www.ica.org/standards/RiC/ontology#Person"/>
+            <rdfs:label xml:lang="en">Pennington, Penelope, 1752?-1827.</rdfs:label>
+            <rico:hasAgentName>
+               <rico:AgentName>
+                  <rdfs:label xml:lang="en">Pennington, Penelope, 1752?-1827.</rdfs:label>
+                  <rico:textualValue xml:lang="en">Pennington, Penelope, 1752?-1827.</rico:textualValue>
+               </rico:AgentName>
+            </rico:hasAgentName>
+         </rico:Agent>
+      </rico:hasProvenance>
+      <rico:hasSubject>
+         <rico:Agent>
+            <rdf:type rdf:resource="https://www.ica.org/standards/RiC/ontology#Person"/>
+            <rdfs:label xml:lang="en">Brown, Maria, 18th cent.</rdfs:label>
+            <rico:hasAgentName>
+               <rico:AgentName>
+                  <rdfs:label xml:lang="en">Brown, Maria, 18th cent.</rdfs:label>
+                  <rico:textualValue xml:lang="en">Brown, Maria, 18th cent.</rico:textualValue>
+               </rico:AgentName>
+            </rico:hasAgentName>
+         </rico:Agent>
+      </rico:hasSubject>
+      <rico:hasSubject>
+         <rico:Agent>
+            <rdf:type rdf:resource="https://www.ica.org/standards/RiC/ontology#Person"/>
+            <rdfs:label xml:lang="en">Piozzi, Hester Lynch, 1741-1821 -- Friends and associates.</rdfs:label>
+            <rico:hasAgentName>
+               <rico:AgentName>
+                  <rdfs:label xml:lang="en">Piozzi, Hester Lynch, 1741-1821 -- Friends and associates.</rdfs:label>
+                  <rico:textualValue xml:lang="en">Piozzi, Hester Lynch, 1741-1821 -- Friends and associates.</rico:textualValue>
+               </rico:AgentName>
+            </rico:hasAgentName>
+         </rico:Agent>
+      </rico:hasSubject>
+      <rico:hasSubject rdf:resource="thing/local-t16"/>
+      <rico:hasSubject rdf:resource="thing/local-t56"/>
+      <rico:hasInstantiation>
+         <rico:Instantiation rdf:about="instantiation/-top-i1">
+            <rico:instantiates rdf:resource="recordResource/-top"/>
+            <rico:identifier>C0002</rico:identifier>
+            <rico:heldBy>
+               <rico:Agent>
+                  <rdfs:label xml:lang="en">Princeton University Library. Special Collections. Manuscripts Division One Washington Road Princeton, New Jersey 08544 USA</rdfs:label>
+                  <rico:hasAgentName>
+                     <rico:AgentName>
+                        <rdfs:label xml:lang="en">Princeton University Library. Special Collections. Manuscripts Division One Washington Road Princeton, New Jersey 08544 USA</rdfs:label>
+                        <rico:textualValue xml:lang="en">Princeton University Library. Special Collections. Manuscripts Division One Washington Road Princeton, New Jersey 08544 USA</rico:textualValue>
+                     </rico:AgentName>
+                  </rico:hasAgentName>
+               </rico:Agent>
+            </rico:heldBy>
+            <rico:title xml:lang="en">Penelope Pennington Collection</rico:title>
+            <rdfs:label xml:lang="en">Penelope Pennington Collection</rdfs:label>
+            <rico:beginningDate rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1798</rico:beginningDate>
+            <rico:endDate rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1827</rico:endDate>
+            <rico:date xml:lang="en">1798-1827</rico:date>
+            <rico:instantiationExtent rdf:parseType="Literal">
+               <html:p xml:lang="en">0.2 linear feet</html:p>
+            </rico:instantiationExtent>
+            <rico:instantiationExtent rdf:parseType="Literal">
+               <html:p xml:lang="en">1 half-size archival box</html:p>
+            </rico:instantiationExtent>
+            <rico:hasLocation rdf:resource=""/>
+            <rico:hasProvenance>
+               <rico:Agent>
+                  <rdf:type rdf:resource="https://www.ica.org/standards/RiC/ontology#Person"/>
+                  <rdfs:label xml:lang="en">Pennington, Penelope, 1752?-1827.</rdfs:label>
+                  <rico:hasAgentName>
+                     <rico:AgentName>
+                        <rdfs:label xml:lang="en">Pennington, Penelope, 1752?-1827.</rdfs:label>
+                        <rico:textualValue xml:lang="en">Pennington, Penelope, 1752?-1827.</rico:textualValue>
+                     </rico:AgentName>
+                  </rico:hasAgentName>
+               </rico:Agent>
+            </rico:hasProvenance>
+            <rdfs:seeAlso rdf:resource="https://www.siv.archives-nationales.culture.gouv.fr/siv/UD/C0002/top"/>
+         </rico:Instantiation>
+      </rico:hasInstantiation>
+      <rico:includes rdf:resource="recordResource/-C0002_c001"/>
+      <rico:includes rdf:resource="recordResource/-C0002_c002"/>
+      <rico:includes rdf:resource="recordResource/-C0002_c003"/>
+      <rico:includes rdf:resource="recordResource/-C0002_c004"/>
+      <rico:includes rdf:resource="recordResource/-C0002_c005"/>
+      <rico:includes rdf:resource="recordResource/-C0002_c006"/>
+      <rico:includes rdf:resource="recordResource/-C0002_c007"/>
+      <rico:includes rdf:resource="recordResource/-C0002_c008"/>
+      <rico:includes rdf:resource="recordResource/-C0002_c009"/>
+      <rico:includes rdf:resource="recordResource/-C0002_c010"/>
+      <rico:includes rdf:resource="recordResource/-C0002_i1"/>
+   </rico:RecordResource>
+   <rico:RecordResource rdf:about="recordResource/-C0002_c001">
+      <rico:includedIn rdf:resource="recordResource/-top"/>
+      <rdf:type rdf:resource="https://www.ica.org/standards/RiC/ontology#RecordSet"/>
+      <rico:hasRecordSetType rdf:resource="https://www.ica.org/standards/RiC/vocabularies/recordSetTypes#File"/>
+      <rico:title xml:lang="en">Letters to Maria Brown and Others, 1798-1814</rico:title>
+      <rdfs:label xml:lang="en">Letters to Maria Brown and Others, 1798-1814</rdfs:label>
+      <rico:beginningDate rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1798</rico:beginningDate>
+      <rico:endDate rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1814</rico:endDate>
+      <rico:date xml:lang="en">1798-1814</rico:date>
+      <rico:scopeAndContent rdf:parseType="Literal">
+         <html:p xml:lang="en">Contains 5 AMs letters.</html:p>
+      </rico:scopeAndContent>
+      <rico:hasInstantiation>
+         <rico:Instantiation rdf:about="instantiation/-C0002_c001-i1">
+            <rico:instantiates rdf:resource="recordResource/-C0002_c001"/>
+            <rico:title xml:lang="en">Letters to Maria Brown and Others, 1798-1814</rico:title>
+            <rdfs:label xml:lang="en">Letters to Maria Brown and Others, 1798-1814</rdfs:label>
+            <rico:beginningDate rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1798</rico:beginningDate>
+            <rico:endDate rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1814</rico:endDate>
+            <rico:date xml:lang="en">1798-1814</rico:date>
+            <rico:instantiationExtent rdf:parseType="Literal">
+               <html:p xml:lang="en">1 folder</html:p>
+            </rico:instantiationExtent>
+            <rdfs:seeAlso rdf:resource="https://www.siv.archives-nationales.culture.gouv.fr/siv/UD/C0002/C0002_c001"/>
+         </rico:Instantiation>
+      </rico:hasInstantiation>
+   </rico:RecordResource>
+   <rico:RecordResource rdf:about="recordResource/-C0002_c002">
+      <rico:includedIn rdf:resource="recordResource/-top"/>
+      <rdf:type rdf:resource="https://www.ica.org/standards/RiC/ontology#RecordSet"/>
+      <rico:hasRecordSetType rdf:resource="https://www.ica.org/standards/RiC/vocabularies/recordSetTypes#File"/>
+      <rico:title xml:lang="en">Letters to Maria Brown and Others, 1817-1821</rico:title>
+      <rdfs:label xml:lang="en">Letters to Maria Brown and Others, 1817-1821</rdfs:label>
+      <rico:beginningDate rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1817</rico:beginningDate>
+      <rico:endDate rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1821</rico:endDate>
+      <rico:date xml:lang="en">1817-1821</rico:date>
+      <rico:scopeAndContent rdf:parseType="Literal">
+         <html:p xml:lang="en">Contains 14 AMs letters.</html:p>
+      </rico:scopeAndContent>
+      <rico:hasInstantiation>
+         <rico:Instantiation rdf:about="instantiation/-C0002_c002-i1">
+            <rico:instantiates rdf:resource="recordResource/-C0002_c002"/>
+            <rico:title xml:lang="en">Letters to Maria Brown and Others, 1817-1821</rico:title>
+            <rdfs:label xml:lang="en">Letters to Maria Brown and Others, 1817-1821</rdfs:label>
+            <rico:beginningDate rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1817</rico:beginningDate>
+            <rico:endDate rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1821</rico:endDate>
+            <rico:date xml:lang="en">1817-1821</rico:date>
+            <rico:instantiationExtent rdf:parseType="Literal">
+               <html:p xml:lang="en">1 folder</html:p>
+            </rico:instantiationExtent>
+            <rdfs:seeAlso rdf:resource="https://www.siv.archives-nationales.culture.gouv.fr/siv/UD/C0002/C0002_c002"/>
+         </rico:Instantiation>
+      </rico:hasInstantiation>
+   </rico:RecordResource>
+   <rico:RecordResource rdf:about="recordResource/-C0002_c003">
+      <rico:includedIn rdf:resource="recordResource/-top"/>
+      <rdf:type rdf:resource="https://www.ica.org/standards/RiC/ontology#RecordSet"/>
+      <rico:hasRecordSetType rdf:resource="https://www.ica.org/standards/RiC/vocabularies/recordSetTypes#File"/>
+      <rico:title xml:lang="en">Letters to Maria Brown and Others, 1822-1827</rico:title>
+      <rdfs:label xml:lang="en">Letters to Maria Brown and Others, 1822-1827</rdfs:label>
+      <rico:beginningDate rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1822</rico:beginningDate>
+      <rico:endDate rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1827</rico:endDate>
+      <rico:date xml:lang="en">1822-1827</rico:date>
+      <rico:scopeAndContent rdf:parseType="Literal">
+         <html:p xml:lang="en">Contains 12 AMs letters.</html:p>
+      </rico:scopeAndContent>
+      <rico:hasInstantiation>
+         <rico:Instantiation rdf:about="instantiation/-C0002_c003-i1">
+            <rico:instantiates rdf:resource="recordResource/-C0002_c003"/>
+            <rico:title xml:lang="en">Letters to Maria Brown and Others, 1822-1827</rico:title>
+            <rdfs:label xml:lang="en">Letters to Maria Brown and Others, 1822-1827</rdfs:label>
+            <rico:beginningDate rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1822</rico:beginningDate>
+            <rico:endDate rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1827</rico:endDate>
+            <rico:date xml:lang="en">1822-1827</rico:date>
+            <rico:instantiationExtent rdf:parseType="Literal">
+               <html:p xml:lang="en">1 folder</html:p>
+            </rico:instantiationExtent>
+            <rdfs:seeAlso rdf:resource="https://www.siv.archives-nationales.culture.gouv.fr/siv/UD/C0002/C0002_c003"/>
+         </rico:Instantiation>
+      </rico:hasInstantiation>
+   </rico:RecordResource>
+   <rico:RecordResource rdf:about="recordResource/-C0002_c004">
+      <rico:includedIn rdf:resource="recordResource/-top"/>
+      <rdf:type rdf:resource="https://www.ica.org/standards/RiC/ontology#RecordSet"/>
+      <rico:hasRecordSetType rdf:resource="https://www.ica.org/standards/RiC/vocabularies/recordSetTypes#File"/>
+      <rico:title xml:lang="en">AMs, "The Copper Farthing," a poem, 7 p.</rico:title>
+      <rdfs:label xml:lang="en">AMs, "The Copper Farthing," a poem, 7 p.</rdfs:label>
+      <rico:date xml:lang="en">undated</rico:date>
+      <rico:hasInstantiation>
+         <rico:Instantiation rdf:about="instantiation/-C0002_c004-i1">
+            <rico:instantiates rdf:resource="recordResource/-C0002_c004"/>
+            <rico:title xml:lang="en">AMs, "The Copper Farthing," a poem, 7 p.</rico:title>
+            <rdfs:label xml:lang="en">AMs, "The Copper Farthing," a poem, 7 p.</rdfs:label>
+            <rico:date xml:lang="en">undated</rico:date>
+            <rico:instantiationExtent rdf:parseType="Literal">
+               <html:p xml:lang="en">1 folder</html:p>
+            </rico:instantiationExtent>
+            <rdfs:seeAlso rdf:resource="https://www.siv.archives-nationales.culture.gouv.fr/siv/UD/C0002/C0002_c004"/>
+         </rico:Instantiation>
+      </rico:hasInstantiation>
+   </rico:RecordResource>
+   <rico:RecordResource rdf:about="recordResource/-C0002_c005">
+      <rico:includedIn rdf:resource="recordResource/-top"/>
+      <rdf:type rdf:resource="https://www.ica.org/standards/RiC/ontology#RecordSet"/>
+      <rico:hasRecordSetType rdf:resource="https://www.ica.org/standards/RiC/vocabularies/recordSetTypes#File"/>
+      <rico:title xml:lang="en">AMs from Commonplace Books, 1744-1789</rico:title>
+      <rdfs:label xml:lang="en">AMs from Commonplace Books, 1744-1789</rdfs:label>
+      <rico:beginningDate rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1744</rico:beginningDate>
+      <rico:endDate rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1789</rico:endDate>
+      <rico:date xml:lang="en">1744-1789</rico:date>
+      <rico:hasInstantiation>
+         <rico:Instantiation rdf:about="instantiation/-C0002_c005-i1">
+            <rico:instantiates rdf:resource="recordResource/-C0002_c005"/>
+            <rico:title xml:lang="en">AMs from Commonplace Books, 1744-1789</rico:title>
+            <rdfs:label xml:lang="en">AMs from Commonplace Books, 1744-1789</rdfs:label>
+            <rico:beginningDate rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1744</rico:beginningDate>
+            <rico:endDate rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1789</rico:endDate>
+            <rico:date xml:lang="en">1744-1789</rico:date>
+            <rico:instantiationExtent rdf:parseType="Literal">
+               <html:p xml:lang="en">1 folder</html:p>
+            </rico:instantiationExtent>
+            <rdfs:seeAlso rdf:resource="https://www.siv.archives-nationales.culture.gouv.fr/siv/UD/C0002/C0002_c005"/>
+         </rico:Instantiation>
+      </rico:hasInstantiation>
+   </rico:RecordResource>
+   <rico:RecordResource rdf:about="recordResource/-C0002_c006">
+      <rico:includedIn rdf:resource="recordResource/-top"/>
+      <rdf:type rdf:resource="https://www.ica.org/standards/RiC/ontology#RecordSet"/>
+      <rico:hasRecordSetType rdf:resource="https://www.ica.org/standards/RiC/vocabularies/recordSetTypes#File"/>
+      <rico:title xml:lang="en">AMs from Commonplace Books, Undated (1)</rico:title>
+      <rdfs:label xml:lang="en">AMs from Commonplace Books, Undated (1)</rdfs:label>
+      <rico:date xml:lang="en">undated</rico:date>
+      <rico:hasInstantiation>
+         <rico:Instantiation rdf:about="instantiation/-C0002_c006-i1">
+            <rico:instantiates rdf:resource="recordResource/-C0002_c006"/>
+            <rico:title xml:lang="en">AMs from Commonplace Books, Undated (1)</rico:title>
+            <rdfs:label xml:lang="en">AMs from Commonplace Books, Undated (1)</rdfs:label>
+            <rico:date xml:lang="en">undated</rico:date>
+            <rico:instantiationExtent rdf:parseType="Literal">
+               <html:p xml:lang="en">1 folder</html:p>
+            </rico:instantiationExtent>
+            <rdfs:seeAlso rdf:resource="https://www.siv.archives-nationales.culture.gouv.fr/siv/UD/C0002/C0002_c006"/>
+         </rico:Instantiation>
+      </rico:hasInstantiation>
+   </rico:RecordResource>
+   <rico:RecordResource rdf:about="recordResource/-C0002_c007">
+      <rico:includedIn rdf:resource="recordResource/-top"/>
+      <rdf:type rdf:resource="https://www.ica.org/standards/RiC/ontology#RecordSet"/>
+      <rico:hasRecordSetType rdf:resource="https://www.ica.org/standards/RiC/vocabularies/recordSetTypes#File"/>
+      <rico:title xml:lang="en">AMs from Commonplace Books, Undated (2)</rico:title>
+      <rdfs:label xml:lang="en">AMs from Commonplace Books, Undated (2)</rdfs:label>
+      <rico:date xml:lang="en">undated</rico:date>
+      <rico:hasInstantiation>
+         <rico:Instantiation rdf:about="instantiation/-C0002_c007-i1">
+            <rico:instantiates rdf:resource="recordResource/-C0002_c007"/>
+            <rico:title xml:lang="en">AMs from Commonplace Books, Undated (2)</rico:title>
+            <rdfs:label xml:lang="en">AMs from Commonplace Books, Undated (2)</rdfs:label>
+            <rico:date xml:lang="en">undated</rico:date>
+            <rico:instantiationExtent rdf:parseType="Literal">
+               <html:p xml:lang="en">1 folder</html:p>
+            </rico:instantiationExtent>
+            <rdfs:seeAlso rdf:resource="https://www.siv.archives-nationales.culture.gouv.fr/siv/UD/C0002/C0002_c007"/>
+         </rico:Instantiation>
+      </rico:hasInstantiation>
+   </rico:RecordResource>
+   <rico:RecordResource rdf:about="recordResource/-C0002_c008">
+      <rico:includedIn rdf:resource="recordResource/-top"/>
+      <rdf:type rdf:resource="https://www.ica.org/standards/RiC/ontology#RecordSet"/>
+      <rico:hasRecordSetType rdf:resource="https://www.ica.org/standards/RiC/vocabularies/recordSetTypes#File"/>
+      <rico:title xml:lang="en">AMs from Commonplace Books, Undated (3)</rico:title>
+      <rdfs:label xml:lang="en">AMs from Commonplace Books, Undated (3)</rdfs:label>
+      <rico:date xml:lang="en">undated</rico:date>
+      <rico:hasInstantiation>
+         <rico:Instantiation rdf:about="instantiation/-C0002_c008-i1">
+            <rico:instantiates rdf:resource="recordResource/-C0002_c008"/>
+            <rico:title xml:lang="en">AMs from Commonplace Books, Undated (3)</rico:title>
+            <rdfs:label xml:lang="en">AMs from Commonplace Books, Undated (3)</rdfs:label>
+            <rico:date xml:lang="en">undated</rico:date>
+            <rico:instantiationExtent rdf:parseType="Literal">
+               <html:p xml:lang="en">1 folder</html:p>
+            </rico:instantiationExtent>
+            <rdfs:seeAlso rdf:resource="https://www.siv.archives-nationales.culture.gouv.fr/siv/UD/C0002/C0002_c008"/>
+         </rico:Instantiation>
+      </rico:hasInstantiation>
+   </rico:RecordResource>
+   <rico:RecordResource rdf:about="recordResource/-C0002_c009">
+      <rico:includedIn rdf:resource="recordResource/-top"/>
+      <rdf:type rdf:resource="https://www.ica.org/standards/RiC/ontology#RecordSet"/>
+      <rico:hasRecordSetType rdf:resource="https://www.ica.org/standards/RiC/vocabularies/recordSetTypes#File"/>
+      <rico:title xml:lang="en">AMs from Commonplace Books, Undated (4)</rico:title>
+      <rdfs:label xml:lang="en">AMs from Commonplace Books, Undated (4)</rdfs:label>
+      <rico:date xml:lang="en">undated</rico:date>
+      <rico:hasInstantiation>
+         <rico:Instantiation rdf:about="instantiation/-C0002_c009-i1">
+            <rico:instantiates rdf:resource="recordResource/-C0002_c009"/>
+            <rico:title xml:lang="en">AMs from Commonplace Books, Undated (4)</rico:title>
+            <rdfs:label xml:lang="en">AMs from Commonplace Books, Undated (4)</rdfs:label>
+            <rico:date xml:lang="en">undated</rico:date>
+            <rico:instantiationExtent rdf:parseType="Literal">
+               <html:p xml:lang="en">1 folder</html:p>
+            </rico:instantiationExtent>
+            <rdfs:seeAlso rdf:resource="https://www.siv.archives-nationales.culture.gouv.fr/siv/UD/C0002/C0002_c009"/>
+         </rico:Instantiation>
+      </rico:hasInstantiation>
+   </rico:RecordResource>
+   <rico:RecordResource rdf:about="recordResource/-C0002_c010">
+      <rico:includedIn rdf:resource="recordResource/-top"/>
+      <rdf:type rdf:resource="https://www.ica.org/standards/RiC/ontology#RecordSet"/>
+      <rico:hasRecordSetType rdf:resource="https://www.ica.org/standards/RiC/vocabularies/recordSetTypes#File"/>
+      <rico:title xml:lang="en">Thorpe, James: Writings about Penelope Pennington</rico:title>
+      <rdfs:label xml:lang="en">Thorpe, James: Writings about Penelope Pennington</rdfs:label>
+      <rico:beginningDate rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1960</rico:beginningDate>
+      <rico:endDate rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1960</rico:endDate>
+      <rico:date xml:lang="en">1960</rico:date>
+      <rico:scopeAndContent rdf:parseType="Literal">
+         <html:p xml:lang="en">Essay about Pennington is from The Princeton University Library Chronicle.</html:p>
+      </rico:scopeAndContent>
+      <rico:hasInstantiation>
+         <rico:Instantiation rdf:about="instantiation/-C0002_c010-i1">
+            <rico:instantiates rdf:resource="recordResource/-C0002_c010"/>
+            <rico:title xml:lang="en">Thorpe, James: Writings about Penelope Pennington</rico:title>
+            <rdfs:label xml:lang="en">Thorpe, James: Writings about Penelope Pennington</rdfs:label>
+            <rico:beginningDate rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1960</rico:beginningDate>
+            <rico:endDate rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1960</rico:endDate>
+            <rico:date xml:lang="en">1960</rico:date>
+            <rico:instantiationExtent rdf:parseType="Literal">
+               <html:p xml:lang="en">1 folder</html:p>
+            </rico:instantiationExtent>
+            <rdfs:seeAlso rdf:resource="https://www.siv.archives-nationales.culture.gouv.fr/siv/UD/C0002/C0002_c010"/>
+         </rico:Instantiation>
+      </rico:hasInstantiation>
+   </rico:RecordResource>
+   <rico:RecordResource rdf:about="recordResource/-C0002_i1">
+      <rico:includedIn rdf:resource="recordResource/-top"/>
+      <rico:hasInstantiation>
+         <rico:Instantiation rdf:about="instantiation/-C0002_i1-i1">
+            <rico:instantiates rdf:resource="recordResource/-C0002_i1"/>
+            <rico:identifier>32101040679134</rico:identifier>
+            <rico:hasLocation rdf:resource=""/>
+            <rdfs:seeAlso rdf:resource="https://www.siv.archives-nationales.culture.gouv.fr/siv/UD/C0002/C0002_i1"/>
+         </rico:Instantiation>
+      </rico:hasInstantiation>
+   </rico:RecordResource>
+</rdf:RDF>

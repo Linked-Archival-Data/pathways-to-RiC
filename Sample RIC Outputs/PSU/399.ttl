@@ -1,0 +1,2249 @@
+@prefix ns0: <https://www.ica.org/standards/RiC/ontology#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix dc11: <http://purl.org/dc/elements/1.1/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<http://data.archives-nationales.culture.gouv.fr/record/>
+  a <https://www.ica.org/standards/RiC/ontology#Record> ;
+  ns0:hasDocumentaryFormType <https://www.ica.org/standards/RiC/vocabularies/documentaryFormTypes#FindingAid> ;
+  ns0:regulatedBy <http://data.archives-nationales.culture.gouv.fr/rule/rl005>, <http://data.archives-nationales.culture.gouv.fr/rule/rl004>, <http://data.archives-nationales.culture.gouv.fr/rule/rl006>, <http://data.archives-nationales.culture.gouv.fr/rule/rl007>, <http://data.archives-nationales.culture.gouv.fr/rule/rl009> ;
+  ns0:title "Arthur E. Goldschmidt papers, 1913-2001 (bulk 1960-2001) 00399"@en ;
+  rdfs:label "Arthur E. Goldschmidt papers, 1913-2001 (bulk 1960-2001) 00399"@en ;
+  ns0:createdBy <http://data.archives-nationales.culture.gouv.fr/agent/005061> ;
+  ns0:publishedBy <http://data.archives-nationales.culture.gouv.fr/agent/005061> ;
+  ns0:history """
+         <html:div xmlns:html="http://www.w3.org/1999/xhtml">
+            <html:h4>auteur(s)</html:h4>
+            <html:p namespacelang="en">Prepared by Special Collections Library faculty/staff</html:p>
+         </html:div>
+"""^^rdf:XMLLiteral ;
+  ns0:describes <http://data.archives-nationales.culture.gouv.fr/recordResource/-top> ;
+  ns0:hasInstantiation <http://data.archives-nationales.culture.gouv.fr/instantiation/-i1> .
+
+<http://data.archives-nationales.culture.gouv.fr/instantiation/-i1>
+  a ns0:Instantiation ;
+  ns0:instantiates <http://data.archives-nationales.culture.gouv.fr/record/> ;
+  ns0:title "Arthur E. Goldschmidt papers, 1913-2001 (bulk 1960-2001) 00399"@en ;
+  rdfs:label "Arthur E. Goldschmidt papers, 1913-2001 (bulk 1960-2001) 00399"@en ;
+  ns0:history "This finding aid was produced using ArchivesSpace on 2022-05-19 10:47:14 -0400."@en ;
+  ns0:regulatedBy <http://data.archives-nationales.culture.gouv.fr/rule/rl010> ;
+  dc11:format "text/xml"@en ;
+  ns0:identifier "00399" ;
+  ns0:heldBy <http://data.archives-nationales.culture.gouv.fr/agent/005061> ;
+  rdfs:seeAlso <https://www.siv.archives-nationales.culture.gouv.fr/siv/IR/00399> .
+
+<http://data.archives-nationales.culture.gouv.fr/recordResource/-top>
+  a ns0:RecordResource, ns0:RecordSet ;
+  ns0:describedBy <http://data.archives-nationales.culture.gouv.fr/record/> ;
+  ns0:hasRecordSetType <https://www.ica.org/standards/RiC/vocabularies/recordSetTypes#Collection> ;
+  ns0:heldBy [
+    a ns0:Agent ;
+    rdfs:label "Eberly Family Special Collections Library"@en ;
+    ns0:hasAgentName [
+      a ns0:AgentName ;
+      rdfs:label "Eberly Family Special Collections Library"@en ;
+      ns0:textualValue "Eberly Family Special Collections Library"@en
+    ]
+  ] ;
+  ns0:title "Arthur E. Goldschmidt papers"@en ;
+  rdfs:label "Arthur E. Goldschmidt papers"@en ;
+  ns0:beginningDate "1913"^^xsd:gYear, "1960"^^xsd:gYear ;
+  ns0:endDate "2001"^^xsd:gYear ;
+  ns0:date "1913-2001"@en, "1960-2001"@en ;
+  ns0:hasLanguage <http://data.archives-nationales.culture.gouv.fr/language/FRAN_RI_100-name6> ;
+  ns0:conditionsOfUse """
+         <html:p xmlns:html="http://www.w3.org/1999/xhtml" namespacelang="en">Copyright is retained by the creators of items in these papers, or their descendants, as stipulated by United States copyright law.</html:p>
+"""^^rdf:XMLLiteral ;
+  ns0:conditionsOfAccess """
+         <html:p xmlns:html="http://www.w3.org/1999/xhtml" namespacelang="en">Collection is open for research.</html:p>
+"""^^rdf:XMLLiteral ;
+  ns0:history """
+         <html:div xmlns:html="http://www.w3.org/1999/xhtml" namespacelang="en">
+            <html:h4>Informations sur le traitement</html:h4>
+            <html:h5>Processing Information</html:h5>
+            <html:p>Processed by Special Collections staff.</html:p>
+         </html:div>
+"""^^rdf:XMLLiteral ;
+  ns0:hasInstantiation <http://data.archives-nationales.culture.gouv.fr/instantiation/-top-i1> ;
+  ns0:includes <http://data.archives-nationales.culture.gouv.fr/recordResource/-aspace_c564791558afc2fef5d8ef8c1c1c9c0d>, <http://data.archives-nationales.culture.gouv.fr/recordResource/-aspace_a2feb112418c205d24d687ab1b2918fe>, <http://data.archives-nationales.culture.gouv.fr/recordResource/-aspace_1bfeb2d1e188bb8421a272597a070005>, <http://data.archives-nationales.culture.gouv.fr/recordResource/-aspace_70fe377b8d2c3b0a5e62820539c71580>, <http://data.archives-nationales.culture.gouv.fr/recordResource/-aspace_1ad2972574263fb130df9b355ff01faf>, <http://data.archives-nationales.culture.gouv.fr/recordResource/-aspace_6c2c8454137d8cd04943dcf7bae86e8c>, <http://data.archives-nationales.culture.gouv.fr/recordResource/-aspace_c80a403a47bcc897157edaeff77f2bc7>, <http://data.archives-nationales.culture.gouv.fr/recordResource/-aspace_84060b31558cb33e18a107256613dbf3>, <http://data.archives-nationales.culture.gouv.fr/recordResource/-aspace_814b91ce76610543a1500fd36c2807e5>, <http://data.archives-nationales.culture.gouv.fr/recordResource/-aspace_f772474307d69031b352a237a6def51b>, <http://data.archives-nationales.culture.gouv.fr/recordResource/-aspace_03f5c2cf8a31e78854b44fbc0be22950>, <http://data.archives-nationales.culture.gouv.fr/recordResource/-aspace_2ebcc17d4de2414a00cf60f02906d626>, <http://data.archives-nationales.culture.gouv.fr/recordResource/-aspace_d75613156b8dadbce3dfe810feb4c2a5>, <http://data.archives-nationales.culture.gouv.fr/recordResource/-aspace_6206f1a2972e4e4634786433e09e9cef>, <http://data.archives-nationales.culture.gouv.fr/recordResource/-aspace_7b533ca688a52983fadc8d348b8b8e4d>, <http://data.archives-nationales.culture.gouv.fr/recordResource/-aspace_9572f339652267b025dd161f3a632b33>, <http://data.archives-nationales.culture.gouv.fr/recordResource/-aspace_e174c7ef2b42b111b19b0b887d97757a>, <http://data.archives-nationales.culture.gouv.fr/recordResource/-aspace_6f843ac8cfdc0b3d72a9d5af8fcd1a25>, <http://data.archives-nationales.culture.gouv.fr/recordResource/-aspace_1dad8bc23199f5601eb0e73f834ffe66>, <http://data.archives-nationales.culture.gouv.fr/recordResource/-aspace_9fe8b2267276cd7c38b7cb883848bdc5>, <http://data.archives-nationales.culture.gouv.fr/recordResource/-aspace_a93c3cf3521af7210f7ae72d43c5f589>, <http://data.archives-nationales.culture.gouv.fr/recordResource/-aspace_39954c22c3e4270b1913ed6bcafc5667>, <http://data.archives-nationales.culture.gouv.fr/recordResource/-aspace_3728ee26a9b44ff54df34a9ec0192b29>, <http://data.archives-nationales.culture.gouv.fr/recordResource/-aspace_ecbf4be7ede7234c9f1a475c3e1f1a9f>, <http://data.archives-nationales.culture.gouv.fr/recordResource/-aspace_1a215bb0cc97a2c1ccc98f2fffebca96>, <http://data.archives-nationales.culture.gouv.fr/recordResource/-aspace_a603907b69a9087981b1d50041de5a3e>, <http://data.archives-nationales.culture.gouv.fr/recordResource/-aspace_ceeec992670ebfb819ac3a1474c30b46>, <http://data.archives-nationales.culture.gouv.fr/recordResource/-aspace_67078edeea35e4cabb4255e9c54d6fb8>, <http://data.archives-nationales.culture.gouv.fr/recordResource/-aspace_73191e502869e7b760926153882a9abc>, <http://data.archives-nationales.culture.gouv.fr/recordResource/-aspace_82322e6958945c067fea00fd57217fa4>, <http://data.archives-nationales.culture.gouv.fr/recordResource/-aspace_6cbb3566eeb159de46653e8974ba8381>, <http://data.archives-nationales.culture.gouv.fr/recordResource/-aspace_4a7bbe263dc314ac049ae7527dcba74d>, <http://data.archives-nationales.culture.gouv.fr/recordResource/-aspace_15df12dc2ba618777813b01f8dce602c>, <http://data.archives-nationales.culture.gouv.fr/recordResource/-aspace_2d1418c1073cbd17cfded0a6ba488d40>, <http://data.archives-nationales.culture.gouv.fr/recordResource/-aspace_8d15a94ad0a69355c5977f21c2c3ad73>, <http://data.archives-nationales.culture.gouv.fr/recordResource/-aspace_18b6cca4166a0381fe5e9aadd7592bb9>, <http://data.archives-nationales.culture.gouv.fr/recordResource/-aspace_3984d719e053c4ea718089e27ff19c22>, <http://data.archives-nationales.culture.gouv.fr/recordResource/-aspace_ff10b72a91bd6bdd3a6631ac8e2a70c2>, <http://data.archives-nationales.culture.gouv.fr/recordResource/-aspace_046bb020ed6dfd646b38f5c290d9cb13>, <http://data.archives-nationales.culture.gouv.fr/recordResource/-aspace_2a0c14dce13287ea2bd9c2fb0c866b75>, <http://data.archives-nationales.culture.gouv.fr/recordResource/-aspace_bc76afea3fe0bc983e6dcd1c46b07ee5>, <http://data.archives-nationales.culture.gouv.fr/recordResource/-aspace_0139835c1f6ae520485e1069ef438684>, <http://data.archives-nationales.culture.gouv.fr/recordResource/-aspace_2f7a747695b4b55b9a0a5664a05fa8be>, <http://data.archives-nationales.culture.gouv.fr/recordResource/-aspace_721a557f71b90d58e2956a6d26958c07>, <http://data.archives-nationales.culture.gouv.fr/recordResource/-aspace_0f7e68f40beb5093c37676b600ca3e09>, <http://data.archives-nationales.culture.gouv.fr/recordResource/-aspace_f4701edf32c01d73625a3f1a214918c2>, <http://data.archives-nationales.culture.gouv.fr/recordResource/-aspace_85a8f8a262f5bcdcf1efe8ca6465de85>, <http://data.archives-nationales.culture.gouv.fr/recordResource/-aspace_fa079e4a4a01be0d41f2b57b2f74e52b>, <http://data.archives-nationales.culture.gouv.fr/recordResource/-aspace_f71e3142e872824094c9357cd04d675a>, <http://data.archives-nationales.culture.gouv.fr/recordResource/-aspace_ca36e840a8acf2aea73546310bbeaab3>, <http://data.archives-nationales.culture.gouv.fr/recordResource/-aspace_40d280448a005a4221ebe37360ddd788>, <http://data.archives-nationales.culture.gouv.fr/recordResource/-aspace_ae53387dbd93ea9d6f8f0dacd63412b2>, <http://data.archives-nationales.culture.gouv.fr/recordResource/-aspace_abab9257d31e760e6cbf867b6951b53b>, <http://data.archives-nationales.culture.gouv.fr/recordResource/-aspace_49d0d3cfe9164d92d702af0a366c2f9c>, <http://data.archives-nationales.culture.gouv.fr/recordResource/-aspace_511f9e4a73cf0a95ecd13768f7610db6>, <http://data.archives-nationales.culture.gouv.fr/recordResource/-aspace_8dd2b701984c82ef97d70c57e928fc79>, <http://data.archives-nationales.culture.gouv.fr/recordResource/-aspace_8b9afbb1f23c11f4f3dca7cc08a13b5f>, <http://data.archives-nationales.culture.gouv.fr/recordResource/-aspace_16b716d5096f894d332343cf6cc698af>, <http://data.archives-nationales.culture.gouv.fr/recordResource/-aspace_51b9bc420b753c56852cd6cfa38c6304>, <http://data.archives-nationales.culture.gouv.fr/recordResource/-aspace_d810a81822eb46f4026b5d019c714bc6>, <http://data.archives-nationales.culture.gouv.fr/recordResource/-aspace_72752cc8b4de22f0c2e7e468ee3cc692>, <http://data.archives-nationales.culture.gouv.fr/recordResource/-aspace_523fdbdf70b6703f6072f0cff6dd30ae>, <http://data.archives-nationales.culture.gouv.fr/recordResource/-aspace_50e05f5d8151f1658d0704c98f957357>, <http://data.archives-nationales.culture.gouv.fr/recordResource/-aspace_ccdaeed765b78f4df8901abc76d32218>, <http://data.archives-nationales.culture.gouv.fr/recordResource/-aspace_c4c620262395caf9fb915d8ab91f69e9>, <http://data.archives-nationales.culture.gouv.fr/recordResource/-aspace_c1a4e6b989d36d462d95e3668ee44ae0>, <http://data.archives-nationales.culture.gouv.fr/recordResource/-aspace_b5cfa21fdffb1648593873c895c0c70b>, <http://data.archives-nationales.culture.gouv.fr/recordResource/-aspace_6bfce5e0c7d5c1741db9d29eb67cdaad>, <http://data.archives-nationales.culture.gouv.fr/recordResource/-aspace_9adffad43504ce001bf1a599c1732bb1>, <http://data.archives-nationales.culture.gouv.fr/recordResource/-aspace_b7c10b152389669a0f8bfecf17415164>, <http://data.archives-nationales.culture.gouv.fr/recordResource/-aspace_7a7d72ab2759b0341a071fbeedcef0fc>, <http://data.archives-nationales.culture.gouv.fr/recordResource/-aspace_5c4e748283a0f88047be61495509cef8>, <http://data.archives-nationales.culture.gouv.fr/recordResource/-aspace_08bd9aebadd400adc6344b9fd4778542>, <http://data.archives-nationales.culture.gouv.fr/recordResource/-aspace_c12eb4297adacd9375a2e521044490d2>, <http://data.archives-nationales.culture.gouv.fr/recordResource/-aspace_3acc224db65c9c60f26fe199184cc3c2>, <http://data.archives-nationales.culture.gouv.fr/recordResource/-aspace_97f9b35833a23378b8724baaf9ff4c94>, <http://data.archives-nationales.culture.gouv.fr/recordResource/-aspace_197fa34e989b563966f6856ac8a4c783>, <http://data.archives-nationales.culture.gouv.fr/recordResource/-aspace_b17e18bf73af13945ad3c6a395642d3a>, <http://data.archives-nationales.culture.gouv.fr/recordResource/-aspace_fdd052779857536be2e27558d40a43c7>, <http://data.archives-nationales.culture.gouv.fr/recordResource/-aspace_febf9f26cce267185f90d1fb8fcc4fe7>, <http://data.archives-nationales.culture.gouv.fr/recordResource/-aspace_7e50b34409fea237266d5400b2fde76c>, <http://data.archives-nationales.culture.gouv.fr/recordResource/-aspace_13d64a76ab2e66d3773aaf41a262962c>, <http://data.archives-nationales.culture.gouv.fr/recordResource/-aspace_29f813a7595c0fe50df6805ebdd2a619>, <http://data.archives-nationales.culture.gouv.fr/recordResource/-aspace_377a44e5c390954e9b21edb472691550>, <http://data.archives-nationales.culture.gouv.fr/recordResource/-aspace_4cad045e04ced821134d59ad11a04ae4>, <http://data.archives-nationales.culture.gouv.fr/recordResource/-aspace_0607b5e03eb6f0c7e49eb95f740d8e28>, <http://data.archives-nationales.culture.gouv.fr/recordResource/-aspace_3ea4de200e0f1d25eaa737f86806ce6f>, <http://data.archives-nationales.culture.gouv.fr/recordResource/-aspace_6037a6e6903fe5b270e30caf119ce5a8>, <http://data.archives-nationales.culture.gouv.fr/recordResource/-aspace_7aea7f83fef2cd94265e55cb4759133d>, <http://data.archives-nationales.culture.gouv.fr/recordResource/-aspace_6471f2ed19e4a76be933465fda9f30c4>, <http://data.archives-nationales.culture.gouv.fr/recordResource/-aspace_cd8ef38b6e2a613f00d5897aa1bc2ada>, <http://data.archives-nationales.culture.gouv.fr/recordResource/-aspace_8969b5db41c4d526f1fa4a15c77d7fcc>, <http://data.archives-nationales.culture.gouv.fr/recordResource/-aspace_d66c063da5c0bcc5c491d667b57be28e>, <http://data.archives-nationales.culture.gouv.fr/recordResource/-aspace_42fab0bc1ded0dcbb68594e4fb535d5b>, <http://data.archives-nationales.culture.gouv.fr/recordResource/-aspace_1c13c12aab473a9008a0c647815e2fab>, <http://data.archives-nationales.culture.gouv.fr/recordResource/-aspace_23a95ca89b05ead8ac593c2e201a8680>, <http://data.archives-nationales.culture.gouv.fr/recordResource/-aspace_ef79a7d77c974e8010de043be7b7615e>, <http://data.archives-nationales.culture.gouv.fr/recordResource/-aspace_76414b47893fc34fbfa6f3e572c68eb6>, <http://data.archives-nationales.culture.gouv.fr/recordResource/-aspace_f416dcfd46bf9aceb7222b47a279f92e>, <http://data.archives-nationales.culture.gouv.fr/recordResource/-aspace_cd2ac1461eca028b59376a821381a3c3>, <http://data.archives-nationales.culture.gouv.fr/recordResource/-aspace_6ff3a77ddcb66ab17ee9dee5fa85d16f>, <http://data.archives-nationales.culture.gouv.fr/recordResource/-aspace_c9bee181cc2a7d1af9c5938c2103b1be>, <http://data.archives-nationales.culture.gouv.fr/recordResource/-aspace_ede65c042f825a1a794d58261b2e4438>, <http://data.archives-nationales.culture.gouv.fr/recordResource/-aspace_68d0bf31791ecf55f06e7547b45212b1>, <http://data.archives-nationales.culture.gouv.fr/recordResource/-aspace_a6276bd7f8891b7b5e6e68be45458eb4>, <http://data.archives-nationales.culture.gouv.fr/recordResource/-aspace_1040f693ca1b1e29472e19029a7d6cc9>, <http://data.archives-nationales.culture.gouv.fr/recordResource/-aspace_a12e66fef32ec01381c16918ffb6f4ed>, <http://data.archives-nationales.culture.gouv.fr/recordResource/-aspace_e8808955131098e3b24e19cab38d86e8>, <http://data.archives-nationales.culture.gouv.fr/recordResource/-aspace_26f0e4527a4f6134cf6a6762d588b1ae>, <http://data.archives-nationales.culture.gouv.fr/recordResource/-aspace_abddbdfa7b1047c04b45c0dc7b55e076>, <http://data.archives-nationales.culture.gouv.fr/recordResource/-aspace_04e7b4730ba5311f5f77b7a8a0f06877>, <http://data.archives-nationales.culture.gouv.fr/recordResource/-aspace_5a1fddc5eff24f88b3ec6af9abf2aa43>, <http://data.archives-nationales.culture.gouv.fr/recordResource/-aspace_d5904746220660b162efdb99340c137a>, <http://data.archives-nationales.culture.gouv.fr/recordResource/-aspace_840724127109b710a9dffef3ff7ae048>, <http://data.archives-nationales.culture.gouv.fr/recordResource/-aspace_cd9351ba0394f9da64564be660ecb5e3>, <http://data.archives-nationales.culture.gouv.fr/recordResource/-aspace_9fef2a6db6a252bc28002419e7d7021d>, <http://data.archives-nationales.culture.gouv.fr/recordResource/-aspace_9c4a9f4bfa5f90abfb454b101f2e7c91> .
+
+<http://data.archives-nationales.culture.gouv.fr/instantiation/-top-i1>
+  a ns0:Instantiation ;
+  ns0:instantiates <http://data.archives-nationales.culture.gouv.fr/recordResource/-top> ;
+  ns0:heldBy [
+    a ns0:Agent ;
+    rdfs:label "Eberly Family Special Collections Library"@en ;
+    ns0:hasAgentName [
+      a ns0:AgentName ;
+      rdfs:label "Eberly Family Special Collections Library"@en ;
+      ns0:textualValue "Eberly Family Special Collections Library"@en
+    ]
+  ] ;
+  ns0:title "Arthur E. Goldschmidt papers"@en ;
+  rdfs:label "Arthur E. Goldschmidt papers"@en ;
+  ns0:identifier "00399" ;
+  ns0:instantiationExtent """
+               <html:p xmlns:html="http://www.w3.org/1999/xhtml" namespacelang="en">10 Cubic feet</html:p>
+"""^^rdf:XMLLiteral ;
+  ns0:beginningDate "1913"^^xsd:gYear, "1960"^^xsd:gYear ;
+  ns0:endDate "2001"^^xsd:gYear ;
+  ns0:date "1913-2001"@en, "1960-2001"@en ;
+  ns0:hasLocation <http://data.archives-nationales.culture.gouv.fr/> ;
+  ns0:conditionsOfUse """
+               <html:p xmlns:html="http://www.w3.org/1999/xhtml" namespacelang="en">Copyright is retained by the creators of items in these papers, or their descendants, as stipulated by United States copyright law.</html:p>
+"""^^rdf:XMLLiteral ;
+  ns0:conditionsOfAccess """
+               <html:p xmlns:html="http://www.w3.org/1999/xhtml" namespacelang="en">Collection is open for research.</html:p>
+"""^^rdf:XMLLiteral ;
+  ns0:history """
+               <html:div xmlns:html="http://www.w3.org/1999/xhtml" namespacelang="en">
+                  <html:h4>Informations sur le traitement</html:h4>
+                  <html:h5>Processing Information</html:h5>
+                  <html:p>Processed by Special Collections staff.</html:p>
+               </html:div>
+"""^^rdf:XMLLiteral ;
+  rdfs:seeAlso <https://www.siv.archives-nationales.culture.gouv.fr/siv/UD/00399/top> .
+
+<http://data.archives-nationales.culture.gouv.fr/recordResource/-aspace_c564791558afc2fef5d8ef8c1c1c9c0d>
+  a ns0:RecordResource, ns0:RecordSet ;
+  ns0:includedIn <http://data.archives-nationales.culture.gouv.fr/recordResource/-top> ;
+  ns0:hasRecordSetType <https://www.ica.org/standards/RiC/vocabularies/recordSetTypes#File> ;
+  ns0:title "Encart Encyclopedia - Egypt: Government and History"@en ;
+  rdfs:label "Encart Encyclopedia - Egypt: Government and History"@en ;
+  ns0:beginningDate "1998"^^xsd:gYear ;
+  ns0:endDate "2005"^^xsd:gYear ;
+  ns0:date "1998-2005"@en ;
+  ns0:hasInstantiation <http://data.archives-nationales.culture.gouv.fr/instantiation/-aspace_c564791558afc2fef5d8ef8c1c1c9c0d-i1> .
+
+<http://data.archives-nationales.culture.gouv.fr/instantiation/-aspace_c564791558afc2fef5d8ef8c1c1c9c0d-i1>
+  a ns0:Instantiation ;
+  ns0:instantiates <http://data.archives-nationales.culture.gouv.fr/recordResource/-aspace_c564791558afc2fef5d8ef8c1c1c9c0d> ;
+  ns0:title "Encart Encyclopedia - Egypt: Government and History"@en ;
+  rdfs:label "Encart Encyclopedia - Egypt: Government and History"@en ;
+  ns0:beginningDate "1998"^^xsd:gYear ;
+  ns0:endDate "2005"^^xsd:gYear ;
+  ns0:date "1998-2005"@en ;
+  rdfs:seeAlso <https://www.siv.archives-nationales.culture.gouv.fr/siv/UD/00399/aspace_c564791558afc2fef5d8ef8c1c1c9c0d> .
+
+<http://data.archives-nationales.culture.gouv.fr/recordResource/-aspace_a2feb112418c205d24d687ab1b2918fe>
+  a ns0:RecordResource, ns0:RecordSet ;
+  ns0:includedIn <http://data.archives-nationales.culture.gouv.fr/recordResource/-top> ;
+  ns0:hasRecordSetType <https://www.ica.org/standards/RiC/vocabularies/recordSetTypes#File> ;
+  ns0:title "Correspondence with Lynne Rienner - Biographical Dictionary"@en ;
+  rdfs:label "Correspondence with Lynne Rienner - Biographical Dictionary"@en ;
+  ns0:beginningDate "1995"^^xsd:gYear ;
+  ns0:endDate "2010"^^xsd:gYear ;
+  ns0:date "1995-2010"@en ;
+  ns0:hasInstantiation <http://data.archives-nationales.culture.gouv.fr/instantiation/-aspace_a2feb112418c205d24d687ab1b2918fe-i1> .
+
+<http://data.archives-nationales.culture.gouv.fr/instantiation/-aspace_a2feb112418c205d24d687ab1b2918fe-i1>
+  a ns0:Instantiation ;
+  ns0:instantiates <http://data.archives-nationales.culture.gouv.fr/recordResource/-aspace_a2feb112418c205d24d687ab1b2918fe> ;
+  ns0:title "Correspondence with Lynne Rienner - Biographical Dictionary"@en ;
+  rdfs:label "Correspondence with Lynne Rienner - Biographical Dictionary"@en ;
+  ns0:beginningDate "1995"^^xsd:gYear ;
+  ns0:endDate "2010"^^xsd:gYear ;
+  ns0:date "1995-2010"@en ;
+  rdfs:seeAlso <https://www.siv.archives-nationales.culture.gouv.fr/siv/UD/00399/aspace_a2feb112418c205d24d687ab1b2918fe> .
+
+<http://data.archives-nationales.culture.gouv.fr/recordResource/-aspace_1bfeb2d1e188bb8421a272597a070005>
+  a ns0:RecordResource, ns0:RecordSet ;
+  ns0:includedIn <http://data.archives-nationales.culture.gouv.fr/recordResource/-top> ;
+  ns0:hasRecordSetType <https://www.ica.org/standards/RiC/vocabularies/recordSetTypes#File> ;
+  ns0:title "History in Dispute - David Lesch"@en ;
+  rdfs:label "History in Dispute - David Lesch"@en ;
+  ns0:date "2003"^^xsd:gYear, "2003"@en ;
+  ns0:hasInstantiation <http://data.archives-nationales.culture.gouv.fr/instantiation/-aspace_1bfeb2d1e188bb8421a272597a070005-i1> .
+
+<http://data.archives-nationales.culture.gouv.fr/instantiation/-aspace_1bfeb2d1e188bb8421a272597a070005-i1>
+  a ns0:Instantiation ;
+  ns0:instantiates <http://data.archives-nationales.culture.gouv.fr/recordResource/-aspace_1bfeb2d1e188bb8421a272597a070005> ;
+  ns0:title "History in Dispute - David Lesch"@en ;
+  rdfs:label "History in Dispute - David Lesch"@en ;
+  ns0:date "2003"^^xsd:gYear, "2003"@en ;
+  rdfs:seeAlso <https://www.siv.archives-nationales.culture.gouv.fr/siv/UD/00399/aspace_1bfeb2d1e188bb8421a272597a070005> .
+
+<http://data.archives-nationales.culture.gouv.fr/recordResource/-aspace_70fe377b8d2c3b0a5e62820539c71580>
+  a ns0:RecordResource, ns0:RecordSet ;
+  ns0:includedIn <http://data.archives-nationales.culture.gouv.fr/recordResource/-top> ;
+  ns0:hasRecordSetType <https://www.ica.org/standards/RiC/vocabularies/recordSetTypes#File> ;
+  ns0:title "Encyclopedia of Middle East and North Africa, 2nd ed."@en ;
+  rdfs:label "Encyclopedia of Middle East and North Africa, 2nd ed."@en ;
+  ns0:date "2003"^^xsd:gYear, "2003"@en ;
+  ns0:hasInstantiation <http://data.archives-nationales.culture.gouv.fr/instantiation/-aspace_70fe377b8d2c3b0a5e62820539c71580-i1> .
+
+<http://data.archives-nationales.culture.gouv.fr/instantiation/-aspace_70fe377b8d2c3b0a5e62820539c71580-i1>
+  a ns0:Instantiation ;
+  ns0:instantiates <http://data.archives-nationales.culture.gouv.fr/recordResource/-aspace_70fe377b8d2c3b0a5e62820539c71580> ;
+  ns0:title "Encyclopedia of Middle East and North Africa, 2nd ed."@en ;
+  rdfs:label "Encyclopedia of Middle East and North Africa, 2nd ed."@en ;
+  ns0:date "2003"^^xsd:gYear, "2003"@en ;
+  rdfs:seeAlso <https://www.siv.archives-nationales.culture.gouv.fr/siv/UD/00399/aspace_70fe377b8d2c3b0a5e62820539c71580> .
+
+<http://data.archives-nationales.culture.gouv.fr/recordResource/-aspace_1ad2972574263fb130df9b355ff01faf>
+  a ns0:RecordResource, ns0:RecordSet ;
+  ns0:includedIn <http://data.archives-nationales.culture.gouv.fr/recordResource/-top> ;
+  ns0:hasRecordSetType <https://www.ica.org/standards/RiC/vocabularies/recordSetTypes#File> ;
+  ns0:title "Literature of Travel and Exploration - Wilfred S. Blunt entry"@en ;
+  rdfs:label "Literature of Travel and Exploration - Wilfred S. Blunt entry"@en ;
+  ns0:date "1999"^^xsd:gYear, "1999"@en ;
+  ns0:hasInstantiation <http://data.archives-nationales.culture.gouv.fr/instantiation/-aspace_1ad2972574263fb130df9b355ff01faf-i1> .
+
+<http://data.archives-nationales.culture.gouv.fr/instantiation/-aspace_1ad2972574263fb130df9b355ff01faf-i1>
+  a ns0:Instantiation ;
+  ns0:instantiates <http://data.archives-nationales.culture.gouv.fr/recordResource/-aspace_1ad2972574263fb130df9b355ff01faf> ;
+  ns0:title "Literature of Travel and Exploration - Wilfred S. Blunt entry"@en ;
+  rdfs:label "Literature of Travel and Exploration - Wilfred S. Blunt entry"@en ;
+  ns0:date "1999"^^xsd:gYear, "1999"@en ;
+  rdfs:seeAlso <https://www.siv.archives-nationales.culture.gouv.fr/siv/UD/00399/aspace_1ad2972574263fb130df9b355ff01faf> .
+
+<http://data.archives-nationales.culture.gouv.fr/recordResource/-aspace_6c2c8454137d8cd04943dcf7bae86e8c>
+  a ns0:RecordResource, ns0:RecordSet ;
+  ns0:includedIn <http://data.archives-nationales.culture.gouv.fr/recordResource/-top> ;
+  ns0:hasRecordSetType <https://www.ica.org/standards/RiC/vocabularies/recordSetTypes#File> ;
+  ns0:title "Entries for Oxford Encyclopedia of the Modern World"@en ;
+  rdfs:label "Entries for Oxford Encyclopedia of the Modern World"@en ;
+  ns0:date "2005"^^xsd:gYear, "2005"@en ;
+  ns0:hasInstantiation <http://data.archives-nationales.culture.gouv.fr/instantiation/-aspace_6c2c8454137d8cd04943dcf7bae86e8c-i1> .
+
+<http://data.archives-nationales.culture.gouv.fr/instantiation/-aspace_6c2c8454137d8cd04943dcf7bae86e8c-i1>
+  a ns0:Instantiation ;
+  ns0:instantiates <http://data.archives-nationales.culture.gouv.fr/recordResource/-aspace_6c2c8454137d8cd04943dcf7bae86e8c> ;
+  ns0:title "Entries for Oxford Encyclopedia of the Modern World"@en ;
+  rdfs:label "Entries for Oxford Encyclopedia of the Modern World"@en ;
+  ns0:date "2005"^^xsd:gYear, "2005"@en ;
+  rdfs:seeAlso <https://www.siv.archives-nationales.culture.gouv.fr/siv/UD/00399/aspace_6c2c8454137d8cd04943dcf7bae86e8c> .
+
+<http://data.archives-nationales.culture.gouv.fr/recordResource/-aspace_c80a403a47bcc897157edaeff77f2bc7>
+  a ns0:RecordResource, ns0:RecordSet ;
+  ns0:includedIn <http://data.archives-nationales.culture.gouv.fr/recordResource/-top> ;
+  ns0:hasRecordSetType <https://www.ica.org/standards/RiC/vocabularies/recordSetTypes#File> ;
+  ns0:title "Goldschmidt, Arthur Jr. - Research and Writing: Projects and Papers"@en ;
+  rdfs:label "Goldschmidt, Arthur Jr. - Research and Writing: Projects and Papers"@en ;
+  ns0:date "Undated"@en ;
+  ns0:hasInstantiation <http://data.archives-nationales.culture.gouv.fr/instantiation/-aspace_c80a403a47bcc897157edaeff77f2bc7-i1> .
+
+<http://data.archives-nationales.culture.gouv.fr/instantiation/-aspace_c80a403a47bcc897157edaeff77f2bc7-i1>
+  a ns0:Instantiation ;
+  ns0:instantiates <http://data.archives-nationales.culture.gouv.fr/recordResource/-aspace_c80a403a47bcc897157edaeff77f2bc7> ;
+  ns0:title "Goldschmidt, Arthur Jr. - Research and Writing: Projects and Papers"@en ;
+  rdfs:label "Goldschmidt, Arthur Jr. - Research and Writing: Projects and Papers"@en ;
+  ns0:date "Undated"@en ;
+  rdfs:seeAlso <https://www.siv.archives-nationales.culture.gouv.fr/siv/UD/00399/aspace_c80a403a47bcc897157edaeff77f2bc7> .
+
+<http://data.archives-nationales.culture.gouv.fr/recordResource/-aspace_84060b31558cb33e18a107256613dbf3>
+  a ns0:RecordResource, ns0:RecordSet ;
+  ns0:includedIn <http://data.archives-nationales.culture.gouv.fr/recordResource/-top> ;
+  ns0:hasRecordSetType <https://www.ica.org/standards/RiC/vocabularies/recordSetTypes#File> ;
+  ns0:title "Goldschmidt, Arthur Jr. - Research and Writing: Projects and Papers"@en ;
+  rdfs:label "Goldschmidt, Arthur Jr. - Research and Writing: Projects and Papers"@en ;
+  ns0:date "Undated"@en ;
+  ns0:hasInstantiation <http://data.archives-nationales.culture.gouv.fr/instantiation/-aspace_84060b31558cb33e18a107256613dbf3-i1> .
+
+<http://data.archives-nationales.culture.gouv.fr/instantiation/-aspace_84060b31558cb33e18a107256613dbf3-i1>
+  a ns0:Instantiation ;
+  ns0:instantiates <http://data.archives-nationales.culture.gouv.fr/recordResource/-aspace_84060b31558cb33e18a107256613dbf3> ;
+  ns0:title "Goldschmidt, Arthur Jr. - Research and Writing: Projects and Papers"@en ;
+  rdfs:label "Goldschmidt, Arthur Jr. - Research and Writing: Projects and Papers"@en ;
+  ns0:date "Undated"@en ;
+  rdfs:seeAlso <https://www.siv.archives-nationales.culture.gouv.fr/siv/UD/00399/aspace_84060b31558cb33e18a107256613dbf3> .
+
+<http://data.archives-nationales.culture.gouv.fr/recordResource/-aspace_814b91ce76610543a1500fd36c2807e5>
+  a ns0:RecordResource, ns0:RecordSet ;
+  ns0:includedIn <http://data.archives-nationales.culture.gouv.fr/recordResource/-top> ;
+  ns0:hasRecordSetType <https://www.ica.org/standards/RiC/vocabularies/recordSetTypes#File> ;
+  ns0:title "Goldschmidt, Arthur Jr. - Research and Writing: Projects and Papers"@en ;
+  rdfs:label "Goldschmidt, Arthur Jr. - Research and Writing: Projects and Papers"@en ;
+  ns0:date "Undated"@en ;
+  ns0:hasInstantiation <http://data.archives-nationales.culture.gouv.fr/instantiation/-aspace_814b91ce76610543a1500fd36c2807e5-i1> .
+
+<http://data.archives-nationales.culture.gouv.fr/instantiation/-aspace_814b91ce76610543a1500fd36c2807e5-i1>
+  a ns0:Instantiation ;
+  ns0:instantiates <http://data.archives-nationales.culture.gouv.fr/recordResource/-aspace_814b91ce76610543a1500fd36c2807e5> ;
+  ns0:title "Goldschmidt, Arthur Jr. - Research and Writing: Projects and Papers"@en ;
+  rdfs:label "Goldschmidt, Arthur Jr. - Research and Writing: Projects and Papers"@en ;
+  ns0:date "Undated"@en ;
+  rdfs:seeAlso <https://www.siv.archives-nationales.culture.gouv.fr/siv/UD/00399/aspace_814b91ce76610543a1500fd36c2807e5> .
+
+<http://data.archives-nationales.culture.gouv.fr/recordResource/-aspace_f772474307d69031b352a237a6def51b>
+  a ns0:RecordResource, ns0:RecordSet ;
+  ns0:includedIn <http://data.archives-nationales.culture.gouv.fr/recordResource/-top> ;
+  ns0:hasRecordSetType <https://www.ica.org/standards/RiC/vocabularies/recordSetTypes#File> ;
+  ns0:title "Goldschmidt, Arthur Jr. - Research and Writing: Projects and Papers"@en ;
+  rdfs:label "Goldschmidt, Arthur Jr. - Research and Writing: Projects and Papers"@en ;
+  ns0:date "Undated"@en ;
+  ns0:hasInstantiation <http://data.archives-nationales.culture.gouv.fr/instantiation/-aspace_f772474307d69031b352a237a6def51b-i1> .
+
+<http://data.archives-nationales.culture.gouv.fr/instantiation/-aspace_f772474307d69031b352a237a6def51b-i1>
+  a ns0:Instantiation ;
+  ns0:instantiates <http://data.archives-nationales.culture.gouv.fr/recordResource/-aspace_f772474307d69031b352a237a6def51b> ;
+  ns0:title "Goldschmidt, Arthur Jr. - Research and Writing: Projects and Papers"@en ;
+  rdfs:label "Goldschmidt, Arthur Jr. - Research and Writing: Projects and Papers"@en ;
+  ns0:date "Undated"@en ;
+  rdfs:seeAlso <https://www.siv.archives-nationales.culture.gouv.fr/siv/UD/00399/aspace_f772474307d69031b352a237a6def51b> .
+
+<http://data.archives-nationales.culture.gouv.fr/recordResource/-aspace_03f5c2cf8a31e78854b44fbc0be22950>
+  a ns0:RecordResource, ns0:RecordSet ;
+  ns0:includedIn <http://data.archives-nationales.culture.gouv.fr/recordResource/-top> ;
+  ns0:hasRecordSetType <https://www.ica.org/standards/RiC/vocabularies/recordSetTypes#File> ;
+  ns0:title "Liberal Arts Council of Senators"@en ;
+  rdfs:label "Liberal Arts Council of Senators"@en ;
+  ns0:beginningDate "1984"^^xsd:gYear ;
+  ns0:endDate "1985"^^xsd:gYear ;
+  ns0:date "1984-1985"@en ;
+  ns0:hasInstantiation <http://data.archives-nationales.culture.gouv.fr/instantiation/-aspace_03f5c2cf8a31e78854b44fbc0be22950-i1> .
+
+<http://data.archives-nationales.culture.gouv.fr/instantiation/-aspace_03f5c2cf8a31e78854b44fbc0be22950-i1>
+  a ns0:Instantiation ;
+  ns0:instantiates <http://data.archives-nationales.culture.gouv.fr/recordResource/-aspace_03f5c2cf8a31e78854b44fbc0be22950> ;
+  ns0:title "Liberal Arts Council of Senators"@en ;
+  rdfs:label "Liberal Arts Council of Senators"@en ;
+  ns0:beginningDate "1984"^^xsd:gYear ;
+  ns0:endDate "1985"^^xsd:gYear ;
+  ns0:date "1984-1985"@en ;
+  rdfs:seeAlso <https://www.siv.archives-nationales.culture.gouv.fr/siv/UD/00399/aspace_03f5c2cf8a31e78854b44fbc0be22950> .
+
+<http://data.archives-nationales.culture.gouv.fr/recordResource/-aspace_2ebcc17d4de2414a00cf60f02906d626>
+  a ns0:RecordResource, ns0:RecordSet ;
+  ns0:includedIn <http://data.archives-nationales.culture.gouv.fr/recordResource/-top> ;
+  ns0:hasRecordSetType <https://www.ica.org/standards/RiC/vocabularies/recordSetTypes#File> ;
+  ns0:title "Correspondence"@en ;
+  rdfs:label "Correspondence"@en ;
+  ns0:date "1990"^^xsd:gYear, "1990"@en ;
+  ns0:hasInstantiation <http://data.archives-nationales.culture.gouv.fr/instantiation/-aspace_2ebcc17d4de2414a00cf60f02906d626-i1> .
+
+<http://data.archives-nationales.culture.gouv.fr/instantiation/-aspace_2ebcc17d4de2414a00cf60f02906d626-i1>
+  a ns0:Instantiation ;
+  ns0:instantiates <http://data.archives-nationales.culture.gouv.fr/recordResource/-aspace_2ebcc17d4de2414a00cf60f02906d626> ;
+  ns0:title "Correspondence"@en ;
+  rdfs:label "Correspondence"@en ;
+  ns0:date "1990"^^xsd:gYear, "1990"@en ;
+  rdfs:seeAlso <https://www.siv.archives-nationales.culture.gouv.fr/siv/UD/00399/aspace_2ebcc17d4de2414a00cf60f02906d626> .
+
+<http://data.archives-nationales.culture.gouv.fr/recordResource/-aspace_d75613156b8dadbce3dfe810feb4c2a5>
+  a ns0:RecordResource, ns0:RecordSet ;
+  ns0:includedIn <http://data.archives-nationales.culture.gouv.fr/recordResource/-top> ;
+  ns0:hasRecordSetType <https://www.ica.org/standards/RiC/vocabularies/recordSetTypes#File> ;
+  ns0:title "Middle East is Governments and Politics book"@en ;
+  rdfs:label "Middle East is Governments and Politics book"@en ;
+  ns0:date "Undated"@en ;
+  ns0:hasInstantiation <http://data.archives-nationales.culture.gouv.fr/instantiation/-aspace_d75613156b8dadbce3dfe810feb4c2a5-i1> .
+
+<http://data.archives-nationales.culture.gouv.fr/instantiation/-aspace_d75613156b8dadbce3dfe810feb4c2a5-i1>
+  a ns0:Instantiation ;
+  ns0:instantiates <http://data.archives-nationales.culture.gouv.fr/recordResource/-aspace_d75613156b8dadbce3dfe810feb4c2a5> ;
+  ns0:title "Middle East is Governments and Politics book"@en ;
+  rdfs:label "Middle East is Governments and Politics book"@en ;
+  ns0:date "Undated"@en ;
+  rdfs:seeAlso <https://www.siv.archives-nationales.culture.gouv.fr/siv/UD/00399/aspace_d75613156b8dadbce3dfe810feb4c2a5> .
+
+<http://data.archives-nationales.culture.gouv.fr/recordResource/-aspace_6206f1a2972e4e4634786433e09e9cef>
+  a ns0:RecordResource, ns0:RecordSet ;
+  ns0:includedIn <http://data.archives-nationales.culture.gouv.fr/recordResource/-top> ;
+  ns0:hasRecordSetType <https://www.ica.org/standards/RiC/vocabularies/recordSetTypes#File> ;
+  ns0:title "General Egyptian Book Organization"@en ;
+  rdfs:label "General Egyptian Book Organization"@en ;
+  ns0:date "1983"^^xsd:gYear, "1983"@en ;
+  ns0:hasInstantiation <http://data.archives-nationales.culture.gouv.fr/instantiation/-aspace_6206f1a2972e4e4634786433e09e9cef-i1> .
+
+<http://data.archives-nationales.culture.gouv.fr/instantiation/-aspace_6206f1a2972e4e4634786433e09e9cef-i1>
+  a ns0:Instantiation ;
+  ns0:instantiates <http://data.archives-nationales.culture.gouv.fr/recordResource/-aspace_6206f1a2972e4e4634786433e09e9cef> ;
+  ns0:title "General Egyptian Book Organization"@en ;
+  rdfs:label "General Egyptian Book Organization"@en ;
+  ns0:date "1983"^^xsd:gYear, "1983"@en ;
+  rdfs:seeAlso <https://www.siv.archives-nationales.culture.gouv.fr/siv/UD/00399/aspace_6206f1a2972e4e4634786433e09e9cef> .
+
+<http://data.archives-nationales.culture.gouv.fr/recordResource/-aspace_7b533ca688a52983fadc8d348b8b8e4d>
+  a ns0:RecordResource, ns0:RecordSet ;
+  ns0:includedIn <http://data.archives-nationales.culture.gouv.fr/recordResource/-top> ;
+  ns0:hasRecordSetType <https://www.ica.org/standards/RiC/vocabularies/recordSetTypes#File> ;
+  ns0:title "National Defense Foreign Language Fellowship correspondence"@en ;
+  rdfs:label "National Defense Foreign Language Fellowship correspondence"@en ;
+  ns0:beginningDate "1960"^^xsd:gYear ;
+  ns0:endDate "1965"^^xsd:gYear ;
+  ns0:date "1960-1965"@en ;
+  ns0:hasInstantiation <http://data.archives-nationales.culture.gouv.fr/instantiation/-aspace_7b533ca688a52983fadc8d348b8b8e4d-i1> .
+
+<http://data.archives-nationales.culture.gouv.fr/instantiation/-aspace_7b533ca688a52983fadc8d348b8b8e4d-i1>
+  a ns0:Instantiation ;
+  ns0:instantiates <http://data.archives-nationales.culture.gouv.fr/recordResource/-aspace_7b533ca688a52983fadc8d348b8b8e4d> ;
+  ns0:title "National Defense Foreign Language Fellowship correspondence"@en ;
+  rdfs:label "National Defense Foreign Language Fellowship correspondence"@en ;
+  ns0:beginningDate "1960"^^xsd:gYear ;
+  ns0:endDate "1965"^^xsd:gYear ;
+  ns0:date "1960-1965"@en ;
+  rdfs:seeAlso <https://www.siv.archives-nationales.culture.gouv.fr/siv/UD/00399/aspace_7b533ca688a52983fadc8d348b8b8e4d> .
+
+<http://data.archives-nationales.culture.gouv.fr/recordResource/-aspace_9572f339652267b025dd161f3a632b33>
+  a ns0:RecordResource, ns0:RecordSet ;
+  ns0:includedIn <http://data.archives-nationales.culture.gouv.fr/recordResource/-top> ;
+  ns0:hasRecordSetType <https://www.ica.org/standards/RiC/vocabularies/recordSetTypes#File> ;
+  ns0:title "Biographical Dictionary of Modern Egypt correspondence"@en ;
+  rdfs:label "Biographical Dictionary of Modern Egypt correspondence"@en ;
+  ns0:beginningDate "1969"^^xsd:gYear ;
+  ns0:endDate "1971"^^xsd:gYear ;
+  ns0:date "1969-1971"@en ;
+  ns0:hasInstantiation <http://data.archives-nationales.culture.gouv.fr/instantiation/-aspace_9572f339652267b025dd161f3a632b33-i1> .
+
+<http://data.archives-nationales.culture.gouv.fr/instantiation/-aspace_9572f339652267b025dd161f3a632b33-i1>
+  a ns0:Instantiation ;
+  ns0:instantiates <http://data.archives-nationales.culture.gouv.fr/recordResource/-aspace_9572f339652267b025dd161f3a632b33> ;
+  ns0:title "Biographical Dictionary of Modern Egypt correspondence"@en ;
+  rdfs:label "Biographical Dictionary of Modern Egypt correspondence"@en ;
+  ns0:beginningDate "1969"^^xsd:gYear ;
+  ns0:endDate "1971"^^xsd:gYear ;
+  ns0:date "1969-1971"@en ;
+  rdfs:seeAlso <https://www.siv.archives-nationales.culture.gouv.fr/siv/UD/00399/aspace_9572f339652267b025dd161f3a632b33> .
+
+<http://data.archives-nationales.culture.gouv.fr/recordResource/-aspace_e174c7ef2b42b111b19b0b887d97757a>
+  a ns0:RecordResource, ns0:RecordSet ;
+  ns0:includedIn <http://data.archives-nationales.culture.gouv.fr/recordResource/-top> ;
+  ns0:hasRecordSetType <https://www.ica.org/standards/RiC/vocabularies/recordSetTypes#File> ;
+  ns0:title "Egyptian Biographical Dictionary Lists"@en ;
+  rdfs:label "Egyptian Biographical Dictionary Lists"@en ;
+  ns0:date "Undated"@en ;
+  ns0:hasInstantiation <http://data.archives-nationales.culture.gouv.fr/instantiation/-aspace_e174c7ef2b42b111b19b0b887d97757a-i1> .
+
+<http://data.archives-nationales.culture.gouv.fr/instantiation/-aspace_e174c7ef2b42b111b19b0b887d97757a-i1>
+  a ns0:Instantiation ;
+  ns0:instantiates <http://data.archives-nationales.culture.gouv.fr/recordResource/-aspace_e174c7ef2b42b111b19b0b887d97757a> ;
+  ns0:title "Egyptian Biographical Dictionary Lists"@en ;
+  rdfs:label "Egyptian Biographical Dictionary Lists"@en ;
+  ns0:date "Undated"@en ;
+  rdfs:seeAlso <https://www.siv.archives-nationales.culture.gouv.fr/siv/UD/00399/aspace_e174c7ef2b42b111b19b0b887d97757a> .
+
+<http://data.archives-nationales.culture.gouv.fr/recordResource/-aspace_6f843ac8cfdc0b3d72a9d5af8fcd1a25>
+  a ns0:RecordResource, ns0:RecordSet ;
+  ns0:includedIn <http://data.archives-nationales.culture.gouv.fr/recordResource/-top> ;
+  ns0:hasRecordSetType <https://www.ica.org/standards/RiC/vocabularies/recordSetTypes#File> ;
+  ns0:title "Historical Dictionary of Egypt"@en ;
+  rdfs:label "Historical Dictionary of Egypt"@en ;
+  ns0:date "1994"^^xsd:gYear, "1994"@en ;
+  ns0:hasInstantiation <http://data.archives-nationales.culture.gouv.fr/instantiation/-aspace_6f843ac8cfdc0b3d72a9d5af8fcd1a25-i1> .
+
+<http://data.archives-nationales.culture.gouv.fr/instantiation/-aspace_6f843ac8cfdc0b3d72a9d5af8fcd1a25-i1>
+  a ns0:Instantiation ;
+  ns0:instantiates <http://data.archives-nationales.culture.gouv.fr/recordResource/-aspace_6f843ac8cfdc0b3d72a9d5af8fcd1a25> ;
+  ns0:title "Historical Dictionary of Egypt"@en ;
+  rdfs:label "Historical Dictionary of Egypt"@en ;
+  ns0:date "1994"^^xsd:gYear, "1994"@en ;
+  rdfs:seeAlso <https://www.siv.archives-nationales.culture.gouv.fr/siv/UD/00399/aspace_6f843ac8cfdc0b3d72a9d5af8fcd1a25> .
+
+<http://data.archives-nationales.culture.gouv.fr/recordResource/-aspace_1dad8bc23199f5601eb0e73f834ffe66>
+  a ns0:RecordResource, ns0:RecordSet ;
+  ns0:includedIn <http://data.archives-nationales.culture.gouv.fr/recordResource/-top> ;
+  ns0:hasRecordSetType <https://www.ica.org/standards/RiC/vocabularies/recordSetTypes#File> ;
+  ns0:title "Encyclopedia of Modern Middle East Correspondence and Research Notes for Entries"@en ;
+  rdfs:label "Encyclopedia of Modern Middle East Correspondence and Research Notes for Entries"@en ;
+  ns0:date "Undated"@en ;
+  ns0:hasInstantiation <http://data.archives-nationales.culture.gouv.fr/instantiation/-aspace_1dad8bc23199f5601eb0e73f834ffe66-i1> .
+
+<http://data.archives-nationales.culture.gouv.fr/instantiation/-aspace_1dad8bc23199f5601eb0e73f834ffe66-i1>
+  a ns0:Instantiation ;
+  ns0:instantiates <http://data.archives-nationales.culture.gouv.fr/recordResource/-aspace_1dad8bc23199f5601eb0e73f834ffe66> ;
+  ns0:title "Encyclopedia of Modern Middle East Correspondence and Research Notes for Entries"@en ;
+  rdfs:label "Encyclopedia of Modern Middle East Correspondence and Research Notes for Entries"@en ;
+  ns0:date "Undated"@en ;
+  rdfs:seeAlso <https://www.siv.archives-nationales.culture.gouv.fr/siv/UD/00399/aspace_1dad8bc23199f5601eb0e73f834ffe66> .
+
+<http://data.archives-nationales.culture.gouv.fr/recordResource/-aspace_9fe8b2267276cd7c38b7cb883848bdc5>
+  a ns0:RecordResource, ns0:RecordSet ;
+  ns0:includedIn <http://data.archives-nationales.culture.gouv.fr/recordResource/-top> ;
+  ns0:hasRecordSetType <https://www.ica.org/standards/RiC/vocabularies/recordSetTypes#File> ;
+  ns0:title "Alternative Employment correspondence"@en ;
+  rdfs:label "Alternative Employment correspondence"@en ;
+  ns0:beginningDate "1964"^^xsd:gYear ;
+  ns0:endDate "1969"^^xsd:gYear ;
+  ns0:date "1964-1969"@en ;
+  ns0:hasInstantiation <http://data.archives-nationales.culture.gouv.fr/instantiation/-aspace_9fe8b2267276cd7c38b7cb883848bdc5-i1> .
+
+<http://data.archives-nationales.culture.gouv.fr/instantiation/-aspace_9fe8b2267276cd7c38b7cb883848bdc5-i1>
+  a ns0:Instantiation ;
+  ns0:instantiates <http://data.archives-nationales.culture.gouv.fr/recordResource/-aspace_9fe8b2267276cd7c38b7cb883848bdc5> ;
+  ns0:title "Alternative Employment correspondence"@en ;
+  rdfs:label "Alternative Employment correspondence"@en ;
+  ns0:beginningDate "1964"^^xsd:gYear ;
+  ns0:endDate "1969"^^xsd:gYear ;
+  ns0:date "1964-1969"@en ;
+  rdfs:seeAlso <https://www.siv.archives-nationales.culture.gouv.fr/siv/UD/00399/aspace_9fe8b2267276cd7c38b7cb883848bdc5> .
+
+<http://data.archives-nationales.culture.gouv.fr/recordResource/-aspace_a93c3cf3521af7210f7ae72d43c5f589>
+  a ns0:RecordResource, ns0:RecordSet ;
+  ns0:includedIn <http://data.archives-nationales.culture.gouv.fr/recordResource/-top> ;
+  ns0:hasRecordSetType <https://www.ica.org/standards/RiC/vocabularies/recordSetTypes#File> ;
+  ns0:title "Concise History of Middle East (Maps for Editions 1-5)"@en ;
+  rdfs:label "Concise History of Middle East (Maps for Editions 1-5)"@en ;
+  ns0:date "Undated"@en ;
+  ns0:hasInstantiation <http://data.archives-nationales.culture.gouv.fr/instantiation/-aspace_a93c3cf3521af7210f7ae72d43c5f589-i1> .
+
+<http://data.archives-nationales.culture.gouv.fr/instantiation/-aspace_a93c3cf3521af7210f7ae72d43c5f589-i1>
+  a ns0:Instantiation ;
+  ns0:instantiates <http://data.archives-nationales.culture.gouv.fr/recordResource/-aspace_a93c3cf3521af7210f7ae72d43c5f589> ;
+  ns0:title "Concise History of Middle East (Maps for Editions 1-5)"@en ;
+  rdfs:label "Concise History of Middle East (Maps for Editions 1-5)"@en ;
+  ns0:date "Undated"@en ;
+  rdfs:seeAlso <https://www.siv.archives-nationales.culture.gouv.fr/siv/UD/00399/aspace_a93c3cf3521af7210f7ae72d43c5f589> .
+
+<http://data.archives-nationales.culture.gouv.fr/recordResource/-aspace_39954c22c3e4270b1913ed6bcafc5667>
+  a ns0:RecordResource, ns0:RecordSet ;
+  ns0:includedIn <http://data.archives-nationales.culture.gouv.fr/recordResource/-top> ;
+  ns0:hasRecordSetType <https://www.ica.org/standards/RiC/vocabularies/recordSetTypes#File> ;
+  ns0:title "Harvard and Grade Reports"@en ;
+  rdfs:label "Harvard and Grade Reports"@en ;
+  ns0:date "Undated"@en ;
+  ns0:hasInstantiation <http://data.archives-nationales.culture.gouv.fr/instantiation/-aspace_39954c22c3e4270b1913ed6bcafc5667-i1> .
+
+<http://data.archives-nationales.culture.gouv.fr/instantiation/-aspace_39954c22c3e4270b1913ed6bcafc5667-i1>
+  a ns0:Instantiation ;
+  ns0:instantiates <http://data.archives-nationales.culture.gouv.fr/recordResource/-aspace_39954c22c3e4270b1913ed6bcafc5667> ;
+  ns0:title "Harvard and Grade Reports"@en ;
+  rdfs:label "Harvard and Grade Reports"@en ;
+  ns0:date "Undated"@en ;
+  rdfs:seeAlso <https://www.siv.archives-nationales.culture.gouv.fr/siv/UD/00399/aspace_39954c22c3e4270b1913ed6bcafc5667> .
+
+<http://data.archives-nationales.culture.gouv.fr/recordResource/-aspace_3728ee26a9b44ff54df34a9ec0192b29>
+  a ns0:RecordResource, ns0:RecordSet ;
+  ns0:includedIn <http://data.archives-nationales.culture.gouv.fr/recordResource/-top> ;
+  ns0:hasRecordSetType <https://www.ica.org/standards/RiC/vocabularies/recordSetTypes#File> ;
+  ns0:title "Pennsylvania Arabs"@en ;
+  rdfs:label "Pennsylvania Arabs"@en ;
+  ns0:beginningDate "1966"^^xsd:gYear ;
+  ns0:endDate "1968"^^xsd:gYear ;
+  ns0:date "1966-1968"@en ;
+  ns0:hasInstantiation <http://data.archives-nationales.culture.gouv.fr/instantiation/-aspace_3728ee26a9b44ff54df34a9ec0192b29-i1> .
+
+<http://data.archives-nationales.culture.gouv.fr/instantiation/-aspace_3728ee26a9b44ff54df34a9ec0192b29-i1>
+  a ns0:Instantiation ;
+  ns0:instantiates <http://data.archives-nationales.culture.gouv.fr/recordResource/-aspace_3728ee26a9b44ff54df34a9ec0192b29> ;
+  ns0:title "Pennsylvania Arabs"@en ;
+  rdfs:label "Pennsylvania Arabs"@en ;
+  ns0:beginningDate "1966"^^xsd:gYear ;
+  ns0:endDate "1968"^^xsd:gYear ;
+  ns0:date "1966-1968"@en ;
+  rdfs:seeAlso <https://www.siv.archives-nationales.culture.gouv.fr/siv/UD/00399/aspace_3728ee26a9b44ff54df34a9ec0192b29> .
+
+<http://data.archives-nationales.culture.gouv.fr/recordResource/-aspace_ecbf4be7ede7234c9f1a475c3e1f1a9f>
+  a ns0:RecordResource, ns0:RecordSet ;
+  ns0:includedIn <http://data.archives-nationales.culture.gouv.fr/recordResource/-top> ;
+  ns0:hasRecordSetType <https://www.ica.org/standards/RiC/vocabularies/recordSetTypes#File> ;
+  ns0:title "Published Book Reviews"@en ;
+  rdfs:label "Published Book Reviews"@en ;
+  ns0:date "1969"^^xsd:gYear, "1969"@en ;
+  ns0:hasInstantiation <http://data.archives-nationales.culture.gouv.fr/instantiation/-aspace_ecbf4be7ede7234c9f1a475c3e1f1a9f-i1> .
+
+<http://data.archives-nationales.culture.gouv.fr/instantiation/-aspace_ecbf4be7ede7234c9f1a475c3e1f1a9f-i1>
+  a ns0:Instantiation ;
+  ns0:instantiates <http://data.archives-nationales.culture.gouv.fr/recordResource/-aspace_ecbf4be7ede7234c9f1a475c3e1f1a9f> ;
+  ns0:title "Published Book Reviews"@en ;
+  rdfs:label "Published Book Reviews"@en ;
+  ns0:date "1969"^^xsd:gYear, "1969"@en ;
+  rdfs:seeAlso <https://www.siv.archives-nationales.culture.gouv.fr/siv/UD/00399/aspace_ecbf4be7ede7234c9f1a475c3e1f1a9f> .
+
+<http://data.archives-nationales.culture.gouv.fr/recordResource/-aspace_1a215bb0cc97a2c1ccc98f2fffebca96>
+  a ns0:RecordResource, ns0:RecordSet ;
+  ns0:includedIn <http://data.archives-nationales.culture.gouv.fr/recordResource/-top> ;
+  ns0:hasRecordSetType <https://www.ica.org/standards/RiC/vocabularies/recordSetTypes#File> ;
+  ns0:title "Correspondence with Libraries and Archives"@en ;
+  rdfs:label "Correspondence with Libraries and Archives"@en ;
+  ns0:beginningDate "1963"^^xsd:gYear ;
+  ns0:endDate "1983"^^xsd:gYear ;
+  ns0:date "1963-1983"@en ;
+  ns0:hasInstantiation <http://data.archives-nationales.culture.gouv.fr/instantiation/-aspace_1a215bb0cc97a2c1ccc98f2fffebca96-i1> .
+
+<http://data.archives-nationales.culture.gouv.fr/instantiation/-aspace_1a215bb0cc97a2c1ccc98f2fffebca96-i1>
+  a ns0:Instantiation ;
+  ns0:instantiates <http://data.archives-nationales.culture.gouv.fr/recordResource/-aspace_1a215bb0cc97a2c1ccc98f2fffebca96> ;
+  ns0:title "Correspondence with Libraries and Archives"@en ;
+  rdfs:label "Correspondence with Libraries and Archives"@en ;
+  ns0:beginningDate "1963"^^xsd:gYear ;
+  ns0:endDate "1983"^^xsd:gYear ;
+  ns0:date "1963-1983"@en ;
+  rdfs:seeAlso <https://www.siv.archives-nationales.culture.gouv.fr/siv/UD/00399/aspace_1a215bb0cc97a2c1ccc98f2fffebca96> .
+
+<http://data.archives-nationales.culture.gouv.fr/recordResource/-aspace_a603907b69a9087981b1d50041de5a3e>
+  a ns0:RecordResource, ns0:RecordSet ;
+  ns0:includedIn <http://data.archives-nationales.culture.gouv.fr/recordResource/-top> ;
+  ns0:hasRecordSetType <https://www.ica.org/standards/RiC/vocabularies/recordSetTypes#File> ;
+  ns0:title "Social Sciences 127 Term Papers"@en ;
+  rdfs:label "Social Sciences 127 Term Papers"@en ;
+  ns0:beginningDate "1959"^^xsd:gYear ;
+  ns0:endDate "1960"^^xsd:gYear ;
+  ns0:date "1959-1960"@en ;
+  ns0:hasInstantiation <http://data.archives-nationales.culture.gouv.fr/instantiation/-aspace_a603907b69a9087981b1d50041de5a3e-i1> .
+
+<http://data.archives-nationales.culture.gouv.fr/instantiation/-aspace_a603907b69a9087981b1d50041de5a3e-i1>
+  a ns0:Instantiation ;
+  ns0:instantiates <http://data.archives-nationales.culture.gouv.fr/recordResource/-aspace_a603907b69a9087981b1d50041de5a3e> ;
+  ns0:title "Social Sciences 127 Term Papers"@en ;
+  rdfs:label "Social Sciences 127 Term Papers"@en ;
+  ns0:beginningDate "1959"^^xsd:gYear ;
+  ns0:endDate "1960"^^xsd:gYear ;
+  ns0:date "1959-1960"@en ;
+  rdfs:seeAlso <https://www.siv.archives-nationales.culture.gouv.fr/siv/UD/00399/aspace_a603907b69a9087981b1d50041de5a3e> .
+
+<http://data.archives-nationales.culture.gouv.fr/recordResource/-aspace_ceeec992670ebfb819ac3a1474c30b46>
+  a ns0:RecordResource, ns0:RecordSet ;
+  ns0:includedIn <http://data.archives-nationales.culture.gouv.fr/recordResource/-top> ;
+  ns0:hasRecordSetType <https://www.ica.org/standards/RiC/vocabularies/recordSetTypes#File> ;
+  ns0:title "History 187 Essay"@en ;
+  rdfs:label "History 187 Essay"@en ;
+  ns0:date "1961/03/31"@en ;
+  ns0:hasInstantiation <http://data.archives-nationales.culture.gouv.fr/instantiation/-aspace_ceeec992670ebfb819ac3a1474c30b46-i1> .
+
+<http://data.archives-nationales.culture.gouv.fr/instantiation/-aspace_ceeec992670ebfb819ac3a1474c30b46-i1>
+  a ns0:Instantiation ;
+  ns0:instantiates <http://data.archives-nationales.culture.gouv.fr/recordResource/-aspace_ceeec992670ebfb819ac3a1474c30b46> ;
+  ns0:title "History 187 Essay"@en ;
+  rdfs:label "History 187 Essay"@en ;
+  ns0:date "1961/03/31"@en ;
+  rdfs:seeAlso <https://www.siv.archives-nationales.culture.gouv.fr/siv/UD/00399/aspace_ceeec992670ebfb819ac3a1474c30b46> .
+
+<http://data.archives-nationales.culture.gouv.fr/recordResource/-aspace_67078edeea35e4cabb4255e9c54d6fb8>
+  a ns0:RecordResource, ns0:RecordSet ;
+  ns0:includedIn <http://data.archives-nationales.culture.gouv.fr/recordResource/-top> ;
+  ns0:hasRecordSetType <https://www.ica.org/standards/RiC/vocabularies/recordSetTypes#File> ;
+  ns0:title "Government 296"@en ;
+  rdfs:label "Government 296"@en ;
+  ns0:date "1961/05/18"@en ;
+  ns0:hasInstantiation <http://data.archives-nationales.culture.gouv.fr/instantiation/-aspace_67078edeea35e4cabb4255e9c54d6fb8-i1> .
+
+<http://data.archives-nationales.culture.gouv.fr/instantiation/-aspace_67078edeea35e4cabb4255e9c54d6fb8-i1>
+  a ns0:Instantiation ;
+  ns0:instantiates <http://data.archives-nationales.culture.gouv.fr/recordResource/-aspace_67078edeea35e4cabb4255e9c54d6fb8> ;
+  ns0:title "Government 296"@en ;
+  rdfs:label "Government 296"@en ;
+  ns0:date "1961/05/18"@en ;
+  rdfs:seeAlso <https://www.siv.archives-nationales.culture.gouv.fr/siv/UD/00399/aspace_67078edeea35e4cabb4255e9c54d6fb8> .
+
+<http://data.archives-nationales.culture.gouv.fr/recordResource/-aspace_73191e502869e7b760926153882a9abc>
+  a ns0:RecordResource, ns0:RecordSet ;
+  ns0:includedIn <http://data.archives-nationales.culture.gouv.fr/recordResource/-top> ;
+  ns0:hasRecordSetType <https://www.ica.org/standards/RiC/vocabularies/recordSetTypes#File> ;
+  ns0:title "History 232B"@en ;
+  rdfs:label "History 232B"@en ;
+  ns0:date "1962/01/22"@en ;
+  ns0:hasInstantiation <http://data.archives-nationales.culture.gouv.fr/instantiation/-aspace_73191e502869e7b760926153882a9abc-i1> .
+
+<http://data.archives-nationales.culture.gouv.fr/instantiation/-aspace_73191e502869e7b760926153882a9abc-i1>
+  a ns0:Instantiation ;
+  ns0:instantiates <http://data.archives-nationales.culture.gouv.fr/recordResource/-aspace_73191e502869e7b760926153882a9abc> ;
+  ns0:title "History 232B"@en ;
+  rdfs:label "History 232B"@en ;
+  ns0:date "1962/01/22"@en ;
+  rdfs:seeAlso <https://www.siv.archives-nationales.culture.gouv.fr/siv/UD/00399/aspace_73191e502869e7b760926153882a9abc> .
+
+<http://data.archives-nationales.culture.gouv.fr/recordResource/-aspace_82322e6958945c067fea00fd57217fa4>
+  a ns0:RecordResource, ns0:RecordSet ;
+  ns0:includedIn <http://data.archives-nationales.culture.gouv.fr/recordResource/-top> ;
+  ns0:hasRecordSetType <https://www.ica.org/standards/RiC/vocabularies/recordSetTypes#File> ;
+  ns0:title "Government 120"@en ;
+  rdfs:label "Government 120"@en ;
+  ns0:date "1961/01/20"@en ;
+  ns0:hasInstantiation <http://data.archives-nationales.culture.gouv.fr/instantiation/-aspace_82322e6958945c067fea00fd57217fa4-i1> .
+
+<http://data.archives-nationales.culture.gouv.fr/instantiation/-aspace_82322e6958945c067fea00fd57217fa4-i1>
+  a ns0:Instantiation ;
+  ns0:instantiates <http://data.archives-nationales.culture.gouv.fr/recordResource/-aspace_82322e6958945c067fea00fd57217fa4> ;
+  ns0:title "Government 120"@en ;
+  rdfs:label "Government 120"@en ;
+  ns0:date "1961/01/20"@en ;
+  rdfs:seeAlso <https://www.siv.archives-nationales.culture.gouv.fr/siv/UD/00399/aspace_82322e6958945c067fea00fd57217fa4> .
+
+<http://data.archives-nationales.culture.gouv.fr/recordResource/-aspace_6cbb3566eeb159de46653e8974ba8381>
+  a ns0:RecordResource, ns0:RecordSet ;
+  ns0:includedIn <http://data.archives-nationales.culture.gouv.fr/recordResource/-top> ;
+  ns0:hasRecordSetType <https://www.ica.org/standards/RiC/vocabularies/recordSetTypes#File> ;
+  ns0:title "Farid Diaries Memoirs English Translation"@en ;
+  rdfs:label "Farid Diaries Memoirs English Translation"@en ;
+  ns0:date "1913"^^xsd:gYear, "1913"@en ;
+  ns0:hasInstantiation <http://data.archives-nationales.culture.gouv.fr/instantiation/-aspace_6cbb3566eeb159de46653e8974ba8381-i1> .
+
+<http://data.archives-nationales.culture.gouv.fr/instantiation/-aspace_6cbb3566eeb159de46653e8974ba8381-i1>
+  a ns0:Instantiation ;
+  ns0:instantiates <http://data.archives-nationales.culture.gouv.fr/recordResource/-aspace_6cbb3566eeb159de46653e8974ba8381> ;
+  ns0:title "Farid Diaries Memoirs English Translation"@en ;
+  rdfs:label "Farid Diaries Memoirs English Translation"@en ;
+  ns0:date "1913"^^xsd:gYear, "1913"@en ;
+  rdfs:seeAlso <https://www.siv.archives-nationales.culture.gouv.fr/siv/UD/00399/aspace_6cbb3566eeb159de46653e8974ba8381> .
+
+<http://data.archives-nationales.culture.gouv.fr/recordResource/-aspace_4a7bbe263dc314ac049ae7527dcba74d>
+  a ns0:RecordResource, ns0:RecordSet ;
+  ns0:includedIn <http://data.archives-nationales.culture.gouv.fr/recordResource/-top> ;
+  ns0:hasRecordSetType <https://www.ica.org/standards/RiC/vocabularies/recordSetTypes#File> ;
+  ns0:title "Farid Memoirs Translation Mellen Press"@en ;
+  rdfs:label "Farid Memoirs Translation Mellen Press"@en ;
+  ns0:date "1991"^^xsd:gYear, "1991"@en ;
+  ns0:hasInstantiation <http://data.archives-nationales.culture.gouv.fr/instantiation/-aspace_4a7bbe263dc314ac049ae7527dcba74d-i1> .
+
+<http://data.archives-nationales.culture.gouv.fr/instantiation/-aspace_4a7bbe263dc314ac049ae7527dcba74d-i1>
+  a ns0:Instantiation ;
+  ns0:instantiates <http://data.archives-nationales.culture.gouv.fr/recordResource/-aspace_4a7bbe263dc314ac049ae7527dcba74d> ;
+  ns0:title "Farid Memoirs Translation Mellen Press"@en ;
+  rdfs:label "Farid Memoirs Translation Mellen Press"@en ;
+  ns0:date "1991"^^xsd:gYear, "1991"@en ;
+  rdfs:seeAlso <https://www.siv.archives-nationales.culture.gouv.fr/siv/UD/00399/aspace_4a7bbe263dc314ac049ae7527dcba74d> .
+
+<http://data.archives-nationales.culture.gouv.fr/recordResource/-aspace_15df12dc2ba618777813b01f8dce602c>
+  a ns0:RecordResource, ns0:RecordSet ;
+  ns0:includedIn <http://data.archives-nationales.culture.gouv.fr/recordResource/-top> ;
+  ns0:hasRecordSetType <https://www.ica.org/standards/RiC/vocabularies/recordSetTypes#File> ;
+  ns0:title "Leave of Absence"@en ;
+  rdfs:label "Leave of Absence"@en ;
+  ns0:date "1969"^^xsd:gYear, "1969"@en ;
+  ns0:hasInstantiation <http://data.archives-nationales.culture.gouv.fr/instantiation/-aspace_15df12dc2ba618777813b01f8dce602c-i1> .
+
+<http://data.archives-nationales.culture.gouv.fr/instantiation/-aspace_15df12dc2ba618777813b01f8dce602c-i1>
+  a ns0:Instantiation ;
+  ns0:instantiates <http://data.archives-nationales.culture.gouv.fr/recordResource/-aspace_15df12dc2ba618777813b01f8dce602c> ;
+  ns0:title "Leave of Absence"@en ;
+  rdfs:label "Leave of Absence"@en ;
+  ns0:date "1969"^^xsd:gYear, "1969"@en ;
+  rdfs:seeAlso <https://www.siv.archives-nationales.culture.gouv.fr/siv/UD/00399/aspace_15df12dc2ba618777813b01f8dce602c> .
+
+<http://data.archives-nationales.culture.gouv.fr/recordResource/-aspace_2d1418c1073cbd17cfded0a6ba488d40>
+  a ns0:RecordResource, ns0:RecordSet ;
+  ns0:includedIn <http://data.archives-nationales.culture.gouv.fr/recordResource/-top> ;
+  ns0:hasRecordSetType <https://www.ica.org/standards/RiC/vocabularies/recordSetTypes#File> ;
+  ns0:title "Report to Newsletter of American Research Center in Egypt"@en ;
+  rdfs:label "Report to Newsletter of American Research Center in Egypt"@en ;
+  ns0:date "1969"^^xsd:gYear, "1969"@en ;
+  ns0:hasInstantiation <http://data.archives-nationales.culture.gouv.fr/instantiation/-aspace_2d1418c1073cbd17cfded0a6ba488d40-i1> .
+
+<http://data.archives-nationales.culture.gouv.fr/instantiation/-aspace_2d1418c1073cbd17cfded0a6ba488d40-i1>
+  a ns0:Instantiation ;
+  ns0:instantiates <http://data.archives-nationales.culture.gouv.fr/recordResource/-aspace_2d1418c1073cbd17cfded0a6ba488d40> ;
+  ns0:title "Report to Newsletter of American Research Center in Egypt"@en ;
+  rdfs:label "Report to Newsletter of American Research Center in Egypt"@en ;
+  ns0:date "1969"^^xsd:gYear, "1969"@en ;
+  rdfs:seeAlso <https://www.siv.archives-nationales.culture.gouv.fr/siv/UD/00399/aspace_2d1418c1073cbd17cfded0a6ba488d40> .
+
+<http://data.archives-nationales.culture.gouv.fr/recordResource/-aspace_8d15a94ad0a69355c5977f21c2c3ad73>
+  a ns0:RecordResource, ns0:RecordSet ;
+  ns0:includedIn <http://data.archives-nationales.culture.gouv.fr/recordResource/-top> ;
+  ns0:hasRecordSetType <https://www.ica.org/standards/RiC/vocabularies/recordSetTypes#File> ;
+  ns0:title "Haifa University Sabbatical Leave"@en ;
+  rdfs:label "Haifa University Sabbatical Leave"@en ;
+  ns0:beginningDate "1973"^^xsd:gYear ;
+  ns0:endDate "1974"^^xsd:gYear ;
+  ns0:date "1973-1974"@en ;
+  ns0:hasInstantiation <http://data.archives-nationales.culture.gouv.fr/instantiation/-aspace_8d15a94ad0a69355c5977f21c2c3ad73-i1> .
+
+<http://data.archives-nationales.culture.gouv.fr/instantiation/-aspace_8d15a94ad0a69355c5977f21c2c3ad73-i1>
+  a ns0:Instantiation ;
+  ns0:instantiates <http://data.archives-nationales.culture.gouv.fr/recordResource/-aspace_8d15a94ad0a69355c5977f21c2c3ad73> ;
+  ns0:title "Haifa University Sabbatical Leave"@en ;
+  rdfs:label "Haifa University Sabbatical Leave"@en ;
+  ns0:beginningDate "1973"^^xsd:gYear ;
+  ns0:endDate "1974"^^xsd:gYear ;
+  ns0:date "1973-1974"@en ;
+  rdfs:seeAlso <https://www.siv.archives-nationales.culture.gouv.fr/siv/UD/00399/aspace_8d15a94ad0a69355c5977f21c2c3ad73> .
+
+<http://data.archives-nationales.culture.gouv.fr/recordResource/-aspace_18b6cca4166a0381fe5e9aadd7592bb9>
+  a ns0:RecordResource, ns0:RecordSet ;
+  ns0:includedIn <http://data.archives-nationales.culture.gouv.fr/recordResource/-top> ;
+  ns0:hasRecordSetType <https://www.ica.org/standards/RiC/vocabularies/recordSetTypes#File> ;
+  ns0:title "Cairo University Fulbright Program - Sabbatical Leave"@en ;
+  rdfs:label "Cairo University Fulbright Program - Sabbatical Leave"@en ;
+  ns0:beginningDate "1981"^^xsd:gYear ;
+  ns0:endDate "1982"^^xsd:gYear ;
+  ns0:date "1981-1982"@en ;
+  ns0:hasInstantiation <http://data.archives-nationales.culture.gouv.fr/instantiation/-aspace_18b6cca4166a0381fe5e9aadd7592bb9-i1> .
+
+<http://data.archives-nationales.culture.gouv.fr/instantiation/-aspace_18b6cca4166a0381fe5e9aadd7592bb9-i1>
+  a ns0:Instantiation ;
+  ns0:instantiates <http://data.archives-nationales.culture.gouv.fr/recordResource/-aspace_18b6cca4166a0381fe5e9aadd7592bb9> ;
+  ns0:title "Cairo University Fulbright Program - Sabbatical Leave"@en ;
+  rdfs:label "Cairo University Fulbright Program - Sabbatical Leave"@en ;
+  ns0:beginningDate "1981"^^xsd:gYear ;
+  ns0:endDate "1982"^^xsd:gYear ;
+  ns0:date "1981-1982"@en ;
+  rdfs:seeAlso <https://www.siv.archives-nationales.culture.gouv.fr/siv/UD/00399/aspace_18b6cca4166a0381fe5e9aadd7592bb9> .
+
+<http://data.archives-nationales.culture.gouv.fr/recordResource/-aspace_3984d719e053c4ea718089e27ff19c22>
+  a ns0:RecordResource, ns0:RecordSet ;
+  ns0:includedIn <http://data.archives-nationales.culture.gouv.fr/recordResource/-top> ;
+  ns0:hasRecordSetType <https://www.ica.org/standards/RiC/vocabularies/recordSetTypes#File> ;
+  ns0:title "Research and Travel to England"@en ;
+  rdfs:label "Research and Travel to England"@en ;
+  ns0:date "1989"^^xsd:gYear, "1989"@en ;
+  ns0:hasInstantiation <http://data.archives-nationales.culture.gouv.fr/instantiation/-aspace_3984d719e053c4ea718089e27ff19c22-i1> .
+
+<http://data.archives-nationales.culture.gouv.fr/instantiation/-aspace_3984d719e053c4ea718089e27ff19c22-i1>
+  a ns0:Instantiation ;
+  ns0:instantiates <http://data.archives-nationales.culture.gouv.fr/recordResource/-aspace_3984d719e053c4ea718089e27ff19c22> ;
+  ns0:title "Research and Travel to England"@en ;
+  rdfs:label "Research and Travel to England"@en ;
+  ns0:date "1989"^^xsd:gYear, "1989"@en ;
+  rdfs:seeAlso <https://www.siv.archives-nationales.culture.gouv.fr/siv/UD/00399/aspace_3984d719e053c4ea718089e27ff19c22> .
+
+<http://data.archives-nationales.culture.gouv.fr/recordResource/-aspace_ff10b72a91bd6bdd3a6631ac8e2a70c2>
+  a ns0:RecordResource, ns0:RecordSet ;
+  ns0:includedIn <http://data.archives-nationales.culture.gouv.fr/recordResource/-top> ;
+  ns0:hasRecordSetType <https://www.ica.org/standards/RiC/vocabularies/recordSetTypes#File> ;
+  ns0:title "Durham University Sabbatical Leave"@en ;
+  rdfs:label "Durham University Sabbatical Leave"@en ;
+  ns0:beginningDate "1990"^^xsd:gYear ;
+  ns0:endDate "1991"^^xsd:gYear ;
+  ns0:date "1990-1991"@en ;
+  ns0:hasInstantiation <http://data.archives-nationales.culture.gouv.fr/instantiation/-aspace_ff10b72a91bd6bdd3a6631ac8e2a70c2-i1> .
+
+<http://data.archives-nationales.culture.gouv.fr/instantiation/-aspace_ff10b72a91bd6bdd3a6631ac8e2a70c2-i1>
+  a ns0:Instantiation ;
+  ns0:instantiates <http://data.archives-nationales.culture.gouv.fr/recordResource/-aspace_ff10b72a91bd6bdd3a6631ac8e2a70c2> ;
+  ns0:title "Durham University Sabbatical Leave"@en ;
+  rdfs:label "Durham University Sabbatical Leave"@en ;
+  ns0:beginningDate "1990"^^xsd:gYear ;
+  ns0:endDate "1991"^^xsd:gYear ;
+  ns0:date "1990-1991"@en ;
+  rdfs:seeAlso <https://www.siv.archives-nationales.culture.gouv.fr/siv/UD/00399/aspace_ff10b72a91bd6bdd3a6631ac8e2a70c2> .
+
+<http://data.archives-nationales.culture.gouv.fr/recordResource/-aspace_046bb020ed6dfd646b38f5c290d9cb13>
+  a ns0:RecordResource, ns0:RecordSet ;
+  ns0:includedIn <http://data.archives-nationales.culture.gouv.fr/recordResource/-top> ;
+  ns0:hasRecordSetType <https://www.ica.org/standards/RiC/vocabularies/recordSetTypes#File> ;
+  ns0:title "Arabian Peninsula proposed trips"@en ;
+  rdfs:label "Arabian Peninsula proposed trips"@en ;
+  ns0:beginningDate "1995"^^xsd:gYear ;
+  ns0:endDate "1997"^^xsd:gYear ;
+  ns0:date "1995-1997"@en ;
+  ns0:hasInstantiation <http://data.archives-nationales.culture.gouv.fr/instantiation/-aspace_046bb020ed6dfd646b38f5c290d9cb13-i1> .
+
+<http://data.archives-nationales.culture.gouv.fr/instantiation/-aspace_046bb020ed6dfd646b38f5c290d9cb13-i1>
+  a ns0:Instantiation ;
+  ns0:instantiates <http://data.archives-nationales.culture.gouv.fr/recordResource/-aspace_046bb020ed6dfd646b38f5c290d9cb13> ;
+  ns0:title "Arabian Peninsula proposed trips"@en ;
+  rdfs:label "Arabian Peninsula proposed trips"@en ;
+  ns0:beginningDate "1995"^^xsd:gYear ;
+  ns0:endDate "1997"^^xsd:gYear ;
+  ns0:date "1995-1997"@en ;
+  rdfs:seeAlso <https://www.siv.archives-nationales.culture.gouv.fr/siv/UD/00399/aspace_046bb020ed6dfd646b38f5c290d9cb13> .
+
+<http://data.archives-nationales.culture.gouv.fr/recordResource/-aspace_2a0c14dce13287ea2bd9c2fb0c866b75>
+  a ns0:RecordResource, ns0:RecordSet ;
+  ns0:includedIn <http://data.archives-nationales.culture.gouv.fr/recordResource/-top> ;
+  ns0:hasRecordSetType <https://www.ica.org/standards/RiC/vocabularies/recordSetTypes#File> ;
+  ns0:title "American Research Center in Egypt Sabbatical Leave"@en ;
+  rdfs:label "American Research Center in Egypt Sabbatical Leave"@en ;
+  ns0:beginningDate "1997"^^xsd:gYear ;
+  ns0:endDate "1998"^^xsd:gYear ;
+  ns0:date "1997-1998"@en ;
+  ns0:hasInstantiation <http://data.archives-nationales.culture.gouv.fr/instantiation/-aspace_2a0c14dce13287ea2bd9c2fb0c866b75-i1> .
+
+<http://data.archives-nationales.culture.gouv.fr/instantiation/-aspace_2a0c14dce13287ea2bd9c2fb0c866b75-i1>
+  a ns0:Instantiation ;
+  ns0:instantiates <http://data.archives-nationales.culture.gouv.fr/recordResource/-aspace_2a0c14dce13287ea2bd9c2fb0c866b75> ;
+  ns0:title "American Research Center in Egypt Sabbatical Leave"@en ;
+  rdfs:label "American Research Center in Egypt Sabbatical Leave"@en ;
+  ns0:beginningDate "1997"^^xsd:gYear ;
+  ns0:endDate "1998"^^xsd:gYear ;
+  ns0:date "1997-1998"@en ;
+  rdfs:seeAlso <https://www.siv.archives-nationales.culture.gouv.fr/siv/UD/00399/aspace_2a0c14dce13287ea2bd9c2fb0c866b75> .
+
+<http://data.archives-nationales.culture.gouv.fr/recordResource/-aspace_bc76afea3fe0bc983e6dcd1c46b07ee5>
+  a ns0:RecordResource, ns0:RecordSet ;
+  ns0:includedIn <http://data.archives-nationales.culture.gouv.fr/recordResource/-top> ;
+  ns0:hasRecordSetType <https://www.ica.org/standards/RiC/vocabularies/recordSetTypes#File> ;
+  ns0:title "English - Original Version of Arabic article"@en ;
+  rdfs:label "English - Original Version of Arabic article"@en ;
+  ns0:date "Undated"@en ;
+  ns0:hasInstantiation <http://data.archives-nationales.culture.gouv.fr/instantiation/-aspace_bc76afea3fe0bc983e6dcd1c46b07ee5-i1> .
+
+<http://data.archives-nationales.culture.gouv.fr/instantiation/-aspace_bc76afea3fe0bc983e6dcd1c46b07ee5-i1>
+  a ns0:Instantiation ;
+  ns0:instantiates <http://data.archives-nationales.culture.gouv.fr/recordResource/-aspace_bc76afea3fe0bc983e6dcd1c46b07ee5> ;
+  ns0:title "English - Original Version of Arabic article"@en ;
+  rdfs:label "English - Original Version of Arabic article"@en ;
+  ns0:date "Undated"@en ;
+  rdfs:seeAlso <https://www.siv.archives-nationales.culture.gouv.fr/siv/UD/00399/aspace_bc76afea3fe0bc983e6dcd1c46b07ee5> .
+
+<http://data.archives-nationales.culture.gouv.fr/recordResource/-aspace_0139835c1f6ae520485e1069ef438684>
+  a ns0:RecordResource, ns0:RecordSet ;
+  ns0:includedIn <http://data.archives-nationales.culture.gouv.fr/recordResource/-top> ;
+  ns0:hasRecordSetType <https://www.ica.org/standards/RiC/vocabularies/recordSetTypes#File> ;
+  ns0:title "Almussarrar Newsletter"@en ;
+  rdfs:label "Almussarrar Newsletter"@en ;
+  ns0:date "1969/11/14"@en ;
+  ns0:hasInstantiation <http://data.archives-nationales.culture.gouv.fr/instantiation/-aspace_0139835c1f6ae520485e1069ef438684-i1> .
+
+<http://data.archives-nationales.culture.gouv.fr/instantiation/-aspace_0139835c1f6ae520485e1069ef438684-i1>
+  a ns0:Instantiation ;
+  ns0:instantiates <http://data.archives-nationales.culture.gouv.fr/recordResource/-aspace_0139835c1f6ae520485e1069ef438684> ;
+  ns0:title "Almussarrar Newsletter"@en ;
+  rdfs:label "Almussarrar Newsletter"@en ;
+  ns0:date "1969/11/14"@en ;
+  rdfs:seeAlso <https://www.siv.archives-nationales.culture.gouv.fr/siv/UD/00399/aspace_0139835c1f6ae520485e1069ef438684> .
+
+<http://data.archives-nationales.culture.gouv.fr/recordResource/-aspace_2f7a747695b4b55b9a0a5664a05fa8be>
+  a ns0:RecordResource, ns0:RecordSet ;
+  ns0:includedIn <http://data.archives-nationales.culture.gouv.fr/recordResource/-top> ;
+  ns0:hasRecordSetType <https://www.ica.org/standards/RiC/vocabularies/recordSetTypes#File> ;
+  ns0:title "Baker, Paul Show on WHP"@en ;
+  rdfs:label "Baker, Paul Show on WHP"@en ;
+  ns0:date "1991/08/16"@en ;
+  ns0:hasInstantiation <http://data.archives-nationales.culture.gouv.fr/instantiation/-aspace_2f7a747695b4b55b9a0a5664a05fa8be-i1> .
+
+<http://data.archives-nationales.culture.gouv.fr/instantiation/-aspace_2f7a747695b4b55b9a0a5664a05fa8be-i1>
+  a ns0:Instantiation ;
+  ns0:instantiates <http://data.archives-nationales.culture.gouv.fr/recordResource/-aspace_2f7a747695b4b55b9a0a5664a05fa8be> ;
+  ns0:title "Baker, Paul Show on WHP"@en ;
+  rdfs:label "Baker, Paul Show on WHP"@en ;
+  ns0:date "1991/08/16"@en ;
+  rdfs:seeAlso <https://www.siv.archives-nationales.culture.gouv.fr/siv/UD/00399/aspace_2f7a747695b4b55b9a0a5664a05fa8be> .
+
+<http://data.archives-nationales.culture.gouv.fr/recordResource/-aspace_721a557f71b90d58e2956a6d26958c07>
+  a ns0:RecordResource, ns0:RecordSet ;
+  ns0:includedIn <http://data.archives-nationales.culture.gouv.fr/recordResource/-top> ;
+  ns0:hasRecordSetType <https://www.ica.org/standards/RiC/vocabularies/recordSetTypes#File> ;
+  ns0:title "Radio Interview"@en ;
+  rdfs:label "Radio Interview"@en ;
+  ns0:date "1991/01/31"@en ;
+  ns0:hasInstantiation <http://data.archives-nationales.culture.gouv.fr/instantiation/-aspace_721a557f71b90d58e2956a6d26958c07-i1> .
+
+<http://data.archives-nationales.culture.gouv.fr/instantiation/-aspace_721a557f71b90d58e2956a6d26958c07-i1>
+  a ns0:Instantiation ;
+  ns0:instantiates <http://data.archives-nationales.culture.gouv.fr/recordResource/-aspace_721a557f71b90d58e2956a6d26958c07> ;
+  ns0:title "Radio Interview"@en ;
+  rdfs:label "Radio Interview"@en ;
+  ns0:date "1991/01/31"@en ;
+  rdfs:seeAlso <https://www.siv.archives-nationales.culture.gouv.fr/siv/UD/00399/aspace_721a557f71b90d58e2956a6d26958c07> .
+
+<http://data.archives-nationales.culture.gouv.fr/recordResource/-aspace_0f7e68f40beb5093c37676b600ca3e09>
+  a ns0:RecordResource, ns0:RecordSet ;
+  ns0:includedIn <http://data.archives-nationales.culture.gouv.fr/recordResource/-top> ;
+  ns0:hasRecordSetType <https://www.ica.org/standards/RiC/vocabularies/recordSetTypes#File> ;
+  ns0:title "Speaking on Middle East at Quadrange Retirement Community"@en ;
+  rdfs:label "Speaking on Middle East at Quadrange Retirement Community"@en ;
+  ns0:date "1991/05/16"@en ;
+  ns0:hasInstantiation <http://data.archives-nationales.culture.gouv.fr/instantiation/-aspace_0f7e68f40beb5093c37676b600ca3e09-i1> .
+
+<http://data.archives-nationales.culture.gouv.fr/instantiation/-aspace_0f7e68f40beb5093c37676b600ca3e09-i1>
+  a ns0:Instantiation ;
+  ns0:instantiates <http://data.archives-nationales.culture.gouv.fr/recordResource/-aspace_0f7e68f40beb5093c37676b600ca3e09> ;
+  ns0:title "Speaking on Middle East at Quadrange Retirement Community"@en ;
+  rdfs:label "Speaking on Middle East at Quadrange Retirement Community"@en ;
+  ns0:date "1991/05/16"@en ;
+  rdfs:seeAlso <https://www.siv.archives-nationales.culture.gouv.fr/siv/UD/00399/aspace_0f7e68f40beb5093c37676b600ca3e09> .
+
+<http://data.archives-nationales.culture.gouv.fr/recordResource/-aspace_f4701edf32c01d73625a3f1a214918c2>
+  a ns0:RecordResource, ns0:RecordSet ;
+  ns0:includedIn <http://data.archives-nationales.culture.gouv.fr/recordResource/-top> ;
+  ns0:hasRecordSetType <https://www.ica.org/standards/RiC/vocabularies/recordSetTypes#File> ;
+  ns0:title "Interview on Penn State Radio"@en ;
+  rdfs:label "Interview on Penn State Radio"@en ;
+  ns0:date "1994"^^xsd:gYear, "1994"@en ;
+  ns0:hasInstantiation <http://data.archives-nationales.culture.gouv.fr/instantiation/-aspace_f4701edf32c01d73625a3f1a214918c2-i1> .
+
+<http://data.archives-nationales.culture.gouv.fr/instantiation/-aspace_f4701edf32c01d73625a3f1a214918c2-i1>
+  a ns0:Instantiation ;
+  ns0:instantiates <http://data.archives-nationales.culture.gouv.fr/recordResource/-aspace_f4701edf32c01d73625a3f1a214918c2> ;
+  ns0:title "Interview on Penn State Radio"@en ;
+  rdfs:label "Interview on Penn State Radio"@en ;
+  ns0:date "1994"^^xsd:gYear, "1994"@en ;
+  rdfs:seeAlso <https://www.siv.archives-nationales.culture.gouv.fr/siv/UD/00399/aspace_f4701edf32c01d73625a3f1a214918c2> .
+
+<http://data.archives-nationales.culture.gouv.fr/recordResource/-aspace_85a8f8a262f5bcdcf1efe8ca6465de85>
+  a ns0:RecordResource, ns0:RecordSet ;
+  ns0:includedIn <http://data.archives-nationales.culture.gouv.fr/recordResource/-top> ;
+  ns0:hasRecordSetType <https://www.ica.org/standards/RiC/vocabularies/recordSetTypes#File> ;
+  ns0:title "Penn State Schuylkill Campus Talk"@en ;
+  rdfs:label "Penn State Schuylkill Campus Talk"@en ;
+  ns0:date "1991/02/05"@en ;
+  ns0:hasInstantiation <http://data.archives-nationales.culture.gouv.fr/instantiation/-aspace_85a8f8a262f5bcdcf1efe8ca6465de85-i1> .
+
+<http://data.archives-nationales.culture.gouv.fr/instantiation/-aspace_85a8f8a262f5bcdcf1efe8ca6465de85-i1>
+  a ns0:Instantiation ;
+  ns0:instantiates <http://data.archives-nationales.culture.gouv.fr/recordResource/-aspace_85a8f8a262f5bcdcf1efe8ca6465de85> ;
+  ns0:title "Penn State Schuylkill Campus Talk"@en ;
+  rdfs:label "Penn State Schuylkill Campus Talk"@en ;
+  ns0:date "1991/02/05"@en ;
+  rdfs:seeAlso <https://www.siv.archives-nationales.culture.gouv.fr/siv/UD/00399/aspace_85a8f8a262f5bcdcf1efe8ca6465de85> .
+
+<http://data.archives-nationales.culture.gouv.fr/recordResource/-aspace_fa079e4a4a01be0d41f2b57b2f74e52b>
+  a ns0:RecordResource, ns0:RecordSet ;
+  ns0:includedIn <http://data.archives-nationales.culture.gouv.fr/recordResource/-top> ;
+  ns0:hasRecordSetType <https://www.ica.org/standards/RiC/vocabularies/recordSetTypes#File> ;
+  ns0:title "Goldschmidt, Arthur Jr. - Materials Pertaining to History 10 (Non-Western Civilization)"@en ;
+  rdfs:label "Goldschmidt, Arthur Jr. - Materials Pertaining to History 10 (Non-Western Civilization)"@en ;
+  ns0:beginningDate "1981"^^xsd:gYear ;
+  ns0:endDate "1999"^^xsd:gYear ;
+  ns0:date "1981-1999"@en ;
+  ns0:hasInstantiation <http://data.archives-nationales.culture.gouv.fr/instantiation/-aspace_fa079e4a4a01be0d41f2b57b2f74e52b-i1> .
+
+<http://data.archives-nationales.culture.gouv.fr/instantiation/-aspace_fa079e4a4a01be0d41f2b57b2f74e52b-i1>
+  a ns0:Instantiation ;
+  ns0:instantiates <http://data.archives-nationales.culture.gouv.fr/recordResource/-aspace_fa079e4a4a01be0d41f2b57b2f74e52b> ;
+  ns0:title "Goldschmidt, Arthur Jr. - Materials Pertaining to History 10 (Non-Western Civilization)"@en ;
+  rdfs:label "Goldschmidt, Arthur Jr. - Materials Pertaining to History 10 (Non-Western Civilization)"@en ;
+  ns0:beginningDate "1981"^^xsd:gYear ;
+  ns0:endDate "1999"^^xsd:gYear ;
+  ns0:date "1981-1999"@en ;
+  rdfs:seeAlso <https://www.siv.archives-nationales.culture.gouv.fr/siv/UD/00399/aspace_fa079e4a4a01be0d41f2b57b2f74e52b> .
+
+<http://data.archives-nationales.culture.gouv.fr/recordResource/-aspace_f71e3142e872824094c9357cd04d675a>
+  a ns0:RecordResource, ns0:RecordSet ;
+  ns0:includedIn <http://data.archives-nationales.culture.gouv.fr/recordResource/-top> ;
+  ns0:hasRecordSetType <https://www.ica.org/standards/RiC/vocabularies/recordSetTypes#File> ;
+  ns0:title "Goldschmidt, Arthur Jr. - Committee Service New Jersey Scholars"@en ;
+  rdfs:label "Goldschmidt, Arthur Jr. - Committee Service New Jersey Scholars"@en ;
+  ns0:date "1985"^^xsd:gYear, "1985"@en ;
+  ns0:hasInstantiation <http://data.archives-nationales.culture.gouv.fr/instantiation/-aspace_f71e3142e872824094c9357cd04d675a-i1> .
+
+<http://data.archives-nationales.culture.gouv.fr/instantiation/-aspace_f71e3142e872824094c9357cd04d675a-i1>
+  a ns0:Instantiation ;
+  ns0:instantiates <http://data.archives-nationales.culture.gouv.fr/recordResource/-aspace_f71e3142e872824094c9357cd04d675a> ;
+  ns0:title "Goldschmidt, Arthur Jr. - Committee Service New Jersey Scholars"@en ;
+  rdfs:label "Goldschmidt, Arthur Jr. - Committee Service New Jersey Scholars"@en ;
+  ns0:date "1985"^^xsd:gYear, "1985"@en ;
+  rdfs:seeAlso <https://www.siv.archives-nationales.culture.gouv.fr/siv/UD/00399/aspace_f71e3142e872824094c9357cd04d675a> .
+
+<http://data.archives-nationales.culture.gouv.fr/recordResource/-aspace_ca36e840a8acf2aea73546310bbeaab3>
+  a ns0:RecordResource, ns0:RecordSet ;
+  ns0:includedIn <http://data.archives-nationales.culture.gouv.fr/recordResource/-top> ;
+  ns0:hasRecordSetType <https://www.ica.org/standards/RiC/vocabularies/recordSetTypes#File> ;
+  ns0:title "Goldschmidt, Arthur Jr. - Course Handouts, Lectures, Discussion Outlines (400-UP)"@en ;
+  rdfs:label "Goldschmidt, Arthur Jr. - Course Handouts, Lectures, Discussion Outlines (400-UP)"@en ;
+  ns0:date "Undated"@en ;
+  ns0:hasInstantiation <http://data.archives-nationales.culture.gouv.fr/instantiation/-aspace_ca36e840a8acf2aea73546310bbeaab3-i1> .
+
+<http://data.archives-nationales.culture.gouv.fr/instantiation/-aspace_ca36e840a8acf2aea73546310bbeaab3-i1>
+  a ns0:Instantiation ;
+  ns0:instantiates <http://data.archives-nationales.culture.gouv.fr/recordResource/-aspace_ca36e840a8acf2aea73546310bbeaab3> ;
+  ns0:title "Goldschmidt, Arthur Jr. - Course Handouts, Lectures, Discussion Outlines (400-UP)"@en ;
+  rdfs:label "Goldschmidt, Arthur Jr. - Course Handouts, Lectures, Discussion Outlines (400-UP)"@en ;
+  ns0:date "Undated"@en ;
+  rdfs:seeAlso <https://www.siv.archives-nationales.culture.gouv.fr/siv/UD/00399/aspace_ca36e840a8acf2aea73546310bbeaab3> .
+
+<http://data.archives-nationales.culture.gouv.fr/recordResource/-aspace_40d280448a005a4221ebe37360ddd788>
+  a ns0:RecordResource, ns0:RecordSet ;
+  ns0:includedIn <http://data.archives-nationales.culture.gouv.fr/recordResource/-top> ;
+  ns0:hasRecordSetType <https://www.ica.org/standards/RiC/vocabularies/recordSetTypes#File> ;
+  ns0:title "Goldschmidt, Arthur Jr. - Elderhostel Courses"@en ;
+  rdfs:label "Goldschmidt, Arthur Jr. - Elderhostel Courses"@en ;
+  ns0:date "Undated"@en ;
+  ns0:hasInstantiation <http://data.archives-nationales.culture.gouv.fr/instantiation/-aspace_40d280448a005a4221ebe37360ddd788-i1> .
+
+<http://data.archives-nationales.culture.gouv.fr/instantiation/-aspace_40d280448a005a4221ebe37360ddd788-i1>
+  a ns0:Instantiation ;
+  ns0:instantiates <http://data.archives-nationales.culture.gouv.fr/recordResource/-aspace_40d280448a005a4221ebe37360ddd788> ;
+  ns0:title "Goldschmidt, Arthur Jr. - Elderhostel Courses"@en ;
+  rdfs:label "Goldschmidt, Arthur Jr. - Elderhostel Courses"@en ;
+  ns0:date "Undated"@en ;
+  rdfs:seeAlso <https://www.siv.archives-nationales.culture.gouv.fr/siv/UD/00399/aspace_40d280448a005a4221ebe37360ddd788> .
+
+<http://data.archives-nationales.culture.gouv.fr/recordResource/-aspace_ae53387dbd93ea9d6f8f0dacd63412b2>
+  a ns0:RecordResource, ns0:RecordSet ;
+  ns0:includedIn <http://data.archives-nationales.culture.gouv.fr/recordResource/-top> ;
+  ns0:hasRecordSetType <https://www.ica.org/standards/RiC/vocabularies/recordSetTypes#File> ;
+  ns0:title "Goldschmidt, Arthur Jr. - Course Handouts, Lectures, Discussion Outlines (History 11, 19, 181, 191)"@en ;
+  rdfs:label "Goldschmidt, Arthur Jr. - Course Handouts, Lectures, Discussion Outlines (History 11, 19, 181, 191)"@en ;
+  ns0:date "Undated"@en ;
+  ns0:hasInstantiation <http://data.archives-nationales.culture.gouv.fr/instantiation/-aspace_ae53387dbd93ea9d6f8f0dacd63412b2-i1> .
+
+<http://data.archives-nationales.culture.gouv.fr/instantiation/-aspace_ae53387dbd93ea9d6f8f0dacd63412b2-i1>
+  a ns0:Instantiation ;
+  ns0:instantiates <http://data.archives-nationales.culture.gouv.fr/recordResource/-aspace_ae53387dbd93ea9d6f8f0dacd63412b2> ;
+  ns0:title "Goldschmidt, Arthur Jr. - Course Handouts, Lectures, Discussion Outlines (History 11, 19, 181, 191)"@en ;
+  rdfs:label "Goldschmidt, Arthur Jr. - Course Handouts, Lectures, Discussion Outlines (History 11, 19, 181, 191)"@en ;
+  ns0:date "Undated"@en ;
+  rdfs:seeAlso <https://www.siv.archives-nationales.culture.gouv.fr/siv/UD/00399/aspace_ae53387dbd93ea9d6f8f0dacd63412b2> .
+
+<http://data.archives-nationales.culture.gouv.fr/recordResource/-aspace_abab9257d31e760e6cbf867b6951b53b>
+  a ns0:RecordResource, ns0:RecordSet ;
+  ns0:includedIn <http://data.archives-nationales.culture.gouv.fr/recordResource/-top> ;
+  ns0:hasRecordSetType <https://www.ica.org/standards/RiC/vocabularies/recordSetTypes#File> ;
+  ns0:title "Correspondence"@en ;
+  rdfs:label "Correspondence"@en ;
+  ns0:beginningDate "1992"^^xsd:gYear ;
+  ns0:endDate "1995"^^xsd:gYear ;
+  ns0:date "1992-1995"@en ;
+  ns0:hasInstantiation <http://data.archives-nationales.culture.gouv.fr/instantiation/-aspace_abab9257d31e760e6cbf867b6951b53b-i1> .
+
+<http://data.archives-nationales.culture.gouv.fr/instantiation/-aspace_abab9257d31e760e6cbf867b6951b53b-i1>
+  a ns0:Instantiation ;
+  ns0:instantiates <http://data.archives-nationales.culture.gouv.fr/recordResource/-aspace_abab9257d31e760e6cbf867b6951b53b> ;
+  ns0:title "Correspondence"@en ;
+  rdfs:label "Correspondence"@en ;
+  ns0:beginningDate "1992"^^xsd:gYear ;
+  ns0:endDate "1995"^^xsd:gYear ;
+  ns0:date "1992-1995"@en ;
+  rdfs:seeAlso <https://www.siv.archives-nationales.culture.gouv.fr/siv/UD/00399/aspace_abab9257d31e760e6cbf867b6951b53b> .
+
+<http://data.archives-nationales.culture.gouv.fr/recordResource/-aspace_49d0d3cfe9164d92d702af0a366c2f9c>
+  a ns0:RecordResource, ns0:RecordSet ;
+  ns0:includedIn <http://data.archives-nationales.culture.gouv.fr/recordResource/-top> ;
+  ns0:hasRecordSetType <https://www.ica.org/standards/RiC/vocabularies/recordSetTypes#File> ;
+  ns0:title "Published Writings, offprints"@en ;
+  rdfs:label "Published Writings, offprints"@en ;
+  ns0:beginningDate "1982"^^xsd:gYear ;
+  ns0:endDate "1993"^^xsd:gYear ;
+  ns0:date "1982-1993"@en ;
+  ns0:hasInstantiation <http://data.archives-nationales.culture.gouv.fr/instantiation/-aspace_49d0d3cfe9164d92d702af0a366c2f9c-i1> .
+
+<http://data.archives-nationales.culture.gouv.fr/instantiation/-aspace_49d0d3cfe9164d92d702af0a366c2f9c-i1>
+  a ns0:Instantiation ;
+  ns0:instantiates <http://data.archives-nationales.culture.gouv.fr/recordResource/-aspace_49d0d3cfe9164d92d702af0a366c2f9c> ;
+  ns0:title "Published Writings, offprints"@en ;
+  rdfs:label "Published Writings, offprints"@en ;
+  ns0:beginningDate "1982"^^xsd:gYear ;
+  ns0:endDate "1993"^^xsd:gYear ;
+  ns0:date "1982-1993"@en ;
+  rdfs:seeAlso <https://www.siv.archives-nationales.culture.gouv.fr/siv/UD/00399/aspace_49d0d3cfe9164d92d702af0a366c2f9c> .
+
+<http://data.archives-nationales.culture.gouv.fr/recordResource/-aspace_511f9e4a73cf0a95ecd13768f7610db6>
+  a ns0:RecordResource, ns0:RecordSet ;
+  ns0:includedIn <http://data.archives-nationales.culture.gouv.fr/recordResource/-top> ;
+  ns0:hasRecordSetType <https://www.ica.org/standards/RiC/vocabularies/recordSetTypes#File> ;
+  ns0:title "Sabbatical Leave"@en ;
+  rdfs:label "Sabbatical Leave"@en ;
+  ns0:beginningDate "1981"^^xsd:gYear ;
+  ns0:endDate "1982"^^xsd:gYear ;
+  ns0:date "1981-1982"@en ;
+  ns0:hasInstantiation <http://data.archives-nationales.culture.gouv.fr/instantiation/-aspace_511f9e4a73cf0a95ecd13768f7610db6-i1> .
+
+<http://data.archives-nationales.culture.gouv.fr/instantiation/-aspace_511f9e4a73cf0a95ecd13768f7610db6-i1>
+  a ns0:Instantiation ;
+  ns0:instantiates <http://data.archives-nationales.culture.gouv.fr/recordResource/-aspace_511f9e4a73cf0a95ecd13768f7610db6> ;
+  ns0:title "Sabbatical Leave"@en ;
+  rdfs:label "Sabbatical Leave"@en ;
+  ns0:beginningDate "1981"^^xsd:gYear ;
+  ns0:endDate "1982"^^xsd:gYear ;
+  ns0:date "1981-1982"@en ;
+  rdfs:seeAlso <https://www.siv.archives-nationales.culture.gouv.fr/siv/UD/00399/aspace_511f9e4a73cf0a95ecd13768f7610db6> .
+
+<http://data.archives-nationales.culture.gouv.fr/recordResource/-aspace_8dd2b701984c82ef97d70c57e928fc79>
+  a ns0:RecordResource, ns0:RecordSet ;
+  ns0:includedIn <http://data.archives-nationales.culture.gouv.fr/recordResource/-top> ;
+  ns0:hasRecordSetType <https://www.ica.org/standards/RiC/vocabularies/recordSetTypes#File> ;
+  ns0:title "PHD Candidates (work with)"@en ;
+  rdfs:label "PHD Candidates (work with)"@en ;
+  ns0:beginningDate "1968"^^xsd:gYear ;
+  ns0:endDate "1993"^^xsd:gYear ;
+  ns0:date "1968-1993"@en ;
+  ns0:hasInstantiation <http://data.archives-nationales.culture.gouv.fr/instantiation/-aspace_8dd2b701984c82ef97d70c57e928fc79-i1> .
+
+<http://data.archives-nationales.culture.gouv.fr/instantiation/-aspace_8dd2b701984c82ef97d70c57e928fc79-i1>
+  a ns0:Instantiation ;
+  ns0:instantiates <http://data.archives-nationales.culture.gouv.fr/recordResource/-aspace_8dd2b701984c82ef97d70c57e928fc79> ;
+  ns0:title "PHD Candidates (work with)"@en ;
+  rdfs:label "PHD Candidates (work with)"@en ;
+  ns0:beginningDate "1968"^^xsd:gYear ;
+  ns0:endDate "1993"^^xsd:gYear ;
+  ns0:date "1968-1993"@en ;
+  rdfs:seeAlso <https://www.siv.archives-nationales.culture.gouv.fr/siv/UD/00399/aspace_8dd2b701984c82ef97d70c57e928fc79> .
+
+<http://data.archives-nationales.culture.gouv.fr/recordResource/-aspace_8b9afbb1f23c11f4f3dca7cc08a13b5f>
+  a ns0:RecordResource, ns0:RecordSet ;
+  ns0:includedIn <http://data.archives-nationales.culture.gouv.fr/recordResource/-top> ;
+  ns0:hasRecordSetType <https://www.ica.org/standards/RiC/vocabularies/recordSetTypes#File> ;
+  ns0:title "Harvard College Commencement"@en ;
+  rdfs:label "Harvard College Commencement"@en ;
+  ns0:date "1968"^^xsd:gYear, "1968"@en ;
+  ns0:hasInstantiation <http://data.archives-nationales.culture.gouv.fr/instantiation/-aspace_8b9afbb1f23c11f4f3dca7cc08a13b5f-i1> .
+
+<http://data.archives-nationales.culture.gouv.fr/instantiation/-aspace_8b9afbb1f23c11f4f3dca7cc08a13b5f-i1>
+  a ns0:Instantiation ;
+  ns0:instantiates <http://data.archives-nationales.culture.gouv.fr/recordResource/-aspace_8b9afbb1f23c11f4f3dca7cc08a13b5f> ;
+  ns0:title "Harvard College Commencement"@en ;
+  rdfs:label "Harvard College Commencement"@en ;
+  ns0:date "1968"^^xsd:gYear, "1968"@en ;
+  rdfs:seeAlso <https://www.siv.archives-nationales.culture.gouv.fr/siv/UD/00399/aspace_8b9afbb1f23c11f4f3dca7cc08a13b5f> .
+
+<http://data.archives-nationales.culture.gouv.fr/recordResource/-aspace_16b716d5096f894d332343cf6cc698af>
+  a ns0:RecordResource, ns0:RecordSet ;
+  ns0:includedIn <http://data.archives-nationales.culture.gouv.fr/recordResource/-top> ;
+  ns0:hasRecordSetType <https://www.ica.org/standards/RiC/vocabularies/recordSetTypes#File> ;
+  ns0:title "Satanic Verses, Controversy"@en ;
+  rdfs:label "Satanic Verses, Controversy"@en ;
+  ns0:date "Undated"@en ;
+  ns0:hasInstantiation <http://data.archives-nationales.culture.gouv.fr/instantiation/-aspace_16b716d5096f894d332343cf6cc698af-i1> .
+
+<http://data.archives-nationales.culture.gouv.fr/instantiation/-aspace_16b716d5096f894d332343cf6cc698af-i1>
+  a ns0:Instantiation ;
+  ns0:instantiates <http://data.archives-nationales.culture.gouv.fr/recordResource/-aspace_16b716d5096f894d332343cf6cc698af> ;
+  ns0:title "Satanic Verses, Controversy"@en ;
+  rdfs:label "Satanic Verses, Controversy"@en ;
+  ns0:date "Undated"@en ;
+  rdfs:seeAlso <https://www.siv.archives-nationales.culture.gouv.fr/siv/UD/00399/aspace_16b716d5096f894d332343cf6cc698af> .
+
+<http://data.archives-nationales.culture.gouv.fr/recordResource/-aspace_51b9bc420b753c56852cd6cfa38c6304>
+  a ns0:RecordResource, ns0:RecordSet ;
+  ns0:includedIn <http://data.archives-nationales.culture.gouv.fr/recordResource/-top> ;
+  ns0:hasRecordSetType <https://www.ica.org/standards/RiC/vocabularies/recordSetTypes#File> ;
+  ns0:title "Semester at Sea"@en ;
+  rdfs:label "Semester at Sea"@en ;
+  ns0:date "1987"^^xsd:gYear, "1987"@en ;
+  ns0:hasInstantiation <http://data.archives-nationales.culture.gouv.fr/instantiation/-aspace_51b9bc420b753c56852cd6cfa38c6304-i1> .
+
+<http://data.archives-nationales.culture.gouv.fr/instantiation/-aspace_51b9bc420b753c56852cd6cfa38c6304-i1>
+  a ns0:Instantiation ;
+  ns0:instantiates <http://data.archives-nationales.culture.gouv.fr/recordResource/-aspace_51b9bc420b753c56852cd6cfa38c6304> ;
+  ns0:title "Semester at Sea"@en ;
+  rdfs:label "Semester at Sea"@en ;
+  ns0:date "1987"^^xsd:gYear, "1987"@en ;
+  rdfs:seeAlso <https://www.siv.archives-nationales.culture.gouv.fr/siv/UD/00399/aspace_51b9bc420b753c56852cd6cfa38c6304> .
+
+<http://data.archives-nationales.culture.gouv.fr/recordResource/-aspace_d810a81822eb46f4026b5d019c714bc6>
+  a ns0:RecordResource, ns0:RecordSet ;
+  ns0:includedIn <http://data.archives-nationales.culture.gouv.fr/recordResource/-top> ;
+  ns0:hasRecordSetType <https://www.ica.org/standards/RiC/vocabularies/recordSetTypes#File> ;
+  ns0:title "Semester at Sea"@en ;
+  rdfs:label "Semester at Sea"@en ;
+  ns0:beginningDate "1983"^^xsd:gYear ;
+  ns0:endDate "1997"^^xsd:gYear ;
+  ns0:date "1983-1997"@en ;
+  ns0:hasInstantiation <http://data.archives-nationales.culture.gouv.fr/instantiation/-aspace_d810a81822eb46f4026b5d019c714bc6-i1> .
+
+<http://data.archives-nationales.culture.gouv.fr/instantiation/-aspace_d810a81822eb46f4026b5d019c714bc6-i1>
+  a ns0:Instantiation ;
+  ns0:instantiates <http://data.archives-nationales.culture.gouv.fr/recordResource/-aspace_d810a81822eb46f4026b5d019c714bc6> ;
+  ns0:title "Semester at Sea"@en ;
+  rdfs:label "Semester at Sea"@en ;
+  ns0:beginningDate "1983"^^xsd:gYear ;
+  ns0:endDate "1997"^^xsd:gYear ;
+  ns0:date "1983-1997"@en ;
+  rdfs:seeAlso <https://www.siv.archives-nationales.culture.gouv.fr/siv/UD/00399/aspace_d810a81822eb46f4026b5d019c714bc6> .
+
+<http://data.archives-nationales.culture.gouv.fr/recordResource/-aspace_72752cc8b4de22f0c2e7e468ee3cc692>
+  a ns0:RecordResource, ns0:RecordSet ;
+  ns0:includedIn <http://data.archives-nationales.culture.gouv.fr/recordResource/-top> ;
+  ns0:hasRecordSetType <https://www.ica.org/standards/RiC/vocabularies/recordSetTypes#File> ;
+  ns0:title "Undergraduate Middle East Conferences"@en ;
+  rdfs:label "Undergraduate Middle East Conferences"@en ;
+  ns0:beginningDate "1987"^^xsd:gYear ;
+  ns0:endDate "1989"^^xsd:gYear ;
+  ns0:date "1987-1989"@en ;
+  ns0:hasInstantiation <http://data.archives-nationales.culture.gouv.fr/instantiation/-aspace_72752cc8b4de22f0c2e7e468ee3cc692-i1> .
+
+<http://data.archives-nationales.culture.gouv.fr/instantiation/-aspace_72752cc8b4de22f0c2e7e468ee3cc692-i1>
+  a ns0:Instantiation ;
+  ns0:instantiates <http://data.archives-nationales.culture.gouv.fr/recordResource/-aspace_72752cc8b4de22f0c2e7e468ee3cc692> ;
+  ns0:title "Undergraduate Middle East Conferences"@en ;
+  rdfs:label "Undergraduate Middle East Conferences"@en ;
+  ns0:beginningDate "1987"^^xsd:gYear ;
+  ns0:endDate "1989"^^xsd:gYear ;
+  ns0:date "1987-1989"@en ;
+  rdfs:seeAlso <https://www.siv.archives-nationales.culture.gouv.fr/siv/UD/00399/aspace_72752cc8b4de22f0c2e7e468ee3cc692> .
+
+<http://data.archives-nationales.culture.gouv.fr/recordResource/-aspace_523fdbdf70b6703f6072f0cff6dd30ae>
+  a ns0:RecordResource, ns0:RecordSet ;
+  ns0:includedIn <http://data.archives-nationales.culture.gouv.fr/recordResource/-top> ;
+  ns0:hasRecordSetType <https://www.ica.org/standards/RiC/vocabularies/recordSetTypes#File> ;
+  ns0:title "Research Grants"@en ;
+  rdfs:label "Research Grants"@en ;
+  ns0:beginningDate "1986"^^xsd:gYear ;
+  ns0:endDate "1998"^^xsd:gYear ;
+  ns0:date "1986-1998"@en ;
+  ns0:hasInstantiation <http://data.archives-nationales.culture.gouv.fr/instantiation/-aspace_523fdbdf70b6703f6072f0cff6dd30ae-i1> .
+
+<http://data.archives-nationales.culture.gouv.fr/instantiation/-aspace_523fdbdf70b6703f6072f0cff6dd30ae-i1>
+  a ns0:Instantiation ;
+  ns0:instantiates <http://data.archives-nationales.culture.gouv.fr/recordResource/-aspace_523fdbdf70b6703f6072f0cff6dd30ae> ;
+  ns0:title "Research Grants"@en ;
+  rdfs:label "Research Grants"@en ;
+  ns0:beginningDate "1986"^^xsd:gYear ;
+  ns0:endDate "1998"^^xsd:gYear ;
+  ns0:date "1986-1998"@en ;
+  rdfs:seeAlso <https://www.siv.archives-nationales.culture.gouv.fr/siv/UD/00399/aspace_523fdbdf70b6703f6072f0cff6dd30ae> .
+
+<http://data.archives-nationales.culture.gouv.fr/recordResource/-aspace_50e05f5d8151f1658d0704c98f957357>
+  a ns0:RecordResource, ns0:RecordSet ;
+  ns0:includedIn <http://data.archives-nationales.culture.gouv.fr/recordResource/-top> ;
+  ns0:hasRecordSetType <https://www.ica.org/standards/RiC/vocabularies/recordSetTypes#File> ;
+  ns0:title "Speeches"@en ;
+  rdfs:label "Speeches"@en ;
+  ns0:beginningDate "1982"^^xsd:gYear ;
+  ns0:endDate "2000"^^xsd:gYear ;
+  ns0:date "1982-2000"@en ;
+  ns0:hasInstantiation <http://data.archives-nationales.culture.gouv.fr/instantiation/-aspace_50e05f5d8151f1658d0704c98f957357-i1> .
+
+<http://data.archives-nationales.culture.gouv.fr/instantiation/-aspace_50e05f5d8151f1658d0704c98f957357-i1>
+  a ns0:Instantiation ;
+  ns0:instantiates <http://data.archives-nationales.culture.gouv.fr/recordResource/-aspace_50e05f5d8151f1658d0704c98f957357> ;
+  ns0:title "Speeches"@en ;
+  rdfs:label "Speeches"@en ;
+  ns0:beginningDate "1982"^^xsd:gYear ;
+  ns0:endDate "2000"^^xsd:gYear ;
+  ns0:date "1982-2000"@en ;
+  rdfs:seeAlso <https://www.siv.archives-nationales.culture.gouv.fr/siv/UD/00399/aspace_50e05f5d8151f1658d0704c98f957357> .
+
+<http://data.archives-nationales.culture.gouv.fr/recordResource/-aspace_ccdaeed765b78f4df8901abc76d32218>
+  a ns0:RecordResource, ns0:RecordSet ;
+  ns0:includedIn <http://data.archives-nationales.culture.gouv.fr/recordResource/-top> ;
+  ns0:hasRecordSetType <https://www.ica.org/standards/RiC/vocabularies/recordSetTypes#File> ;
+  ns0:title "Gulf War - Speeches and Newspaper Articles"@en ;
+  rdfs:label "Gulf War - Speeches and Newspaper Articles"@en ;
+  ns0:date "1991"^^xsd:gYear, "1991"@en ;
+  ns0:hasInstantiation <http://data.archives-nationales.culture.gouv.fr/instantiation/-aspace_ccdaeed765b78f4df8901abc76d32218-i1> .
+
+<http://data.archives-nationales.culture.gouv.fr/instantiation/-aspace_ccdaeed765b78f4df8901abc76d32218-i1>
+  a ns0:Instantiation ;
+  ns0:instantiates <http://data.archives-nationales.culture.gouv.fr/recordResource/-aspace_ccdaeed765b78f4df8901abc76d32218> ;
+  ns0:title "Gulf War - Speeches and Newspaper Articles"@en ;
+  rdfs:label "Gulf War - Speeches and Newspaper Articles"@en ;
+  ns0:date "1991"^^xsd:gYear, "1991"@en ;
+  rdfs:seeAlso <https://www.siv.archives-nationales.culture.gouv.fr/siv/UD/00399/aspace_ccdaeed765b78f4df8901abc76d32218> .
+
+<http://data.archives-nationales.culture.gouv.fr/recordResource/-aspace_c4c620262395caf9fb915d8ab91f69e9>
+  a ns0:RecordResource, ns0:RecordSet ;
+  ns0:includedIn <http://data.archives-nationales.culture.gouv.fr/recordResource/-top> ;
+  ns0:hasRecordSetType <https://www.ica.org/standards/RiC/vocabularies/recordSetTypes#File> ;
+  ns0:title "Pennsylvania Humanities Council Speaking Stint"@en ;
+  rdfs:label "Pennsylvania Humanities Council Speaking Stint"@en ;
+  ns0:date "1989"^^xsd:gYear, "1989"@en ;
+  ns0:hasInstantiation <http://data.archives-nationales.culture.gouv.fr/instantiation/-aspace_c4c620262395caf9fb915d8ab91f69e9-i1> .
+
+<http://data.archives-nationales.culture.gouv.fr/instantiation/-aspace_c4c620262395caf9fb915d8ab91f69e9-i1>
+  a ns0:Instantiation ;
+  ns0:instantiates <http://data.archives-nationales.culture.gouv.fr/recordResource/-aspace_c4c620262395caf9fb915d8ab91f69e9> ;
+  ns0:title "Pennsylvania Humanities Council Speaking Stint"@en ;
+  rdfs:label "Pennsylvania Humanities Council Speaking Stint"@en ;
+  ns0:date "1989"^^xsd:gYear, "1989"@en ;
+  rdfs:seeAlso <https://www.siv.archives-nationales.culture.gouv.fr/siv/UD/00399/aspace_c4c620262395caf9fb915d8ab91f69e9> .
+
+<http://data.archives-nationales.culture.gouv.fr/recordResource/-aspace_c1a4e6b989d36d462d95e3668ee44ae0>
+  a ns0:RecordResource, ns0:RecordSet ;
+  ns0:includedIn <http://data.archives-nationales.culture.gouv.fr/recordResource/-top> ;
+  ns0:hasRecordSetType <https://www.ica.org/standards/RiC/vocabularies/recordSetTypes#File> ;
+  ns0:title "Modern Egypt draft chapters"@en ;
+  rdfs:label "Modern Egypt draft chapters"@en ;
+  ns0:date "1986"^^xsd:gYear, "1986"@en ;
+  ns0:hasInstantiation <http://data.archives-nationales.culture.gouv.fr/instantiation/-aspace_c1a4e6b989d36d462d95e3668ee44ae0-i1> .
+
+<http://data.archives-nationales.culture.gouv.fr/instantiation/-aspace_c1a4e6b989d36d462d95e3668ee44ae0-i1>
+  a ns0:Instantiation ;
+  ns0:instantiates <http://data.archives-nationales.culture.gouv.fr/recordResource/-aspace_c1a4e6b989d36d462d95e3668ee44ae0> ;
+  ns0:title "Modern Egypt draft chapters"@en ;
+  rdfs:label "Modern Egypt draft chapters"@en ;
+  ns0:date "1986"^^xsd:gYear, "1986"@en ;
+  rdfs:seeAlso <https://www.siv.archives-nationales.culture.gouv.fr/siv/UD/00399/aspace_c1a4e6b989d36d462d95e3668ee44ae0> .
+
+<http://data.archives-nationales.culture.gouv.fr/recordResource/-aspace_b5cfa21fdffb1648593873c895c0c70b>
+  a ns0:RecordResource, ns0:RecordSet ;
+  ns0:includedIn <http://data.archives-nationales.culture.gouv.fr/recordResource/-top> ;
+  ns0:hasRecordSetType <https://www.ica.org/standards/RiC/vocabularies/recordSetTypes#File> ;
+  ns0:title "Draft materials for History 10 reader"@en ;
+  rdfs:label "Draft materials for History 10 reader"@en ;
+  ns0:hasInstantiation <http://data.archives-nationales.culture.gouv.fr/instantiation/-aspace_b5cfa21fdffb1648593873c895c0c70b-i1> .
+
+<http://data.archives-nationales.culture.gouv.fr/instantiation/-aspace_b5cfa21fdffb1648593873c895c0c70b-i1>
+  a ns0:Instantiation ;
+  ns0:instantiates <http://data.archives-nationales.culture.gouv.fr/recordResource/-aspace_b5cfa21fdffb1648593873c895c0c70b> ;
+  ns0:title "Draft materials for History 10 reader"@en ;
+  rdfs:label "Draft materials for History 10 reader"@en ;
+  rdfs:seeAlso <https://www.siv.archives-nationales.culture.gouv.fr/siv/UD/00399/aspace_b5cfa21fdffb1648593873c895c0c70b> .
+
+<http://data.archives-nationales.culture.gouv.fr/recordResource/-aspace_6bfce5e0c7d5c1741db9d29eb67cdaad>
+  a ns0:RecordResource, ns0:RecordSet ;
+  ns0:includedIn <http://data.archives-nationales.culture.gouv.fr/recordResource/-top> ;
+  ns0:hasRecordSetType <https://www.ica.org/standards/RiC/vocabularies/recordSetTypes#File> ;
+  ns0:title "Duquesne History Forum"@en ;
+  rdfs:label "Duquesne History Forum"@en ;
+  ns0:date "1983"^^xsd:gYear, "1983"@en ;
+  ns0:hasInstantiation <http://data.archives-nationales.culture.gouv.fr/instantiation/-aspace_6bfce5e0c7d5c1741db9d29eb67cdaad-i1> .
+
+<http://data.archives-nationales.culture.gouv.fr/instantiation/-aspace_6bfce5e0c7d5c1741db9d29eb67cdaad-i1>
+  a ns0:Instantiation ;
+  ns0:instantiates <http://data.archives-nationales.culture.gouv.fr/recordResource/-aspace_6bfce5e0c7d5c1741db9d29eb67cdaad> ;
+  ns0:title "Duquesne History Forum"@en ;
+  rdfs:label "Duquesne History Forum"@en ;
+  ns0:date "1983"^^xsd:gYear, "1983"@en ;
+  rdfs:seeAlso <https://www.siv.archives-nationales.culture.gouv.fr/siv/UD/00399/aspace_6bfce5e0c7d5c1741db9d29eb67cdaad> .
+
+<http://data.archives-nationales.culture.gouv.fr/recordResource/-aspace_9adffad43504ce001bf1a599c1732bb1>
+  a ns0:RecordResource, ns0:RecordSet ;
+  ns0:includedIn <http://data.archives-nationales.culture.gouv.fr/recordResource/-top> ;
+  ns0:hasRecordSetType <https://www.ica.org/standards/RiC/vocabularies/recordSetTypes#File> ;
+  ns0:title "International Military Encyclopedia"@en ;
+  rdfs:label "International Military Encyclopedia"@en ;
+  ns0:beginningDate "1982"^^xsd:gYear ;
+  ns0:endDate "1987"^^xsd:gYear ;
+  ns0:date "1982-1987"@en ;
+  ns0:hasInstantiation <http://data.archives-nationales.culture.gouv.fr/instantiation/-aspace_9adffad43504ce001bf1a599c1732bb1-i1> .
+
+<http://data.archives-nationales.culture.gouv.fr/instantiation/-aspace_9adffad43504ce001bf1a599c1732bb1-i1>
+  a ns0:Instantiation ;
+  ns0:instantiates <http://data.archives-nationales.culture.gouv.fr/recordResource/-aspace_9adffad43504ce001bf1a599c1732bb1> ;
+  ns0:title "International Military Encyclopedia"@en ;
+  rdfs:label "International Military Encyclopedia"@en ;
+  ns0:beginningDate "1982"^^xsd:gYear ;
+  ns0:endDate "1987"^^xsd:gYear ;
+  ns0:date "1982-1987"@en ;
+  rdfs:seeAlso <https://www.siv.archives-nationales.culture.gouv.fr/siv/UD/00399/aspace_9adffad43504ce001bf1a599c1732bb1> .
+
+<http://data.archives-nationales.culture.gouv.fr/recordResource/-aspace_b7c10b152389669a0f8bfecf17415164>
+  a ns0:RecordResource, ns0:RecordSet ;
+  ns0:includedIn <http://data.archives-nationales.culture.gouv.fr/recordResource/-top> ;
+  ns0:hasRecordSetType <https://www.ica.org/standards/RiC/vocabularies/recordSetTypes#File> ;
+  ns0:title "UPCLOSE"@en ;
+  rdfs:label "UPCLOSE"@en ;
+  ns0:beginningDate "1980"^^xsd:gYear ;
+  ns0:endDate "1984"^^xsd:gYear ;
+  ns0:date "1980-1984"@en ;
+  ns0:hasInstantiation <http://data.archives-nationales.culture.gouv.fr/instantiation/-aspace_b7c10b152389669a0f8bfecf17415164-i1> .
+
+<http://data.archives-nationales.culture.gouv.fr/instantiation/-aspace_b7c10b152389669a0f8bfecf17415164-i1>
+  a ns0:Instantiation ;
+  ns0:instantiates <http://data.archives-nationales.culture.gouv.fr/recordResource/-aspace_b7c10b152389669a0f8bfecf17415164> ;
+  ns0:title "UPCLOSE"@en ;
+  rdfs:label "UPCLOSE"@en ;
+  ns0:beginningDate "1980"^^xsd:gYear ;
+  ns0:endDate "1984"^^xsd:gYear ;
+  ns0:date "1980-1984"@en ;
+  rdfs:seeAlso <https://www.siv.archives-nationales.culture.gouv.fr/siv/UD/00399/aspace_b7c10b152389669a0f8bfecf17415164> .
+
+<http://data.archives-nationales.culture.gouv.fr/recordResource/-aspace_7a7d72ab2759b0341a071fbeedcef0fc>
+  a ns0:RecordResource, ns0:RecordSet ;
+  ns0:includedIn <http://data.archives-nationales.culture.gouv.fr/recordResource/-top> ;
+  ns0:hasRecordSetType <https://www.ica.org/standards/RiC/vocabularies/recordSetTypes#File> ;
+  ns0:title "Articles on \"Arab League\" and \"Middle East History\" for Funk and Wagnall's Encyclopedia"@en ;
+  rdfs:label "Articles on \"Arab League\" and \"Middle East History\" for Funk and Wagnall's Encyclopedia"@en ;
+  ns0:date "1980"^^xsd:gYear, "1980"@en ;
+  ns0:hasInstantiation <http://data.archives-nationales.culture.gouv.fr/instantiation/-aspace_7a7d72ab2759b0341a071fbeedcef0fc-i1> .
+
+<http://data.archives-nationales.culture.gouv.fr/instantiation/-aspace_7a7d72ab2759b0341a071fbeedcef0fc-i1>
+  a ns0:Instantiation ;
+  ns0:instantiates <http://data.archives-nationales.culture.gouv.fr/recordResource/-aspace_7a7d72ab2759b0341a071fbeedcef0fc> ;
+  ns0:title "Articles on \"Arab League\" and \"Middle East History\" for Funk and Wagnall's Encyclopedia"@en ;
+  rdfs:label "Articles on \"Arab League\" and \"Middle East History\" for Funk and Wagnall's Encyclopedia"@en ;
+  ns0:date "1980"^^xsd:gYear, "1980"@en ;
+  rdfs:seeAlso <https://www.siv.archives-nationales.culture.gouv.fr/siv/UD/00399/aspace_7a7d72ab2759b0341a071fbeedcef0fc> .
+
+<http://data.archives-nationales.culture.gouv.fr/recordResource/-aspace_5c4e748283a0f88047be61495509cef8>
+  a ns0:RecordResource, ns0:RecordSet ;
+  ns0:includedIn <http://data.archives-nationales.culture.gouv.fr/recordResource/-top> ;
+  ns0:hasRecordSetType <https://www.ica.org/standards/RiC/vocabularies/recordSetTypes#File> ;
+  ns0:title "Concise History of Middle East - students' notes for 1983 revision"@en ;
+  rdfs:label "Concise History of Middle East - students' notes for 1983 revision"@en ;
+  ns0:date "1983"^^xsd:gYear, "1983"@en ;
+  ns0:hasInstantiation <http://data.archives-nationales.culture.gouv.fr/instantiation/-aspace_5c4e748283a0f88047be61495509cef8-i1> .
+
+<http://data.archives-nationales.culture.gouv.fr/instantiation/-aspace_5c4e748283a0f88047be61495509cef8-i1>
+  a ns0:Instantiation ;
+  ns0:instantiates <http://data.archives-nationales.culture.gouv.fr/recordResource/-aspace_5c4e748283a0f88047be61495509cef8> ;
+  ns0:title "Concise History of Middle East - students' notes for 1983 revision"@en ;
+  rdfs:label "Concise History of Middle East - students' notes for 1983 revision"@en ;
+  ns0:date "1983"^^xsd:gYear, "1983"@en ;
+  rdfs:seeAlso <https://www.siv.archives-nationales.culture.gouv.fr/siv/UD/00399/aspace_5c4e748283a0f88047be61495509cef8> .
+
+<http://data.archives-nationales.culture.gouv.fr/recordResource/-aspace_08bd9aebadd400adc6344b9fd4778542>
+  a ns0:RecordResource, ns0:RecordSet ;
+  ns0:includedIn <http://data.archives-nationales.culture.gouv.fr/recordResource/-top> ;
+  ns0:hasRecordSetType <https://www.ica.org/standards/RiC/vocabularies/recordSetTypes#File> ;
+  ns0:title "AMOCO and CASE teaching awards"@en ;
+  rdfs:label "AMOCO and CASE teaching awards"@en ;
+  ns0:date "1981"^^xsd:gYear, "1981"@en ;
+  ns0:hasInstantiation <http://data.archives-nationales.culture.gouv.fr/instantiation/-aspace_08bd9aebadd400adc6344b9fd4778542-i1> .
+
+<http://data.archives-nationales.culture.gouv.fr/instantiation/-aspace_08bd9aebadd400adc6344b9fd4778542-i1>
+  a ns0:Instantiation ;
+  ns0:instantiates <http://data.archives-nationales.culture.gouv.fr/recordResource/-aspace_08bd9aebadd400adc6344b9fd4778542> ;
+  ns0:title "AMOCO and CASE teaching awards"@en ;
+  rdfs:label "AMOCO and CASE teaching awards"@en ;
+  ns0:date "1981"^^xsd:gYear, "1981"@en ;
+  rdfs:seeAlso <https://www.siv.archives-nationales.culture.gouv.fr/siv/UD/00399/aspace_08bd9aebadd400adc6344b9fd4778542> .
+
+<http://data.archives-nationales.culture.gouv.fr/recordResource/-aspace_c12eb4297adacd9375a2e521044490d2>
+  a ns0:RecordResource, ns0:RecordSet ;
+  ns0:includedIn <http://data.archives-nationales.culture.gouv.fr/recordResource/-top> ;
+  ns0:hasRecordSetType <https://www.ica.org/standards/RiC/vocabularies/recordSetTypes#File> ;
+  ns0:title "Concise History of Middle East - 1978 version - Glenn Perry comments"@en ;
+  rdfs:label "Concise History of Middle East - 1978 version - Glenn Perry comments"@en ;
+  ns0:date "1978"^^xsd:gYear, "1978"@en ;
+  ns0:hasInstantiation <http://data.archives-nationales.culture.gouv.fr/instantiation/-aspace_c12eb4297adacd9375a2e521044490d2-i1> .
+
+<http://data.archives-nationales.culture.gouv.fr/instantiation/-aspace_c12eb4297adacd9375a2e521044490d2-i1>
+  a ns0:Instantiation ;
+  ns0:instantiates <http://data.archives-nationales.culture.gouv.fr/recordResource/-aspace_c12eb4297adacd9375a2e521044490d2> ;
+  ns0:title "Concise History of Middle East - 1978 version - Glenn Perry comments"@en ;
+  rdfs:label "Concise History of Middle East - 1978 version - Glenn Perry comments"@en ;
+  ns0:date "1978"^^xsd:gYear, "1978"@en ;
+  rdfs:seeAlso <https://www.siv.archives-nationales.culture.gouv.fr/siv/UD/00399/aspace_c12eb4297adacd9375a2e521044490d2> .
+
+<http://data.archives-nationales.culture.gouv.fr/recordResource/-aspace_3acc224db65c9c60f26fe199184cc3c2>
+  a ns0:RecordResource, ns0:RecordSet ;
+  ns0:includedIn <http://data.archives-nationales.culture.gouv.fr/recordResource/-top> ;
+  ns0:hasRecordSetType <https://www.ica.org/standards/RiC/vocabularies/recordSetTypes#File> ;
+  ns0:title "Middle East Studies Association - Research and Training (RATS)"@en ;
+  rdfs:label "Middle East Studies Association - Research and Training (RATS)"@en ;
+  ns0:beginningDate "1975"^^xsd:gYear ;
+  ns0:endDate "1979"^^xsd:gYear ;
+  ns0:date "1975-1979"@en ;
+  ns0:hasInstantiation <http://data.archives-nationales.culture.gouv.fr/instantiation/-aspace_3acc224db65c9c60f26fe199184cc3c2-i1> .
+
+<http://data.archives-nationales.culture.gouv.fr/instantiation/-aspace_3acc224db65c9c60f26fe199184cc3c2-i1>
+  a ns0:Instantiation ;
+  ns0:instantiates <http://data.archives-nationales.culture.gouv.fr/recordResource/-aspace_3acc224db65c9c60f26fe199184cc3c2> ;
+  ns0:title "Middle East Studies Association - Research and Training (RATS)"@en ;
+  rdfs:label "Middle East Studies Association - Research and Training (RATS)"@en ;
+  ns0:beginningDate "1975"^^xsd:gYear ;
+  ns0:endDate "1979"^^xsd:gYear ;
+  ns0:date "1975-1979"@en ;
+  rdfs:seeAlso <https://www.siv.archives-nationales.culture.gouv.fr/siv/UD/00399/aspace_3acc224db65c9c60f26fe199184cc3c2> .
+
+<http://data.archives-nationales.culture.gouv.fr/recordResource/-aspace_97f9b35833a23378b8724baaf9ff4c94>
+  a ns0:RecordResource, ns0:RecordSet ;
+  ns0:includedIn <http://data.archives-nationales.culture.gouv.fr/recordResource/-top> ;
+  ns0:hasRecordSetType <https://www.ica.org/standards/RiC/vocabularies/recordSetTypes#File> ;
+  ns0:title "Perspective on the 1980's Task Force: \"Students and Society\""@en ;
+  rdfs:label "Perspective on the 1980's Task Force: \"Students and Society\""@en ;
+  ns0:date "circa 1980-1989"@en ;
+  ns0:hasInstantiation <http://data.archives-nationales.culture.gouv.fr/instantiation/-aspace_97f9b35833a23378b8724baaf9ff4c94-i1> .
+
+<http://data.archives-nationales.culture.gouv.fr/instantiation/-aspace_97f9b35833a23378b8724baaf9ff4c94-i1>
+  a ns0:Instantiation ;
+  ns0:instantiates <http://data.archives-nationales.culture.gouv.fr/recordResource/-aspace_97f9b35833a23378b8724baaf9ff4c94> ;
+  ns0:title "Perspective on the 1980's Task Force: \"Students and Society\""@en ;
+  rdfs:label "Perspective on the 1980's Task Force: \"Students and Society\""@en ;
+  ns0:date "circa 1980-1989"@en ;
+  rdfs:seeAlso <https://www.siv.archives-nationales.culture.gouv.fr/siv/UD/00399/aspace_97f9b35833a23378b8724baaf9ff4c94> .
+
+<http://data.archives-nationales.culture.gouv.fr/recordResource/-aspace_197fa34e989b563966f6856ac8a4c783>
+  a ns0:RecordResource, ns0:RecordSet ;
+  ns0:includedIn <http://data.archives-nationales.culture.gouv.fr/recordResource/-top> ;
+  ns0:hasRecordSetType <https://www.ica.org/standards/RiC/vocabularies/recordSetTypes#File> ;
+  ns0:title "Griswold-Perry Project"@en ;
+  rdfs:label "Griswold-Perry Project"@en ;
+  ns0:hasInstantiation <http://data.archives-nationales.culture.gouv.fr/instantiation/-aspace_197fa34e989b563966f6856ac8a4c783-i1> .
+
+<http://data.archives-nationales.culture.gouv.fr/instantiation/-aspace_197fa34e989b563966f6856ac8a4c783-i1>
+  a ns0:Instantiation ;
+  ns0:instantiates <http://data.archives-nationales.culture.gouv.fr/recordResource/-aspace_197fa34e989b563966f6856ac8a4c783> ;
+  ns0:title "Griswold-Perry Project"@en ;
+  rdfs:label "Griswold-Perry Project"@en ;
+  rdfs:seeAlso <https://www.siv.archives-nationales.culture.gouv.fr/siv/UD/00399/aspace_197fa34e989b563966f6856ac8a4c783> .
+
+<http://data.archives-nationales.culture.gouv.fr/recordResource/-aspace_b17e18bf73af13945ad3c6a395642d3a>
+  a ns0:RecordResource, ns0:RecordSet ;
+  ns0:includedIn <http://data.archives-nationales.culture.gouv.fr/recordResource/-top> ;
+  ns0:hasRecordSetType <https://www.ica.org/standards/RiC/vocabularies/recordSetTypes#File> ;
+  ns0:title "Islamic Teaching Materials Project"@en ;
+  rdfs:label "Islamic Teaching Materials Project"@en ;
+  ns0:beginningDate "1973"^^xsd:gYear ;
+  ns0:endDate "1975"^^xsd:gYear ;
+  ns0:date "1973-1975"@en ;
+  ns0:hasInstantiation <http://data.archives-nationales.culture.gouv.fr/instantiation/-aspace_b17e18bf73af13945ad3c6a395642d3a-i1> .
+
+<http://data.archives-nationales.culture.gouv.fr/instantiation/-aspace_b17e18bf73af13945ad3c6a395642d3a-i1>
+  a ns0:Instantiation ;
+  ns0:instantiates <http://data.archives-nationales.culture.gouv.fr/recordResource/-aspace_b17e18bf73af13945ad3c6a395642d3a> ;
+  ns0:title "Islamic Teaching Materials Project"@en ;
+  rdfs:label "Islamic Teaching Materials Project"@en ;
+  ns0:beginningDate "1973"^^xsd:gYear ;
+  ns0:endDate "1975"^^xsd:gYear ;
+  ns0:date "1973-1975"@en ;
+  rdfs:seeAlso <https://www.siv.archives-nationales.culture.gouv.fr/siv/UD/00399/aspace_b17e18bf73af13945ad3c6a395642d3a> .
+
+<http://data.archives-nationales.culture.gouv.fr/recordResource/-aspace_fdd052779857536be2e27558d40a43c7>
+  a ns0:RecordResource, ns0:RecordSet ;
+  ns0:includedIn <http://data.archives-nationales.culture.gouv.fr/recordResource/-top> ;
+  ns0:hasRecordSetType <https://www.ica.org/standards/RiC/vocabularies/recordSetTypes#File> ;
+  ns0:title "Secretarial work for the College of the Liberal Arts"@en ;
+  rdfs:label "Secretarial work for the College of the Liberal Arts"@en ;
+  ns0:beginningDate "1978"^^xsd:gYear ;
+  ns0:endDate "1979"^^xsd:gYear ;
+  ns0:date "1978-1979"@en ;
+  ns0:hasInstantiation <http://data.archives-nationales.culture.gouv.fr/instantiation/-aspace_fdd052779857536be2e27558d40a43c7-i1> .
+
+<http://data.archives-nationales.culture.gouv.fr/instantiation/-aspace_fdd052779857536be2e27558d40a43c7-i1>
+  a ns0:Instantiation ;
+  ns0:instantiates <http://data.archives-nationales.culture.gouv.fr/recordResource/-aspace_fdd052779857536be2e27558d40a43c7> ;
+  ns0:title "Secretarial work for the College of the Liberal Arts"@en ;
+  rdfs:label "Secretarial work for the College of the Liberal Arts"@en ;
+  ns0:beginningDate "1978"^^xsd:gYear ;
+  ns0:endDate "1979"^^xsd:gYear ;
+  ns0:date "1978-1979"@en ;
+  rdfs:seeAlso <https://www.siv.archives-nationales.culture.gouv.fr/siv/UD/00399/aspace_fdd052779857536be2e27558d40a43c7> .
+
+<http://data.archives-nationales.culture.gouv.fr/recordResource/-aspace_febf9f26cce267185f90d1fb8fcc4fe7>
+  a ns0:RecordResource, ns0:RecordSet ;
+  ns0:includedIn <http://data.archives-nationales.culture.gouv.fr/recordResource/-top> ;
+  ns0:hasRecordSetType <https://www.ica.org/standards/RiC/vocabularies/recordSetTypes#File> ;
+  ns0:title "Academic Advising Award and subsequent committee work"@en ;
+  rdfs:label "Academic Advising Award and subsequent committee work"@en ;
+  ns0:date "1976"^^xsd:gYear, "1976"@en ;
+  ns0:hasInstantiation <http://data.archives-nationales.culture.gouv.fr/instantiation/-aspace_febf9f26cce267185f90d1fb8fcc4fe7-i1> .
+
+<http://data.archives-nationales.culture.gouv.fr/instantiation/-aspace_febf9f26cce267185f90d1fb8fcc4fe7-i1>
+  a ns0:Instantiation ;
+  ns0:instantiates <http://data.archives-nationales.culture.gouv.fr/recordResource/-aspace_febf9f26cce267185f90d1fb8fcc4fe7> ;
+  ns0:title "Academic Advising Award and subsequent committee work"@en ;
+  rdfs:label "Academic Advising Award and subsequent committee work"@en ;
+  ns0:date "1976"^^xsd:gYear, "1976"@en ;
+  rdfs:seeAlso <https://www.siv.archives-nationales.culture.gouv.fr/siv/UD/00399/aspace_febf9f26cce267185f90d1fb8fcc4fe7> .
+
+<http://data.archives-nationales.culture.gouv.fr/recordResource/-aspace_7e50b34409fea237266d5400b2fde76c>
+  a ns0:RecordResource, ns0:RecordSet ;
+  ns0:includedIn <http://data.archives-nationales.culture.gouv.fr/recordResource/-top> ;
+  ns0:hasRecordSetType <https://www.ica.org/standards/RiC/vocabularies/recordSetTypes#File> ;
+  ns0:title "Middle East History proposed syllabus for University of Pennsylvania"@en ;
+  rdfs:label "Middle East History proposed syllabus for University of Pennsylvania"@en ;
+  ns0:beginningDate "1975"^^xsd:gYear ;
+  ns0:endDate "1977"^^xsd:gYear ;
+  ns0:date "1975-1977"@en ;
+  ns0:hasInstantiation <http://data.archives-nationales.culture.gouv.fr/instantiation/-aspace_7e50b34409fea237266d5400b2fde76c-i1> .
+
+<http://data.archives-nationales.culture.gouv.fr/instantiation/-aspace_7e50b34409fea237266d5400b2fde76c-i1>
+  a ns0:Instantiation ;
+  ns0:instantiates <http://data.archives-nationales.culture.gouv.fr/recordResource/-aspace_7e50b34409fea237266d5400b2fde76c> ;
+  ns0:title "Middle East History proposed syllabus for University of Pennsylvania"@en ;
+  rdfs:label "Middle East History proposed syllabus for University of Pennsylvania"@en ;
+  ns0:beginningDate "1975"^^xsd:gYear ;
+  ns0:endDate "1977"^^xsd:gYear ;
+  ns0:date "1975-1977"@en ;
+  rdfs:seeAlso <https://www.siv.archives-nationales.culture.gouv.fr/siv/UD/00399/aspace_7e50b34409fea237266d5400b2fde76c> .
+
+<http://data.archives-nationales.culture.gouv.fr/recordResource/-aspace_13d64a76ab2e66d3773aaf41a262962c>
+  a ns0:RecordResource, ns0:RecordSet ;
+  ns0:includedIn <http://data.archives-nationales.culture.gouv.fr/recordResource/-top> ;
+  ns0:hasRecordSetType <https://www.ica.org/standards/RiC/vocabularies/recordSetTypes#File> ;
+  ns0:title "Borthwick, Bruce politics text critique"@en ;
+  rdfs:label "Borthwick, Bruce politics text critique"@en ;
+  ns0:beginningDate "1974"^^xsd:gYear ;
+  ns0:endDate "1982"^^xsd:gYear ;
+  ns0:date "1974-1982"@en ;
+  ns0:hasInstantiation <http://data.archives-nationales.culture.gouv.fr/instantiation/-aspace_13d64a76ab2e66d3773aaf41a262962c-i1> .
+
+<http://data.archives-nationales.culture.gouv.fr/instantiation/-aspace_13d64a76ab2e66d3773aaf41a262962c-i1>
+  a ns0:Instantiation ;
+  ns0:instantiates <http://data.archives-nationales.culture.gouv.fr/recordResource/-aspace_13d64a76ab2e66d3773aaf41a262962c> ;
+  ns0:title "Borthwick, Bruce politics text critique"@en ;
+  rdfs:label "Borthwick, Bruce politics text critique"@en ;
+  ns0:beginningDate "1974"^^xsd:gYear ;
+  ns0:endDate "1982"^^xsd:gYear ;
+  ns0:date "1974-1982"@en ;
+  rdfs:seeAlso <https://www.siv.archives-nationales.culture.gouv.fr/siv/UD/00399/aspace_13d64a76ab2e66d3773aaf41a262962c> .
+
+<http://data.archives-nationales.culture.gouv.fr/recordResource/-aspace_29f813a7595c0fe50df6805ebdd2a619>
+  a ns0:RecordResource, ns0:RecordSet ;
+  ns0:includedIn <http://data.archives-nationales.culture.gouv.fr/recordResource/-top> ;
+  ns0:hasRecordSetType <https://www.ica.org/standards/RiC/vocabularies/recordSetTypes#File> ;
+  ns0:title "Agriculture speaking engagements and clippings"@en ;
+  rdfs:label "Agriculture speaking engagements and clippings"@en ;
+  ns0:date "1980"^^xsd:gYear, "1980"@en ;
+  ns0:hasInstantiation <http://data.archives-nationales.culture.gouv.fr/instantiation/-aspace_29f813a7595c0fe50df6805ebdd2a619-i1> .
+
+<http://data.archives-nationales.culture.gouv.fr/instantiation/-aspace_29f813a7595c0fe50df6805ebdd2a619-i1>
+  a ns0:Instantiation ;
+  ns0:instantiates <http://data.archives-nationales.culture.gouv.fr/recordResource/-aspace_29f813a7595c0fe50df6805ebdd2a619> ;
+  ns0:title "Agriculture speaking engagements and clippings"@en ;
+  rdfs:label "Agriculture speaking engagements and clippings"@en ;
+  ns0:date "1980"^^xsd:gYear, "1980"@en ;
+  rdfs:seeAlso <https://www.siv.archives-nationales.culture.gouv.fr/siv/UD/00399/aspace_29f813a7595c0fe50df6805ebdd2a619> .
+
+<http://data.archives-nationales.culture.gouv.fr/recordResource/-aspace_377a44e5c390954e9b21edb472691550>
+  a ns0:RecordResource, ns0:RecordSet ;
+  ns0:includedIn <http://data.archives-nationales.culture.gouv.fr/recordResource/-top> ;
+  ns0:hasRecordSetType <https://www.ica.org/standards/RiC/vocabularies/recordSetTypes#File> ;
+  ns0:title "Agriculture speaking engagements and clippings"@en ;
+  rdfs:label "Agriculture speaking engagements and clippings"@en ;
+  ns0:beginningDate "1974"^^xsd:gYear ;
+  ns0:endDate "1979"^^xsd:gYear ;
+  ns0:date "1974-1979"@en ;
+  ns0:hasInstantiation <http://data.archives-nationales.culture.gouv.fr/instantiation/-aspace_377a44e5c390954e9b21edb472691550-i1> .
+
+<http://data.archives-nationales.culture.gouv.fr/instantiation/-aspace_377a44e5c390954e9b21edb472691550-i1>
+  a ns0:Instantiation ;
+  ns0:instantiates <http://data.archives-nationales.culture.gouv.fr/recordResource/-aspace_377a44e5c390954e9b21edb472691550> ;
+  ns0:title "Agriculture speaking engagements and clippings"@en ;
+  rdfs:label "Agriculture speaking engagements and clippings"@en ;
+  ns0:beginningDate "1974"^^xsd:gYear ;
+  ns0:endDate "1979"^^xsd:gYear ;
+  ns0:date "1974-1979"@en ;
+  rdfs:seeAlso <https://www.siv.archives-nationales.culture.gouv.fr/siv/UD/00399/aspace_377a44e5c390954e9b21edb472691550> .
+
+<http://data.archives-nationales.culture.gouv.fr/recordResource/-aspace_4cad045e04ced821134d59ad11a04ae4>
+  a ns0:RecordResource, ns0:RecordSet ;
+  ns0:includedIn <http://data.archives-nationales.culture.gouv.fr/recordResource/-top> ;
+  ns0:hasRecordSetType <https://www.ica.org/standards/RiC/vocabularies/recordSetTypes#File> ;
+  ns0:title "Agriculture speaking engagements and clippings"@en ;
+  rdfs:label "Agriculture speaking engagements and clippings"@en ;
+  ns0:beginningDate "1974"^^xsd:gYear ;
+  ns0:endDate "1979"^^xsd:gYear ;
+  ns0:date "1974-1979"@en ;
+  ns0:hasInstantiation <http://data.archives-nationales.culture.gouv.fr/instantiation/-aspace_4cad045e04ced821134d59ad11a04ae4-i1> .
+
+<http://data.archives-nationales.culture.gouv.fr/instantiation/-aspace_4cad045e04ced821134d59ad11a04ae4-i1>
+  a ns0:Instantiation ;
+  ns0:instantiates <http://data.archives-nationales.culture.gouv.fr/recordResource/-aspace_4cad045e04ced821134d59ad11a04ae4> ;
+  ns0:title "Agriculture speaking engagements and clippings"@en ;
+  rdfs:label "Agriculture speaking engagements and clippings"@en ;
+  ns0:beginningDate "1974"^^xsd:gYear ;
+  ns0:endDate "1979"^^xsd:gYear ;
+  ns0:date "1974-1979"@en ;
+  rdfs:seeAlso <https://www.siv.archives-nationales.culture.gouv.fr/siv/UD/00399/aspace_4cad045e04ced821134d59ad11a04ae4> .
+
+<http://data.archives-nationales.culture.gouv.fr/recordResource/-aspace_0607b5e03eb6f0c7e49eb95f740d8e28>
+  a ns0:RecordResource, ns0:RecordSet ;
+  ns0:includedIn <http://data.archives-nationales.culture.gouv.fr/recordResource/-top> ;
+  ns0:hasRecordSetType <https://www.ica.org/standards/RiC/vocabularies/recordSetTypes#File> ;
+  ns0:title "Program review: East Asian Studies"@en ;
+  rdfs:label "Program review: East Asian Studies"@en ;
+  ns0:date "1975"^^xsd:gYear, "1975"@en ;
+  ns0:hasInstantiation <http://data.archives-nationales.culture.gouv.fr/instantiation/-aspace_0607b5e03eb6f0c7e49eb95f740d8e28-i1> .
+
+<http://data.archives-nationales.culture.gouv.fr/instantiation/-aspace_0607b5e03eb6f0c7e49eb95f740d8e28-i1>
+  a ns0:Instantiation ;
+  ns0:instantiates <http://data.archives-nationales.culture.gouv.fr/recordResource/-aspace_0607b5e03eb6f0c7e49eb95f740d8e28> ;
+  ns0:title "Program review: East Asian Studies"@en ;
+  rdfs:label "Program review: East Asian Studies"@en ;
+  ns0:date "1975"^^xsd:gYear, "1975"@en ;
+  rdfs:seeAlso <https://www.siv.archives-nationales.culture.gouv.fr/siv/UD/00399/aspace_0607b5e03eb6f0c7e49eb95f740d8e28> .
+
+<http://data.archives-nationales.culture.gouv.fr/recordResource/-aspace_3ea4de200e0f1d25eaa737f86806ce6f>
+  a ns0:RecordResource, ns0:RecordSet ;
+  ns0:includedIn <http://data.archives-nationales.culture.gouv.fr/recordResource/-top> ;
+  ns0:hasRecordSetType <https://www.ica.org/standards/RiC/vocabularies/recordSetTypes#File> ;
+  ns0:title "Class of 1933 Humanities Award 1972 and subsequent committee work 1973-1975"@en ;
+  rdfs:label "Class of 1933 Humanities Award 1972 and subsequent committee work 1973-1975"@en ;
+  ns0:beginningDate "1972"^^xsd:gYear ;
+  ns0:endDate "1975"^^xsd:gYear ;
+  ns0:date "1972-1975"@en ;
+  ns0:hasInstantiation <http://data.archives-nationales.culture.gouv.fr/instantiation/-aspace_3ea4de200e0f1d25eaa737f86806ce6f-i1> .
+
+<http://data.archives-nationales.culture.gouv.fr/instantiation/-aspace_3ea4de200e0f1d25eaa737f86806ce6f-i1>
+  a ns0:Instantiation ;
+  ns0:instantiates <http://data.archives-nationales.culture.gouv.fr/recordResource/-aspace_3ea4de200e0f1d25eaa737f86806ce6f> ;
+  ns0:title "Class of 1933 Humanities Award 1972 and subsequent committee work 1973-1975"@en ;
+  rdfs:label "Class of 1933 Humanities Award 1972 and subsequent committee work 1973-1975"@en ;
+  ns0:beginningDate "1972"^^xsd:gYear ;
+  ns0:endDate "1975"^^xsd:gYear ;
+  ns0:date "1972-1975"@en ;
+  rdfs:seeAlso <https://www.siv.archives-nationales.culture.gouv.fr/siv/UD/00399/aspace_3ea4de200e0f1d25eaa737f86806ce6f> .
+
+<http://data.archives-nationales.culture.gouv.fr/recordResource/-aspace_6037a6e6903fe5b270e30caf119ce5a8>
+  a ns0:RecordResource, ns0:RecordSet ;
+  ns0:includedIn <http://data.archives-nationales.culture.gouv.fr/recordResource/-top> ;
+  ns0:hasRecordSetType <https://www.ica.org/standards/RiC/vocabularies/recordSetTypes#File> ;
+  ns0:title "Heravi - Middle East dictionary"@en ;
+  rdfs:label "Heravi - Middle East dictionary"@en ;
+  ns0:date "1969"^^xsd:gYear, "1969"@en ;
+  ns0:hasInstantiation <http://data.archives-nationales.culture.gouv.fr/instantiation/-aspace_6037a6e6903fe5b270e30caf119ce5a8-i1> .
+
+<http://data.archives-nationales.culture.gouv.fr/instantiation/-aspace_6037a6e6903fe5b270e30caf119ce5a8-i1>
+  a ns0:Instantiation ;
+  ns0:instantiates <http://data.archives-nationales.culture.gouv.fr/recordResource/-aspace_6037a6e6903fe5b270e30caf119ce5a8> ;
+  ns0:title "Heravi - Middle East dictionary"@en ;
+  rdfs:label "Heravi - Middle East dictionary"@en ;
+  ns0:date "1969"^^xsd:gYear, "1969"@en ;
+  rdfs:seeAlso <https://www.siv.archives-nationales.culture.gouv.fr/siv/UD/00399/aspace_6037a6e6903fe5b270e30caf119ce5a8> .
+
+<http://data.archives-nationales.culture.gouv.fr/recordResource/-aspace_7aea7f83fef2cd94265e55cb4759133d>
+  a ns0:RecordResource, ns0:RecordSet ;
+  ns0:includedIn <http://data.archives-nationales.culture.gouv.fr/recordResource/-top> ;
+  ns0:hasRecordSetType <https://www.ica.org/standards/RiC/vocabularies/recordSetTypes#File> ;
+  ns0:title "Correspondence and Newspaper Clippings"@en ;
+  rdfs:label "Correspondence and Newspaper Clippings"@en ;
+  ns0:beginningDate "1981"^^xsd:gYear ;
+  ns0:endDate "2000"^^xsd:gYear ;
+  ns0:date "1981-2000"@en ;
+  ns0:hasInstantiation <http://data.archives-nationales.culture.gouv.fr/instantiation/-aspace_7aea7f83fef2cd94265e55cb4759133d-i1> .
+
+<http://data.archives-nationales.culture.gouv.fr/instantiation/-aspace_7aea7f83fef2cd94265e55cb4759133d-i1>
+  a ns0:Instantiation ;
+  ns0:instantiates <http://data.archives-nationales.culture.gouv.fr/recordResource/-aspace_7aea7f83fef2cd94265e55cb4759133d> ;
+  ns0:title "Correspondence and Newspaper Clippings"@en ;
+  rdfs:label "Correspondence and Newspaper Clippings"@en ;
+  ns0:beginningDate "1981"^^xsd:gYear ;
+  ns0:endDate "2000"^^xsd:gYear ;
+  ns0:date "1981-2000"@en ;
+  rdfs:seeAlso <https://www.siv.archives-nationales.culture.gouv.fr/siv/UD/00399/aspace_7aea7f83fef2cd94265e55cb4759133d> .
+
+<http://data.archives-nationales.culture.gouv.fr/recordResource/-aspace_6471f2ed19e4a76be933465fda9f30c4>
+  a ns0:RecordResource, ns0:RecordSet ;
+  ns0:includedIn <http://data.archives-nationales.culture.gouv.fr/recordResource/-top> ;
+  ns0:hasRecordSetType <https://www.ica.org/standards/RiC/vocabularies/recordSetTypes#File> ;
+  ns0:title "Middle East Encyclopedia Sources"@en ;
+  rdfs:label "Middle East Encyclopedia Sources"@en ;
+  ns0:beginningDate "2005"^^xsd:gYear ;
+  ns0:endDate "2006"^^xsd:gYear ;
+  ns0:date "2005-2006"@en ;
+  ns0:hasInstantiation <http://data.archives-nationales.culture.gouv.fr/instantiation/-aspace_6471f2ed19e4a76be933465fda9f30c4-i1> .
+
+<http://data.archives-nationales.culture.gouv.fr/instantiation/-aspace_6471f2ed19e4a76be933465fda9f30c4-i1>
+  a ns0:Instantiation ;
+  ns0:instantiates <http://data.archives-nationales.culture.gouv.fr/recordResource/-aspace_6471f2ed19e4a76be933465fda9f30c4> ;
+  ns0:title "Middle East Encyclopedia Sources"@en ;
+  rdfs:label "Middle East Encyclopedia Sources"@en ;
+  ns0:beginningDate "2005"^^xsd:gYear ;
+  ns0:endDate "2006"^^xsd:gYear ;
+  ns0:date "2005-2006"@en ;
+  rdfs:seeAlso <https://www.siv.archives-nationales.culture.gouv.fr/siv/UD/00399/aspace_6471f2ed19e4a76be933465fda9f30c4> .
+
+<http://data.archives-nationales.culture.gouv.fr/recordResource/-aspace_cd8ef38b6e2a613f00d5897aa1bc2ada>
+  a ns0:RecordResource, ns0:RecordSet ;
+  ns0:includedIn <http://data.archives-nationales.culture.gouv.fr/recordResource/-top> ;
+  ns0:hasRecordSetType <https://www.ica.org/standards/RiC/vocabularies/recordSetTypes#File> ;
+  ns0:title "Contemporary Middle East:: Westview Reader"@en ;
+  rdfs:label "Contemporary Middle East:: Westview Reader"@en ;
+  ns0:date "2005"^^xsd:gYear, "2005"@en ;
+  ns0:hasInstantiation <http://data.archives-nationales.culture.gouv.fr/instantiation/-aspace_cd8ef38b6e2a613f00d5897aa1bc2ada-i1> .
+
+<http://data.archives-nationales.culture.gouv.fr/instantiation/-aspace_cd8ef38b6e2a613f00d5897aa1bc2ada-i1>
+  a ns0:Instantiation ;
+  ns0:instantiates <http://data.archives-nationales.culture.gouv.fr/recordResource/-aspace_cd8ef38b6e2a613f00d5897aa1bc2ada> ;
+  ns0:title "Contemporary Middle East:: Westview Reader"@en ;
+  rdfs:label "Contemporary Middle East:: Westview Reader"@en ;
+  ns0:date "2005"^^xsd:gYear, "2005"@en ;
+  rdfs:seeAlso <https://www.siv.archives-nationales.culture.gouv.fr/siv/UD/00399/aspace_cd8ef38b6e2a613f00d5897aa1bc2ada> .
+
+<http://data.archives-nationales.culture.gouv.fr/recordResource/-aspace_8969b5db41c4d526f1fa4a15c77d7fcc>
+  a ns0:RecordResource, ns0:RecordSet ;
+  ns0:includedIn <http://data.archives-nationales.culture.gouv.fr/recordResource/-top> ;
+  ns0:hasRecordSetType <https://www.ica.org/standards/RiC/vocabularies/recordSetTypes#File> ;
+  ns0:title "The Egyptian Nationalist Party - revised dissertation - not published"@en ;
+  rdfs:label "The Egyptian Nationalist Party - revised dissertation - not published"@en ;
+  ns0:hasInstantiation <http://data.archives-nationales.culture.gouv.fr/instantiation/-aspace_8969b5db41c4d526f1fa4a15c77d7fcc-i1> .
+
+<http://data.archives-nationales.culture.gouv.fr/instantiation/-aspace_8969b5db41c4d526f1fa4a15c77d7fcc-i1>
+  a ns0:Instantiation ;
+  ns0:instantiates <http://data.archives-nationales.culture.gouv.fr/recordResource/-aspace_8969b5db41c4d526f1fa4a15c77d7fcc> ;
+  ns0:title "The Egyptian Nationalist Party - revised dissertation - not published"@en ;
+  rdfs:label "The Egyptian Nationalist Party - revised dissertation - not published"@en ;
+  rdfs:seeAlso <https://www.siv.archives-nationales.culture.gouv.fr/siv/UD/00399/aspace_8969b5db41c4d526f1fa4a15c77d7fcc> .
+
+<http://data.archives-nationales.culture.gouv.fr/recordResource/-aspace_d66c063da5c0bcc5c491d667b57be28e>
+  a ns0:RecordResource, ns0:RecordSet ;
+  ns0:includedIn <http://data.archives-nationales.culture.gouv.fr/recordResource/-top> ;
+  ns0:hasRecordSetType <https://www.ica.org/standards/RiC/vocabularies/recordSetTypes#File> ;
+  ns0:title "The Egyptian Nationalist Party - revised dissertation - not published"@en ;
+  rdfs:label "The Egyptian Nationalist Party - revised dissertation - not published"@en ;
+  ns0:hasInstantiation <http://data.archives-nationales.culture.gouv.fr/instantiation/-aspace_d66c063da5c0bcc5c491d667b57be28e-i1> .
+
+<http://data.archives-nationales.culture.gouv.fr/instantiation/-aspace_d66c063da5c0bcc5c491d667b57be28e-i1>
+  a ns0:Instantiation ;
+  ns0:instantiates <http://data.archives-nationales.culture.gouv.fr/recordResource/-aspace_d66c063da5c0bcc5c491d667b57be28e> ;
+  ns0:title "The Egyptian Nationalist Party - revised dissertation - not published"@en ;
+  rdfs:label "The Egyptian Nationalist Party - revised dissertation - not published"@en ;
+  rdfs:seeAlso <https://www.siv.archives-nationales.culture.gouv.fr/siv/UD/00399/aspace_d66c063da5c0bcc5c491d667b57be28e> .
+
+<http://data.archives-nationales.culture.gouv.fr/recordResource/-aspace_42fab0bc1ded0dcbb68594e4fb535d5b>
+  a ns0:RecordResource, ns0:RecordSet ;
+  ns0:includedIn <http://data.archives-nationales.culture.gouv.fr/recordResource/-top> ;
+  ns0:hasRecordSetType <https://www.ica.org/standards/RiC/vocabularies/recordSetTypes#File> ;
+  ns0:title "The Egyptian Nationalist Party - revised dissertation - not published"@en ;
+  rdfs:label "The Egyptian Nationalist Party - revised dissertation - not published"@en ;
+  ns0:hasInstantiation <http://data.archives-nationales.culture.gouv.fr/instantiation/-aspace_42fab0bc1ded0dcbb68594e4fb535d5b-i1> .
+
+<http://data.archives-nationales.culture.gouv.fr/instantiation/-aspace_42fab0bc1ded0dcbb68594e4fb535d5b-i1>
+  a ns0:Instantiation ;
+  ns0:instantiates <http://data.archives-nationales.culture.gouv.fr/recordResource/-aspace_42fab0bc1ded0dcbb68594e4fb535d5b> ;
+  ns0:title "The Egyptian Nationalist Party - revised dissertation - not published"@en ;
+  rdfs:label "The Egyptian Nationalist Party - revised dissertation - not published"@en ;
+  rdfs:seeAlso <https://www.siv.archives-nationales.culture.gouv.fr/siv/UD/00399/aspace_42fab0bc1ded0dcbb68594e4fb535d5b> .
+
+<http://data.archives-nationales.culture.gouv.fr/recordResource/-aspace_1c13c12aab473a9008a0c647815e2fab>
+  a ns0:RecordResource, ns0:RecordSet ;
+  ns0:includedIn <http://data.archives-nationales.culture.gouv.fr/recordResource/-top> ;
+  ns0:hasRecordSetType <https://www.ica.org/standards/RiC/vocabularies/recordSetTypes#File> ;
+  ns0:title "The Egyptian Nationalist Party - original version of PhD dissertation"@en ;
+  rdfs:label "The Egyptian Nationalist Party - original version of PhD dissertation"@en ;
+  ns0:date "1965"^^xsd:gYear, "1965"@en ;
+  ns0:hasInstantiation <http://data.archives-nationales.culture.gouv.fr/instantiation/-aspace_1c13c12aab473a9008a0c647815e2fab-i1> .
+
+<http://data.archives-nationales.culture.gouv.fr/instantiation/-aspace_1c13c12aab473a9008a0c647815e2fab-i1>
+  a ns0:Instantiation ;
+  ns0:instantiates <http://data.archives-nationales.culture.gouv.fr/recordResource/-aspace_1c13c12aab473a9008a0c647815e2fab> ;
+  ns0:title "The Egyptian Nationalist Party - original version of PhD dissertation"@en ;
+  rdfs:label "The Egyptian Nationalist Party - original version of PhD dissertation"@en ;
+  ns0:date "1965"^^xsd:gYear, "1965"@en ;
+  rdfs:seeAlso <https://www.siv.archives-nationales.culture.gouv.fr/siv/UD/00399/aspace_1c13c12aab473a9008a0c647815e2fab> .
+
+<http://data.archives-nationales.culture.gouv.fr/recordResource/-aspace_23a95ca89b05ead8ac593c2e201a8680>
+  a ns0:RecordResource, ns0:RecordSet ;
+  ns0:includedIn <http://data.archives-nationales.culture.gouv.fr/recordResource/-top> ;
+  ns0:hasRecordSetType <https://www.ica.org/standards/RiC/vocabularies/recordSetTypes#File> ;
+  ns0:title "The Egyptian Nationalist Party - original version of PhD dissertation"@en ;
+  rdfs:label "The Egyptian Nationalist Party - original version of PhD dissertation"@en ;
+  ns0:date "1965"^^xsd:gYear, "1965"@en ;
+  ns0:hasInstantiation <http://data.archives-nationales.culture.gouv.fr/instantiation/-aspace_23a95ca89b05ead8ac593c2e201a8680-i1> .
+
+<http://data.archives-nationales.culture.gouv.fr/instantiation/-aspace_23a95ca89b05ead8ac593c2e201a8680-i1>
+  a ns0:Instantiation ;
+  ns0:instantiates <http://data.archives-nationales.culture.gouv.fr/recordResource/-aspace_23a95ca89b05ead8ac593c2e201a8680> ;
+  ns0:title "The Egyptian Nationalist Party - original version of PhD dissertation"@en ;
+  rdfs:label "The Egyptian Nationalist Party - original version of PhD dissertation"@en ;
+  ns0:date "1965"^^xsd:gYear, "1965"@en ;
+  rdfs:seeAlso <https://www.siv.archives-nationales.culture.gouv.fr/siv/UD/00399/aspace_23a95ca89b05ead8ac593c2e201a8680> .
+
+<http://data.archives-nationales.culture.gouv.fr/recordResource/-aspace_ef79a7d77c974e8010de043be7b7615e>
+  a ns0:RecordResource, ns0:RecordSet ;
+  ns0:includedIn <http://data.archives-nationales.culture.gouv.fr/recordResource/-top> ;
+  ns0:hasRecordSetType <https://www.ica.org/standards/RiC/vocabularies/recordSetTypes#File> ;
+  ns0:title "The Egyptian Nationalist Party - original version of PhD dissertation"@en ;
+  rdfs:label "The Egyptian Nationalist Party - original version of PhD dissertation"@en ;
+  ns0:date "1965"^^xsd:gYear, "1965"@en ;
+  ns0:hasInstantiation <http://data.archives-nationales.culture.gouv.fr/instantiation/-aspace_ef79a7d77c974e8010de043be7b7615e-i1> .
+
+<http://data.archives-nationales.culture.gouv.fr/instantiation/-aspace_ef79a7d77c974e8010de043be7b7615e-i1>
+  a ns0:Instantiation ;
+  ns0:instantiates <http://data.archives-nationales.culture.gouv.fr/recordResource/-aspace_ef79a7d77c974e8010de043be7b7615e> ;
+  ns0:title "The Egyptian Nationalist Party - original version of PhD dissertation"@en ;
+  rdfs:label "The Egyptian Nationalist Party - original version of PhD dissertation"@en ;
+  ns0:date "1965"^^xsd:gYear, "1965"@en ;
+  rdfs:seeAlso <https://www.siv.archives-nationales.culture.gouv.fr/siv/UD/00399/aspace_ef79a7d77c974e8010de043be7b7615e> .
+
+<http://data.archives-nationales.culture.gouv.fr/recordResource/-aspace_76414b47893fc34fbfa6f3e572c68eb6>
+  a ns0:RecordResource, ns0:RecordSet ;
+  ns0:includedIn <http://data.archives-nationales.culture.gouv.fr/recordResource/-top> ;
+  ns0:hasRecordSetType <https://www.ica.org/standards/RiC/vocabularies/recordSetTypes#File> ;
+  ns0:title "Concise History of the Middle East - 2nd ed. - typescript manuscript"@en ;
+  rdfs:label "Concise History of the Middle East - 2nd ed. - typescript manuscript"@en ;
+  ns0:date "1982"^^xsd:gYear, "1982"@en ;
+  ns0:hasInstantiation <http://data.archives-nationales.culture.gouv.fr/instantiation/-aspace_76414b47893fc34fbfa6f3e572c68eb6-i1> .
+
+<http://data.archives-nationales.culture.gouv.fr/instantiation/-aspace_76414b47893fc34fbfa6f3e572c68eb6-i1>
+  a ns0:Instantiation ;
+  ns0:instantiates <http://data.archives-nationales.culture.gouv.fr/recordResource/-aspace_76414b47893fc34fbfa6f3e572c68eb6> ;
+  ns0:title "Concise History of the Middle East - 2nd ed. - typescript manuscript"@en ;
+  rdfs:label "Concise History of the Middle East - 2nd ed. - typescript manuscript"@en ;
+  ns0:date "1982"^^xsd:gYear, "1982"@en ;
+  rdfs:seeAlso <https://www.siv.archives-nationales.culture.gouv.fr/siv/UD/00399/aspace_76414b47893fc34fbfa6f3e572c68eb6> .
+
+<http://data.archives-nationales.culture.gouv.fr/recordResource/-aspace_f416dcfd46bf9aceb7222b47a279f92e>
+  a ns0:RecordResource, ns0:RecordSet ;
+  ns0:includedIn <http://data.archives-nationales.culture.gouv.fr/recordResource/-top> ;
+  ns0:hasRecordSetType <https://www.ica.org/standards/RiC/vocabularies/recordSetTypes#File> ;
+  ns0:title "Concise History of the Middle East - 2nd ed. - typescript manuscript"@en ;
+  rdfs:label "Concise History of the Middle East - 2nd ed. - typescript manuscript"@en ;
+  ns0:date "1982"^^xsd:gYear, "1982"@en ;
+  ns0:hasInstantiation <http://data.archives-nationales.culture.gouv.fr/instantiation/-aspace_f416dcfd46bf9aceb7222b47a279f92e-i1> .
+
+<http://data.archives-nationales.culture.gouv.fr/instantiation/-aspace_f416dcfd46bf9aceb7222b47a279f92e-i1>
+  a ns0:Instantiation ;
+  ns0:instantiates <http://data.archives-nationales.culture.gouv.fr/recordResource/-aspace_f416dcfd46bf9aceb7222b47a279f92e> ;
+  ns0:title "Concise History of the Middle East - 2nd ed. - typescript manuscript"@en ;
+  rdfs:label "Concise History of the Middle East - 2nd ed. - typescript manuscript"@en ;
+  ns0:date "1982"^^xsd:gYear, "1982"@en ;
+  rdfs:seeAlso <https://www.siv.archives-nationales.culture.gouv.fr/siv/UD/00399/aspace_f416dcfd46bf9aceb7222b47a279f92e> .
+
+<http://data.archives-nationales.culture.gouv.fr/recordResource/-aspace_cd2ac1461eca028b59376a821381a3c3>
+  a ns0:RecordResource, ns0:RecordSet ;
+  ns0:includedIn <http://data.archives-nationales.culture.gouv.fr/recordResource/-top> ;
+  ns0:hasRecordSetType <https://www.ica.org/standards/RiC/vocabularies/recordSetTypes#File> ;
+  ns0:title "Concise History of the Middle East - 2nd ed. - typescript manuscript"@en ;
+  rdfs:label "Concise History of the Middle East - 2nd ed. - typescript manuscript"@en ;
+  ns0:date "1982"^^xsd:gYear, "1982"@en ;
+  ns0:hasInstantiation <http://data.archives-nationales.culture.gouv.fr/instantiation/-aspace_cd2ac1461eca028b59376a821381a3c3-i1> .
+
+<http://data.archives-nationales.culture.gouv.fr/instantiation/-aspace_cd2ac1461eca028b59376a821381a3c3-i1>
+  a ns0:Instantiation ;
+  ns0:instantiates <http://data.archives-nationales.culture.gouv.fr/recordResource/-aspace_cd2ac1461eca028b59376a821381a3c3> ;
+  ns0:title "Concise History of the Middle East - 2nd ed. - typescript manuscript"@en ;
+  rdfs:label "Concise History of the Middle East - 2nd ed. - typescript manuscript"@en ;
+  ns0:date "1982"^^xsd:gYear, "1982"@en ;
+  rdfs:seeAlso <https://www.siv.archives-nationales.culture.gouv.fr/siv/UD/00399/aspace_cd2ac1461eca028b59376a821381a3c3> .
+
+<http://data.archives-nationales.culture.gouv.fr/recordResource/-aspace_6ff3a77ddcb66ab17ee9dee5fa85d16f>
+  a ns0:RecordResource, ns0:RecordSet ;
+  ns0:includedIn <http://data.archives-nationales.culture.gouv.fr/recordResource/-top> ;
+  ns0:hasRecordSetType <https://www.ica.org/standards/RiC/vocabularies/recordSetTypes#File> ;
+  ns0:title "Concise History of the Middle East - 2nd ed. - typescript manuscript"@en ;
+  rdfs:label "Concise History of the Middle East - 2nd ed. - typescript manuscript"@en ;
+  ns0:date "1982"^^xsd:gYear, "1982"@en ;
+  ns0:hasInstantiation <http://data.archives-nationales.culture.gouv.fr/instantiation/-aspace_6ff3a77ddcb66ab17ee9dee5fa85d16f-i1> .
+
+<http://data.archives-nationales.culture.gouv.fr/instantiation/-aspace_6ff3a77ddcb66ab17ee9dee5fa85d16f-i1>
+  a ns0:Instantiation ;
+  ns0:instantiates <http://data.archives-nationales.culture.gouv.fr/recordResource/-aspace_6ff3a77ddcb66ab17ee9dee5fa85d16f> ;
+  ns0:title "Concise History of the Middle East - 2nd ed. - typescript manuscript"@en ;
+  rdfs:label "Concise History of the Middle East - 2nd ed. - typescript manuscript"@en ;
+  ns0:date "1982"^^xsd:gYear, "1982"@en ;
+  rdfs:seeAlso <https://www.siv.archives-nationales.culture.gouv.fr/siv/UD/00399/aspace_6ff3a77ddcb66ab17ee9dee5fa85d16f> .
+
+<http://data.archives-nationales.culture.gouv.fr/recordResource/-aspace_c9bee181cc2a7d1af9c5938c2103b1be>
+  a ns0:RecordResource, ns0:RecordSet ;
+  ns0:includedIn <http://data.archives-nationales.culture.gouv.fr/recordResource/-top> ;
+  ns0:hasRecordSetType <https://www.ica.org/standards/RiC/vocabularies/recordSetTypes#File> ;
+  ns0:title "Concise History of the Middle East - 2nd ed. - typescript manuscript"@en ;
+  rdfs:label "Concise History of the Middle East - 2nd ed. - typescript manuscript"@en ;
+  ns0:date "1982"^^xsd:gYear, "1982"@en ;
+  ns0:hasInstantiation <http://data.archives-nationales.culture.gouv.fr/instantiation/-aspace_c9bee181cc2a7d1af9c5938c2103b1be-i1> .
+
+<http://data.archives-nationales.culture.gouv.fr/instantiation/-aspace_c9bee181cc2a7d1af9c5938c2103b1be-i1>
+  a ns0:Instantiation ;
+  ns0:instantiates <http://data.archives-nationales.culture.gouv.fr/recordResource/-aspace_c9bee181cc2a7d1af9c5938c2103b1be> ;
+  ns0:title "Concise History of the Middle East - 2nd ed. - typescript manuscript"@en ;
+  rdfs:label "Concise History of the Middle East - 2nd ed. - typescript manuscript"@en ;
+  ns0:date "1982"^^xsd:gYear, "1982"@en ;
+  rdfs:seeAlso <https://www.siv.archives-nationales.culture.gouv.fr/siv/UD/00399/aspace_c9bee181cc2a7d1af9c5938c2103b1be> .
+
+<http://data.archives-nationales.culture.gouv.fr/recordResource/-aspace_ede65c042f825a1a794d58261b2e4438>
+  a ns0:RecordResource, ns0:RecordSet ;
+  ns0:includedIn <http://data.archives-nationales.culture.gouv.fr/recordResource/-top> ;
+  ns0:hasRecordSetType <https://www.ica.org/standards/RiC/vocabularies/recordSetTypes#File> ;
+  ns0:title "Historical Dictionary of Egypt (rev. ed.) - typed manuscript"@en ;
+  rdfs:label "Historical Dictionary of Egypt (rev. ed.) - typed manuscript"@en ;
+  ns0:date "1994"^^xsd:gYear, "1994"@en ;
+  ns0:hasInstantiation <http://data.archives-nationales.culture.gouv.fr/instantiation/-aspace_ede65c042f825a1a794d58261b2e4438-i1> .
+
+<http://data.archives-nationales.culture.gouv.fr/instantiation/-aspace_ede65c042f825a1a794d58261b2e4438-i1>
+  a ns0:Instantiation ;
+  ns0:instantiates <http://data.archives-nationales.culture.gouv.fr/recordResource/-aspace_ede65c042f825a1a794d58261b2e4438> ;
+  ns0:title "Historical Dictionary of Egypt (rev. ed.) - typed manuscript"@en ;
+  rdfs:label "Historical Dictionary of Egypt (rev. ed.) - typed manuscript"@en ;
+  ns0:date "1994"^^xsd:gYear, "1994"@en ;
+  rdfs:seeAlso <https://www.siv.archives-nationales.culture.gouv.fr/siv/UD/00399/aspace_ede65c042f825a1a794d58261b2e4438> .
+
+<http://data.archives-nationales.culture.gouv.fr/recordResource/-aspace_68d0bf31791ecf55f06e7547b45212b1>
+  a ns0:RecordResource, ns0:RecordSet ;
+  ns0:includedIn <http://data.archives-nationales.culture.gouv.fr/recordResource/-top> ;
+  ns0:hasRecordSetType <https://www.ica.org/standards/RiC/vocabularies/recordSetTypes#File> ;
+  ns0:title "Historical Dictionary of Egypt (rev. ed.) - typed manuscript"@en ;
+  rdfs:label "Historical Dictionary of Egypt (rev. ed.) - typed manuscript"@en ;
+  ns0:date "1994"^^xsd:gYear, "1994"@en ;
+  ns0:hasInstantiation <http://data.archives-nationales.culture.gouv.fr/instantiation/-aspace_68d0bf31791ecf55f06e7547b45212b1-i1> .
+
+<http://data.archives-nationales.culture.gouv.fr/instantiation/-aspace_68d0bf31791ecf55f06e7547b45212b1-i1>
+  a ns0:Instantiation ;
+  ns0:instantiates <http://data.archives-nationales.culture.gouv.fr/recordResource/-aspace_68d0bf31791ecf55f06e7547b45212b1> ;
+  ns0:title "Historical Dictionary of Egypt (rev. ed.) - typed manuscript"@en ;
+  rdfs:label "Historical Dictionary of Egypt (rev. ed.) - typed manuscript"@en ;
+  ns0:date "1994"^^xsd:gYear, "1994"@en ;
+  rdfs:seeAlso <https://www.siv.archives-nationales.culture.gouv.fr/siv/UD/00399/aspace_68d0bf31791ecf55f06e7547b45212b1> .
+
+<http://data.archives-nationales.culture.gouv.fr/recordResource/-aspace_a6276bd7f8891b7b5e6e68be45458eb4>
+  a ns0:RecordResource, ns0:RecordSet ;
+  ns0:includedIn <http://data.archives-nationales.culture.gouv.fr/recordResource/-top> ;
+  ns0:hasRecordSetType <https://www.ica.org/standards/RiC/vocabularies/recordSetTypes#File> ;
+  ns0:title "Historical Dictionary of Egypt (rev. ed.) - typed manuscript"@en ;
+  rdfs:label "Historical Dictionary of Egypt (rev. ed.) - typed manuscript"@en ;
+  ns0:date "1994"^^xsd:gYear, "1994"@en ;
+  ns0:hasInstantiation <http://data.archives-nationales.culture.gouv.fr/instantiation/-aspace_a6276bd7f8891b7b5e6e68be45458eb4-i1> .
+
+<http://data.archives-nationales.culture.gouv.fr/instantiation/-aspace_a6276bd7f8891b7b5e6e68be45458eb4-i1>
+  a ns0:Instantiation ;
+  ns0:instantiates <http://data.archives-nationales.culture.gouv.fr/recordResource/-aspace_a6276bd7f8891b7b5e6e68be45458eb4> ;
+  ns0:title "Historical Dictionary of Egypt (rev. ed.) - typed manuscript"@en ;
+  rdfs:label "Historical Dictionary of Egypt (rev. ed.) - typed manuscript"@en ;
+  ns0:date "1994"^^xsd:gYear, "1994"@en ;
+  rdfs:seeAlso <https://www.siv.archives-nationales.culture.gouv.fr/siv/UD/00399/aspace_a6276bd7f8891b7b5e6e68be45458eb4> .
+
+<http://data.archives-nationales.culture.gouv.fr/recordResource/-aspace_1040f693ca1b1e29472e19029a7d6cc9>
+  a ns0:RecordResource, ns0:RecordSet ;
+  ns0:includedIn <http://data.archives-nationales.culture.gouv.fr/recordResource/-top> ;
+  ns0:hasRecordSetType <https://www.ica.org/standards/RiC/vocabularies/recordSetTypes#File> ;
+  ns0:title "Historical Dictionary of Egypt (rev. ed.) - typed manuscript"@en ;
+  rdfs:label "Historical Dictionary of Egypt (rev. ed.) - typed manuscript"@en ;
+  ns0:date "1994"^^xsd:gYear, "1994"@en ;
+  ns0:hasInstantiation <http://data.archives-nationales.culture.gouv.fr/instantiation/-aspace_1040f693ca1b1e29472e19029a7d6cc9-i1> .
+
+<http://data.archives-nationales.culture.gouv.fr/instantiation/-aspace_1040f693ca1b1e29472e19029a7d6cc9-i1>
+  a ns0:Instantiation ;
+  ns0:instantiates <http://data.archives-nationales.culture.gouv.fr/recordResource/-aspace_1040f693ca1b1e29472e19029a7d6cc9> ;
+  ns0:title "Historical Dictionary of Egypt (rev. ed.) - typed manuscript"@en ;
+  rdfs:label "Historical Dictionary of Egypt (rev. ed.) - typed manuscript"@en ;
+  ns0:date "1994"^^xsd:gYear, "1994"@en ;
+  rdfs:seeAlso <https://www.siv.archives-nationales.culture.gouv.fr/siv/UD/00399/aspace_1040f693ca1b1e29472e19029a7d6cc9> .
+
+<http://data.archives-nationales.culture.gouv.fr/recordResource/-aspace_a12e66fef32ec01381c16918ffb6f4ed>
+  a ns0:RecordResource, ns0:RecordSet ;
+  ns0:includedIn <http://data.archives-nationales.culture.gouv.fr/recordResource/-top> ;
+  ns0:hasRecordSetType <https://www.ica.org/standards/RiC/vocabularies/recordSetTypes#File> ;
+  ns0:title "Re-Envisioning Egypt"@en ;
+  rdfs:label "Re-Envisioning Egypt"@en ;
+  ns0:beginningDate "2003"^^xsd:gYear ;
+  ns0:endDate "2005"^^xsd:gYear ;
+  ns0:date "2003-2005"@en ;
+  ns0:hasInstantiation <http://data.archives-nationales.culture.gouv.fr/instantiation/-aspace_a12e66fef32ec01381c16918ffb6f4ed-i1> .
+
+<http://data.archives-nationales.culture.gouv.fr/instantiation/-aspace_a12e66fef32ec01381c16918ffb6f4ed-i1>
+  a ns0:Instantiation ;
+  ns0:instantiates <http://data.archives-nationales.culture.gouv.fr/recordResource/-aspace_a12e66fef32ec01381c16918ffb6f4ed> ;
+  ns0:title "Re-Envisioning Egypt"@en ;
+  rdfs:label "Re-Envisioning Egypt"@en ;
+  ns0:beginningDate "2003"^^xsd:gYear ;
+  ns0:endDate "2005"^^xsd:gYear ;
+  ns0:date "2003-2005"@en ;
+  rdfs:seeAlso <https://www.siv.archives-nationales.culture.gouv.fr/siv/UD/00399/aspace_a12e66fef32ec01381c16918ffb6f4ed> .
+
+<http://data.archives-nationales.culture.gouv.fr/recordResource/-aspace_e8808955131098e3b24e19cab38d86e8>
+  a ns0:RecordResource, ns0:RecordSet ;
+  ns0:includedIn <http://data.archives-nationales.culture.gouv.fr/recordResource/-top> ;
+  ns0:hasRecordSetType <https://www.ica.org/standards/RiC/vocabularies/recordSetTypes#File> ;
+  ns0:title "Encylopedia of African History - articles"@en ;
+  rdfs:label "Encylopedia of African History - articles"@en ;
+  ns0:date "1999"^^xsd:gYear, "1999"@en ;
+  ns0:hasInstantiation <http://data.archives-nationales.culture.gouv.fr/instantiation/-aspace_e8808955131098e3b24e19cab38d86e8-i1> .
+
+<http://data.archives-nationales.culture.gouv.fr/instantiation/-aspace_e8808955131098e3b24e19cab38d86e8-i1>
+  a ns0:Instantiation ;
+  ns0:instantiates <http://data.archives-nationales.culture.gouv.fr/recordResource/-aspace_e8808955131098e3b24e19cab38d86e8> ;
+  ns0:title "Encylopedia of African History - articles"@en ;
+  rdfs:label "Encylopedia of African History - articles"@en ;
+  ns0:date "1999"^^xsd:gYear, "1999"@en ;
+  rdfs:seeAlso <https://www.siv.archives-nationales.culture.gouv.fr/siv/UD/00399/aspace_e8808955131098e3b24e19cab38d86e8> .
+
+<http://data.archives-nationales.culture.gouv.fr/recordResource/-aspace_26f0e4527a4f6134cf6a6762d588b1ae>
+  a ns0:RecordResource, ns0:RecordSet ;
+  ns0:includedIn <http://data.archives-nationales.culture.gouv.fr/recordResource/-top> ;
+  ns0:hasRecordSetType <https://www.ica.org/standards/RiC/vocabularies/recordSetTypes#File> ;
+  ns0:title "Berkshire Women's History Conference"@en ;
+  rdfs:label "Berkshire Women's History Conference"@en ;
+  ns0:date "1978"^^xsd:gYear, "1978"@en ;
+  ns0:hasInstantiation <http://data.archives-nationales.culture.gouv.fr/instantiation/-aspace_26f0e4527a4f6134cf6a6762d588b1ae-i1> .
+
+<http://data.archives-nationales.culture.gouv.fr/instantiation/-aspace_26f0e4527a4f6134cf6a6762d588b1ae-i1>
+  a ns0:Instantiation ;
+  ns0:instantiates <http://data.archives-nationales.culture.gouv.fr/recordResource/-aspace_26f0e4527a4f6134cf6a6762d588b1ae> ;
+  ns0:title "Berkshire Women's History Conference"@en ;
+  rdfs:label "Berkshire Women's History Conference"@en ;
+  ns0:date "1978"^^xsd:gYear, "1978"@en ;
+  rdfs:seeAlso <https://www.siv.archives-nationales.culture.gouv.fr/siv/UD/00399/aspace_26f0e4527a4f6134cf6a6762d588b1ae> .
+
+<http://data.archives-nationales.culture.gouv.fr/recordResource/-aspace_abddbdfa7b1047c04b45c0dc7b55e076>
+  a ns0:RecordResource, ns0:RecordSet ;
+  ns0:includedIn <http://data.archives-nationales.culture.gouv.fr/recordResource/-top> ;
+  ns0:hasRecordSetType <https://www.ica.org/standards/RiC/vocabularies/recordSetTypes#File> ;
+  ns0:title "Encylopedia Britannica - Egypt"@en ;
+  rdfs:label "Encylopedia Britannica - Egypt"@en ;
+  ns0:date "2007"^^xsd:gYear, "2007"@en ;
+  ns0:hasInstantiation <http://data.archives-nationales.culture.gouv.fr/instantiation/-aspace_abddbdfa7b1047c04b45c0dc7b55e076-i1> .
+
+<http://data.archives-nationales.culture.gouv.fr/instantiation/-aspace_abddbdfa7b1047c04b45c0dc7b55e076-i1>
+  a ns0:Instantiation ;
+  ns0:instantiates <http://data.archives-nationales.culture.gouv.fr/recordResource/-aspace_abddbdfa7b1047c04b45c0dc7b55e076> ;
+  ns0:title "Encylopedia Britannica - Egypt"@en ;
+  rdfs:label "Encylopedia Britannica - Egypt"@en ;
+  ns0:date "2007"^^xsd:gYear, "2007"@en ;
+  rdfs:seeAlso <https://www.siv.archives-nationales.culture.gouv.fr/siv/UD/00399/aspace_abddbdfa7b1047c04b45c0dc7b55e076> .
+
+<http://data.archives-nationales.culture.gouv.fr/recordResource/-aspace_04e7b4730ba5311f5f77b7a8a0f06877>
+  a ns0:RecordResource, ns0:RecordSet ;
+  ns0:includedIn <http://data.archives-nationales.culture.gouv.fr/recordResource/-top> ;
+  ns0:hasRecordSetType <https://www.ica.org/standards/RiC/vocabularies/recordSetTypes#File> ;
+  ns0:title "Encylopedia Britannica - Egypt article revision"@en ;
+  rdfs:label "Encylopedia Britannica - Egypt article revision"@en ;
+  ns0:date "2000"^^xsd:gYear, "2000"@en ;
+  ns0:hasInstantiation <http://data.archives-nationales.culture.gouv.fr/instantiation/-aspace_04e7b4730ba5311f5f77b7a8a0f06877-i1> .
+
+<http://data.archives-nationales.culture.gouv.fr/instantiation/-aspace_04e7b4730ba5311f5f77b7a8a0f06877-i1>
+  a ns0:Instantiation ;
+  ns0:instantiates <http://data.archives-nationales.culture.gouv.fr/recordResource/-aspace_04e7b4730ba5311f5f77b7a8a0f06877> ;
+  ns0:title "Encylopedia Britannica - Egypt article revision"@en ;
+  rdfs:label "Encylopedia Britannica - Egypt article revision"@en ;
+  ns0:date "2000"^^xsd:gYear, "2000"@en ;
+  rdfs:seeAlso <https://www.siv.archives-nationales.culture.gouv.fr/siv/UD/00399/aspace_04e7b4730ba5311f5f77b7a8a0f06877> .
+
+<http://data.archives-nationales.culture.gouv.fr/recordResource/-aspace_5a1fddc5eff24f88b3ec6af9abf2aa43>
+  a ns0:RecordResource, ns0:RecordSet ;
+  ns0:includedIn <http://data.archives-nationales.culture.gouv.fr/recordResource/-top> ;
+  ns0:hasRecordSetType <https://www.ica.org/standards/RiC/vocabularies/recordSetTypes#File> ;
+  ns0:title "Concise History of the Middle East - 8th ed. - correspondence with Lawrence Davidson"@en ;
+  rdfs:label "Concise History of the Middle East - 8th ed. - correspondence with Lawrence Davidson"@en ;
+  ns0:beginningDate "2004"^^xsd:gYear ;
+  ns0:endDate "2005"^^xsd:gYear ;
+  ns0:date "2004-2005"@en ;
+  ns0:hasInstantiation <http://data.archives-nationales.culture.gouv.fr/instantiation/-aspace_5a1fddc5eff24f88b3ec6af9abf2aa43-i1> .
+
+<http://data.archives-nationales.culture.gouv.fr/instantiation/-aspace_5a1fddc5eff24f88b3ec6af9abf2aa43-i1>
+  a ns0:Instantiation ;
+  ns0:instantiates <http://data.archives-nationales.culture.gouv.fr/recordResource/-aspace_5a1fddc5eff24f88b3ec6af9abf2aa43> ;
+  ns0:title "Concise History of the Middle East - 8th ed. - correspondence with Lawrence Davidson"@en ;
+  rdfs:label "Concise History of the Middle East - 8th ed. - correspondence with Lawrence Davidson"@en ;
+  ns0:beginningDate "2004"^^xsd:gYear ;
+  ns0:endDate "2005"^^xsd:gYear ;
+  ns0:date "2004-2005"@en ;
+  rdfs:seeAlso <https://www.siv.archives-nationales.culture.gouv.fr/siv/UD/00399/aspace_5a1fddc5eff24f88b3ec6af9abf2aa43> .
+
+<http://data.archives-nationales.culture.gouv.fr/recordResource/-aspace_d5904746220660b162efdb99340c137a>
+  a ns0:RecordResource, ns0:RecordSet ;
+  ns0:includedIn <http://data.archives-nationales.culture.gouv.fr/recordResource/-top> ;
+  ns0:hasRecordSetType <https://www.ica.org/standards/RiC/vocabularies/recordSetTypes#File> ;
+  ns0:title "Concise History of the Middle East - 8th ed. - proofs for photographs"@en ;
+  rdfs:label "Concise History of the Middle East - 8th ed. - proofs for photographs"@en ;
+  ns0:beginningDate "2004"^^xsd:gYear ;
+  ns0:endDate "2005"^^xsd:gYear ;
+  ns0:date "2004-2005"@en ;
+  ns0:hasInstantiation <http://data.archives-nationales.culture.gouv.fr/instantiation/-aspace_d5904746220660b162efdb99340c137a-i1> .
+
+<http://data.archives-nationales.culture.gouv.fr/instantiation/-aspace_d5904746220660b162efdb99340c137a-i1>
+  a ns0:Instantiation ;
+  ns0:instantiates <http://data.archives-nationales.culture.gouv.fr/recordResource/-aspace_d5904746220660b162efdb99340c137a> ;
+  ns0:title "Concise History of the Middle East - 8th ed. - proofs for photographs"@en ;
+  rdfs:label "Concise History of the Middle East - 8th ed. - proofs for photographs"@en ;
+  ns0:beginningDate "2004"^^xsd:gYear ;
+  ns0:endDate "2005"^^xsd:gYear ;
+  ns0:date "2004-2005"@en ;
+  rdfs:seeAlso <https://www.siv.archives-nationales.culture.gouv.fr/siv/UD/00399/aspace_d5904746220660b162efdb99340c137a> .
+
+<http://data.archives-nationales.culture.gouv.fr/recordResource/-aspace_840724127109b710a9dffef3ff7ae048>
+  a ns0:RecordResource, ns0:RecordSet ;
+  ns0:includedIn <http://data.archives-nationales.culture.gouv.fr/recordResource/-top> ;
+  ns0:hasRecordSetType <https://www.ica.org/standards/RiC/vocabularies/recordSetTypes#File> ;
+  ns0:title "Concise History of the Middle East - 8th ed. - publisher correspondence"@en ;
+  rdfs:label "Concise History of the Middle East - 8th ed. - publisher correspondence"@en ;
+  ns0:beginningDate "2004"^^xsd:gYear ;
+  ns0:endDate "2005"^^xsd:gYear ;
+  ns0:date "2004-2005"@en ;
+  ns0:hasInstantiation <http://data.archives-nationales.culture.gouv.fr/instantiation/-aspace_840724127109b710a9dffef3ff7ae048-i1> .
+
+<http://data.archives-nationales.culture.gouv.fr/instantiation/-aspace_840724127109b710a9dffef3ff7ae048-i1>
+  a ns0:Instantiation ;
+  ns0:instantiates <http://data.archives-nationales.culture.gouv.fr/recordResource/-aspace_840724127109b710a9dffef3ff7ae048> ;
+  ns0:title "Concise History of the Middle East - 8th ed. - publisher correspondence"@en ;
+  rdfs:label "Concise History of the Middle East - 8th ed. - publisher correspondence"@en ;
+  ns0:beginningDate "2004"^^xsd:gYear ;
+  ns0:endDate "2005"^^xsd:gYear ;
+  ns0:date "2004-2005"@en ;
+  rdfs:seeAlso <https://www.siv.archives-nationales.culture.gouv.fr/siv/UD/00399/aspace_840724127109b710a9dffef3ff7ae048> .
+
+<http://data.archives-nationales.culture.gouv.fr/recordResource/-aspace_cd9351ba0394f9da64564be660ecb5e3>
+  a ns0:RecordResource, ns0:RecordSet ;
+  ns0:includedIn <http://data.archives-nationales.culture.gouv.fr/recordResource/-top> ;
+  ns0:hasRecordSetType <https://www.ica.org/standards/RiC/vocabularies/recordSetTypes#File> ;
+  ns0:title "Concise History of the Middle East - 8th ed. - revisions"@en ;
+  rdfs:label "Concise History of the Middle East - 8th ed. - revisions"@en ;
+  ns0:beginningDate "2004"^^xsd:gYear ;
+  ns0:endDate "2005"^^xsd:gYear ;
+  ns0:date "2004-2005"@en ;
+  ns0:hasInstantiation <http://data.archives-nationales.culture.gouv.fr/instantiation/-aspace_cd9351ba0394f9da64564be660ecb5e3-i1> .
+
+<http://data.archives-nationales.culture.gouv.fr/instantiation/-aspace_cd9351ba0394f9da64564be660ecb5e3-i1>
+  a ns0:Instantiation ;
+  ns0:instantiates <http://data.archives-nationales.culture.gouv.fr/recordResource/-aspace_cd9351ba0394f9da64564be660ecb5e3> ;
+  ns0:title "Concise History of the Middle East - 8th ed. - revisions"@en ;
+  rdfs:label "Concise History of the Middle East - 8th ed. - revisions"@en ;
+  ns0:beginningDate "2004"^^xsd:gYear ;
+  ns0:endDate "2005"^^xsd:gYear ;
+  ns0:date "2004-2005"@en ;
+  rdfs:seeAlso <https://www.siv.archives-nationales.culture.gouv.fr/siv/UD/00399/aspace_cd9351ba0394f9da64564be660ecb5e3> .
+
+<http://data.archives-nationales.culture.gouv.fr/recordResource/-aspace_9fef2a6db6a252bc28002419e7d7021d>
+  a ns0:RecordResource, ns0:RecordSet ;
+  ns0:includedIn <http://data.archives-nationales.culture.gouv.fr/recordResource/-top> ;
+  ns0:hasRecordSetType <https://www.ica.org/standards/RiC/vocabularies/recordSetTypes#File> ;
+  ns0:title "Concise History of the Middle East - 7th ed."@en ;
+  rdfs:label "Concise History of the Middle East - 7th ed."@en ;
+  ns0:beginningDate "1997"^^xsd:gYear ;
+  ns0:endDate "2001"^^xsd:gYear ;
+  ns0:date "1997-2001"@en ;
+  ns0:hasInstantiation <http://data.archives-nationales.culture.gouv.fr/instantiation/-aspace_9fef2a6db6a252bc28002419e7d7021d-i1> .
+
+<http://data.archives-nationales.culture.gouv.fr/instantiation/-aspace_9fef2a6db6a252bc28002419e7d7021d-i1>
+  a ns0:Instantiation ;
+  ns0:instantiates <http://data.archives-nationales.culture.gouv.fr/recordResource/-aspace_9fef2a6db6a252bc28002419e7d7021d> ;
+  ns0:title "Concise History of the Middle East - 7th ed."@en ;
+  rdfs:label "Concise History of the Middle East - 7th ed."@en ;
+  ns0:beginningDate "1997"^^xsd:gYear ;
+  ns0:endDate "2001"^^xsd:gYear ;
+  ns0:date "1997-2001"@en ;
+  rdfs:seeAlso <https://www.siv.archives-nationales.culture.gouv.fr/siv/UD/00399/aspace_9fef2a6db6a252bc28002419e7d7021d> .
+
+<http://data.archives-nationales.culture.gouv.fr/recordResource/-aspace_9c4a9f4bfa5f90abfb454b101f2e7c91>
+  a ns0:RecordResource, ns0:RecordSet ;
+  ns0:includedIn <http://data.archives-nationales.culture.gouv.fr/recordResource/-top> ;
+  ns0:hasRecordSetType <https://www.ica.org/standards/RiC/vocabularies/recordSetTypes#File> ;
+  ns0:title "Understanding the Contemporary Middle East - 2nd ed."@en ;
+  rdfs:label "Understanding the Contemporary Middle East - 2nd ed."@en ;
+  ns0:date "2004"^^xsd:gYear, "2004"@en ;
+  ns0:hasInstantiation <http://data.archives-nationales.culture.gouv.fr/instantiation/-aspace_9c4a9f4bfa5f90abfb454b101f2e7c91-i1> .
+
+<http://data.archives-nationales.culture.gouv.fr/instantiation/-aspace_9c4a9f4bfa5f90abfb454b101f2e7c91-i1>
+  a ns0:Instantiation ;
+  ns0:instantiates <http://data.archives-nationales.culture.gouv.fr/recordResource/-aspace_9c4a9f4bfa5f90abfb454b101f2e7c91> ;
+  ns0:title "Understanding the Contemporary Middle East - 2nd ed."@en ;
+  rdfs:label "Understanding the Contemporary Middle East - 2nd ed."@en ;
+  ns0:date "2004"^^xsd:gYear, "2004"@en ;
+  rdfs:seeAlso <https://www.siv.archives-nationales.culture.gouv.fr/siv/UD/00399/aspace_9c4a9f4bfa5f90abfb454b101f2e7c91> .

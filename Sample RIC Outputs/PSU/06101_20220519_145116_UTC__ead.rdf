@@ -1,0 +1,117 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+         xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+         xmlns:rico="https://www.ica.org/standards/RiC/ontology#"
+         xmlns:dc="http://purl.org/dc/elements/1.1/"
+         xmlns:isni="http://isni.org/ontology#"
+         xmlns:owl="http://www.w3.org/2002/07/owl#"
+         xmlns:html="http://www.w3.org/1999/xhtml"
+         xml:base="http://data.archives-nationales.culture.gouv.fr/">
+   <rico:Record rdf:about="record/">
+      <rico:hasDocumentaryFormType rdf:resource="https://www.ica.org/standards/RiC/vocabularies/documentaryFormTypes#FindingAid"/>
+      <rico:regulatedBy rdf:resource="rule/rl005"/>
+      <rico:regulatedBy rdf:resource="rule/rl004"/>
+      <rico:regulatedBy rdf:resource="rule/rl006"/>
+      <rico:regulatedBy rdf:resource="rule/rl007"/>
+      <rico:regulatedBy rdf:resource="rule/rl009"/>
+      <rico:title xml:lang="en">Elisha J. Bracken Civil War diary, 1862-1863 06101</rico:title>
+      <rdfs:label xml:lang="en">Elisha J. Bracken Civil War diary, 1862-1863 06101</rdfs:label>
+      <rico:createdBy rdf:resource="agent/005061"/>
+      <rico:publishedBy rdf:resource="agent/005061"/>
+      <rico:history rdf:parseType="Literal">
+         <html:div>
+            <html:h4>auteur(s)</html:h4>
+            <html:p xml:lang="en">Matt Francis</html:p>
+         </html:div>
+      </rico:history>
+      <rico:describes rdf:resource="recordResource/-top"/>
+      <rico:hasInstantiation>
+         <rico:Instantiation rdf:about="instantiation/-i1">
+            <rico:instantiates rdf:resource="record/"/>
+            <rico:title xml:lang="en">Elisha J. Bracken Civil War diary, 1862-1863 06101</rico:title>
+            <rdfs:label xml:lang="en">Elisha J. Bracken Civil War diary, 1862-1863 06101</rdfs:label>
+            <rico:history xml:lang="en">This finding aid was produced using ArchivesSpace on 2022-05-19 10:51:19 -0400.</rico:history>
+            <rico:regulatedBy rdf:resource="rule/rl010"/>
+            <dc:format xml:lang="en">text/xml</dc:format>
+            <rico:identifier>06101</rico:identifier>
+            <rico:heldBy rdf:resource="agent/005061"/>
+            <rdfs:seeAlso rdf:resource="https://www.siv.archives-nationales.culture.gouv.fr/siv/IR/06101"/>
+         </rico:Instantiation>
+      </rico:hasInstantiation>
+   </rico:Record>
+   <rico:RecordResource rdf:about="recordResource/-top">
+      <rico:describedBy rdf:resource="record/"/>
+      <rdf:type rdf:resource="https://www.ica.org/standards/RiC/ontology#RecordSet"/>
+      <rico:hasRecordSetType rdf:resource="https://www.ica.org/standards/RiC/vocabularies/recordSetTypes#Collection"/>
+      <rico:heldBy>
+         <rico:Agent>
+            <rdfs:label xml:lang="en">Eberly Family Special Collections Library</rdfs:label>
+            <rico:hasAgentName>
+               <rico:AgentName>
+                  <rdfs:label xml:lang="en">Eberly Family Special Collections Library</rdfs:label>
+                  <rico:textualValue xml:lang="en">Eberly Family Special Collections Library</rico:textualValue>
+               </rico:AgentName>
+            </rico:hasAgentName>
+         </rico:Agent>
+      </rico:heldBy>
+      <rico:title xml:lang="en">Elisha J. Bracken Civil War diary</rico:title>
+      <rdfs:label xml:lang="en">Elisha J. Bracken Civil War diary</rdfs:label>
+      <rico:beginningDate rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1862</rico:beginningDate>
+      <rico:endDate rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1863</rico:endDate>
+      <rico:date xml:lang="en">1862-1863</rico:date>
+      <rico:hasLanguage rdf:resource="language/FRAN_RI_100-name6"/>
+      <rico:hasProvenance>
+         <rico:Agent>
+            <rdf:type rdf:resource="https://www.ica.org/standards/RiC/ontology#Person"/>
+            <rdfs:label xml:lang="en">Bracken, Elisha J., 1840-1864</rdfs:label>
+            <rico:hasAgentName>
+               <rico:AgentName>
+                  <rdfs:label xml:lang="en">Bracken, Elisha J., 1840-1864</rdfs:label>
+                  <rico:textualValue xml:lang="en">Bracken, Elisha J., 1840-1864</rico:textualValue>
+               </rico:AgentName>
+            </rico:hasAgentName>
+         </rico:Agent>
+      </rico:hasProvenance>
+      <rico:hasInstantiation>
+         <rico:Instantiation rdf:about="instantiation/-top-i1">
+            <rico:instantiates rdf:resource="recordResource/-top"/>
+            <rico:heldBy>
+               <rico:Agent>
+                  <rdfs:label xml:lang="en">Eberly Family Special Collections Library</rdfs:label>
+                  <rico:hasAgentName>
+                     <rico:AgentName>
+                        <rdfs:label xml:lang="en">Eberly Family Special Collections Library</rdfs:label>
+                        <rico:textualValue xml:lang="en">Eberly Family Special Collections Library</rico:textualValue>
+                     </rico:AgentName>
+                  </rico:hasAgentName>
+               </rico:Agent>
+            </rico:heldBy>
+            <rico:title xml:lang="en">Elisha J. Bracken Civil War diary</rico:title>
+            <rdfs:label xml:lang="en">Elisha J. Bracken Civil War diary</rdfs:label>
+            <rico:identifier>06101</rico:identifier>
+            <rico:instantiationExtent rdf:parseType="Literal">
+               <html:p xml:lang="en">.1 Linear Feet</html:p>
+            </rico:instantiationExtent>
+            <rico:instantiationExtent rdf:parseType="Literal">
+               <html:p xml:lang="en">2 items.</html:p>
+            </rico:instantiationExtent>
+            <rico:beginningDate rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1862</rico:beginningDate>
+            <rico:endDate rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1863</rico:endDate>
+            <rico:date xml:lang="en">1862-1863</rico:date>
+            <rico:hasProvenance>
+               <rico:Agent>
+                  <rdf:type rdf:resource="https://www.ica.org/standards/RiC/ontology#Person"/>
+                  <rdfs:label xml:lang="en">Bracken, Elisha J., 1840-1864</rdfs:label>
+                  <rico:hasAgentName>
+                     <rico:AgentName>
+                        <rdfs:label xml:lang="en">Bracken, Elisha J., 1840-1864</rdfs:label>
+                        <rico:textualValue xml:lang="en">Bracken, Elisha J., 1840-1864</rico:textualValue>
+                     </rico:AgentName>
+                  </rico:hasAgentName>
+               </rico:Agent>
+            </rico:hasProvenance>
+            <rdfs:seeAlso rdf:resource="https://www.siv.archives-nationales.culture.gouv.fr/siv/UD/06101/top"/>
+         </rico:Instantiation>
+      </rico:hasInstantiation>
+   </rico:RecordResource>
+</rdf:RDF>

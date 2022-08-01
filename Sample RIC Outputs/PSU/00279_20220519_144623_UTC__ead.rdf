@@ -1,0 +1,599 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+         xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+         xmlns:rico="https://www.ica.org/standards/RiC/ontology#"
+         xmlns:dc="http://purl.org/dc/elements/1.1/"
+         xmlns:isni="http://isni.org/ontology#"
+         xmlns:owl="http://www.w3.org/2002/07/owl#"
+         xmlns:html="http://www.w3.org/1999/xhtml"
+         xml:base="http://data.archives-nationales.culture.gouv.fr/">
+   <rico:Record rdf:about="record/">
+      <rico:hasDocumentaryFormType rdf:resource="https://www.ica.org/standards/RiC/vocabularies/documentaryFormTypes#FindingAid"/>
+      <rico:regulatedBy rdf:resource="rule/rl005"/>
+      <rico:regulatedBy rdf:resource="rule/rl004"/>
+      <rico:regulatedBy rdf:resource="rule/rl006"/>
+      <rico:regulatedBy rdf:resource="rule/rl007"/>
+      <rico:regulatedBy rdf:resource="rule/rl009"/>
+      <rico:title xml:lang="en">A. Howry Espenshade papers, 1911-1947 00279</rico:title>
+      <rdfs:label xml:lang="en">A. Howry Espenshade papers, 1911-1947 00279</rdfs:label>
+      <rico:createdBy rdf:resource="agent/005061"/>
+      <rico:publishedBy rdf:resource="agent/005061"/>
+      <rico:history rdf:parseType="Literal">
+         <html:div>
+            <html:h4>auteur(s)</html:h4>
+            <html:p xml:lang="en">Prepared by Special Collections Library faculty/staff.</html:p>
+         </html:div>
+      </rico:history>
+      <rico:describes rdf:resource="recordResource/-top"/>
+      <rico:hasInstantiation>
+         <rico:Instantiation rdf:about="instantiation/-i1">
+            <rico:instantiates rdf:resource="record/"/>
+            <rico:title xml:lang="en">A. Howry Espenshade papers, 1911-1947 00279</rico:title>
+            <rdfs:label xml:lang="en">A. Howry Espenshade papers, 1911-1947 00279</rdfs:label>
+            <rico:history xml:lang="en">This finding aid was produced using ArchivesSpace on 2022-05-19 10:46:24 -0400.</rico:history>
+            <rico:regulatedBy rdf:resource="rule/rl010"/>
+            <dc:format xml:lang="en">text/xml</dc:format>
+            <rico:identifier>00279</rico:identifier>
+            <rico:heldBy rdf:resource="agent/005061"/>
+            <rdfs:seeAlso rdf:resource="https://www.siv.archives-nationales.culture.gouv.fr/siv/IR/00279"/>
+         </rico:Instantiation>
+      </rico:hasInstantiation>
+   </rico:Record>
+   <rico:RecordResource rdf:about="recordResource/-top">
+      <rico:describedBy rdf:resource="record/"/>
+      <rdf:type rdf:resource="https://www.ica.org/standards/RiC/ontology#RecordSet"/>
+      <rico:hasRecordSetType rdf:resource="https://www.ica.org/standards/RiC/vocabularies/recordSetTypes#Collection"/>
+      <rico:heldBy>
+         <rico:Agent>
+            <rdfs:label xml:lang="en">Eberly Family Special Collections Library</rdfs:label>
+            <rico:hasAgentName>
+               <rico:AgentName>
+                  <rdfs:label xml:lang="en">Eberly Family Special Collections Library</rdfs:label>
+                  <rico:textualValue xml:lang="en">Eberly Family Special Collections Library</rico:textualValue>
+               </rico:AgentName>
+            </rico:hasAgentName>
+         </rico:Agent>
+      </rico:heldBy>
+      <rico:title xml:lang="en">A. Howry Espenshade papers</rico:title>
+      <rdfs:label xml:lang="en">A. Howry Espenshade papers</rdfs:label>
+      <rico:beginningDate rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1911</rico:beginningDate>
+      <rico:endDate rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1947</rico:endDate>
+      <rico:date xml:lang="en">1911-1947</rico:date>
+      <rico:hasLanguage rdf:resource="language/FRAN_RI_100-name6"/>
+      <rico:conditionsOfUse rdf:parseType="Literal">
+         <html:p xml:lang="en">Copyright is retained by the creators of items in these papers, or their descendants, as stipulated by United States copyright law.</html:p>
+      </rico:conditionsOfUse>
+      <rico:conditionsOfAccess rdf:parseType="Literal">
+         <html:p xml:lang="en">Collection is open for research.</html:p>
+      </rico:conditionsOfAccess>
+      <rico:history rdf:parseType="Literal">
+         <html:div xml:lang="en">
+            <html:h4>Informations sur le traitement</html:h4>
+            <html:h5>Processing Information</html:h5>
+            <html:p>Processed by Special Collections staff.</html:p>
+         </html:div>
+      </rico:history>
+      <rico:hasInstantiation>
+         <rico:Instantiation rdf:about="instantiation/-top-i1">
+            <rico:instantiates rdf:resource="recordResource/-top"/>
+            <rico:heldBy>
+               <rico:Agent>
+                  <rdfs:label xml:lang="en">Eberly Family Special Collections Library</rdfs:label>
+                  <rico:hasAgentName>
+                     <rico:AgentName>
+                        <rdfs:label xml:lang="en">Eberly Family Special Collections Library</rdfs:label>
+                        <rico:textualValue xml:lang="en">Eberly Family Special Collections Library</rico:textualValue>
+                     </rico:AgentName>
+                  </rico:hasAgentName>
+               </rico:Agent>
+            </rico:heldBy>
+            <rico:title xml:lang="en">A. Howry Espenshade papers</rico:title>
+            <rdfs:label xml:lang="en">A. Howry Espenshade papers</rdfs:label>
+            <rico:identifier>00279</rico:identifier>
+            <rico:instantiationExtent rdf:parseType="Literal">
+               <html:p xml:lang="en">2 Cubic feet</html:p>
+            </rico:instantiationExtent>
+            <rico:beginningDate rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1911</rico:beginningDate>
+            <rico:endDate rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1947</rico:endDate>
+            <rico:date xml:lang="en">1911-1947</rico:date>
+            <rico:hasLocation rdf:resource=""/>
+            <rico:conditionsOfUse rdf:parseType="Literal">
+               <html:p xml:lang="en">Copyright is retained by the creators of items in these papers, or their descendants, as stipulated by United States copyright law.</html:p>
+            </rico:conditionsOfUse>
+            <rico:conditionsOfAccess rdf:parseType="Literal">
+               <html:p xml:lang="en">Collection is open for research.</html:p>
+            </rico:conditionsOfAccess>
+            <rico:history rdf:parseType="Literal">
+               <html:div xml:lang="en">
+                  <html:h4>Informations sur le traitement</html:h4>
+                  <html:h5>Processing Information</html:h5>
+                  <html:p>Processed by Special Collections staff.</html:p>
+               </html:div>
+            </rico:history>
+            <rdfs:seeAlso rdf:resource="https://www.siv.archives-nationales.culture.gouv.fr/siv/UD/00279/top"/>
+         </rico:Instantiation>
+      </rico:hasInstantiation>
+      <rico:includes rdf:resource="recordResource/-aspace_52d33339c6abb1f590aea00250058c1e"/>
+      <rico:includes rdf:resource="recordResource/-aspace_0ea41b8320b09f8a1b972ebb024bffe8"/>
+      <rico:includes rdf:resource="recordResource/-aspace_64c4b538e1bdfb55cfad23f4b49eaf76"/>
+      <rico:includes rdf:resource="recordResource/-aspace_14ae4447b4bab1eb25ea702563fa6ce4"/>
+      <rico:includes rdf:resource="recordResource/-aspace_9681b8b001c7ac9390e26af37a9e75ae"/>
+      <rico:includes rdf:resource="recordResource/-aspace_88a3e4eb115827bf18a85cde99279602"/>
+      <rico:includes rdf:resource="recordResource/-aspace_cab46a0fcb84784295aaf300f963f71f"/>
+      <rico:includes rdf:resource="recordResource/-aspace_27a1d24cf8ce1499b089e85b72374ec4"/>
+      <rico:includes rdf:resource="recordResource/-aspace_40b816d9b5c7b73788acc4188b7f746a"/>
+      <rico:includes rdf:resource="recordResource/-aspace_228c14251b38f5f08e2b8d960ee35693"/>
+      <rico:includes rdf:resource="recordResource/-aspace_d95693a1f745eca4fd8c2398c6e8bbab"/>
+      <rico:includes rdf:resource="recordResource/-aspace_7bd3eb54c3763ac9c6b89e83d51bf3b1"/>
+      <rico:includes rdf:resource="recordResource/-aspace_f3c6145b2856da8ebb9340f6795c7b54"/>
+      <rico:includes rdf:resource="recordResource/-aspace_9f6411f101a8cfd5046c64493844381c"/>
+      <rico:includes rdf:resource="recordResource/-aspace_49fbfa1fe301717bd229e0d104fd63e3"/>
+      <rico:includes rdf:resource="recordResource/-aspace_8029640e251df90e8795a49bc9c1747b"/>
+      <rico:includes rdf:resource="recordResource/-aspace_17b10268e7aa1d02057bdab78750dafc"/>
+      <rico:includes rdf:resource="recordResource/-aspace_02d9515d98f3385083edc4052fe657cd"/>
+      <rico:includes rdf:resource="recordResource/-aspace_7460ec2075262a9ec0f79754af510664"/>
+      <rico:includes rdf:resource="recordResource/-aspace_cfed8ff7395c11b30ded39c1a41d716c"/>
+      <rico:includes rdf:resource="recordResource/-aspace_bae68aadc1bca209502005f4603d080a"/>
+      <rico:includes rdf:resource="recordResource/-aspace_44867d92f6ef46b0847a5b73d366a985"/>
+      <rico:includes rdf:resource="recordResource/-aspace_7c8383c7af5f5f93a06eea9c213532ca"/>
+      <rico:includes rdf:resource="recordResource/-aspace_61218b1f2f47774656fd360cf86b2288"/>
+   </rico:RecordResource>
+   <rico:RecordResource rdf:about="recordResource/-aspace_52d33339c6abb1f590aea00250058c1e">
+      <rico:includedIn rdf:resource="recordResource/-top"/>
+      <rdf:type rdf:resource="https://www.ica.org/standards/RiC/ontology#RecordSet"/>
+      <rico:hasRecordSetType rdf:resource="https://www.ica.org/standards/RiC/vocabularies/recordSetTypes#File"/>
+      <rico:title xml:lang="en">Poem Scroll</rico:title>
+      <rdfs:label xml:lang="en">Poem Scroll</rdfs:label>
+      <rico:date rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1918</rico:date>
+      <rico:date xml:lang="en">1918</rico:date>
+      <rico:hasInstantiation>
+         <rico:Instantiation rdf:about="instantiation/-aspace_52d33339c6abb1f590aea00250058c1e-i1">
+            <rico:instantiates rdf:resource="recordResource/-aspace_52d33339c6abb1f590aea00250058c1e"/>
+            <rico:title xml:lang="en">Poem Scroll</rico:title>
+            <rdfs:label xml:lang="en">Poem Scroll</rdfs:label>
+            <rico:date rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1918</rico:date>
+            <rico:date xml:lang="en">1918</rico:date>
+            <rdfs:seeAlso rdf:resource="https://www.siv.archives-nationales.culture.gouv.fr/siv/UD/00279/aspace_52d33339c6abb1f590aea00250058c1e"/>
+         </rico:Instantiation>
+      </rico:hasInstantiation>
+   </rico:RecordResource>
+   <rico:RecordResource rdf:about="recordResource/-aspace_0ea41b8320b09f8a1b972ebb024bffe8">
+      <rico:includedIn rdf:resource="recordResource/-top"/>
+      <rdf:type rdf:resource="https://www.ica.org/standards/RiC/ontology#RecordSet"/>
+      <rico:hasRecordSetType rdf:resource="https://www.ica.org/standards/RiC/vocabularies/recordSetTypes#File"/>
+      <rico:title xml:lang="en">Pennsylvania County Names, Definitions and History</rico:title>
+      <rdfs:label xml:lang="en">Pennsylvania County Names, Definitions and History</rdfs:label>
+      <rico:date xml:lang="en">Undated</rico:date>
+      <rico:hasInstantiation>
+         <rico:Instantiation rdf:about="instantiation/-aspace_0ea41b8320b09f8a1b972ebb024bffe8-i1">
+            <rico:instantiates rdf:resource="recordResource/-aspace_0ea41b8320b09f8a1b972ebb024bffe8"/>
+            <rico:title xml:lang="en">Pennsylvania County Names, Definitions and History</rico:title>
+            <rdfs:label xml:lang="en">Pennsylvania County Names, Definitions and History</rdfs:label>
+            <rico:date xml:lang="en">Undated</rico:date>
+            <rdfs:seeAlso rdf:resource="https://www.siv.archives-nationales.culture.gouv.fr/siv/UD/00279/aspace_0ea41b8320b09f8a1b972ebb024bffe8"/>
+         </rico:Instantiation>
+      </rico:hasInstantiation>
+   </rico:RecordResource>
+   <rico:RecordResource rdf:about="recordResource/-aspace_64c4b538e1bdfb55cfad23f4b49eaf76">
+      <rico:includedIn rdf:resource="recordResource/-top"/>
+      <rdf:type rdf:resource="https://www.ica.org/standards/RiC/ontology#RecordSet"/>
+      <rico:hasRecordSetType rdf:resource="https://www.ica.org/standards/RiC/vocabularies/recordSetTypes#File"/>
+      <rico:title xml:lang="en">Words Derived from the American Indian Languages</rico:title>
+      <rdfs:label xml:lang="en">Words Derived from the American Indian Languages</rdfs:label>
+      <rico:date xml:lang="en">Undated</rico:date>
+      <rico:hasInstantiation>
+         <rico:Instantiation rdf:about="instantiation/-aspace_64c4b538e1bdfb55cfad23f4b49eaf76-i1">
+            <rico:instantiates rdf:resource="recordResource/-aspace_64c4b538e1bdfb55cfad23f4b49eaf76"/>
+            <rico:title xml:lang="en">Words Derived from the American Indian Languages</rico:title>
+            <rdfs:label xml:lang="en">Words Derived from the American Indian Languages</rdfs:label>
+            <rico:date xml:lang="en">Undated</rico:date>
+            <rdfs:seeAlso rdf:resource="https://www.siv.archives-nationales.culture.gouv.fr/siv/UD/00279/aspace_64c4b538e1bdfb55cfad23f4b49eaf76"/>
+         </rico:Instantiation>
+      </rico:hasInstantiation>
+   </rico:RecordResource>
+   <rico:RecordResource rdf:about="recordResource/-aspace_14ae4447b4bab1eb25ea702563fa6ce4">
+      <rico:includedIn rdf:resource="recordResource/-top"/>
+      <rdf:type rdf:resource="https://www.ica.org/standards/RiC/ontology#RecordSet"/>
+      <rico:hasRecordSetType rdf:resource="https://www.ica.org/standards/RiC/vocabularies/recordSetTypes#File"/>
+      <rico:title xml:lang="en">Old Main Items List</rico:title>
+      <rdfs:label xml:lang="en">Old Main Items List</rdfs:label>
+      <rico:date rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1929</rico:date>
+      <rico:date xml:lang="en">1929</rico:date>
+      <rico:hasInstantiation>
+         <rico:Instantiation rdf:about="instantiation/-aspace_14ae4447b4bab1eb25ea702563fa6ce4-i1">
+            <rico:instantiates rdf:resource="recordResource/-aspace_14ae4447b4bab1eb25ea702563fa6ce4"/>
+            <rico:title xml:lang="en">Old Main Items List</rico:title>
+            <rdfs:label xml:lang="en">Old Main Items List</rdfs:label>
+            <rico:date rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1929</rico:date>
+            <rico:date xml:lang="en">1929</rico:date>
+            <rdfs:seeAlso rdf:resource="https://www.siv.archives-nationales.culture.gouv.fr/siv/UD/00279/aspace_14ae4447b4bab1eb25ea702563fa6ce4"/>
+         </rico:Instantiation>
+      </rico:hasInstantiation>
+   </rico:RecordResource>
+   <rico:RecordResource rdf:about="recordResource/-aspace_9681b8b001c7ac9390e26af37a9e75ae">
+      <rico:includedIn rdf:resource="recordResource/-top"/>
+      <rdf:type rdf:resource="https://www.ica.org/standards/RiC/ontology#RecordSet"/>
+      <rico:hasRecordSetType rdf:resource="https://www.ica.org/standards/RiC/vocabularies/recordSetTypes#File"/>
+      <rico:title xml:lang="en">Registrar Promotion</rico:title>
+      <rdfs:label xml:lang="en">Registrar Promotion</rdfs:label>
+      <rico:beginningDate rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1912</rico:beginningDate>
+      <rico:endDate rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1947</rico:endDate>
+      <rico:date xml:lang="en">1912-1947</rico:date>
+      <rico:hasInstantiation>
+         <rico:Instantiation rdf:about="instantiation/-aspace_9681b8b001c7ac9390e26af37a9e75ae-i1">
+            <rico:instantiates rdf:resource="recordResource/-aspace_9681b8b001c7ac9390e26af37a9e75ae"/>
+            <rico:title xml:lang="en">Registrar Promotion</rico:title>
+            <rdfs:label xml:lang="en">Registrar Promotion</rdfs:label>
+            <rico:beginningDate rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1912</rico:beginningDate>
+            <rico:endDate rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1947</rico:endDate>
+            <rico:date xml:lang="en">1912-1947</rico:date>
+            <rdfs:seeAlso rdf:resource="https://www.siv.archives-nationales.culture.gouv.fr/siv/UD/00279/aspace_9681b8b001c7ac9390e26af37a9e75ae"/>
+         </rico:Instantiation>
+      </rico:hasInstantiation>
+   </rico:RecordResource>
+   <rico:RecordResource rdf:about="recordResource/-aspace_88a3e4eb115827bf18a85cde99279602">
+      <rico:includedIn rdf:resource="recordResource/-top"/>
+      <rdf:type rdf:resource="https://www.ica.org/standards/RiC/ontology#RecordSet"/>
+      <rico:hasRecordSetType rdf:resource="https://www.ica.org/standards/RiC/vocabularies/recordSetTypes#File"/>
+      <rico:title xml:lang="en">Related Data</rico:title>
+      <rdfs:label xml:lang="en">Related Data</rdfs:label>
+      <rico:beginningDate rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1908</rico:beginningDate>
+      <rico:endDate rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1920</rico:endDate>
+      <rico:date xml:lang="en">1908-1920</rico:date>
+      <rico:hasInstantiation>
+         <rico:Instantiation rdf:about="instantiation/-aspace_88a3e4eb115827bf18a85cde99279602-i1">
+            <rico:instantiates rdf:resource="recordResource/-aspace_88a3e4eb115827bf18a85cde99279602"/>
+            <rico:title xml:lang="en">Related Data</rico:title>
+            <rdfs:label xml:lang="en">Related Data</rdfs:label>
+            <rico:beginningDate rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1908</rico:beginningDate>
+            <rico:endDate rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1920</rico:endDate>
+            <rico:date xml:lang="en">1908-1920</rico:date>
+            <rdfs:seeAlso rdf:resource="https://www.siv.archives-nationales.culture.gouv.fr/siv/UD/00279/aspace_88a3e4eb115827bf18a85cde99279602"/>
+         </rico:Instantiation>
+      </rico:hasInstantiation>
+   </rico:RecordResource>
+   <rico:RecordResource rdf:about="recordResource/-aspace_cab46a0fcb84784295aaf300f963f71f">
+      <rico:includedIn rdf:resource="recordResource/-top"/>
+      <rdf:type rdf:resource="https://www.ica.org/standards/RiC/ontology#RecordSet"/>
+      <rico:hasRecordSetType rdf:resource="https://www.ica.org/standards/RiC/vocabularies/recordSetTypes#File"/>
+      <rico:title xml:lang="en">Papers and Correspondence</rico:title>
+      <rdfs:label xml:lang="en">Papers and Correspondence</rdfs:label>
+      <rico:beginningDate rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1915</rico:beginningDate>
+      <rico:endDate rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1918</rico:endDate>
+      <rico:date xml:lang="en">1915-1918</rico:date>
+      <rico:hasInstantiation>
+         <rico:Instantiation rdf:about="instantiation/-aspace_cab46a0fcb84784295aaf300f963f71f-i1">
+            <rico:instantiates rdf:resource="recordResource/-aspace_cab46a0fcb84784295aaf300f963f71f"/>
+            <rico:title xml:lang="en">Papers and Correspondence</rico:title>
+            <rdfs:label xml:lang="en">Papers and Correspondence</rdfs:label>
+            <rico:beginningDate rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1915</rico:beginningDate>
+            <rico:endDate rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1918</rico:endDate>
+            <rico:date xml:lang="en">1915-1918</rico:date>
+            <rdfs:seeAlso rdf:resource="https://www.siv.archives-nationales.culture.gouv.fr/siv/UD/00279/aspace_cab46a0fcb84784295aaf300f963f71f"/>
+         </rico:Instantiation>
+      </rico:hasInstantiation>
+   </rico:RecordResource>
+   <rico:RecordResource rdf:about="recordResource/-aspace_27a1d24cf8ce1499b089e85b72374ec4">
+      <rico:includedIn rdf:resource="recordResource/-top"/>
+      <rdf:type rdf:resource="https://www.ica.org/standards/RiC/ontology#RecordSet"/>
+      <rico:hasRecordSetType rdf:resource="https://www.ica.org/standards/RiC/vocabularies/recordSetTypes#File"/>
+      <rico:title xml:lang="en">Correspondence</rico:title>
+      <rdfs:label xml:lang="en">Correspondence</rdfs:label>
+      <rico:beginningDate rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1924</rico:beginningDate>
+      <rico:endDate rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1925</rico:endDate>
+      <rico:date xml:lang="en">1924-1925</rico:date>
+      <rico:hasInstantiation>
+         <rico:Instantiation rdf:about="instantiation/-aspace_27a1d24cf8ce1499b089e85b72374ec4-i1">
+            <rico:instantiates rdf:resource="recordResource/-aspace_27a1d24cf8ce1499b089e85b72374ec4"/>
+            <rico:title xml:lang="en">Correspondence</rico:title>
+            <rdfs:label xml:lang="en">Correspondence</rdfs:label>
+            <rico:beginningDate rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1924</rico:beginningDate>
+            <rico:endDate rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1925</rico:endDate>
+            <rico:date xml:lang="en">1924-1925</rico:date>
+            <rdfs:seeAlso rdf:resource="https://www.siv.archives-nationales.culture.gouv.fr/siv/UD/00279/aspace_27a1d24cf8ce1499b089e85b72374ec4"/>
+         </rico:Instantiation>
+      </rico:hasInstantiation>
+   </rico:RecordResource>
+   <rico:RecordResource rdf:about="recordResource/-aspace_40b816d9b5c7b73788acc4188b7f746a">
+      <rico:includedIn rdf:resource="recordResource/-top"/>
+      <rdf:type rdf:resource="https://www.ica.org/standards/RiC/ontology#RecordSet"/>
+      <rico:hasRecordSetType rdf:resource="https://www.ica.org/standards/RiC/vocabularies/recordSetTypes#File"/>
+      <rico:title xml:lang="en">Rejected Parts Manuscript</rico:title>
+      <rdfs:label xml:lang="en">Rejected Parts Manuscript</rdfs:label>
+      <rico:date xml:lang="en">Undated</rico:date>
+      <rico:hasInstantiation>
+         <rico:Instantiation rdf:about="instantiation/-aspace_40b816d9b5c7b73788acc4188b7f746a-i1">
+            <rico:instantiates rdf:resource="recordResource/-aspace_40b816d9b5c7b73788acc4188b7f746a"/>
+            <rico:title xml:lang="en">Rejected Parts Manuscript</rico:title>
+            <rdfs:label xml:lang="en">Rejected Parts Manuscript</rdfs:label>
+            <rico:date xml:lang="en">Undated</rico:date>
+            <rdfs:seeAlso rdf:resource="https://www.siv.archives-nationales.culture.gouv.fr/siv/UD/00279/aspace_40b816d9b5c7b73788acc4188b7f746a"/>
+         </rico:Instantiation>
+      </rico:hasInstantiation>
+   </rico:RecordResource>
+   <rico:RecordResource rdf:about="recordResource/-aspace_228c14251b38f5f08e2b8d960ee35693">
+      <rico:includedIn rdf:resource="recordResource/-top"/>
+      <rdf:type rdf:resource="https://www.ica.org/standards/RiC/ontology#RecordSet"/>
+      <rico:hasRecordSetType rdf:resource="https://www.ica.org/standards/RiC/vocabularies/recordSetTypes#File"/>
+      <rico:title xml:lang="en">Origin of County Names</rico:title>
+      <rdfs:label xml:lang="en">Origin of County Names</rdfs:label>
+      <rico:beginningDate rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1911</rico:beginningDate>
+      <rico:endDate rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1916</rico:endDate>
+      <rico:date xml:lang="en">1911-1916</rico:date>
+      <rico:hasInstantiation>
+         <rico:Instantiation rdf:about="instantiation/-aspace_228c14251b38f5f08e2b8d960ee35693-i1">
+            <rico:instantiates rdf:resource="recordResource/-aspace_228c14251b38f5f08e2b8d960ee35693"/>
+            <rico:title xml:lang="en">Origin of County Names</rico:title>
+            <rdfs:label xml:lang="en">Origin of County Names</rdfs:label>
+            <rico:beginningDate rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1911</rico:beginningDate>
+            <rico:endDate rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1916</rico:endDate>
+            <rico:date xml:lang="en">1911-1916</rico:date>
+            <rdfs:seeAlso rdf:resource="https://www.siv.archives-nationales.culture.gouv.fr/siv/UD/00279/aspace_228c14251b38f5f08e2b8d960ee35693"/>
+         </rico:Instantiation>
+      </rico:hasInstantiation>
+   </rico:RecordResource>
+   <rico:RecordResource rdf:about="recordResource/-aspace_d95693a1f745eca4fd8c2398c6e8bbab">
+      <rico:includedIn rdf:resource="recordResource/-top"/>
+      <rdf:type rdf:resource="https://www.ica.org/standards/RiC/ontology#RecordSet"/>
+      <rico:hasRecordSetType rdf:resource="https://www.ica.org/standards/RiC/vocabularies/recordSetTypes#File"/>
+      <rico:title xml:lang="en">Evangelical Press</rico:title>
+      <rdfs:label xml:lang="en">Evangelical Press</rdfs:label>
+      <rico:beginningDate rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1924</rico:beginningDate>
+      <rico:endDate rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1925</rico:endDate>
+      <rico:date xml:lang="en">1924-1925</rico:date>
+      <rico:hasInstantiation>
+         <rico:Instantiation rdf:about="instantiation/-aspace_d95693a1f745eca4fd8c2398c6e8bbab-i1">
+            <rico:instantiates rdf:resource="recordResource/-aspace_d95693a1f745eca4fd8c2398c6e8bbab"/>
+            <rico:title xml:lang="en">Evangelical Press</rico:title>
+            <rdfs:label xml:lang="en">Evangelical Press</rdfs:label>
+            <rico:beginningDate rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1924</rico:beginningDate>
+            <rico:endDate rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1925</rico:endDate>
+            <rico:date xml:lang="en">1924-1925</rico:date>
+            <rdfs:seeAlso rdf:resource="https://www.siv.archives-nationales.culture.gouv.fr/siv/UD/00279/aspace_d95693a1f745eca4fd8c2398c6e8bbab"/>
+         </rico:Instantiation>
+      </rico:hasInstantiation>
+   </rico:RecordResource>
+   <rico:RecordResource rdf:about="recordResource/-aspace_7bd3eb54c3763ac9c6b89e83d51bf3b1">
+      <rico:includedIn rdf:resource="recordResource/-top"/>
+      <rdf:type rdf:resource="https://www.ica.org/standards/RiC/ontology#RecordSet"/>
+      <rico:hasRecordSetType rdf:resource="https://www.ica.org/standards/RiC/vocabularies/recordSetTypes#File"/>
+      <rico:title xml:lang="en">Book Rough Draft</rico:title>
+      <rdfs:label xml:lang="en">Book Rough Draft</rdfs:label>
+      <rico:date rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1925</rico:date>
+      <rico:date xml:lang="en">1925</rico:date>
+      <rico:hasInstantiation>
+         <rico:Instantiation rdf:about="instantiation/-aspace_7bd3eb54c3763ac9c6b89e83d51bf3b1-i1">
+            <rico:instantiates rdf:resource="recordResource/-aspace_7bd3eb54c3763ac9c6b89e83d51bf3b1"/>
+            <rico:title xml:lang="en">Book Rough Draft</rico:title>
+            <rdfs:label xml:lang="en">Book Rough Draft</rdfs:label>
+            <rico:date rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1925</rico:date>
+            <rico:date xml:lang="en">1925</rico:date>
+            <rdfs:seeAlso rdf:resource="https://www.siv.archives-nationales.culture.gouv.fr/siv/UD/00279/aspace_7bd3eb54c3763ac9c6b89e83d51bf3b1"/>
+         </rico:Instantiation>
+      </rico:hasInstantiation>
+   </rico:RecordResource>
+   <rico:RecordResource rdf:about="recordResource/-aspace_f3c6145b2856da8ebb9340f6795c7b54">
+      <rico:includedIn rdf:resource="recordResource/-top"/>
+      <rdf:type rdf:resource="https://www.ica.org/standards/RiC/ontology#RecordSet"/>
+      <rico:hasRecordSetType rdf:resource="https://www.ica.org/standards/RiC/vocabularies/recordSetTypes#File"/>
+      <rico:title xml:lang="en">Returned Manuscript</rico:title>
+      <rdfs:label xml:lang="en">Returned Manuscript</rdfs:label>
+      <rico:date xml:lang="en">Undated</rico:date>
+      <rico:hasInstantiation>
+         <rico:Instantiation rdf:about="instantiation/-aspace_f3c6145b2856da8ebb9340f6795c7b54-i1">
+            <rico:instantiates rdf:resource="recordResource/-aspace_f3c6145b2856da8ebb9340f6795c7b54"/>
+            <rico:title xml:lang="en">Returned Manuscript</rico:title>
+            <rdfs:label xml:lang="en">Returned Manuscript</rdfs:label>
+            <rico:date xml:lang="en">Undated</rico:date>
+            <rdfs:seeAlso rdf:resource="https://www.siv.archives-nationales.culture.gouv.fr/siv/UD/00279/aspace_f3c6145b2856da8ebb9340f6795c7b54"/>
+         </rico:Instantiation>
+      </rico:hasInstantiation>
+   </rico:RecordResource>
+   <rico:RecordResource rdf:about="recordResource/-aspace_9f6411f101a8cfd5046c64493844381c">
+      <rico:includedIn rdf:resource="recordResource/-top"/>
+      <rdf:type rdf:resource="https://www.ica.org/standards/RiC/ontology#RecordSet"/>
+      <rico:hasRecordSetType rdf:resource="https://www.ica.org/standards/RiC/vocabularies/recordSetTypes#File"/>
+      <rico:title xml:lang="en">Pond Scum Book</rico:title>
+      <rdfs:label xml:lang="en">Pond Scum Book</rdfs:label>
+      <rico:date rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1914</rico:date>
+      <rico:date xml:lang="en">1914</rico:date>
+      <rico:hasInstantiation>
+         <rico:Instantiation rdf:about="instantiation/-aspace_9f6411f101a8cfd5046c64493844381c-i1">
+            <rico:instantiates rdf:resource="recordResource/-aspace_9f6411f101a8cfd5046c64493844381c"/>
+            <rico:title xml:lang="en">Pond Scum Book</rico:title>
+            <rdfs:label xml:lang="en">Pond Scum Book</rdfs:label>
+            <rico:date rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1914</rico:date>
+            <rico:date xml:lang="en">1914</rico:date>
+            <rdfs:seeAlso rdf:resource="https://www.siv.archives-nationales.culture.gouv.fr/siv/UD/00279/aspace_9f6411f101a8cfd5046c64493844381c"/>
+         </rico:Instantiation>
+      </rico:hasInstantiation>
+   </rico:RecordResource>
+   <rico:RecordResource rdf:about="recordResource/-aspace_49fbfa1fe301717bd229e0d104fd63e3">
+      <rico:includedIn rdf:resource="recordResource/-top"/>
+      <rdf:type rdf:resource="https://www.ica.org/standards/RiC/ontology#RecordSet"/>
+      <rico:hasRecordSetType rdf:resource="https://www.ica.org/standards/RiC/vocabularies/recordSetTypes#File"/>
+      <rico:title xml:lang="en">Horticulture 2 Practicum</rico:title>
+      <rdfs:label xml:lang="en">Horticulture 2 Practicum</rdfs:label>
+      <rico:date rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1917</rico:date>
+      <rico:date xml:lang="en">1917</rico:date>
+      <rico:hasInstantiation>
+         <rico:Instantiation rdf:about="instantiation/-aspace_49fbfa1fe301717bd229e0d104fd63e3-i1">
+            <rico:instantiates rdf:resource="recordResource/-aspace_49fbfa1fe301717bd229e0d104fd63e3"/>
+            <rico:title xml:lang="en">Horticulture 2 Practicum</rico:title>
+            <rdfs:label xml:lang="en">Horticulture 2 Practicum</rdfs:label>
+            <rico:date rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1917</rico:date>
+            <rico:date xml:lang="en">1917</rico:date>
+            <rdfs:seeAlso rdf:resource="https://www.siv.archives-nationales.culture.gouv.fr/siv/UD/00279/aspace_49fbfa1fe301717bd229e0d104fd63e3"/>
+         </rico:Instantiation>
+      </rico:hasInstantiation>
+   </rico:RecordResource>
+   <rico:RecordResource rdf:about="recordResource/-aspace_8029640e251df90e8795a49bc9c1747b">
+      <rico:includedIn rdf:resource="recordResource/-top"/>
+      <rdf:type rdf:resource="https://www.ica.org/standards/RiC/ontology#RecordSet"/>
+      <rico:hasRecordSetType rdf:resource="https://www.ica.org/standards/RiC/vocabularies/recordSetTypes#File"/>
+      <rico:title xml:lang="en">Final Exam</rico:title>
+      <rdfs:label xml:lang="en">Final Exam</rdfs:label>
+      <rico:beginningDate rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1913</rico:beginningDate>
+      <rico:endDate rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1914</rico:endDate>
+      <rico:date xml:lang="en">1913-1914</rico:date>
+      <rico:hasInstantiation>
+         <rico:Instantiation rdf:about="instantiation/-aspace_8029640e251df90e8795a49bc9c1747b-i1">
+            <rico:instantiates rdf:resource="recordResource/-aspace_8029640e251df90e8795a49bc9c1747b"/>
+            <rico:title xml:lang="en">Final Exam</rico:title>
+            <rdfs:label xml:lang="en">Final Exam</rdfs:label>
+            <rico:beginningDate rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1913</rico:beginningDate>
+            <rico:endDate rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1914</rico:endDate>
+            <rico:date xml:lang="en">1913-1914</rico:date>
+            <rdfs:seeAlso rdf:resource="https://www.siv.archives-nationales.culture.gouv.fr/siv/UD/00279/aspace_8029640e251df90e8795a49bc9c1747b"/>
+         </rico:Instantiation>
+      </rico:hasInstantiation>
+   </rico:RecordResource>
+   <rico:RecordResource rdf:about="recordResource/-aspace_17b10268e7aa1d02057bdab78750dafc">
+      <rico:includedIn rdf:resource="recordResource/-top"/>
+      <rdf:type rdf:resource="https://www.ica.org/standards/RiC/ontology#RecordSet"/>
+      <rico:hasRecordSetType rdf:resource="https://www.ica.org/standards/RiC/vocabularies/recordSetTypes#File"/>
+      <rico:title xml:lang="en">Laboratory Worksheets</rico:title>
+      <rdfs:label xml:lang="en">Laboratory Worksheets</rdfs:label>
+      <rico:date xml:lang="en">Undated</rico:date>
+      <rico:hasInstantiation>
+         <rico:Instantiation rdf:about="instantiation/-aspace_17b10268e7aa1d02057bdab78750dafc-i1">
+            <rico:instantiates rdf:resource="recordResource/-aspace_17b10268e7aa1d02057bdab78750dafc"/>
+            <rico:title xml:lang="en">Laboratory Worksheets</rico:title>
+            <rdfs:label xml:lang="en">Laboratory Worksheets</rdfs:label>
+            <rico:date xml:lang="en">Undated</rico:date>
+            <rdfs:seeAlso rdf:resource="https://www.siv.archives-nationales.culture.gouv.fr/siv/UD/00279/aspace_17b10268e7aa1d02057bdab78750dafc"/>
+         </rico:Instantiation>
+      </rico:hasInstantiation>
+   </rico:RecordResource>
+   <rico:RecordResource rdf:about="recordResource/-aspace_02d9515d98f3385083edc4052fe657cd">
+      <rico:includedIn rdf:resource="recordResource/-top"/>
+      <rdf:type rdf:resource="https://www.ica.org/standards/RiC/ontology#RecordSet"/>
+      <rico:hasRecordSetType rdf:resource="https://www.ica.org/standards/RiC/vocabularies/recordSetTypes#File"/>
+      <rico:title xml:lang="en">Name Book Chapters I - XXV</rico:title>
+      <rdfs:label xml:lang="en">Name Book Chapters I - XXV</rdfs:label>
+      <rico:date xml:lang="en">Undated</rico:date>
+      <rico:hasInstantiation>
+         <rico:Instantiation rdf:about="instantiation/-aspace_02d9515d98f3385083edc4052fe657cd-i1">
+            <rico:instantiates rdf:resource="recordResource/-aspace_02d9515d98f3385083edc4052fe657cd"/>
+            <rico:title xml:lang="en">Name Book Chapters I - XXV</rico:title>
+            <rdfs:label xml:lang="en">Name Book Chapters I - XXV</rdfs:label>
+            <rico:date xml:lang="en">Undated</rico:date>
+            <rdfs:seeAlso rdf:resource="https://www.siv.archives-nationales.culture.gouv.fr/siv/UD/00279/aspace_02d9515d98f3385083edc4052fe657cd"/>
+         </rico:Instantiation>
+      </rico:hasInstantiation>
+   </rico:RecordResource>
+   <rico:RecordResource rdf:about="recordResource/-aspace_7460ec2075262a9ec0f79754af510664">
+      <rico:includedIn rdf:resource="recordResource/-top"/>
+      <rdf:type rdf:resource="https://www.ica.org/standards/RiC/ontology#RecordSet"/>
+      <rico:hasRecordSetType rdf:resource="https://www.ica.org/standards/RiC/vocabularies/recordSetTypes#File"/>
+      <rico:title xml:lang="en">Manuscript Chapters VII, VIII, X, XVI</rico:title>
+      <rdfs:label xml:lang="en">Manuscript Chapters VII, VIII, X, XVI</rdfs:label>
+      <rico:date rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1922</rico:date>
+      <rico:date xml:lang="en">1922</rico:date>
+      <rico:hasInstantiation>
+         <rico:Instantiation rdf:about="instantiation/-aspace_7460ec2075262a9ec0f79754af510664-i1">
+            <rico:instantiates rdf:resource="recordResource/-aspace_7460ec2075262a9ec0f79754af510664"/>
+            <rico:title xml:lang="en">Manuscript Chapters VII, VIII, X, XVI</rico:title>
+            <rdfs:label xml:lang="en">Manuscript Chapters VII, VIII, X, XVI</rdfs:label>
+            <rico:date rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1922</rico:date>
+            <rico:date xml:lang="en">1922</rico:date>
+            <rdfs:seeAlso rdf:resource="https://www.siv.archives-nationales.culture.gouv.fr/siv/UD/00279/aspace_7460ec2075262a9ec0f79754af510664"/>
+         </rico:Instantiation>
+      </rico:hasInstantiation>
+   </rico:RecordResource>
+   <rico:RecordResource rdf:about="recordResource/-aspace_cfed8ff7395c11b30ded39c1a41d716c">
+      <rico:includedIn rdf:resource="recordResource/-top"/>
+      <rdf:type rdf:resource="https://www.ica.org/standards/RiC/ontology#RecordSet"/>
+      <rico:hasRecordSetType rdf:resource="https://www.ica.org/standards/RiC/vocabularies/recordSetTypes#File"/>
+      <rico:title xml:lang="en">Articles and Letters</rico:title>
+      <rdfs:label xml:lang="en">Articles and Letters</rdfs:label>
+      <rico:date rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1925</rico:date>
+      <rico:date xml:lang="en">1925</rico:date>
+      <rico:hasInstantiation>
+         <rico:Instantiation rdf:about="instantiation/-aspace_cfed8ff7395c11b30ded39c1a41d716c-i1">
+            <rico:instantiates rdf:resource="recordResource/-aspace_cfed8ff7395c11b30ded39c1a41d716c"/>
+            <rico:title xml:lang="en">Articles and Letters</rico:title>
+            <rdfs:label xml:lang="en">Articles and Letters</rdfs:label>
+            <rico:date rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1925</rico:date>
+            <rico:date xml:lang="en">1925</rico:date>
+            <rdfs:seeAlso rdf:resource="https://www.siv.archives-nationales.culture.gouv.fr/siv/UD/00279/aspace_cfed8ff7395c11b30ded39c1a41d716c"/>
+         </rico:Instantiation>
+      </rico:hasInstantiation>
+   </rico:RecordResource>
+   <rico:RecordResource rdf:about="recordResource/-aspace_bae68aadc1bca209502005f4603d080a">
+      <rico:includedIn rdf:resource="recordResource/-top"/>
+      <rdf:type rdf:resource="https://www.ica.org/standards/RiC/ontology#RecordSet"/>
+      <rico:hasRecordSetType rdf:resource="https://www.ica.org/standards/RiC/vocabularies/recordSetTypes#File"/>
+      <rico:title xml:lang="en">Data</rico:title>
+      <rdfs:label xml:lang="en">Data</rdfs:label>
+      <rico:date xml:lang="en">Undated</rico:date>
+      <rico:hasInstantiation>
+         <rico:Instantiation rdf:about="instantiation/-aspace_bae68aadc1bca209502005f4603d080a-i1">
+            <rico:instantiates rdf:resource="recordResource/-aspace_bae68aadc1bca209502005f4603d080a"/>
+            <rico:title xml:lang="en">Data</rico:title>
+            <rdfs:label xml:lang="en">Data</rdfs:label>
+            <rico:date xml:lang="en">Undated</rico:date>
+            <rdfs:seeAlso rdf:resource="https://www.siv.archives-nationales.culture.gouv.fr/siv/UD/00279/aspace_bae68aadc1bca209502005f4603d080a"/>
+         </rico:Instantiation>
+      </rico:hasInstantiation>
+   </rico:RecordResource>
+   <rico:RecordResource rdf:about="recordResource/-aspace_44867d92f6ef46b0847a5b73d366a985">
+      <rico:includedIn rdf:resource="recordResource/-top"/>
+      <rdf:type rdf:resource="https://www.ica.org/standards/RiC/ontology#RecordSet"/>
+      <rico:hasRecordSetType rdf:resource="https://www.ica.org/standards/RiC/vocabularies/recordSetTypes#File"/>
+      <rico:title xml:lang="en">Reviews and Testimonials</rico:title>
+      <rdfs:label xml:lang="en">Reviews and Testimonials</rdfs:label>
+      <rico:date rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1925</rico:date>
+      <rico:date xml:lang="en">1925</rico:date>
+      <rico:hasInstantiation>
+         <rico:Instantiation rdf:about="instantiation/-aspace_44867d92f6ef46b0847a5b73d366a985-i1">
+            <rico:instantiates rdf:resource="recordResource/-aspace_44867d92f6ef46b0847a5b73d366a985"/>
+            <rico:title xml:lang="en">Reviews and Testimonials</rico:title>
+            <rdfs:label xml:lang="en">Reviews and Testimonials</rdfs:label>
+            <rico:date rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1925</rico:date>
+            <rico:date xml:lang="en">1925</rico:date>
+            <rdfs:seeAlso rdf:resource="https://www.siv.archives-nationales.culture.gouv.fr/siv/UD/00279/aspace_44867d92f6ef46b0847a5b73d366a985"/>
+         </rico:Instantiation>
+      </rico:hasInstantiation>
+   </rico:RecordResource>
+   <rico:RecordResource rdf:about="recordResource/-aspace_7c8383c7af5f5f93a06eea9c213532ca">
+      <rico:includedIn rdf:resource="recordResource/-top"/>
+      <rdf:type rdf:resource="https://www.ica.org/standards/RiC/ontology#RecordSet"/>
+      <rico:hasRecordSetType rdf:resource="https://www.ica.org/standards/RiC/vocabularies/recordSetTypes#File"/>
+      <rico:title xml:lang="en">Advanced Order Letters</rico:title>
+      <rdfs:label xml:lang="en">Advanced Order Letters</rdfs:label>
+      <rico:date rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1925</rico:date>
+      <rico:date xml:lang="en">1925</rico:date>
+      <rico:hasInstantiation>
+         <rico:Instantiation rdf:about="instantiation/-aspace_7c8383c7af5f5f93a06eea9c213532ca-i1">
+            <rico:instantiates rdf:resource="recordResource/-aspace_7c8383c7af5f5f93a06eea9c213532ca"/>
+            <rico:title xml:lang="en">Advanced Order Letters</rico:title>
+            <rdfs:label xml:lang="en">Advanced Order Letters</rdfs:label>
+            <rico:date rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1925</rico:date>
+            <rico:date xml:lang="en">1925</rico:date>
+            <rdfs:seeAlso rdf:resource="https://www.siv.archives-nationales.culture.gouv.fr/siv/UD/00279/aspace_7c8383c7af5f5f93a06eea9c213532ca"/>
+         </rico:Instantiation>
+      </rico:hasInstantiation>
+   </rico:RecordResource>
+   <rico:RecordResource rdf:about="recordResource/-aspace_61218b1f2f47774656fd360cf86b2288">
+      <rico:includedIn rdf:resource="recordResource/-top"/>
+      <rdf:type rdf:resource="https://www.ica.org/standards/RiC/ontology#RecordSet"/>
+      <rico:hasRecordSetType rdf:resource="https://www.ica.org/standards/RiC/vocabularies/recordSetTypes#File"/>
+      <rico:title xml:lang="en">Correspondence and Data</rico:title>
+      <rdfs:label xml:lang="en">Correspondence and Data</rdfs:label>
+      <rico:beginningDate rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1916</rico:beginningDate>
+      <rico:endDate rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1925</rico:endDate>
+      <rico:date xml:lang="en">1916-1925</rico:date>
+      <rico:hasInstantiation>
+         <rico:Instantiation rdf:about="instantiation/-aspace_61218b1f2f47774656fd360cf86b2288-i1">
+            <rico:instantiates rdf:resource="recordResource/-aspace_61218b1f2f47774656fd360cf86b2288"/>
+            <rico:title xml:lang="en">Correspondence and Data</rico:title>
+            <rdfs:label xml:lang="en">Correspondence and Data</rdfs:label>
+            <rico:beginningDate rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1916</rico:beginningDate>
+            <rico:endDate rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1925</rico:endDate>
+            <rico:date xml:lang="en">1916-1925</rico:date>
+            <rdfs:seeAlso rdf:resource="https://www.siv.archives-nationales.culture.gouv.fr/siv/UD/00279/aspace_61218b1f2f47774656fd360cf86b2288"/>
+         </rico:Instantiation>
+      </rico:hasInstantiation>
+   </rico:RecordResource>
+</rdf:RDF>

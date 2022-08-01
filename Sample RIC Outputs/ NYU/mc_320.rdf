@@ -1,0 +1,280 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+         xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+         xmlns:rico="https://www.ica.org/standards/RiC/ontology#"
+         xmlns:dc="http://purl.org/dc/elements/1.1/"
+         xmlns:isni="http://isni.org/ontology#"
+         xmlns:owl="http://www.w3.org/2002/07/owl#"
+         xmlns:html="http://www.w3.org/1999/xhtml"
+         xml:base="http://data.archives-nationales.culture.gouv.fr/">
+   <rico:Record rdf:about="record/">
+      <rico:hasDocumentaryFormType rdf:resource="https://www.ica.org/standards/RiC/vocabularies/documentaryFormTypes#FindingAid"/>
+      <rico:regulatedBy rdf:resource="rule/rl005"/>
+      <rico:regulatedBy rdf:resource="rule/rl004"/>
+      <rico:regulatedBy rdf:resource="rule/rl006"/>
+      <rico:regulatedBy rdf:resource="rule/rl007"/>
+      <rico:regulatedBy rdf:resource="rule/rl009"/>
+      <rico:title xml:lang="en">Guide to the Robbins Barstow Film Collection MC.320</rico:title>
+      <rdfs:label xml:lang="en">Guide to the Robbins Barstow Film Collection MC.320</rdfs:label>
+      <rico:createdBy rdf:resource="agent/005061"/>
+      <rico:publishedBy rdf:resource="agent/005061"/>
+      <rico:history rdf:parseType="Literal">
+         <html:div>
+            <html:h4>auteur(s)</html:h4>
+            <html:p xml:lang="en">Collection processed by John Zarrillo</html:p>
+         </html:div>
+      </rico:history>
+      <rico:affectedBy>
+         <rico:Activity>
+            <rico:date/>
+            <rico:descriptiveNote xml:lang="en">Updated by Anna Björnsson McCormick to add container instances and record the availability of digitized access copies.</rico:descriptiveNote>
+         </rico:Activity>
+      </rico:affectedBy>
+      <rico:describes rdf:resource="recordResource/-top"/>
+      <rico:hasInstantiation>
+         <rico:Instantiation rdf:about="instantiation/-i1">
+            <rico:instantiates rdf:resource="record/"/>
+            <rico:title xml:lang="en">Guide to the Robbins Barstow Film Collection MC.320</rico:title>
+            <rdfs:label xml:lang="en">Guide to the Robbins Barstow Film Collection MC.320</rdfs:label>
+            <rico:history xml:lang="en">This finding aid was produced using ArchivesSpace 2021-01-28T15:59:47</rico:history>
+            <rico:regulatedBy rdf:resource="rule/rl010"/>
+            <dc:format xml:lang="en">text/xml</dc:format>
+            <rico:identifier>mc_320</rico:identifier>
+            <rico:heldBy rdf:resource="agent/005061"/>
+            <rdfs:seeAlso rdf:resource="https://www.siv.archives-nationales.culture.gouv.fr/siv/IR/mc_320"/>
+         </rico:Instantiation>
+      </rico:hasInstantiation>
+   </rico:Record>
+   <rico:RecordResource rdf:about="recordResource/-top">
+      <rico:describedBy rdf:resource="record/"/>
+      <rdf:type rdf:resource="https://www.ica.org/standards/RiC/ontology#RecordSet"/>
+      <rico:hasRecordSetType rdf:resource="https://www.ica.org/standards/RiC/vocabularies/recordSetTypes#Collection"/>
+      <rico:heldBy>
+         <rico:Agent>
+            <rdfs:label xml:lang="en">New York University Archives</rdfs:label>
+            <rico:hasAgentName>
+               <rico:AgentName>
+                  <rdfs:label xml:lang="en">New York University Archives</rdfs:label>
+                  <rico:textualValue xml:lang="en">New York University Archives</rico:textualValue>
+               </rico:AgentName>
+            </rico:hasAgentName>
+         </rico:Agent>
+      </rico:heldBy>
+      <rico:title xml:lang="en">Robbins Barstow Film Collection</rico:title>
+      <rdfs:label xml:lang="en">Robbins Barstow Film Collection</rdfs:label>
+      <rico:beginningDate rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1941</rico:beginningDate>
+      <rico:endDate rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1944</rico:endDate>
+      <rico:date xml:lang="en">1941-1944</rico:date>
+      <rico:hasProvenance>
+         <rico:Agent>
+            <rdf:type rdf:resource="https://www.ica.org/standards/RiC/ontology#Person"/>
+            <rdfs:label xml:lang="en">Barstow, Robbins</rdfs:label>
+            <rico:hasAgentName>
+               <rico:AgentName>
+                  <rdfs:label xml:lang="en">Barstow, Robbins</rdfs:label>
+                  <rico:textualValue xml:lang="en">Barstow, Robbins</rico:textualValue>
+               </rico:AgentName>
+            </rico:hasAgentName>
+         </rico:Agent>
+      </rico:hasProvenance>
+      <rico:scopeAndContent rdf:parseType="Literal">
+         <html:div xml:lang="en">
+            <html:h5>Content Description</html:h5>
+            <html:p>The collection consists of four film recordings created by Robbins Barstow in the 1940s. <html:i>Youth and the Future</html:i>and <html:i>The Abbakadabba Coopno</html:i>were both produced while Barstow and his wife Meg were group workers at the Hudson Guild Neighborhood House in the Chelsea neighborhood of Manhattan. <html:i>Everyone's Coming to the Guild</html:i>contains scenes of a variety of people and kids from around the Guild House in Chelsea, and some Boys Club and Girls Club activities. <html:i>Hudson Guild Farm</html:i>consists of a series of short vignettes of different activities engaged in by the Boys and Girls Clubs and their counselors at the summer farm camp in New Jersey run by the Guild in the 1940s.</html:p>
+            <html:p>The films were transfered to DVD between the years 1999 and 2008. The DVD versions of Everyone's Coming to the Guild and Hudson Guild Farm include introductions describing the work which Barstow and his wife did at the Guild as group workers in the 1940s.</html:p>
+         </html:div>
+      </rico:scopeAndContent>
+      <rico:structure rdf:parseType="Literal">
+         <html:div xml:lang="en">
+            <html:h5>Arrangement</html:h5>
+            <html:p>This collection has not been arranged by an archivist. The materials are arranged in the order in which they were received from the donor.</html:p>
+         </html:div>
+      </rico:structure>
+      <rico:conditionsOfAccess rdf:parseType="Literal">
+         <html:p xml:lang="en">Materials are open without restrictions.</html:p>
+      </rico:conditionsOfAccess>
+      <rico:conditionsOfUse rdf:parseType="Literal">
+         <html:p xml:lang="en">This collection is protected by copyright and/or related rights. You are free to use materials in the collection in any way that is permitted by the copyright and related rights legislation that applies to your use. For other uses you need to obtain permission from the rights-holder(s).</html:p>
+      </rico:conditionsOfUse>
+      <rico:hasSubject>
+         <rico:Agent>
+            <rdf:type rdf:resource="https://www.ica.org/standards/RiC/ontology#CorporateBody"/>
+            <rdfs:label xml:lang="en">Hudson Guild (New York, N.Y.)</rdfs:label>
+            <rico:hasAgentName>
+               <rico:AgentName>
+                  <rdfs:label xml:lang="en">Hudson Guild (New York, N.Y.)</rdfs:label>
+                  <rico:textualValue xml:lang="en">Hudson Guild (New York, N.Y.)</rico:textualValue>
+               </rico:AgentName>
+            </rico:hasAgentName>
+         </rico:Agent>
+      </rico:hasSubject>
+      <rico:history rdf:parseType="Literal">
+         <html:div xml:lang="en">
+            <html:h4>Informations sur le traitement</html:h4>
+            <html:h5>Processing Information</html:h5>
+            <html:p>
+               <html:i>Youth and the Future</html:i>, <html:i>Everyone's Coming to the Guild</html:i>, and <html:i>Abbakadabba Coopno</html:i>were preserved by NYU Library's Barbara Goldsmith Preservation and Conservation Department in 2013 and 2019. The recordings had also been transfered to DVD prior to acquisition.</html:p>
+         </html:div>
+      </rico:history>
+      <rico:hasInstantiation>
+         <rico:Instantiation rdf:about="instantiation/-top-i1">
+            <rico:instantiates rdf:resource="recordResource/-top"/>
+            <rico:heldBy>
+               <rico:Agent>
+                  <rdfs:label xml:lang="en">New York University Archives</rdfs:label>
+                  <rico:hasAgentName>
+                     <rico:AgentName>
+                        <rdfs:label xml:lang="en">New York University Archives</rdfs:label>
+                        <rico:textualValue xml:lang="en">New York University Archives</rico:textualValue>
+                     </rico:AgentName>
+                  </rico:hasAgentName>
+               </rico:Agent>
+            </rico:heldBy>
+            <rico:title xml:lang="en">Robbins Barstow Film Collection</rico:title>
+            <rdfs:label xml:lang="en">Robbins Barstow Film Collection</rdfs:label>
+            <rico:identifier>MC.320</rico:identifier>
+            <rico:instantiationExtent rdf:parseType="Literal">
+               <html:p xml:lang="en">2 Linear Feet</html:p>
+            </rico:instantiationExtent>
+            <rico:instantiationExtent rdf:parseType="Literal">
+               <html:p xml:lang="en">In 12 film reels and two Betamax tapes.</html:p>
+            </rico:instantiationExtent>
+            <rico:beginningDate rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1941</rico:beginningDate>
+            <rico:endDate rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1944</rico:endDate>
+            <rico:date xml:lang="en">1941-1944</rico:date>
+            <rico:hasProvenance>
+               <rico:Agent>
+                  <rdf:type rdf:resource="https://www.ica.org/standards/RiC/ontology#Person"/>
+                  <rdfs:label xml:lang="en">Barstow, Robbins</rdfs:label>
+                  <rico:hasAgentName>
+                     <rico:AgentName>
+                        <rdfs:label xml:lang="en">Barstow, Robbins</rdfs:label>
+                        <rico:textualValue xml:lang="en">Barstow, Robbins</rico:textualValue>
+                     </rico:AgentName>
+                  </rico:hasAgentName>
+               </rico:Agent>
+            </rico:hasProvenance>
+            <rico:structure rdf:parseType="Literal">
+               <html:div xml:lang="en">
+                  <html:h5>Arrangement</html:h5>
+                  <html:p>This collection has not been arranged by an archivist. The materials are arranged in the order in which they were received from the donor.</html:p>
+               </html:div>
+            </rico:structure>
+            <rico:conditionsOfAccess rdf:parseType="Literal">
+               <html:p xml:lang="en">Materials are open without restrictions.</html:p>
+            </rico:conditionsOfAccess>
+            <rico:conditionsOfUse rdf:parseType="Literal">
+               <html:p xml:lang="en">This collection is protected by copyright and/or related rights. You are free to use materials in the collection in any way that is permitted by the copyright and related rights legislation that applies to your use. For other uses you need to obtain permission from the rights-holder(s).</html:p>
+            </rico:conditionsOfUse>
+            <rico:history rdf:parseType="Literal">
+               <html:div>
+                  <html:div xml:lang="en">
+                     <html:h4>Informations sur les modalités d’entrée</html:h4>
+                     <html:h5>Immediate Source of Acquisition</html:h5>
+                     <html:p>Donated by Robbins Barstow, 2008. The accession number associated with this gift is 09-003.</html:p>
+                  </html:div>
+                  <html:div xml:lang="en">
+                     <html:h4>Informations sur le traitement</html:h4>
+                     <html:h5>Processing Information</html:h5>
+                     <html:p>
+                        <html:i>Youth and the Future</html:i>, <html:i>Everyone's Coming to the Guild</html:i>, and <html:i>Abbakadabba Coopno</html:i>were preserved by NYU Library's Barbara Goldsmith Preservation and Conservation Department in 2013 and 2019. The recordings had also been transfered to DVD prior to acquisition.</html:p>
+                  </html:div>
+               </html:div>
+            </rico:history>
+            <rdfs:seeAlso rdf:resource="https://www.siv.archives-nationales.culture.gouv.fr/siv/UD/mc_320/top"/>
+         </rico:Instantiation>
+      </rico:hasInstantiation>
+      <rico:includes rdf:resource="recordResource/-aspace_c202a3622f827b93eceec0429b592534"/>
+      <rico:includes rdf:resource="recordResource/-aspace_302d5eaa12325e917e408557fd30478e"/>
+      <rico:includes rdf:resource="recordResource/-aspace_d4d19f630ed4750bbdf049ffcbcc8a6d"/>
+      <rico:includes rdf:resource="recordResource/-aspace_a1a50641fa82d5f875699d71339a0191"/>
+   </rico:RecordResource>
+   <rico:RecordResource rdf:about="recordResource/-aspace_c202a3622f827b93eceec0429b592534">
+      <rico:includedIn rdf:resource="recordResource/-top"/>
+      <rdf:type rdf:resource="https://www.ica.org/standards/RiC/ontology#RecordSet"/>
+      <rico:hasRecordSetType rdf:resource="https://www.ica.org/standards/RiC/vocabularies/recordSetTypes#File"/>
+      <rico:title xml:lang="en">Abbakadabba Coopno</rico:title>
+      <rdfs:label xml:lang="en">Abbakadabba Coopno</rdfs:label>
+      <rico:beginningDate rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1941</rico:beginningDate>
+      <rico:endDate rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1941</rico:endDate>
+      <rico:date xml:lang="en">1941</rico:date>
+      <rico:hasInstantiation>
+         <rico:Instantiation rdf:about="instantiation/-aspace_c202a3622f827b93eceec0429b592534-i1">
+            <rico:instantiates rdf:resource="recordResource/-aspace_c202a3622f827b93eceec0429b592534"/>
+            <rico:title xml:lang="en">Abbakadabba Coopno</rico:title>
+            <rdfs:label xml:lang="en">Abbakadabba Coopno</rdfs:label>
+            <rico:identifier>cuid17538</rico:identifier>
+            <rico:beginningDate rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1941</rico:beginningDate>
+            <rico:endDate rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1941</rico:endDate>
+            <rico:date xml:lang="en">1941</rico:date>
+            <rdfs:seeAlso rdf:resource="https://www.siv.archives-nationales.culture.gouv.fr/siv/UD/mc_320/aspace_c202a3622f827b93eceec0429b592534"/>
+         </rico:Instantiation>
+      </rico:hasInstantiation>
+   </rico:RecordResource>
+   <rico:RecordResource rdf:about="recordResource/-aspace_302d5eaa12325e917e408557fd30478e">
+      <rico:includedIn rdf:resource="recordResource/-top"/>
+      <rdf:type rdf:resource="https://www.ica.org/standards/RiC/ontology#RecordSet"/>
+      <rico:hasRecordSetType rdf:resource="https://www.ica.org/standards/RiC/vocabularies/recordSetTypes#File"/>
+      <rico:title xml:lang="en">Everyone's Coming to the Guild</rico:title>
+      <rdfs:label xml:lang="en">Everyone's Coming to the Guild</rdfs:label>
+      <rico:beginningDate rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1943</rico:beginningDate>
+      <rico:endDate rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1943</rico:endDate>
+      <rico:date xml:lang="en">1943</rico:date>
+      <rico:hasInstantiation>
+         <rico:Instantiation rdf:about="instantiation/-aspace_302d5eaa12325e917e408557fd30478e-i1">
+            <rico:instantiates rdf:resource="recordResource/-aspace_302d5eaa12325e917e408557fd30478e"/>
+            <rico:title xml:lang="en">Everyone's Coming to the Guild</rico:title>
+            <rdfs:label xml:lang="en">Everyone's Coming to the Guild</rdfs:label>
+            <rico:identifier>cuid17537</rico:identifier>
+            <rico:beginningDate rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1943</rico:beginningDate>
+            <rico:endDate rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1943</rico:endDate>
+            <rico:date xml:lang="en">1943</rico:date>
+            <rdfs:seeAlso rdf:resource="https://www.siv.archives-nationales.culture.gouv.fr/siv/UD/mc_320/aspace_302d5eaa12325e917e408557fd30478e"/>
+         </rico:Instantiation>
+      </rico:hasInstantiation>
+   </rico:RecordResource>
+   <rico:RecordResource rdf:about="recordResource/-aspace_d4d19f630ed4750bbdf049ffcbcc8a6d">
+      <rico:includedIn rdf:resource="recordResource/-top"/>
+      <rdf:type rdf:resource="https://www.ica.org/standards/RiC/ontology#RecordSet"/>
+      <rico:hasRecordSetType rdf:resource="https://www.ica.org/standards/RiC/vocabularies/recordSetTypes#File"/>
+      <rico:title xml:lang="en">Youth and the Future</rico:title>
+      <rdfs:label xml:lang="en">Youth and the Future</rdfs:label>
+      <rico:beginningDate rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1943</rico:beginningDate>
+      <rico:endDate rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1944</rico:endDate>
+      <rico:date xml:lang="en">1943-1944</rico:date>
+      <rico:hasInstantiation>
+         <rico:Instantiation rdf:about="instantiation/-aspace_d4d19f630ed4750bbdf049ffcbcc8a6d-i1">
+            <rico:instantiates rdf:resource="recordResource/-aspace_d4d19f630ed4750bbdf049ffcbcc8a6d"/>
+            <rico:title xml:lang="en">Youth and the Future</rico:title>
+            <rdfs:label xml:lang="en">Youth and the Future</rdfs:label>
+            <rico:identifier>cuid17536</rico:identifier>
+            <rico:beginningDate rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1943</rico:beginningDate>
+            <rico:endDate rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1944</rico:endDate>
+            <rico:date xml:lang="en">1943-1944</rico:date>
+            <rdfs:seeAlso rdf:resource="https://www.siv.archives-nationales.culture.gouv.fr/siv/UD/mc_320/aspace_d4d19f630ed4750bbdf049ffcbcc8a6d"/>
+         </rico:Instantiation>
+      </rico:hasInstantiation>
+   </rico:RecordResource>
+   <rico:RecordResource rdf:about="recordResource/-aspace_a1a50641fa82d5f875699d71339a0191">
+      <rico:includedIn rdf:resource="recordResource/-top"/>
+      <rdf:type rdf:resource="https://www.ica.org/standards/RiC/ontology#RecordSet"/>
+      <rico:hasRecordSetType rdf:resource="https://www.ica.org/standards/RiC/vocabularies/recordSetTypes#File"/>
+      <rico:title xml:lang="en">Hudson Guild Farm</rico:title>
+      <rdfs:label xml:lang="en">Hudson Guild Farm</rdfs:label>
+      <rico:beginningDate rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1940</rico:beginningDate>
+      <rico:endDate rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1949</rico:endDate>
+      <rico:date xml:lang="en">c. 1940s</rico:date>
+      <rico:hasInstantiation>
+         <rico:Instantiation rdf:about="instantiation/-aspace_a1a50641fa82d5f875699d71339a0191-i1">
+            <rico:instantiates rdf:resource="recordResource/-aspace_a1a50641fa82d5f875699d71339a0191"/>
+            <rico:title xml:lang="en">Hudson Guild Farm</rico:title>
+            <rdfs:label xml:lang="en">Hudson Guild Farm</rdfs:label>
+            <rico:identifier>cuid17539</rico:identifier>
+            <rico:beginningDate rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1940</rico:beginningDate>
+            <rico:endDate rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1949</rico:endDate>
+            <rico:date xml:lang="en">c. 1940s</rico:date>
+            <rdfs:seeAlso rdf:resource="https://www.siv.archives-nationales.culture.gouv.fr/siv/UD/mc_320/aspace_a1a50641fa82d5f875699d71339a0191"/>
+         </rico:Instantiation>
+      </rico:hasInstantiation>
+   </rico:RecordResource>
+</rdf:RDF>

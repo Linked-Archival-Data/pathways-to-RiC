@@ -1,0 +1,440 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+         xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+         xmlns:rico="https://www.ica.org/standards/RiC/ontology#"
+         xmlns:dc="http://purl.org/dc/elements/1.1/"
+         xmlns:isni="http://isni.org/ontology#"
+         xmlns:owl="http://www.w3.org/2002/07/owl#"
+         xmlns:html="http://www.w3.org/1999/xhtml"
+         xml:base="http://data.archives-nationales.culture.gouv.fr/">
+   <rico:Record rdf:about="record/">
+      <rico:hasDocumentaryFormType rdf:resource="https://www.ica.org/standards/RiC/vocabularies/documentaryFormTypes#FindingAid"/>
+      <rico:regulatedBy rdf:resource="rule/rl005"/>
+      <rico:regulatedBy rdf:resource="rule/rl004"/>
+      <rico:regulatedBy rdf:resource="rule/rl006"/>
+      <rico:regulatedBy rdf:resource="rule/rl007"/>
+      <rico:regulatedBy rdf:resource="rule/rl009"/>
+      <rico:title xml:lang="en">Guide to the Ellen Aug Lytle Papers MSS.424</rico:title>
+      <rdfs:label xml:lang="en">Guide to the Ellen Aug Lytle Papers MSS.424</rdfs:label>
+      <rico:createdBy rdf:resource="agent/005061"/>
+      <rico:publishedBy rdf:resource="agent/005061"/>
+      <rico:history rdf:parseType="Literal">
+         <html:div>
+            <html:h4>auteur(s)</html:h4>
+            <html:p xml:lang="en">Collection processed by Conor Snow and Anna Björnsson McCormick</html:p>
+         </html:div>
+      </rico:history>
+      <rico:describes rdf:resource="recordResource/-top"/>
+      <rico:hasInstantiation>
+         <rico:Instantiation rdf:about="instantiation/-i1">
+            <rico:instantiates rdf:resource="record/"/>
+            <rico:title xml:lang="en">Guide to the Ellen Aug Lytle Papers MSS.424</rico:title>
+            <rdfs:label xml:lang="en">Guide to the Ellen Aug Lytle Papers MSS.424</rdfs:label>
+            <rico:history xml:lang="en">This finding aid was produced using ArchivesSpace 2021-09-03T15:53:17</rico:history>
+            <rico:regulatedBy rdf:resource="rule/rl010"/>
+            <dc:format xml:lang="en">text/xml</dc:format>
+            <rico:identifier>mss_424</rico:identifier>
+            <rico:heldBy rdf:resource="agent/005061"/>
+            <rdfs:seeAlso rdf:resource="https://www.siv.archives-nationales.culture.gouv.fr/siv/IR/mss_424"/>
+         </rico:Instantiation>
+      </rico:hasInstantiation>
+   </rico:Record>
+   <rico:RecordResource rdf:about="recordResource/-top">
+      <rico:describedBy rdf:resource="record/"/>
+      <rdf:type rdf:resource="https://www.ica.org/standards/RiC/ontology#RecordSet"/>
+      <rico:hasRecordSetType rdf:resource="https://www.ica.org/standards/RiC/vocabularies/recordSetTypes#Collection"/>
+      <rico:heldBy>
+         <rico:Agent>
+            <rdfs:label xml:lang="en">Fales Library and Special Collections</rdfs:label>
+            <rico:hasAgentName>
+               <rico:AgentName>
+                  <rdfs:label xml:lang="en">Fales Library and Special Collections</rdfs:label>
+                  <rico:textualValue xml:lang="en">Fales Library and Special Collections</rico:textualValue>
+               </rico:AgentName>
+            </rico:hasAgentName>
+         </rico:Agent>
+      </rico:heldBy>
+      <rico:title xml:lang="en">Ellen Aug Lytle Papers</rico:title>
+      <rdfs:label xml:lang="en">Ellen Aug Lytle Papers</rdfs:label>
+      <rico:beginningDate rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1977</rico:beginningDate>
+      <rico:endDate rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">2014</rico:endDate>
+      <rico:date xml:lang="en">1977-2014</rico:date>
+      <rico:hasProvenance>
+         <rico:Agent>
+            <rdf:type rdf:resource="https://www.ica.org/standards/RiC/ontology#Person"/>
+            <rdfs:label xml:lang="en">Aug Lytle, Ellen</rdfs:label>
+            <rico:hasAgentName>
+               <rico:AgentName>
+                  <rdfs:label xml:lang="en">Aug Lytle, Ellen</rdfs:label>
+                  <rico:textualValue xml:lang="en">Aug Lytle, Ellen</rico:textualValue>
+               </rico:AgentName>
+            </rico:hasAgentName>
+         </rico:Agent>
+      </rico:hasProvenance>
+      <rico:hasProvenance>
+         <rico:Agent>
+            <rdf:type rdf:resource="https://www.ica.org/standards/RiC/ontology#Person"/>
+            <rdfs:label xml:lang="en">Aug Lytle, Ellen</rdfs:label>
+            <rico:hasAgentName>
+               <rico:AgentName>
+                  <rdfs:label xml:lang="en">Aug Lytle, Ellen</rdfs:label>
+                  <rico:textualValue xml:lang="en">Aug Lytle, Ellen</rico:textualValue>
+               </rico:AgentName>
+            </rico:hasAgentName>
+         </rico:Agent>
+      </rico:hasProvenance>
+      <rico:hasProvenance>
+         <rico:Agent>
+            <rdf:type rdf:resource="https://www.ica.org/standards/RiC/ontology#Person"/>
+            <rdfs:label xml:lang="en">Kolm, Ron</rdfs:label>
+            <rico:hasAgentName>
+               <rico:AgentName>
+                  <rdfs:label xml:lang="en">Kolm, Ron</rdfs:label>
+                  <rico:textualValue xml:lang="en">Kolm, Ron</rico:textualValue>
+               </rico:AgentName>
+            </rico:hasAgentName>
+         </rico:Agent>
+      </rico:hasProvenance>
+      <rico:structure rdf:parseType="Literal">
+         <html:div xml:lang="en">
+            <html:h5>Arrangement</html:h5>
+            <html:p>This collection has not been arranged by an archivist.</html:p>
+         </html:div>
+      </rico:structure>
+      <rico:conditionsOfAccess rdf:parseType="Literal">
+         <html:p xml:lang="en">Materials are open without restrictions.</html:p>
+      </rico:conditionsOfAccess>
+      <rico:conditionsOfUse rdf:parseType="Literal">
+         <html:p xml:lang="en">Copyright (or related rights to publicity and privacy) for materials in this collection was not transferred to New York University. Permission to use materials must be secured from the copyright holder. Please contact the Fales Library and Special Collections, special.collections@nyu.edu, 212-998-2596.</html:p>
+      </rico:conditionsOfUse>
+      <rico:scopeAndContent rdf:parseType="Literal">
+         <html:div xml:lang="en">
+            <html:h5>Scope and Contents</html:h5>
+            <html:p>The Ellen Aug Lytle Papers document the personal and professional life of Ellen Aug Lytle and span from 1977-2014. The materials included document her career as a poet, fiction writer, journalist, and educator. The collection consists of Lytle's journals and calendars, which document her daily life; and, issues of the various publications featuring her writing including poetry, essays, and columns about issues as diverse as the Downtown poetry scene and pet care. This collection also includes essay drafts, poetry event brochures, and slides and negatives from her 1993 book party celebrating the publication of <html:i>VTC Players</html:i>, an anthology of the works of her students in her Vocational Training Center (VTC) classroom at Hebrew Hospital Home.</html:p>
+            <html:p>Lytle's journals, which date from 1977 to 2011, are filled with entries she wrote about her activities, personal life and relationships, career, and her reflections on current events. Many journals also include drafts of poems and doodles. Her calendars, which date from 2001 to 2011, list events that she attended over the course of her life and career.</html:p>
+            <html:p>Over the course of her career, Lytle published poems, essays, articles, and fiction in a variety of newspapers, journals, magazines, and zines. The publications included in this collection include her regular columns such as "Writing Around Town" in <html:i>Downtown</html:i>newspaper and "Best Friends" in <html:i>The Pet House</html:i>magazine as well as a number of other newspapers, magazines, and journals where Lytle published work. These publications include <html:i>Signs of Intelligent Life</html:i>, <html:i>Poets and Writers</html:i>, <html:i>Home Planet News</html:i>, <html:i>Salonika</html:i>, <html:i>Tamarind</html:i>, and <html:i>What Happens Next?</html:i>. Most of Lytle's published work in this collection is about writers and other artists operating in New York City and arts-related current events.</html:p>
+         </html:div>
+      </rico:scopeAndContent>
+      <rico:hasSubject>
+         <rico:Agent>
+            <rdf:type rdf:resource="https://www.ica.org/standards/RiC/ontology#Person"/>
+            <rdfs:label xml:lang="en">Aug Lytle, Ellen</rdfs:label>
+            <rico:hasAgentName>
+               <rico:AgentName>
+                  <rdfs:label xml:lang="en">Aug Lytle, Ellen</rdfs:label>
+                  <rico:textualValue xml:lang="en">Aug Lytle, Ellen</rico:textualValue>
+               </rico:AgentName>
+            </rico:hasAgentName>
+         </rico:Agent>
+      </rico:hasSubject>
+      <rico:hasSubject>
+         <rico:Agent>
+            <rdf:type rdf:resource="https://www.ica.org/standards/RiC/ontology#Person"/>
+            <rdfs:label xml:lang="en">Kolm, Ron</rdfs:label>
+            <rico:hasAgentName>
+               <rico:AgentName>
+                  <rdfs:label xml:lang="en">Kolm, Ron</rdfs:label>
+                  <rico:textualValue xml:lang="en">Kolm, Ron</rico:textualValue>
+               </rico:AgentName>
+            </rico:hasAgentName>
+         </rico:Agent>
+      </rico:hasSubject>
+      <rico:history rdf:parseType="Literal">
+         <html:div xml:lang="en">
+            <html:h4>Informations sur le traitement</html:h4>
+            <html:h5>Processing Information</html:h5>
+            <html:p>A graduate student in the Fall 2019 session of Advanced Archival Description HIST-GA.2031 surveyed and wrote a processing plan for this collection. This collection was described by an archivist in the summer of 2021. Materials were placed in new acid-free folders and boxes. Some newspapers were humidified, flattened, and stored in oversize flat boxes.</html:p>
+         </html:div>
+      </rico:history>
+      <rico:hasInstantiation>
+         <rico:Instantiation rdf:about="instantiation/-top-i1">
+            <rico:instantiates rdf:resource="recordResource/-top"/>
+            <rico:heldBy>
+               <rico:Agent>
+                  <rdfs:label xml:lang="en">Fales Library and Special Collections</rdfs:label>
+                  <rico:hasAgentName>
+                     <rico:AgentName>
+                        <rdfs:label xml:lang="en">Fales Library and Special Collections</rdfs:label>
+                        <rico:textualValue xml:lang="en">Fales Library and Special Collections</rico:textualValue>
+                     </rico:AgentName>
+                  </rico:hasAgentName>
+               </rico:Agent>
+            </rico:heldBy>
+            <rico:title xml:lang="en">Ellen Aug Lytle Papers</rico:title>
+            <rdfs:label xml:lang="en">Ellen Aug Lytle Papers</rdfs:label>
+            <rico:identifier>MSS.424</rico:identifier>
+            <rico:instantiationExtent rdf:parseType="Literal">
+               <html:p xml:lang="en">4.5 Linear Feet</html:p>
+            </rico:instantiationExtent>
+            <rico:instantiationExtent rdf:parseType="Literal">
+               <html:p xml:lang="en">In 9 manuscript boxes</html:p>
+            </rico:instantiationExtent>
+            <rico:beginningDate rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1977</rico:beginningDate>
+            <rico:endDate rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">2014</rico:endDate>
+            <rico:date xml:lang="en">1977-2014</rico:date>
+            <rico:hasLocation rdf:resource=""/>
+            <rico:hasProvenance>
+               <rico:Agent>
+                  <rdf:type rdf:resource="https://www.ica.org/standards/RiC/ontology#Person"/>
+                  <rdfs:label xml:lang="en">Aug Lytle, Ellen</rdfs:label>
+                  <rico:hasAgentName>
+                     <rico:AgentName>
+                        <rdfs:label xml:lang="en">Aug Lytle, Ellen</rdfs:label>
+                        <rico:textualValue xml:lang="en">Aug Lytle, Ellen</rico:textualValue>
+                     </rico:AgentName>
+                  </rico:hasAgentName>
+               </rico:Agent>
+            </rico:hasProvenance>
+            <rico:hasProvenance>
+               <rico:Agent>
+                  <rdf:type rdf:resource="https://www.ica.org/standards/RiC/ontology#Person"/>
+                  <rdfs:label xml:lang="en">Aug Lytle, Ellen</rdfs:label>
+                  <rico:hasAgentName>
+                     <rico:AgentName>
+                        <rdfs:label xml:lang="en">Aug Lytle, Ellen</rdfs:label>
+                        <rico:textualValue xml:lang="en">Aug Lytle, Ellen</rico:textualValue>
+                     </rico:AgentName>
+                  </rico:hasAgentName>
+               </rico:Agent>
+            </rico:hasProvenance>
+            <rico:hasProvenance>
+               <rico:Agent>
+                  <rdf:type rdf:resource="https://www.ica.org/standards/RiC/ontology#Person"/>
+                  <rdfs:label xml:lang="en">Kolm, Ron</rdfs:label>
+                  <rico:hasAgentName>
+                     <rico:AgentName>
+                        <rdfs:label xml:lang="en">Kolm, Ron</rdfs:label>
+                        <rico:textualValue xml:lang="en">Kolm, Ron</rico:textualValue>
+                     </rico:AgentName>
+                  </rico:hasAgentName>
+               </rico:Agent>
+            </rico:hasProvenance>
+            <rico:structure rdf:parseType="Literal">
+               <html:div xml:lang="en">
+                  <html:h5>Arrangement</html:h5>
+                  <html:p>This collection has not been arranged by an archivist.</html:p>
+               </html:div>
+            </rico:structure>
+            <rico:conditionsOfAccess rdf:parseType="Literal">
+               <html:p xml:lang="en">Materials are open without restrictions.</html:p>
+            </rico:conditionsOfAccess>
+            <rico:conditionsOfUse rdf:parseType="Literal">
+               <html:p xml:lang="en">Copyright (or related rights to publicity and privacy) for materials in this collection was not transferred to New York University. Permission to use materials must be secured from the copyright holder. Please contact the Fales Library and Special Collections, special.collections@nyu.edu, 212-998-2596.</html:p>
+            </rico:conditionsOfUse>
+            <rico:history rdf:parseType="Literal">
+               <html:div>
+                  <html:div xml:lang="en">
+                     <html:h4>Informations sur les modalités d’entrée</html:h4>
+                     <html:h5>Immediate Source of Acquisition</html:h5>
+                     <html:p>Ron Kolm facilitated the donation of these materials in 2015 but no donor agreement was signed at that time. The accession number associated with that gift is 2015-424. Ellen Aug Lytle signed a donor agreement in 2021.</html:p>
+                  </html:div>
+                  <html:div xml:lang="en">
+                     <html:h4>Informations sur le traitement</html:h4>
+                     <html:h5>Processing Information</html:h5>
+                     <html:p>A graduate student in the Fall 2019 session of Advanced Archival Description HIST-GA.2031 surveyed and wrote a processing plan for this collection. This collection was described by an archivist in the summer of 2021. Materials were placed in new acid-free folders and boxes. Some newspapers were humidified, flattened, and stored in oversize flat boxes.</html:p>
+                  </html:div>
+               </html:div>
+            </rico:history>
+            <rdfs:seeAlso rdf:resource="https://www.siv.archives-nationales.culture.gouv.fr/siv/UD/mss_424/top"/>
+         </rico:Instantiation>
+      </rico:hasInstantiation>
+      <rico:includes rdf:resource="recordResource/-aspace_aebb4288b5d196722773ff079acc023c"/>
+      <rico:includes rdf:resource="recordResource/-aspace_16ecdd4ec32d8af25c21a068236c1f9b"/>
+      <rico:includes rdf:resource="recordResource/-aspace_14d2a11492db49c720d840bc732b6ee5"/>
+      <rico:includes rdf:resource="recordResource/-aspace_63eaf2115f2da31cd37382bd86694055"/>
+      <rico:includes rdf:resource="recordResource/-aspace_8f53a4d31e3444d6ea3b604901f853da"/>
+      <rico:includes rdf:resource="recordResource/-aspace_343600aa12c6fa88faa5f76db6a23af3"/>
+      <rico:includes rdf:resource="recordResource/-aspace_459e81b257010568fcdc0722927dbade"/>
+      <rico:includes rdf:resource="recordResource/-aspace_e7bac39d6c261b91d44cb12136f9b4d7"/>
+      <rico:includes rdf:resource="recordResource/-aspace_0782f1b3ffcdb925686bee1d00fcca75"/>
+   </rico:RecordResource>
+   <rico:RecordResource rdf:about="recordResource/-aspace_aebb4288b5d196722773ff079acc023c">
+      <rico:includedIn rdf:resource="recordResource/-top"/>
+      <rdf:type rdf:resource="https://www.ica.org/standards/RiC/ontology#RecordSet"/>
+      <rico:hasRecordSetType rdf:resource="https://www.ica.org/standards/RiC/vocabularies/recordSetTypes#File"/>
+      <rico:title xml:lang="en">Journals</rico:title>
+      <rdfs:label xml:lang="en">Journals</rdfs:label>
+      <rico:beginningDate rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1977</rico:beginningDate>
+      <rico:endDate rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1983</rico:endDate>
+      <rico:date xml:lang="en">1977-1983</rico:date>
+      <rico:hasInstantiation>
+         <rico:Instantiation rdf:about="instantiation/-aspace_aebb4288b5d196722773ff079acc023c-i1">
+            <rico:instantiates rdf:resource="recordResource/-aspace_aebb4288b5d196722773ff079acc023c"/>
+            <rico:title xml:lang="en">Journals</rico:title>
+            <rdfs:label xml:lang="en">Journals</rdfs:label>
+            <rico:beginningDate rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1977</rico:beginningDate>
+            <rico:endDate rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1983</rico:endDate>
+            <rico:date xml:lang="en">1977-1983</rico:date>
+            <rdfs:seeAlso rdf:resource="https://www.siv.archives-nationales.culture.gouv.fr/siv/UD/mss_424/aspace_aebb4288b5d196722773ff079acc023c"/>
+         </rico:Instantiation>
+      </rico:hasInstantiation>
+   </rico:RecordResource>
+   <rico:RecordResource rdf:about="recordResource/-aspace_16ecdd4ec32d8af25c21a068236c1f9b">
+      <rico:includedIn rdf:resource="recordResource/-top"/>
+      <rdf:type rdf:resource="https://www.ica.org/standards/RiC/ontology#RecordSet"/>
+      <rico:hasRecordSetType rdf:resource="https://www.ica.org/standards/RiC/vocabularies/recordSetTypes#File"/>
+      <rico:title xml:lang="en">Journals</rico:title>
+      <rdfs:label xml:lang="en">Journals</rdfs:label>
+      <rico:beginningDate rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1983</rico:beginningDate>
+      <rico:endDate rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1985</rico:endDate>
+      <rico:date xml:lang="en">1983-1985</rico:date>
+      <rico:hasInstantiation>
+         <rico:Instantiation rdf:about="instantiation/-aspace_16ecdd4ec32d8af25c21a068236c1f9b-i1">
+            <rico:instantiates rdf:resource="recordResource/-aspace_16ecdd4ec32d8af25c21a068236c1f9b"/>
+            <rico:title xml:lang="en">Journals</rico:title>
+            <rdfs:label xml:lang="en">Journals</rdfs:label>
+            <rico:beginningDate rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1983</rico:beginningDate>
+            <rico:endDate rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1985</rico:endDate>
+            <rico:date xml:lang="en">1983-1985</rico:date>
+            <rdfs:seeAlso rdf:resource="https://www.siv.archives-nationales.culture.gouv.fr/siv/UD/mss_424/aspace_16ecdd4ec32d8af25c21a068236c1f9b"/>
+         </rico:Instantiation>
+      </rico:hasInstantiation>
+   </rico:RecordResource>
+   <rico:RecordResource rdf:about="recordResource/-aspace_14d2a11492db49c720d840bc732b6ee5">
+      <rico:includedIn rdf:resource="recordResource/-top"/>
+      <rdf:type rdf:resource="https://www.ica.org/standards/RiC/ontology#RecordSet"/>
+      <rico:hasRecordSetType rdf:resource="https://www.ica.org/standards/RiC/vocabularies/recordSetTypes#File"/>
+      <rico:title xml:lang="en">Journals</rico:title>
+      <rdfs:label xml:lang="en">Journals</rdfs:label>
+      <rico:beginningDate rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1985</rico:beginningDate>
+      <rico:endDate rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1988</rico:endDate>
+      <rico:date xml:lang="en">1985-1988</rico:date>
+      <rico:hasInstantiation>
+         <rico:Instantiation rdf:about="instantiation/-aspace_14d2a11492db49c720d840bc732b6ee5-i1">
+            <rico:instantiates rdf:resource="recordResource/-aspace_14d2a11492db49c720d840bc732b6ee5"/>
+            <rico:title xml:lang="en">Journals</rico:title>
+            <rdfs:label xml:lang="en">Journals</rdfs:label>
+            <rico:beginningDate rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1985</rico:beginningDate>
+            <rico:endDate rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1988</rico:endDate>
+            <rico:date xml:lang="en">1985-1988</rico:date>
+            <rdfs:seeAlso rdf:resource="https://www.siv.archives-nationales.culture.gouv.fr/siv/UD/mss_424/aspace_14d2a11492db49c720d840bc732b6ee5"/>
+         </rico:Instantiation>
+      </rico:hasInstantiation>
+   </rico:RecordResource>
+   <rico:RecordResource rdf:about="recordResource/-aspace_63eaf2115f2da31cd37382bd86694055">
+      <rico:includedIn rdf:resource="recordResource/-top"/>
+      <rdf:type rdf:resource="https://www.ica.org/standards/RiC/ontology#RecordSet"/>
+      <rico:hasRecordSetType rdf:resource="https://www.ica.org/standards/RiC/vocabularies/recordSetTypes#File"/>
+      <rico:title xml:lang="en">Journals</rico:title>
+      <rdfs:label xml:lang="en">Journals</rdfs:label>
+      <rico:beginningDate rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1989</rico:beginningDate>
+      <rico:endDate rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1997</rico:endDate>
+      <rico:date xml:lang="en">1989-1997</rico:date>
+      <rico:hasInstantiation>
+         <rico:Instantiation rdf:about="instantiation/-aspace_63eaf2115f2da31cd37382bd86694055-i1">
+            <rico:instantiates rdf:resource="recordResource/-aspace_63eaf2115f2da31cd37382bd86694055"/>
+            <rico:title xml:lang="en">Journals</rico:title>
+            <rdfs:label xml:lang="en">Journals</rdfs:label>
+            <rico:beginningDate rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1989</rico:beginningDate>
+            <rico:endDate rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1997</rico:endDate>
+            <rico:date xml:lang="en">1989-1997</rico:date>
+            <rdfs:seeAlso rdf:resource="https://www.siv.archives-nationales.culture.gouv.fr/siv/UD/mss_424/aspace_63eaf2115f2da31cd37382bd86694055"/>
+         </rico:Instantiation>
+      </rico:hasInstantiation>
+   </rico:RecordResource>
+   <rico:RecordResource rdf:about="recordResource/-aspace_8f53a4d31e3444d6ea3b604901f853da">
+      <rico:includedIn rdf:resource="recordResource/-top"/>
+      <rdf:type rdf:resource="https://www.ica.org/standards/RiC/ontology#RecordSet"/>
+      <rico:hasRecordSetType rdf:resource="https://www.ica.org/standards/RiC/vocabularies/recordSetTypes#File"/>
+      <rico:title xml:lang="en">Journals</rico:title>
+      <rdfs:label xml:lang="en">Journals</rdfs:label>
+      <rico:beginningDate rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1997</rico:beginningDate>
+      <rico:endDate rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">2003</rico:endDate>
+      <rico:date xml:lang="en">1997-2003</rico:date>
+      <rico:hasInstantiation>
+         <rico:Instantiation rdf:about="instantiation/-aspace_8f53a4d31e3444d6ea3b604901f853da-i1">
+            <rico:instantiates rdf:resource="recordResource/-aspace_8f53a4d31e3444d6ea3b604901f853da"/>
+            <rico:title xml:lang="en">Journals</rico:title>
+            <rdfs:label xml:lang="en">Journals</rdfs:label>
+            <rico:beginningDate rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1997</rico:beginningDate>
+            <rico:endDate rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">2003</rico:endDate>
+            <rico:date xml:lang="en">1997-2003</rico:date>
+            <rdfs:seeAlso rdf:resource="https://www.siv.archives-nationales.culture.gouv.fr/siv/UD/mss_424/aspace_8f53a4d31e3444d6ea3b604901f853da"/>
+         </rico:Instantiation>
+      </rico:hasInstantiation>
+   </rico:RecordResource>
+   <rico:RecordResource rdf:about="recordResource/-aspace_343600aa12c6fa88faa5f76db6a23af3">
+      <rico:includedIn rdf:resource="recordResource/-top"/>
+      <rdf:type rdf:resource="https://www.ica.org/standards/RiC/ontology#RecordSet"/>
+      <rico:hasRecordSetType rdf:resource="https://www.ica.org/standards/RiC/vocabularies/recordSetTypes#File"/>
+      <rico:title xml:lang="en">Journals</rico:title>
+      <rdfs:label xml:lang="en">Journals</rdfs:label>
+      <rico:beginningDate rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">2003</rico:beginningDate>
+      <rico:endDate rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">2010</rico:endDate>
+      <rico:date xml:lang="en">2003-2010</rico:date>
+      <rico:hasInstantiation>
+         <rico:Instantiation rdf:about="instantiation/-aspace_343600aa12c6fa88faa5f76db6a23af3-i1">
+            <rico:instantiates rdf:resource="recordResource/-aspace_343600aa12c6fa88faa5f76db6a23af3"/>
+            <rico:title xml:lang="en">Journals</rico:title>
+            <rdfs:label xml:lang="en">Journals</rdfs:label>
+            <rico:beginningDate rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">2003</rico:beginningDate>
+            <rico:endDate rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">2010</rico:endDate>
+            <rico:date xml:lang="en">2003-2010</rico:date>
+            <rdfs:seeAlso rdf:resource="https://www.siv.archives-nationales.culture.gouv.fr/siv/UD/mss_424/aspace_343600aa12c6fa88faa5f76db6a23af3"/>
+         </rico:Instantiation>
+      </rico:hasInstantiation>
+   </rico:RecordResource>
+   <rico:RecordResource rdf:about="recordResource/-aspace_459e81b257010568fcdc0722927dbade">
+      <rico:includedIn rdf:resource="recordResource/-top"/>
+      <rdf:type rdf:resource="https://www.ica.org/standards/RiC/ontology#RecordSet"/>
+      <rico:hasRecordSetType rdf:resource="https://www.ica.org/standards/RiC/vocabularies/recordSetTypes#File"/>
+      <rico:title xml:lang="en">Calendars</rico:title>
+      <rdfs:label xml:lang="en">Calendars</rdfs:label>
+      <rico:beginningDate rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">2001</rico:beginningDate>
+      <rico:endDate rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">2011</rico:endDate>
+      <rico:date xml:lang="en">2001-2011</rico:date>
+      <rico:hasInstantiation>
+         <rico:Instantiation rdf:about="instantiation/-aspace_459e81b257010568fcdc0722927dbade-i1">
+            <rico:instantiates rdf:resource="recordResource/-aspace_459e81b257010568fcdc0722927dbade"/>
+            <rico:title xml:lang="en">Calendars</rico:title>
+            <rdfs:label xml:lang="en">Calendars</rdfs:label>
+            <rico:beginningDate rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">2001</rico:beginningDate>
+            <rico:endDate rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">2011</rico:endDate>
+            <rico:date xml:lang="en">2001-2011</rico:date>
+            <rdfs:seeAlso rdf:resource="https://www.siv.archives-nationales.culture.gouv.fr/siv/UD/mss_424/aspace_459e81b257010568fcdc0722927dbade"/>
+         </rico:Instantiation>
+      </rico:hasInstantiation>
+   </rico:RecordResource>
+   <rico:RecordResource rdf:about="recordResource/-aspace_e7bac39d6c261b91d44cb12136f9b4d7">
+      <rico:includedIn rdf:resource="recordResource/-top"/>
+      <rdf:type rdf:resource="https://www.ica.org/standards/RiC/ontology#RecordSet"/>
+      <rico:hasRecordSetType rdf:resource="https://www.ica.org/standards/RiC/vocabularies/recordSetTypes#File"/>
+      <rico:title xml:lang="en">Publications</rico:title>
+      <rdfs:label xml:lang="en">Publications</rdfs:label>
+      <rico:beginningDate rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1981</rico:beginningDate>
+      <rico:endDate rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">2014</rico:endDate>
+      <rico:date xml:lang="en">1981-2014</rico:date>
+      <rico:hasInstantiation>
+         <rico:Instantiation rdf:about="instantiation/-aspace_e7bac39d6c261b91d44cb12136f9b4d7-i1">
+            <rico:instantiates rdf:resource="recordResource/-aspace_e7bac39d6c261b91d44cb12136f9b4d7"/>
+            <rico:title xml:lang="en">Publications</rico:title>
+            <rdfs:label xml:lang="en">Publications</rdfs:label>
+            <rico:beginningDate rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1981</rico:beginningDate>
+            <rico:endDate rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">2014</rico:endDate>
+            <rico:date xml:lang="en">1981-2014</rico:date>
+            <rdfs:seeAlso rdf:resource="https://www.siv.archives-nationales.culture.gouv.fr/siv/UD/mss_424/aspace_e7bac39d6c261b91d44cb12136f9b4d7"/>
+         </rico:Instantiation>
+      </rico:hasInstantiation>
+   </rico:RecordResource>
+   <rico:RecordResource rdf:about="recordResource/-aspace_0782f1b3ffcdb925686bee1d00fcca75">
+      <rico:includedIn rdf:resource="recordResource/-top"/>
+      <rdf:type rdf:resource="https://www.ica.org/standards/RiC/ontology#RecordSet"/>
+      <rico:hasRecordSetType rdf:resource="https://www.ica.org/standards/RiC/vocabularies/recordSetTypes#File"/>
+      <rico:title xml:lang="en">Book launch party for VTC Players</rico:title>
+      <rdfs:label xml:lang="en">Book launch party for VTC Players</rdfs:label>
+      <rico:beginningDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">1993-03-04</rico:beginningDate>
+      <rico:endDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">1993-03-04</rico:endDate>
+      <rico:date xml:lang="en">March 4th, 1993</rico:date>
+      <rico:hasInstantiation>
+         <rico:Instantiation rdf:about="instantiation/-aspace_0782f1b3ffcdb925686bee1d00fcca75-i1">
+            <rico:instantiates rdf:resource="recordResource/-aspace_0782f1b3ffcdb925686bee1d00fcca75"/>
+            <rico:title xml:lang="en">Book launch party for VTC Players</rico:title>
+            <rdfs:label xml:lang="en">Book launch party for VTC Players</rdfs:label>
+            <rico:beginningDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">1993-03-04</rico:beginningDate>
+            <rico:endDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">1993-03-04</rico:endDate>
+            <rico:date xml:lang="en">March 4th, 1993</rico:date>
+            <rdfs:seeAlso rdf:resource="https://www.siv.archives-nationales.culture.gouv.fr/siv/UD/mss_424/aspace_0782f1b3ffcdb925686bee1d00fcca75"/>
+         </rico:Instantiation>
+      </rico:hasInstantiation>
+   </rico:RecordResource>
+</rdf:RDF>

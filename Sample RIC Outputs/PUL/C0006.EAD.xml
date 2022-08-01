@@ -1,0 +1,2735 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE ead
+  SYSTEM "ead.dtd">
+<ead xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+     xsi:schemaLocation="urn:isbn:1-931666-22-9 http://www.loc.gov/ead/ead.xsd"
+     audience="external">
+    <eadheader countryencoding="iso3166-1"
+              dateencoding="iso8601"
+              langencoding="iso639-2b"
+              repositoryencoding="iso15511"
+              scriptencoding="iso15924">
+        <eadid countrycode="US"
+             mainagencycode="US-NjP"
+             url="http://arks.princeton.edu/ark:/88435/2n49t1707"
+             urn="ark:/88435/2n49t1707">C0006</eadid>
+        <filedesc>
+            <titlestmt>
+                <titleproper>John James Audubon Collection, <date normal="1788/1970" type="inclusive">1788-1970</date>: Finding Aid</titleproper>
+            </titlestmt>
+            <publicationstmt id="rbscAddress">
+                <publisher>Princeton University Library. Special Collections.</publisher>
+                <address>
+                    <addressline>Manuscripts Division</addressline>
+                    <addressline>One Washington Road</addressline>
+                    <addressline>Princeton, New Jersey 08544 USA</addressline>
+                    <addressline>Phone: (609) 258-3184</addressline>
+                    <addressline>Fax: (609) 258-2324</addressline>
+                    <addressline>rbsc@princeton.edu</addressline>
+                    <addressline>http://www.princeton.edu/~rbsc</addressline>
+                </address>
+                <date type="publication" normal="1999">1999</date>
+            </publicationstmt>
+        </filedesc>
+        <profiledesc>
+            <creation>Machine-readable finding aid encoded in EAD 2002 by Techbooks and Cristela
+                García-Spitz on <date normal="2007-04-27">April 27, 2007</date>. Created from MARC
+                record via MarcEdit and XSL stylesheets in 2007.</creation>
+            <langusage>
+                <language langcode="eng"/>
+            </langusage>
+            <descrules>Finding aid content adheres to that prescribed by <emph render="italic">Describing Archives: A Content Standard.</emph>
+            </descrules>
+        </profiledesc>
+        <revisiondesc>
+            <change>
+                <date normal="2012-05-02">2012-05-02T13:46:30.494-04:00</date>
+                <item>Run through PULFA 2.0 normalization routines.</item>
+            </change>
+            <change>
+                <date normal="2014-03-26">2014-03-26T14:01:06.557-04:00</date>
+                <item>Run through PULFA 2.0 normalization routines.</item>
+            </change>
+        </revisiondesc>
+    </eadheader>
+    <archdesc type="findingaid" level="collection" relatedencoding="marc21">
+        <did>
+            <unitid type="collection" countrycode="US" repositorycode="US-NjP">C0006</unitid>
+            <repository id="mss">
+                <corpname source="viaf" authfilenumber="http://viaf.org/viaf/168350386">Princeton
+                    University Library. Special Collections.</corpname>
+                <subarea>Manuscripts Division</subarea>
+                <address>
+                    <addressline>One Washington Road</addressline>
+                    <addressline>Princeton, New Jersey 08544 USA</addressline>
+                </address>
+            </repository>
+            <unittitle>John James Audubon Collection</unittitle>
+            <unitdate normal="1788/1970" type="inclusive">1788-1970</unitdate>
+            <physdesc>
+                <extent>5 linear feet</extent>
+                <extent unit="box" altrender="part">6 boxes</extent>
+                <extent unit="volume" altrender="part">6 bound volume</extent>
+            </physdesc>
+            <origination>
+                <persname source="viaf"
+                      role="cre"
+                      authfilenumber="http://viaf.org/viaf/14765625">Audubon, John James, 1785-1851.<ptr target="C0006_b1"/>
+            </persname>
+                <corpname source="viaf"
+                      role="cre"
+                      authfilenumber="https://viaf.org/viaf/168350386">Princeton University. Library. Special Collections</corpname>
+            </origination>
+            <langmaterial>
+                <language langcode="eng"/>
+            </langmaterial>
+            <abstract>John James Audubon (1785-1851) was a nineteenth-century ornithologist, artist,
+                and naturalist who published his illustrations of American birds and quadrupeds.
+                This collection includes several original manuscripts, transcripts and photostats of
+                manuscripts, correspondence of John James and Lucy Bakewell Audubon (originals and
+                copies), and other printed materials related to Audubon, which have been assembled
+                from various sources.</abstract>
+            <physloc type="code">mss</physloc>
+        </did>
+        <bioghist id="C0006_b1">
+            <p>John James Audubon (1785-1851) was an ornithologist, artist, and naturalist, best
+                known for his drawings and paintings of North American birds. Audubon was born Jean
+                Rabin Fougère in Les Cayes, Santo Domingo (now Haiti), the son of Captain Jean
+                Audubon, a French sea captain, plantation owner, and enslaver, and Jeanne Rabin (or
+                Rabine), a French chambermaid. Later in his childhood he moved to France, and when
+                he was 18, he moved to the United States to manage Mill Grove, his family's farm
+                outside of Philadelphia, Pennsylvania. He married Lucy Bakewell, the daughter of a
+                neighboring landowner in 1808. Audubon began to develop an interest in North
+                American birds as he unsuccessfully moved through careers as a mine owner, a
+                shopkeeper, and a businessman. Eventually settling into whatever odd jobs he could
+                obtain, Audubon began seeking a printer in Europe to publish his drawings of
+                American birds. In 1838, Audubon finally published his The
+                    Birds of America through publisher Robert Havell of London. From 1839
+                until his death in 1851, Audubon remained primarily in New York, working on another
+                edition of his book and a new book, Viviparous Quadrupeds of
+                    North America, with his sons.</p>
+        </bioghist>
+        <descgrp id="dacs3">
+            <scopecontent>
+                <p>Consists of materials created by and related to John James Audubon (1785-1851)
+                    that were collected from various sources. These include original manuscripts and
+                    correspondence, photostat copies and transcripts of additional manuscripts and
+                    correspondence, printed materials relating to Audubon's life and work, and files
+                    pertaining to a 1959 Princeton University Library exhibition titled "The World
+                    of John James Audubon." Much of this material was assembled by Dr. Howard C.
+                    Rice, Jr., former head of Special Collections at Princeton University
+                    Library.</p>
+                <p>Original Audubon manuscripts include several descriptions used in his <emph render="italic">Ornithological Biography</emph> (Edinburgh: A. Black,
+                    1831-1839); manuscript descriptions to accompany plates 1-7, 10, 13-17, 19, 23,
+                    25, 28, 31-32, 34, 36, 38, 40-41, and 45 in his Viviparous
+                        Quadrupeds of North America (New York: J. J. Audubon, 1845-1848); and
+                    over 50 letters by Audubon to Lucy Bakewell Audubon (his wife), John Woodhouse
+                    and Victor Gifford Audubon (his sons), Robert Havell (the English engraver of
+                        Birds of America), and others. In addition,
+                    there are original letters by Lucy Bakewell Audubon, John Woodhouse and Victor
+                    Gifford Audubon, John and Julia Bachman, members of the Bakewell family, and
+                    Francis Herrick. Accompanying an 1834 letter to Robert Havell is also an
+                    original proof for "Summer Red Bird" (plate 44) in Birds
+                        of America.</p>
+                <p>More than 30 photostat copies and 6 bound volumes of Howard Corning's transcripts
+                    extend the collection's coverage of Audubon's correspondence. Corning's
+                    transcripts also cover Audubon's journals from 1820-1821 and 1840-1843. Subject
+                    files of printed materials include clippings, pamphlets, catalogs, and related
+                    correspondence pertaining to exhibitions about Audubon, his life in Florida,
+                    Robert Havell, portraits by and of Audubon, and Mill Grove, Audubon's
+                    Pennsylvania estate. Material related to Princeton's 1959 comprehensive Audubon
+                    exhibition includes related correspondence, publicity, and research files.</p>
+            </scopecontent>
+        </descgrp>
+        <descgrp id="dacs4">
+            <accessrestrict type="open">
+                <p>Collection is open for research use.</p>
+            </accessrestrict>
+            <userestrict>
+                <p>Single photocopies may be made for research purposes. No further photoduplication
+                    of copies of material in the collection can be made when Princeton University
+                    Library does not own the original. Inquiries regarding publishing material from
+                    the collection should be directed to RBSC Public Services staff through the <extref xmlns:xlink="http://www.w3.org/1999/xlink"
+                       xlink:href="https://library.princeton.edu/special-collections/ask-us"
+                       xlink:type="simple">Ask Us! form</extref>. The library has no information on the status of literary
+                    rights in the collection and researchers are responsible for determining any
+                    questions of copyright.</p>
+            </userestrict>
+        </descgrp>
+        <descgrp id="dacs5">
+            <acqinfo>
+                <p>This collection was formed as a result of a departmental practice of combining
+                    into one collection material of various accessions relating to a particular
+                    person, family, or subject. Materials were acquired from various gifts and
+                    purchases.</p>
+            </acqinfo>
+            <appraisal>
+                <p>No appraisal information is available.</p>
+            </appraisal>
+        </descgrp>
+        <descgrp id="dacs6">
+            <altformavail>
+                <p>Publications: Audubon's Ornithological Biography
+                    (Edinburgh: A. Black, 1831-1839) and Viviparous Quadrapeds
+                        of North America (New York: J. J. Audubon, 1845-1848); <emph render="italic">Letters of John James Audbon</emph>, edited by Howard
+                    Corning (1930).</p>
+            </altformavail>
+        </descgrp>
+        <descgrp id="dacs7">
+            <prefercite>
+                <p>Identification of specific item; Date (if known); John James Audubon Collection;
+                    Box and Folder Number; Special Collections, Princeton University Library.</p>
+            </prefercite>
+            <processinfo type="processing">
+                <p>Original processing information unknown. Biography written by Alyxandra Cullen,
+                    '09. The finding aid was revised by Kelly Bolding in 2020.</p>
+            </processinfo>
+            <bibliography>
+                <p>The following sources were consulted during preparation of biographical note:
+                    Encyclopedia Britannica Online.</p>
+            </bibliography>
+        </descgrp>
+        <controlaccess>
+            <persname source="lcnaf" authfilenumber="viaf.org/viaf/14765625">Audubon, John James, 1785-1851 -- Correspondence.</persname>
+            <persname source="lcnaf" authfilenumber="viaf.org/viaf/14765625">Audubon, John James, 1785-1851 -- Exhibitions.</persname>
+            <persname source="lcnaf" authfilenumber="viaf.org/viaf/14765625">Audubon, John James, 1785-1851 -- Manuscripts.</persname>
+            <persname source="viaf" authfilenumber="http://viaf.org/viaf/33337252">Audubon, Lucy
+                Green Bakewell, 1788-1874.</persname>
+            <persname source="viaf" authfilenumber="http://viaf.org/viaf/84504132">Rice, Howard C.
+                (Howard Crosby), 1904-1980.</persname>
+            <subject source="lcsh">Mammals -- United States -- 19th century.</subject>
+            <subject source="lcsh">Ornithology -- United States -- 19th century.</subject>
+            <genreform source="aat">Correspondence -- 19th century.</genreform>
+            <genreform source="aat">Manuscripts -- 19th century.</genreform>
+            <occupation source="lcsh">Artists -- United States -- 19th century.</occupation>
+            <occupation source="lcsh">Ornithologists -- United States -- 19th century.</occupation>
+            <subject source="local"
+                  encodinganalog="690"
+                  rules="local"
+                  authfilenumber="t14">Art
+                history</subject>
+            <subject source="local"
+                  encodinganalog="690"
+                  rules="local"
+                  authfilenumber="t31">History
+                of science</subject>
+        </controlaccess>
+        <dsc type="combined">
+            <c id="C0006_c0001" level="series">
+                <did>
+                    <unittitle>Ornithological Biography Vol. III and
+                        IV</unittitle>
+                    <unitdate normal="1827/1839" type="inclusive">circa 1827-1839</unitdate>
+                    <physdesc>
+                        <extent type="computed" unit="folder">7 folders</extent>
+                    </physdesc>
+                </did>
+                <scopecontent>
+                    <p>Consists of original manuscript descriptions of "Great Cormorant," "Glossy
+                        Ibis," and "Purple Gallinule," as well as photostat copies and transcripts
+                        of other descriptions used in "Ornithological Biography," Vol. III and IV.
+                        There are also some notes and descriptions from Princeton University
+                        Library's 1959 exhibition on Audubon. </p>
+                </scopecontent>
+                <c level="file" id="C0006_c0015">
+                    <did>
+                        <container type="folder" parent="C0006_i2">1</container>
+                        <unittitle>Autograph Manuscript, "Great Cormorant," note, cf. <emph render="italic">Ornithological Biography.</emph> III,
+                            458-469</unittitle>
+                        <unitdate normal="1827/1839" type="inclusive">circa 1827-1839</unitdate>
+                        <physdesc>
+                            <extent type="computed" unit="folder">1 folder</extent>
+                        </physdesc>
+                    </did>
+                    <scopecontent>
+                        <p>Includes original, along with photostat copy and transcript.</p>
+                    </scopecontent>
+                    <acqinfo>
+                        <p>Original acquired by Princeton University Library in 1965.</p>
+                    </acqinfo>
+                </c>
+                <c level="file" id="C0006_c0016">
+                    <did>
+
+                        <container type="folder" parent="C0006_i2">2</container>
+                        <unittitle>Photostat Copy of Autograph Manuscript, "Glossy Ibis" revised
+                            version, Ornithological Biography. IV,
+                            608-611</unittitle>
+                        <unitdate normal="1827/1839" type="inclusive">circa 1827-1839</unitdate>
+                        <physdesc>
+                            <extent type="computed" unit="folder">1 folder</extent>
+                        </physdesc>
+                    </did>
+                    <scopecontent>
+                        <p>Includes photostat copy and transcript. Original in possession of Mrs.
+                            Wharton Sinkler, 631 East Garvers Lane, Philadelphia.</p>
+                    </scopecontent>
+                </c>
+                <c level="file" id="C0006_c0002">
+                    <did>
+                        <container type="folder" parent="C0006_i1">1</container>
+                        <unittitle>Photostat Copy of Autograph Manuscript, "The Wreckers of
+                            Florida," episode, Ornithological
+                            Biography., III, 158-163</unittitle>
+                        <unitdate normal="1827/1839" type="inclusive">circa 1827-1839</unitdate>
+                        <physdesc>
+                            <extent type="computed" unit="folder">1 folder</extent>
+                        </physdesc>
+                    </did>
+                    <scopecontent>
+                        <p>Original in possession of National Audubon Society, New York.</p>
+                    </scopecontent>
+                </c>
+                <c level="file" id="C0006_c0003">
+                    <did>
+
+                        <container type="folder" parent="C0006_i1">2</container>
+                        <unittitle>Photostat Copy of Autograph Manuscript, "Visits to &amp; from
+                            Thomas Bewick," episode, Ornithological
+                                Biography., III, 300-304</unittitle>
+                        <unitdate normal="1827/1839" type="inclusive">circa 1827-1839</unitdate>
+                        <physdesc>
+                            <extent type="computed" unit="folder">1 folder</extent>
+                        </physdesc>
+                    </did>
+                    <scopecontent>
+                        <p>Original in possession of National Audubon Society, New York.</p>
+                    </scopecontent>
+                </c>
+                <c level="file" id="C0006_c0004">
+                    <did>
+
+                        <container type="folder" parent="C0006_i1">3</container>
+                        <unittitle>Photostat Copy of Autograph Manuscript, "A Tough Walk for a
+                            Youth," episode, Ornithological Biography.,
+                            III, 371-375</unittitle>
+                        <unitdate normal="1827/1839" type="inclusive">circa 1827-1839</unitdate>
+                        <physdesc>
+                            <extent type="computed" unit="folder">1 folder</extent>
+                        </physdesc>
+                    </did>
+                    <scopecontent>
+                        <p>Original in possession of National Audubon Society, New York.</p>
+                    </scopecontent>
+                </c>
+                <c level="file" id="C0006_c0005">
+                    <did>
+                        <container type="folder" parent="C0006_i1">4</container>
+                        <unittitle>Autograph Manuscript, "Purple Gallinule," <emph render="italic">Ornithological Biography.</emph>, IV, 37-42</unittitle>
+                        <unitdate normal="1827/1839" type="inclusive">circa 1827-1839</unitdate>
+                        <physdesc>
+                            <extent type="computed" unit="folder">1 folder</extent>
+                        </physdesc>
+                    </did>
+                    <acqinfo>
+                        <p>Deposit of J.S. Williams (No. 9251).</p>
+                    </acqinfo>
+                </c>
+                <c level="file" id="C0006_c0006">
+                    <did>
+                        <container type="folder" parent="C0006_i1">5</container>
+                        <unittitle>Autograph Manuscript, "Glossy Ibis," <emph render="italic">Ornithological Biography.</emph>, IV, 608-611</unittitle>
+                        <unitdate normal="1827/1839" type="inclusive">circa 1827-1839</unitdate>
+                        <physdesc>
+                            <extent type="computed" unit="folder">1 folder</extent>
+                        </physdesc>
+                    </did>
+                    <scopecontent>
+                        <p>Includes original, along with photostat copy and transcript.</p>
+                    </scopecontent>
+                </c>
+            </c>
+            <c id="C0006_c0017" level="series">
+                <did>
+                    <unitid type="accessionnumber">AM 15044</unitid>
+                    <unittitle>The Viviparous Quadrupeds of North
+                            America Vol. I</unittitle>
+                    <unitdate normal="1846/1846">1846</unitdate>
+                    <physdesc>
+                        <extent type="computed" unit="folder">6 folders</extent>
+                    </physdesc>
+                </did>
+                <scopecontent>
+                    <p>These descriptive notes by John James Audubon, in his hand, were used by John
+                        Bachman in preparing the text for the <emph render="italic">Quadrupeds</emph>, first printed in three volumes (1846, 1851, 1854),
+                        to accompany the large folio plates (issued in three volumes 1845-1848; 150
+                        plates in all). Comparison of these manuscripts with the printed text shows
+                        that Bachman edited the material supplied by Audubon, incorporating most of
+                        it in the final version, but with additions, omissions and other
+                        modifications. There are marginal notes by Victor G. Audubon and Bachman.
+                        There are also some notes and descriptions from Princeton University
+                        Library's 1959 exhibition on Audubon.</p>
+                </scopecontent>
+                <c level="file" id="C0006_c0018">
+                    <did>
+                        <container type="folder" parent="C0006_i2">3</container>
+                        <unittitle>
+                            Quadrupeds, nos. 1-6</unittitle>
+                        <unitdate normal="1846/1846">1846</unitdate>
+                        <physdesc>
+                            <extent type="computed" unit="folder">1 folder</extent>
+                        </physdesc>
+                    </did>
+                    <scopecontent>
+                        <p>Includes:</p>
+                        <p>(1) "Common American Wild Cat" : Plate 1 (text), I, 2-15.</p>
+                        <p>(2) "Wood-Chuck" : Plate 2 (text), I, 16-24.</p>
+                        <p>(3) "Townsend's Rocky Mountain Hare" : Plate 3, I, 25-30.</p>
+                        <p>(4) "Florida Rat" : Plate 4, I, 32-37.</p>
+                        <p>(5) "Richardson's Columbian Squirrel" : Plate 5, I, 41-43.</p>
+                        <p>(6) "American Cross Fox" : Plate 6, I, 45-54.</p>
+                    </scopecontent>
+                </c>
+                <c level="file" id="C0006_c0025">
+                    <did>
+                        <container type="folder" parent="C0006_i2">4</container>
+                        <unittitle>
+                            Quadrupeds, nos. 7, 10</unittitle>
+                        <unitdate normal="1846/1846">1846</unitdate>
+                        <physdesc>
+                            <extent type="computed" unit="folder">1 folder</extent>
+                        </physdesc>
+                    </did>
+                    <scopecontent>
+                        <p>Includes:</p>
+                        <p>(1) "Carolina Grey Squirrel" : Plate 7, I, 55-63.</p>
+                        <p>(2) "Common American Shrew Mole" : Plate 10, I, 81-92.</p>
+                    </scopecontent>
+                </c>
+                <c level="file" id="C0006_c0028">
+                    <did>
+                        <container type="folder" parent="C0006_i2">5</container>
+                        <unittitle>
+                            Quadrupeds, nos. 13-15</unittitle>
+                        <unitdate normal="1846/1846">1846</unitdate>
+                        <physdesc>
+                            <extent type="computed" unit="folder">1 folder</extent>
+                        </physdesc>
+                    </did>
+                    <scopecontent>
+                        <p>Includes:</p>
+                        <p>(1) "Musk-Rat" : Plate 13, I, 108-124.</p>
+                        <p>(2) "Hudson's Bay Squirrel" : Plate 14, I, 125-131.</p>
+                        <p>(3) "Oregon Flying Squirrel" : Plate 15, I, 132-135.</p>
+                    </scopecontent>
+                </c>
+                <c level="file" id="C0006_c0032">
+                    <did>
+                        <container type="folder" parent="C0006_i2">6</container>
+                        <unittitle>
+                            Quadrupeds, nos. 16, 17, 19</unittitle>
+                        <unitdate normal="1846/1846">1846</unitdate>
+                        <physdesc>
+                            <extent type="computed" unit="folder">1 folder</extent>
+                        </physdesc>
+                    </did>
+                    <scopecontent>
+                        <p>(1) "Canada Lynx" : Plate 16, I, 136-144.</p>
+                        <p>(2) "Cat Squirrel" : Plate 17, I, 145-150.</p>
+                        <p>(3) "Soft-Haired Squirrel" : Plate 19 (text), I, 157-158.</p>
+                    </scopecontent>
+                </c>
+                <c level="file" id="C0006_c0036">
+                    <did>
+                        <container type="folder" parent="C0006_i2">7</container>
+                        <unittitle>
+                            Quadrupeds, nos. 23, 28, 31, 32, 34, 36,
+                            38, 40, 41, 45</unittitle>
+                        <unitdate normal="1846/1846">1846</unitdate>
+                        <physdesc>
+                            <extent type="computed" unit="folder">1 folder</extent>
+                        </physdesc>
+                    </did>
+                    <scopecontent>
+                        <p>Includes:</p>
+                        <p>(1) "Mink" (fragment only) : Plate 23 (text), I, 250-260.</p>
+                        <p>(2) "Common Flying Squirrel" : Plate 28 (text), I, 216-222.</p>
+                        <p>(3) "Collared Peccany" : Plate 31, I, 233-241.</p>
+                        <p>(4) "Polar Hare" : Plate 32, I, 242-249.</p>
+                        <p>(5) "Black Squirrel" : Plate 34, I, 261-264.</p>
+                        <p>(6) "Canada Porcupine" : Plate 36, I, 277-286.</p>
+                        <p>(7) "Red-bellied Squirrel" : Plate 38, I, 292-293.</p>
+                        <p>(8) [American] "White-footed Mouse" : Plate 40, I, 300-306.</p>
+                        <p>(9) "Pennant's Marten" : Plate 41, I, 307-315.</p>
+                        <p>(10) "Wilson's Meadow Mouse" : Plate 45, I, 341-346.</p>
+                    </scopecontent>
+                </c>
+                <c level="file" id="C0006_c0047">
+                    <did>
+                        <container type="folder" parent="C0006_i2">8</container>
+                        <unittitle>
+                            Quadrupeds, no. 25</unittitle>
+                        <unitdate normal="1846/1846">1846</unitdate>
+                        <physdesc>
+                            <extent type="computed" unit="folder">1 folder</extent>
+                        </physdesc>
+                    </did>
+                    <scopecontent>
+                        <p>Includes:</p>
+                        <p>"Donny Squirrel" : Plate 25 (text), I, 199-201.</p>
+                    </scopecontent>
+                </c>
+            </c>
+            <c id="C0006_c0007" level="series">
+                <did>
+                    <unittitle>Correspondence</unittitle>
+                    <unitdate normal="1788/1963" type="inclusive">1788-1963</unitdate>
+                    <physdesc>
+                        <extent type="computed" unit="box">3 boxes</extent>
+                    </physdesc>
+                </did>
+                <scopecontent>
+                    <p>Consists of correspondence of John James Audubon, Lucy Bakewell Audubon, and
+                        others, including original letters as well as photostat copies and typed
+                        transcripts.</p>
+                </scopecontent>
+                <arrangement>
+                    <p>This series is arranged into five groupings: Letters Relating to Lucy
+                        Bakewell Audubon; John James Audubon Letters (Originals), Letters of Others
+                        (Originals), John James Audubon Letters (Photostat Copies), and Letters of
+                        Others (Photostat Copies).</p>
+                </arrangement>
+                <c id="C0006_c0049" level="subseries">
+                    <did>
+                        <unittitle>Letters Relating to Lucy Bakewell Audubon</unittitle>
+                        <unitdate normal="1788/1863" type="inclusive">1788-1963</unitdate>
+                        <physdesc>
+                            <extent type="computed" unit="folder">12 folders</extent>
+                        </physdesc>
+                    </did>
+                    <scopecontent>
+                        <p>Consists of correspondence from Lucy Bakewell Audubon, who was married to
+                            John James Audubon, and family members, primarily to Miss Gifford. There
+                            is also some later material created by Dr. Howard C. Rice, Jr., in
+                            relation to his article about Lucy Bakewell Audubon in the <emph render="italic">Princeton University Library Chronicle</emph>.</p>
+                    </scopecontent>
+                    <arrangement>
+                        <p>Arranged chronologically.</p>
+                    </arrangement>
+                    <c level="file" id="C0006_c0050">
+                        <did>
+
+                            <container type="folder" parent="C0006_i2">9</container>
+                            <unittitle>
+                                Chronicle Article and Notes by H. C.
+                                Rice, Jr., Regarding "Mr. Audubon's Lucy"</unittitle>
+                            <unitdate type="inclusive" normal="1963">1963</unitdate>
+                            <physdesc>
+                                <extent type="computed" unit="folder">1 folder</extent>
+                            </physdesc>
+                        </did>
+                        <scopecontent>
+                            <p>Includes inventories of Princeton's Lucy Bakewell Audubon
+                                letters.</p>
+                        </scopecontent>
+                    </c>
+                    <c level="file" id="C0006_c0051">
+                        <did>
+                            <unitid type="accessionnumber">AM 17555</unitid>
+                            <container type="folder" parent="C0006_i2">10</container>
+                            <unittitle>Lucy Bakewell Audubon Letters to Miss (&amp; Mrs.)
+                                Gifford</unittitle>
+                            <unitdate type="inclusive" normal="1803/1838">1803-1838</unitdate>
+                            <physdesc>
+                                <extent type="computed" unit="folder">1 folder</extent>
+                            </physdesc>
+                        </did>
+                        <scopecontent>
+                            <p>7 letters. Originals. Postscript: New Orleans, 11 April 1821, by J.
+                                J. Audubon on Lucy's letter of 1 April, 1821.</p>
+                        </scopecontent>
+                        <acqinfo>
+                            <p>Purchased at Sotheby sale, 2 July 1962.</p>
+                        </acqinfo>
+                    </c>
+                    <c level="file" id="C0006_c0052">
+                        <did>
+                            <unitid type="accessionnumber">AM 17555</unitid>
+                            <container type="folder" parent="C0006_i2">11</container>
+                            <unittitle>Photostat Copies of Lucy Bakewell Audubon Letters to Miss
+                                (&amp; Mrs.) Gifford</unittitle>
+                            <unitdate type="inclusive" normal="1803/1838">1803-1838</unitdate>
+                            <physdesc>
+                                <extent type="computed" unit="folder">1 folder</extent>
+                            </physdesc>
+                        </did>
+                        <scopecontent>
+                            <p>7 letters. Photostats and transcripts of B1 F10.</p>
+                        </scopecontent>
+                    </c>
+                    <c level="file" id="C0006_c0053">
+                        <did>
+                            <container type="folder" parent="C0006_i2">12</container>
+                            <unittitle>Description of Audubon-Bakewell Correspondence with Miss
+                                Gifford in Stark Collection</unittitle>
+                            <unitdate type="inclusive" normal="1963">1963</unitdate>
+                            <physdesc>
+                                <extent type="computed" unit="folder">1 folder</extent>
+                            </physdesc>
+                        </did>
+                        <scopecontent>
+                            <p>Description of Audubon Material in the Collection of H. J. Lutcher
+                                Stark, Orange, Texas.</p>
+                        </scopecontent>
+                    </c>
+                    <c level="file" id="C0006_c0054">
+                        <did>
+                            <unitid type="accessionnumber">AM 17555</unitid>
+                            <container type="folder" parent="C0006_i2">13</container>
+                            <unittitle>Photostat Copy of John James Audubon Letter to William
+                                Bakewell, La Gerbetière</unittitle>
+                            <unitdate normal="1805-05-20">1805 May 20</unitdate>
+                            <physdesc>
+                                <extent type="computed" unit="folder">1 folder</extent>
+                            </physdesc>
+                        </did>
+                        <scopecontent>
+                            <p>Photostat of B2 F1 - also see note for B1 F14.</p>
+                        </scopecontent>
+                    </c>
+                    <c level="file" id="C0006_c0055">
+                        <did>
+                            <unitid type="accessionnumber">AM 17555</unitid>
+                            <container type="folder" parent="C0006_i2">14</container>
+                            <unittitle>Photostat Copy of William Bakewell Letter to Miss Gifford
+                                Fatland Ford, Pennsylvania</unittitle>
+                            <unitdate normal="1805-07-19">1805 July 19</unitdate>
+                            <physdesc>
+                                <extent type="computed" unit="folder">1 folder</extent>
+                            </physdesc>
+                        </did>
+                        <scopecontent>
+                            <p>Enclosing the above letter from John James Audubon 1805 May 20.
+                                Original letter of William Bakewell not acquired by Princeton.
+                                Original Audubon letter in B2 F1.</p>
+                        </scopecontent>
+                        <acqinfo>
+                            <p>Purchased at Sotheby sale, 2 July 1962.</p>
+                        </acqinfo>
+                    </c>
+                    <c level="file" id="C0006_c0056">
+                        <did>
+                            <unitid type="accessionnumber">AM 17555</unitid>
+                            <container type="folder" parent="C0006_i2">15</container>
+                            <unittitle>Ann Bakewell Gordon Letters to Mrs. Gifford</unittitle>
+                            <unitdate normal="1831-04-04/1831-08-14">1831 April 4-August
+                                14</unitdate>
+                            <physdesc>
+                                <extent type="computed" unit="folder">1 folder</extent>
+                            </physdesc>
+                        </did>
+                        <scopecontent>
+                            <p>2 Letters. Originals. Dated 1831 April 4 and 1831 August 14
+                                (mentioning her sister Mrs. Audubon); also: Miss M. A. Coltman to
+                                Mrs. Gifford 1838 (mention of letter from Mrs. Audubon).</p>
+                        </scopecontent>
+                        <acqinfo>
+                            <p>Purchased at Sotheby Sale, 2 July 1962.</p>
+                        </acqinfo>
+                    </c>
+                    <c level="file" id="C0006_c0057">
+                        <did>
+                            <unitid type="accessionnumber">AM 17555</unitid>
+                            <container type="folder" parent="C0006_i2">16</container>
+                            <unittitle>Benjamin Bakewell, et al., Letters to Miss Gifford, et
+                                al.</unittitle>
+                            <unitdate type="inclusive" normal="1788/1829">1788-1829</unitdate>
+                            <physdesc>
+                                <extent type="computed" unit="folder">1 folder</extent>
+                            </physdesc>
+                        </did>
+                        <scopecontent>
+                            <p>28 letters. Originals.</p>
+                        </scopecontent>
+                        <acqinfo>
+                            <p>18 letters were purchased at Sotheby Sale, 2 July 1962, and 10
+                                additional letters not in sales catalogue were purchased
+                                subsequently in 1963 from Sotheby's.</p>
+                        </acqinfo>
+                    </c>
+                    <c level="file" id="C0006_c0058">
+                        <did>
+                            <unitid type="accessionnumber">AM 17707</unitid>
+                            <container type="folder" parent="C0006_i2">17</container>
+                            <unittitle>William Bakewell Letters to Miss Gifford</unittitle>
+                            <unitdate type="inclusive" normal="1801/1808">1801-1808</unitdate>
+                            <physdesc>
+                                <extent type="computed" unit="folder">1 folder</extent>
+                            </physdesc>
+                        </did>
+                        <scopecontent>
+                            <p>3 letters. Originals, with transcripts.</p>
+                        </scopecontent>
+                        <acqinfo>
+                            <p>Purchased from Sotheby's, 1962-1963.</p>
+                        </acqinfo>
+                    </c>
+                    <c level="file" id="C0006_c0059">
+                        <did>
+                            <unitid type="accessionnumber">AM 17555</unitid>
+                            <container type="folder" parent="C0006_i2">18</container>
+                            <unittitle>Photostat Copies of Benjamin Bakewell, et al., Letters to
+                                Miss Gifford, et al.</unittitle>
+                            <unitdate type="inclusive" normal="1788/1829">1788-1829</unitdate>
+                            <physdesc>
+                                <extent type="computed" unit="folder">1 folder</extent>
+                            </physdesc>
+                        </did>
+                        <scopecontent>
+                            <p>Photostats and transcripts of B1 F16.</p>
+                        </scopecontent>
+                    </c>
+                    <c level="file" id="C0006_c0060">
+                        <did>
+                            <unitid type="accessionnumber">AM 2009-3</unitid>
+                            <container type="folder" parent="C0006_i2">19</container>
+                            <unittitle>Transcripts of John James and Lucy Audubon Letters to
+                                Benjamin Phillips and Family</unittitle>
+                            <unitdate normal="1837/1837">1837</unitdate>
+                            <physdesc>
+                                <extent type="computed" unit="folder">1 folder</extent>
+                            </physdesc>
+                        </did>
+                        <scopecontent>
+                            <p>Typewritten transcripts only. Originals in possession of Phillips
+                                descendants in England.</p>
+                        </scopecontent>
+                    </c>
+                    <c level="file" id="C0006_c0061">
+                        <did>
+                            <unitid type="accessionnumber">AM 17555</unitid>
+                            <container type="folder" parent="C0006_i2">20</container>
+                            <unittitle>Photostat Copies of Ann Bakewell Gordon Letters to Mrs.
+                                Gifford</unittitle>
+                            <unitdate normal="1831/1838">1831-1838</unitdate>
+                            <physdesc>
+                                <extent type="computed" unit="folder">1 folder</extent>
+                            </physdesc>
+                        </did>
+                        <scopecontent>
+                            <p>Photostats of B1 F15.</p>
+                        </scopecontent>
+                        <acqinfo>
+                            <p>Purchased at Sotheby sale, 2 July 1962.</p>
+                        </acqinfo>
+                    </c>
+                </c>
+                <c id="C0006_c0063" level="subseries">
+                    <did>
+                        <unittitle>John James Audubon Letters (Originals)</unittitle>
+                        <unitdate normal="1805-05-20/1855-12-31" type="inclusive">1805 May
+                            20-1855</unitdate>
+                        <physdesc>
+                            <extent type="computed">56 folders</extent>
+                        </physdesc>
+                    </did>
+                    <scopecontent>
+                        <p>Consists primarily of letters from John James Audubon to Lucy Bakewell
+                            Audubon, with additional letters to Robert Havell, Victor Audubon, and
+                            Thomas McCulloch. Many originals are accompanied by photostat copies,
+                            transcripts, and materials related to acquisitions and provenance.</p>
+                    </scopecontent>
+                    <arrangement>
+                        <p>Arranged chronologically.</p>
+                    </arrangement>
+                    <c level="file" id="C0006_c0064">
+                        <did>
+                            <unitid type="accessionnumber">AM 17555</unitid>
+                            <container type="folder" parent="C0006_i3">1</container>
+                            <unittitle>Letter to William Bakewell, La Gerbetiere</unittitle>
+                            <unitdate normal="1805-05-20">1805 May 20</unitdate>
+                            <physdesc>
+                                <extent type="computed" unit="folder">1 folder</extent>
+                            </physdesc>
+                        </did>
+                        <acqinfo>
+                            <p>Purchased at Sotheby Sale, 2 July 1962.</p>
+                        </acqinfo>
+                    </c>
+                    <c level="file" id="C0006_c0065">
+                        <did>
+                            <unitid type="accessionnumber">AM 18786</unitid>
+                            <container type="folder" parent="C0006_i3">2</container>
+                            <unittitle>Letter to Charles d'Orbigny, New York</unittitle>
+                            <unitdate normal="1807-04-29">1807 April 29</unitdate>
+                            <physdesc>
+                                <extent type="computed" unit="folder">1 folder</extent>
+                            </physdesc>
+                        </did>
+                    </c>
+                    <c level="file" id="C0006_c0066">
+                        <did>
+                            <unitid type="accessionnumber">AM 18769</unitid>
+                            <container type="folder" parent="C0006_i3">3</container>
+                            <unittitle>Deposition of Laverty Repayment to Audubon &amp; Bakewell for
+                                Shipment of Tobacco, New Orleans</unittitle>
+                            <unitdate normal="1817/1820-08-10">1817-1820 August 10</unitdate>
+                            <physdesc>
+                                <extent type="computed" unit="folder">1 folder</extent>
+                            </physdesc>
+                        </did>
+                    </c>
+                    <c level="file" id="C0006_c0067">
+                        <did>
+
+                            <container type="folder" parent="C0006_i3">4</container>
+                            <unittitle>Letter to Lucy Bakewell Audubon, Liverpool</unittitle>
+                            <unitdate normal="1826-09-03">1826 September 3</unitdate>
+                            <physdesc>
+                                <extent type="computed" unit="folder">1 folder</extent>
+                            </physdesc>
+                        </did>
+                    </c>
+                    <c level="file" id="C0006_c0068">
+                        <did>
+
+                            <container type="folder" parent="C0006_i3">5</container>
+                            <unittitle>Letter to Lucy Bakewell Audubon, Edinburgh</unittitle>
+                            <unitdate normal="1826-12-09">1826 December 9</unitdate>
+                            <physdesc>
+                                <extent type="computed" unit="folder">1 folder</extent>
+                            </physdesc>
+                        </did>
+                    </c>
+                    <c level="file" id="C0006_c0069">
+                        <did>
+
+                            <container type="folder" parent="C0006_i3">6</container>
+                            <unittitle>Letter to Lucy Bakewell Audubon, Liverpool</unittitle>
+                            <unitdate normal="1827-05-15">1827 May 15</unitdate>
+                            <physdesc>
+                                <extent type="computed" unit="folder">1 folder</extent>
+                            </physdesc>
+                        </did>
+                    </c>
+                    <c level="file" id="C0006_c0070">
+                        <did>
+
+                            <container type="folder" parent="C0006_i3">7</container>
+                            <unittitle>Letter to Lucy Bakewell Audubon, London</unittitle>
+                            <unitdate normal="1827-06-20">1827 June 20</unitdate>
+                            <physdesc>
+                                <extent type="computed" unit="folder">1 folder</extent>
+                            </physdesc>
+                        </did>
+                    </c>
+                    <c level="file" id="C0006_c0071">
+                        <did>
+
+                            <container type="folder" parent="C0006_i3">8</container>
+                            <unittitle>Letter to Lucy Bakewell Audubon, Liverpool</unittitle>
+                            <unitdate normal="1827-11-25/1827-11-28">1827 November 25-28</unitdate>
+                            <unitdate type="inclusive" normal="1827-11-27/1827-11-28">1827 November
+                                27-28</unitdate>
+                            <physdesc>
+                                <extent type="computed" unit="folder">1 folder</extent>
+                            </physdesc>
+                        </did>
+                    </c>
+                    <c level="file" id="C0006_c0072">
+                        <did>
+
+                            <container type="folder" parent="C0006_i3">9</container>
+                            <unittitle>Letter to Lucy Bakewell Audubon, Liverpool</unittitle>
+                            <unitdate normal="1827-12-21">1827 December 21</unitdate>
+                            <physdesc>
+                                <extent type="computed" unit="folder">1 folder</extent>
+                            </physdesc>
+                        </did>
+                    </c>
+                    <c level="file" id="C0006_c0073">
+                        <did>
+
+                            <container type="folder" parent="C0006_i3">10</container>
+                            <unittitle>Letter to Lucy Bakewell Audubon, London</unittitle>
+                            <unitdate normal="1828-11-02">1828 November 2</unitdate>
+                            <physdesc>
+                                <extent type="computed" unit="folder">1 folder</extent>
+                            </physdesc>
+                        </did>
+                    </c>
+                    <c level="file" id="C0006_c0074">
+                        <did>
+
+                            <container type="folder" parent="C0006_i3">11</container>
+                            <unittitle>Letter Fragment to Victor G. Audubon, London</unittitle>
+                            <unitdate normal="1829-01/1829-03">1829</unitdate>
+                            <physdesc>
+                                <extent type="computed" unit="folder">1 folder</extent>
+                            </physdesc>
+                        </did>
+                    </c>
+                    <c level="file" id="C0006_c0009">
+                        <did>
+                            <unitid type="accessionnumber">AM 15808</unitid>
+                            <container type="folder" parent="C0006_i1">6</container>
+                            <unittitle>Letter to Robert Havell with Instructions for Re-engraving
+                                Legends, Edinburgh</unittitle>
+                            <unitdate normal="1831-03-02">1831 March 2</unitdate>
+                            <physdesc>
+                                <extent type="computed" unit="folder">1 folder</extent>
+                            </physdesc>
+                        </did>
+                        <scopecontent>
+                            <p>Original. Oversize.</p>
+                        </scopecontent>
+                        <acqinfo>
+                            <p>Gift of Elizabeth C. Chambers in 1957.</p>
+                        </acqinfo>
+                    </c>
+                    <c level="file" id="C0006_c0075">
+                        <did>
+                            <unitid type="accessionnumber">AM 18786</unitid>
+                            <container type="folder" parent="C0006_i3">12</container>
+                            <unittitle>Letter to Robert Havell, Edinburgh</unittitle>
+                            <unitdate normal="1831-03-26">1831 March 26</unitdate>
+                            <physdesc>
+                                <extent type="computed" unit="folder">1 folder</extent>
+                            </physdesc>
+                        </did>
+                    </c>
+                    <c level="file" id="C0006_c0076">
+                        <did>
+                            <unitid type="accessionnumber">AM 19639</unitid>
+                            <container type="folder" parent="C0006_i3">13</container>
+                            <unittitle>Letter to Edward Everett, St. Augustine, East
+                                Florida</unittitle>
+                            <unitdate normal="1832-02-01">1832 February 1</unitdate>
+                            <physdesc>
+                                <extent type="computed" unit="folder">1 folder</extent>
+                            </physdesc>
+                        </did>
+                    </c>
+                    <c level="file" id="C0006_c0077">
+                        <did>
+
+                            <container type="folder" parent="C0006_i3">14</container>
+                            <unittitle>Letter to Lucy Bakewell Audubon, Boston</unittitle>
+                            <unitdate normal="1833-05-04">1833 May 4</unitdate>
+                            <physdesc>
+                                <extent type="computed" unit="folder">1 folder</extent>
+                            </physdesc>
+                        </did>
+                        <acqinfo>
+                            <p>Deposit of J. S. Williams (No. 9251).</p>
+                        </acqinfo>
+                    </c>
+                    <c level="file" id="C0006_c0078">
+                        <did>
+
+                            <container type="folder" parent="C0006_i3">15</container>
+                            <unittitle>Letter to Lucy Bakewell Audubon, Boston</unittitle>
+                            <unitdate normal="1833-05-04">1833 May 4</unitdate>
+                            <physdesc>
+                                <extent type="computed" unit="folder">1 folder</extent>
+                            </physdesc>
+                        </did>
+                        <acqinfo>
+                            <p>Deposit of J. S. Williams (No. 9251).</p>
+                        </acqinfo>
+                    </c>
+                    <c level="file" id="C0006_c0079">
+                        <did>
+
+                            <container type="folder" parent="C0006_i3">16</container>
+                            <unittitle>Letter to Lucy Bakewell Audubon with Postscript by John
+                                Woodhouse Audubon, Eastport, Maine</unittitle>
+                            <unitdate normal="1833-05-14">1833 May 14</unitdate>
+                            <physdesc>
+                                <extent type="computed" unit="folder">1 folder</extent>
+                            </physdesc>
+                        </did>
+                        <acqinfo>
+                            <p>Deposit of J. S. Williams (No. 9251).</p>
+                        </acqinfo>
+                    </c>
+                    <c level="file" id="C0006_c0080">
+                        <did>
+
+                            <container type="folder" parent="C0006_i3">17</container>
+                            <unittitle>Letter to Lucy Bakewell Audubon, Eastport, Maine</unittitle>
+                            <unitdate normal="1833-05-18">1833 May 18</unitdate>
+                            <physdesc>
+                                <extent type="computed" unit="folder">1 folder</extent>
+                            </physdesc>
+                        </did>
+                        <acqinfo>
+                            <p>Deposit of J. S. Williams (No. 9251).</p>
+                        </acqinfo>
+                    </c>
+                    <c level="file" id="C0006_c0081">
+                        <did>
+
+                            <container type="folder" parent="C0006_i3">18</container>
+                            <unittitle>Letter to Lucy Bakewell Audubon, Eastport, Maine</unittitle>
+                            <unitdate normal="1833-05-19">1833 May 19</unitdate>
+                            <physdesc>
+                                <extent type="computed" unit="folder">1 folder</extent>
+                            </physdesc>
+                        </did>
+                        <acqinfo>
+                            <p>Deposit of J. S. Williams (No. 9251).</p>
+                        </acqinfo>
+                    </c>
+                    <c level="file" id="C0006_c0082">
+                        <did>
+
+                            <container type="folder" parent="C0006_i3">19</container>
+                            <unittitle>Letter to Lucy Bakewell Audubon, Eastport, Maine</unittitle>
+                            <unitdate normal="1833-05-22">1833 May 22</unitdate>
+                            <physdesc>
+                                <extent type="computed" unit="folder">1 folder</extent>
+                            </physdesc>
+                        </did>
+                        <acqinfo>
+                            <p>Deposit of J. S. Williams (No. 9251).</p>
+                        </acqinfo>
+                    </c>
+                    <c level="file" id="C0006_c0083">
+                        <did>
+
+                            <container type="folder" parent="C0006_i3">20</container>
+                            <unittitle>Letter to Richard Harlan, M.D., Eastport, Maine</unittitle>
+                            <unitdate normal="1833-05-26">1833 May 26</unitdate>
+                            <physdesc>
+                                <extent type="computed" unit="folder">1 folder</extent>
+                            </physdesc>
+                        </did>
+                    </c>
+                    <c level="file" id="C0006_c0084">
+                        <did>
+
+                            <container type="folder" parent="C0006_i3">21</container>
+                            <unittitle>Letter to Lucy Bakewell Audubon, Eastport, Maine</unittitle>
+                            <unitdate normal="1833-05-27">1833 May 27</unitdate>
+                            <physdesc>
+                                <extent type="computed" unit="folder">1 folder</extent>
+                            </physdesc>
+                        </did>
+                        <acqinfo>
+                            <p>Deposit of J. S. Williams (No. 9251).</p>
+                        </acqinfo>
+                    </c>
+                    <c level="file" id="C0006_c0085">
+                        <did>
+
+                            <container type="folder" parent="C0006_i3">22</container>
+                            <unittitle>Letter to Lucy Bakewell Audubon, Eastport, Maine</unittitle>
+                            <unitdate normal="1833-06-04">1833 June 4</unitdate>
+                            <physdesc>
+                                <extent type="computed" unit="folder">1 folder</extent>
+                            </physdesc>
+                        </did>
+                        <acqinfo>
+                            <p>Deposit of J. S. Williams (No. 9251).</p>
+                        </acqinfo>
+                    </c>
+                    <c level="file" id="C0006_c0086">
+                        <did>
+
+                            <container type="folder" parent="C0006_i3">23</container>
+                            <unittitle>Letter to Lucy Bakewell Audubon. P.S. by John Woodhouse
+                                Audubon, Eastport, Maine</unittitle>
+                            <unitdate type="inclusive" normal="1833-06-05/1833-06-06">1833 June
+                                5-6</unitdate>
+                            <physdesc>
+                                <extent type="computed" unit="folder">1 folder</extent>
+                            </physdesc>
+                        </did>
+                        <acqinfo>
+                            <p>Deposit of J. S. Williams (No. 9251).</p>
+                        </acqinfo>
+                    </c>
+                    <c level="file" id="C0006_c0087">
+                        <did>
+
+                            <container type="folder" parent="C0006_i3">24</container>
+                            <unittitle>Letter to Lucy Bakewell Audubon, Bras d'Or,
+                                Labrador</unittitle>
+                            <unitdate normal="1833-08-05">1833 August 5</unitdate>
+                            <physdesc>
+                                <extent type="computed" unit="folder">1 folder</extent>
+                            </physdesc>
+                        </did>
+                        <acqinfo>
+                            <p>Deposit of J. S. Williams (No. 9251).</p>
+                        </acqinfo>
+                    </c>
+                    <c level="file" id="C0006_c0088">
+                        <did>
+                            <unitid type="accessionnumber">AM 18786</unitid>
+                            <container type="folder" parent="C0006_i3">25</container>
+                            <unittitle>Letter to Victor G. Audubon, Charleston, S.C.</unittitle>
+                            <unitdate normal="1833-11-09">1833 November 9</unitdate>
+                            <physdesc>
+                                <extent type="computed" unit="folder">1 folder</extent>
+                            </physdesc>
+                        </did>
+                    </c>
+                    <c level="file" id="C0006_c0089">
+                        <did>
+
+                            <container type="folder" parent="C0006_i3">26</container>
+                            <unittitle>Letter to Robert Havell, Charleston, S.C., with Original
+                                Proof for Plate 44, Birds of America,
+                                "Summer Red Bird"</unittitle>
+                            <unitdate normal="1834-01-16">1834 January 16</unitdate>
+                            <physdesc>
+                                <extent type="computed" unit="folder">1 folder</extent>
+                            </physdesc>
+                        </did>
+                    </c>
+                    <c level="file" id="C0006_c0090">
+                        <did>
+
+                            <container type="folder" parent="C0006_i3">27</container>
+                            <unittitle>Letter to John Bachman, Baltimore</unittitle>
+                            <unitdate normal="1834-03-13">1834 March 13</unitdate>
+                            <physdesc>
+                                <extent type="computed" unit="folder">1 folder</extent>
+                            </physdesc>
+                        </did>
+                    </c>
+                    <c level="file" id="C0006_c0091">
+                        <did>
+                            <unitid type="accessionnumber">AM 18786</unitid>
+                            <container type="folder" parent="C0006_i3">28</container>
+                            <unittitle>Letter to Robert Havell, New York</unittitle>
+                            <unitdate normal="1834-04-08">1834 April 8</unitdate>
+                            <physdesc>
+                                <extent type="computed" unit="folder">1 folder</extent>
+                            </physdesc>
+                        </did>
+                    </c>
+                    <c level="file" id="C0006_c0011">
+                        <did>
+                            <unitid type="accessionnumber">AM 16663</unitid>
+                            <container type="folder" parent="C0006_i1">8</container>
+                            <unittitle>Letter to Lucy Bakewell Audubon, Manchester</unittitle>
+                            <unitdate normal="1834-09-05">1834 September 5</unitdate>
+                            <physdesc>
+                                <extent type="computed" unit="folder">1 folder</extent>
+                            </physdesc>
+                        </did>
+                        <scopecontent>
+                            <p>Original. Oversize.</p>
+                        </scopecontent>
+                    </c>
+                    <c level="file" id="C0006_c0012">
+                        <did>
+                            <unitid type="accessionnumber">AM 16663</unitid>
+                            <container type="folder" parent="C0006_i1">9</container>
+                            <unittitle>Letter to Lucy Bakewell Audubon, Liverpool</unittitle>
+                            <unitdate type="inclusive" normal="1834-09-13/1834-09-16">1834 September
+                                13-16</unitdate>
+                            <physdesc>
+                                <extent type="computed" unit="folder">1 folder</extent>
+                            </physdesc>
+                        </did>
+                        <scopecontent>
+                            <p>Original. Oversize.</p>
+                        </scopecontent>
+                    </c>
+                    <c level="file" id="C0006_c0092">
+                        <did>
+
+                            <container type="folder" parent="C0006_i3">29</container>
+                            <unittitle>Letter to Victor G. Audubon, Edinburgh</unittitle>
+                            <unitdate normal="1834-10-18">1834 October 18</unitdate>
+                            <physdesc>
+                                <extent type="computed" unit="folder">1 folder</extent>
+                            </physdesc>
+                        </did>
+                    </c>
+                    <c level="file" id="C0006_c0093">
+                        <did>
+                            <unitid type="accessionnumber">AM 18786</unitid>
+                            <container type="folder" parent="C0006_i3">30</container>
+                            <unittitle>Letter to Walter Horton Bentley, London</unittitle>
+                            <unitdate normal="1835-03-17">1835 March 17</unitdate>
+                            <physdesc>
+                                <extent type="computed" unit="folder">1 folder</extent>
+                            </physdesc>
+                        </did>
+                    </c>
+                    <c level="file" id="C0006_c0094">
+                        <did>
+
+                            <container type="folder" parent="C0006_i3">31</container>
+                            <unittitle>Letter to Benjamin &amp; John Gott, London</unittitle>
+                            <unitdate normal="1836-02-05">1836 February 5</unitdate>
+                            <physdesc>
+                                <extent type="computed" unit="folder">1 folder</extent>
+                            </physdesc>
+                        </did>
+                    </c>
+                    <c level="file" id="C0006_c0095">
+                        <did>
+                            <unitid type="accessionnumber">AM 16663</unitid>
+                            <container type="folder" parent="C0006_i3">32</container>
+                            <unittitle>Letter to R. O. Anderson, London</unittitle>
+                            <unitdate normal="1836-05-16">1836 May 16</unitdate>
+                            <physdesc>
+                                <extent type="computed" unit="folder">1 folder</extent>
+                            </physdesc>
+                        </did>
+                    </c>
+                    <c level="file" id="C0006_c0096">
+                        <did>
+                            <unitid type="accessionnumber">AM 18786</unitid>
+                            <container type="folder" parent="C0006_i3">33</container>
+                            <unittitle>Letter to Robert Havell, Charleston</unittitle>
+                            <unitdate normal="1836-12-18">1836 December 18</unitdate>
+                            <physdesc>
+                                <extent type="computed" unit="folder">1 folder</extent>
+                            </physdesc>
+                        </did>
+                    </c>
+                    <c level="file" id="C0006_c0097">
+                        <did>
+                            <unitid type="accessionnumber">AM 18768</unitid>
+                            <container type="folder" parent="C0006_i3">34</container>
+                            <unittitle>Letter to Ward &amp; Bell, Charleston</unittitle>
+                            <unitdate normal="1837-06-13">1837 June 13</unitdate>
+                            <physdesc>
+                                <extent type="computed" unit="folder">1 folder</extent>
+                            </physdesc>
+                        </did>
+                        <scopecontent>
+                            <p>Signature is cut off.</p>
+                        </scopecontent>
+                    </c>
+                    <c level="file" id="C0006_c0098">
+                        <did>
+
+                            <container type="folder" parent="C0006_i3">35</container>
+                            <unittitle>Letter to Thomas Nuttall, London</unittitle>
+                            <unitdate normal="1837-09-19">1837 September 19</unitdate>
+                            <physdesc>
+                                <extent type="computed" unit="folder">1 folder</extent>
+                            </physdesc>
+                        </did>
+                    </c>
+                    <c level="file" id="C0006_c0099">
+                        <did>
+
+                            <container type="folder" parent="C0006_i3">36</container>
+                            <unittitle>Letter to Lucy Bakewell Audubon, Edinburgh</unittitle>
+                            <unitdate normal="1838-07-01">1838 July 1</unitdate>
+                            <physdesc>
+                                <extent type="computed" unit="folder">1 folder</extent>
+                            </physdesc>
+                        </did>
+                    </c>
+                    <c level="file" id="C0006_c0100">
+                        <did>
+
+                            <container type="folder" parent="C0006_i3">37</container>
+                            <unittitle>Letter by Victor G. Audubon to Lucy Bakewell Audubon,
+                                Edinburgh</unittitle>
+                            <unitdate normal="1838-07-10">1838 July 10</unitdate>
+                            <physdesc>
+                                <extent type="computed" unit="folder">1 folder</extent>
+                            </physdesc>
+                        </did>
+                        <scopecontent>
+                            <p>With postscript by John J. Audubon.</p>
+                        </scopecontent>
+                    </c>
+                    <c level="file" id="C0006_c0101">
+                        <did>
+
+                            <container type="folder" parent="C0006_i3">38</container>
+                            <unittitle>Letter to Lucy Bakewell Audubon, Edinburgh</unittitle>
+                            <unitdate normal="1838-08-01">1838 August 1</unitdate>
+                            <physdesc>
+                                <extent type="computed" unit="folder">1 folder</extent>
+                            </physdesc>
+                        </did>
+                    </c>
+                    <c level="file" id="C0006_c0102">
+                        <did>
+
+                            <container type="folder" parent="C0006_i3">39</container>
+                            <unittitle>Letter to Mrs. A. C. Alison, Edinburgh</unittitle>
+                            <unitdate normal="1838-09-21">1838 September 21</unitdate>
+                            <physdesc>
+                                <extent type="computed" unit="folder">1 folder</extent>
+                            </physdesc>
+                        </did>
+                    </c>
+                    <c level="file" id="C0006_c0103">
+                        <did>
+                            <unitid type="accessionnumber">AM 18786</unitid>
+                            <container type="folder" parent="C0006_i3">40</container>
+                            <unittitle>Letter to John Calvert, Edinburgh</unittitle>
+                            <unitdate normal="1839-02-26">1839 February 26</unitdate>
+                            <physdesc>
+                                <extent type="computed" unit="folder">1 folder</extent>
+                            </physdesc>
+                        </did>
+                    </c>
+                    <c level="file" id="C0006_c0104">
+                        <did>
+
+                            <container type="folder" parent="C0006_i3">41</container>
+                            <unittitle>Letter to John W. Audubon, with Postscript by Lucy Audubon,
+                                Edinburgh</unittitle>
+                            <unitdate normal="1839-05-23">1839 May 23</unitdate>
+                            <physdesc>
+                                <extent type="computed" unit="folder">1 folder</extent>
+                            </physdesc>
+                        </did>
+                    </c>
+                    <c level="file" id="C0006_c0105">
+                        <did>
+
+                            <container type="folder" parent="C0006_i3">42</container>
+                            <unittitle>Audubon, Lucy. Letter to Victor G. &amp; John W. Audubon,
+                                Edinburgh</unittitle>
+                            <unitdate type="inclusive" normal="1839-06-30/1839-07-02">1839 June
+                                30-July 2</unitdate>
+                            <physdesc>
+                                <extent type="computed" unit="folder">1 folder</extent>
+                            </physdesc>
+                        </did>
+                        <scopecontent>
+                            <p>With Postscript by John J. Audubon.</p>
+                        </scopecontent>
+                    </c>
+                    <c level="file" id="C0006_c0013">
+                        <did>
+                            <unitid type="accessionnumber">AM 16663</unitid>
+                            <container type="folder" parent="C0006_i1">10</container>
+                            <unittitle>Letter to John Woodhouse Audubon, Washington,
+                                D.C.</unittitle>
+                            <unitdate type="inclusive" normal="1840-04-03/1840-04-05">1840 April
+                                3-5</unitdate>
+                            <physdesc>
+                                <extent type="computed" unit="folder">1 folder</extent>
+                            </physdesc>
+                        </did>
+                        <scopecontent>
+                            <p>Original. Oversize.</p>
+                        </scopecontent>
+                    </c>
+                    <c level="file" id="C0006_c0106">
+                        <did>
+                            <unitid type="accessionnumber">AM 18786</unitid>
+                            <container type="folder" parent="C0006_i3">43</container>
+                            <unittitle>Letter to George Parkman, Lowell, Mass</unittitle>
+                            <unitdate normal="1840-08-26">1840 August 26</unitdate>
+                            <physdesc>
+                                <extent type="computed" unit="folder">1 folder</extent>
+                            </physdesc>
+                        </did>
+                    </c>
+                    <c level="file" id="C0006_c0107">
+                        <did>
+
+                            <container type="folder" parent="C0006_i3">44</container>
+                            <unittitle>Letter to Victor G. Audubon, Boston</unittitle>
+                            <unitdate normal="1840-09-14">1840 September 14</unitdate>
+                            <physdesc>
+                                <extent type="computed" unit="folder">1 folder</extent>
+                            </physdesc>
+                        </did>
+                    </c>
+                    <c level="file" id="C0006_c0108">
+                        <did>
+
+                            <container type="folder" parent="C0006_i3">45</container>
+                            <unittitle>Letter to John Woodhouse Audubon, Boston</unittitle>
+                            <unitdate normal="1840-09-20">1840 September 20</unitdate>
+                            <physdesc>
+                                <extent type="computed" unit="folder">1 folder</extent>
+                            </physdesc>
+                        </did>
+                    </c>
+                    <c level="file" id="C0006_c0109">
+                        <did>
+                            <unitid type="accessionnumber">AM 16910</unitid>
+                            <container type="folder" parent="C0006_i3">46</container>
+                            <unittitle>Letter to F. L. Alden, New York</unittitle>
+                            <unitdate normal="1841-01-27">1841 January 27</unitdate>
+                            <physdesc>
+                                <extent type="computed" unit="folder">1 folder</extent>
+                            </physdesc>
+                        </did>
+                    </c>
+                    <c level="file" id="C0006_c0110">
+                        <did>
+
+                            <container type="folder" parent="C0006_i3">47</container>
+                            <unittitle>Letter to Thomas McCulloch, Jr., New York</unittitle>
+                            <unitdate normal="1841-06-26">1841 June 26</unitdate>
+                            <physdesc>
+                                <extent type="computed" unit="folder">1 folder</extent>
+                            </physdesc>
+                        </did>
+                    </c>
+                    <c level="file" id="C0006_c0111">
+                        <did>
+
+                            <container type="folder" parent="C0006_i3">48</container>
+                            <unittitle>Letter to Increase S. Smith, New York</unittitle>
+                            <unitdate normal="1841-08-15">1841 August 15</unitdate>
+                            <physdesc>
+                                <extent type="computed" unit="folder">1 folder</extent>
+                            </physdesc>
+                        </did>
+                    </c>
+                    <c level="file" id="C0006_c0112">
+                        <did>
+                            <unitid type="accessionnumber">AM 17303</unitid>
+                            <container type="folder" parent="C0006_i3">49</container>
+                            <unittitle>Letter to Col. J. J. Abert, New York</unittitle>
+                            <unitdate normal="1842-07-04">1842 July 4</unitdate>
+                            <physdesc>
+                                <extent type="computed" unit="folder">1 folder</extent>
+                            </physdesc>
+                        </did>
+                    </c>
+                    <c level="file" id="C0006_c0113">
+                        <did>
+
+                            <container type="folder" parent="C0006_i3">50</container>
+                            <unittitle>Letter to Lucy Bakewell Audubon and Sons, Quebec</unittitle>
+                            <unitdate normal="1842-09-21">1842 September 21</unitdate>
+                            <physdesc>
+                                <extent type="computed" unit="folder">1 folder</extent>
+                            </physdesc>
+                        </did>
+                    </c>
+                    <c level="file" id="C0006_c0114">
+                        <did>
+
+                            <container type="folder" parent="C0006_i3">51</container>
+                            <unittitle>Letter to Victor G. Audubon, St. Louis</unittitle>
+                            <unitdate normal="1843-04-02">1843 April 2</unitdate>
+                            <physdesc>
+                                <extent type="computed" unit="folder">1 folder</extent>
+                            </physdesc>
+                        </did>
+                    </c>
+                    <c level="file" id="C0006_c0115">
+                        <did>
+                            <unitid type="accessionnumber">AM 16663</unitid>
+                            <container type="folder" parent="C0006_i3">52</container>
+                            <unittitle>Letter to J. W. Audubon, with Postscript by Victor G.
+                                Audubon, Minnie's Land</unittitle>
+                            <unitdate normal="1847-01-28">1847 January 28</unitdate>
+                            <physdesc>
+                                <extent type="computed" unit="folder">1 folder</extent>
+                            </physdesc>
+                        </did>
+                    </c>
+                    <c level="file" id="C0006_c0116">
+                        <did>
+                            <unitid type="accessionnumber">AM 16663</unitid>
+                            <container type="folder" parent="C0006_i3">53</container>
+                            <unittitle>Carte de Visite Photographs of John James Audubon and Lucy
+                                Bakewell Audubon</unittitle>
+                            <unitdate normal="1848/1855">circa 1848-1855</unitdate>
+                            <physdesc>
+                                <extent type="computed" unit="folder">1 folder</extent>
+                            </physdesc>
+                        </did>
+                    </c>
+                </c>
+                <c id="C0006_c0117" level="subseries">
+                    <did>
+                        <unittitle>Letters of Others (Originals)</unittitle>
+                        <unitdate normal="1825-01-04/1918-12-31" type="inclusive">1825 January
+                            4-1918</unitdate>
+                        <physdesc>
+                            <extent type="computed" unit="folder">7 folders</extent>
+                        </physdesc>
+                    </did>
+                    <scopecontent>
+                        <p>Consists of letters from Lucy Audubon, Victor Audubon, and John and Julia
+                            Bachman.</p>
+                    </scopecontent>
+                    <arrangement>
+                        <p>Arranged alphabetically by correspondent.</p>
+                    </arrangement>
+                    <c level="file" id="C0006_c0118">
+                        <did>
+                            <unitid type="accessionnumber">AM 17324</unitid>
+                            <container type="folder" parent="C0006_i3">54</container>
+                            <unittitle>Lucy Bakewell Audubon Letter to Prof. Joseph Henry,
+                                Washington Heights, N.Y.</unittitle>
+                            <unitdate normal="1863-08-14">1863 August 14</unitdate>
+                            <physdesc>
+                                <extent type="computed" unit="folder">1 folder</extent>
+                            </physdesc>
+                        </did>
+                    </c>
+                    <c level="file" id="C0006_c0119">
+                        <did>
+                            <unitid type="accessionnumber">AM 2008-56</unitid>
+                            <container type="folder" parent="C0006_i3">54A</container>
+                            <unittitle>Lucy Bakewell Audubon Letter to Mary Gaskell</unittitle>
+                            <unitdate normal="1836-05-10">1836 May 10</unitdate>
+                            <physdesc>
+                                <extent type="computed" unit="folder">1 folder</extent>
+                            </physdesc>
+                        </did>
+                        <scopecontent>
+                            <p> 2 pages, with printed card of Victor G. Audubon (son).</p>
+                        </scopecontent>
+                        <acqinfo>
+                            <p>Purchased at auction in 2008.</p>
+                        </acqinfo>
+                    </c>
+                    <c level="file" id="C0006_c0120">
+                        <did>
+                            <unitid type="accessionnumber">AM 18786</unitid>
+                            <container type="folder" parent="C0006_i3">55</container>
+                            <unittitle>Victor G. Audubon Letter to J. T. Bowen, New York</unittitle>
+                            <unitdate normal="1847-04-14">1847 April 14</unitdate>
+                            <physdesc>
+                                <extent type="computed" unit="folder">1 folder</extent>
+                            </physdesc>
+                        </did>
+                    </c>
+                    <c level="file" id="C0006_c0121">
+                        <did>
+                            <unitid type="accessionnumber">AM 18786</unitid>
+                            <container type="folder" parent="C0006_i3">56</container>
+                            <unittitle>Victor G. Audubon Letter to John Bohlem, New York</unittitle>
+                            <unitdate normal="1854-05-11">1854 May 11</unitdate>
+                            <physdesc>
+                                <extent type="computed" unit="folder">1 folder</extent>
+                            </physdesc>
+                        </did>
+                    </c>
+                    <c level="file" id="C0006_c0122">
+                        <did>
+                            <unitid type="accessionnumber">AM 18786</unitid>
+                            <container type="folder" parent="C0006_i3">57</container>
+                            <unittitle>John Bachman Letter to Joseph Bevan, Charleston,
+                                S.C.</unittitle>
+                            <unitdate normal="1825-01-04">1825 January 4</unitdate>
+                            <physdesc>
+                                <extent type="computed" unit="folder">1 folder</extent>
+                            </physdesc>
+                        </did>
+                    </c>
+                    <c level="file" id="C0006_c0123">
+                        <did>
+                            <unitid type="accessionnumber">AM 18233</unitid>
+                            <container type="folder" parent="C0006_i3">58</container>
+                            <unittitle>Julia R. Bachman Letter to Ruthven Deane, Columbia,
+                                S.C.</unittitle>
+                            <unitdate normal="1903-01-10">1903 January 10</unitdate>
+                            <physdesc>
+                                <extent type="computed" unit="folder">1 folder</extent>
+                            </physdesc>
+                        </did>
+                    </c>
+                    <c level="file" id="C0006_c0124">
+                        <did>
+                            <unitid type="accessionnumber">AM 18786</unitid>
+                            <container type="folder" parent="C0006_i3">59</container>
+                            <unittitle>Francis H. Herrick Letters to Edwin H. Johnson,
+                                Cleveland</unittitle>
+                            <unitdate normal="1918/1918">1918</unitdate>
+                            <physdesc>
+                                <extent type="computed" unit="folder">1 folder</extent>
+                            </physdesc>
+                        </did>
+                        <scopecontent>
+                            <p>3 letters.</p>
+                        </scopecontent>
+                    </c>
+                </c>
+                <c id="C0006_c0125" level="subseries">
+                    <did>
+                        <unittitle>Letters of John James Audubon (Photostat Copies)</unittitle>
+                        <unitdate normal="1807-04-29/1843-06-13" type="inclusive">1807 April 29-1843
+                            June 13</unitdate>
+                        <physdesc>
+                            <extent type="computed" unit="folder">27 folders</extent>
+                        </physdesc>
+                    </did>
+                    <scopecontent>
+                        <p>Consists of photostat copies and transcripts of letters from John James
+                            Audubon, primarily to Victor Audubon.</p>
+                    </scopecontent>
+                    <arrangement>
+                        <p>Arranged chronologically.</p>
+                    </arrangement>
+                    <c level="file" id="C0006_c0126">
+                        <did>
+
+                            <container type="folder" parent="C0006_i3">60</container>
+                            <unittitle>Photostat Copy of Letter to Charles d'Orbigny, New
+                                York</unittitle>
+                            <unitdate normal="1807-04-29">1807 April 29</unitdate>
+                            <physdesc>
+                                <extent type="computed" unit="folder">1 folder</extent>
+                            </physdesc>
+                        </did>
+                        <scopecontent>
+                            <p>Photocopy of B2 F2. Original acquired by PUL in 1965.</p>
+                        </scopecontent>
+                    </c>
+                    <c level="file" id="C0006_c0127">
+                        <did>
+
+                            <container type="folder" parent="C0006_i3">61</container>
+                            <unittitle>Photostat Copy of Prather &amp; Jacob Promissory Note,
+                                Louisville, KY</unittitle>
+                            <unitdate normal="1819-09-15">1819 September 15</unitdate>
+                            <physdesc>
+                                <extent type="computed" unit="folder">1 folder</extent>
+                            </physdesc>
+                        </did>
+                        <scopecontent>
+                            <p>Original in the collection of Seymour Adelman, Philadelphia.</p>
+                        </scopecontent>
+                    </c>
+                    <c level="file" id="C0006_c0128">
+                        <did>
+
+                            <container type="folder" parent="C0006_i3">62</container>
+                            <unittitle>Photstat Copies of Letters and Memo to Baron de la
+                                Bouillerie, Paris</unittitle>
+                            <unitdate normal="1828-09-13/1828-10-18">1828 September 13-1828 October
+                                18</unitdate>
+                            <physdesc>
+                                <extent type="computed" unit="folder">1 folder</extent>
+                            </physdesc>
+                        </did>
+                        <scopecontent>
+                            <p>Copies of 2 letters. Originals in the Archives Nationales, Paris.</p>
+                        </scopecontent>
+                    </c>
+                    <c level="file" id="C0006_c0010">
+                        <did>
+                            <container type="folder" parent="C0006_i1">7</container>
+                            <unittitle>Photostat Copy of Letter to Robert Havell with Instructions
+                                for Re-engraving Legends, Edinburgh</unittitle>
+                            <unitdate normal="1831-03-02">1831 March 2</unitdate>
+                            <physdesc>
+                                <extent type="computed" unit="folder">1 folder</extent>
+                            </physdesc>
+                        </did>
+                        <scopecontent>
+                            <p>Oversize. Photocopy of B6 F6.</p>
+                        </scopecontent>
+                    </c>
+                    <c level="file" id="C0006_c0129">
+                        <did>
+
+                            <container type="folder" parent="C0006_i3">63</container>
+                            <unittitle>Photostat Copy of Letter to Robert Havell,
+                                Edinburgh</unittitle>
+                            <unitdate normal="1831-03-26">1831 March 26</unitdate>
+                            <physdesc>
+                                <extent type="computed" unit="folder">1 folder</extent>
+                            </physdesc>
+                        </did>
+                        <scopecontent>
+                            <p>Photocopy of B2 F12. Original acquired by PUL in 1965.</p>
+                        </scopecontent>
+                    </c>
+                    <c level="file" id="C0006_c0130">
+                        <did>
+
+                            <container type="folder" parent="C0006_i3">64</container>
+                            <unittitle>Photostat Copy of Letter to Victor G. Audubon, Charleston,
+                                S.C.</unittitle>
+                            <unitdate normal="1833-11-09">1833 November 9</unitdate>
+                            <physdesc>
+                                <extent type="computed" unit="folder">1 folder</extent>
+                            </physdesc>
+                        </did>
+                        <scopecontent>
+                            <p>Photocopy of B2 F25. Original acquired by PUL in 1965.</p>
+                        </scopecontent>
+                    </c>
+                    <c level="file" id="C0006_c0131">
+                        <did>
+
+                            <container type="folder" parent="C0006_i3">65</container>
+                            <unittitle>Photostat Copy of Letter to Robert Havell, New
+                                York</unittitle>
+                            <unitdate normal="1834-04-08">1834 April 8</unitdate>
+                            <physdesc>
+                                <extent type="computed" unit="folder">1 folder</extent>
+                            </physdesc>
+                        </did>
+                        <scopecontent>
+                            <p>Photocopy of B2 F28. Original acquired by PUL in 1965.</p>
+                        </scopecontent>
+                    </c>
+                    <c level="file" id="C0006_c0132">
+                        <did>
+
+                            <container type="folder" parent="C0006_i3">66</container>
+                            <unittitle>Photostat Copy of Letter to W. H. Bentley, London</unittitle>
+                            <unitdate normal="1835-03-17">1835 March 17</unitdate>
+                            <physdesc>
+                                <extent type="computed" unit="folder">1 folder</extent>
+                            </physdesc>
+                        </did>
+                        <scopecontent>
+                            <p>Photocopy of B2 F30. Original acquired by PUL in 1965.</p>
+                        </scopecontent>
+                    </c>
+                    <c level="file" id="C0006_c0133">
+                        <did>
+
+                            <container type="folder" parent="C0006_i3">67</container>
+                            <unittitle>Photostat Copy of Letter to R. O. Anderson,
+                                London</unittitle>
+                            <unitdate normal="1836-05-16">1836 May 16</unitdate>
+                            <physdesc>
+                                <extent type="computed" unit="folder">1 folder</extent>
+                            </physdesc>
+                        </did>
+                        <scopecontent>
+                            <p>Photocopy of B2 F32.</p>
+                        </scopecontent>
+                    </c>
+                    <c level="file" id="C0006_c0134">
+                        <did>
+
+                            <container type="folder" parent="C0006_i3">68</container>
+                            <unittitle>Photostat Copy of Letter to Robert Havell, Charleston,
+                                S.C.</unittitle>
+                            <unitdate normal="1836-12-18">1836 December 18</unitdate>
+                            <physdesc>
+                                <extent type="computed" unit="folder">1 folder</extent>
+                            </physdesc>
+                        </did>
+                        <scopecontent>
+                            <p>Photocopy of B2 F33. Original acquired by PUL in 1965.</p>
+                        </scopecontent>
+                    </c>
+                    <c level="file" id="C0006_c0135">
+                        <did>
+                            <unitid type="accessionnumber">AM 17484</unitid>
+                            <container type="folder" parent="C0006_i3">69</container>
+                            <unittitle>Photostat Copy of Receipt to Dr. S. G. Morton &amp; Joseph P.
+                                Smith for Philadelphia Academy of Natural Sciences Subscription to
+                                    Birds of America
+                            </unittitle>
+                            <unitdate type="inclusive" normal="1837-07-01">1837 July 1</unitdate>
+                            <physdesc>
+                                <extent type="computed" unit="folder">1 folder</extent>
+                            </physdesc>
+                        </did>
+                        <scopecontent>
+                            <p>Original in the possession of Mr. Robert L. Walsh, Jr., 3424 Prospect
+                                St. NW, Washington, D.C.</p>
+                        </scopecontent>
+                    </c>
+                    <c level="file" id="C0006_c0136">
+                        <did>
+
+                            <container type="folder" parent="C0006_i3">70</container>
+                            <unittitle>Photostat Copy of Letter to John Calvert,
+                                Edinburgh</unittitle>
+                            <unitdate normal="1839-02-26">1839 February 26</unitdate>
+                            <physdesc>
+                                <extent type="computed" unit="folder">1 folder</extent>
+                            </physdesc>
+                        </did>
+                        <scopecontent>
+                            <p>Photocopy of B2 F40. Original acquired by PUL in 1965.</p>
+                        </scopecontent>
+                    </c>
+                    <c level="file" id="C0006_c0137">
+                        <did>
+
+                            <container type="folder" parent="C0006_i3">71</container>
+                            <unittitle>Photostat Copy of Letter to George Parkman, Lowell,
+                                Massachusetts</unittitle>
+                            <unitdate normal="1840-08-26">1840 August 26</unitdate>
+                            <physdesc>
+                                <extent type="computed" unit="folder">1 folder</extent>
+                            </physdesc>
+                        </did>
+                        <scopecontent>
+                            <p>Photocopy of B2 F43. Original acquired by PUL in 1965.</p>
+                        </scopecontent>
+                    </c>
+                    <c level="file" id="C0006_c0138">
+                        <did>
+
+                            <container type="folder" parent="C0006_i3">72</container>
+                            <unittitle>Photostat Copy of Letter to Victor G. Audubon,
+                                Louisville</unittitle>
+                            <unitdate type="inclusive" normal="1843-03-19/1843-03-20">1843 March
+                                19-20</unitdate>
+                            <physdesc>
+                                <extent type="computed" unit="folder">1 folder</extent>
+                            </physdesc>
+                        </did>
+                        <scopecontent>
+                            <p>Original in National Audubon Society, New York.</p>
+                        </scopecontent>
+                    </c>
+                    <c level="file" id="C0006_c0139">
+                        <did>
+
+                            <container type="folder" parent="C0006_i3">73</container>
+                            <unittitle>Photostat Copy of Letter to Mrs. Audubon, Ohio
+                                River</unittitle>
+                            <unitdate normal="1843-03-23">1843 March 23</unitdate>
+                            <physdesc>
+                                <extent type="computed" unit="folder">1 folder</extent>
+                            </physdesc>
+                        </did>
+                        <scopecontent>
+                            <p>Incomplete. Original in National Audubon Society, NY.</p>
+                        </scopecontent>
+                    </c>
+                    <c level="file" id="C0006_c0140">
+                        <did>
+
+                            <container type="folder" parent="C0006_i3">74</container>
+                            <unittitle>Photostat Copy of Letter to Victor G. Audubon, St.
+                                Louis</unittitle>
+                            <unitdate normal="1843-03-28">1843 March 28</unitdate>
+                            <physdesc>
+                                <extent type="computed" unit="folder">1 folder</extent>
+                            </physdesc>
+                        </did>
+                        <scopecontent>
+                            <p>Original in National Audubon Society, NY.</p>
+                        </scopecontent>
+                    </c>
+                    <c level="file" id="C0006_c0141">
+                        <did>
+
+                            <container type="folder" parent="C0006_i3">75</container>
+                            <unittitle>Photostat Copy of Letter to Victor G. Audubon, St.
+                                Louis</unittitle>
+                            <unitdate normal="1843-03-31">1843 March 31</unitdate>
+                            <physdesc>
+                                <extent type="computed" unit="folder">1 folder</extent>
+                            </physdesc>
+                        </did>
+                        <scopecontent>
+                            <p>Original in National Audubon Society, NY.</p>
+                        </scopecontent>
+                    </c>
+                    <c level="file" id="C0006_c0142">
+                        <did>
+
+                            <container type="folder" parent="C0006_i3">76</container>
+                            <unittitle>Photostat Copy of Letter to Victor G. Audubon, St.
+                                Louis</unittitle>
+                            <unitdate normal="1843-04-08">1843 April 8</unitdate>
+                            <physdesc>
+                                <extent type="computed" unit="folder">1 folder</extent>
+                            </physdesc>
+                        </did>
+                        <scopecontent>
+                            <p>Original in National Audubon Society, NY.</p>
+                        </scopecontent>
+                    </c>
+                    <c level="file" id="C0006_c0143">
+                        <did>
+
+                            <container type="folder" parent="C0006_i3">77</container>
+                            <unittitle>Photostat Copy of Letter to Victor G. Audubon, St.
+                                Louis</unittitle>
+                            <unitdate normal="1843-04-17">1843 April 17</unitdate>
+                            <physdesc>
+                                <extent type="computed" unit="folder">1 folder</extent>
+                            </physdesc>
+                        </did>
+                        <scopecontent>
+                            <p>Original in National Audubon Society, NY.</p>
+                        </scopecontent>
+                    </c>
+                    <c level="file" id="C0006_c0144">
+                        <did>
+
+                            <container type="folder" parent="C0006_i3">78</container>
+                            <unittitle>Photostat Copy of Letter to Victor G. Audubon, St.
+                                Louis</unittitle>
+                            <unitdate normal="1843-04-23">1843 April 23</unitdate>
+                            <physdesc>
+                                <extent type="computed" unit="folder">1 folder</extent>
+                            </physdesc>
+                        </did>
+                        <scopecontent>
+                            <p>Original in National Audubon Society, NY.</p>
+                        </scopecontent>
+                    </c>
+                    <c level="file" id="C0006_c0145">
+                        <did>
+
+                            <container type="folder" parent="C0006_i3">79</container>
+                            <unittitle>Photostat Copy of Letter to Victor G. Audubon, St.
+                                Charles</unittitle>
+                            <unitdate normal="1843-04-25">1843 April 25</unitdate>
+                            <physdesc>
+                                <extent type="computed" unit="folder">1 folder</extent>
+                            </physdesc>
+                        </did>
+                        <scopecontent>
+                            <p>Original in National Audubon Society, NY.</p>
+                        </scopecontent>
+                    </c>
+                    <c level="file" id="C0006_c0146">
+                        <did>
+
+                            <container type="folder" parent="C0006_i3">80</container>
+                            <unittitle>Photostat Copy of Letter to Victor G. Audubon, Boonville,
+                                Missouri</unittitle>
+                            <unitdate normal="1843-04-29">1843 April 29</unitdate>
+                            <physdesc>
+                                <extent type="computed" unit="folder">1 folder</extent>
+                            </physdesc>
+                        </did>
+                        <scopecontent>
+                            <p>Original in National Audubon Society, NY.</p>
+                        </scopecontent>
+                    </c>
+                    <c level="file" id="C0006_c0147">
+                        <did>
+
+                            <container type="folder" parent="C0006_i3">81</container>
+                            <unittitle>Photostat Copy of Letter to Victor G. Audubon, Black Snake
+                                Hills, Missouri</unittitle>
+                            <unitdate normal="1843-05-05">1843 May 5</unitdate>
+                            <physdesc>
+                                <extent type="computed" unit="folder">1 folder</extent>
+                            </physdesc>
+                        </did>
+                        <scopecontent>
+                            <p>Original in National Audubon Society, NY.</p>
+                        </scopecontent>
+                    </c>
+                    <c level="file" id="C0006_c0148">
+                        <did>
+
+                            <container type="folder" parent="C0006_i3">82</container>
+                            <unittitle>Photostat Copy of Letter to Victor G. Audubon, Council
+                                Bluffs, Missouri Territory</unittitle>
+                            <unitdate normal="1843-05-08">1843 May 8</unitdate>
+                            <physdesc>
+                                <extent type="computed" unit="folder">1 folder</extent>
+                            </physdesc>
+                        </did>
+                        <scopecontent>
+                            <p>Original in National Audubon Society, NY.</p>
+                        </scopecontent>
+                    </c>
+                    <c level="file" id="C0006_c0149">
+                        <did>
+
+                            <container type="folder" parent="C0006_i3">83</container>
+                            <unittitle>Photostat Copy of Letter to Victor G. Audubon, Fort
+                                Fierre</unittitle>
+                            <unitdate normal="1843-06-01">1843 June 1</unitdate>
+                            <physdesc>
+                                <extent type="computed" unit="folder">1 folder</extent>
+                            </physdesc>
+                        </did>
+                        <scopecontent>
+                            <p>Original in National Audubon Society, NY.</p>
+                        </scopecontent>
+                    </c>
+                    <c level="file" id="C0006_c0150">
+                        <did>
+
+                            <container type="folder" parent="C0006_i3">84</container>
+                            <unittitle>Photostat Copy of Letter to Victor G. Audubon, Fort
+                                Clark</unittitle>
+                            <unitdate normal="1843-06-06">1843 June 6</unitdate>
+                            <physdesc>
+                                <extent type="computed" unit="folder">1 folder</extent>
+                            </physdesc>
+                        </did>
+                        <scopecontent>
+                            <p>Original in National Audubon Society, NY.</p>
+                        </scopecontent>
+                    </c>
+                    <c level="file" id="C0006_c0151">
+                        <did>
+
+                            <container type="folder" parent="C0006_i3">85</container>
+                            <unittitle>Photostat Copy of Letter to Victor G. Audubon, Fort
+                                Union</unittitle>
+                            <unitdate normal="1843-06-13">1843 June 13</unitdate>
+                            <physdesc>
+                                <extent type="computed" unit="folder">1 folder</extent>
+                            </physdesc>
+                        </did>
+                        <scopecontent>
+                            <p>Original in National Audubon Society, NY.</p>
+                        </scopecontent>
+                    </c>
+                </c>
+                <c id="C0006_c0152" level="subseries">
+                    <did>
+                        <unittitle>Letters of Others (Photostat Copies)</unittitle>
+                        <unitdate normal="1825-01-04/1918-02-28" type="inclusive">1825 January
+                            4-1918 February</unitdate>
+                        <physdesc>
+                            <extent type="computed" unit="folder">8 folders</extent>
+                        </physdesc>
+                    </did>
+                    <scopecontent>
+                        <p>Consists of photostat copies of letters primarily from Victor Audubon and
+                            John Bachman.</p>
+                    </scopecontent>
+                    <c level="file" id="C0006_c0153">
+                        <did>
+                            <unitid type="accessionnumber">AM 18786</unitid>
+                            <container type="folder" parent="C0006_i3">86</container>
+                            <unittitle>Photostat Copy of Victor G. Audubon Letter to J. T. Bowen,
+                                New York</unittitle>
+                            <unitdate normal="1847-04-14">1847 April 14</unitdate>
+                            <physdesc>
+                                <extent type="computed" unit="folder">1 folder</extent>
+                            </physdesc>
+                        </did>
+                        <scopecontent>
+                            <p>Photocopy of B2 F55. Original acquired by PUL in 1965.</p>
+                        </scopecontent>
+                    </c>
+                    <c level="file" id="C0006_c0154">
+                        <did>
+
+                            <container type="folder" parent="C0006_i3">87</container>
+                            <unittitle>Photostat Copy of Victor G. Audubon Letter to John Bohlen,
+                                New York</unittitle>
+                            <unitdate normal="1854-05-11">1854 May 11</unitdate>
+                            <physdesc>
+                                <extent type="computed" unit="folder">1 folder</extent>
+                            </physdesc>
+                        </did>
+                        <scopecontent>
+                            <p>Photocopy of B2 F56. Original acquired by PUL in 1965.</p>
+                        </scopecontent>
+                    </c>
+                    <c level="file" id="C0006_c0156">
+                        <did>
+                            <unittitle>Xerox Copies of Victor G. Audubon Letters to S. F. Baird; and
+                                Lucy Audubon to Joseph Henry</unittitle>
+                            <unitdate normal="1850-11-21/1863-12-29">1850 November 21-1863 December
+                                29</unitdate>
+                            <container type="folder" parent="C0006_i3">88</container>
+                            <physdesc>
+                                <extent type="computed" unit="item">1 item</extent>
+                            </physdesc>
+                        </did>
+                        <scopecontent>
+                            <p>Originals in Smithsonian Institution, Washington, D.C.</p>
+                        </scopecontent>
+                    </c>
+                    <c level="file" id="C0006_c0157">
+                        <did>
+
+                            <container type="folder" parent="C0006_i3">89</container>
+                            <unittitle>Photostat Copy of John Bachman Letter to Joseph N. Bevan,
+                                Charleston, S.C.</unittitle>
+                            <unitdate normal="1825-01-04">1825 January 4</unitdate>
+                            <physdesc>
+                                <extent type="computed" unit="folder">1 folder</extent>
+                            </physdesc>
+                        </did>
+                        <scopecontent>
+                            <p>Photocopy of B2 F57. Original acquired by PUL in 1965.</p>
+                        </scopecontent>
+                    </c>
+                    <c level="file" id="C0006_c0158">
+                        <did>
+
+                            <container type="folder" parent="C0006_i3">90</container>
+                            <unittitle>Transcripts of John James Audubon Letters to Richard Harlan
+                                and J. K. Townsend</unittitle>
+                            <unitdate type="inclusive" normal="1827/1838">1827-1838</unitdate>
+                            <physdesc>
+                                <extent type="computed" unit="folder">1 folder</extent>
+                            </physdesc>
+                        </did>
+                        <scopecontent>
+                            <p>Transcripts of originals in Gilbert Collection, College of
+                                Physicians, Philadelphia.</p>
+                        </scopecontent>
+                    </c>
+                    <c level="file" id="C0006_c0159">
+                        <did>
+
+                            <container type="folder" parent="C0006_i3">91</container>
+                            <unittitle>Photostat Copies of Francis Hobart Herrick 3 Letters to
+                                Edward H. Johnson</unittitle>
+                            <unitdate normal="1918-02">1918 February</unitdate>
+                            <physdesc>
+                                <extent type="computed" unit="folder">1 folder</extent>
+                            </physdesc>
+                        </did>
+                        <scopecontent>
+                            <p>3 letters regarding Audubon's Quadrupeds. Photocopies of B2 F59.
+                                Original acquired by PUL in 1965.</p>
+                        </scopecontent>
+                    </c>
+                    <c level="file" id="C0006_c0160">
+                        <did>
+
+                            <container type="folder" parent="C0006_i3">92</container>
+                            <unittitle>Photostat Copies of John Bachman Letters to John K. Townsend,
+                                Charleston, S.C.</unittitle>
+                            <unitdate normal="1838/1842">1838-1842</unitdate>
+                            <physdesc>
+                                <extent type="computed" unit="folder">1 folder</extent>
+                            </physdesc>
+                        </did>
+                        <scopecontent>
+                            <p>Original in National Audubon Society, NY.</p>
+                        </scopecontent>
+                    </c>
+                    <c level="file" id="C0006_c0161">
+                        <did>
+
+                            <container type="folder" parent="C0006_i3">93</container>
+                            <unittitle>Transcripts of John James and Lucy Audubon Letters to Mrs. C.
+                                C. Adams</unittitle>
+                            <unitdate normal="1864-01-27">1864 January 27</unitdate>
+                            <physdesc>
+                                <extent type="computed" unit="folder">1 folder</extent>
+                            </physdesc>
+                        </did>
+                        <scopecontent>
+                            <p>Originals in Vodges Collection, Science Libr. Natural Hist. Museum,
+                                Balboa Pk., San Diego, California.]</p>
+                        </scopecontent>
+                    </c>
+                </c>
+            </c>
+            <c level="series" id="C0006_c199">
+                <did>
+                    <unitid type="accessionnumber">AM 17903</unitid>
+                    <unittitle>Howard Corning Transcripts of Audubon's Letters and
+                        Journals</unittitle>
+                    <unitdate normal="1820/1937">1820-1937</unitdate>
+                    <physdesc>
+                        <extent type="computed" unit="volume">6 volumes</extent>
+                    </physdesc>
+                </did>
+                <scopecontent>
+                    <p>Consists of six bound volumes containing typed transcripts of Audubon's
+                        letters and journals, edited by Howard Corning for three books published by
+                        The Club of Odd Volumes: Letters of John James
+                            Audubon, 1826-1840 (1930), Journal of John
+                            James Audubon Made During his Trip to New Orleans in 1820-1821
+                        (1929), and Journal of John James Audubon made while
+                            obtaining subscriptions to his "Birds of America" 1840-1843
+                        (1929). These volumes also include transcripts of letters from Lucy Audubon
+                        and V. G. Audubon, printed materials, notes on editorial policy, and other
+                        items that are not in Corning's printed volumes.</p>
+                </scopecontent>
+                <acqinfo>
+                    <p>Gift of the National Audubon Society in 1964.</p>
+                </acqinfo>
+                <c level="file" id="C0006_c0198">
+                    <did>
+                        <container>
+                            <ptr target="C0006_i4"/>
+                        </container>
+                        <unittitle>Howard Corning Transcripts of Audubon's Letters</unittitle>
+                        <unitdate normal="1826/1831" type="inclusive">1826-1831</unitdate>
+                        <physdesc>
+                            <extent type="computed" unit="volume">1 volume</extent>
+                        </physdesc>
+                    </did>
+                </c>
+                <c level="file" id="C0006_c0199">
+                    <did>
+                        <container>
+                            <ptr target="C0006_i5"/>
+                        </container>
+                        <unittitle>Howard Corning Transcripts of Audubon's Letters</unittitle>
+                        <unitdate normal="1831/1835" type="inclusive">1831-1835</unitdate>
+                        <physdesc>
+                            <extent type="computed" unit="volume">1 volume</extent>
+                        </physdesc>
+                    </did>
+                </c>
+                <c level="file" id="C0006_c0200">
+                    <did>
+                        <container>
+                            <ptr target="C0006_i6"/>
+                        </container>
+                        <unittitle>Howard Corning Transcripts of Audubon's Letters</unittitle>
+                        <unitdate normal="1835/1841" type="inclusive">1835-1841</unitdate>
+                        <physdesc>
+                            <extent type="computed" unit="volume">1 volume</extent>
+                        </physdesc>
+                    </did>
+                </c>
+                <c level="file" id="C0006_c0201">
+                    <did>
+                        <container>
+                            <ptr target="C0006_i7"/>
+                        </container>
+                        <unittitle>Howard Corning Transcripts of Audubon's Letters</unittitle>
+                        <unitdate normal="1821/1937" type="inclusive">1821-1937</unitdate>
+                        <physdesc>
+                            <extent type="computed" unit="volume">1 volume</extent>
+                        </physdesc>
+                    </did>
+                    <scopecontent>
+                        <p>Includes Audubon letters (1841-1845), as well as later letters to John
+                            Bachman and some printed materials.</p>
+                    </scopecontent>
+                </c>
+                <c level="file" id="C0006_c0202">
+                    <did>
+                        <container>
+                            <ptr target="C0006_i8"/>
+                        </container>
+                        <unittitle>Howard Corning Transcripts of Audubon's Journals</unittitle>
+                        <unitdate normal="1820/1821" type="inclusive">1820-1821</unitdate>
+                        <physdesc>
+                            <extent type="computed" unit="volume">1 volume</extent>
+                        </physdesc>
+                    </did>
+                </c>
+                <c level="file" id="C0006_c0203">
+                    <did>
+                        <container>
+                            <ptr target="C0006_i9"/>
+                        </container>
+                        <unittitle>Howard Corning Transcripts of Audubon's Journals</unittitle>
+                        <unitdate normal="1840/1845" type="inclusive">1840-1845</unitdate>
+                        <physdesc>
+                            <extent type="computed" unit="volume">1 volume</extent>
+                        </physdesc>
+                    </did>
+                </c>
+            </c>
+            <c id="C0006_c0163" level="series">
+                <did>
+                    <unittitle>Audubon as Subject</unittitle>
+                    <unitdate normal="1836/1970" type="inclusive">1836-1970</unitdate>
+                    <physdesc>
+                        <extent type="computed" unit="box">1 box</extent>
+                    </physdesc>
+                </did>
+                <scopecontent>
+                    <p>Consists of miscellaneous printed material such as pamphlets, brochures,
+                        exhibition and dealer catalogues, and clippings about John James Audubon, as
+                        well as correspondence and subject files on related topics. Much of this
+                        material was gathered by Dr. Howard C. Rice, Jr., of Princeton University
+                        Library and relates to his research on Audubon and the whereabouts of his
+                        prints, manuscripts, and paintings.</p>
+                </scopecontent>
+                <c level="file" id="C0006_c0164">
+                    <did>
+
+                        <container type="folder" parent="C0006_i10">1</container>
+                        <unittitle>Articles, Clippings, and Pamphlets</unittitle>
+                        <unitdate type="inclusive" normal="1936/1969">1936-1969</unitdate>
+                        <physdesc>
+                            <extent type="computed" unit="folder">1 folder</extent>
+                        </physdesc>
+                    </did>
+                </c>
+                <c level="file" id="C0006_c0165">
+                    <did>
+
+                        <container type="folder" parent="C0006_i10">2</container>
+                        <unittitle>Exhibition Catalogues</unittitle>
+                        <unitdate type="inclusive" normal="1951/1965">1951-1965</unitdate>
+                        <physdesc>
+                            <extent type="computed" unit="folder">1 folder</extent>
+                        </physdesc>
+                    </did>
+                </c>
+                <c level="file" id="C0006_c0166">
+                    <did>
+
+                        <container type="folder" parent="C0006_i10">3</container>
+                        <unittitle>Havell, Engraver</unittitle>
+                        <unitdate type="inclusive" normal="1928/1964">1928-1964</unitdate>
+                        <physdesc>
+                            <extent type="computed" unit="folder">1 folder</extent>
+                        </physdesc>
+                    </did>
+                </c>
+                <c level="file" id="C0006_c0167">
+                    <did>
+
+                        <container type="folder" parent="C0006_i10">4</container>
+                        <unittitle>Elephant Folio, Princeton University Library Copy</unittitle>
+                        <unitdate type="inclusive" normal="1929/1970">1929-1970</unitdate>
+                        <physdesc>
+                            <extent type="computed" unit="folder">1 folder</extent>
+                        </physdesc>
+                    </did>
+                </c>
+                <c level="file" id="C0006_c0168">
+                    <did>
+
+                        <container type="folder" parent="C0006_i10">5</container>
+                        <unittitle>List of Plates; Census of Elephant Folio</unittitle>
+                        <unitdate type="inclusive" normal="1932/1969">1932-1969</unitdate>
+                        <physdesc>
+                            <extent type="computed" unit="folder">1 folder</extent>
+                        </physdesc>
+                    </did>
+                </c>
+                <c level="file" id="C0006_c0169">
+                    <did>
+
+                        <container type="folder" parent="C0006_i10">6</container>
+                        <unittitle>Engraved Plates, Dealers, Catalogues with Price-lists</unittitle>
+                        <unitdate type="inclusive" normal="1929/1968">1929-1968</unitdate>
+                        <physdesc>
+                            <extent type="computed" unit="folder">1 folder</extent>
+                        </physdesc>
+                    </did>
+                </c>
+                <c level="file" id="C0006_c0170">
+                    <did>
+
+                        <container type="folder" parent="C0006_i10">7</container>
+                        <unittitle>Key West, Florida</unittitle>
+                        <unitdate type="inclusive" normal="1960/1969">1960s</unitdate>
+                        <physdesc>
+                            <extent type="computed" unit="folder">1 folder</extent>
+                        </physdesc>
+                    </did>
+                </c>
+                <c level="file" id="C0006_c0171">
+                    <did>
+
+                        <container type="folder" parent="C0006_i10">8</container>
+                        <unittitle>Information about Items in Princeton Collections</unittitle>
+                        <unitdate type="inclusive" normal="1836/1954">1836-1954</unitdate>
+                        <physdesc>
+                            <extent type="computed" unit="folder">1 folder</extent>
+                        </physdesc>
+                    </did>
+                </c>
+                <c level="file" id="C0006_c0172">
+                    <did>
+
+                        <container type="folder" parent="C0006_i10">9</container>
+                        <unittitle>Reproductions of Engraved Prints</unittitle>
+                        <unitdate type="inclusive" normal="1960/1969">1960s</unitdate>
+                        <physdesc>
+                            <extent type="computed" unit="folder">1 folder</extent>
+                        </physdesc>
+                    </did>
+                </c>
+                <c level="file" id="C0006_c0173">
+                    <did>
+
+                        <container type="folder" parent="C0006_i10">10</container>
+                        <unittitle>Catalogues of Manuscripts and Letters</unittitle>
+                        <unitdate type="inclusive" normal="1953/1964">1953-1964</unitdate>
+                        <physdesc>
+                            <extent type="computed" unit="folder">1 folder</extent>
+                        </physdesc>
+                    </did>
+                </c>
+                <c level="file" id="C0006_c0174">
+                    <did>
+
+                        <container type="folder" parent="C0006_i10">11</container>
+                        <unittitle>Note about Setter and Quails</unittitle>
+                        <unitdate>undated</unitdate>
+                        <physdesc>
+                            <extent type="computed" unit="folder">1 folder</extent>
+                        </physdesc>
+                    </did>
+                </c>
+                <c level="file" id="C0006_c0175">
+                    <did>
+
+                        <container type="folder" parent="C0006_i10">12</container>
+                        <unittitle>"Mill Grove" Audubon House in Pennsylvania</unittitle>
+                        <unitdate type="inclusive" normal="1953/1964">1953-1964</unitdate>
+                        <physdesc>
+                            <extent type="computed" unit="folder">1 folder</extent>
+                        </physdesc>
+                    </did>
+                </c>
+                <c level="file" id="C0006_c0176">
+                    <did>
+
+                        <container type="folder" parent="C0006_i10">13</container>
+                        <unittitle>Audubon Portraits of Elijah Slack &amp; Wife</unittitle>
+                        <unitdate normal="1964/1964">1964</unitdate>
+                        <physdesc>
+                            <extent type="computed" unit="folder">1 folder</extent>
+                        </physdesc>
+                    </did>
+                </c>
+                <c level="file" id="C0006_c0177">
+                    <did>
+
+                        <container type="folder" parent="C0006_i10">14</container>
+                        <unittitle>Portraits of Audubon</unittitle>
+                        <unitdate type="inclusive" normal="1959/1962">1959-1962</unitdate>
+                        <physdesc>
+                            <extent type="computed" unit="folder">1 folder</extent>
+                        </physdesc>
+                    </did>
+                </c>
+                <c level="file" id="C0006_c0178">
+                    <did>
+
+                        <container type="folder" parent="C0006_i10">15</container>
+                        <unittitle>Oil Paintings</unittitle>
+                        <unitdate type="inclusive" normal="1951/1968">1951-1968</unitdate>
+                        <physdesc>
+                            <extent type="computed" unit="folder">1 folder</extent>
+                        </physdesc>
+                    </did>
+                </c>
+                <c level="file" id="C0006_c0179">
+                    <did>
+
+                        <container type="folder" parent="C0006_i10">16</container>
+                        <unittitle>Obituary by T. M. Brewer, in Boston Atlas</unittitle>
+                        <unitdate normal="1851/1851">1851</unitdate>
+                        <physdesc>
+                            <extent type="computed" unit="folder">1 folder</extent>
+                        </physdesc>
+                    </did>
+                </c>
+            </c>
+            <c id="C0006_c0180" level="series">
+                <did>
+                    <unittitle>"The World of John James Audubon" Exhibition</unittitle>
+                    <unitdate normal="1959/1960">1959-1960</unitdate>
+                    <physdesc>
+                        <extent type="computed" unit="box">2 boxes</extent>
+                    </physdesc>
+                </did>
+                <scopecontent>
+                    <p>Consists of correspondence, catalogues, publicity, research notes, and a card
+                        index related to Princeton University Library's 1959 exhibition on "The
+                        World of John James Audubon." Many of these materials were created or
+                        assembled by Dr. Howard C. Rice, Jr.</p>
+                </scopecontent>
+                <c level="file" id="C0006_c0181">
+                    <did>
+
+                        <container type="folder" parent="C0006_i11">1</container>
+                        <unittitle>Correspondence with Darthea Speyer, United States Information
+                            Service, Paris, Regarding Paris Exhibition</unittitle>
+                        <unitdate normal="1960/1960">1960</unitdate>
+                        <physdesc>
+                            <extent type="computed" unit="folder">1 folder</extent>
+                        </physdesc>
+                    </did>
+                    <scopecontent>
+                        <p>Also includes a catalogue, notes, clippings, and poster.</p>
+                    </scopecontent>
+                </c>
+                <c level="file" id="C0006_c0182">
+                    <did>
+
+                        <container type="folder" parent="C0006_i11">2</container>
+                        <unittitle>Lists of Items Borrowed</unittitle>
+                        <unitdate type="inclusive" normal="1959-05-15/1959-09">1959 May
+                            15-September</unitdate>
+                        <physdesc>
+                            <extent type="computed" unit="folder">1 folder</extent>
+                        </physdesc>
+                    </did>
+                </c>
+                <c level="file" id="C0006_c0183">
+                    <did>
+
+                        <container type="folder" parent="C0006_i11">3</container>
+                        <unittitle>Correspondence A - E</unittitle>
+                        <unitdate normal="1959/1960">1959-1960</unitdate>
+                        <physdesc>
+                            <extent type="computed" unit="folder">1 folder</extent>
+                        </physdesc>
+                    </did>
+                    <scopecontent>
+                        <p>Includes: Sylvia Beach, Geo. Dock, Jr.</p>
+                    </scopecontent>
+                </c>
+                <c level="file" id="C0006_c0184">
+                    <did>
+
+                        <container type="folder" parent="C0006_i11">4</container>
+                        <unittitle>Correspondence F - L</unittitle>
+                        <unitdate normal="1959/1960">1959-1960</unitdate>
+                        <physdesc>
+                            <extent type="computed" unit="folder">1 folder</extent>
+                        </physdesc>
+                    </did>
+                    <scopecontent>
+                        <p>Includes: Alice Ford, W. H. Fries, Harvard.</p>
+                    </scopecontent>
+                </c>
+                <c level="file" id="C0006_c0185">
+                    <did>
+
+                        <container type="folder" parent="C0006_i11">5</container>
+                        <unittitle>Correspondence M - N</unittitle>
+                        <unitdate normal="1959/1960">1959-1960</unitdate>
+                        <physdesc>
+                            <extent type="computed" unit="folder">1 folder</extent>
+                        </physdesc>
+                    </did>
+                    <scopecontent>
+                        <p>Includes: McCormick, H. Bradley Martin, National Audubon Society-NY, New
+                            Jersey Audubon Society, Harry Shaw Newman-old printshop, J. d'Arcy
+                            Northwood-curator, Audubon Shrine.</p>
+                    </scopecontent>
+                </c>
+                <c level="file" id="C0006_c0186">
+                    <did>
+
+                        <container type="folder" parent="C0006_i11">6</container>
+                        <unittitle>Correspondence O - Z</unittitle>
+                        <unitdate normal="1959/1960">1959-1960</unitdate>
+                        <physdesc>
+                            <extent type="computed" unit="folder">1 folder</extent>
+                        </physdesc>
+                    </did>
+                    <scopecontent>
+                        <p>Includes: Benj. Page, Jr., Darthea Speyer (USIS, Paris), Stout, J. S.
+                            Williams.</p>
+                    </scopecontent>
+                </c>
+                <c level="file" id="C0006_c0187">
+                    <did>
+
+                        <container type="folder" parent="C0006_i11">7</container>
+                        <unittitle>Press Release, Publicity, and Talks by Howard C. Rice,
+                            Jr.</unittitle>
+                        <unitdate normal="1959">1959</unitdate>
+                        <physdesc>
+                            <extent type="computed" unit="folder">1 folder</extent>
+                        </physdesc>
+                    </did>
+                </c>
+                <c level="file" id="C0006_c0188">
+                    <did>
+
+                        <container type="folder" parent="C0006_i11">8</container>
+                        <unittitle>Thomas Birch Painting of Mill Grove</unittitle>
+                        <unitdate normal="1959">1959</unitdate>
+                        <physdesc>
+                            <extent type="computed" unit="folder">1 folder</extent>
+                        </physdesc>
+                    </did>
+                </c>
+                <c level="file" id="C0006_c0189">
+                    <did>
+
+                        <container type="folder" parent="C0006_i11">9</container>
+                        <unittitle>Leaflet Sketches and Drafts</unittitle>
+                        <unitdate normal="1959">1959</unitdate>
+                        <physdesc>
+                            <extent type="computed" unit="folder">1 folder</extent>
+                        </physdesc>
+                    </did>
+                </c>
+                <c level="file" id="C0006_c0191">
+                    <did>
+
+                        <container type="folder" parent="C0006_i11">10</container>
+                        <unittitle>Research Notes for Catalogue: II &amp; Supporting
+                            Documentation</unittitle>
+                        <unitdate normal="1959">1959</unitdate>
+                        <physdesc>
+                            <extent type="computed" unit="folder">1 folder</extent>
+                        </physdesc>
+                    </did>
+                </c>
+                <c level="file" id="C0006_c0192">
+                    <did>
+
+                        <container type="folder" parent="C0006_i11">11</container>
+                        <unittitle>Research Notes for Catalogue: IV, V, VI.</unittitle>
+                        <unitdate normal="1959">1959</unitdate>
+                        <physdesc>
+                            <extent type="computed" unit="folder">1 folder</extent>
+                        </physdesc>
+                    </did>
+                </c>
+                <c level="file" id="C0006_c0193">
+                    <did>
+
+                        <container type="folder" parent="C0006_i11">12</container>
+                        <unittitle>Research Notes for Catalogue: VII</unittitle>
+                        <unitdate normal="1959">1959</unitdate>
+                        <physdesc>
+                            <extent type="computed" unit="folder">1 folder</extent>
+                        </physdesc>
+                    </did>
+                    <scopecontent>
+                        <p>N.J. paper money cf. no. 44.</p>
+                    </scopecontent>
+                </c>
+                <c level="file" id="C0006_c0194">
+                    <did>
+
+                        <container type="folder" parent="C0006_i11">13</container>
+                        <unittitle>Research Notes for Catalogue: VIII - IX.</unittitle>
+                        <unitdate normal="1959">1959</unitdate>
+                        <physdesc>
+                            <extent type="computed" unit="folder">1 folder</extent>
+                        </physdesc>
+                    </did>
+                </c>
+                <c level="file" id="C0006_c0195">
+                    <did>
+
+                        <container type="folder" parent="C0006_i11">14</container>
+                        <unittitle>Research Notes for Catalogue: X</unittitle>
+                        <unitdate normal="1959">1959</unitdate>
+                        <physdesc>
+                            <extent type="computed" unit="folder">1 folder</extent>
+                        </physdesc>
+                    </did>
+                </c>
+                <c level="file" id="C0006_c0196">
+                    <did>
+
+                        <container type="folder" parent="C0006_i11">15</container>
+                        <unittitle>Research Notes for Catalogue: XVI. "Minnie's Land"</unittitle>
+                        <unitdate normal="1959">1959</unitdate>
+                        <physdesc>
+                            <extent type="computed" unit="folder">1 folder</extent>
+                        </physdesc>
+                    </did>
+                </c>
+                <c id="C0006_c0197" level="file">
+                    <did>
+                        <container>
+                            <ptr target="C0006_i12"/>
+                        </container>
+                        <unittitle>Chronological List of Audubon's Bird Drawings</unittitle>
+                        <unitdate type="inclusive" normal="1959">1959</unitdate>
+                        <physdesc>
+                            <extent type="computed" unit="box">1 box</extent>
+                        </physdesc>
+                    </did>
+                    <scopecontent>
+                        <p>Consists of a card index, with a note inside that reads: "Based on the
+                            List of Plates, comprising the Original Issue of Audubon's 'The Birds of
+                            America,' With Notes showing where and when the original drawings were
+                            made," in S.C. Arthur, Audubon, 1937,
+                            Appendix E., p. 500 ff. Arthur's dating of the drawings is based chiefly
+                            on the annotations to be found on the originals, now in N.Y. Historical
+                            Society. Present card index compiled by Mrs. Julian P. Boyd, 1959. It
+                            was used as a basis for grouping Audubon bird plates according to place
+                            &amp; date of the drawing, rather than by date of publication. Audubon
+                            exhibition, 1959. H. C. Rice"</p>
+                    </scopecontent>
+                </c>
+            </c>
+        </dsc>
+        <dsc type="othertype" othertype="physicalholdings">
+            <c level="otherlevel" otherlevel="physicalitem" id="C0006_i1">
+                <did>
+                    <container type="box">6</container>
+                    <unitid type="barcode">32101040679084</unitid>
+                    <physloc type="code">mss</physloc>
+                    <physloc type="text">P</physloc>
+                </did>
+            </c>
+            <c level="otherlevel" otherlevel="physicalitem" id="C0006_i2">
+                <did>
+                    <container type="box">1</container>
+                    <unitid type="barcode">32101040679043</unitid>
+                    <physloc type="code">mss</physloc>
+
+                </did>
+            </c>
+            <c level="otherlevel" otherlevel="physicalitem" id="C0006_i3">
+                <did>
+                    <container type="box">2</container>
+                    <unitid type="barcode">32101040679050</unitid>
+                    <physloc type="code">mss</physloc>
+
+                </did>
+            </c>
+            <c level="otherlevel" otherlevel="physicalitem" id="C0006_i4">
+                <did>
+                    <container type="volume">1</container>
+                    <unitid type="barcode">32101047417801</unitid>
+                    <physloc type="code">mss</physloc>
+                    <physloc type="text">Q</physloc>
+                </did>
+            </c>
+            <c level="otherlevel" otherlevel="physicalitem" id="C0006_i5">
+                <did>
+                    <container type="volume">2</container>
+                    <unitid type="barcode">32101047417793</unitid>
+                    <physloc type="code">mss</physloc>
+                    <physloc type="text">Q</physloc>
+
+                </did>
+            </c>
+            <c level="otherlevel" otherlevel="physicalitem" id="C0006_i6">
+                <did>
+                    <container type="volume">3</container>
+                    <unitid type="barcode">32101047417785</unitid>
+                    <physloc type="code">mss</physloc>
+                    <physloc type="text">Q</physloc>
+                </did>
+            </c>
+            <c level="otherlevel" otherlevel="physicalitem" id="C0006_i7">
+                <did>
+                    <container type="volume">4</container>
+                    <unitid type="barcode">32101047419013</unitid>
+                    <physloc type="code">mss</physloc>
+                    <physloc type="text">Q</physloc>
+                </did>
+            </c>
+            <c level="otherlevel" otherlevel="physicalitem" id="C0006_i8">
+                <did>
+                    <container type="volume">5</container>
+                    <unitid type="barcode">32101047417777</unitid>
+                    <physloc type="code">mss</physloc>
+                    <physloc type="text">Q</physloc>
+                </did>
+            </c>
+            <c level="otherlevel" otherlevel="physicalitem" id="C0006_i9">
+                <did>
+                    <container type="volume">6</container>
+                    <unitid type="barcode">32101047417769</unitid>
+                    <physloc type="code">mss</physloc>
+                    <physloc type="text">Q</physloc>
+                </did>
+            </c>
+            <c level="otherlevel" otherlevel="physicalitem" id="C0006_i10">
+                <did>
+                    <container type="box">3</container>
+                    <unitid type="barcode">32101040679068</unitid>
+                    <physloc type="code">mss</physloc>
+
+                </did>
+            </c>
+            <c level="otherlevel" otherlevel="physicalitem" id="C0006_i11">
+                <did>
+                    <container type="box">4</container>
+                    <unitid type="barcode">32101040679076</unitid>
+                    <physloc type="code">mss</physloc>
+
+                </did>
+            </c>
+            <c level="otherlevel" otherlevel="physicalitem" id="C0006_i12">
+                <did>
+                    <container type="box">5</container>
+                    <unitid type="barcode">32101040679092</unitid>
+                    <physloc type="code">mss</physloc>
+                    <physloc type="text">P</physloc>
+                </did>
+            </c>
+        </dsc>
+    </archdesc>
+</ead>

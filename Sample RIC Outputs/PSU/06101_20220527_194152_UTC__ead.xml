@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ead audience="internal" xmlns="urn:isbn:1-931666-22-9" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="urn:isbn:1-931666-22-9 http://www.loc.gov/ead/ead.xsd"><eadheader countryencoding="iso3166-1" dateencoding="iso8601" findaidstatus="catonly" langencoding="iso639-2b" repositoryencoding="iso15511"><eadid countrycode="US" mainagencycode="US-UPM" url="https://libraries.psu.edu/findingaids/6101.htm">06101</eadid><filedesc><titlestmt><titleproper>Elisha J. Bracken Civil War diary, 1862-1863 <num>06101</num></titleproper><author>Matt Francis</author></titlestmt><publicationstmt><publisher>Eberly Family Special Collections Library</publisher><address><addressline>104 Paterno Library</addressline><addressline>Penn State University</addressline><addressline>University Park 16802</addressline><addressline>spcollections@psu.edu</addressline><addressline>URL: <extptr xlink:href="https://libraries.psu.edu/specialcollections" xlink:show="new" xlink:title="https://libraries.psu.edu/specialcollections" xlink:type="simple"/></addressline></address></publicationstmt></filedesc><profiledesc><creation>This finding aid was produced using ArchivesSpace on <date>2022-05-27 15:41:56 -0400</date>.</creation><langusage>English</langusage><descrules>Describing Archives: A Content Standard</descrules></profiledesc></eadheader><archdesc level="collection">
+  <did>
+    <repository>
+      <corpname>Eberly Family Special Collections Library</corpname>
+    </repository>
+    <unittitle>Elisha J. Bracken Civil War diary</unittitle>
+    <origination label="Creator">
+      <persname rules="rda" source="naf">Bracken, Elisha J., 1840-1864</persname>
+    </origination>
+    <unitid>06101</unitid>
+    <physdesc altrender="whole">
+      <extent altrender="materialtype spaceoccupied">.1 Linear Feet</extent>
+      <extent altrender="carrier">2 items.</extent>
+    </physdesc>
+    <unitdate datechar="creation" normal="1862/1863" type="inclusive">1862-1863</unitdate>
+    <langmaterial>
+      <language langcode="eng">English</language>
+.    </langmaterial>
+    <container altrender="https://www.hollingermetaledge.com/modules/store/index.html?dept=565&amp;cat=597&amp;cart=14973714174807958" id="aspace_e0dbabf78b3fe454a2525318bf797ea3" label="Mixed Materials" type="Box">Share 20</container>
+  </did>
+  <dao xlink:actuate="onRequest" xlink:href="https://cdm17287.contentdm.oclc.org/digital/api/singleitem/image/ejb/0/default.jpg" xlink:show="embed" xlink:title="Elisha J. Bracken Civil War diary" xlink:type="simple">
+    <daodesc><p>Elisha J. Bracken Civil War diary</p></daodesc>
+  </dao>
+  <dsc/>
+</archdesc>
+</ead>

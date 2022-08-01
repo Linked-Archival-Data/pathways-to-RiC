@@ -1,0 +1,889 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+         xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+         xmlns:rico="https://www.ica.org/standards/RiC/ontology#"
+         xmlns:dc="http://purl.org/dc/elements/1.1/"
+         xmlns:isni="http://isni.org/ontology#"
+         xmlns:owl="http://www.w3.org/2002/07/owl#"
+         xmlns:html="http://www.w3.org/1999/xhtml"
+         xml:base="http://data.archives-nationales.culture.gouv.fr/">
+   <rico:Record rdf:about="record/">
+      <rico:hasDocumentaryFormType rdf:resource="https://www.ica.org/standards/RiC/vocabularies/documentaryFormTypes#FindingAid"/>
+      <rico:regulatedBy rdf:resource="rule/rl005"/>
+      <rico:regulatedBy rdf:resource="rule/rl004"/>
+      <rico:regulatedBy rdf:resource="rule/rl006"/>
+      <rico:regulatedBy rdf:resource="rule/rl007"/>
+      <rico:regulatedBy rdf:resource="rule/rl008"/>
+      <rico:regulatedBy rdf:resource="rule/rl009"/>
+      <rico:title xml:lang="en">Business Correspondence of Smith, Elder, and Co., 1850-1908: Finding Aid</rico:title>
+      <rdfs:label xml:lang="en">Business Correspondence of Smith, Elder, and Co., 1850-1908: Finding Aid</rdfs:label>
+      <rico:publishedBy rdf:resource="agent/005061"/>
+      <rico:publicationDate rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">2008</rico:publicationDate>
+      <rico:hasLanguage rdf:resource="language/FRAN_RI_100-name6"/>
+      <rico:affectedBy>
+         <rico:Activity>
+            <rico:date rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2013-05-30</rico:date>
+            <rico:descriptiveNote xml:lang="en">Run through PULFA 2.0 normalization routines.</rico:descriptiveNote>
+         </rico:Activity>
+      </rico:affectedBy>
+      <rico:describes rdf:resource="recordResource/-top"/>
+      <rico:hasInstantiation>
+         <rico:Instantiation rdf:about="instantiation/-i1">
+            <rico:instantiates rdf:resource="record/"/>
+            <rico:title xml:lang="en">Business Correspondence of Smith, Elder, and Co., 1850-1908: Finding Aid</rico:title>
+            <rdfs:label xml:lang="en">Business Correspondence of Smith, Elder, and Co., 1850-1908: Finding Aid</rdfs:label>
+            <rico:history xml:lang="en">This finding aid was produced using the Archivists' Toolkit 2013-05-30T14:54-0400</rico:history>
+            <rico:regulatedBy rdf:resource="rule/rl010"/>
+            <dc:format xml:lang="en">text/xml</dc:format>
+            <rico:identifier>C0004</rico:identifier>
+            <rico:heldBy rdf:resource="agent/005061"/>
+            <rdfs:seeAlso rdf:resource="https://www.siv.archives-nationales.culture.gouv.fr/siv/IR/C0004"/>
+         </rico:Instantiation>
+      </rico:hasInstantiation>
+   </rico:Record>
+   <rico:RecordResource rdf:about="recordResource/-top">
+      <rico:describedBy rdf:resource="record/"/>
+      <rdf:type rdf:resource="https://www.ica.org/standards/RiC/ontology#RecordSet"/>
+      <rico:hasRecordSetType rdf:resource="https://www.ica.org/standards/RiC/vocabularies/recordSetTypes#Collection"/>
+      <rico:heldBy>
+         <rico:Agent>
+            <rdfs:label xml:lang="en">Princeton University Library. Special Collections. Manuscripts Division One Washington Road Princeton, New Jersey 08544 USA</rdfs:label>
+            <rico:hasAgentName>
+               <rico:AgentName>
+                  <rdfs:label xml:lang="en">Princeton University Library. Special Collections. Manuscripts Division One Washington Road Princeton, New Jersey 08544 USA</rdfs:label>
+                  <rico:textualValue xml:lang="en">Princeton University Library. Special Collections. Manuscripts Division One Washington Road Princeton, New Jersey 08544 USA</rico:textualValue>
+               </rico:AgentName>
+            </rico:hasAgentName>
+         </rico:Agent>
+      </rico:heldBy>
+      <rico:title xml:lang="en">Business Correspondence of Smith, Elder, and Co.</rico:title>
+      <rdfs:label xml:lang="en">Business Correspondence of Smith, Elder, and Co.</rdfs:label>
+      <rico:beginningDate rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1850</rico:beginningDate>
+      <rico:endDate rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1908</rico:endDate>
+      <rico:date xml:lang="en">1850-1908</rico:date>
+      <rico:hasLanguage rdf:resource="language/FRAN_RI_100-name6"/>
+      <rico:hasProvenance rdf:resource="agent/"/>
+      <rico:hasSubject>
+         <rico:Agent>
+            <rdf:type rdf:resource="https://www.ica.org/standards/RiC/ontology#Person"/>
+            <rdfs:label xml:lang="en">Smith, A. Donald.</rdfs:label>
+            <rico:hasAgentName>
+               <rico:AgentName>
+                  <rdfs:label xml:lang="en">Smith, A. Donald.</rdfs:label>
+                  <rico:textualValue xml:lang="en">Smith, A. Donald.</rico:textualValue>
+               </rico:AgentName>
+            </rico:hasAgentName>
+         </rico:Agent>
+      </rico:hasSubject>
+      <rico:hasSubject>
+         <rico:Agent>
+            <rdf:type rdf:resource="https://www.ica.org/standards/RiC/ontology#Person"/>
+            <rdfs:label xml:lang="en">Steinkopff, Edward.</rdfs:label>
+            <rico:hasAgentName>
+               <rico:AgentName>
+                  <rdfs:label xml:lang="en">Steinkopff, Edward.</rdfs:label>
+                  <rico:textualValue xml:lang="en">Steinkopff, Edward.</rico:textualValue>
+               </rico:AgentName>
+            </rico:hasAgentName>
+         </rico:Agent>
+      </rico:hasSubject>
+      <rico:hasSubject>
+         <rico:Agent>
+            <rdf:type rdf:resource="https://www.ica.org/standards/RiC/ontology#CorporateBody"/>
+            <rdfs:label xml:lang="en">Smith, Elder, and Co.</rdfs:label>
+            <rico:hasAgentName>
+               <rico:AgentName>
+                  <rdfs:label xml:lang="en">Smith, Elder, and Co.</rdfs:label>
+                  <rico:textualValue xml:lang="en">Smith, Elder, and Co.</rico:textualValue>
+               </rico:AgentName>
+            </rico:hasAgentName>
+         </rico:Agent>
+      </rico:hasSubject>
+      <rico:hasSubject rdf:resource="thing/lcsh-http://id.loc.gov/authorities/subjects/sh85009856"/>
+      <rico:hasSubject rdf:resource="thing/local-t50"/>
+      <rico:hasSubject rdf:resource="thing/local-t50"/>
+      <rico:hasInstantiation>
+         <rico:Instantiation rdf:about="instantiation/-top-i1">
+            <rico:instantiates rdf:resource="recordResource/-top"/>
+            <rico:identifier>C0004</rico:identifier>
+            <rico:heldBy>
+               <rico:Agent>
+                  <rdfs:label xml:lang="en">Princeton University Library. Special Collections. Manuscripts Division One Washington Road Princeton, New Jersey 08544 USA</rdfs:label>
+                  <rico:hasAgentName>
+                     <rico:AgentName>
+                        <rdfs:label xml:lang="en">Princeton University Library. Special Collections. Manuscripts Division One Washington Road Princeton, New Jersey 08544 USA</rdfs:label>
+                        <rico:textualValue xml:lang="en">Princeton University Library. Special Collections. Manuscripts Division One Washington Road Princeton, New Jersey 08544 USA</rico:textualValue>
+                     </rico:AgentName>
+                  </rico:hasAgentName>
+               </rico:Agent>
+            </rico:heldBy>
+            <rico:title xml:lang="en">Business Correspondence of Smith, Elder, and Co.</rico:title>
+            <rdfs:label xml:lang="en">Business Correspondence of Smith, Elder, and Co.</rdfs:label>
+            <rico:beginningDate rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1850</rico:beginningDate>
+            <rico:endDate rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1908</rico:endDate>
+            <rico:date xml:lang="en">1850-1908</rico:date>
+            <rico:instantiationExtent rdf:parseType="Literal">
+               <html:p xml:lang="en">0.4 linear feet</html:p>
+            </rico:instantiationExtent>
+            <rico:instantiationExtent rdf:parseType="Literal">
+               <html:p xml:lang="en">1 archival box</html:p>
+            </rico:instantiationExtent>
+            <rico:hasLocation rdf:resource=""/>
+            <rico:hasProvenance rdf:resource="agent/"/>
+            <rdfs:seeAlso rdf:resource="https://www.siv.archives-nationales.culture.gouv.fr/siv/UD/C0004/top"/>
+         </rico:Instantiation>
+      </rico:hasInstantiation>
+      <rico:includes rdf:resource="recordResource/-C0004_c0000001"/>
+      <rico:includes rdf:resource="recordResource/-C0004_c0000002"/>
+      <rico:includes rdf:resource="recordResource/-C0004_c0000003"/>
+      <rico:includes rdf:resource="recordResource/-C0004_c0000004"/>
+      <rico:includes rdf:resource="recordResource/-C0004_c0000005"/>
+      <rico:includes rdf:resource="recordResource/-C0004_c0000006"/>
+      <rico:includes rdf:resource="recordResource/-C0004_c0000007"/>
+      <rico:includes rdf:resource="recordResource/-C0004_c0000008"/>
+      <rico:includes rdf:resource="recordResource/-C0004_c0000009"/>
+      <rico:includes rdf:resource="recordResource/-C0004_c0000010"/>
+      <rico:includes rdf:resource="recordResource/-C0004_c0000011"/>
+      <rico:includes rdf:resource="recordResource/-C0004_c0000012"/>
+      <rico:includes rdf:resource="recordResource/-C0004_c0000013"/>
+      <rico:includes rdf:resource="recordResource/-C0004_c0000014"/>
+      <rico:includes rdf:resource="recordResource/-C0004_c0000015"/>
+      <rico:includes rdf:resource="recordResource/-C0004_c0000016"/>
+      <rico:includes rdf:resource="recordResource/-C0004_c0000017"/>
+      <rico:includes rdf:resource="recordResource/-C0004_c0000018"/>
+      <rico:includes rdf:resource="recordResource/-C0004_c0000019"/>
+      <rico:includes rdf:resource="recordResource/-C0004_c0000020"/>
+      <rico:includes rdf:resource="recordResource/-C0004_c0000021"/>
+      <rico:includes rdf:resource="recordResource/-C0004_c0000022"/>
+      <rico:includes rdf:resource="recordResource/-C0004_c0000023"/>
+      <rico:includes rdf:resource="recordResource/-C0004_c0000024"/>
+      <rico:includes rdf:resource="recordResource/-C0004_c0000025"/>
+      <rico:includes rdf:resource="recordResource/-C0004_c0000026"/>
+      <rico:includes rdf:resource="recordResource/-C0004_c0000027"/>
+      <rico:includes rdf:resource="recordResource/-C0004_c0000028"/>
+      <rico:includes rdf:resource="recordResource/-C0004_c0000029"/>
+      <rico:includes rdf:resource="recordResource/-C0004_c0000030"/>
+      <rico:includes rdf:resource="recordResource/-C0004_c0000031"/>
+      <rico:includes rdf:resource="recordResource/-C0004_c0000032"/>
+      <rico:includes rdf:resource="recordResource/-C0004_i1"/>
+   </rico:RecordResource>
+   <rico:RecordResource rdf:about="recordResource/-C0004_c0000001">
+      <rico:includedIn rdf:resource="recordResource/-top"/>
+      <rdf:type rdf:resource="https://www.ica.org/standards/RiC/ontology#RecordSet"/>
+      <rico:hasRecordSetType rdf:resource="https://www.ica.org/standards/RiC/vocabularies/recordSetTypes#File"/>
+      <rico:title xml:lang="en">Correspondence: A-M</rico:title>
+      <rdfs:label xml:lang="en">Correspondence: A-M</rdfs:label>
+      <rico:beginningDate rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1865</rico:beginningDate>
+      <rico:endDate rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1874</rico:endDate>
+      <rico:date xml:lang="en">1865-1874</rico:date>
+      <rico:hasInstantiation>
+         <rico:Instantiation rdf:about="instantiation/-C0004_c0000001-i1">
+            <rico:instantiates rdf:resource="recordResource/-C0004_c0000001"/>
+            <rico:title xml:lang="en">Correspondence: A-M</rico:title>
+            <rdfs:label xml:lang="en">Correspondence: A-M</rdfs:label>
+            <rico:beginningDate rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1865</rico:beginningDate>
+            <rico:endDate rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1874</rico:endDate>
+            <rico:date xml:lang="en">1865-1874</rico:date>
+            <rico:instantiationExtent rdf:parseType="Literal">
+               <html:p xml:lang="en">1 folder</html:p>
+            </rico:instantiationExtent>
+            <rico:history rdf:parseType="Literal">
+               <html:div xml:lang="en">
+                  <html:h4>Informations sur les modalités d’entrée</html:h4>
+                  <html:p>AM 21739</html:p>
+               </html:div>
+            </rico:history>
+            <rdfs:seeAlso rdf:resource="https://www.siv.archives-nationales.culture.gouv.fr/siv/UD/C0004/C0004_c0000001"/>
+         </rico:Instantiation>
+      </rico:hasInstantiation>
+   </rico:RecordResource>
+   <rico:RecordResource rdf:about="recordResource/-C0004_c0000002">
+      <rico:includedIn rdf:resource="recordResource/-top"/>
+      <rdf:type rdf:resource="https://www.ica.org/standards/RiC/ontology#RecordSet"/>
+      <rico:hasRecordSetType rdf:resource="https://www.ica.org/standards/RiC/vocabularies/recordSetTypes#File"/>
+      <rico:title xml:lang="en">Correspondence: N-Z</rico:title>
+      <rdfs:label xml:lang="en">Correspondence: N-Z</rdfs:label>
+      <rico:beginningDate rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1865</rico:beginningDate>
+      <rico:endDate rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1881</rico:endDate>
+      <rico:date xml:lang="en">1865-1881</rico:date>
+      <rico:hasInstantiation>
+         <rico:Instantiation rdf:about="instantiation/-C0004_c0000002-i1">
+            <rico:instantiates rdf:resource="recordResource/-C0004_c0000002"/>
+            <rico:title xml:lang="en">Correspondence: N-Z</rico:title>
+            <rdfs:label xml:lang="en">Correspondence: N-Z</rdfs:label>
+            <rico:beginningDate rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1865</rico:beginningDate>
+            <rico:endDate rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1881</rico:endDate>
+            <rico:date xml:lang="en">1865-1881</rico:date>
+            <rico:instantiationExtent rdf:parseType="Literal">
+               <html:p xml:lang="en">1 folder</html:p>
+            </rico:instantiationExtent>
+            <rico:history rdf:parseType="Literal">
+               <html:div xml:lang="en">
+                  <html:h4>Informations sur les modalités d’entrée</html:h4>
+                  <html:p>AM 21739</html:p>
+               </html:div>
+            </rico:history>
+            <rdfs:seeAlso rdf:resource="https://www.siv.archives-nationales.culture.gouv.fr/siv/UD/C0004/C0004_c0000002"/>
+         </rico:Instantiation>
+      </rico:hasInstantiation>
+   </rico:RecordResource>
+   <rico:RecordResource rdf:about="recordResource/-C0004_c0000003">
+      <rico:includedIn rdf:resource="recordResource/-top"/>
+      <rdf:type rdf:resource="https://www.ica.org/standards/RiC/ontology#RecordSet"/>
+      <rico:hasRecordSetType rdf:resource="https://www.ica.org/standards/RiC/vocabularies/recordSetTypes#File"/>
+      <rico:title xml:lang="en">Ainer, Arthur Campbell</rico:title>
+      <rdfs:label xml:lang="en">Ainer, Arthur Campbell</rdfs:label>
+      <rico:date xml:lang="en">4 May 1869</rico:date>
+      <rico:hasInstantiation>
+         <rico:Instantiation rdf:about="instantiation/-C0004_c0000003-i1">
+            <rico:instantiates rdf:resource="recordResource/-C0004_c0000003"/>
+            <rico:title xml:lang="en">Ainer, Arthur Campbell</rico:title>
+            <rdfs:label xml:lang="en">Ainer, Arthur Campbell</rdfs:label>
+            <rico:date xml:lang="en">4 May 1869</rico:date>
+            <rico:instantiationExtent rdf:parseType="Literal">
+               <html:p xml:lang="en">1 folder</html:p>
+            </rico:instantiationExtent>
+            <rdfs:seeAlso rdf:resource="https://www.siv.archives-nationales.culture.gouv.fr/siv/UD/C0004/C0004_c0000003"/>
+         </rico:Instantiation>
+      </rico:hasInstantiation>
+   </rico:RecordResource>
+   <rico:RecordResource rdf:about="recordResource/-C0004_c0000004">
+      <rico:includedIn rdf:resource="recordResource/-top"/>
+      <rdf:type rdf:resource="https://www.ica.org/standards/RiC/ontology#RecordSet"/>
+      <rico:hasRecordSetType rdf:resource="https://www.ica.org/standards/RiC/vocabularies/recordSetTypes#File"/>
+      <rico:title xml:lang="en">Besant, Annie</rico:title>
+      <rdfs:label xml:lang="en">Besant, Annie</rdfs:label>
+      <rico:date xml:lang="en">7 February 1870</rico:date>
+      <rico:hasInstantiation>
+         <rico:Instantiation rdf:about="instantiation/-C0004_c0000004-i1">
+            <rico:instantiates rdf:resource="recordResource/-C0004_c0000004"/>
+            <rico:title xml:lang="en">Besant, Annie</rico:title>
+            <rdfs:label xml:lang="en">Besant, Annie</rdfs:label>
+            <rico:date xml:lang="en">7 February 1870</rico:date>
+            <rico:instantiationExtent rdf:parseType="Literal">
+               <html:p xml:lang="en">1 folder</html:p>
+            </rico:instantiationExtent>
+            <rdfs:seeAlso rdf:resource="https://www.siv.archives-nationales.culture.gouv.fr/siv/UD/C0004/C0004_c0000004"/>
+         </rico:Instantiation>
+      </rico:hasInstantiation>
+   </rico:RecordResource>
+   <rico:RecordResource rdf:about="recordResource/-C0004_c0000005">
+      <rico:includedIn rdf:resource="recordResource/-top"/>
+      <rdf:type rdf:resource="https://www.ica.org/standards/RiC/ontology#RecordSet"/>
+      <rico:hasRecordSetType rdf:resource="https://www.ica.org/standards/RiC/vocabularies/recordSetTypes#File"/>
+      <rico:title xml:lang="en">Bradley, Edward</rico:title>
+      <rdfs:label xml:lang="en">Bradley, Edward</rdfs:label>
+      <rico:beginningDate rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1863</rico:beginningDate>
+      <rico:endDate rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1864</rico:endDate>
+      <rico:date xml:lang="en">1863-1864</rico:date>
+      <rico:hasInstantiation>
+         <rico:Instantiation rdf:about="instantiation/-C0004_c0000005-i1">
+            <rico:instantiates rdf:resource="recordResource/-C0004_c0000005"/>
+            <rico:title xml:lang="en">Bradley, Edward</rico:title>
+            <rdfs:label xml:lang="en">Bradley, Edward</rdfs:label>
+            <rico:beginningDate rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1863</rico:beginningDate>
+            <rico:endDate rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1864</rico:endDate>
+            <rico:date xml:lang="en">1863-1864</rico:date>
+            <rico:instantiationExtent rdf:parseType="Literal">
+               <html:p xml:lang="en">1 folder</html:p>
+            </rico:instantiationExtent>
+            <rdfs:seeAlso rdf:resource="https://www.siv.archives-nationales.culture.gouv.fr/siv/UD/C0004/C0004_c0000005"/>
+         </rico:Instantiation>
+      </rico:hasInstantiation>
+   </rico:RecordResource>
+   <rico:RecordResource rdf:about="recordResource/-C0004_c0000006">
+      <rico:includedIn rdf:resource="recordResource/-top"/>
+      <rdf:type rdf:resource="https://www.ica.org/standards/RiC/ontology#RecordSet"/>
+      <rico:hasRecordSetType rdf:resource="https://www.ica.org/standards/RiC/vocabularies/recordSetTypes#File"/>
+      <rico:title xml:lang="en">Brown, Oliver Madox</rico:title>
+      <rdfs:label xml:lang="en">Brown, Oliver Madox</rdfs:label>
+      <rico:date xml:lang="en">May 1873</rico:date>
+      <rico:hasInstantiation>
+         <rico:Instantiation rdf:about="instantiation/-C0004_c0000006-i1">
+            <rico:instantiates rdf:resource="recordResource/-C0004_c0000006"/>
+            <rico:title xml:lang="en">Brown, Oliver Madox</rico:title>
+            <rdfs:label xml:lang="en">Brown, Oliver Madox</rdfs:label>
+            <rico:date xml:lang="en">May 1873</rico:date>
+            <rico:instantiationExtent rdf:parseType="Literal">
+               <html:p xml:lang="en">1 folder</html:p>
+            </rico:instantiationExtent>
+            <rdfs:seeAlso rdf:resource="https://www.siv.archives-nationales.culture.gouv.fr/siv/UD/C0004/C0004_c0000006"/>
+         </rico:Instantiation>
+      </rico:hasInstantiation>
+   </rico:RecordResource>
+   <rico:RecordResource rdf:about="recordResource/-C0004_c0000007">
+      <rico:includedIn rdf:resource="recordResource/-top"/>
+      <rdf:type rdf:resource="https://www.ica.org/standards/RiC/ontology#RecordSet"/>
+      <rico:hasRecordSetType rdf:resource="https://www.ica.org/standards/RiC/vocabularies/recordSetTypes#File"/>
+      <rico:title xml:lang="en">Bullen, Frank Thomas</rico:title>
+      <rdfs:label xml:lang="en">Bullen, Frank Thomas</rdfs:label>
+      <rico:date xml:lang="en">3 January 1906</rico:date>
+      <rico:hasInstantiation>
+         <rico:Instantiation rdf:about="instantiation/-C0004_c0000007-i1">
+            <rico:instantiates rdf:resource="recordResource/-C0004_c0000007"/>
+            <rico:title xml:lang="en">Bullen, Frank Thomas</rico:title>
+            <rdfs:label xml:lang="en">Bullen, Frank Thomas</rdfs:label>
+            <rico:date xml:lang="en">3 January 1906</rico:date>
+            <rico:instantiationExtent rdf:parseType="Literal">
+               <html:p xml:lang="en">1 folder</html:p>
+            </rico:instantiationExtent>
+            <rdfs:seeAlso rdf:resource="https://www.siv.archives-nationales.culture.gouv.fr/siv/UD/C0004/C0004_c0000007"/>
+         </rico:Instantiation>
+      </rico:hasInstantiation>
+   </rico:RecordResource>
+   <rico:RecordResource rdf:about="recordResource/-C0004_c0000008">
+      <rico:includedIn rdf:resource="recordResource/-top"/>
+      <rdf:type rdf:resource="https://www.ica.org/standards/RiC/ontology#RecordSet"/>
+      <rico:hasRecordSetType rdf:resource="https://www.ica.org/standards/RiC/vocabularies/recordSetTypes#File"/>
+      <rico:title xml:lang="en">Castle, Egerton</rico:title>
+      <rdfs:label xml:lang="en">Castle, Egerton</rdfs:label>
+      <rico:date xml:lang="en">13 February 1912</rico:date>
+      <rico:hasInstantiation>
+         <rico:Instantiation rdf:about="instantiation/-C0004_c0000008-i1">
+            <rico:instantiates rdf:resource="recordResource/-C0004_c0000008"/>
+            <rico:title xml:lang="en">Castle, Egerton</rico:title>
+            <rdfs:label xml:lang="en">Castle, Egerton</rdfs:label>
+            <rico:date xml:lang="en">13 February 1912</rico:date>
+            <rico:instantiationExtent rdf:parseType="Literal">
+               <html:p xml:lang="en">1 folder</html:p>
+            </rico:instantiationExtent>
+            <rdfs:seeAlso rdf:resource="https://www.siv.archives-nationales.culture.gouv.fr/siv/UD/C0004/C0004_c0000008"/>
+         </rico:Instantiation>
+      </rico:hasInstantiation>
+   </rico:RecordResource>
+   <rico:RecordResource rdf:about="recordResource/-C0004_c0000009">
+      <rico:includedIn rdf:resource="recordResource/-top"/>
+      <rdf:type rdf:resource="https://www.ica.org/standards/RiC/ontology#RecordSet"/>
+      <rico:hasRecordSetType rdf:resource="https://www.ica.org/standards/RiC/vocabularies/recordSetTypes#File"/>
+      <rico:title xml:lang="en">Clarke, Edward George, Sir</rico:title>
+      <rdfs:label xml:lang="en">Clarke, Edward George, Sir</rdfs:label>
+      <rico:date xml:lang="en">5 November 1908</rico:date>
+      <rico:hasInstantiation>
+         <rico:Instantiation rdf:about="instantiation/-C0004_c0000009-i1">
+            <rico:instantiates rdf:resource="recordResource/-C0004_c0000009"/>
+            <rico:title xml:lang="en">Clarke, Edward George, Sir</rico:title>
+            <rdfs:label xml:lang="en">Clarke, Edward George, Sir</rdfs:label>
+            <rico:date xml:lang="en">5 November 1908</rico:date>
+            <rico:instantiationExtent rdf:parseType="Literal">
+               <html:p xml:lang="en">1 folder</html:p>
+            </rico:instantiationExtent>
+            <rdfs:seeAlso rdf:resource="https://www.siv.archives-nationales.culture.gouv.fr/siv/UD/C0004/C0004_c0000009"/>
+         </rico:Instantiation>
+      </rico:hasInstantiation>
+   </rico:RecordResource>
+   <rico:RecordResource rdf:about="recordResource/-C0004_c0000010">
+      <rico:includedIn rdf:resource="recordResource/-top"/>
+      <rdf:type rdf:resource="https://www.ica.org/standards/RiC/ontology#RecordSet"/>
+      <rico:hasRecordSetType rdf:resource="https://www.ica.org/standards/RiC/vocabularies/recordSetTypes#File"/>
+      <rico:title xml:lang="en">Crockett, Samuel Rutherford</rico:title>
+      <rdfs:label xml:lang="en">Crockett, Samuel Rutherford</rdfs:label>
+      <rico:date xml:lang="en">6 June 1898</rico:date>
+      <rico:hasInstantiation>
+         <rico:Instantiation rdf:about="instantiation/-C0004_c0000010-i1">
+            <rico:instantiates rdf:resource="recordResource/-C0004_c0000010"/>
+            <rico:title xml:lang="en">Crockett, Samuel Rutherford</rico:title>
+            <rdfs:label xml:lang="en">Crockett, Samuel Rutherford</rdfs:label>
+            <rico:date xml:lang="en">6 June 1898</rico:date>
+            <rico:instantiationExtent rdf:parseType="Literal">
+               <html:p xml:lang="en">1 folder</html:p>
+            </rico:instantiationExtent>
+            <rdfs:seeAlso rdf:resource="https://www.siv.archives-nationales.culture.gouv.fr/siv/UD/C0004/C0004_c0000010"/>
+         </rico:Instantiation>
+      </rico:hasInstantiation>
+   </rico:RecordResource>
+   <rico:RecordResource rdf:about="recordResource/-C0004_c0000011">
+      <rico:includedIn rdf:resource="recordResource/-top"/>
+      <rdf:type rdf:resource="https://www.ica.org/standards/RiC/ontology#RecordSet"/>
+      <rico:hasRecordSetType rdf:resource="https://www.ica.org/standards/RiC/vocabularies/recordSetTypes#File"/>
+      <rico:title xml:lang="en">Dowden, Edward</rico:title>
+      <rdfs:label xml:lang="en">Dowden, Edward</rdfs:label>
+      <rico:date xml:lang="en">1 December 1882</rico:date>
+      <rico:hasInstantiation>
+         <rico:Instantiation rdf:about="instantiation/-C0004_c0000011-i1">
+            <rico:instantiates rdf:resource="recordResource/-C0004_c0000011"/>
+            <rico:title xml:lang="en">Dowden, Edward</rico:title>
+            <rdfs:label xml:lang="en">Dowden, Edward</rdfs:label>
+            <rico:date xml:lang="en">1 December 1882</rico:date>
+            <rico:instantiationExtent rdf:parseType="Literal">
+               <html:p xml:lang="en">1 folder</html:p>
+            </rico:instantiationExtent>
+            <rdfs:seeAlso rdf:resource="https://www.siv.archives-nationales.culture.gouv.fr/siv/UD/C0004/C0004_c0000011"/>
+         </rico:Instantiation>
+      </rico:hasInstantiation>
+   </rico:RecordResource>
+   <rico:RecordResource rdf:about="recordResource/-C0004_c0000012">
+      <rico:includedIn rdf:resource="recordResource/-top"/>
+      <rdf:type rdf:resource="https://www.ica.org/standards/RiC/ontology#RecordSet"/>
+      <rico:hasRecordSetType rdf:resource="https://www.ica.org/standards/RiC/vocabularies/recordSetTypes#File"/>
+      <rico:title xml:lang="en">Fitzgerald, Percy Hetherington</rico:title>
+      <rdfs:label xml:lang="en">Fitzgerald, Percy Hetherington</rdfs:label>
+      <rico:date xml:lang="en">undated</rico:date>
+      <rico:hasInstantiation>
+         <rico:Instantiation rdf:about="instantiation/-C0004_c0000012-i1">
+            <rico:instantiates rdf:resource="recordResource/-C0004_c0000012"/>
+            <rico:title xml:lang="en">Fitzgerald, Percy Hetherington</rico:title>
+            <rdfs:label xml:lang="en">Fitzgerald, Percy Hetherington</rdfs:label>
+            <rico:date xml:lang="en">undated</rico:date>
+            <rico:instantiationExtent rdf:parseType="Literal">
+               <html:p xml:lang="en">1 folder</html:p>
+            </rico:instantiationExtent>
+            <rdfs:seeAlso rdf:resource="https://www.siv.archives-nationales.culture.gouv.fr/siv/UD/C0004/C0004_c0000012"/>
+         </rico:Instantiation>
+      </rico:hasInstantiation>
+   </rico:RecordResource>
+   <rico:RecordResource rdf:about="recordResource/-C0004_c0000013">
+      <rico:includedIn rdf:resource="recordResource/-top"/>
+      <rdf:type rdf:resource="https://www.ica.org/standards/RiC/ontology#RecordSet"/>
+      <rico:hasRecordSetType rdf:resource="https://www.ica.org/standards/RiC/vocabularies/recordSetTypes#File"/>
+      <rico:title xml:lang="en">Gissing, Algernon</rico:title>
+      <rdfs:label xml:lang="en">Gissing, Algernon</rdfs:label>
+      <rico:beginningDate rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1915</rico:beginningDate>
+      <rico:endDate rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1915</rico:endDate>
+      <rico:date xml:lang="en">1915</rico:date>
+      <rico:hasInstantiation>
+         <rico:Instantiation rdf:about="instantiation/-C0004_c0000013-i1">
+            <rico:instantiates rdf:resource="recordResource/-C0004_c0000013"/>
+            <rico:title xml:lang="en">Gissing, Algernon</rico:title>
+            <rdfs:label xml:lang="en">Gissing, Algernon</rdfs:label>
+            <rico:beginningDate rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1915</rico:beginningDate>
+            <rico:endDate rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1915</rico:endDate>
+            <rico:date xml:lang="en">1915</rico:date>
+            <rico:instantiationExtent rdf:parseType="Literal">
+               <html:p xml:lang="en">1 folder</html:p>
+            </rico:instantiationExtent>
+            <rdfs:seeAlso rdf:resource="https://www.siv.archives-nationales.culture.gouv.fr/siv/UD/C0004/C0004_c0000013"/>
+         </rico:Instantiation>
+      </rico:hasInstantiation>
+   </rico:RecordResource>
+   <rico:RecordResource rdf:about="recordResource/-C0004_c0000014">
+      <rico:includedIn rdf:resource="recordResource/-top"/>
+      <rdf:type rdf:resource="https://www.ica.org/standards/RiC/ontology#RecordSet"/>
+      <rico:hasRecordSetType rdf:resource="https://www.ica.org/standards/RiC/vocabularies/recordSetTypes#File"/>
+      <rico:title xml:lang="en">Grenow, Rees Howell</rico:title>
+      <rdfs:label xml:lang="en">Grenow, Rees Howell</rdfs:label>
+      <rico:date xml:lang="en">24 July 1864</rico:date>
+      <rico:hasInstantiation>
+         <rico:Instantiation rdf:about="instantiation/-C0004_c0000014-i1">
+            <rico:instantiates rdf:resource="recordResource/-C0004_c0000014"/>
+            <rico:title xml:lang="en">Grenow, Rees Howell</rico:title>
+            <rdfs:label xml:lang="en">Grenow, Rees Howell</rdfs:label>
+            <rico:date xml:lang="en">24 July 1864</rico:date>
+            <rico:instantiationExtent rdf:parseType="Literal">
+               <html:p xml:lang="en">1 folder</html:p>
+            </rico:instantiationExtent>
+            <rdfs:seeAlso rdf:resource="https://www.siv.archives-nationales.culture.gouv.fr/siv/UD/C0004/C0004_c0000014"/>
+         </rico:Instantiation>
+      </rico:hasInstantiation>
+   </rico:RecordResource>
+   <rico:RecordResource rdf:about="recordResource/-C0004_c0000015">
+      <rico:includedIn rdf:resource="recordResource/-top"/>
+      <rdf:type rdf:resource="https://www.ica.org/standards/RiC/ontology#RecordSet"/>
+      <rico:hasRecordSetType rdf:resource="https://www.ica.org/standards/RiC/vocabularies/recordSetTypes#File"/>
+      <rico:title xml:lang="en">Holyoake, George Jacob</rico:title>
+      <rdfs:label xml:lang="en">Holyoake, George Jacob</rdfs:label>
+      <rico:date xml:lang="en">27 November 1869</rico:date>
+      <rico:hasInstantiation>
+         <rico:Instantiation rdf:about="instantiation/-C0004_c0000015-i1">
+            <rico:instantiates rdf:resource="recordResource/-C0004_c0000015"/>
+            <rico:title xml:lang="en">Holyoake, George Jacob</rico:title>
+            <rdfs:label xml:lang="en">Holyoake, George Jacob</rdfs:label>
+            <rico:date xml:lang="en">27 November 1869</rico:date>
+            <rico:instantiationExtent rdf:parseType="Literal">
+               <html:p xml:lang="en">1 folder</html:p>
+            </rico:instantiationExtent>
+            <rdfs:seeAlso rdf:resource="https://www.siv.archives-nationales.culture.gouv.fr/siv/UD/C0004/C0004_c0000015"/>
+         </rico:Instantiation>
+      </rico:hasInstantiation>
+   </rico:RecordResource>
+   <rico:RecordResource rdf:about="recordResource/-C0004_c0000016">
+      <rico:includedIn rdf:resource="recordResource/-top"/>
+      <rdf:type rdf:resource="https://www.ica.org/standards/RiC/ontology#RecordSet"/>
+      <rico:hasRecordSetType rdf:resource="https://www.ica.org/standards/RiC/vocabularies/recordSetTypes#File"/>
+      <rico:title xml:lang="en">Hutton, Richard Holt</rico:title>
+      <rdfs:label xml:lang="en">Hutton, Richard Holt</rdfs:label>
+      <rico:date xml:lang="en">undated</rico:date>
+      <rico:hasInstantiation>
+         <rico:Instantiation rdf:about="instantiation/-C0004_c0000016-i1">
+            <rico:instantiates rdf:resource="recordResource/-C0004_c0000016"/>
+            <rico:title xml:lang="en">Hutton, Richard Holt</rico:title>
+            <rdfs:label xml:lang="en">Hutton, Richard Holt</rdfs:label>
+            <rico:date xml:lang="en">undated</rico:date>
+            <rico:instantiationExtent rdf:parseType="Literal">
+               <html:p xml:lang="en">1 folder</html:p>
+            </rico:instantiationExtent>
+            <rdfs:seeAlso rdf:resource="https://www.siv.archives-nationales.culture.gouv.fr/siv/UD/C0004/C0004_c0000016"/>
+         </rico:Instantiation>
+      </rico:hasInstantiation>
+   </rico:RecordResource>
+   <rico:RecordResource rdf:about="recordResource/-C0004_c0000017">
+      <rico:includedIn rdf:resource="recordResource/-top"/>
+      <rdf:type rdf:resource="https://www.ica.org/standards/RiC/ontology#RecordSet"/>
+      <rico:hasRecordSetType rdf:resource="https://www.ica.org/standards/RiC/vocabularies/recordSetTypes#File"/>
+      <rico:title xml:lang="en">Hyne, Charles John Cutliffe Wright</rico:title>
+      <rdfs:label xml:lang="en">Hyne, Charles John Cutliffe Wright</rdfs:label>
+      <rico:beginningDate rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1894</rico:beginningDate>
+      <rico:endDate rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1895</rico:endDate>
+      <rico:date xml:lang="en">1894-1895</rico:date>
+      <rico:hasInstantiation>
+         <rico:Instantiation rdf:about="instantiation/-C0004_c0000017-i1">
+            <rico:instantiates rdf:resource="recordResource/-C0004_c0000017"/>
+            <rico:title xml:lang="en">Hyne, Charles John Cutliffe Wright</rico:title>
+            <rdfs:label xml:lang="en">Hyne, Charles John Cutliffe Wright</rdfs:label>
+            <rico:beginningDate rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1894</rico:beginningDate>
+            <rico:endDate rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1895</rico:endDate>
+            <rico:date xml:lang="en">1894-1895</rico:date>
+            <rico:instantiationExtent rdf:parseType="Literal">
+               <html:p xml:lang="en">1 folder</html:p>
+            </rico:instantiationExtent>
+            <rdfs:seeAlso rdf:resource="https://www.siv.archives-nationales.culture.gouv.fr/siv/UD/C0004/C0004_c0000017"/>
+         </rico:Instantiation>
+      </rico:hasInstantiation>
+   </rico:RecordResource>
+   <rico:RecordResource rdf:about="recordResource/-C0004_c0000018">
+      <rico:includedIn rdf:resource="recordResource/-top"/>
+      <rdf:type rdf:resource="https://www.ica.org/standards/RiC/ontology#RecordSet"/>
+      <rico:hasRecordSetType rdf:resource="https://www.ica.org/standards/RiC/vocabularies/recordSetTypes#File"/>
+      <rico:title xml:lang="en">Jeaffreson, John Cordy</rico:title>
+      <rdfs:label xml:lang="en">Jeaffreson, John Cordy</rdfs:label>
+      <rico:date xml:lang="en">undated</rico:date>
+      <rico:hasInstantiation>
+         <rico:Instantiation rdf:about="instantiation/-C0004_c0000018-i1">
+            <rico:instantiates rdf:resource="recordResource/-C0004_c0000018"/>
+            <rico:title xml:lang="en">Jeaffreson, John Cordy</rico:title>
+            <rdfs:label xml:lang="en">Jeaffreson, John Cordy</rdfs:label>
+            <rico:date xml:lang="en">undated</rico:date>
+            <rico:instantiationExtent rdf:parseType="Literal">
+               <html:p xml:lang="en">1 folder</html:p>
+            </rico:instantiationExtent>
+            <rdfs:seeAlso rdf:resource="https://www.siv.archives-nationales.culture.gouv.fr/siv/UD/C0004/C0004_c0000018"/>
+         </rico:Instantiation>
+      </rico:hasInstantiation>
+   </rico:RecordResource>
+   <rico:RecordResource rdf:about="recordResource/-C0004_c0000019">
+      <rico:includedIn rdf:resource="recordResource/-top"/>
+      <rdf:type rdf:resource="https://www.ica.org/standards/RiC/ontology#RecordSet"/>
+      <rico:hasRecordSetType rdf:resource="https://www.ica.org/standards/RiC/vocabularies/recordSetTypes#File"/>
+      <rico:title xml:lang="en">Marston, Philip Bourke</rico:title>
+      <rdfs:label xml:lang="en">Marston, Philip Bourke</rdfs:label>
+      <rico:date xml:lang="en">undated</rico:date>
+      <rico:hasInstantiation>
+         <rico:Instantiation rdf:about="instantiation/-C0004_c0000019-i1">
+            <rico:instantiates rdf:resource="recordResource/-C0004_c0000019"/>
+            <rico:title xml:lang="en">Marston, Philip Bourke</rico:title>
+            <rdfs:label xml:lang="en">Marston, Philip Bourke</rdfs:label>
+            <rico:date xml:lang="en">undated</rico:date>
+            <rico:instantiationExtent rdf:parseType="Literal">
+               <html:p xml:lang="en">1 folder</html:p>
+            </rico:instantiationExtent>
+            <rdfs:seeAlso rdf:resource="https://www.siv.archives-nationales.culture.gouv.fr/siv/UD/C0004/C0004_c0000019"/>
+         </rico:Instantiation>
+      </rico:hasInstantiation>
+   </rico:RecordResource>
+   <rico:RecordResource rdf:about="recordResource/-C0004_c0000020">
+      <rico:includedIn rdf:resource="recordResource/-top"/>
+      <rdf:type rdf:resource="https://www.ica.org/standards/RiC/ontology#RecordSet"/>
+      <rico:hasRecordSetType rdf:resource="https://www.ica.org/standards/RiC/vocabularies/recordSetTypes#File"/>
+      <rico:title xml:lang="en">Martin, Theodore, Sir</rico:title>
+      <rdfs:label xml:lang="en">Martin, Theodore, Sir</rdfs:label>
+      <rico:date xml:lang="en">28 November 1872</rico:date>
+      <rico:hasInstantiation>
+         <rico:Instantiation rdf:about="instantiation/-C0004_c0000020-i1">
+            <rico:instantiates rdf:resource="recordResource/-C0004_c0000020"/>
+            <rico:title xml:lang="en">Martin, Theodore, Sir</rico:title>
+            <rdfs:label xml:lang="en">Martin, Theodore, Sir</rdfs:label>
+            <rico:date xml:lang="en">28 November 1872</rico:date>
+            <rico:instantiationExtent rdf:parseType="Literal">
+               <html:p xml:lang="en">1 folder</html:p>
+            </rico:instantiationExtent>
+            <rdfs:seeAlso rdf:resource="https://www.siv.archives-nationales.culture.gouv.fr/siv/UD/C0004/C0004_c0000020"/>
+         </rico:Instantiation>
+      </rico:hasInstantiation>
+   </rico:RecordResource>
+   <rico:RecordResource rdf:about="recordResource/-C0004_c0000021">
+      <rico:includedIn rdf:resource="recordResource/-top"/>
+      <rdf:type rdf:resource="https://www.ica.org/standards/RiC/ontology#RecordSet"/>
+      <rico:hasRecordSetType rdf:resource="https://www.ica.org/standards/RiC/vocabularies/recordSetTypes#File"/>
+      <rico:title xml:lang="en">Morley, John</rico:title>
+      <rdfs:label xml:lang="en">Morley, John</rdfs:label>
+      <rico:beginningDate rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1862</rico:beginningDate>
+      <rico:endDate rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1882</rico:endDate>
+      <rico:date xml:lang="en">1862-1882</rico:date>
+      <rico:hasInstantiation>
+         <rico:Instantiation rdf:about="instantiation/-C0004_c0000021-i1">
+            <rico:instantiates rdf:resource="recordResource/-C0004_c0000021"/>
+            <rico:title xml:lang="en">Morley, John</rico:title>
+            <rdfs:label xml:lang="en">Morley, John</rdfs:label>
+            <rico:beginningDate rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1862</rico:beginningDate>
+            <rico:endDate rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1882</rico:endDate>
+            <rico:date xml:lang="en">1862-1882</rico:date>
+            <rico:instantiationExtent rdf:parseType="Literal">
+               <html:p xml:lang="en">1 folder</html:p>
+            </rico:instantiationExtent>
+            <rdfs:seeAlso rdf:resource="https://www.siv.archives-nationales.culture.gouv.fr/siv/UD/C0004/C0004_c0000021"/>
+         </rico:Instantiation>
+      </rico:hasInstantiation>
+   </rico:RecordResource>
+   <rico:RecordResource rdf:about="recordResource/-C0004_c0000022">
+      <rico:includedIn rdf:resource="recordResource/-top"/>
+      <rdf:type rdf:resource="https://www.ica.org/standards/RiC/ontology#RecordSet"/>
+      <rico:hasRecordSetType rdf:resource="https://www.ica.org/standards/RiC/vocabularies/recordSetTypes#File"/>
+      <rico:title xml:lang="en">Norris, William Edward</rico:title>
+      <rdfs:label xml:lang="en">Norris, William Edward</rdfs:label>
+      <rico:beginningDate rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1877</rico:beginningDate>
+      <rico:endDate rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1884</rico:endDate>
+      <rico:date xml:lang="en">1877-1884</rico:date>
+      <rico:hasInstantiation>
+         <rico:Instantiation rdf:about="instantiation/-C0004_c0000022-i1">
+            <rico:instantiates rdf:resource="recordResource/-C0004_c0000022"/>
+            <rico:title xml:lang="en">Norris, William Edward</rico:title>
+            <rdfs:label xml:lang="en">Norris, William Edward</rdfs:label>
+            <rico:beginningDate rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1877</rico:beginningDate>
+            <rico:endDate rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1884</rico:endDate>
+            <rico:date xml:lang="en">1877-1884</rico:date>
+            <rico:instantiationExtent rdf:parseType="Literal">
+               <html:p xml:lang="en">1 folder</html:p>
+            </rico:instantiationExtent>
+            <rdfs:seeAlso rdf:resource="https://www.siv.archives-nationales.culture.gouv.fr/siv/UD/C0004/C0004_c0000022"/>
+         </rico:Instantiation>
+      </rico:hasInstantiation>
+   </rico:RecordResource>
+   <rico:RecordResource rdf:about="recordResource/-C0004_c0000023">
+      <rico:includedIn rdf:resource="recordResource/-top"/>
+      <rdf:type rdf:resource="https://www.ica.org/standards/RiC/ontology#RecordSet"/>
+      <rico:hasRecordSetType rdf:resource="https://www.ica.org/standards/RiC/vocabularies/recordSetTypes#File"/>
+      <rico:title xml:lang="en">Robinson, Mary</rico:title>
+      <rdfs:label xml:lang="en">Robinson, Mary</rdfs:label>
+      <rico:date xml:lang="en">undated</rico:date>
+      <rico:hasInstantiation>
+         <rico:Instantiation rdf:about="instantiation/-C0004_c0000023-i1">
+            <rico:instantiates rdf:resource="recordResource/-C0004_c0000023"/>
+            <rico:title xml:lang="en">Robinson, Mary</rico:title>
+            <rdfs:label xml:lang="en">Robinson, Mary</rdfs:label>
+            <rico:date xml:lang="en">undated</rico:date>
+            <rico:instantiationExtent rdf:parseType="Literal">
+               <html:p xml:lang="en">1 folder</html:p>
+            </rico:instantiationExtent>
+            <rdfs:seeAlso rdf:resource="https://www.siv.archives-nationales.culture.gouv.fr/siv/UD/C0004/C0004_c0000023"/>
+         </rico:Instantiation>
+      </rico:hasInstantiation>
+   </rico:RecordResource>
+   <rico:RecordResource rdf:about="recordResource/-C0004_c0000024">
+      <rico:includedIn rdf:resource="recordResource/-top"/>
+      <rdf:type rdf:resource="https://www.ica.org/standards/RiC/ontology#RecordSet"/>
+      <rico:hasRecordSetType rdf:resource="https://www.ica.org/standards/RiC/vocabularies/recordSetTypes#File"/>
+      <rico:title xml:lang="en">Sala, George Augustus</rico:title>
+      <rdfs:label xml:lang="en">Sala, George Augustus</rdfs:label>
+      <rico:date xml:lang="en">undated</rico:date>
+      <rico:hasInstantiation>
+         <rico:Instantiation rdf:about="instantiation/-C0004_c0000024-i1">
+            <rico:instantiates rdf:resource="recordResource/-C0004_c0000024"/>
+            <rico:title xml:lang="en">Sala, George Augustus</rico:title>
+            <rdfs:label xml:lang="en">Sala, George Augustus</rdfs:label>
+            <rico:date xml:lang="en">undated</rico:date>
+            <rico:instantiationExtent rdf:parseType="Literal">
+               <html:p xml:lang="en">1 folder</html:p>
+            </rico:instantiationExtent>
+            <rdfs:seeAlso rdf:resource="https://www.siv.archives-nationales.culture.gouv.fr/siv/UD/C0004/C0004_c0000024"/>
+         </rico:Instantiation>
+      </rico:hasInstantiation>
+   </rico:RecordResource>
+   <rico:RecordResource rdf:about="recordResource/-C0004_c0000025">
+      <rico:includedIn rdf:resource="recordResource/-top"/>
+      <rdf:type rdf:resource="https://www.ica.org/standards/RiC/ontology#RecordSet"/>
+      <rico:hasRecordSetType rdf:resource="https://www.ica.org/standards/RiC/vocabularies/recordSetTypes#File"/>
+      <rico:title xml:lang="en">Smith, A. Donald</rico:title>
+      <rdfs:label xml:lang="en">Smith, A. Donald</rdfs:label>
+      <rico:beginningDate rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1873</rico:beginningDate>
+      <rico:endDate rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1874</rico:endDate>
+      <rico:date xml:lang="en">1873-1874</rico:date>
+      <rico:hasInstantiation>
+         <rico:Instantiation rdf:about="instantiation/-C0004_c0000025-i1">
+            <rico:instantiates rdf:resource="recordResource/-C0004_c0000025"/>
+            <rico:title xml:lang="en">Smith, A. Donald</rico:title>
+            <rdfs:label xml:lang="en">Smith, A. Donald</rdfs:label>
+            <rico:beginningDate rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1873</rico:beginningDate>
+            <rico:endDate rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1874</rico:endDate>
+            <rico:date xml:lang="en">1873-1874</rico:date>
+            <rico:instantiationExtent rdf:parseType="Literal">
+               <html:p xml:lang="en">1 folder</html:p>
+            </rico:instantiationExtent>
+            <rico:history rdf:parseType="Literal">
+               <html:div xml:lang="en">
+                  <html:h4>Informations sur les modalités d’entrée</html:h4>
+                  <html:p>AM 21739</html:p>
+               </html:div>
+            </rico:history>
+            <rdfs:seeAlso rdf:resource="https://www.siv.archives-nationales.culture.gouv.fr/siv/UD/C0004/C0004_c0000025"/>
+         </rico:Instantiation>
+      </rico:hasInstantiation>
+   </rico:RecordResource>
+   <rico:RecordResource rdf:about="recordResource/-C0004_c0000026">
+      <rico:includedIn rdf:resource="recordResource/-top"/>
+      <rdf:type rdf:resource="https://www.ica.org/standards/RiC/ontology#RecordSet"/>
+      <rico:hasRecordSetType rdf:resource="https://www.ica.org/standards/RiC/vocabularies/recordSetTypes#File"/>
+      <rico:title xml:lang="en">Smith, Geroge Barnett</rico:title>
+      <rdfs:label xml:lang="en">Smith, Geroge Barnett</rdfs:label>
+      <rico:date xml:lang="en">undated</rico:date>
+      <rico:hasInstantiation>
+         <rico:Instantiation rdf:about="instantiation/-C0004_c0000026-i1">
+            <rico:instantiates rdf:resource="recordResource/-C0004_c0000026"/>
+            <rico:title xml:lang="en">Smith, Geroge Barnett</rico:title>
+            <rdfs:label xml:lang="en">Smith, Geroge Barnett</rdfs:label>
+            <rico:date xml:lang="en">undated</rico:date>
+            <rico:instantiationExtent rdf:parseType="Literal">
+               <html:p xml:lang="en">1 folder</html:p>
+            </rico:instantiationExtent>
+            <rdfs:seeAlso rdf:resource="https://www.siv.archives-nationales.culture.gouv.fr/siv/UD/C0004/C0004_c0000026"/>
+         </rico:Instantiation>
+      </rico:hasInstantiation>
+   </rico:RecordResource>
+   <rico:RecordResource rdf:about="recordResource/-C0004_c0000027">
+      <rico:includedIn rdf:resource="recordResource/-top"/>
+      <rdf:type rdf:resource="https://www.ica.org/standards/RiC/ontology#RecordSet"/>
+      <rico:hasRecordSetType rdf:resource="https://www.ica.org/standards/RiC/vocabularies/recordSetTypes#File"/>
+      <rico:title xml:lang="en">Snow, William Parker</rico:title>
+      <rdfs:label xml:lang="en">Snow, William Parker</rdfs:label>
+      <rico:date xml:lang="en">17 July 1876</rico:date>
+      <rico:hasInstantiation>
+         <rico:Instantiation rdf:about="instantiation/-C0004_c0000027-i1">
+            <rico:instantiates rdf:resource="recordResource/-C0004_c0000027"/>
+            <rico:title xml:lang="en">Snow, William Parker</rico:title>
+            <rdfs:label xml:lang="en">Snow, William Parker</rdfs:label>
+            <rico:date xml:lang="en">17 July 1876</rico:date>
+            <rico:instantiationExtent rdf:parseType="Literal">
+               <html:p xml:lang="en">1 folder</html:p>
+            </rico:instantiationExtent>
+            <rdfs:seeAlso rdf:resource="https://www.siv.archives-nationales.culture.gouv.fr/siv/UD/C0004/C0004_c0000027"/>
+         </rico:Instantiation>
+      </rico:hasInstantiation>
+   </rico:RecordResource>
+   <rico:RecordResource rdf:about="recordResource/-C0004_c0000028">
+      <rico:includedIn rdf:resource="recordResource/-top"/>
+      <rdf:type rdf:resource="https://www.ica.org/standards/RiC/ontology#RecordSet"/>
+      <rico:hasRecordSetType rdf:resource="https://www.ica.org/standards/RiC/vocabularies/recordSetTypes#File"/>
+      <rico:title xml:lang="en">Steinkopff, Edward</rico:title>
+      <rdfs:label xml:lang="en">Steinkopff, Edward</rdfs:label>
+      <rico:beginningDate rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1873</rico:beginningDate>
+      <rico:endDate rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1874</rico:endDate>
+      <rico:date xml:lang="en">1873-1874</rico:date>
+      <rico:hasInstantiation>
+         <rico:Instantiation rdf:about="instantiation/-C0004_c0000028-i1">
+            <rico:instantiates rdf:resource="recordResource/-C0004_c0000028"/>
+            <rico:title xml:lang="en">Steinkopff, Edward</rico:title>
+            <rdfs:label xml:lang="en">Steinkopff, Edward</rdfs:label>
+            <rico:beginningDate rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1873</rico:beginningDate>
+            <rico:endDate rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1874</rico:endDate>
+            <rico:date xml:lang="en">1873-1874</rico:date>
+            <rico:instantiationExtent rdf:parseType="Literal">
+               <html:p xml:lang="en">1 folder</html:p>
+            </rico:instantiationExtent>
+            <rico:history rdf:parseType="Literal">
+               <html:div xml:lang="en">
+                  <html:h4>Informations sur les modalités d’entrée</html:h4>
+                  <html:p>AM 21739</html:p>
+               </html:div>
+            </rico:history>
+            <rdfs:seeAlso rdf:resource="https://www.siv.archives-nationales.culture.gouv.fr/siv/UD/C0004/C0004_c0000028"/>
+         </rico:Instantiation>
+      </rico:hasInstantiation>
+   </rico:RecordResource>
+   <rico:RecordResource rdf:about="recordResource/-C0004_c0000029">
+      <rico:includedIn rdf:resource="recordResource/-top"/>
+      <rdf:type rdf:resource="https://www.ica.org/standards/RiC/ontology#RecordSet"/>
+      <rico:hasRecordSetType rdf:resource="https://www.ica.org/standards/RiC/vocabularies/recordSetTypes#File"/>
+      <rico:title xml:lang="en">Sutcliffe, Halliwell</rico:title>
+      <rdfs:label xml:lang="en">Sutcliffe, Halliwell</rdfs:label>
+      <rico:date xml:lang="en">4 January 1912</rico:date>
+      <rico:hasInstantiation>
+         <rico:Instantiation rdf:about="instantiation/-C0004_c0000029-i1">
+            <rico:instantiates rdf:resource="recordResource/-C0004_c0000029"/>
+            <rico:title xml:lang="en">Sutcliffe, Halliwell</rico:title>
+            <rdfs:label xml:lang="en">Sutcliffe, Halliwell</rdfs:label>
+            <rico:date xml:lang="en">4 January 1912</rico:date>
+            <rico:instantiationExtent rdf:parseType="Literal">
+               <html:p xml:lang="en">1 folder</html:p>
+            </rico:instantiationExtent>
+            <rdfs:seeAlso rdf:resource="https://www.siv.archives-nationales.culture.gouv.fr/siv/UD/C0004/C0004_c0000029"/>
+         </rico:Instantiation>
+      </rico:hasInstantiation>
+   </rico:RecordResource>
+   <rico:RecordResource rdf:about="recordResource/-C0004_c0000030">
+      <rico:includedIn rdf:resource="recordResource/-top"/>
+      <rdf:type rdf:resource="https://www.ica.org/standards/RiC/ontology#RecordSet"/>
+      <rico:hasRecordSetType rdf:resource="https://www.ica.org/standards/RiC/vocabularies/recordSetTypes#File"/>
+      <rico:title xml:lang="en">Vizetelly, Henry</rico:title>
+      <rdfs:label xml:lang="en">Vizetelly, Henry</rdfs:label>
+      <rico:beginningDate rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1870</rico:beginningDate>
+      <rico:endDate rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1870</rico:endDate>
+      <rico:date xml:lang="en">1870</rico:date>
+      <rico:hasInstantiation>
+         <rico:Instantiation rdf:about="instantiation/-C0004_c0000030-i1">
+            <rico:instantiates rdf:resource="recordResource/-C0004_c0000030"/>
+            <rico:title xml:lang="en">Vizetelly, Henry</rico:title>
+            <rdfs:label xml:lang="en">Vizetelly, Henry</rdfs:label>
+            <rico:beginningDate rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1870</rico:beginningDate>
+            <rico:endDate rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1870</rico:endDate>
+            <rico:date xml:lang="en">1870</rico:date>
+            <rico:instantiationExtent rdf:parseType="Literal">
+               <html:p xml:lang="en">1 folder</html:p>
+            </rico:instantiationExtent>
+            <rdfs:seeAlso rdf:resource="https://www.siv.archives-nationales.culture.gouv.fr/siv/UD/C0004/C0004_c0000030"/>
+         </rico:Instantiation>
+      </rico:hasInstantiation>
+   </rico:RecordResource>
+   <rico:RecordResource rdf:about="recordResource/-C0004_c0000031">
+      <rico:includedIn rdf:resource="recordResource/-top"/>
+      <rdf:type rdf:resource="https://www.ica.org/standards/RiC/ontology#RecordSet"/>
+      <rico:hasRecordSetType rdf:resource="https://www.ica.org/standards/RiC/vocabularies/recordSetTypes#File"/>
+      <rico:title xml:lang="en">Walford, Edward</rico:title>
+      <rdfs:label xml:lang="en">Walford, Edward</rdfs:label>
+      <rico:date xml:lang="en">21 November 1882</rico:date>
+      <rico:hasInstantiation>
+         <rico:Instantiation rdf:about="instantiation/-C0004_c0000031-i1">
+            <rico:instantiates rdf:resource="recordResource/-C0004_c0000031"/>
+            <rico:title xml:lang="en">Walford, Edward</rico:title>
+            <rdfs:label xml:lang="en">Walford, Edward</rdfs:label>
+            <rico:date xml:lang="en">21 November 1882</rico:date>
+            <rico:instantiationExtent rdf:parseType="Literal">
+               <html:p xml:lang="en">1 folder</html:p>
+            </rico:instantiationExtent>
+            <rdfs:seeAlso rdf:resource="https://www.siv.archives-nationales.culture.gouv.fr/siv/UD/C0004/C0004_c0000031"/>
+         </rico:Instantiation>
+      </rico:hasInstantiation>
+   </rico:RecordResource>
+   <rico:RecordResource rdf:about="recordResource/-C0004_c0000032">
+      <rico:includedIn rdf:resource="recordResource/-top"/>
+      <rdf:type rdf:resource="https://www.ica.org/standards/RiC/ontology#RecordSet"/>
+      <rico:hasRecordSetType rdf:resource="https://www.ica.org/standards/RiC/vocabularies/recordSetTypes#File"/>
+      <rico:title xml:lang="en">Miscellaneous</rico:title>
+      <rdfs:label xml:lang="en">Miscellaneous</rdfs:label>
+      <rico:beginningDate rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1855</rico:beginningDate>
+      <rico:endDate rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1870</rico:endDate>
+      <rico:date xml:lang="en">1855-1870</rico:date>
+      <rico:hasInstantiation>
+         <rico:Instantiation rdf:about="instantiation/-C0004_c0000032-i1">
+            <rico:instantiates rdf:resource="recordResource/-C0004_c0000032"/>
+            <rico:title xml:lang="en">Miscellaneous</rico:title>
+            <rdfs:label xml:lang="en">Miscellaneous</rdfs:label>
+            <rico:beginningDate rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1855</rico:beginningDate>
+            <rico:endDate rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1870</rico:endDate>
+            <rico:date xml:lang="en">1855-1870</rico:date>
+            <rico:instantiationExtent rdf:parseType="Literal">
+               <html:p xml:lang="en">1 folder</html:p>
+            </rico:instantiationExtent>
+            <rdfs:seeAlso rdf:resource="https://www.siv.archives-nationales.culture.gouv.fr/siv/UD/C0004/C0004_c0000032"/>
+         </rico:Instantiation>
+      </rico:hasInstantiation>
+   </rico:RecordResource>
+   <rico:RecordResource rdf:about="recordResource/-C0004_i1">
+      <rico:includedIn rdf:resource="recordResource/-top"/>
+      <rico:hasInstantiation>
+         <rico:Instantiation rdf:about="instantiation/-C0004_i1-i1">
+            <rico:instantiates rdf:resource="recordResource/-C0004_i1"/>
+            <rico:identifier>32101040795336</rico:identifier>
+            <rico:hasLocation rdf:resource=""/>
+            <rdfs:seeAlso rdf:resource="https://www.siv.archives-nationales.culture.gouv.fr/siv/UD/C0004/C0004_i1"/>
+         </rico:Instantiation>
+      </rico:hasInstantiation>
+   </rico:RecordResource>
+</rdf:RDF>

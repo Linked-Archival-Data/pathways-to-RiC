@@ -1,0 +1,615 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+         xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+         xmlns:rico="https://www.ica.org/standards/RiC/ontology#"
+         xmlns:dc="http://purl.org/dc/elements/1.1/"
+         xmlns:isni="http://isni.org/ontology#"
+         xmlns:owl="http://www.w3.org/2002/07/owl#"
+         xmlns:html="http://www.w3.org/1999/xhtml"
+         xml:base="http://data.archives-nationales.culture.gouv.fr/">
+   <rico:Record rdf:about="record/">
+      <rico:hasDocumentaryFormType rdf:resource="https://www.ica.org/standards/RiC/vocabularies/documentaryFormTypes#FindingAid"/>
+      <rico:regulatedBy rdf:resource="rule/rl005"/>
+      <rico:regulatedBy rdf:resource="rule/rl004"/>
+      <rico:regulatedBy rdf:resource="rule/rl006"/>
+      <rico:regulatedBy rdf:resource="rule/rl007"/>
+      <rico:regulatedBy rdf:resource="rule/rl008"/>
+      <rico:regulatedBy rdf:resource="rule/rl009"/>
+      <rico:title xml:lang="en">"We Saw It Happen" Collection, 1937: Finding Aid</rico:title>
+      <rdfs:label xml:lang="en">"We Saw It Happen" Collection, 1937: Finding Aid</rdfs:label>
+      <rico:publishedBy rdf:resource="agent/005061"/>
+      <rico:publicationDate rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">2008</rico:publicationDate>
+      <rico:hasLanguage rdf:resource="language/FRAN_RI_100-name6"/>
+      <rico:affectedBy>
+         <rico:Activity>
+            <rico:date rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2012-05-02</rico:date>
+            <rico:descriptiveNote xml:lang="en">Run through PULFA 2.0 normalization routines.</rico:descriptiveNote>
+         </rico:Activity>
+      </rico:affectedBy>
+      <rico:describes rdf:resource="recordResource/-top"/>
+      <rico:hasInstantiation>
+         <rico:Instantiation rdf:about="instantiation/-i1">
+            <rico:instantiates rdf:resource="record/"/>
+            <rico:title xml:lang="en">"We Saw It Happen" Collection, 1937: Finding Aid</rico:title>
+            <rdfs:label xml:lang="en">"We Saw It Happen" Collection, 1937: Finding Aid</rdfs:label>
+            <rico:history xml:lang="en">This finding aid was produced using the Archivists' Toolkit 2011-07-26T12:28-0400</rico:history>
+            <rico:regulatedBy rdf:resource="rule/rl010"/>
+            <dc:format xml:lang="en">text/xml</dc:format>
+            <rico:identifier>C0007</rico:identifier>
+            <rico:heldBy rdf:resource="agent/005061"/>
+            <rdfs:seeAlso rdf:resource="https://www.siv.archives-nationales.culture.gouv.fr/siv/IR/C0007"/>
+         </rico:Instantiation>
+      </rico:hasInstantiation>
+   </rico:Record>
+   <rico:RecordResource rdf:about="recordResource/-top">
+      <rico:describedBy rdf:resource="record/"/>
+      <rdf:type rdf:resource="https://www.ica.org/standards/RiC/ontology#RecordSet"/>
+      <rico:hasRecordSetType rdf:resource="https://www.ica.org/standards/RiC/vocabularies/recordSetTypes#Collection"/>
+      <rico:heldBy>
+         <rico:Agent>
+            <rdfs:label xml:lang="en">Princeton University Library. Special Collections. Manuscripts Division One Washington Road Princeton, New Jersey 08544 USA</rdfs:label>
+            <rico:hasAgentName>
+               <rico:AgentName>
+                  <rdfs:label xml:lang="en">Princeton University Library. Special Collections. Manuscripts Division One Washington Road Princeton, New Jersey 08544 USA</rdfs:label>
+                  <rico:textualValue xml:lang="en">Princeton University Library. Special Collections. Manuscripts Division One Washington Road Princeton, New Jersey 08544 USA</rico:textualValue>
+               </rico:AgentName>
+            </rico:hasAgentName>
+         </rico:Agent>
+      </rico:heldBy>
+      <rico:title xml:lang="en">"We Saw It Happen" Collection</rico:title>
+      <rdfs:label xml:lang="en">"We Saw It Happen" Collection</rdfs:label>
+      <rico:beginningDate rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1937</rico:beginningDate>
+      <rico:endDate rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1937</rico:endDate>
+      <rico:date xml:lang="en">1937</rico:date>
+      <rico:hasLanguage rdf:resource="language/FRAN_RI_100-name6"/>
+      <rico:hasProvenance rdf:resource="agent/"/>
+      <rico:hasSubject rdf:resource="agent/viaf-http://viaf.org/viaf/192149064"/>
+      <rico:hasSubject rdf:resource="thing/local-t34"/>
+      <rico:hasInstantiation>
+         <rico:Instantiation rdf:about="instantiation/-top-i1">
+            <rico:instantiates rdf:resource="recordResource/-top"/>
+            <rico:identifier>C0007</rico:identifier>
+            <rico:heldBy>
+               <rico:Agent>
+                  <rdfs:label xml:lang="en">Princeton University Library. Special Collections. Manuscripts Division One Washington Road Princeton, New Jersey 08544 USA</rdfs:label>
+                  <rico:hasAgentName>
+                     <rico:AgentName>
+                        <rdfs:label xml:lang="en">Princeton University Library. Special Collections. Manuscripts Division One Washington Road Princeton, New Jersey 08544 USA</rdfs:label>
+                        <rico:textualValue xml:lang="en">Princeton University Library. Special Collections. Manuscripts Division One Washington Road Princeton, New Jersey 08544 USA</rico:textualValue>
+                     </rico:AgentName>
+                  </rico:hasAgentName>
+               </rico:Agent>
+            </rico:heldBy>
+            <rico:title xml:lang="en">"We Saw It Happen" Collection</rico:title>
+            <rdfs:label xml:lang="en">"We Saw It Happen" Collection</rdfs:label>
+            <rico:beginningDate rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1937</rico:beginningDate>
+            <rico:endDate rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1937</rico:endDate>
+            <rico:date xml:lang="en">1937</rico:date>
+            <rico:instantiationExtent rdf:parseType="Literal">
+               <html:p xml:lang="en">0.6 linear feet</html:p>
+            </rico:instantiationExtent>
+            <rico:instantiationExtent rdf:parseType="Literal">
+               <html:p xml:lang="en">2 boxes</html:p>
+            </rico:instantiationExtent>
+            <rico:hasLocation rdf:resource=""/>
+            <rico:hasProvenance rdf:resource="agent/"/>
+            <rdfs:seeAlso rdf:resource="https://www.siv.archives-nationales.culture.gouv.fr/siv/UD/C0007/top"/>
+         </rico:Instantiation>
+      </rico:hasInstantiation>
+      <rico:includes rdf:resource="recordResource/-C0007_c001"/>
+      <rico:includes rdf:resource="recordResource/-C0007_c002"/>
+      <rico:includes rdf:resource="recordResource/-C0007_c003"/>
+      <rico:includes rdf:resource="recordResource/-C0007_c004"/>
+      <rico:includes rdf:resource="recordResource/-C0007_c005"/>
+      <rico:includes rdf:resource="recordResource/-C0007_c006"/>
+      <rico:includes rdf:resource="recordResource/-C0007_c007"/>
+      <rico:includes rdf:resource="recordResource/-C0007_c008"/>
+      <rico:includes rdf:resource="recordResource/-C0007_c009"/>
+      <rico:includes rdf:resource="recordResource/-C0007_c010"/>
+      <rico:includes rdf:resource="recordResource/-C0007_c011"/>
+      <rico:includes rdf:resource="recordResource/-C0007_c012"/>
+      <rico:includes rdf:resource="recordResource/-C0007_c013"/>
+      <rico:includes rdf:resource="recordResource/-C0007_c014"/>
+      <rico:includes rdf:resource="recordResource/-C0007_c015"/>
+      <rico:includes rdf:resource="recordResource/-C0007_c016"/>
+      <rico:includes rdf:resource="recordResource/-C0007_c017"/>
+      <rico:includes rdf:resource="recordResource/-C0007_c018"/>
+      <rico:includes rdf:resource="recordResource/-C0007_c019"/>
+      <rico:includes rdf:resource="recordResource/-C0007_c020"/>
+      <rico:includes rdf:resource="recordResource/-C0007_c021"/>
+      <rico:includes rdf:resource="recordResource/-C0007_c022"/>
+      <rico:includes rdf:resource="recordResource/-C0007_c023"/>
+      <rico:includes rdf:resource="recordResource/-C0007_i1"/>
+      <rico:includes rdf:resource="recordResource/-C0007_i2"/>
+   </rico:RecordResource>
+   <rico:RecordResource rdf:about="recordResource/-C0007_c001">
+      <rico:includedIn rdf:resource="recordResource/-top"/>
+      <rdf:type rdf:resource="https://www.ica.org/standards/RiC/ontology#RecordSet"/>
+      <rico:hasRecordSetType rdf:resource="https://www.ica.org/standards/RiC/vocabularies/recordSetTypes#File"/>
+      <rico:title xml:lang="en">Introduction - By Baldwin, Hanson W. and Shepard Stone (with Corrections)</rico:title>
+      <rdfs:label xml:lang="en">Introduction - By Baldwin, Hanson W. and Shepard Stone (with Corrections)</rdfs:label>
+      <rico:beginningDate rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1938</rico:beginningDate>
+      <rico:endDate rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1938</rico:endDate>
+      <rico:date xml:lang="en">1938</rico:date>
+      <rico:hasInstantiation>
+         <rico:Instantiation rdf:about="instantiation/-C0007_c001-i1">
+            <rico:instantiates rdf:resource="recordResource/-C0007_c001"/>
+            <rico:title xml:lang="en">Introduction - By Baldwin, Hanson W. and Shepard Stone (with Corrections)</rico:title>
+            <rdfs:label xml:lang="en">Introduction - By Baldwin, Hanson W. and Shepard Stone (with Corrections)</rdfs:label>
+            <rico:beginningDate rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1938</rico:beginningDate>
+            <rico:endDate rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1938</rico:endDate>
+            <rico:date xml:lang="en">1938</rico:date>
+            <rico:instantiationExtent rdf:parseType="Literal">
+               <html:p xml:lang="en">1 folder</html:p>
+            </rico:instantiationExtent>
+            <rdfs:seeAlso rdf:resource="https://www.siv.archives-nationales.culture.gouv.fr/siv/UD/C0007/C0007_c001"/>
+         </rico:Instantiation>
+      </rico:hasInstantiation>
+   </rico:RecordResource>
+   <rico:RecordResource rdf:about="recordResource/-C0007_c002">
+      <rico:includedIn rdf:resource="recordResource/-top"/>
+      <rdf:type rdf:resource="https://www.ica.org/standards/RiC/ontology#RecordSet"/>
+      <rico:hasRecordSetType rdf:resource="https://www.ica.org/standards/RiC/vocabularies/recordSetTypes#File"/>
+      <rico:title xml:lang="en">"Chapter 1: Washington, D. C." - Krock, Arthur; Some Corrections</rico:title>
+      <rdfs:label xml:lang="en">"Chapter 1: Washington, D. C." - Krock, Arthur; Some Corrections</rdfs:label>
+      <rico:date xml:lang="en">undated</rico:date>
+      <rico:hasInstantiation>
+         <rico:Instantiation rdf:about="instantiation/-C0007_c002-i1">
+            <rico:instantiates rdf:resource="recordResource/-C0007_c002"/>
+            <rico:title xml:lang="en">"Chapter 1: Washington, D. C." - Krock, Arthur; Some Corrections</rico:title>
+            <rdfs:label xml:lang="en">"Chapter 1: Washington, D. C." - Krock, Arthur; Some Corrections</rdfs:label>
+            <rico:date xml:lang="en">undated</rico:date>
+            <rico:instantiationExtent rdf:parseType="Literal">
+               <html:p xml:lang="en">1 folder</html:p>
+            </rico:instantiationExtent>
+            <rdfs:seeAlso rdf:resource="https://www.siv.archives-nationales.culture.gouv.fr/siv/UD/C0007/C0007_c002"/>
+         </rico:Instantiation>
+      </rico:hasInstantiation>
+   </rico:RecordResource>
+   <rico:RecordResource rdf:about="recordResource/-C0007_c003">
+      <rico:includedIn rdf:resource="recordResource/-top"/>
+      <rdf:type rdf:resource="https://www.ica.org/standards/RiC/ontology#RecordSet"/>
+      <rico:hasRecordSetType rdf:resource="https://www.ica.org/standards/RiC/vocabularies/recordSetTypes#File"/>
+      <rico:title xml:lang="en">"Chapter 1: Washington, D. C." - Krock, Arthur; Final Version and Printers Corrections</rico:title>
+      <rdfs:label xml:lang="en">"Chapter 1: Washington, D. C." - Krock, Arthur; Final Version and Printers Corrections</rdfs:label>
+      <rico:date xml:lang="en">undated</rico:date>
+      <rico:hasInstantiation>
+         <rico:Instantiation rdf:about="instantiation/-C0007_c003-i1">
+            <rico:instantiates rdf:resource="recordResource/-C0007_c003"/>
+            <rico:title xml:lang="en">"Chapter 1: Washington, D. C." - Krock, Arthur; Final Version and Printers Corrections</rico:title>
+            <rdfs:label xml:lang="en">"Chapter 1: Washington, D. C." - Krock, Arthur; Final Version and Printers Corrections</rdfs:label>
+            <rico:date xml:lang="en">undated</rico:date>
+            <rico:instantiationExtent rdf:parseType="Literal">
+               <html:p xml:lang="en">1 folder</html:p>
+            </rico:instantiationExtent>
+            <rdfs:seeAlso rdf:resource="https://www.siv.archives-nationales.culture.gouv.fr/siv/UD/C0007/C0007_c003"/>
+         </rico:Instantiation>
+      </rico:hasInstantiation>
+   </rico:RecordResource>
+   <rico:RecordResource rdf:about="recordResource/-C0007_c004">
+      <rico:includedIn rdf:resource="recordResource/-top"/>
+      <rdf:type rdf:resource="https://www.ica.org/standards/RiC/ontology#RecordSet"/>
+      <rico:hasRecordSetType rdf:resource="https://www.ica.org/standards/RiC/vocabularies/recordSetTypes#File"/>
+      <rico:title xml:lang="en">"Chapter 2: Vienna Waltz" - Gedye, G. E. R.; Final Version and Notes to Printer, 2 Pages Unpublished</rico:title>
+      <rdfs:label xml:lang="en">"Chapter 2: Vienna Waltz" - Gedye, G. E. R.; Final Version and Notes to Printer, 2 Pages Unpublished</rdfs:label>
+      <rico:date xml:lang="en">undated</rico:date>
+      <rico:hasInstantiation>
+         <rico:Instantiation rdf:about="instantiation/-C0007_c004-i1">
+            <rico:instantiates rdf:resource="recordResource/-C0007_c004"/>
+            <rico:title xml:lang="en">"Chapter 2: Vienna Waltz" - Gedye, G. E. R.; Final Version and Notes to Printer, 2 Pages Unpublished</rico:title>
+            <rdfs:label xml:lang="en">"Chapter 2: Vienna Waltz" - Gedye, G. E. R.; Final Version and Notes to Printer, 2 Pages Unpublished</rdfs:label>
+            <rico:date xml:lang="en">undated</rico:date>
+            <rico:instantiationExtent rdf:parseType="Literal">
+               <html:p xml:lang="en">1 folder</html:p>
+            </rico:instantiationExtent>
+            <rdfs:seeAlso rdf:resource="https://www.siv.archives-nationales.culture.gouv.fr/siv/UD/C0007/C0007_c004"/>
+         </rico:Instantiation>
+      </rico:hasInstantiation>
+   </rico:RecordResource>
+   <rico:RecordResource rdf:about="recordResource/-C0007_c005">
+      <rico:includedIn rdf:resource="recordResource/-top"/>
+      <rdf:type rdf:resource="https://www.ica.org/standards/RiC/ontology#RecordSet"/>
+      <rico:hasRecordSetType rdf:resource="https://www.ica.org/standards/RiC/vocabularies/recordSetTypes#File"/>
+      <rico:title xml:lang="en">"Chapter 3: Land of the Free" - Daniell, F. Raymond; Final Version and Corrections</rico:title>
+      <rdfs:label xml:lang="en">"Chapter 3: Land of the Free" - Daniell, F. Raymond; Final Version and Corrections</rdfs:label>
+      <rico:date xml:lang="en">undated</rico:date>
+      <rico:hasInstantiation>
+         <rico:Instantiation rdf:about="instantiation/-C0007_c005-i1">
+            <rico:instantiates rdf:resource="recordResource/-C0007_c005"/>
+            <rico:title xml:lang="en">"Chapter 3: Land of the Free" - Daniell, F. Raymond; Final Version and Corrections</rico:title>
+            <rdfs:label xml:lang="en">"Chapter 3: Land of the Free" - Daniell, F. Raymond; Final Version and Corrections</rdfs:label>
+            <rico:date xml:lang="en">undated</rico:date>
+            <rico:instantiationExtent rdf:parseType="Literal">
+               <html:p xml:lang="en">1 folder</html:p>
+            </rico:instantiationExtent>
+            <rdfs:seeAlso rdf:resource="https://www.siv.archives-nationales.culture.gouv.fr/siv/UD/C0007/C0007_c005"/>
+         </rico:Instantiation>
+      </rico:hasInstantiation>
+   </rico:RecordResource>
+   <rico:RecordResource rdf:about="recordResource/-C0007_c006">
+      <rico:includedIn rdf:resource="recordResource/-top"/>
+      <rdf:type rdf:resource="https://www.ica.org/standards/RiC/ontology#RecordSet"/>
+      <rico:hasRecordSetType rdf:resource="https://www.ica.org/standards/RiC/vocabularies/recordSetTypes#File"/>
+      <rico:title xml:lang="en">"Chapter 4: Graustark" - Nugent, Frank and D. Churchill; Carbon with Many Corrections</rico:title>
+      <rdfs:label xml:lang="en">"Chapter 4: Graustark" - Nugent, Frank and D. Churchill; Carbon with Many Corrections</rdfs:label>
+      <rico:date xml:lang="en">undated</rico:date>
+      <rico:hasInstantiation>
+         <rico:Instantiation rdf:about="instantiation/-C0007_c006-i1">
+            <rico:instantiates rdf:resource="recordResource/-C0007_c006"/>
+            <rico:title xml:lang="en">"Chapter 4: Graustark" - Nugent, Frank and D. Churchill; Carbon with Many Corrections</rico:title>
+            <rdfs:label xml:lang="en">"Chapter 4: Graustark" - Nugent, Frank and D. Churchill; Carbon with Many Corrections</rdfs:label>
+            <rico:date xml:lang="en">undated</rico:date>
+            <rico:instantiationExtent rdf:parseType="Literal">
+               <html:p xml:lang="en">1 folder</html:p>
+            </rico:instantiationExtent>
+            <rdfs:seeAlso rdf:resource="https://www.siv.archives-nationales.culture.gouv.fr/siv/UD/C0007/C0007_c006"/>
+         </rico:Instantiation>
+      </rico:hasInstantiation>
+   </rico:RecordResource>
+   <rico:RecordResource rdf:about="recordResource/-C0007_c007">
+      <rico:includedIn rdf:resource="recordResource/-top"/>
+      <rdf:type rdf:resource="https://www.ica.org/standards/RiC/ontology#RecordSet"/>
+      <rico:hasRecordSetType rdf:resource="https://www.ica.org/standards/RiC/vocabularies/recordSetTypes#File"/>
+      <rico:title xml:lang="en">"Chapter 4: Graustark" - Nugent, Frank and D. Churchill; Final Version and Corrections</rico:title>
+      <rdfs:label xml:lang="en">"Chapter 4: Graustark" - Nugent, Frank and D. Churchill; Final Version and Corrections</rdfs:label>
+      <rico:date xml:lang="en">undated</rico:date>
+      <rico:hasInstantiation>
+         <rico:Instantiation rdf:about="instantiation/-C0007_c007-i1">
+            <rico:instantiates rdf:resource="recordResource/-C0007_c007"/>
+            <rico:title xml:lang="en">"Chapter 4: Graustark" - Nugent, Frank and D. Churchill; Final Version and Corrections</rico:title>
+            <rdfs:label xml:lang="en">"Chapter 4: Graustark" - Nugent, Frank and D. Churchill; Final Version and Corrections</rdfs:label>
+            <rico:date xml:lang="en">undated</rico:date>
+            <rico:instantiationExtent rdf:parseType="Literal">
+               <html:p xml:lang="en">1 folder</html:p>
+            </rico:instantiationExtent>
+            <rdfs:seeAlso rdf:resource="https://www.siv.archives-nationales.culture.gouv.fr/siv/UD/C0007/C0007_c007"/>
+         </rico:Instantiation>
+      </rico:hasInstantiation>
+   </rico:RecordResource>
+   <rico:RecordResource rdf:about="recordResource/-C0007_c008">
+      <rico:includedIn rdf:resource="recordResource/-top"/>
+      <rdf:type rdf:resource="https://www.ica.org/standards/RiC/ontology#RecordSet"/>
+      <rico:hasRecordSetType rdf:resource="https://www.ica.org/standards/RiC/vocabularies/recordSetTypes#File"/>
+      <rico:title xml:lang="en">"Chapter 5: The Decline of the Money Barons" - Bell, Elliott V.; Original Manuscript with Corrections</rico:title>
+      <rdfs:label xml:lang="en">"Chapter 5: The Decline of the Money Barons" - Bell, Elliott V.; Original Manuscript with Corrections</rdfs:label>
+      <rico:date xml:lang="en">undated</rico:date>
+      <rico:hasInstantiation>
+         <rico:Instantiation rdf:about="instantiation/-C0007_c008-i1">
+            <rico:instantiates rdf:resource="recordResource/-C0007_c008"/>
+            <rico:title xml:lang="en">"Chapter 5: The Decline of the Money Barons" - Bell, Elliott V.; Original Manuscript with Corrections</rico:title>
+            <rdfs:label xml:lang="en">"Chapter 5: The Decline of the Money Barons" - Bell, Elliott V.; Original Manuscript with Corrections</rdfs:label>
+            <rico:date xml:lang="en">undated</rico:date>
+            <rico:instantiationExtent rdf:parseType="Literal">
+               <html:p xml:lang="en">1 folder</html:p>
+            </rico:instantiationExtent>
+            <rdfs:seeAlso rdf:resource="https://www.siv.archives-nationales.culture.gouv.fr/siv/UD/C0007/C0007_c008"/>
+         </rico:Instantiation>
+      </rico:hasInstantiation>
+   </rico:RecordResource>
+   <rico:RecordResource rdf:about="recordResource/-C0007_c009">
+      <rico:includedIn rdf:resource="recordResource/-top"/>
+      <rdf:type rdf:resource="https://www.ica.org/standards/RiC/ontology#RecordSet"/>
+      <rico:hasRecordSetType rdf:resource="https://www.ica.org/standards/RiC/vocabularies/recordSetTypes#File"/>
+      <rico:title xml:lang="en">"Chapter 5: The Decline of the Money Barons" - Bell, Elliott V.; Final Version and Proffreader's Corrections</rico:title>
+      <rdfs:label xml:lang="en">"Chapter 5: The Decline of the Money Barons" - Bell, Elliott V.; Final Version and Proffreader's Corrections</rdfs:label>
+      <rico:date xml:lang="en">undated</rico:date>
+      <rico:hasInstantiation>
+         <rico:Instantiation rdf:about="instantiation/-C0007_c009-i1">
+            <rico:instantiates rdf:resource="recordResource/-C0007_c009"/>
+            <rico:title xml:lang="en">"Chapter 5: The Decline of the Money Barons" - Bell, Elliott V.; Final Version and Proffreader's Corrections</rico:title>
+            <rdfs:label xml:lang="en">"Chapter 5: The Decline of the Money Barons" - Bell, Elliott V.; Final Version and Proffreader's Corrections</rdfs:label>
+            <rico:date xml:lang="en">undated</rico:date>
+            <rico:instantiationExtent rdf:parseType="Literal">
+               <html:p xml:lang="en">1 folder</html:p>
+            </rico:instantiationExtent>
+            <rdfs:seeAlso rdf:resource="https://www.siv.archives-nationales.culture.gouv.fr/siv/UD/C0007/C0007_c009"/>
+         </rico:Instantiation>
+      </rico:hasInstantiation>
+   </rico:RecordResource>
+   <rico:RecordResource rdf:about="recordResource/-C0007_c010">
+      <rico:includedIn rdf:resource="recordResource/-top"/>
+      <rdf:type rdf:resource="https://www.ica.org/standards/RiC/ontology#RecordSet"/>
+      <rico:hasRecordSetType rdf:resource="https://www.ica.org/standards/RiC/vocabularies/recordSetTypes#File"/>
+      <rico:title xml:lang="en">"Chapter 6: Britain - A Story of Old Age" - Kuhn, Ferdinand; Corrections</rico:title>
+      <rdfs:label xml:lang="en">"Chapter 6: Britain - A Story of Old Age" - Kuhn, Ferdinand; Corrections</rdfs:label>
+      <rico:beginningDate rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1937</rico:beginningDate>
+      <rico:endDate rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1937</rico:endDate>
+      <rico:date xml:lang="en">1937</rico:date>
+      <rico:hasInstantiation>
+         <rico:Instantiation rdf:about="instantiation/-C0007_c010-i1">
+            <rico:instantiates rdf:resource="recordResource/-C0007_c010"/>
+            <rico:title xml:lang="en">"Chapter 6: Britain - A Story of Old Age" - Kuhn, Ferdinand; Corrections</rico:title>
+            <rdfs:label xml:lang="en">"Chapter 6: Britain - A Story of Old Age" - Kuhn, Ferdinand; Corrections</rdfs:label>
+            <rico:beginningDate rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1937</rico:beginningDate>
+            <rico:endDate rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1937</rico:endDate>
+            <rico:date xml:lang="en">1937</rico:date>
+            <rico:instantiationExtent rdf:parseType="Literal">
+               <html:p xml:lang="en">1 folder</html:p>
+            </rico:instantiationExtent>
+            <rdfs:seeAlso rdf:resource="https://www.siv.archives-nationales.culture.gouv.fr/siv/UD/C0007/C0007_c010"/>
+         </rico:Instantiation>
+      </rico:hasInstantiation>
+   </rico:RecordResource>
+   <rico:RecordResource rdf:about="recordResource/-C0007_c011">
+      <rico:includedIn rdf:resource="recordResource/-top"/>
+      <rdf:type rdf:resource="https://www.ica.org/standards/RiC/ontology#RecordSet"/>
+      <rico:hasRecordSetType rdf:resource="https://www.ica.org/standards/RiC/vocabularies/recordSetTypes#File"/>
+      <rico:title xml:lang="en">"Chapter 6: Britain - A Story of Old Age" - Kuhn, Ferdinand; Final Version and Proofreader's Corrections</rico:title>
+      <rdfs:label xml:lang="en">"Chapter 6: Britain - A Story of Old Age" - Kuhn, Ferdinand; Final Version and Proofreader's Corrections</rdfs:label>
+      <rico:date xml:lang="en">undated</rico:date>
+      <rico:hasInstantiation>
+         <rico:Instantiation rdf:about="instantiation/-C0007_c011-i1">
+            <rico:instantiates rdf:resource="recordResource/-C0007_c011"/>
+            <rico:title xml:lang="en">"Chapter 6: Britain - A Story of Old Age" - Kuhn, Ferdinand; Final Version and Proofreader's Corrections</rico:title>
+            <rdfs:label xml:lang="en">"Chapter 6: Britain - A Story of Old Age" - Kuhn, Ferdinand; Final Version and Proofreader's Corrections</rdfs:label>
+            <rico:date xml:lang="en">undated</rico:date>
+            <rico:instantiationExtent rdf:parseType="Literal">
+               <html:p xml:lang="en">1 folder</html:p>
+            </rico:instantiationExtent>
+            <rdfs:seeAlso rdf:resource="https://www.siv.archives-nationales.culture.gouv.fr/siv/UD/C0007/C0007_c011"/>
+         </rico:Instantiation>
+      </rico:hasInstantiation>
+   </rico:RecordResource>
+   <rico:RecordResource rdf:about="recordResource/-C0007_c012">
+      <rico:includedIn rdf:resource="recordResource/-top"/>
+      <rdf:type rdf:resource="https://www.ica.org/standards/RiC/ontology#RecordSet"/>
+      <rico:hasRecordSetType rdf:resource="https://www.ica.org/standards/RiC/vocabularies/recordSetTypes#File"/>
+      <rico:title xml:lang="en">"Chapter 7: Hot Lands and Cold" - Owen, Russell; with Corrections</rico:title>
+      <rdfs:label xml:lang="en">"Chapter 7: Hot Lands and Cold" - Owen, Russell; with Corrections</rdfs:label>
+      <rico:date xml:lang="en">undated</rico:date>
+      <rico:hasInstantiation>
+         <rico:Instantiation rdf:about="instantiation/-C0007_c012-i1">
+            <rico:instantiates rdf:resource="recordResource/-C0007_c012"/>
+            <rico:title xml:lang="en">"Chapter 7: Hot Lands and Cold" - Owen, Russell; with Corrections</rico:title>
+            <rdfs:label xml:lang="en">"Chapter 7: Hot Lands and Cold" - Owen, Russell; with Corrections</rdfs:label>
+            <rico:date xml:lang="en">undated</rico:date>
+            <rico:instantiationExtent rdf:parseType="Literal">
+               <html:p xml:lang="en">1 folder</html:p>
+            </rico:instantiationExtent>
+            <rdfs:seeAlso rdf:resource="https://www.siv.archives-nationales.culture.gouv.fr/siv/UD/C0007/C0007_c012"/>
+         </rico:Instantiation>
+      </rico:hasInstantiation>
+   </rico:RecordResource>
+   <rico:RecordResource rdf:about="recordResource/-C0007_c013">
+      <rico:includedIn rdf:resource="recordResource/-top"/>
+      <rdf:type rdf:resource="https://www.ica.org/standards/RiC/ontology#RecordSet"/>
+      <rico:hasRecordSetType rdf:resource="https://www.ica.org/standards/RiC/vocabularies/recordSetTypes#File"/>
+      <rico:title xml:lang="en">"Chapter 7: Hot Lands and Cold" - Owen, Russell; Final Version and Some Corrections</rico:title>
+      <rdfs:label xml:lang="en">"Chapter 7: Hot Lands and Cold" - Owen, Russell; Final Version and Some Corrections</rdfs:label>
+      <rico:date xml:lang="en">undated</rico:date>
+      <rico:hasInstantiation>
+         <rico:Instantiation rdf:about="instantiation/-C0007_c013-i1">
+            <rico:instantiates rdf:resource="recordResource/-C0007_c013"/>
+            <rico:title xml:lang="en">"Chapter 7: Hot Lands and Cold" - Owen, Russell; Final Version and Some Corrections</rico:title>
+            <rdfs:label xml:lang="en">"Chapter 7: Hot Lands and Cold" - Owen, Russell; Final Version and Some Corrections</rdfs:label>
+            <rico:date xml:lang="en">undated</rico:date>
+            <rico:instantiationExtent rdf:parseType="Literal">
+               <html:p xml:lang="en">1 folder</html:p>
+            </rico:instantiationExtent>
+            <rdfs:seeAlso rdf:resource="https://www.siv.archives-nationales.culture.gouv.fr/siv/UD/C0007/C0007_c013"/>
+         </rico:Instantiation>
+      </rico:hasInstantiation>
+   </rico:RecordResource>
+   <rico:RecordResource rdf:about="recordResource/-C0007_c014">
+      <rico:includedIn rdf:resource="recordResource/-top"/>
+      <rdf:type rdf:resource="https://www.ica.org/standards/RiC/ontology#RecordSet"/>
+      <rico:hasRecordSetType rdf:resource="https://www.ica.org/standards/RiC/vocabularies/recordSetTypes#File"/>
+      <rico:title xml:lang="en">"Chapter 8: Sports of the Times" - Kieran, John; with Corrections</rico:title>
+      <rdfs:label xml:lang="en">"Chapter 8: Sports of the Times" - Kieran, John; with Corrections</rdfs:label>
+      <rico:date xml:lang="en">undated</rico:date>
+      <rico:hasInstantiation>
+         <rico:Instantiation rdf:about="instantiation/-C0007_c014-i1">
+            <rico:instantiates rdf:resource="recordResource/-C0007_c014"/>
+            <rico:title xml:lang="en">"Chapter 8: Sports of the Times" - Kieran, John; with Corrections</rico:title>
+            <rdfs:label xml:lang="en">"Chapter 8: Sports of the Times" - Kieran, John; with Corrections</rdfs:label>
+            <rico:date xml:lang="en">undated</rico:date>
+            <rico:instantiationExtent rdf:parseType="Literal">
+               <html:p xml:lang="en">1 folder</html:p>
+            </rico:instantiationExtent>
+            <rdfs:seeAlso rdf:resource="https://www.siv.archives-nationales.culture.gouv.fr/siv/UD/C0007/C0007_c014"/>
+         </rico:Instantiation>
+      </rico:hasInstantiation>
+   </rico:RecordResource>
+   <rico:RecordResource rdf:about="recordResource/-C0007_c015">
+      <rico:includedIn rdf:resource="recordResource/-top"/>
+      <rdf:type rdf:resource="https://www.ica.org/standards/RiC/ontology#RecordSet"/>
+      <rico:hasRecordSetType rdf:resource="https://www.ica.org/standards/RiC/vocabularies/recordSetTypes#File"/>
+      <rico:title xml:lang="en">"Chapter 8: Sports of the Times" - Kieran, John; Final Version and Proofreader's Corrections</rico:title>
+      <rdfs:label xml:lang="en">"Chapter 8: Sports of the Times" - Kieran, John; Final Version and Proofreader's Corrections</rdfs:label>
+      <rico:date xml:lang="en">undated</rico:date>
+      <rico:hasInstantiation>
+         <rico:Instantiation rdf:about="instantiation/-C0007_c015-i1">
+            <rico:instantiates rdf:resource="recordResource/-C0007_c015"/>
+            <rico:title xml:lang="en">"Chapter 8: Sports of the Times" - Kieran, John; Final Version and Proofreader's Corrections</rico:title>
+            <rdfs:label xml:lang="en">"Chapter 8: Sports of the Times" - Kieran, John; Final Version and Proofreader's Corrections</rdfs:label>
+            <rico:date xml:lang="en">undated</rico:date>
+            <rico:instantiationExtent rdf:parseType="Literal">
+               <html:p xml:lang="en">1 folder</html:p>
+            </rico:instantiationExtent>
+            <rdfs:seeAlso rdf:resource="https://www.siv.archives-nationales.culture.gouv.fr/siv/UD/C0007/C0007_c015"/>
+         </rico:Instantiation>
+      </rico:hasInstantiation>
+   </rico:RecordResource>
+   <rico:RecordResource rdf:about="recordResource/-C0007_c016">
+      <rico:includedIn rdf:resource="recordResource/-top"/>
+      <rdf:type rdf:resource="https://www.ica.org/standards/RiC/ontology#RecordSet"/>
+      <rico:hasRecordSetType rdf:resource="https://www.ica.org/standards/RiC/vocabularies/recordSetTypes#File"/>
+      <rico:title xml:lang="en">"Chapter 9: Manhattan Machine" - Conklin, William R.; Original Manuscript and Corrections</rico:title>
+      <rdfs:label xml:lang="en">"Chapter 9: Manhattan Machine" - Conklin, William R.; Original Manuscript and Corrections</rdfs:label>
+      <rico:date xml:lang="en">undated</rico:date>
+      <rico:hasInstantiation>
+         <rico:Instantiation rdf:about="instantiation/-C0007_c016-i1">
+            <rico:instantiates rdf:resource="recordResource/-C0007_c016"/>
+            <rico:title xml:lang="en">"Chapter 9: Manhattan Machine" - Conklin, William R.; Original Manuscript and Corrections</rico:title>
+            <rdfs:label xml:lang="en">"Chapter 9: Manhattan Machine" - Conklin, William R.; Original Manuscript and Corrections</rdfs:label>
+            <rico:date xml:lang="en">undated</rico:date>
+            <rico:instantiationExtent rdf:parseType="Literal">
+               <html:p xml:lang="en">1 folder</html:p>
+            </rico:instantiationExtent>
+            <rdfs:seeAlso rdf:resource="https://www.siv.archives-nationales.culture.gouv.fr/siv/UD/C0007/C0007_c016"/>
+         </rico:Instantiation>
+      </rico:hasInstantiation>
+   </rico:RecordResource>
+   <rico:RecordResource rdf:about="recordResource/-C0007_c017">
+      <rico:includedIn rdf:resource="recordResource/-top"/>
+      <rdf:type rdf:resource="https://www.ica.org/standards/RiC/ontology#RecordSet"/>
+      <rico:hasRecordSetType rdf:resource="https://www.ica.org/standards/RiC/vocabularies/recordSetTypes#File"/>
+      <rico:title xml:lang="en">"Chapter 9: Manhattan Machine" - Conklin, William R.; Final Version and Proofreader's Corrections</rico:title>
+      <rdfs:label xml:lang="en">"Chapter 9: Manhattan Machine" - Conklin, William R.; Final Version and Proofreader's Corrections</rdfs:label>
+      <rico:date xml:lang="en">undated</rico:date>
+      <rico:hasInstantiation>
+         <rico:Instantiation rdf:about="instantiation/-C0007_c017-i1">
+            <rico:instantiates rdf:resource="recordResource/-C0007_c017"/>
+            <rico:title xml:lang="en">"Chapter 9: Manhattan Machine" - Conklin, William R.; Final Version and Proofreader's Corrections</rico:title>
+            <rdfs:label xml:lang="en">"Chapter 9: Manhattan Machine" - Conklin, William R.; Final Version and Proofreader's Corrections</rdfs:label>
+            <rico:date xml:lang="en">undated</rico:date>
+            <rico:instantiationExtent rdf:parseType="Literal">
+               <html:p xml:lang="en">1 folder</html:p>
+            </rico:instantiationExtent>
+            <rdfs:seeAlso rdf:resource="https://www.siv.archives-nationales.culture.gouv.fr/siv/UD/C0007/C0007_c017"/>
+         </rico:Instantiation>
+      </rico:hasInstantiation>
+   </rico:RecordResource>
+   <rico:RecordResource rdf:about="recordResource/-C0007_c018">
+      <rico:includedIn rdf:resource="recordResource/-top"/>
+      <rdf:type rdf:resource="https://www.ica.org/standards/RiC/ontology#RecordSet"/>
+      <rico:hasRecordSetType rdf:resource="https://www.ica.org/standards/RiC/vocabularies/recordSetTypes#File"/>
+      <rico:title xml:lang="en">"Chapter 10: Land of the Rising Sun" - Byas, Hugh; with Corrections</rico:title>
+      <rdfs:label xml:lang="en">"Chapter 10: Land of the Rising Sun" - Byas, Hugh; with Corrections</rdfs:label>
+      <rico:date xml:lang="en">undated</rico:date>
+      <rico:hasInstantiation>
+         <rico:Instantiation rdf:about="instantiation/-C0007_c018-i1">
+            <rico:instantiates rdf:resource="recordResource/-C0007_c018"/>
+            <rico:title xml:lang="en">"Chapter 10: Land of the Rising Sun" - Byas, Hugh; with Corrections</rico:title>
+            <rdfs:label xml:lang="en">"Chapter 10: Land of the Rising Sun" - Byas, Hugh; with Corrections</rdfs:label>
+            <rico:date xml:lang="en">undated</rico:date>
+            <rico:instantiationExtent rdf:parseType="Literal">
+               <html:p xml:lang="en">1 folder</html:p>
+            </rico:instantiationExtent>
+            <rdfs:seeAlso rdf:resource="https://www.siv.archives-nationales.culture.gouv.fr/siv/UD/C0007/C0007_c018"/>
+         </rico:Instantiation>
+      </rico:hasInstantiation>
+   </rico:RecordResource>
+   <rico:RecordResource rdf:about="recordResource/-C0007_c019">
+      <rico:includedIn rdf:resource="recordResource/-top"/>
+      <rdf:type rdf:resource="https://www.ica.org/standards/RiC/ontology#RecordSet"/>
+      <rico:hasRecordSetType rdf:resource="https://www.ica.org/standards/RiC/vocabularies/recordSetTypes#File"/>
+      <rico:title xml:lang="en">"Chapter 10: Land of the Rising Sun" - Byas, Hugh; Final Version and Proofreader's Corrections</rico:title>
+      <rdfs:label xml:lang="en">"Chapter 10: Land of the Rising Sun" - Byas, Hugh; Final Version and Proofreader's Corrections</rdfs:label>
+      <rico:date xml:lang="en">undated</rico:date>
+      <rico:hasInstantiation>
+         <rico:Instantiation rdf:about="instantiation/-C0007_c019-i1">
+            <rico:instantiates rdf:resource="recordResource/-C0007_c019"/>
+            <rico:title xml:lang="en">"Chapter 10: Land of the Rising Sun" - Byas, Hugh; Final Version and Proofreader's Corrections</rico:title>
+            <rdfs:label xml:lang="en">"Chapter 10: Land of the Rising Sun" - Byas, Hugh; Final Version and Proofreader's Corrections</rdfs:label>
+            <rico:date xml:lang="en">undated</rico:date>
+            <rico:instantiationExtent rdf:parseType="Literal">
+               <html:p xml:lang="en">1 folder</html:p>
+            </rico:instantiationExtent>
+            <rdfs:seeAlso rdf:resource="https://www.siv.archives-nationales.culture.gouv.fr/siv/UD/C0007/C0007_c019"/>
+         </rico:Instantiation>
+      </rico:hasInstantiation>
+   </rico:RecordResource>
+   <rico:RecordResource rdf:about="recordResource/-C0007_c020">
+      <rico:includedIn rdf:resource="recordResource/-top"/>
+      <rdf:type rdf:resource="https://www.ica.org/standards/RiC/ontology#RecordSet"/>
+      <rico:hasRecordSetType rdf:resource="https://www.ica.org/standards/RiC/vocabularies/recordSetTypes#File"/>
+      <rico:title xml:lang="en">"Chapter 11: Off Stage and On" - Atkinson, Brooks; Original Title: "Dramatic Buccaneering" and Corrections</rico:title>
+      <rdfs:label xml:lang="en">"Chapter 11: Off Stage and On" - Atkinson, Brooks; Original Title: "Dramatic Buccaneering" and Corrections</rdfs:label>
+      <rico:date xml:lang="en">undated</rico:date>
+      <rico:hasInstantiation>
+         <rico:Instantiation rdf:about="instantiation/-C0007_c020-i1">
+            <rico:instantiates rdf:resource="recordResource/-C0007_c020"/>
+            <rico:title xml:lang="en">"Chapter 11: Off Stage and On" - Atkinson, Brooks; Original Title: "Dramatic Buccaneering" and Corrections</rico:title>
+            <rdfs:label xml:lang="en">"Chapter 11: Off Stage and On" - Atkinson, Brooks; Original Title: "Dramatic Buccaneering" and Corrections</rdfs:label>
+            <rico:date xml:lang="en">undated</rico:date>
+            <rico:instantiationExtent rdf:parseType="Literal">
+               <html:p xml:lang="en">1 folder</html:p>
+            </rico:instantiationExtent>
+            <rdfs:seeAlso rdf:resource="https://www.siv.archives-nationales.culture.gouv.fr/siv/UD/C0007/C0007_c020"/>
+         </rico:Instantiation>
+      </rico:hasInstantiation>
+   </rico:RecordResource>
+   <rico:RecordResource rdf:about="recordResource/-C0007_c021">
+      <rico:includedIn rdf:resource="recordResource/-top"/>
+      <rdf:type rdf:resource="https://www.ica.org/standards/RiC/ontology#RecordSet"/>
+      <rico:hasRecordSetType rdf:resource="https://www.ica.org/standards/RiC/vocabularies/recordSetTypes#File"/>
+      <rico:title xml:lang="en">"Chapter 11: Off Stage and On" - Atkinson, Brooks; Final Version and Proofreader's Corrections</rico:title>
+      <rdfs:label xml:lang="en">"Chapter 11: Off Stage and On" - Atkinson, Brooks; Final Version and Proofreader's Corrections</rdfs:label>
+      <rico:date xml:lang="en">undated</rico:date>
+      <rico:hasInstantiation>
+         <rico:Instantiation rdf:about="instantiation/-C0007_c021-i1">
+            <rico:instantiates rdf:resource="recordResource/-C0007_c021"/>
+            <rico:title xml:lang="en">"Chapter 11: Off Stage and On" - Atkinson, Brooks; Final Version and Proofreader's Corrections</rico:title>
+            <rdfs:label xml:lang="en">"Chapter 11: Off Stage and On" - Atkinson, Brooks; Final Version and Proofreader's Corrections</rdfs:label>
+            <rico:date xml:lang="en">undated</rico:date>
+            <rico:instantiationExtent rdf:parseType="Literal">
+               <html:p xml:lang="en">1 folder</html:p>
+            </rico:instantiationExtent>
+            <rdfs:seeAlso rdf:resource="https://www.siv.archives-nationales.culture.gouv.fr/siv/UD/C0007/C0007_c021"/>
+         </rico:Instantiation>
+      </rico:hasInstantiation>
+   </rico:RecordResource>
+   <rico:RecordResource rdf:about="recordResource/-C0007_c022">
+      <rico:includedIn rdf:resource="recordResource/-top"/>
+      <rdf:type rdf:resource="https://www.ica.org/standards/RiC/ontology#RecordSet"/>
+      <rico:hasRecordSetType rdf:resource="https://www.ica.org/standards/RiC/vocabularies/recordSetTypes#File"/>
+      <rico:title xml:lang="en">"Chapter 12: A Case that Rocked the World" - Stark, Louis; with Corrections</rico:title>
+      <rdfs:label xml:lang="en">"Chapter 12: A Case that Rocked the World" - Stark, Louis; with Corrections</rdfs:label>
+      <rico:date xml:lang="en">undated</rico:date>
+      <rico:hasInstantiation>
+         <rico:Instantiation rdf:about="instantiation/-C0007_c022-i1">
+            <rico:instantiates rdf:resource="recordResource/-C0007_c022"/>
+            <rico:title xml:lang="en">"Chapter 12: A Case that Rocked the World" - Stark, Louis; with Corrections</rico:title>
+            <rdfs:label xml:lang="en">"Chapter 12: A Case that Rocked the World" - Stark, Louis; with Corrections</rdfs:label>
+            <rico:date xml:lang="en">undated</rico:date>
+            <rico:instantiationExtent rdf:parseType="Literal">
+               <html:p xml:lang="en">1 folder</html:p>
+            </rico:instantiationExtent>
+            <rdfs:seeAlso rdf:resource="https://www.siv.archives-nationales.culture.gouv.fr/siv/UD/C0007/C0007_c022"/>
+         </rico:Instantiation>
+      </rico:hasInstantiation>
+   </rico:RecordResource>
+   <rico:RecordResource rdf:about="recordResource/-C0007_c023">
+      <rico:includedIn rdf:resource="recordResource/-top"/>
+      <rdf:type rdf:resource="https://www.ica.org/standards/RiC/ontology#RecordSet"/>
+      <rico:hasRecordSetType rdf:resource="https://www.ica.org/standards/RiC/vocabularies/recordSetTypes#File"/>
+      <rico:title xml:lang="en">"Chapter 12: A Case that Rocked the World" - Stark, Louis; Final Version and Proofreader's Corrections</rico:title>
+      <rdfs:label xml:lang="en">"Chapter 12: A Case that Rocked the World" - Stark, Louis; Final Version and Proofreader's Corrections</rdfs:label>
+      <rico:date xml:lang="en">undated</rico:date>
+      <rico:hasInstantiation>
+         <rico:Instantiation rdf:about="instantiation/-C0007_c023-i1">
+            <rico:instantiates rdf:resource="recordResource/-C0007_c023"/>
+            <rico:title xml:lang="en">"Chapter 12: A Case that Rocked the World" - Stark, Louis; Final Version and Proofreader's Corrections</rico:title>
+            <rdfs:label xml:lang="en">"Chapter 12: A Case that Rocked the World" - Stark, Louis; Final Version and Proofreader's Corrections</rdfs:label>
+            <rico:date xml:lang="en">undated</rico:date>
+            <rico:instantiationExtent rdf:parseType="Literal">
+               <html:p xml:lang="en">1 folder</html:p>
+            </rico:instantiationExtent>
+            <rdfs:seeAlso rdf:resource="https://www.siv.archives-nationales.culture.gouv.fr/siv/UD/C0007/C0007_c023"/>
+         </rico:Instantiation>
+      </rico:hasInstantiation>
+   </rico:RecordResource>
+   <rico:RecordResource rdf:about="recordResource/-C0007_i1">
+      <rico:includedIn rdf:resource="recordResource/-top"/>
+      <rico:hasInstantiation>
+         <rico:Instantiation rdf:about="instantiation/-C0007_i1-i1">
+            <rico:instantiates rdf:resource="recordResource/-C0007_i1"/>
+            <rico:identifier>32101040679100</rico:identifier>
+            <rico:hasLocation rdf:resource=""/>
+            <rdfs:seeAlso rdf:resource="https://www.siv.archives-nationales.culture.gouv.fr/siv/UD/C0007/C0007_i1"/>
+         </rico:Instantiation>
+      </rico:hasInstantiation>
+   </rico:RecordResource>
+   <rico:RecordResource rdf:about="recordResource/-C0007_i2">
+      <rico:includedIn rdf:resource="recordResource/-top"/>
+      <rico:hasInstantiation>
+         <rico:Instantiation rdf:about="instantiation/-C0007_i2-i1">
+            <rico:instantiates rdf:resource="recordResource/-C0007_i2"/>
+            <rico:identifier>32101040679118</rico:identifier>
+            <rico:hasLocation rdf:resource=""/>
+            <rdfs:seeAlso rdf:resource="https://www.siv.archives-nationales.culture.gouv.fr/siv/UD/C0007/C0007_i2"/>
+         </rico:Instantiation>
+      </rico:hasInstantiation>
+   </rico:RecordResource>
+</rdf:RDF>

@@ -1,0 +1,351 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+         xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+         xmlns:rico="https://www.ica.org/standards/RiC/ontology#"
+         xmlns:dc="http://purl.org/dc/elements/1.1/"
+         xmlns:isni="http://isni.org/ontology#"
+         xmlns:owl="http://www.w3.org/2002/07/owl#"
+         xmlns:html="http://www.w3.org/1999/xhtml"
+         xml:base="http://data.archives-nationales.culture.gouv.fr/">
+   <rico:Record rdf:about="record/">
+      <rico:hasDocumentaryFormType rdf:resource="https://www.ica.org/standards/RiC/vocabularies/documentaryFormTypes#FindingAid"/>
+      <rico:regulatedBy rdf:resource="rule/rl005"/>
+      <rico:regulatedBy rdf:resource="rule/rl004"/>
+      <rico:regulatedBy rdf:resource="rule/rl006"/>
+      <rico:regulatedBy rdf:resource="rule/rl007"/>
+      <rico:regulatedBy rdf:resource="rule/rl008"/>
+      <rico:regulatedBy rdf:resource="rule/rl009"/>
+      <rico:title xml:lang="en">R. Ridgely Lytle World War I Collection, 1915-1916: Finding Aid</rico:title>
+      <rdfs:label xml:lang="en">R. Ridgely Lytle World War I Collection, 1915-1916: Finding Aid</rdfs:label>
+      <rico:publishedBy rdf:resource="agent/005061"/>
+      <rico:publicationDate rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">2008</rico:publicationDate>
+      <rico:hasLanguage rdf:resource="language/FRAN_RI_100-name6"/>
+      <rico:affectedBy>
+         <rico:Activity>
+            <rico:date rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2013-03-29</rico:date>
+            <rico:descriptiveNote xml:lang="en">Run through PULFA 2.0 normalization routines.</rico:descriptiveNote>
+         </rico:Activity>
+      </rico:affectedBy>
+      <rico:describes rdf:resource="recordResource/-top"/>
+      <rico:hasInstantiation>
+         <rico:Instantiation rdf:about="instantiation/-i1">
+            <rico:instantiates rdf:resource="record/"/>
+            <rico:title xml:lang="en">R. Ridgely Lytle World War I Collection, 1915-1916: Finding Aid</rico:title>
+            <rdfs:label xml:lang="en">R. Ridgely Lytle World War I Collection, 1915-1916: Finding Aid</rdfs:label>
+            <rico:history xml:lang="en">This finding aid was produced using the Archivists' Toolkit 2013-03-29T09:47-0400</rico:history>
+            <rico:regulatedBy rdf:resource="rule/rl010"/>
+            <dc:format xml:lang="en">text/xml</dc:format>
+            <rico:identifier>C0008</rico:identifier>
+            <rico:heldBy rdf:resource="agent/005061"/>
+            <rdfs:seeAlso rdf:resource="https://www.siv.archives-nationales.culture.gouv.fr/siv/IR/C0008"/>
+         </rico:Instantiation>
+      </rico:hasInstantiation>
+   </rico:Record>
+   <rico:RecordResource rdf:about="recordResource/-top">
+      <rico:describedBy rdf:resource="record/"/>
+      <rdf:type rdf:resource="https://www.ica.org/standards/RiC/ontology#RecordSet"/>
+      <rico:hasRecordSetType rdf:resource="https://www.ica.org/standards/RiC/vocabularies/recordSetTypes#Collection"/>
+      <rico:heldBy>
+         <rico:Agent>
+            <rdfs:label xml:lang="en">Princeton University Library. Special Collections. Manuscripts Division One Washington Road Princeton, New Jersey 08544 USA</rdfs:label>
+            <rico:hasAgentName>
+               <rico:AgentName>
+                  <rdfs:label xml:lang="en">Princeton University Library. Special Collections. Manuscripts Division One Washington Road Princeton, New Jersey 08544 USA</rdfs:label>
+                  <rico:textualValue xml:lang="en">Princeton University Library. Special Collections. Manuscripts Division One Washington Road Princeton, New Jersey 08544 USA</rico:textualValue>
+               </rico:AgentName>
+            </rico:hasAgentName>
+         </rico:Agent>
+      </rico:heldBy>
+      <rico:title xml:lang="en">R. Ridgely Lytle World War I Collection</rico:title>
+      <rdfs:label xml:lang="en">R. Ridgely Lytle World War I Collection</rdfs:label>
+      <rico:beginningDate rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1915</rico:beginningDate>
+      <rico:endDate rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1916</rico:endDate>
+      <rico:date xml:lang="en">1915-1916</rico:date>
+      <rico:hasLanguage rdf:resource="language/FRAN_RI_100-name6"/>
+      <rico:hasProvenance>
+         <rico:Agent>
+            <rdf:type rdf:resource="https://www.ica.org/standards/RiC/ontology#Person"/>
+            <rdfs:label xml:lang="en">Lytle, R. Ridgely, 1891-1980.</rdfs:label>
+            <rico:hasAgentName>
+               <rico:AgentName>
+                  <rdfs:label xml:lang="en">Lytle, R. Ridgely, 1891-1980.</rdfs:label>
+                  <rico:textualValue xml:lang="en">Lytle, R. Ridgely, 1891-1980.</rico:textualValue>
+               </rico:AgentName>
+            </rico:hasAgentName>
+         </rico:Agent>
+      </rico:hasProvenance>
+      <rico:hasSubject rdf:resource="agent/lcnaf-viaf.org/viaf/142006951"/>
+      <rico:hasSubject>
+         <rico:Agent>
+            <rdf:type rdf:resource="https://www.ica.org/standards/RiC/ontology#CorporateBody"/>
+            <rdfs:label xml:lang="en">Princeton University. Library -- Exhibitions.</rdfs:label>
+            <rico:hasAgentName>
+               <rico:AgentName>
+                  <rdfs:label xml:lang="en">Princeton University. Library -- Exhibitions.</rdfs:label>
+                  <rico:textualValue xml:lang="en">Princeton University. Library -- Exhibitions.</rico:textualValue>
+               </rico:AgentName>
+            </rico:hasAgentName>
+         </rico:Agent>
+      </rico:hasSubject>
+      <rico:hasSubject rdf:resource="thing/lcsh-http://id.loc.gov/authorities/subjects/sh2010119464"/>
+      <rico:hasSubject rdf:resource="thing/local-t57"/>
+      <rico:hasSubject rdf:resource="thing/local-t57"/>
+      <rico:hasInstantiation>
+         <rico:Instantiation rdf:about="instantiation/-top-i1">
+            <rico:instantiates rdf:resource="recordResource/-top"/>
+            <rico:identifier>C0008</rico:identifier>
+            <rico:heldBy>
+               <rico:Agent>
+                  <rdfs:label xml:lang="en">Princeton University Library. Special Collections. Manuscripts Division One Washington Road Princeton, New Jersey 08544 USA</rdfs:label>
+                  <rico:hasAgentName>
+                     <rico:AgentName>
+                        <rdfs:label xml:lang="en">Princeton University Library. Special Collections. Manuscripts Division One Washington Road Princeton, New Jersey 08544 USA</rdfs:label>
+                        <rico:textualValue xml:lang="en">Princeton University Library. Special Collections. Manuscripts Division One Washington Road Princeton, New Jersey 08544 USA</rico:textualValue>
+                     </rico:AgentName>
+                  </rico:hasAgentName>
+               </rico:Agent>
+            </rico:heldBy>
+            <rico:title xml:lang="en">R. Ridgely Lytle World War I Collection</rico:title>
+            <rdfs:label xml:lang="en">R. Ridgely Lytle World War I Collection</rdfs:label>
+            <rico:beginningDate rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1915</rico:beginningDate>
+            <rico:endDate rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1916</rico:endDate>
+            <rico:date xml:lang="en">1915-1916</rico:date>
+            <rico:instantiationExtent rdf:parseType="Literal">
+               <html:p xml:lang="en">1.0 linear feet</html:p>
+            </rico:instantiationExtent>
+            <rico:instantiationExtent rdf:parseType="Literal">
+               <html:p xml:lang="en">1 flat box</html:p>
+            </rico:instantiationExtent>
+            <rico:hasLocation rdf:resource=""/>
+            <rico:hasProvenance>
+               <rico:Agent>
+                  <rdf:type rdf:resource="https://www.ica.org/standards/RiC/ontology#Person"/>
+                  <rdfs:label xml:lang="en">Lytle, R. Ridgely, 1891-1980.</rdfs:label>
+                  <rico:hasAgentName>
+                     <rico:AgentName>
+                        <rdfs:label xml:lang="en">Lytle, R. Ridgely, 1891-1980.</rdfs:label>
+                        <rico:textualValue xml:lang="en">Lytle, R. Ridgely, 1891-1980.</rico:textualValue>
+                     </rico:AgentName>
+                  </rico:hasAgentName>
+               </rico:Agent>
+            </rico:hasProvenance>
+            <rdfs:seeAlso rdf:resource="https://www.siv.archives-nationales.culture.gouv.fr/siv/UD/C0008/top"/>
+         </rico:Instantiation>
+      </rico:hasInstantiation>
+      <rico:includes rdf:resource="recordResource/-C0008_c000001"/>
+      <rico:includes rdf:resource="recordResource/-C0008_c000002"/>
+      <rico:includes rdf:resource="recordResource/-C0008_c000003"/>
+      <rico:includes rdf:resource="recordResource/-C0008_c000004"/>
+      <rico:includes rdf:resource="recordResource/-C0008_c000005"/>
+      <rico:includes rdf:resource="recordResource/-C0008_c000006"/>
+      <rico:includes rdf:resource="recordResource/-C0008_c000007"/>
+      <rico:includes rdf:resource="recordResource/-C0008_c000008"/>
+      <rico:includes rdf:resource="recordResource/-C0008_i1"/>
+   </rico:RecordResource>
+   <rico:RecordResource rdf:about="recordResource/-C0008_c000001">
+      <rico:includedIn rdf:resource="recordResource/-top"/>
+      <rdf:type rdf:resource="https://www.ica.org/standards/RiC/ontology#RecordSet"/>
+      <rico:hasRecordSetType rdf:resource="https://www.ica.org/standards/RiC/vocabularies/recordSetTypes#File"/>
+      <rico:title xml:lang="en">Catalogue of Exhibit</rico:title>
+      <rdfs:label xml:lang="en">Catalogue of Exhibit</rdfs:label>
+      <rico:beginningDate rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1916</rico:beginningDate>
+      <rico:endDate rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1916</rico:endDate>
+      <rico:date xml:lang="en">1916</rico:date>
+      <rico:hasInstantiation>
+         <rico:Instantiation rdf:about="instantiation/-C0008_c000001-i1">
+            <rico:instantiates rdf:resource="recordResource/-C0008_c000001"/>
+            <rico:title xml:lang="en">Catalogue of Exhibit</rico:title>
+            <rdfs:label xml:lang="en">Catalogue of Exhibit</rdfs:label>
+            <rico:beginningDate rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1916</rico:beginningDate>
+            <rico:endDate rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1916</rico:endDate>
+            <rico:date xml:lang="en">1916</rico:date>
+            <rico:instantiationExtent rdf:parseType="Literal">
+               <html:p xml:lang="en">1 folder</html:p>
+            </rico:instantiationExtent>
+            <rdfs:seeAlso rdf:resource="https://www.siv.archives-nationales.culture.gouv.fr/siv/UD/C0008/C0008_c000001"/>
+         </rico:Instantiation>
+      </rico:hasInstantiation>
+   </rico:RecordResource>
+   <rico:RecordResource rdf:about="recordResource/-C0008_c000002">
+      <rico:includedIn rdf:resource="recordResource/-top"/>
+      <rdf:type rdf:resource="https://www.ica.org/standards/RiC/ontology#RecordSet"/>
+      <rico:hasRecordSetType rdf:resource="https://www.ica.org/standards/RiC/vocabularies/recordSetTypes#File"/>
+      <rico:title xml:lang="en">Official Documents</rico:title>
+      <rdfs:label xml:lang="en">Official Documents</rdfs:label>
+      <rico:beginningDate rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1915</rico:beginningDate>
+      <rico:endDate rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1916</rico:endDate>
+      <rico:date xml:lang="en">1915-1916</rico:date>
+      <rico:hasInstantiation>
+         <rico:Instantiation rdf:about="instantiation/-C0008_c000002-i1">
+            <rico:instantiates rdf:resource="recordResource/-C0008_c000002"/>
+            <rico:title xml:lang="en">Official Documents</rico:title>
+            <rdfs:label xml:lang="en">Official Documents</rdfs:label>
+            <rico:beginningDate rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1915</rico:beginningDate>
+            <rico:endDate rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1916</rico:endDate>
+            <rico:date xml:lang="en">1915-1916</rico:date>
+            <rico:instantiationExtent rdf:parseType="Literal">
+               <html:p xml:lang="en">1 folder</html:p>
+            </rico:instantiationExtent>
+            <rdfs:seeAlso rdf:resource="https://www.siv.archives-nationales.culture.gouv.fr/siv/UD/C0008/C0008_c000002"/>
+         </rico:Instantiation>
+      </rico:hasInstantiation>
+   </rico:RecordResource>
+   <rico:RecordResource rdf:about="recordResource/-C0008_c000003">
+      <rico:includedIn rdf:resource="recordResource/-top"/>
+      <rdf:type rdf:resource="https://www.ica.org/standards/RiC/ontology#RecordSet"/>
+      <rico:hasRecordSetType rdf:resource="https://www.ica.org/standards/RiC/vocabularies/recordSetTypes#File"/>
+      <rico:title xml:lang="en">Post Cards</rico:title>
+      <rdfs:label xml:lang="en">Post Cards</rdfs:label>
+      <rico:beginningDate rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1916</rico:beginningDate>
+      <rico:endDate rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1916</rico:endDate>
+      <rico:date xml:lang="en">1916</rico:date>
+      <rico:hasInstantiation>
+         <rico:Instantiation rdf:about="instantiation/-C0008_c000003-i1">
+            <rico:instantiates rdf:resource="recordResource/-C0008_c000003"/>
+            <rico:title xml:lang="en">Post Cards</rico:title>
+            <rdfs:label xml:lang="en">Post Cards</rdfs:label>
+            <rico:beginningDate rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1916</rico:beginningDate>
+            <rico:endDate rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1916</rico:endDate>
+            <rico:date xml:lang="en">1916</rico:date>
+            <rico:instantiationExtent rdf:parseType="Literal">
+               <html:p xml:lang="en">1 folder</html:p>
+            </rico:instantiationExtent>
+            <rdfs:seeAlso rdf:resource="https://www.siv.archives-nationales.culture.gouv.fr/siv/UD/C0008/C0008_c000003"/>
+         </rico:Instantiation>
+      </rico:hasInstantiation>
+   </rico:RecordResource>
+   <rico:RecordResource rdf:about="recordResource/-C0008_c000004">
+      <rico:includedIn rdf:resource="recordResource/-top"/>
+      <rdf:type rdf:resource="https://www.ica.org/standards/RiC/ontology#RecordSet"/>
+      <rico:hasRecordSetType rdf:resource="https://www.ica.org/standards/RiC/vocabularies/recordSetTypes#File"/>
+      <rico:title xml:lang="en">Blueprint Map of Belgium</rico:title>
+      <rdfs:label xml:lang="en">Blueprint Map of Belgium</rdfs:label>
+      <rico:beginningDate rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1915</rico:beginningDate>
+      <rico:endDate rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1915</rico:endDate>
+      <rico:date xml:lang="en">circa 1915</rico:date>
+      <rico:hasInstantiation>
+         <rico:Instantiation rdf:about="instantiation/-C0008_c000004-i1">
+            <rico:instantiates rdf:resource="recordResource/-C0008_c000004"/>
+            <rico:title xml:lang="en">Blueprint Map of Belgium</rico:title>
+            <rdfs:label xml:lang="en">Blueprint Map of Belgium</rdfs:label>
+            <rico:beginningDate rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1915</rico:beginningDate>
+            <rico:endDate rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1915</rico:endDate>
+            <rico:date xml:lang="en">circa 1915</rico:date>
+            <rico:instantiationExtent rdf:parseType="Literal">
+               <html:p xml:lang="en">1 folder</html:p>
+            </rico:instantiationExtent>
+            <rdfs:seeAlso rdf:resource="https://www.siv.archives-nationales.culture.gouv.fr/siv/UD/C0008/C0008_c000004"/>
+         </rico:Instantiation>
+      </rico:hasInstantiation>
+   </rico:RecordResource>
+   <rico:RecordResource rdf:about="recordResource/-C0008_c000005">
+      <rico:includedIn rdf:resource="recordResource/-top"/>
+      <rdf:type rdf:resource="https://www.ica.org/standards/RiC/ontology#RecordSet"/>
+      <rico:hasRecordSetType rdf:resource="https://www.ica.org/standards/RiC/vocabularies/recordSetTypes#File"/>
+      <rico:title xml:lang="en">Photographs</rico:title>
+      <rdfs:label xml:lang="en">Photographs</rdfs:label>
+      <rico:beginningDate rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1915</rico:beginningDate>
+      <rico:endDate rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1915</rico:endDate>
+      <rico:date xml:lang="en">circa 1915</rico:date>
+      <rico:scopeAndContent rdf:parseType="Literal">
+         <html:p xml:lang="en">Primarily of soldiers in a hospital.</html:p>
+      </rico:scopeAndContent>
+      <rico:hasInstantiation>
+         <rico:Instantiation rdf:about="instantiation/-C0008_c000005-i1">
+            <rico:instantiates rdf:resource="recordResource/-C0008_c000005"/>
+            <rico:title xml:lang="en">Photographs</rico:title>
+            <rdfs:label xml:lang="en">Photographs</rdfs:label>
+            <rico:beginningDate rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1915</rico:beginningDate>
+            <rico:endDate rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1915</rico:endDate>
+            <rico:date xml:lang="en">circa 1915</rico:date>
+            <rico:instantiationExtent rdf:parseType="Literal">
+               <html:p xml:lang="en">1 folder</html:p>
+            </rico:instantiationExtent>
+            <rdfs:seeAlso rdf:resource="https://www.siv.archives-nationales.culture.gouv.fr/siv/UD/C0008/C0008_c000005"/>
+         </rico:Instantiation>
+      </rico:hasInstantiation>
+   </rico:RecordResource>
+   <rico:RecordResource rdf:about="recordResource/-C0008_c000006">
+      <rico:includedIn rdf:resource="recordResource/-top"/>
+      <rdf:type rdf:resource="https://www.ica.org/standards/RiC/ontology#RecordSet"/>
+      <rico:hasRecordSetType rdf:resource="https://www.ica.org/standards/RiC/vocabularies/recordSetTypes#File"/>
+      <rico:title xml:lang="en">Pamphlets of "Comité de Secours et d'Alimentation du Luxembourg"</rico:title>
+      <rdfs:label xml:lang="en">Pamphlets of "Comité de Secours et d'Alimentation du Luxembourg"</rdfs:label>
+      <rico:beginningDate rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1915</rico:beginningDate>
+      <rico:endDate rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1915</rico:endDate>
+      <rico:date xml:lang="en">1915</rico:date>
+      <rico:hasInstantiation>
+         <rico:Instantiation rdf:about="instantiation/-C0008_c000006-i1">
+            <rico:instantiates rdf:resource="recordResource/-C0008_c000006"/>
+            <rico:title xml:lang="en">Pamphlets of "Comité de Secours et d'Alimentation du Luxembourg"</rico:title>
+            <rdfs:label xml:lang="en">Pamphlets of "Comité de Secours et d'Alimentation du Luxembourg"</rdfs:label>
+            <rico:beginningDate rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1915</rico:beginningDate>
+            <rico:endDate rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1915</rico:endDate>
+            <rico:date xml:lang="en">1915</rico:date>
+            <rico:instantiationExtent rdf:parseType="Literal">
+               <html:p xml:lang="en">1 folder</html:p>
+            </rico:instantiationExtent>
+            <rdfs:seeAlso rdf:resource="https://www.siv.archives-nationales.culture.gouv.fr/siv/UD/C0008/C0008_c000006"/>
+         </rico:Instantiation>
+      </rico:hasInstantiation>
+   </rico:RecordResource>
+   <rico:RecordResource rdf:about="recordResource/-C0008_c000007">
+      <rico:includedIn rdf:resource="recordResource/-top"/>
+      <rdf:type rdf:resource="https://www.ica.org/standards/RiC/ontology#RecordSet"/>
+      <rico:hasRecordSetType rdf:resource="https://www.ica.org/standards/RiC/vocabularies/recordSetTypes#File"/>
+      <rico:title xml:lang="en">Correspondence</rico:title>
+      <rdfs:label xml:lang="en">Correspondence</rdfs:label>
+      <rico:beginningDate rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1915</rico:beginningDate>
+      <rico:endDate rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1915</rico:endDate>
+      <rico:date xml:lang="en">1915</rico:date>
+      <rico:hasInstantiation>
+         <rico:Instantiation rdf:about="instantiation/-C0008_c000007-i1">
+            <rico:instantiates rdf:resource="recordResource/-C0008_c000007"/>
+            <rico:title xml:lang="en">Correspondence</rico:title>
+            <rdfs:label xml:lang="en">Correspondence</rdfs:label>
+            <rico:beginningDate rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1915</rico:beginningDate>
+            <rico:endDate rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1915</rico:endDate>
+            <rico:date xml:lang="en">1915</rico:date>
+            <rico:instantiationExtent rdf:parseType="Literal">
+               <html:p xml:lang="en">1 folder</html:p>
+            </rico:instantiationExtent>
+            <rdfs:seeAlso rdf:resource="https://www.siv.archives-nationales.culture.gouv.fr/siv/UD/C0008/C0008_c000007"/>
+         </rico:Instantiation>
+      </rico:hasInstantiation>
+   </rico:RecordResource>
+   <rico:RecordResource rdf:about="recordResource/-C0008_c000008">
+      <rico:includedIn rdf:resource="recordResource/-top"/>
+      <rdf:type rdf:resource="https://www.ica.org/standards/RiC/ontology#RecordSet"/>
+      <rico:hasRecordSetType rdf:resource="https://www.ica.org/standards/RiC/vocabularies/recordSetTypes#File"/>
+      <rico:title xml:lang="en">Miscellaneous</rico:title>
+      <rdfs:label xml:lang="en">Miscellaneous</rdfs:label>
+      <rico:beginningDate rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1915</rico:beginningDate>
+      <rico:endDate rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1915</rico:endDate>
+      <rico:date xml:lang="en">1915</rico:date>
+      <rico:hasInstantiation>
+         <rico:Instantiation rdf:about="instantiation/-C0008_c000008-i1">
+            <rico:instantiates rdf:resource="recordResource/-C0008_c000008"/>
+            <rico:title xml:lang="en">Miscellaneous</rico:title>
+            <rdfs:label xml:lang="en">Miscellaneous</rdfs:label>
+            <rico:beginningDate rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1915</rico:beginningDate>
+            <rico:endDate rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1915</rico:endDate>
+            <rico:date xml:lang="en">1915</rico:date>
+            <rico:instantiationExtent rdf:parseType="Literal">
+               <html:p xml:lang="en">2 folders</html:p>
+            </rico:instantiationExtent>
+            <rdfs:seeAlso rdf:resource="https://www.siv.archives-nationales.culture.gouv.fr/siv/UD/C0008/C0008_c000008"/>
+         </rico:Instantiation>
+      </rico:hasInstantiation>
+   </rico:RecordResource>
+   <rico:RecordResource rdf:about="recordResource/-C0008_i1">
+      <rico:includedIn rdf:resource="recordResource/-top"/>
+      <rico:hasInstantiation>
+         <rico:Instantiation rdf:about="instantiation/-C0008_i1-i1">
+            <rico:instantiates rdf:resource="recordResource/-C0008_i1"/>
+            <rico:identifier>32101044699864</rico:identifier>
+            <rico:hasLocation rdf:resource=""/>
+            <rdfs:seeAlso rdf:resource="https://www.siv.archives-nationales.culture.gouv.fr/siv/UD/C0008/C0008_i1"/>
+         </rico:Instantiation>
+      </rico:hasInstantiation>
+   </rico:RecordResource>
+</rdf:RDF>
