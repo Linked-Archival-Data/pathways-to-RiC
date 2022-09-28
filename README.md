@@ -7,4 +7,3 @@
  
  (Make sure to change https://github.com/Linked-Archival-Data/pathways-to-RiC/blob/main/preprocessing_tools/preprocess.xquery#L13 to your input path.)
  
- ## Using the Converter
