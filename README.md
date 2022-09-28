@@ -1,6 +1,9 @@
 # pathways-to-RiC
 
- Getting Started With Converting EAD Files Using the RICOCONVERTER 
+This repository contains files and research documents related to our exploration of what a potential transition to Records in Context might look like, using sample Encoded Archival Description data exported from our respective institutional archival description systems (ArchivesSpace, AtoM, homegrown). 
+
+Sample files were processed with https://github.com/ArchivesNationalesFR/rico-converter.
+ 
  
  ## Preprocessing Files
  The converter can hiccup on namespaces and missing doctype/dtd declarations. To avoid this, run preprocess.xquery over your EAD directory. 
