@@ -1,6 +1,6 @@
 # pathways-to-RiC
 
-This repository contains files and research documents related to our exploration of what a potential transition to Records in Context might look like, using sample Encoded Archival Description data exported from our respective institutional archival description systems (ArchivesSpace, AtoM, homegrown). 
+This repository contains files and research documents related to our exploration of what a potential transition to [Records in Context](https://www.ica.org/en/records-in-contexts-conceptual-model) might look like, using sample Encoded Archival Description xml data exported from our respective institutional archival description systems (ArchivesSpace, AtoM, homegrown). 
 
 Sample files were processed with https://github.com/ArchivesNationalesFR/rico-converter.
  
